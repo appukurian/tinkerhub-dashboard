@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>TinkerHub Discord Thread Dashboard</title>
+<style>
+  :root{
+    --bg:#f6f7fb; --card:#ffffff; --ink:#1c1f2a; --muted:#6b7280;
+    --border:#e5e7eb; --accent:#5865F2;
+    --red:#dc2626; --red-bg:#fee2e2;
+    --amber:#d97706; --amber-bg:#fef3c7;
+    --blue:#2563eb; --blue-bg:#dbeafe;
+    --green:#16a34a; --green-bg:#dcfce7;
+    --gray:#6b7280; --gray-bg:#f1f5f9;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; padding:24px; background:var(--bg); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  .nav{font-size:13px; margin-bottom:10px;}
+  .nav a{color:var(--accent); text-decoration:none; font-weight:600;}
+  .nav a:hover{text-decoration:underline;}
+  .nav span{color:var(--muted); margin:0 6px;}
+  h1{font-size:22px; margin:0 0 4px;}
+  .sub{color:var(--muted); font-size:13px; margin-bottom:24px;}
+  .cards{display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:12px; margin-bottom:28px;}
+  .card{background:var(--card); border:1px solid var(--border); border-radius:12px; padding:16px 18px;}
+  .card .n{font-size:28px; font-weight:700; line-height:1.1;}
+  .card .l{font-size:12.5px; color:var(--muted); margin-top:4px;}
+  .card.no-response .n{color:var(--red);}
+  .card.awaiting-us .n{color:var(--amber);}
+  .card.awaiting-them .n{color:var(--blue);}
+  .card.resolved .n{color:var(--green);}
+
+  section{background:var(--card); border:1px solid var(--border); border-radius:12px; padding:20px; margin-bottom:24px;}
+  section h2{font-size:15px; margin:0 0 14px;}
+
+  table{width:100%; border-collapse:collapse; font-size:13.5px;}
+  th,td{text-align:left; padding:8px 10px; border-bottom:1px solid var(--border); vertical-align:top;}
+  th{color:var(--muted); font-weight:600; font-size:12px; text-transform:uppercase; letter-spacing:.02em;}
+  tr:last-child td{border-bottom:none;}
+  td.num{text-align:right; font-variant-numeric:tabular-nums;}
+  th.num{text-align:right;}
+
+  .badge{display:inline-block; padding:2px 9px; border-radius:99px; font-size:12px; font-weight:600; white-space:nowrap;}
+  .badge.no-response{color:var(--red); background:var(--red-bg);}
+  .badge.awaiting-us{color:var(--amber); background:var(--amber-bg);}
+  .badge.awaiting-them{color:var(--blue); background:var(--blue-bg);}
+  .badge.resolved{color:var(--green); background:var(--green-bg);}
+
+  .filters{display:flex; gap:10px; flex-wrap:wrap; align-items:center;}
+  .filters select, .filters input{
+    padding:7px 10px; border-radius:8px; border:1px solid var(--border);
+    font-size:13px; background:#fff; color:var(--ink);
+  }
+  .filters input{flex:1; min-width:200px;}
+  .count-note{font-size:12.5px; color:var(--muted); margin-left:auto;}
+
+  .days-open{font-weight:600;}
+  .days-warn{color:var(--red);}
+  .btn{
+    border:1px solid var(--border); background:#fff; color:var(--accent);
+    padding:5px 10px; border-radius:7px; font-size:12px; cursor:pointer; text-decoration:none;
+    display:inline-block; line-height:1.2;
+  }
+  .btn:hover{background:var(--gray-bg);}
+  footer{color:var(--muted); font-size:12px; text-align:center; margin-top:8px;}
+  .empty-state{color:var(--muted); font-size:13px; padding:20px 0; text-align:center;}
+</style>
+</head>
+<body>
+
+<div class="nav"><a href="mailbox-dashboard.html">← Mailbox dashboard</a><span>|</span><strong>Discord threads</strong></div>
+
+<h1>TinkerHub Discord Thread Dashboard</h1>
+<div class="sub" id="header-sub">Tech-issue threads in the tracked channel</div>
+
+<div class="cards">
+  <div class="card no-response"><div class="n" id="c-no-response">0</div><div class="l">No response at all</div></div>
+  <div class="card awaiting-us"><div class="n" id="c-awaiting-us">0</div><div class="l">Awaiting reply — from us</div></div>
+  <div class="card awaiting-them"><div class="n" id="c-awaiting-them">0</div><div class="l">Awaiting reply — from them</div></div>
+  <div class="card resolved"><div class="n" id="c-resolved">0</div><div class="l">Resolved (archived/locked)</div></div>
+</div>
+
+<section id="empty-state-section" style="display:none;">
+  <div class="empty-state">
+    No data yet — <code>discord-data.js</code> hasn't been generated. Once the Discord bot token and channel/guild IDs
+    are set up as repo secrets/variables and the <code>discord-update.yml</code> workflow has run once
+    (manually via "Run workflow" or on its daily schedule), this page will populate automatically.
+  </div>
+</section>
+
+<section id="main-section" style="display:none;">
+  <h2>Threads</h2>
+  <div class="filters" style="margin-bottom:14px;">
+    <select id="f-status">
+      <option value="">All statuses</option>
+      <option value="No response">No response</option>
+      <option value="Awaiting reply (from us)">Awaiting reply (from us)</option>
+      <option value="Awaiting reply (from them)">Awaiting reply (from them)</option>
+      <option value="Resolved">Resolved</option>
+    </select>
+    <input id="f-search" type="text" placeholder="Search thread name…">
+    <span class="count-note" id="f-count"></span>
+  </div>
+  <table id="threads-table">
+    <thead>
+      <tr>
+        <th>Thread</th><th>Received</th><th>Last activity</th><th>Status</th>
+        <th class="num">Days</th><th class="num">Messages</th><th>Open</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</section>
+
+<footer id="footer-note">"Days" = days since the last message in the thread. Data refreshes daily via a GitHub Actions workflow, independent of any chat session.</footer>
+
+<script src="discord-data.js"></script>
+<script>
+const DATA = window.DISCORD_DATA;
+
+const statusClass = {
+  "No response":"no-response",
+  "Awaiting reply (from us)":"awaiting-us",
+  "Awaiting reply (from them)":"awaiting-them",
+  "Resolved":"resolved"
+};
+
+function escapeHtml(s){
+  return String(s||"").replace(/[&<>"']/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+}
+
+function renderSummary(summary){
+  document.getElementById("c-no-response").textContent = summary["No response"]||0;
+  document.getElementById("c-awaiting-us").textContent = summary["Awaiting reply (from us)"]||0;
+  document.getElementById("c-awaiting-them").textContent = summary["Awaiting reply (from them)"]||0;
+  document.getElementById("c-resolved").textContent = summary["Resolved"]||0;
+}
+
+function renderThreads(){
+  const s = document.getElementById("f-status").value;
+  const q = document.getElementById("f-search").value.trim().toLowerCase();
+
+  const rows = DATA.threads.filter(t=>{
+    if(s && t.status!==s) return false;
+    if(q && !t.name.toLowerCase().includes(q)) return false;
+    return true;
+  }).sort((a,b)=> new Date(b.last) - new Date(a.last));
+
+  const tbody = document.querySelector("#threads-table tbody");
+  tbody.innerHTML = "";
+  rows.forEach(t=>{
+    const cls = statusClass[t.status] || "no-response";
+    const warn = (t.status!=="Resolved" && t.daysOpen>=7) ? "days-warn" : "";
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td><a href="${t.url}" target="_blank" rel="noopener">${escapeHtml(t.name)}</a></td>
+      <td>${t.received||""}</td>
+      <td>${t.last||""}</td>
+      <td><span class="badge ${cls}">${t.status}</span></td>
+      <td class="num days-open ${warn}">${t.daysOpen}</td>
+      <td class="num">${t.messageCount||0}</td>
+      <td><a class="btn" href="${t.url}" target="_blank" rel="noopener">Open in Discord</a></td>
+    `;
+    tbody.appendChild(tr);
+  });
+  document.getElementById("f-count").textContent = rows.length + " of " + DATA.threads.length + " threads";
+}
+
+document.getElementById("f-status").addEventListener("change", renderThreads);
+document.getElementById("f-search").addEventListener("input", renderThreads);
+
+if(!DATA || !DATA.threads){
+  document.getElementById("empty-state-section").style.display = "block";
+} else {
+  document.getElementById("main-section").style.display = "block";
+  document.getElementById("header-sub").textContent =
+    "Tech-issue threads in the tracked channel · data as of " + (DATA.generatedAt || "unknown date");
+  renderSummary(DATA.summary || {});
+  renderThreads();
+}
+</script>
+</body>
+</html>
