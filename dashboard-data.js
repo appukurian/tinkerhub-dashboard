@@ -15,7 +15,10 @@ window.DASHBOARD_DATA = {
       "status": "No response",
       "note": "Cold outreach pitch from Waycode founder",
       "daysOpen": 0,
-      "daysSinceReceived": 0
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-f736a4517e",
@@ -29,7 +32,10 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "Calendar invite",
       "daysOpen": 1,
-      "daysSinceReceived": 1
+      "daysSinceReceived": 1,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-62bc27a283",
@@ -43,7 +49,10 @@ window.DASHBOARD_DATA = {
       "status": "No response",
       "note": "Awaiting our slot decision",
       "daysOpen": 1,
-      "daysSinceReceived": 1
+      "daysSinceReceived": 1,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-c4ded824f1",
@@ -57,7 +66,10 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "Outbound thank-you note",
       "daysOpen": 2,
-      "daysSinceReceived": 2
+      "daysSinceReceived": 2,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-c2d4a8a14a",
@@ -71,7 +83,10 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "Confirmed attendance Aug 5",
       "daysOpen": 2,
-      "daysSinceReceived": 2
+      "daysSinceReceived": 2,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-fad7c25d96",
@@ -85,7 +100,10 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "Registration completed for Aug 13 visit",
       "daysOpen": 1,
-      "daysSinceReceived": 2
+      "daysSinceReceived": 2,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-b413e50ab7",
@@ -99,7 +117,11 @@ window.DASHBOARD_DATA = {
       "status": "Awaiting reply (from us)",
       "note": "We owe them a confirmed visit date",
       "daysOpen": 2,
-      "daysSinceReceived": 3
+      "daysSinceReceived": 3,
+      "cc": [
+        "campus@tinkerhub.org",
+        "femina@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-180b71ff21",
@@ -113,7 +135,10 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "",
       "daysOpen": 3,
-      "daysSinceReceived": 3
+      "daysSinceReceived": 3,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-acc3ff68af",
@@ -127,7 +152,10 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "",
       "daysOpen": 3,
-      "daysSinceReceived": 3
+      "daysSinceReceived": 3,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-b562ec9adb",
@@ -141,7 +169,10 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "",
       "daysOpen": 3,
-      "daysSinceReceived": 3
+      "daysSinceReceived": 3,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-28730e984b",
@@ -155,7 +186,12 @@ window.DASHBOARD_DATA = {
       "status": "Awaiting reply (from them)",
       "note": "Femina proposed a meeting time, no confirmation yet",
       "daysOpen": 3,
-      "daysSinceReceived": 4
+      "daysSinceReceived": 4,
+      "cc": [
+        "campus@tinkerhub.org",
+        "arundhathi@tinkerhub.org",
+        "mehar@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-df33971778",
@@ -169,7 +205,10 @@ window.DASHBOARD_DATA = {
       "status": "Awaiting reply (from them)",
       "note": "We asked for more event details",
       "daysOpen": 4,
-      "daysSinceReceived": 6
+      "daysSinceReceived": 6,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-180706a1f8",
@@ -183,7 +222,10 @@ window.DASHBOARD_DATA = {
       "status": "No response",
       "note": "",
       "daysOpen": 6,
-      "daysSinceReceived": 6
+      "daysSinceReceived": 6,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-96cf189a13",
@@ -197,7 +239,10 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "",
       "daysOpen": 10,
-      "daysSinceReceived": 10
+      "daysSinceReceived": 10,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-22e63d934b",
@@ -211,7 +256,10 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "",
       "daysOpen": 10,
-      "daysSinceReceived": 10
+      "daysSinceReceived": 10,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-cc3c2d5a81",
@@ -225,7 +273,10 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "",
       "daysOpen": 12,
-      "daysSinceReceived": 12
+      "daysSinceReceived": 12,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-b0cf04ea25",
@@ -239,7 +290,10 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "",
       "daysOpen": 12,
-      "daysSinceReceived": 12
+      "daysSinceReceived": 12,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-ce0b466747",
@@ -253,7 +307,10 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "",
       "daysOpen": 12,
-      "daysSinceReceived": 12
+      "daysSinceReceived": 12,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-108548cbcb",
@@ -267,7 +324,10 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "",
       "daysOpen": 12,
-      "daysSinceReceived": 12
+      "daysSinceReceived": 12,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-006b16c0b5",
@@ -281,7 +341,10 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "",
       "daysOpen": 12,
-      "daysSinceReceived": 12
+      "daysSinceReceived": 12,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-ab709a3547",
@@ -295,7 +358,10 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "",
       "daysOpen": 12,
-      "daysSinceReceived": 12
+      "daysSinceReceived": 12,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-a98b696501",
@@ -309,7 +375,10 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "",
       "daysOpen": 12,
-      "daysSinceReceived": 12
+      "daysSinceReceived": 12,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-a33117e554",
@@ -323,7 +392,10 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "",
       "daysOpen": 12,
-      "daysSinceReceived": 12
+      "daysSinceReceived": 12,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-aa0cc9099b",
@@ -337,7 +409,10 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "",
       "daysOpen": 14,
-      "daysSinceReceived": 14
+      "daysSinceReceived": 14,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-5aeed4f3de",
@@ -351,7 +426,11 @@ window.DASHBOARD_DATA = {
       "status": "Awaiting reply (from us)",
       "note": "Internal handoff to Shan, no closure yet",
       "daysOpen": 12,
-      "daysSinceReceived": 15
+      "daysSinceReceived": 15,
+      "cc": [
+        "campus@tinkerhub.org",
+        "shan@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-58693d11f7",
@@ -365,7 +444,11 @@ window.DASHBOARD_DATA = {
       "status": "No response",
       "note": "",
       "daysOpen": 16,
-      "daysSinceReceived": 16
+      "daysSinceReceived": 16,
+      "cc": [
+        "campus@tinkerhub.org",
+        "support@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-e921cdce72",
@@ -379,7 +462,10 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "",
       "daysOpen": 16,
-      "daysSinceReceived": 16
+      "daysSinceReceived": 16,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-997dd4f05d",
@@ -393,7 +479,10 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "",
       "daysOpen": 16,
-      "daysSinceReceived": 16
+      "daysSinceReceived": 16,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-9f5b3d6402",
@@ -407,7 +496,10 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "",
       "daysOpen": 16,
-      "daysSinceReceived": 16
+      "daysSinceReceived": 16,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-138e3d459e",
@@ -421,7 +513,10 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "",
       "daysOpen": 16,
-      "daysSinceReceived": 16
+      "daysSinceReceived": 16,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-9735aea37a",
@@ -435,7 +530,10 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "",
       "daysOpen": 16,
-      "daysSinceReceived": 16
+      "daysSinceReceived": 16,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-6e773953a5",
@@ -449,7 +547,10 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "",
       "daysOpen": 17,
-      "daysSinceReceived": 17
+      "daysSinceReceived": 17,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-ef665c532e",
@@ -463,7 +564,10 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "",
       "daysOpen": 16,
-      "daysSinceReceived": 17
+      "daysSinceReceived": 17,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-6c113c2520",
@@ -477,7 +581,10 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "",
       "daysOpen": 17,
-      "daysSinceReceived": 17
+      "daysSinceReceived": 17,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-99317e20f8",
@@ -491,7 +598,10 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "",
       "daysOpen": 17,
-      "daysSinceReceived": 17
+      "daysSinceReceived": 17,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-558dc1d4e6",
@@ -505,7 +615,10 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "",
       "daysOpen": 17,
-      "daysSinceReceived": 17
+      "daysSinceReceived": 17,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-ec42fc391d",
@@ -519,7 +632,10 @@ window.DASHBOARD_DATA = {
       "status": "No response",
       "note": "",
       "daysOpen": 17,
-      "daysSinceReceived": 17
+      "daysSinceReceived": 17,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-e2a82d641b",
@@ -533,7 +649,10 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "",
       "daysOpen": 17,
-      "daysSinceReceived": 17
+      "daysSinceReceived": 17,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-637ec274a7",
@@ -547,7 +666,10 @@ window.DASHBOARD_DATA = {
       "status": "No response",
       "note": "",
       "daysOpen": 19,
-      "daysSinceReceived": 19
+      "daysSinceReceived": 19,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-cc6b25a31f",
@@ -561,7 +683,10 @@ window.DASHBOARD_DATA = {
       "status": "No response",
       "note": "",
       "daysOpen": 22,
-      "daysSinceReceived": 22
+      "daysSinceReceived": 22,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-6814dee1bd",
@@ -575,7 +700,10 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "",
       "daysOpen": 23,
-      "daysSinceReceived": 23
+      "daysSinceReceived": 23,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-3330e231ca",
@@ -589,7 +717,10 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "",
       "daysOpen": 25,
-      "daysSinceReceived": 25
+      "daysSinceReceived": 25,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-7bc99ef404",
@@ -603,7 +734,10 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "",
       "daysOpen": 25,
-      "daysSinceReceived": 25
+      "daysSinceReceived": 25,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-ea8e03d821",
@@ -617,7 +751,10 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "",
       "daysOpen": 25,
-      "daysSinceReceived": 31
+      "daysSinceReceived": 31,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-0f11861e10",
@@ -631,7 +768,10 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "",
       "daysOpen": 25,
-      "daysSinceReceived": 28
+      "daysSinceReceived": 28,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-3a44930c9e",
@@ -645,7 +785,10 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "",
       "daysOpen": 18,
-      "daysSinceReceived": 28
+      "daysSinceReceived": 28,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-66b192b49c",
@@ -659,7 +802,10 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "",
       "daysOpen": 25,
-      "daysSinceReceived": 28
+      "daysSinceReceived": 28,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-64a9a3909a",
@@ -673,7 +819,10 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "Calendar invite",
       "daysOpen": 29,
-      "daysSinceReceived": 29
+      "daysSinceReceived": 29,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-9c89b65996",
@@ -687,7 +836,10 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "",
       "daysOpen": 30,
-      "daysSinceReceived": 30
+      "daysSinceReceived": 30,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     },
     {
       "id": "support-11754e3e4c",
@@ -701,7 +853,10 @@ window.DASHBOARD_DATA = {
       "status": "No response",
       "note": "",
       "daysOpen": 1,
-      "daysSinceReceived": 1
+      "daysSinceReceived": 1,
+      "cc": [
+        "support@tinkerhub.org"
+      ]
     },
     {
       "id": "support-d273010645",
@@ -715,7 +870,10 @@ window.DASHBOARD_DATA = {
       "status": "No response",
       "note": "",
       "daysOpen": 1,
-      "daysSinceReceived": 1
+      "daysSinceReceived": 1,
+      "cc": [
+        "support@tinkerhub.org"
+      ]
     },
     {
       "id": "support-62b6e23884",
@@ -729,7 +887,10 @@ window.DASHBOARD_DATA = {
       "status": "No response",
       "note": "",
       "daysOpen": 4,
-      "daysSinceReceived": 4
+      "daysSinceReceived": 4,
+      "cc": [
+        "support@tinkerhub.org"
+      ]
     },
     {
       "id": "support-f6c7cc5123",
@@ -743,7 +904,10 @@ window.DASHBOARD_DATA = {
       "status": "No response",
       "note": "",
       "daysOpen": 8,
-      "daysSinceReceived": 8
+      "daysSinceReceived": 8,
+      "cc": [
+        "support@tinkerhub.org"
+      ]
     },
     {
       "id": "support-3a40af0a01",
@@ -757,7 +921,10 @@ window.DASHBOARD_DATA = {
       "status": "No response",
       "note": "Earlier report of same recurring DOB issue",
       "daysOpen": 14,
-      "daysSinceReceived": 14
+      "daysSinceReceived": 14,
+      "cc": [
+        "support@tinkerhub.org"
+      ]
     },
     {
       "id": "support-59927728ec",
@@ -771,7 +938,10 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "",
       "daysOpen": 16,
-      "daysSinceReceived": 16
+      "daysSinceReceived": 16,
+      "cc": [
+        "support@tinkerhub.org"
+      ]
     },
     {
       "id": "support-b486a5c5e9",
@@ -785,7 +955,10 @@ window.DASHBOARD_DATA = {
       "status": "No response",
       "note": "Follow-up providing account phone number",
       "daysOpen": 18,
-      "daysSinceReceived": 18
+      "daysSinceReceived": 18,
+      "cc": [
+        "support@tinkerhub.org"
+      ]
     },
     {
       "id": "support-7049726065",
@@ -799,7 +972,11 @@ window.DASHBOARD_DATA = {
       "status": "Awaiting reply (from them)",
       "note": "We replied; no confirmation from user",
       "daysOpen": 22,
-      "daysSinceReceived": 94
+      "daysSinceReceived": 94,
+      "cc": [
+        "support@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
     },
     {
       "id": "support-e996065e55",
@@ -813,7 +990,10 @@ window.DASHBOARD_DATA = {
       "status": "Awaiting reply (from them)",
       "note": "We asked if issue still persists",
       "daysOpen": 22,
-      "daysSinceReceived": 40
+      "daysSinceReceived": 40,
+      "cc": [
+        "support@tinkerhub.org"
+      ]
     },
     {
       "id": "support-f04dea8c8c",
@@ -827,7 +1007,10 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "",
       "daysOpen": 22,
-      "daysSinceReceived": 23
+      "daysSinceReceived": 23,
+      "cc": [
+        "support@tinkerhub.org"
+      ]
     },
     {
       "id": "support-affc67ef65",
@@ -841,7 +1024,10 @@ window.DASHBOARD_DATA = {
       "status": "Awaiting reply (from them)",
       "note": "We answered; no confirmation from user",
       "daysOpen": 22,
-      "daysSinceReceived": 25
+      "daysSinceReceived": 25,
+      "cc": [
+        "support@tinkerhub.org"
+      ]
     },
     {
       "id": "finance-017a5a96ad",
@@ -855,7 +1041,10 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "",
       "daysOpen": 1,
-      "daysSinceReceived": 1
+      "daysSinceReceived": 1,
+      "cc": [
+        "finance@tinkerhub.org"
+      ]
     },
     {
       "id": "finance-0b37ac67ed",
@@ -869,7 +1058,10 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "",
       "daysOpen": 1,
-      "daysSinceReceived": 1
+      "daysSinceReceived": 1,
+      "cc": [
+        "finance@tinkerhub.org"
+      ]
     },
     {
       "id": "finance-7a70ace0ee",
@@ -883,7 +1075,10 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "Payment settled",
       "daysOpen": 1,
-      "daysSinceReceived": 1
+      "daysSinceReceived": 1,
+      "cc": [
+        "finance@tinkerhub.org"
+      ]
     },
     {
       "id": "finance-833c41682e",
@@ -897,7 +1092,10 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "",
       "daysOpen": 2,
-      "daysSinceReceived": 2
+      "daysSinceReceived": 2,
+      "cc": [
+        "finance@tinkerhub.org"
+      ]
     },
     {
       "id": "finance-82e3aa82ff",
@@ -911,7 +1109,10 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "Payment settled, thanked",
       "daysOpen": 1,
-      "daysSinceReceived": 2
+      "daysSinceReceived": 2,
+      "cc": [
+        "finance@tinkerhub.org"
+      ]
     },
     {
       "id": "finance-5b9691d92e",
@@ -925,7 +1126,10 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "Payment settled",
       "daysOpen": 2,
-      "daysSinceReceived": 5
+      "daysSinceReceived": 5,
+      "cc": [
+        "finance@tinkerhub.org"
+      ]
     },
     {
       "id": "finance-ccb2bae237",
@@ -939,7 +1143,10 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "Payment settled",
       "daysOpen": 10,
-      "daysSinceReceived": 11
+      "daysSinceReceived": 11,
+      "cc": [
+        "finance@tinkerhub.org"
+      ]
     },
     {
       "id": "finance-40c2a53da0",
@@ -953,7 +1160,10 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "",
       "daysOpen": 27,
-      "daysSinceReceived": 27
+      "daysSinceReceived": 27,
+      "cc": [
+        "finance@tinkerhub.org"
+      ]
     },
     {
       "id": "finance-7ac2fafcfb",
@@ -967,7 +1177,10 @@ window.DASHBOARD_DATA = {
       "status": "Awaiting reply (from them)",
       "note": "Asked vendor to confirm receipt",
       "daysOpen": 29,
-      "daysSinceReceived": 29
+      "daysSinceReceived": 29,
+      "cc": [
+        "finance@tinkerhub.org"
+      ]
     },
     {
       "id": "finance-705c14b7f7",
@@ -981,7 +1194,10 @@ window.DASHBOARD_DATA = {
       "status": "Awaiting reply (from them)",
       "note": "Asked to confirm receipt",
       "daysOpen": 29,
-      "daysSinceReceived": 29
+      "daysSinceReceived": 29,
+      "cc": [
+        "finance@tinkerhub.org"
+      ]
     },
     {
       "id": "finance-abbc85dfeb",
@@ -995,7 +1211,10 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "Payment completed",
       "daysOpen": 29,
-      "daysSinceReceived": 29
+      "daysSinceReceived": 29,
+      "cc": [
+        "finance@tinkerhub.org"
+      ]
     },
     {
       "id": "report-698ff0dada",
@@ -1009,7 +1228,10 @@ window.DASHBOARD_DATA = {
       "status": "No response",
       "note": "No subject/body captured",
       "daysOpen": 3,
-      "daysSinceReceived": 3
+      "daysSinceReceived": 3,
+      "cc": [
+        "report@tinkerhub.org"
+      ]
     },
     {
       "id": "report-65bbce117d",
@@ -1023,7 +1245,10 @@ window.DASHBOARD_DATA = {
       "status": "No response",
       "note": "",
       "daysOpen": 19,
-      "daysSinceReceived": 19
+      "daysSinceReceived": 19,
+      "cc": [
+        "report@tinkerhub.org"
+      ]
     }
   ],
   "summary": {

@@ -205,9 +205,11 @@ function escapeHtml(s){
 }
 
 // Compose-in-Gmail link for closing out a quiet thread. Opens a real Gmail
-// compose window (new tab) addressed to the counterpart, pre-filled with a
-// closing note referencing how many days it's been open. Nothing is sent
-// until the person reviews and hits Send themselves in Gmail.
+// "reply all"-style compose window (new tab): addressed to the counterpart
+// and CC'd to everyone else who was actually on the thread (the shared
+// group inbox, plus any teammates who were cc'd), pre-filled with a closing
+// note referencing how many days it's been open. Nothing is sent until the
+// person reviews and hits Send themselves in Gmail.
 function closeComposeHref(t){
   if(!t.email) return null;
   const subject = "Re: " + t.subject;
@@ -227,6 +229,10 @@ TinkerHub`;
     su: subject,
     body: body
   });
+  const cc = (t.cc || []).filter(addr => addr && addr.toLowerCase() !== t.email.toLowerCase());
+  if(cc.length){
+    params.set("cc", cc.join(","));
+  }
   return `https://mail.google.com/mail/?${params.toString()}`;
 }
 
