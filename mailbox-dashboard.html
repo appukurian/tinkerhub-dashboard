@@ -98,6 +98,7 @@
 
 <h1>TinkerHub Mailbox Dashboard</h1>
 <div class="sub" id="header-sub">campus@ · support@ · finance@ · report@tinkerhub.org — threads from the last 30 days</div>
+<div class="sub" id="whoami-line" style="margin-top:-16px; margin-bottom:24px;"></div>
 
 <div class="cards">
   <div class="card no-response"><div class="n" id="c-no-response">0</div><div class="l">No response at all</div></div>
@@ -172,7 +173,14 @@
 <script src="dashboard-data.js"></script>
 <script>
 const DATA = window.DASHBOARD_DATA;
-const LS_KEY = "tinkerhub-dashboard-overrides-v1";
+const LS_KEY = "tinkerhub-dashboard-overrides-v1"; // local fallback only
+const LS_NAME_KEY = "tinkerhub-dashboard-username";
+
+// Fill this in once the Cloudflare Worker is deployed, e.g.
+// "https://tinkerhub-dashboard-closer.yoursubdomain.workers.dev"
+// Until it's set, closes fall back to browser-local storage only.
+const WORKER_URL = "";
+const REMOTE_CLOSES_URL = "https://raw.githubusercontent.com/appukurian/tinkerhub-dashboard/main/closes.json";
 
 const statusClass = {
   "No response":"no-response",
@@ -182,24 +190,86 @@ const statusClass = {
   "Informational":"info"
 };
 
-function loadOverrides(){
+// In-memory cache of overrides for this page load. Seeded from the shared
+// closes.json in the repo (if WORKER_URL/sync is configured) or otherwise
+// from this browser's localStorage.
+let liveOverrides = {};
+
+function loadLocalOverrides(){
   try{ return JSON.parse(localStorage.getItem(LS_KEY)) || {}; }
   catch(e){ return {}; }
 }
-function saveOverrides(o){
+function saveLocalOverrides(o){
   localStorage.setItem(LS_KEY, JSON.stringify(o));
 }
 
-// Merge base thread data with any locally-saved manual close/reply state.
+function getUsername(){
+  return localStorage.getItem(LS_NAME_KEY) || null;
+}
+function setUsername(name){
+  localStorage.setItem(LS_NAME_KEY, name);
+  renderWhoAmI();
+}
+function ensureUsername(){
+  let n = getUsername();
+  if(!n){
+    const entered = window.prompt("What's your name? It'll be shown on closing notes so teammates know who closed each thread.", "");
+    if(entered && entered.trim()){
+      n = entered.trim();
+      setUsername(n);
+    } else {
+      n = null;
+    }
+  }
+  return n;
+}
+function renderWhoAmI(){
+  const el = document.getElementById("whoami-line");
+  const name = getUsername();
+  if(name){
+    el.innerHTML = `Closing as <strong>${escapeHtml(name)}</strong> · <a href="#" id="change-name-link">change</a>`;
+  } else {
+    el.innerHTML = `Not set up yet — you'll be asked for your name the first time you close a thread.`;
+  }
+  const changeLink = document.getElementById("change-name-link");
+  if(changeLink){
+    changeLink.addEventListener("click", (e)=>{
+      e.preventDefault();
+      const entered = window.prompt("Update your name:", getUsername() || "");
+      if(entered && entered.trim()) setUsername(entered.trim());
+    });
+  }
+}
+
+async function initOverrides(){
+  if(WORKER_URL){
+    try{
+      const res = await fetch(REMOTE_CLOSES_URL, {cache:"no-store"});
+      if(res.ok){
+        liveOverrides = await res.json();
+      } else {
+        liveOverrides = {};
+      }
+    }catch(e){
+      console.warn("Could not load shared closes.json, falling back to empty.", e);
+      liveOverrides = {};
+    }
+  } else {
+    // No shared sync configured yet — use this browser's local overrides only.
+    liveOverrides = loadLocalOverrides();
+  }
+}
+
+// Merge base thread data with the current overrides (shared or local).
 function effectiveThreads(){
-  const overrides = loadOverrides();
   return DATA.threads.map(t=>{
-    const o = overrides[t.id];
+    const o = liveOverrides[t.id];
     if(o && o.closed){
       return Object.assign({}, t, {
         status: "Resolved",
         closingNote: o.note || "",
         closedAt: o.closedAt,
+        closedBy: o.closedBy || null,
         manuallyClosed: true
       });
     }
@@ -286,8 +356,9 @@ function renderThreads(){
   rows.forEach(t=>{
     const cls = statusClass[t.status] || "info";
     const warn = (t.status!=="Resolved" && t.status!=="Informational" && t.daysOpen>=7) ? "days-warn" : "";
+    const closedByHtml = t.closedBy ? ` by <strong>${escapeHtml(t.closedBy)}</strong>` : "";
     const noteHtml = t.manuallyClosed
-      ? `<div class="closing-note">Closed ${t.closedAt||""}: ${escapeHtml(t.closingNote||"(no note)")}</div>`
+      ? `<div class="closing-note">Closed ${t.closedAt||""}${closedByHtml}: ${escapeHtml(t.closingNote||"(no note)")}</div>`
       : escapeHtml(t.note||"");
 
     // Prefer opening the real Gmail thread in a new tab (same logged-in Chrome session).
@@ -356,23 +427,71 @@ function closeModal(){
   document.getElementById("close-modal").classList.remove("open");
   pendingCloseId = null;
 }
-function saveClose(){
+
+async function saveClose(){
   if(!pendingCloseId) return;
   const note = document.getElementById("close-note-input").value.trim();
-  const overrides = loadOverrides();
-  overrides[pendingCloseId] = {
-    closed: true,
-    note: note,
-    closedAt: new Date().toISOString().slice(0,10)
-  };
-  saveOverrides(overrides);
+  const closedBy = ensureUsername() || "Unknown";
+  const closedAt = new Date().toISOString().slice(0,10);
+  const saveBtn = document.getElementById("close-save");
+  const id = pendingCloseId;
+
+  const entry = { closed: true, note, closedBy, closedAt };
+
+  if(WORKER_URL){
+    saveBtn.disabled = true;
+    saveBtn.textContent = "Saving…";
+    try{
+      const res = await fetch(WORKER_URL, {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({ id, action: "close", note, closedBy, closedAt })
+      });
+      const data = await res.json();
+      if(!res.ok || !data.ok){
+        throw new Error(data.error || ("HTTP " + res.status));
+      }
+      liveOverrides = data.closes || Object.assign({}, liveOverrides, {[id]: entry});
+    }catch(e){
+      alert("Couldn't save to the shared dashboard (it will only be visible in this browser for now): " + e.message);
+      liveOverrides[id] = entry; // optimistic local-only fallback
+    }finally{
+      saveBtn.disabled = false;
+      saveBtn.textContent = "Save & mark resolved";
+    }
+  } else {
+    // No shared sync configured — local-only.
+    liveOverrides[id] = entry;
+    saveLocalOverrides(liveOverrides);
+  }
+
   closeModal();
   renderThreads();
 }
-function reopenThread(id){
-  const overrides = loadOverrides();
-  delete overrides[id];
-  saveOverrides(overrides);
+
+async function reopenThread(id){
+  const closedBy = ensureUsername() || "Unknown";
+  if(WORKER_URL){
+    try{
+      const res = await fetch(WORKER_URL, {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({ id, action: "reopen", closedBy })
+      });
+      const data = await res.json();
+      if(!res.ok || !data.ok){
+        throw new Error(data.error || ("HTTP " + res.status));
+      }
+      liveOverrides = data.closes || liveOverrides;
+      delete liveOverrides[id];
+    }catch(e){
+      alert("Couldn't sync the reopen to the shared dashboard (it will only apply in this browser for now): " + e.message);
+      delete liveOverrides[id];
+    }
+  } else {
+    delete liveOverrides[id];
+    saveLocalOverrides(liveOverrides);
+  }
   renderThreads();
 }
 
@@ -388,8 +507,12 @@ document.getElementById("f-search").addEventListener("input", renderThreads);
 // header sub / footer reflect the data file's own generation date, not this HTML file
 document.getElementById("header-sub").textContent =
   "campus@ · support@ · finance@ · report@tinkerhub.org — threads from the last 30 days · data as of " + (DATA.generatedAt || "unknown date");
+document.getElementById("footer-note").textContent = WORKER_URL
+  ? "\"Days\" = days since the last message in the thread. Closing notes are shared with everyone via the repo (may take a minute or two to show up for others)."
+  : "\"Days\" = days since the last message in the thread. Shared sync isn't configured yet, so closes are only stored in this browser for now.";
 
-renderThreads();
+renderWhoAmI();
+initOverrides().then(renderThreads);
 </script>
 </body>
 </html>
