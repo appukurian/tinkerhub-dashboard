@@ -59,7 +59,6 @@
   .days-warn{color:var(--red);}
   .grp-pill{display:inline-block; padding:1px 8px; border-radius:6px; font-size:11.5px; font-weight:600; background:var(--gray-bg); color:#374151;}
   .note{color:var(--muted); font-size:12.5px;}
-  .closing-note{color:var(--green); font-size:12.5px; font-style:italic;}
   footer{color:var(--muted); font-size:12px; text-align:center; margin-top:8px;}
 
   .actions{display:flex; gap:6px; white-space:nowrap;}
@@ -71,34 +70,13 @@
   .btn:hover{background:var(--gray-bg);}
   .btn.reply{color:var(--accent); border-color:#c7d2fe;}
   .btn.close-btn{color:var(--green); border-color:#bbf7d0;}
-  .btn.reopen{color:var(--muted);}
   .btn[disabled]{opacity:.4; cursor:not-allowed; pointer-events:none;}
-
-  .modal-backdrop{
-    display:none; position:fixed; inset:0; background:rgba(15,18,26,.45);
-    align-items:center; justify-content:center; z-index:50;
-  }
-  .modal-backdrop.open{display:flex;}
-  .modal{
-    background:#fff; border-radius:12px; padding:20px; width:420px; max-width:92vw;
-    box-shadow:0 20px 60px rgba(0,0,0,.25);
-  }
-  .modal h3{margin:0 0 4px; font-size:15px;}
-  .modal .modal-sub{color:var(--muted); font-size:12.5px; margin-bottom:12px;}
-  .modal textarea{
-    width:100%; min-height:90px; border:1px solid var(--border); border-radius:8px;
-    padding:10px; font-size:13px; font-family:inherit; resize:vertical;
-  }
-  .modal .modal-actions{display:flex; justify-content:flex-end; gap:8px; margin-top:14px;}
-  .modal .btn.primary{background:var(--accent); color:#fff; border-color:var(--accent);}
-  .modal .btn.primary:hover{background:#4338ca;}
 </style>
 </head>
 <body>
 
 <h1>TinkerHub Mailbox Dashboard</h1>
 <div class="sub" id="header-sub">campus@ · support@ · finance@ · report@tinkerhub.org — threads from the last 30 days</div>
-<div class="sub" id="whoami-line" style="margin-top:-16px; margin-bottom:24px;"></div>
 
 <div class="cards">
   <div class="card no-response"><div class="n" id="c-no-response">0</div><div class="l">No response at all</div></div>
@@ -155,32 +133,11 @@
   </table>
 </section>
 
-<footer id="footer-note">"Days" = days since the last message in the thread. Manual closes/replies are stored only in this browser (localStorage) and are not sent back to Gmail.</footer>
-
-<div class="modal-backdrop" id="close-modal">
-  <div class="modal">
-    <h3 id="close-modal-title">Close thread</h3>
-    <div class="modal-sub" id="close-modal-sub"></div>
-    <div class="modal-sub" id="close-modal-link" style="margin-top:-8px;"></div>
-    <textarea id="close-note-input" placeholder="Add a closing note (e.g. what was done / how it was resolved)…"></textarea>
-    <div class="modal-actions">
-      <button class="btn" id="close-cancel">Cancel</button>
-      <button class="btn primary" id="close-save">Save & mark resolved</button>
-    </div>
-  </div>
-</div>
+<footer id="footer-note">"Days" = days since the last message in the thread. Newest activity first. "Close" opens a pre-filled reply in Gmail — nothing is sent until you hit Send yourself.</footer>
 
 <script src="dashboard-data.js"></script>
 <script>
 const DATA = window.DASHBOARD_DATA;
-const LS_KEY = "tinkerhub-dashboard-overrides-v1"; // local fallback only
-const LS_NAME_KEY = "tinkerhub-dashboard-username";
-
-// Fill this in once the Cloudflare Worker is deployed, e.g.
-// "https://tinkerhub-dashboard-closer.yoursubdomain.workers.dev"
-// Until it's set, closes fall back to browser-local storage only.
-const WORKER_URL = "";
-const REMOTE_CLOSES_URL = "https://raw.githubusercontent.com/appukurian/tinkerhub-dashboard/main/closes.json";
 
 const statusClass = {
   "No response":"no-response",
@@ -189,93 +146,6 @@ const statusClass = {
   "Resolved":"resolved",
   "Informational":"info"
 };
-
-// In-memory cache of overrides for this page load. Seeded from the shared
-// closes.json in the repo (if WORKER_URL/sync is configured) or otherwise
-// from this browser's localStorage.
-let liveOverrides = {};
-
-function loadLocalOverrides(){
-  try{ return JSON.parse(localStorage.getItem(LS_KEY)) || {}; }
-  catch(e){ return {}; }
-}
-function saveLocalOverrides(o){
-  localStorage.setItem(LS_KEY, JSON.stringify(o));
-}
-
-function getUsername(){
-  return localStorage.getItem(LS_NAME_KEY) || null;
-}
-function setUsername(name){
-  localStorage.setItem(LS_NAME_KEY, name);
-  renderWhoAmI();
-}
-function ensureUsername(){
-  let n = getUsername();
-  if(!n){
-    const entered = window.prompt("What's your name? It'll be shown on closing notes so teammates know who closed each thread.", "");
-    if(entered && entered.trim()){
-      n = entered.trim();
-      setUsername(n);
-    } else {
-      n = null;
-    }
-  }
-  return n;
-}
-function renderWhoAmI(){
-  const el = document.getElementById("whoami-line");
-  const name = getUsername();
-  if(name){
-    el.innerHTML = `Closing as <strong>${escapeHtml(name)}</strong> · <a href="#" id="change-name-link">change</a>`;
-  } else {
-    el.innerHTML = `Not set up yet — you'll be asked for your name the first time you close a thread.`;
-  }
-  const changeLink = document.getElementById("change-name-link");
-  if(changeLink){
-    changeLink.addEventListener("click", (e)=>{
-      e.preventDefault();
-      const entered = window.prompt("Update your name:", getUsername() || "");
-      if(entered && entered.trim()) setUsername(entered.trim());
-    });
-  }
-}
-
-async function initOverrides(){
-  if(WORKER_URL){
-    try{
-      const res = await fetch(REMOTE_CLOSES_URL, {cache:"no-store"});
-      if(res.ok){
-        liveOverrides = await res.json();
-      } else {
-        liveOverrides = {};
-      }
-    }catch(e){
-      console.warn("Could not load shared closes.json, falling back to empty.", e);
-      liveOverrides = {};
-    }
-  } else {
-    // No shared sync configured yet — use this browser's local overrides only.
-    liveOverrides = loadLocalOverrides();
-  }
-}
-
-// Merge base thread data with the current overrides (shared or local).
-function effectiveThreads(){
-  return DATA.threads.map(t=>{
-    const o = liveOverrides[t.id];
-    if(o && o.closed){
-      return Object.assign({}, t, {
-        status: "Resolved",
-        closingNote: o.note || "",
-        closedAt: o.closedAt,
-        closedBy: o.closedBy || null,
-        manuallyClosed: true
-      });
-    }
-    return t;
-  });
-}
 
 function recompute(threads){
   const groups = ["campus","support","finance","report"];
@@ -334,17 +204,42 @@ function escapeHtml(s){
   return String(s||"").replace(/[&<>"']/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 }
 
-function renderThreads(){
-  const all = effectiveThreads();
-  const {summary, analytics} = recompute(all);
-  renderSummary(summary);
-  renderAnalytics(analytics);
+// Compose-in-Gmail link for closing out a quiet thread. Opens a real Gmail
+// compose window (new tab) addressed to the counterpart, pre-filled with a
+// closing note referencing how many days it's been open. Nothing is sent
+// until the person reviews and hits Send themselves in Gmail.
+function closeComposeHref(t){
+  if(!t.email) return null;
+  const subject = "Re: " + t.subject;
+  const body =
+`Hi,
 
+It's been ${t.daysOpen} day${t.daysOpen === 1 ? "" : "s"} without a response on this thread, so we're closing it out for now.
+
+Feel free to reply anytime if this is still open and we'll pick it back up.
+
+Thanks,
+TinkerHub`;
+  const params = new URLSearchParams({
+    view: "cm",
+    fs: "1",
+    to: t.email,
+    su: subject,
+    body: body
+  });
+  return `https://mail.google.com/mail/?${params.toString()}`;
+}
+
+function renderThreads(){
   const g = document.getElementById("f-group").value;
   const s = document.getElementById("f-status").value;
   const q = document.getElementById("f-search").value.trim().toLowerCase();
 
-  const rows = all.filter(t=>{
+  const {summary, analytics} = recompute(DATA.threads);
+  renderSummary(summary);
+  renderAnalytics(analytics);
+
+  const rows = DATA.threads.filter(t=>{
     if(g && t.group!==g) return false;
     if(s && t.status!==s) return false;
     if(q && !(t.subject.toLowerCase().includes(q) || t.counterpart.toLowerCase().includes(q))) return false;
@@ -356,32 +251,24 @@ function renderThreads(){
   rows.forEach(t=>{
     const cls = statusClass[t.status] || "info";
     const warn = (t.status!=="Resolved" && t.status!=="Informational" && t.daysOpen>=7) ? "days-warn" : "";
-    const closedByHtml = t.closedBy ? ` by <strong>${escapeHtml(t.closedBy)}</strong>` : "";
-    const noteHtml = t.manuallyClosed
-      ? `<div class="closing-note">Closed ${t.closedAt||""}${closedByHtml}: ${escapeHtml(t.closingNote||"(no note)")}</div>`
-      : escapeHtml(t.note||"");
 
-    // Prefer opening the real Gmail thread in a new tab (same logged-in Chrome session).
-    // Fall back to mailto: only if we don't have a Gmail thread id for this row.
-    const gmailHref = t.threadId
-      ? `https://mail.google.com/mail/u/0/#all/${t.threadId}`
-      : null;
-    const mailtoHref = t.email
-      ? `mailto:${encodeURIComponent(t.email)}?subject=${encodeURIComponent("Re: " + t.subject)}`
-      : null;
-
+    // Subject and "Open in Gmail" open the real thread (same logged-in Chrome session).
+    const gmailHref = t.threadId ? `https://mail.google.com/mail/u/0/#all/${t.threadId}` : null;
     const subjectHtml = gmailHref
       ? `<a href="${gmailHref}" target="_blank" rel="noopener">${escapeHtml(t.subject)}</a>`
       : escapeHtml(t.subject);
 
-    const replyHref = gmailHref || mailtoHref;
-    const replyBtn = replyHref
-      ? `<a class="btn reply" href="${replyHref}" target="_blank" rel="noopener">${gmailHref ? "Open in Gmail" : "Reply"}</a>`
-      : `<button class="btn reply" disabled title="No email or thread reference for this row">Reply</button>`;
+    const replyBtn = gmailHref
+      ? `<a class="btn reply" href="${gmailHref}" target="_blank" rel="noopener">Open in Gmail</a>`
+      : `<button class="btn reply" disabled title="No thread reference for this row">Open</button>`;
 
-    const closeBtn = t.status === "Resolved"
-      ? (t.manuallyClosed ? `<button class="btn reopen" data-reopen="${t.id}">Reopen</button>` : "")
-      : `<button class="btn close-btn" data-close="${t.id}">Close…</button>`;
+    let closeBtn = "";
+    if(t.status !== "Resolved" && t.status !== "Informational"){
+      const href = closeComposeHref(t);
+      closeBtn = href
+        ? `<a class="btn close-btn" href="${href}" target="_blank" rel="noopener">Close…</a>`
+        : `<button class="btn close-btn" disabled title="No email address for this counterpart">Close…</button>`;
+    }
 
     const tr = document.createElement("tr");
     tr.innerHTML = `
@@ -391,128 +278,21 @@ function renderThreads(){
       <td>${t.received||""}</td>
       <td><span class="badge ${cls}">${t.status}</span></td>
       <td class="num days-open ${warn}">${t.daysOpen}</td>
-      <td class="note">${noteHtml}</td>
+      <td class="note">${escapeHtml(t.note||"")}</td>
       <td><div class="actions">${replyBtn}${closeBtn}</div></td>
     `;
     tbody.appendChild(tr);
   });
-  document.getElementById("f-count").textContent = rows.length + " of " + all.length + " threads";
-
-  // wire up close/reopen buttons for this render pass
-  tbody.querySelectorAll("[data-close]").forEach(btn=>{
-    btn.addEventListener("click", ()=> openCloseModal(btn.getAttribute("data-close")));
-  });
-  tbody.querySelectorAll("[data-reopen]").forEach(btn=>{
-    btn.addEventListener("click", ()=> reopenThread(btn.getAttribute("data-reopen")));
-  });
+  document.getElementById("f-count").textContent = rows.length + " of " + DATA.threads.length + " threads";
 }
-
-let pendingCloseId = null;
-function openCloseModal(id){
-  const t = DATA.threads.find(x=>x.id===id);
-  if(!t) return;
-  pendingCloseId = id;
-  document.getElementById("close-modal-sub").textContent = t.subject + " — " + t.counterpart;
-  const linkEl = document.getElementById("close-modal-link");
-  if(t.threadId){
-    linkEl.innerHTML = `<a href="https://mail.google.com/mail/u/0/#all/${t.threadId}" target="_blank" rel="noopener">Open thread in Gmail ↗</a>`;
-  } else {
-    linkEl.textContent = "";
-  }
-  document.getElementById("close-note-input").value = "";
-  document.getElementById("close-modal").classList.add("open");
-  document.getElementById("close-note-input").focus();
-}
-function closeModal(){
-  document.getElementById("close-modal").classList.remove("open");
-  pendingCloseId = null;
-}
-
-async function saveClose(){
-  if(!pendingCloseId) return;
-  const note = document.getElementById("close-note-input").value.trim();
-  const closedBy = ensureUsername() || "Unknown";
-  const closedAt = new Date().toISOString().slice(0,10);
-  const saveBtn = document.getElementById("close-save");
-  const id = pendingCloseId;
-
-  const entry = { closed: true, note, closedBy, closedAt };
-
-  if(WORKER_URL){
-    saveBtn.disabled = true;
-    saveBtn.textContent = "Saving…";
-    try{
-      const res = await fetch(WORKER_URL, {
-        method: "POST",
-        headers: {"Content-Type": "application/json"},
-        body: JSON.stringify({ id, action: "close", note, closedBy, closedAt })
-      });
-      const data = await res.json();
-      if(!res.ok || !data.ok){
-        throw new Error(data.error || ("HTTP " + res.status));
-      }
-      liveOverrides = data.closes || Object.assign({}, liveOverrides, {[id]: entry});
-    }catch(e){
-      alert("Couldn't save to the shared dashboard (it will only be visible in this browser for now): " + e.message);
-      liveOverrides[id] = entry; // optimistic local-only fallback
-    }finally{
-      saveBtn.disabled = false;
-      saveBtn.textContent = "Save & mark resolved";
-    }
-  } else {
-    // No shared sync configured — local-only.
-    liveOverrides[id] = entry;
-    saveLocalOverrides(liveOverrides);
-  }
-
-  closeModal();
-  renderThreads();
-}
-
-async function reopenThread(id){
-  const closedBy = ensureUsername() || "Unknown";
-  if(WORKER_URL){
-    try{
-      const res = await fetch(WORKER_URL, {
-        method: "POST",
-        headers: {"Content-Type": "application/json"},
-        body: JSON.stringify({ id, action: "reopen", closedBy })
-      });
-      const data = await res.json();
-      if(!res.ok || !data.ok){
-        throw new Error(data.error || ("HTTP " + res.status));
-      }
-      liveOverrides = data.closes || liveOverrides;
-      delete liveOverrides[id];
-    }catch(e){
-      alert("Couldn't sync the reopen to the shared dashboard (it will only apply in this browser for now): " + e.message);
-      delete liveOverrides[id];
-    }
-  } else {
-    delete liveOverrides[id];
-    saveLocalOverrides(liveOverrides);
-  }
-  renderThreads();
-}
-
-document.getElementById("close-cancel").addEventListener("click", closeModal);
-document.getElementById("close-save").addEventListener("click", saveClose);
-document.getElementById("close-modal").addEventListener("click", (e)=>{
-  if(e.target.id === "close-modal") closeModal();
-});
 
 ["f-group","f-status"].forEach(id=>document.getElementById(id).addEventListener("change", renderThreads));
 document.getElementById("f-search").addEventListener("input", renderThreads);
 
-// header sub / footer reflect the data file's own generation date, not this HTML file
 document.getElementById("header-sub").textContent =
   "campus@ · support@ · finance@ · report@tinkerhub.org — threads from the last 30 days · data as of " + (DATA.generatedAt || "unknown date");
-document.getElementById("footer-note").textContent = WORKER_URL
-  ? "\"Days\" = days since the last message in the thread. Closing notes are shared with everyone via the repo (may take a minute or two to show up for others)."
-  : "\"Days\" = days since the last message in the thread. Shared sync isn't configured yet, so closes are only stored in this browser for now.";
 
-renderWhoAmI();
-initOverrides().then(renderThreads);
+renderThreads();
 </script>
 </body>
 </html>
