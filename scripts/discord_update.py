@@ -27,9 +27,21 @@ from datetime import datetime, timezone
 API = "https://discord.com/api/v10"
 DISCORD_EPOCH_MS = 1420070400000
 
-TOKEN = os.environ["DISCORD_BOT_TOKEN"]
-GUILD_ID = os.environ["DISCORD_GUILD_ID"]
-CHANNEL_ID = os.environ["DISCORD_CHANNEL_ID"]
+TOKEN = os.environ.get("DISCORD_BOT_TOKEN", "")
+GUILD_ID = os.environ.get("DISCORD_GUILD_ID", "")
+CHANNEL_ID = os.environ.get("DISCORD_CHANNEL_ID", "")
+
+_missing = [name for name, val in [
+    ("DISCORD_BOT_TOKEN", TOKEN),
+    ("DISCORD_GUILD_ID", GUILD_ID),
+    ("DISCORD_CHANNEL_ID", CHANNEL_ID),
+] if not val]
+if _missing:
+    raise SystemExit(
+        "Missing required config: " + ", ".join(_missing) +
+        ". Set these under repo Settings -> Secrets and variables -> Actions "
+        "(DISCORD_BOT_TOKEN as a Secret; GUILD_ID/CHANNEL_ID as either Secrets or Variables)."
+    )
 
 HEADERS = {
     "Authorization": f"Bot {TOKEN}",
