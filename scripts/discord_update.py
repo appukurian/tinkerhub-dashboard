@@ -9,17 +9,20 @@ seen outside GitHub's own infrastructure.
 
 Required environment variables:
   DISCORD_BOT_TOKEN   - a Discord bot token (repo SECRET)
-  DISCORD_GUILD_ID    - the Discord server (guild) ID (repo VARIABLE, not sensitive)
-  DISCORD_CHANNEL_ID  - the text channel ID to watch (repo VARIABLE, not sensitive)
+  DISCORD_GUILD_ID    - the Discord server (guild) ID (repo secret or variable)
+  DISCORD_CHANNEL_ID  - the text channel ID to watch (repo secret or variable)
 
-Bot needs, in that channel: View Channel, Read Message History.
-No privileged "Message Content" intent is required — we only look at message
-authorship/timestamps, never message text.
+Bot needs, in that channel: View Channel, Read Message History, and the
+privileged "Message Content Intent" enabled in the Discord Developer Portal
+(Bot tab -> Privileged Gateway Intents) so it can read message text for the
+similar-thread solution suggestions and issue categorization below.
 """
 
 import os
+import re
 import json
 import time
+import collections
 import urllib.request
 import urllib.error
 import urllib.parse
@@ -27,6 +30,7 @@ from datetime import datetime, timezone
 
 API = "https://discord.com/api/v10"
 DISCORD_EPOCH_MS = 1420070400000
+SNIPPET_MAX_LEN = 300
 
 TOKEN = os.environ.get("DISCORD_BOT_TOKEN", "")
 GUILD_ID = os.environ.get("DISCORD_GUILD_ID", "")
@@ -59,7 +63,6 @@ def discord_get(path, retries=3):
                 return json.loads(resp.read().decode())
         except urllib.error.HTTPError as e:
             if e.code == 429:
-                # Rate limited — back off using Retry-After if present.
                 body = json.loads(e.read().decode() or "{}")
                 wait = body.get("retry_after", 1) + 0.5
                 time.sleep(wait)
@@ -73,12 +76,18 @@ def snowflake_to_dt(snowflake):
     return datetime.fromtimestamp(ts_ms / 1000, tz=timezone.utc)
 
 
+def parse_discord_dt(s):
+    if not s:
+        return None
+    return datetime.fromisoformat(s.replace("Z", "+00:00"))
+
+
 def fetch_active_threads():
     data = discord_get(f"/guilds/{GUILD_ID}/threads/active")
     return [t for t in data.get("threads", []) if str(t.get("parent_id")) == str(CHANNEL_ID)]
 
 
-def fetch_archived_threads(max_pages=20):
+def fetch_archived_threads(max_pages=30):
     threads = []
     before = None
     for _ in range(max_pages):
@@ -94,28 +103,82 @@ def fetch_archived_threads(max_pages=20):
     return threads
 
 
-def classify(thread):
+def boundary_message(thread_id, which):
+    """which: 'first' or 'last'. Returns the message dict, or None."""
+    if which == "first":
+        path = f"/channels/{thread_id}/messages?after=0&limit=1"
+    else:
+        path = f"/channels/{thread_id}/messages?limit=1"
+    try:
+        msgs = discord_get(path)
+    except RuntimeError:
+        return None
+    return msgs[0] if msgs else None
+
+
+def author_display_name(msg, fallback_id):
+    if not msg:
+        return f"User {fallback_id}"
+    author = msg.get("author", {}) or {}
+    return author.get("global_name") or author.get("username") or f"User {fallback_id}"
+
+
+def clean_snippet(text):
+    if not text:
+        return ""
+    text = re.sub(r"\s+", " ", text).strip()
+    if len(text) > SNIPPET_MAX_LEN:
+        text = text[:SNIPPET_MAX_LEN].rsplit(" ", 1)[0] + "…"
+    return text
+
+
+# --- Issue categorization -----------------------------------------------
+# Ordered most-specific-first; first matching category wins. Tuned against
+# the actual thread-title vocabulary seen in this channel.
+CATEGORY_RULES = [
+    ("OTP / Login issues", ["otp", "login", "log in", "password", "sign in", "signin"]),
+    ("Koottam access issues", ["koottam", "kootam", "kootaam"]),
+    ("Study Jam issues", ["study jam", "study jams", "jam"]),
+    ("Registration issues", ["register", "registration", "kickstarter", "tinkherhack", "tink her hack", "participant"]),
+    ("Role/tag display bugs", ["role", " tag ", "tag is", "tags", "core team", "learning coordinator", "duplicat", "multiple"]),
+    ("Facilitator management", ["facilitator"]),
+    ("Useless Projects (event)", ["useless project", "useless"]),
+    ("Discord account/access", ["discord server", "discord account", "vouch", "invite", "discord"]),
+    ("Event/Activity check-in & reporting", ["check in", "checkin", "attendance", "event", "activity"]),
+    ("Project add/delete/submission", ["project", "submission"]),
+    ("Name/Profile changes", ["name change", "profile", "rename", " name "]),
+    ("Campus/College visibility", ["campus", "college"]),
+    ("Deletion requests", ["delete", "deletion", "removal", "remove"]),
+]
+
+
+def classify_issue(name):
+    lname = f" {name.lower()} "
+    for label, keywords in CATEGORY_RULES:
+        for kw in keywords:
+            if kw in lname:
+                return label
+    return "Other"
+
+
+def collect_thread(thread):
     thread_id = thread["id"]
     name = thread.get("name") or "(untitled thread)"
     owner_id = thread.get("owner_id")
     meta = thread.get("thread_metadata", {}) or {}
     archived = bool(meta.get("archived"))
     locked = bool(meta.get("locked"))
+    archive_dt = parse_discord_dt(meta.get("archive_timestamp"))
     created_dt = snowflake_to_dt(thread_id)
 
     msg_count = thread.get("total_message_sent", thread.get("message_count", 0)) or 0
 
-    last_author_id = owner_id
-    last_dt = created_dt
-    try:
-        latest = discord_get(f"/channels/{thread_id}/messages?limit=1")
-        if latest:
-            last_msg = latest[0]
-            last_dt = snowflake_to_dt(last_msg["id"])
-            last_author_id = last_msg.get("author", {}).get("id", owner_id)
-    except RuntimeError:
-        # If we can't read messages (e.g. permission hiccup), fall back to thread-level info.
-        pass
+    first_msg = boundary_message(thread_id, "first")
+    last_msg = boundary_message(thread_id, "last") or first_msg
+
+    last_dt = snowflake_to_dt(last_msg["id"]) if last_msg else created_dt
+    last_author_id = (last_msg.get("author", {}) or {}).get("id", owner_id) if last_msg else owner_id
+    requester = author_display_name(first_msg, owner_id)
 
     if archived or locked:
         status = "Resolved"
@@ -126,20 +189,53 @@ def classify(thread):
     else:
         status = "Awaiting reply (from them)"
 
+    resolved_at = archive_dt or (last_dt if status == "Resolved" else None)
+    days_to_close = (resolved_at - created_dt).days if resolved_at else None
+
     now = datetime.now(timezone.utc)
     return {
         "id": thread_id,
         "name": name,
         "url": f"https://discord.com/channels/{GUILD_ID}/{thread_id}",
         "status": status,
+        "category": classify_issue(name),
+        "requester": requester,
         "received": created_dt.strftime("%Y-%m-%d"),
         "last": last_dt.strftime("%Y-%m-%d"),
+        "resolvedAt": resolved_at.strftime("%Y-%m-%d") if resolved_at else None,
         "daysOpen": (now - last_dt).days,
         "daysSinceReceived": (now - created_dt).days,
+        "daysToClose": days_to_close,
         "messageCount": msg_count,
         "archived": archived,
         "locked": locked,
+        "resolutionSnippet": clean_snippet(last_msg.get("content")) if (status == "Resolved" and last_msg) else "",
     }
+
+
+def attach_suggestions(results):
+    """For each non-resolved thread, point at the most recently resolved
+    thread in the same category and surface its closing message as a
+    suggested next step."""
+    resolved_by_category = collections.defaultdict(list)
+    for r in results:
+        if r["status"] == "Resolved" and r["resolutionSnippet"]:
+            resolved_by_category[r["category"]].append(r)
+    for cat in resolved_by_category:
+        resolved_by_category[cat].sort(key=lambda r: r["resolvedAt"] or r["last"], reverse=True)
+
+    for r in results:
+        r["suggestion"] = None
+        if r["status"] == "Resolved":
+            continue
+        candidates = [c for c in resolved_by_category.get(r["category"], []) if c["id"] != r["id"]]
+        if candidates:
+            best = candidates[0]
+            r["suggestion"] = {
+                "fromThreadName": best["name"],
+                "fromThreadUrl": best["url"],
+                "snippet": best["resolutionSnippet"],
+            }
 
 
 def main():
@@ -147,24 +243,32 @@ def main():
     archived = fetch_archived_threads()
     all_threads = active + archived
 
-    results = [classify(t) for t in all_threads]
-    # newest activity first
+    results = [collect_thread(t) for t in all_threads]
+    attach_suggestions(results)
     results.sort(key=lambda r: r["last"], reverse=True)
 
     statuses = ["No response", "Awaiting reply (from us)", "Awaiting reply (from them)", "Resolved"]
     summary = {s: len([r for r in results if r["status"] == s]) for s in statuses}
 
     open_days = [r["daysOpen"] for r in results if r["status"] != "Resolved"]
-    resolved_days = [r["daysOpen"] for r in results if r["status"] == "Resolved"]
+    close_days = [r["daysToClose"] for r in results if r["daysToClose"] is not None]
     avg_open = round(sum(open_days) / len(open_days), 1) if open_days else None
-    avg_resolved = round(sum(resolved_days) / len(resolved_days), 1) if resolved_days else None
+    avg_days_to_close = round(sum(close_days) / len(close_days), 1) if close_days else None
+
+    category_counts = collections.Counter(r["category"] for r in results)
+    top_categories = [{"category": c, "count": n} for c, n in category_counts.most_common(15)]
+
+    requester_counts = collections.Counter(r["requester"] for r in results)
+    top_requesters = [{"name": n, "count": c} for n, c in requester_counts.most_common(15)]
 
     out = {
         "generatedAt": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
         "threads": results,
         "summary": summary,
         "avgOpenDays": avg_open,
-        "avgResolvedDays": avg_resolved,
+        "avgDaysToClose": avg_days_to_close,
+        "topCategories": top_categories,
+        "topRequesters": top_requesters,
     }
 
     with open("discord-data.js", "w") as f:
@@ -175,6 +279,7 @@ def main():
         f.write(";\n")
 
     print(f"Wrote discord-data.js with {len(results)} threads. Summary: {summary}")
+    print(f"Avg days to close: {avg_days_to_close}. Top category: {top_categories[:3]}")
 
 
 if __name__ == "__main__":

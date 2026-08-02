@@ -67,6 +67,18 @@
   .btn:hover{background:var(--gray-bg);}
   footer{color:var(--muted); font-size:12px; text-align:center; margin-top:8px;}
   .empty-state{color:var(--muted); font-size:13px; padding:20px 0; text-align:center;}
+  .card.neutral .n{color:var(--accent);}
+  .two-col{display:grid; grid-template-columns:1fr 1fr; gap:20px;}
+  @media (max-width: 800px){ .two-col{grid-template-columns:1fr;} }
+  .bar-row{display:flex; align-items:center; gap:10px; margin-bottom:8px; font-size:13px;}
+  .bar-label{flex:0 0 220px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+  .bar-track{flex:1; background:var(--gray-bg); border-radius:6px; height:10px; overflow:hidden;}
+  .bar-fill{background:var(--accent); height:100%; border-radius:6px;}
+  .bar-count{flex:0 0 28px; text-align:right; font-variant-numeric:tabular-nums; color:var(--muted);}
+  .suggestion{background:var(--gray-bg); border-radius:8px; padding:8px 10px; font-size:12px; color:#374151; margin-top:4px;}
+  .suggestion a{color:var(--accent); font-weight:600; text-decoration:none;}
+  .suggestion a:hover{text-decoration:underline;}
+  .cat-pill{display:inline-block; padding:1px 8px; border-radius:6px; font-size:11.5px; font-weight:600; background:var(--gray-bg); color:#374151; white-space:nowrap;}
 </style>
 </head>
 <body>
@@ -81,17 +93,31 @@
   <div class="card awaiting-us"><div class="n" id="c-awaiting-us">0</div><div class="l">Awaiting reply — from us</div></div>
   <div class="card awaiting-them"><div class="n" id="c-awaiting-them">0</div><div class="l">Awaiting reply — from them</div></div>
   <div class="card resolved"><div class="n" id="c-resolved">0</div><div class="l">Resolved (archived/locked)</div></div>
+  <div class="card neutral"><div class="n" id="c-avg-close">–</div><div class="l">Avg days to close</div></div>
 </div>
 
 <section id="empty-state-section" style="display:none;">
   <div class="empty-state">
-    No data yet — <code>discord-data.js</code> hasn't been generated. Once the Discord bot token and channel/guild IDs
-    are set up as repo secrets/variables and the <code>discord-update.yml</code> workflow has run once
+    No data yet — <code>discord-data.js</code> hasn't been generated. Once the Discord bot token, channel/guild IDs,
+    and Message Content Intent are set up and the <code>discord-update.yml</code> workflow has run once
     (manually via "Run workflow" or on its daily schedule), this page will populate automatically.
   </div>
 </section>
 
 <section id="main-section" style="display:none;">
+  <div class="two-col">
+    <div>
+      <h2 style="margin-top:0;">Most common issues</h2>
+      <div id="category-bars"></div>
+    </div>
+    <div>
+      <h2 style="margin-top:0;">Most active requesters</h2>
+      <div id="requester-bars"></div>
+    </div>
+  </div>
+</section>
+
+<section id="threads-section" style="display:none;">
   <h2>Threads</h2>
   <div class="filters" style="margin-bottom:14px;">
     <select id="f-status">
@@ -101,14 +127,17 @@
       <option value="Awaiting reply (from them)">Awaiting reply (from them)</option>
       <option value="Resolved">Resolved</option>
     </select>
+    <select id="f-category">
+      <option value="">All categories</option>
+    </select>
     <input id="f-search" type="text" placeholder="Search thread name…">
     <span class="count-note" id="f-count"></span>
   </div>
   <table id="threads-table">
     <thead>
       <tr>
-        <th>Thread</th><th>Received</th><th>Last activity</th><th>Status</th>
-        <th class="num">Days</th><th class="num">Messages</th><th>Open</th>
+        <th>Thread</th><th>Category</th><th>Requester</th><th>Status</th>
+        <th class="num">Days</th><th>Suggested fix (from a similar past thread)</th><th>Open</th>
       </tr>
     </thead>
     <tbody></tbody>
@@ -132,19 +161,54 @@ function escapeHtml(s){
   return String(s||"").replace(/[&<>"']/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 }
 
-function renderSummary(summary){
+function renderSummary(summary, avgDaysToClose){
   document.getElementById("c-no-response").textContent = summary["No response"]||0;
   document.getElementById("c-awaiting-us").textContent = summary["Awaiting reply (from us)"]||0;
   document.getElementById("c-awaiting-them").textContent = summary["Awaiting reply (from them)"]||0;
   document.getElementById("c-resolved").textContent = summary["Resolved"]||0;
+  document.getElementById("c-avg-close").textContent = (avgDaysToClose===null || avgDaysToClose===undefined) ? "–" : avgDaysToClose + "d";
+}
+
+function renderBars(containerId, items, labelKey, countKey){
+  const el = document.getElementById(containerId);
+  el.innerHTML = "";
+  if(!items || !items.length){
+    el.innerHTML = `<div class="empty-state">Not enough data yet.</div>`;
+    return;
+  }
+  const max = Math.max(...items.map(i=>i[countKey]));
+  items.forEach(item=>{
+    const pct = max ? Math.round((item[countKey]/max)*100) : 0;
+    const row = document.createElement("div");
+    row.className = "bar-row";
+    row.innerHTML = `
+      <div class="bar-label" title="${escapeHtml(item[labelKey])}">${escapeHtml(item[labelKey])}</div>
+      <div class="bar-track"><div class="bar-fill" style="width:${pct}%"></div></div>
+      <div class="bar-count">${item[countKey]}</div>
+    `;
+    el.appendChild(row);
+  });
+}
+
+function populateCategoryFilter(){
+  const sel = document.getElementById("f-category");
+  const cats = Array.from(new Set(DATA.threads.map(t=>t.category))).sort();
+  cats.forEach(c=>{
+    const opt = document.createElement("option");
+    opt.value = c;
+    opt.textContent = c;
+    sel.appendChild(opt);
+  });
 }
 
 function renderThreads(){
   const s = document.getElementById("f-status").value;
+  const cat = document.getElementById("f-category").value;
   const q = document.getElementById("f-search").value.trim().toLowerCase();
 
   const rows = DATA.threads.filter(t=>{
     if(s && t.status!==s) return false;
+    if(cat && t.category!==cat) return false;
     if(q && !t.name.toLowerCase().includes(q)) return false;
     return true;
   }).sort((a,b)=> new Date(b.last) - new Date(a.last));
@@ -154,15 +218,27 @@ function renderThreads(){
   rows.forEach(t=>{
     const cls = statusClass[t.status] || "no-response";
     const warn = (t.status!=="Resolved" && t.daysOpen>=7) ? "days-warn" : "";
+
+    let suggestionHtml = "—";
+    if(t.status === "Resolved"){
+      suggestionHtml = `<span style="color:var(--muted);">Already resolved</span>`;
+    } else if(t.suggestion){
+      suggestionHtml = `
+        <div class="suggestion">
+          From <a href="${t.suggestion.fromThreadUrl}" target="_blank" rel="noopener">${escapeHtml(t.suggestion.fromThreadName)}</a>:
+          "${escapeHtml(t.suggestion.snippet)}"
+        </div>`;
+    }
+
     const tr = document.createElement("tr");
     tr.innerHTML = `
       <td><a href="${t.url}" target="_blank" rel="noopener">${escapeHtml(t.name)}</a></td>
-      <td>${t.received||""}</td>
-      <td>${t.last||""}</td>
+      <td><span class="cat-pill">${escapeHtml(t.category)}</span></td>
+      <td>${escapeHtml(t.requester||"")}</td>
       <td><span class="badge ${cls}">${t.status}</span></td>
       <td class="num days-open ${warn}">${t.daysOpen}</td>
-      <td class="num">${t.messageCount||0}</td>
-      <td><a class="btn" href="${t.url}" target="_blank" rel="noopener">Open in Discord</a></td>
+      <td>${suggestionHtml}</td>
+      <td><a class="btn" href="${t.url}" target="_blank" rel="noopener">Open</a></td>
     `;
     tbody.appendChild(tr);
   });
@@ -170,15 +246,20 @@ function renderThreads(){
 }
 
 document.getElementById("f-status").addEventListener("change", renderThreads);
+document.getElementById("f-category").addEventListener("change", renderThreads);
 document.getElementById("f-search").addEventListener("input", renderThreads);
 
 if(!DATA || !DATA.threads){
   document.getElementById("empty-state-section").style.display = "block";
 } else {
   document.getElementById("main-section").style.display = "block";
+  document.getElementById("threads-section").style.display = "block";
   document.getElementById("header-sub").textContent =
     "Tech-issue threads in the tracked channel · data as of " + (DATA.generatedAt || "unknown date");
-  renderSummary(DATA.summary || {});
+  renderSummary(DATA.summary || {}, DATA.avgDaysToClose);
+  renderBars("category-bars", DATA.topCategories, "category", "count");
+  renderBars("requester-bars", DATA.topRequesters, "name", "count");
+  populateCategoryFilter();
   renderThreads();
 }
 </script>
