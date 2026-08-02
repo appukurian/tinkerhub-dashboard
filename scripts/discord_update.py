@@ -22,6 +22,7 @@ import json
 import time
 import urllib.request
 import urllib.error
+import urllib.parse
 from datetime import datetime, timezone
 
 API = "https://discord.com/api/v10"
@@ -83,7 +84,7 @@ def fetch_archived_threads(max_pages=20):
     for _ in range(max_pages):
         path = f"/channels/{CHANNEL_ID}/threads/archived/public?limit=100"
         if before:
-            path += f"&before={before}"
+            path += f"&before={urllib.parse.quote(before, safe='')}"
         data = discord_get(path)
         batch = data.get("threads", [])
         threads.extend(batch)
