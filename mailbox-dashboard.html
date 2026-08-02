@@ -160,6 +160,7 @@
   <div class="modal">
     <h3 id="close-modal-title">Close thread</h3>
     <div class="modal-sub" id="close-modal-sub"></div>
+    <div class="modal-sub" id="close-modal-link" style="margin-top:-8px;"></div>
     <textarea id="close-note-input" placeholder="Add a closing note (e.g. what was done / how it was resolved)…"></textarea>
     <div class="modal-actions">
       <button class="btn" id="close-cancel">Cancel</button>
@@ -278,7 +279,7 @@ function renderThreads(){
     if(s && t.status!==s) return false;
     if(q && !(t.subject.toLowerCase().includes(q) || t.counterpart.toLowerCase().includes(q))) return false;
     return true;
-  }).sort((a,b)=> b.daysOpen - a.daysOpen);
+  }).sort((a,b)=> new Date(b.last) - new Date(a.last));
 
   const tbody = document.querySelector("#threads-table tbody");
   tbody.innerHTML = "";
@@ -289,12 +290,23 @@ function renderThreads(){
       ? `<div class="closing-note">Closed ${t.closedAt||""}: ${escapeHtml(t.closingNote||"(no note)")}</div>`
       : escapeHtml(t.note||"");
 
-    const replyHref = t.email
+    // Prefer opening the real Gmail thread in a new tab (same logged-in Chrome session).
+    // Fall back to mailto: only if we don't have a Gmail thread id for this row.
+    const gmailHref = t.threadId
+      ? `https://mail.google.com/mail/u/0/#all/${t.threadId}`
+      : null;
+    const mailtoHref = t.email
       ? `mailto:${encodeURIComponent(t.email)}?subject=${encodeURIComponent("Re: " + t.subject)}`
       : null;
+
+    const subjectHtml = gmailHref
+      ? `<a href="${gmailHref}" target="_blank" rel="noopener">${escapeHtml(t.subject)}</a>`
+      : escapeHtml(t.subject);
+
+    const replyHref = gmailHref || mailtoHref;
     const replyBtn = replyHref
-      ? `<a class="btn reply" href="${replyHref}">Reply</a>`
-      : `<button class="btn reply" disabled title="No direct email address for this thread">Reply</button>`;
+      ? `<a class="btn reply" href="${replyHref}" target="_blank" rel="noopener">${gmailHref ? "Open in Gmail" : "Reply"}</a>`
+      : `<button class="btn reply" disabled title="No email or thread reference for this row">Reply</button>`;
 
     const closeBtn = t.status === "Resolved"
       ? (t.manuallyClosed ? `<button class="btn reopen" data-reopen="${t.id}">Reopen</button>` : "")
@@ -303,7 +315,7 @@ function renderThreads(){
     const tr = document.createElement("tr");
     tr.innerHTML = `
       <td><span class="grp-pill">${t.group}</span></td>
-      <td>${escapeHtml(t.subject)}</td>
+      <td>${subjectHtml}</td>
       <td>${escapeHtml(t.counterpart)}</td>
       <td>${t.received||""}</td>
       <td><span class="badge ${cls}">${t.status}</span></td>
@@ -330,6 +342,12 @@ function openCloseModal(id){
   if(!t) return;
   pendingCloseId = id;
   document.getElementById("close-modal-sub").textContent = t.subject + " — " + t.counterpart;
+  const linkEl = document.getElementById("close-modal-link");
+  if(t.threadId){
+    linkEl.innerHTML = `<a href="https://mail.google.com/mail/u/0/#all/${t.threadId}" target="_blank" rel="noopener">Open thread in Gmail ↗</a>`;
+  } else {
+    linkEl.textContent = "";
+  }
   document.getElementById("close-note-input").value = "";
   document.getElementById("close-modal").classList.add("open");
   document.getElementById("close-note-input").focus();
