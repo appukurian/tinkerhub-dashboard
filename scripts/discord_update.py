@@ -7,6 +7,18 @@ Runs inside GitHub Actions (see .github/workflows/discord-update.yml), NOT in
 any Claude sandbox — the bot token stays a GitHub Actions secret and is never
 seen outside GitHub's own infrastructure.
 
+INCREMENTAL BY DESIGN: once a thread is archived/locked (= resolved), its data
+can never change again, so we never re-fetch it. Each run:
+  1. Reads yesterday's discord-data.js (already checked out by the workflow)
+     and keeps every thread already marked Resolved, as-is.
+  2. Fully re-processes every currently ACTIVE thread (cheap, small set).
+  3. Walks the archived-threads list newest-first and stops as soon as it
+     hits a thread ID it already has recorded as Resolved — anything older
+     is guaranteed to already be known, so only genuinely NEWLY-archived
+     threads get the expensive per-thread message lookups.
+On the very first run (no previous discord-data.js), this just degrades to a
+full fetch of everything, same as before.
+
 Required environment variables:
   DISCORD_BOT_TOKEN   - a Discord bot token (repo SECRET)
   DISCORD_GUILD_ID    - the Discord server (guild) ID (repo secret or variable)
@@ -31,6 +43,7 @@ from datetime import datetime, timezone
 API = "https://discord.com/api/v10"
 DISCORD_EPOCH_MS = 1420070400000
 SNIPPET_MAX_LEN = 300
+OUTPUT_PATH = "discord-data.js"
 
 TOKEN = os.environ.get("DISCORD_BOT_TOKEN", "")
 GUILD_ID = os.environ.get("DISCORD_GUILD_ID", "")
@@ -82,13 +95,43 @@ def parse_discord_dt(s):
     return datetime.fromisoformat(s.replace("Z", "+00:00"))
 
 
+def parse_date_str(s):
+    if not s:
+        return None
+    return datetime.strptime(s, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+
+
+def load_previous_resolved():
+    """Read the discord-data.js already checked out by the workflow (i.e.
+    yesterday's output) and return {thread_id: record} for every thread
+    already marked Resolved. Fails soft to {} if anything's missing/odd."""
+    try:
+        with open(OUTPUT_PATH, "r") as f:
+            raw = f.read()
+        m = re.search(r"window\.DISCORD_DATA\s*=\s*(\{.*\});?\s*$", raw, re.S)
+        if not m:
+            return {}
+        data = json.loads(m.group(1))
+        return {
+            t["id"]: t
+            for t in data.get("threads", [])
+            if t.get("status") == "Resolved"
+        }
+    except Exception as e:
+        print(f"Could not load previous discord-data.js (starting fresh): {e}")
+        return {}
+
+
 def fetch_active_threads():
     data = discord_get(f"/guilds/{GUILD_ID}/threads/active")
     return [t for t in data.get("threads", []) if str(t.get("parent_id")) == str(CHANNEL_ID)]
 
 
-def fetch_archived_threads(max_pages=30):
-    threads = []
+def fetch_new_archived_threads(known_resolved_ids, max_pages=30):
+    """Walk the archived-threads list (newest-archived-first, per Discord's
+    API ordering) and stop as soon as we hit a thread we already have
+    recorded as Resolved — everything after that point is guaranteed old."""
+    new_threads = []
     before = None
     for _ in range(max_pages):
         path = f"/channels/{CHANNEL_ID}/threads/archived/public?limit=100"
@@ -96,11 +139,16 @@ def fetch_archived_threads(max_pages=30):
             path += f"&before={urllib.parse.quote(before, safe='')}"
         data = discord_get(path)
         batch = data.get("threads", [])
-        threads.extend(batch)
-        if not data.get("has_more") or not batch:
+        hit_known = False
+        for t in batch:
+            if t["id"] in known_resolved_ids:
+                hit_known = True
+                break
+            new_threads.append(t)
+        if hit_known or not data.get("has_more") or not batch:
             break
         before = batch[-1]["thread_metadata"]["archive_timestamp"]
-    return threads
+    return new_threads
 
 
 def boundary_message(thread_id, which):
@@ -162,6 +210,8 @@ def classify_issue(name):
 
 
 def collect_thread(thread):
+    """Full processing (2 extra API calls) — only used for active threads and
+    newly-discovered archived threads, never for already-known resolved ones."""
     thread_id = thread["id"]
     name = thread.get("name") or "(untitled thread)"
     owner_id = thread.get("owner_id")
@@ -213,16 +263,29 @@ def collect_thread(thread):
     }
 
 
+def refresh_relative_fields(record):
+    """Cheaply recompute the 'now'-relative day counters on a carried-over
+    (reused) record, without hitting the API again."""
+    now = datetime.now(timezone.utc)
+    last_dt = parse_date_str(record.get("last"))
+    received_dt = parse_date_str(record.get("received"))
+    if last_dt:
+        record["daysOpen"] = (now - last_dt).days
+    if received_dt:
+        record["daysSinceReceived"] = (now - received_dt).days
+    return record
+
+
 def attach_suggestions(results):
     """For each non-resolved thread, point at the most recently resolved
     thread in the same category and surface its closing message as a
     suggested next step."""
     resolved_by_category = collections.defaultdict(list)
     for r in results:
-        if r["status"] == "Resolved" and r["resolutionSnippet"]:
+        if r["status"] == "Resolved" and r.get("resolutionSnippet"):
             resolved_by_category[r["category"]].append(r)
     for cat in resolved_by_category:
-        resolved_by_category[cat].sort(key=lambda r: r["resolvedAt"] or r["last"], reverse=True)
+        resolved_by_category[cat].sort(key=lambda r: r.get("resolvedAt") or r["last"], reverse=True)
 
     for r in results:
         r["suggestion"] = None
@@ -239,11 +302,28 @@ def attach_suggestions(results):
 
 
 def main():
-    active = fetch_active_threads()
-    archived = fetch_archived_threads()
-    all_threads = active + archived
+    previous_resolved = load_previous_resolved()
 
-    results = [collect_thread(t) for t in all_threads]
+    active = fetch_active_threads()
+    active_ids = {t["id"] for t in active}
+
+    # Anything previously resolved that's active again got reopened —
+    # drop it from "known" so it gets freshly processed via the active list.
+    known_resolved_ids = set(previous_resolved.keys()) - active_ids
+
+    new_archived = fetch_new_archived_threads(known_resolved_ids)
+
+    to_process = active + new_archived
+    freshly_processed = [collect_thread(t) for t in to_process]
+
+    processed_ids = {t["id"] for t in to_process}
+    carried_over = [
+        refresh_relative_fields(dict(rec))
+        for tid, rec in previous_resolved.items()
+        if tid not in processed_ids
+    ]
+
+    results = freshly_processed + carried_over
     attach_suggestions(results)
     results.sort(key=lambda r: r["last"], reverse=True)
 
@@ -251,7 +331,7 @@ def main():
     summary = {s: len([r for r in results if r["status"] == s]) for s in statuses}
 
     open_days = [r["daysOpen"] for r in results if r["status"] != "Resolved"]
-    close_days = [r["daysToClose"] for r in results if r["daysToClose"] is not None]
+    close_days = [r["daysToClose"] for r in results if r.get("daysToClose") is not None]
     avg_open = round(sum(open_days) / len(open_days), 1) if open_days else None
     avg_days_to_close = round(sum(close_days) / len(close_days), 1) if close_days else None
 
@@ -271,14 +351,18 @@ def main():
         "topRequesters": top_requesters,
     }
 
-    with open("discord-data.js", "w") as f:
+    with open(OUTPUT_PATH, "w") as f:
         f.write("// Auto-generated daily by .github/workflows/discord-update.yml\n")
         f.write("// Do NOT hand-edit — this file is overwritten on each run.\n")
         f.write("window.DISCORD_DATA = ")
         f.write(json.dumps(out, indent=2))
         f.write(";\n")
 
-    print(f"Wrote discord-data.js with {len(results)} threads. Summary: {summary}")
+    print(
+        f"Wrote discord-data.js with {len(results)} threads "
+        f"({len(freshly_processed)} freshly processed, {len(carried_over)} carried over unchanged)."
+    )
+    print(f"Summary: {summary}")
     print(f"Avg days to close: {avg_days_to_close}. Top category: {top_categories[:3]}")
 
 
