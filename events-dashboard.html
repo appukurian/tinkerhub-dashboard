@@ -309,7 +309,15 @@ function renderEvents(){
     if(district && ev.district !== district) return false;
     if(q && !((ev.name||"").toLowerCase().includes(q) || (ev.campusName||"").toLowerCase().includes(q))) return false;
     return true;
-  }).sort((a,b)=> new Date(a.start||0) - new Date(b.start||0));
+  }).sort((a,b)=>{
+    // Upcoming/today first (soonest next at the very top), then past
+    // events below that (most recently happened first).
+    const aBucket = whenBucket(a) === "past" ? 1 : 0;
+    const bBucket = whenBucket(b) === "past" ? 1 : 0;
+    if(aBucket !== bBucket) return aBucket - bBucket;
+    const aTime = new Date(a.start||0), bTime = new Date(b.start||0);
+    return aBucket === 0 ? (aTime - bTime) : (bTime - aTime);
+  });
 
   const tbody = document.querySelector("#events-table tbody");
   tbody.innerHTML = "";

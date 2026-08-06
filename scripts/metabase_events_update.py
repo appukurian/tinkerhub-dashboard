@@ -24,7 +24,7 @@ Required env vars:
   METABASE_API_KEY   Metabase API key (X-API-KEY header)
 
 Optional env vars:
-  EVENTS_PAST_DAYS    default 14
+  EVENTS_SINCE_DATE   default "2026-07-01" (fixed cutoff -- "after June")
   EVENTS_FUTURE_DAYS  default 45
 """
 import os
@@ -40,7 +40,7 @@ from datetime import datetime, timezone
 BASE = os.environ.get("METABASE_URL", "").rstrip("/")
 KEY = os.environ.get("METABASE_API_KEY", "")
 DB_ID = 33
-PAST_DAYS = int(os.environ.get("EVENTS_PAST_DAYS", "14"))
+SINCE_DATE = os.environ.get("EVENTS_SINCE_DATE", "2026-07-01")
 FUTURE_DAYS = int(os.environ.get("EVENTS_FUTURE_DAYS", "45"))
 
 OUTPUT_PATH = "events-data.js"
@@ -116,7 +116,7 @@ FROM events e
 LEFT JOIN sub_orgs so ON e.sub_org_id = so.id
 LEFT JOIN venue v ON v.event_id = e.id
 LEFT JOIN att a ON a.event_id = e.id
-WHERE e.start_date >= now() - interval '{PAST_DAYS} days'
+WHERE e.start_date >= timestamp '{SINCE_DATE}'
   AND e.start_date <= now() + interval '{FUTURE_DAYS} days'
   AND e.status != 'cancelled'
   AND (so.id IS NULL OR so.state = 'active')
@@ -305,7 +305,7 @@ def main():
     out = {
         "generatedAt": now.strftime("%Y-%m-%d"),
         "generatedAtIso": now.isoformat(),
-        "windowPastDays": PAST_DAYS,
+        "windowSinceDate": SINCE_DATE,
         "windowFutureDays": FUTURE_DAYS,
         "events": events,
         "summary": summary,
