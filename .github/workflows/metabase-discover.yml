@@ -1,0 +1,46 @@
+name: Metabase schema discovery (one-shot helper)
+
+# Dumps the Metabase schema (databases/tables/fields) into metabase-schema.json
+# so it can be inspected by reading the repo, without needing live API access
+# to Metabase or to the GitHub Actions logs. Safe to re-run any time you add
+# new tables -- it always overwrites metabase-schema.json with the latest.
+
+on:
+  push:
+    paths:
+      - "scripts/metabase_discover.py"
+      - ".github/workflows/metabase-discover.yml"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Discover Metabase schema
+        env:
+          METABASE_URL: ${{ secrets.METABASE_URL }}
+          METABASE_API_KEY: ${{ secrets.METABASE_API_KEY }}
+        run: python scripts/metabase_discover.py
+
+      - name: Commit and push metabase-schema.json
+        run: |
+          git config user.name "TinkerHub Dashboard Bot"
+          git config user.email "actions@github.com"
+          git add metabase-schema.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Metabase schema discovery $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          fi
