@@ -119,6 +119,7 @@ LEFT JOIN att a ON a.event_id = e.id
 WHERE e.start_date >= now() - interval '{PAST_DAYS} days'
   AND e.start_date <= now() + interval '{FUTURE_DAYS} days'
   AND e.status != 'cancelled'
+  AND (so.id IS NULL OR so.state = 'active')
 ORDER BY e.start_date ASC
 """
 
