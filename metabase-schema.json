@@ -1,0 +1,3027 @@
+{
+  "databases": [
+    {
+      "id": 33,
+      "name": "TheHubDB",
+      "engine": "postgres",
+      "tables": [
+        {
+          "id": 65,
+          "name": "attendee_feedback",
+          "display_name": "Attendee Feedback",
+          "schema": "public",
+          "fields": [
+            {
+              "name": "id",
+              "display_name": "ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/PK"
+            },
+            {
+              "name": "attendee_id",
+              "display_name": "Attendee ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "event_id",
+              "display_name": "Event ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "membership_id",
+              "display_name": "Membership ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "overall_experience",
+              "display_name": "Overall Experience",
+              "base_type": "type/Integer",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "facilitator_effectiveness",
+              "display_name": "Facilitator Effectiveness",
+              "base_type": "type/Integer",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "networking_opportunities",
+              "display_name": "Networking Opportunities",
+              "base_type": "type/Integer",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "how_organized",
+              "display_name": "How Organized",
+              "base_type": "type/Integer",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "how_to_improve",
+              "display_name": "How To Improve",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "created_at",
+              "display_name": "Created At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/CreationTimestamp"
+            },
+            {
+              "name": "updated_at",
+              "display_name": "Updated At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/UpdatedTimestamp"
+            },
+            {
+              "name": "liked_most",
+              "display_name": "Liked Most",
+              "base_type": "type/Text",
+              "semantic_type": null
+            }
+          ]
+        },
+        {
+          "id": 47,
+          "name": "attendees",
+          "display_name": "Attendees",
+          "schema": "public",
+          "fields": [
+            {
+              "name": "id",
+              "display_name": "ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/PK"
+            },
+            {
+              "name": "membership_id",
+              "display_name": "Membership ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "event_id",
+              "display_name": "Event ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "check_in",
+              "display_name": "Check In",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "created_at",
+              "display_name": "Created At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/CreationTimestamp"
+            },
+            {
+              "name": "updated_at",
+              "display_name": "Updated At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/UpdatedTimestamp"
+            },
+            {
+              "name": "ticket_id",
+              "display_name": "Ticket ID",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "registration_status",
+              "display_name": "Registration Status",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "check_in_time",
+              "display_name": "Check In Time",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": null
+            },
+            {
+              "name": "check_in_by",
+              "display_name": "Check In By",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "feedback_completed",
+              "display_name": "Feedback Completed",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "team_id",
+              "display_name": "Team ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "venue_id",
+              "display_name": "Venue ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            }
+          ]
+        },
+        {
+          "id": 68,
+          "name": "award_groups",
+          "display_name": "Award Groups",
+          "schema": "public",
+          "fields": [
+            {
+              "name": "id",
+              "display_name": "ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/PK"
+            },
+            {
+              "name": "name",
+              "display_name": "Name",
+              "base_type": "type/Text",
+              "semantic_type": "type/Name"
+            },
+            {
+              "name": "description",
+              "display_name": "Description",
+              "base_type": "type/Text",
+              "semantic_type": "type/Description"
+            },
+            {
+              "name": "created_at",
+              "display_name": "Created At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/CreationTimestamp"
+            },
+            {
+              "name": "updated_at",
+              "display_name": "Updated At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/UpdatedTimestamp"
+            },
+            {
+              "name": "priority",
+              "display_name": "Priority",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "category",
+              "display_name": "Category",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            }
+          ]
+        },
+        {
+          "id": 75,
+          "name": "awards",
+          "display_name": "Awards",
+          "schema": "public",
+          "fields": [
+            {
+              "name": "id",
+              "display_name": "ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/PK"
+            },
+            {
+              "name": "title",
+              "display_name": "Title",
+              "base_type": "type/Text",
+              "semantic_type": "type/Title"
+            },
+            {
+              "name": "description",
+              "display_name": "Description",
+              "base_type": "type/Text",
+              "semantic_type": "type/Description"
+            },
+            {
+              "name": "empty_icon",
+              "display_name": "Empty Icon",
+              "base_type": "type/Text",
+              "semantic_type": "type/URL"
+            },
+            {
+              "name": "filled_icon",
+              "display_name": "Filled Icon",
+              "base_type": "type/Text",
+              "semantic_type": "type/URL"
+            },
+            {
+              "name": "category",
+              "display_name": "Category",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "priority",
+              "display_name": "Priority",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "created_at",
+              "display_name": "Created At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/CreationTimestamp"
+            },
+            {
+              "name": "updated_at",
+              "display_name": "Updated At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/UpdatedTimestamp"
+            },
+            {
+              "name": "group_id",
+              "display_name": "Group ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "sub_org_id",
+              "display_name": "Sub Org ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "membership_id",
+              "display_name": "Membership ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            }
+          ]
+        },
+        {
+          "id": 72,
+          "name": "dependent_events",
+          "display_name": "Dependent Events",
+          "schema": "public",
+          "fields": [
+            {
+              "name": "id",
+              "display_name": "ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/PK"
+            },
+            {
+              "name": "event_id",
+              "display_name": "Event ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "dependent_event_id",
+              "display_name": "Dependent Event ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "created_at",
+              "display_name": "Created At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": null
+            },
+            {
+              "name": "updated_at",
+              "display_name": "Updated At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": null
+            }
+          ]
+        },
+        {
+          "id": 77,
+          "name": "education",
+          "display_name": "Education",
+          "schema": "public",
+          "fields": [
+            {
+              "name": "id",
+              "display_name": "ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/PK"
+            },
+            {
+              "name": "membership_id",
+              "display_name": "Membership ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "school",
+              "display_name": "School",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "degree",
+              "display_name": "Degree",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "field_of_study",
+              "display_name": "Field Of Study",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "location",
+              "display_name": "Location",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "start_date",
+              "display_name": "Start Date",
+              "base_type": "type/Date",
+              "semantic_type": "type/CreationDate"
+            },
+            {
+              "name": "end_date",
+              "display_name": "End Date",
+              "base_type": "type/Date",
+              "semantic_type": null
+            },
+            {
+              "name": "url",
+              "display_name": "URL",
+              "base_type": "type/Text",
+              "semantic_type": "type/URL"
+            },
+            {
+              "name": "is_current",
+              "display_name": "Is Current",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "created_at",
+              "display_name": "Created At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/CreationTimestamp"
+            },
+            {
+              "name": "updated_at",
+              "display_name": "Updated At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/UpdatedTimestamp"
+            },
+            {
+              "name": "is_school",
+              "display_name": "Is School",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "sub_org_id",
+              "display_name": "Sub Org ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            }
+          ]
+        },
+        {
+          "id": 81,
+          "name": "event_group_subscriptions",
+          "display_name": "Event Group Subscriptions",
+          "schema": "public",
+          "fields": [
+            {
+              "name": "id",
+              "display_name": "ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/PK"
+            },
+            {
+              "name": "group_id",
+              "display_name": "Group ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "membership_id",
+              "display_name": "Membership ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "created_at",
+              "display_name": "Created At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/CreationTimestamp"
+            },
+            {
+              "name": "updated_at",
+              "display_name": "Updated At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/UpdatedTimestamp"
+            },
+            {
+              "name": "status",
+              "display_name": "Status",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            }
+          ]
+        },
+        {
+          "id": 83,
+          "name": "event_groups",
+          "display_name": "Event Groups",
+          "schema": "public",
+          "fields": [
+            {
+              "name": "id",
+              "display_name": "ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/PK"
+            },
+            {
+              "name": "resources \u2192 data",
+              "display_name": "Resources \u2192 Data",
+              "base_type": "type/Array",
+              "semantic_type": null
+            },
+            {
+              "name": "skills \u2192 data",
+              "display_name": "Skills \u2192 Data",
+              "base_type": "type/Array",
+              "semantic_type": null
+            },
+            {
+              "name": "name",
+              "display_name": "Name",
+              "base_type": "type/Text",
+              "semantic_type": "type/Name"
+            },
+            {
+              "name": "description",
+              "display_name": "Description",
+              "base_type": "type/Text",
+              "semantic_type": "type/Description"
+            },
+            {
+              "name": "type",
+              "display_name": "Type",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "banner",
+              "display_name": "Banner",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "is_sub_org",
+              "display_name": "Is Sub Org",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "sub_org_id",
+              "display_name": "Sub Org ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "start_date",
+              "display_name": "Start Date",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/CreationTimestamp"
+            },
+            {
+              "name": "end_date",
+              "display_name": "End Date",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": null
+            },
+            {
+              "name": "created_at",
+              "display_name": "Created At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/CreationTimestamp"
+            },
+            {
+              "name": "updated_at",
+              "display_name": "Updated At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/UpdatedTimestamp"
+            },
+            {
+              "name": "access_level",
+              "display_name": "Access Level",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "project_based",
+              "display_name": "Project Based",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "resources",
+              "display_name": "Resources",
+              "base_type": "type/JSON",
+              "semantic_type": "type/SerializedJSON"
+            },
+            {
+              "name": "registration_deadline",
+              "display_name": "Registration Deadline",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": null
+            },
+            {
+              "name": "unique_id",
+              "display_name": "Unique ID",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "campus_exclusive",
+              "display_name": "Campus Exclusive",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "limited_seats",
+              "display_name": "Limited Seats",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "seats",
+              "display_name": "Seats",
+              "base_type": "type/Integer",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "interests",
+              "display_name": "Interests",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "skills",
+              "display_name": "Skills",
+              "base_type": "type/JSON",
+              "semantic_type": "type/SerializedJSON"
+            },
+            {
+              "name": "status",
+              "display_name": "Status",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "discord_reminder_sent",
+              "display_name": "Discord Reminder Sent",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            }
+          ]
+        },
+        {
+          "id": 46,
+          "name": "event_partners",
+          "display_name": "Event Partners",
+          "schema": "public",
+          "fields": [
+            {
+              "name": "id",
+              "display_name": "ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/PK"
+            },
+            {
+              "name": "event_id",
+              "display_name": "Event ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "partner_id",
+              "display_name": "Partner ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "created_at",
+              "display_name": "Created At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/CreationTimestamp"
+            },
+            {
+              "name": "updated_at",
+              "display_name": "Updated At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/UpdatedTimestamp"
+            }
+          ]
+        },
+        {
+          "id": 79,
+          "name": "event_report",
+          "display_name": "Event Report",
+          "schema": "public",
+          "fields": [
+            {
+              "name": "id",
+              "display_name": "ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/PK"
+            },
+            {
+              "name": "materials \u2192 data",
+              "display_name": "Materials \u2192 Data",
+              "base_type": "type/Array",
+              "semantic_type": null
+            },
+            {
+              "name": "photos \u2192 data",
+              "display_name": "Photos \u2192 Data",
+              "base_type": "type/Array",
+              "semantic_type": null
+            },
+            {
+              "name": "organizer_membership_id",
+              "display_name": "Organizer Membership ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "organizer_id",
+              "display_name": "Organizer ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "event_id",
+              "display_name": "Event ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "overall_experience",
+              "display_name": "Overall Experience",
+              "base_type": "type/Integer",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "worth_organizing",
+              "display_name": "Worth Organizing",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "facilitator_effectiveness",
+              "display_name": "Facilitator Effectiveness",
+              "base_type": "type/Integer",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "networking_opportunities",
+              "display_name": "Networking Opportunities",
+              "base_type": "type/Integer",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "how_organized",
+              "display_name": "How Organized",
+              "base_type": "type/Integer",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "alignment_with_outcome",
+              "display_name": "Alignment With Outcome",
+              "base_type": "type/Integer",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "photos",
+              "display_name": "Photos",
+              "base_type": "type/JSON",
+              "semantic_type": "type/SerializedJSON"
+            },
+            {
+              "name": "materials",
+              "display_name": "Materials",
+              "base_type": "type/JSON",
+              "semantic_type": "type/SerializedJSON"
+            },
+            {
+              "name": "created_at",
+              "display_name": "Created At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/CreationTimestamp"
+            },
+            {
+              "name": "updated_at",
+              "display_name": "Updated At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/UpdatedTimestamp"
+            }
+          ]
+        },
+        {
+          "id": 67,
+          "name": "event_team",
+          "display_name": "Event Team",
+          "schema": "public",
+          "fields": [
+            {
+              "name": "id",
+              "display_name": "ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/PK"
+            },
+            {
+              "name": "event_id",
+              "display_name": "Event ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "name",
+              "display_name": "Name",
+              "base_type": "type/Text",
+              "semantic_type": "type/Name"
+            },
+            {
+              "name": "join_code",
+              "display_name": "Join Code",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "max_members",
+              "display_name": "Max Members",
+              "base_type": "type/Integer",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "venue_id",
+              "display_name": "Venue ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "created_at",
+              "display_name": "Created At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/CreationTimestamp"
+            },
+            {
+              "name": "updated_at",
+              "display_name": "Updated At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/UpdatedTimestamp"
+            }
+          ]
+        },
+        {
+          "id": 76,
+          "name": "event_venue",
+          "display_name": "Event Venue",
+          "schema": "public",
+          "fields": [
+            {
+              "name": "id",
+              "display_name": "ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/PK"
+            },
+            {
+              "name": "event_id",
+              "display_name": "Event ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "name",
+              "display_name": "Name",
+              "base_type": "type/Text",
+              "semantic_type": "type/Name"
+            },
+            {
+              "name": "map_url",
+              "display_name": "Map URL",
+              "base_type": "type/Text",
+              "semantic_type": "type/URL"
+            },
+            {
+              "name": "is_sub_org",
+              "display_name": "Is Sub Org",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "sub_org_id",
+              "display_name": "Sub Org ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "is_limited_seats",
+              "display_name": "Is Limited Seats",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "total_seats",
+              "display_name": "Total Seats",
+              "base_type": "type/Integer",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "created_at",
+              "display_name": "Created At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/CreationTimestamp"
+            },
+            {
+              "name": "updated_at",
+              "display_name": "Updated At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/UpdatedTimestamp"
+            },
+            {
+              "name": "is_exclusive",
+              "display_name": "Is Exclusive",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "start_date",
+              "display_name": "Start Date",
+              "base_type": "type/DateTime",
+              "semantic_type": "type/CreationTimestamp"
+            },
+            {
+              "name": "end_date",
+              "display_name": "End Date",
+              "base_type": "type/DateTime",
+              "semantic_type": null
+            },
+            {
+              "name": "registration_deadline",
+              "display_name": "Registration Deadline",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": null
+            },
+            {
+              "name": "address",
+              "display_name": "Address",
+              "base_type": "type/Text",
+              "semantic_type": null
+            }
+          ]
+        },
+        {
+          "id": 50,
+          "name": "events",
+          "display_name": "Events",
+          "schema": "public",
+          "fields": [
+            {
+              "name": "id",
+              "display_name": "ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/PK"
+            },
+            {
+              "name": "skills \u2192 data",
+              "display_name": "Skills \u2192 Data",
+              "base_type": "type/Array",
+              "semantic_type": null
+            },
+            {
+              "name": "name",
+              "display_name": "Name",
+              "base_type": "type/Text",
+              "semantic_type": "type/Name"
+            },
+            {
+              "name": "type",
+              "display_name": "Type",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "description",
+              "display_name": "Description",
+              "base_type": "type/Text",
+              "semantic_type": "type/Description"
+            },
+            {
+              "name": "start_date",
+              "display_name": "Start Date",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/CreationTimestamp"
+            },
+            {
+              "name": "end_date",
+              "display_name": "End Date",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": null
+            },
+            {
+              "name": "banner",
+              "display_name": "Banner",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "org_id",
+              "display_name": "Org ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "sub_org_id",
+              "display_name": "Sub Org ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "created_at",
+              "display_name": "Created At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/CreationTimestamp"
+            },
+            {
+              "name": "updated_at",
+              "display_name": "Updated At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/UpdatedTimestamp"
+            },
+            {
+              "name": "featured",
+              "display_name": "Featured",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "unique_id",
+              "display_name": "Unique ID",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "campus_exclusive",
+              "display_name": "Campus Exclusive",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "location",
+              "display_name": "Location",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "map_url",
+              "display_name": "Map URL",
+              "base_type": "type/Text",
+              "semantic_type": "type/URL"
+            },
+            {
+              "name": "status",
+              "display_name": "Status",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "is_invite_only",
+              "display_name": "Is Invite Only",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "is_virtual",
+              "display_name": "Is Virtual",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "is_limited_seats",
+              "display_name": "Is Limited Seats",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "number_of_seats",
+              "display_name": "Number Of Seats",
+              "base_type": "type/Integer",
+              "semantic_type": "type/Quantity"
+            },
+            {
+              "name": "seats_available",
+              "display_name": "Seats Available",
+              "base_type": "type/Integer",
+              "semantic_type": null
+            },
+            {
+              "name": "is_external",
+              "display_name": "Is External",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "is_space",
+              "display_name": "Is Space",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "is_project_based",
+              "display_name": "Is Project Based",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "meet_url",
+              "display_name": "Meet URL",
+              "base_type": "type/Text",
+              "semantic_type": "type/URL"
+            },
+            {
+              "name": "project_submission_deadline",
+              "display_name": "Project Submission Deadline",
+              "base_type": "type/DateTime",
+              "semantic_type": null
+            },
+            {
+              "name": "allow_non_github_links",
+              "display_name": "Allow Non Github Links",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "is_team_project_submission",
+              "display_name": "Is Team Project Submission",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "external_event_url",
+              "display_name": "External Event URL",
+              "base_type": "type/Text",
+              "semantic_type": "type/URL"
+            },
+            {
+              "name": "interests",
+              "display_name": "Interests",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "skills",
+              "display_name": "Skills",
+              "base_type": "type/JSON",
+              "semantic_type": "type/SerializedJSON"
+            },
+            {
+              "name": "pre_invite",
+              "display_name": "Pre Invite",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "report_submitted",
+              "display_name": "Report Submitted",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "team_event",
+              "display_name": "Team Event",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "team_size",
+              "display_name": "Team Size",
+              "base_type": "type/Integer",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "multiple_venue",
+              "display_name": "Multiple Venue",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "discord_channel_url",
+              "display_name": "Discord Channel URL",
+              "base_type": "type/Text",
+              "semantic_type": "type/URL"
+            },
+            {
+              "name": "discord_channel_name",
+              "display_name": "Discord Channel Name",
+              "base_type": "type/Text",
+              "semantic_type": "type/Source"
+            },
+            {
+              "name": "is_dependent",
+              "display_name": "Is Dependent",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "has_prize",
+              "display_name": "Has Prize",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "registration_deadline",
+              "display_name": "Registration Deadline",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": null
+            },
+            {
+              "name": "group_id",
+              "display_name": "Group ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "prize_claim_deadline",
+              "display_name": "Prize Claim Deadline",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": null
+            },
+            {
+              "name": "group_mandatory",
+              "display_name": "Group Mandatory",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "category_exclusive",
+              "display_name": "Category Exclusive",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "eligible_category_ids",
+              "display_name": "Eligible Category Ids",
+              "base_type": "type/*",
+              "semantic_type": null
+            },
+            {
+              "name": "resource_ids",
+              "display_name": "Resource Ids",
+              "base_type": "type/*",
+              "semantic_type": null
+            }
+          ]
+        },
+        {
+          "id": 73,
+          "name": "experience",
+          "display_name": "Experience",
+          "schema": "public",
+          "fields": [
+            {
+              "name": "id",
+              "display_name": "ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/PK"
+            },
+            {
+              "name": "membership_id",
+              "display_name": "Membership ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "title",
+              "display_name": "Title",
+              "base_type": "type/Text",
+              "semantic_type": "type/Title"
+            },
+            {
+              "name": "description",
+              "display_name": "Description",
+              "base_type": "type/Text",
+              "semantic_type": "type/Description"
+            },
+            {
+              "name": "start_date",
+              "display_name": "Start Date",
+              "base_type": "type/Date",
+              "semantic_type": "type/CreationDate"
+            },
+            {
+              "name": "end_date",
+              "display_name": "End Date",
+              "base_type": "type/Date",
+              "semantic_type": null
+            },
+            {
+              "name": "company",
+              "display_name": "Company",
+              "base_type": "type/Text",
+              "semantic_type": "type/Company"
+            },
+            {
+              "name": "location",
+              "display_name": "Location",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "url",
+              "display_name": "URL",
+              "base_type": "type/Text",
+              "semantic_type": "type/URL"
+            },
+            {
+              "name": "type",
+              "display_name": "Type",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "is_current",
+              "display_name": "Is Current",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "created_at",
+              "display_name": "Created At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/CreationTimestamp"
+            },
+            {
+              "name": "updated_at",
+              "display_name": "Updated At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/UpdatedTimestamp"
+            }
+          ]
+        },
+        {
+          "id": 70,
+          "name": "info_card",
+          "display_name": "Info Card",
+          "schema": "public",
+          "fields": [
+            {
+              "name": "id",
+              "display_name": "ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/PK"
+            },
+            {
+              "name": "info \u2192 content",
+              "display_name": "Info \u2192 Content",
+              "base_type": "type/Array",
+              "semantic_type": null
+            },
+            {
+              "name": "info \u2192 metadata \u2192 banner",
+              "display_name": "Info \u2192 Metadata \u2192 Banner",
+              "base_type": "type/Text",
+              "semantic_type": "type/URL"
+            },
+            {
+              "name": "info \u2192 metadata \u2192 subTitle",
+              "display_name": "Info \u2192 Metadata \u2192 SubTitle",
+              "base_type": "type/Text",
+              "semantic_type": "type/Title"
+            },
+            {
+              "name": "info \u2192 metadata \u2192 title",
+              "display_name": "Info \u2192 Metadata \u2192 Title",
+              "base_type": "type/Text",
+              "semantic_type": "type/Title"
+            },
+            {
+              "name": "info \u2192 primaryAction \u2192 buttonText",
+              "display_name": "Info \u2192 PrimaryAction \u2192 ButtonText",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "info \u2192 primaryAction \u2192 icon",
+              "display_name": "Info \u2192 PrimaryAction \u2192 Icon",
+              "base_type": "type/Text",
+              "semantic_type": "type/URL"
+            },
+            {
+              "name": "info \u2192 primaryAction \u2192 subtitle",
+              "display_name": "Info \u2192 PrimaryAction \u2192 Subtitle",
+              "base_type": "type/Text",
+              "semantic_type": "type/Title"
+            },
+            {
+              "name": "info \u2192 primaryAction \u2192 title",
+              "display_name": "Info \u2192 PrimaryAction \u2192 Title",
+              "base_type": "type/Text",
+              "semantic_type": "type/Title"
+            },
+            {
+              "name": "info \u2192 primaryAction \u2192 url",
+              "display_name": "Info \u2192 PrimaryAction \u2192 URL",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "name",
+              "display_name": "Name",
+              "base_type": "type/Text",
+              "semantic_type": "type/Name"
+            },
+            {
+              "name": "type",
+              "display_name": "Type",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "state",
+              "display_name": "State",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "page_location",
+              "display_name": "Page Location",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "unique_id",
+              "display_name": "Unique ID",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "info",
+              "display_name": "Info",
+              "base_type": "type/JSON",
+              "semantic_type": "type/SerializedJSON"
+            },
+            {
+              "name": "start_date",
+              "display_name": "Start Date",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/CreationTimestamp"
+            },
+            {
+              "name": "end_date",
+              "display_name": "End Date",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": null
+            },
+            {
+              "name": "created_at",
+              "display_name": "Created At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/CreationTimestamp"
+            },
+            {
+              "name": "updated_at",
+              "display_name": "Updated At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/UpdatedTimestamp"
+            }
+          ]
+        },
+        {
+          "id": 35,
+          "name": "invitations",
+          "display_name": "Invitations",
+          "schema": "public",
+          "fields": [
+            {
+              "name": "id",
+              "display_name": "ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/PK"
+            },
+            {
+              "name": "inviter_membership_id",
+              "display_name": "Inviter Membership ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "invitee_phone_number",
+              "display_name": "Invitee Phone Number",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "status",
+              "display_name": "Status",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "created_at",
+              "display_name": "Created At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/CreationTimestamp"
+            },
+            {
+              "name": "updated_at",
+              "display_name": "Updated At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/UpdatedTimestamp"
+            },
+            {
+              "name": "invitee_membership_id",
+              "display_name": "Invitee Membership ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "invitee_name",
+              "display_name": "Invitee Name",
+              "base_type": "type/Text",
+              "semantic_type": null
+            }
+          ]
+        },
+        {
+          "id": 49,
+          "name": "memberships",
+          "display_name": "Memberships",
+          "schema": "public",
+          "fields": [
+            {
+              "name": "address \u2192 addressLine1",
+              "display_name": "Address \u2192 AddressLine1",
+              "base_type": "type/Text",
+              "semantic_type": "type/SerializedJSON"
+            },
+            {
+              "name": "address \u2192 addressLine2",
+              "display_name": "Address \u2192 AddressLine2",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "address \u2192 district",
+              "display_name": "Address \u2192 District",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "address \u2192 landmark",
+              "display_name": "Address \u2192 Landmark",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "address \u2192 pincode",
+              "display_name": "Address \u2192 Pincode",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "address \u2192 state",
+              "display_name": "Address \u2192 State",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "id",
+              "display_name": "ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/PK"
+            },
+            {
+              "name": "skills \u2192 data",
+              "display_name": "Skills \u2192 Data",
+              "base_type": "type/Array",
+              "semantic_type": null
+            },
+            {
+              "name": "name",
+              "display_name": "Name",
+              "base_type": "type/Text",
+              "semantic_type": "type/Name"
+            },
+            {
+              "name": "username",
+              "display_name": "Username",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "avatar",
+              "display_name": "Avatar",
+              "base_type": "type/Text",
+              "semantic_type": "type/URL"
+            },
+            {
+              "name": "bio",
+              "display_name": "Bio",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "github",
+              "display_name": "Github",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "instagram",
+              "display_name": "Instagram",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "linkedin",
+              "display_name": "Linkedin",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "twitter",
+              "display_name": "Twitter",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "user_id",
+              "display_name": "User ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "org_id",
+              "display_name": "Org ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "sub_org_id",
+              "display_name": "Sub Org ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "role_id",
+              "display_name": "Role ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "created_at",
+              "display_name": "Created At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/CreationTimestamp"
+            },
+            {
+              "name": "updated_at",
+              "display_name": "Updated At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/UpdatedTimestamp"
+            },
+            {
+              "name": "unique_id",
+              "display_name": "Unique ID",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "sex",
+              "display_name": "Sex",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "interests",
+              "display_name": "Interests",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "is_student",
+              "display_name": "Is Student",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "is_approved",
+              "display_name": "Is Approved",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "company_name",
+              "display_name": "Company Name",
+              "base_type": "type/Text",
+              "semantic_type": "type/Company"
+            },
+            {
+              "name": "job_type",
+              "display_name": "Job Type",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "invited_by",
+              "display_name": "Invited By",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "email",
+              "display_name": "Email",
+              "base_type": "type/Text",
+              "semantic_type": "type/Email"
+            },
+            {
+              "name": "enable_communication",
+              "display_name": "Enable Communication",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "birthday",
+              "display_name": "Birthday",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/Birthdate"
+            },
+            {
+              "name": "course",
+              "display_name": "Course",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "stream",
+              "display_name": "Stream",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "year_of_admission",
+              "display_name": "Year Of Admission",
+              "base_type": "type/Integer",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "year_of_graduation",
+              "display_name": "Year Of Graduation",
+              "base_type": "type/Integer",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "skills",
+              "display_name": "Skills",
+              "base_type": "type/JSON",
+              "semantic_type": "type/SerializedJSON"
+            },
+            {
+              "name": "is_onboard",
+              "display_name": "Is Onboard",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "discord_id",
+              "display_name": "Discord ID",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "theme",
+              "display_name": "Theme",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "github_token",
+              "display_name": "Github Token",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "username_id",
+              "display_name": "Username ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "is_private",
+              "display_name": "Is Private",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "tshirt_size",
+              "display_name": "Tshirt Size",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "checkin_report_submitted",
+              "display_name": "Checkin Report Submitted",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "address",
+              "display_name": "Address",
+              "base_type": "type/JSON",
+              "semantic_type": "type/SerializedJSON"
+            },
+            {
+              "name": "is_guest",
+              "display_name": "Is Guest",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "status",
+              "display_name": "Status",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "category_id",
+              "display_name": "Category ID",
+              "base_type": "type/Integer",
+              "semantic_type": null
+            },
+            {
+              "name": "food_preference",
+              "display_name": "Food Preference",
+              "base_type": "type/Text",
+              "semantic_type": null
+            }
+          ]
+        },
+        {
+          "id": 33,
+          "name": "opportunities",
+          "display_name": "Opportunities",
+          "schema": "public",
+          "fields": [
+            {
+              "name": "id",
+              "display_name": "ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/PK"
+            },
+            {
+              "name": "partner_id",
+              "display_name": "Partner ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "title",
+              "display_name": "Title",
+              "base_type": "type/Text",
+              "semantic_type": "type/Title"
+            },
+            {
+              "name": "description",
+              "display_name": "Description",
+              "base_type": "type/Text",
+              "semantic_type": "type/Description"
+            },
+            {
+              "name": "location",
+              "display_name": "Location",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "type",
+              "display_name": "Type",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "category",
+              "display_name": "Category",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "mode",
+              "display_name": "Mode",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "deadline",
+              "display_name": "Deadline",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": null
+            },
+            {
+              "name": "external_link",
+              "display_name": "External Link",
+              "base_type": "type/Text",
+              "semantic_type": "type/URL"
+            },
+            {
+              "name": "compensation",
+              "display_name": "Compensation",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "is_external",
+              "display_name": "Is External",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "featured",
+              "display_name": "Featured",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "created_at",
+              "display_name": "Created At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/CreationTimestamp"
+            },
+            {
+              "name": "updated_at",
+              "display_name": "Updated At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/UpdatedTimestamp"
+            },
+            {
+              "name": "is_volunteering",
+              "display_name": "Is Volunteering",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "project_count",
+              "display_name": "Project Count",
+              "base_type": "type/Integer",
+              "semantic_type": "type/Quantity"
+            },
+            {
+              "name": "study_jam_count",
+              "display_name": "Study Jam Count",
+              "base_type": "type/Integer",
+              "semantic_type": "type/Quantity"
+            },
+            {
+              "name": "activity_count",
+              "display_name": "Activity Count",
+              "base_type": "type/Integer",
+              "semantic_type": "type/Quantity"
+            },
+            {
+              "name": "active_campus_only",
+              "display_name": "Active Campus Only",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "student_only",
+              "display_name": "Student Only",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "year_of_graduation",
+              "display_name": "Year Of Graduation",
+              "base_type": "type/Integer",
+              "semantic_type": null
+            },
+            {
+              "name": "eligibility_question",
+              "display_name": "Eligibility Question",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "task_instructions",
+              "display_name": "Task Instructions",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "task_resource",
+              "display_name": "Task Resource",
+              "base_type": "type/Text",
+              "semantic_type": "type/Source"
+            },
+            {
+              "name": "require_github",
+              "display_name": "Require Github",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            }
+          ]
+        },
+        {
+          "id": 42,
+          "name": "organizers",
+          "display_name": "Organizers",
+          "schema": "public",
+          "fields": [
+            {
+              "name": "id",
+              "display_name": "ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/PK"
+            },
+            {
+              "name": "membership_id",
+              "display_name": "Membership ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "event_id",
+              "display_name": "Event ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "created_at",
+              "display_name": "Created At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/CreationTimestamp"
+            },
+            {
+              "name": "updated_at",
+              "display_name": "Updated At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/UpdatedTimestamp"
+            },
+            {
+              "name": "is_host",
+              "display_name": "Is Host",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "venue_id",
+              "display_name": "Venue ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "is_mentor",
+              "display_name": "Is Mentor",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            }
+          ]
+        },
+        {
+          "id": 40,
+          "name": "orgs",
+          "display_name": "Orgs",
+          "schema": "public",
+          "fields": [
+            {
+              "name": "id",
+              "display_name": "ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/PK"
+            },
+            {
+              "name": "name",
+              "display_name": "Name",
+              "base_type": "type/Text",
+              "semantic_type": "type/Name"
+            },
+            {
+              "name": "description",
+              "display_name": "Description",
+              "base_type": "type/Text",
+              "semantic_type": "type/Description"
+            },
+            {
+              "name": "wildcard",
+              "display_name": "Wildcard",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "avatar",
+              "display_name": "Avatar",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "created_at",
+              "display_name": "Created At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/CreationTimestamp"
+            },
+            {
+              "name": "updated_at",
+              "display_name": "Updated At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/UpdatedTimestamp"
+            }
+          ]
+        },
+        {
+          "id": 39,
+          "name": "partner_contacts",
+          "display_name": "Partner Contacts",
+          "schema": "public",
+          "fields": [
+            {
+              "name": "id",
+              "display_name": "ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/PK"
+            },
+            {
+              "name": "partner_id",
+              "display_name": "Partner ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "name",
+              "display_name": "Name",
+              "base_type": "type/Text",
+              "semantic_type": "type/Name"
+            },
+            {
+              "name": "title",
+              "display_name": "Title",
+              "base_type": "type/Text",
+              "semantic_type": "type/Title"
+            },
+            {
+              "name": "email",
+              "display_name": "Email",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "phone",
+              "display_name": "Phone",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "created_at",
+              "display_name": "Created At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/CreationTimestamp"
+            },
+            {
+              "name": "updated_at",
+              "display_name": "Updated At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/UpdatedTimestamp"
+            }
+          ]
+        },
+        {
+          "id": 37,
+          "name": "partners",
+          "display_name": "Partners",
+          "schema": "public",
+          "fields": [
+            {
+              "name": "id",
+              "display_name": "ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/PK"
+            },
+            {
+              "name": "name",
+              "display_name": "Name",
+              "base_type": "type/Text",
+              "semantic_type": "type/Name"
+            },
+            {
+              "name": "description",
+              "display_name": "Description",
+              "base_type": "type/Text",
+              "semantic_type": "type/Description"
+            },
+            {
+              "name": "avatar",
+              "display_name": "Avatar",
+              "base_type": "type/Text",
+              "semantic_type": "type/URL"
+            },
+            {
+              "name": "created_at",
+              "display_name": "Created At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/CreationTimestamp"
+            },
+            {
+              "name": "updated_at",
+              "display_name": "Updated At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/UpdatedTimestamp"
+            }
+          ]
+        },
+        {
+          "id": 78,
+          "name": "prize_claims",
+          "display_name": "Prize Claims",
+          "schema": "public",
+          "fields": [
+            {
+              "name": "address \u2192 addressLine1",
+              "display_name": "Address \u2192 AddressLine1",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "address \u2192 addressLine2",
+              "display_name": "Address \u2192 AddressLine2",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "address \u2192 district",
+              "display_name": "Address \u2192 District",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "address \u2192 landmark",
+              "display_name": "Address \u2192 Landmark",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "address \u2192 pincode",
+              "display_name": "Address \u2192 Pincode",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "address \u2192 state",
+              "display_name": "Address \u2192 State",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "id",
+              "display_name": "ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/PK"
+            },
+            {
+              "name": "attendee_id",
+              "display_name": "Attendee ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "event_id",
+              "display_name": "Event ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "address",
+              "display_name": "Address",
+              "base_type": "type/JSON",
+              "semantic_type": "type/SerializedJSON"
+            },
+            {
+              "name": "tshirt_size",
+              "display_name": "Tshirt Size",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "created_at",
+              "display_name": "Created At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/CreationTimestamp"
+            },
+            {
+              "name": "updated_at",
+              "display_name": "Updated At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/UpdatedTimestamp"
+            }
+          ]
+        },
+        {
+          "id": 80,
+          "name": "project_collaborators",
+          "display_name": "Project Collaborators",
+          "schema": "public",
+          "fields": [
+            {
+              "name": "id",
+              "display_name": "ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/PK"
+            },
+            {
+              "name": "project_id",
+              "display_name": "Project ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "membership_id",
+              "display_name": "Membership ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "created_at",
+              "display_name": "Created At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/CreationTimestamp"
+            },
+            {
+              "name": "updated_at",
+              "display_name": "Updated At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/UpdatedTimestamp"
+            },
+            {
+              "name": "sort_order",
+              "display_name": "Sort Order",
+              "base_type": "type/Integer",
+              "semantic_type": "type/Category"
+            }
+          ]
+        },
+        {
+          "id": 69,
+          "name": "project_stages",
+          "display_name": "Project Stages",
+          "schema": "public",
+          "fields": [
+            {
+              "name": "id",
+              "display_name": "ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/PK"
+            },
+            {
+              "name": "project_id",
+              "display_name": "Project ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "name",
+              "display_name": "Name",
+              "base_type": "type/Text",
+              "semantic_type": "type/Name"
+            },
+            {
+              "name": "start_date",
+              "display_name": "Start Date",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/CreationTimestamp"
+            },
+            {
+              "name": "end_date",
+              "display_name": "End Date",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": null
+            },
+            {
+              "name": "stage_order",
+              "display_name": "Stage Order",
+              "base_type": "type/Integer",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "created_at",
+              "display_name": "Created At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/CreationTimestamp"
+            },
+            {
+              "name": "updated_at",
+              "display_name": "Updated At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/UpdatedTimestamp"
+            }
+          ]
+        },
+        {
+          "id": 43,
+          "name": "projects",
+          "display_name": "Projects",
+          "schema": "public",
+          "fields": [
+            {
+              "name": "id",
+              "display_name": "ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/PK"
+            },
+            {
+              "name": "name",
+              "display_name": "Name",
+              "base_type": "type/Text",
+              "semantic_type": "type/Name"
+            },
+            {
+              "name": "tagline",
+              "display_name": "Tagline",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "description",
+              "display_name": "Description",
+              "base_type": "type/Text",
+              "semantic_type": "type/Description"
+            },
+            {
+              "name": "cover_image",
+              "display_name": "Cover Image",
+              "base_type": "type/Text",
+              "semantic_type": "type/URL"
+            },
+            {
+              "name": "project_url",
+              "display_name": "Project URL",
+              "base_type": "type/Text",
+              "semantic_type": "type/URL"
+            },
+            {
+              "name": "source_code_url",
+              "display_name": "Source Code URL",
+              "base_type": "type/Text",
+              "semantic_type": "type/URL"
+            },
+            {
+              "name": "open_source",
+              "display_name": "Open Source",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "event_based",
+              "display_name": "Event Based",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "event_team_id",
+              "display_name": "Event Team ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "event_id",
+              "display_name": "Event ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "categories",
+              "display_name": "Categories",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "verified",
+              "display_name": "Verified",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "can_collaborate",
+              "display_name": "Can Collaborate",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "start_date",
+              "display_name": "Start Date",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/CreationTimestamp"
+            },
+            {
+              "name": "end_date",
+              "display_name": "End Date",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": null
+            },
+            {
+              "name": "is_completed",
+              "display_name": "Is Completed",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "created_at",
+              "display_name": "Created At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/CreationTimestamp"
+            },
+            {
+              "name": "updated_at",
+              "display_name": "Updated At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/UpdatedTimestamp"
+            },
+            {
+              "name": "type",
+              "display_name": "Type",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "status",
+              "display_name": "Status",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "event_group_id",
+              "display_name": "Event Group ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "github_repo_id",
+              "display_name": "Github Repo ID",
+              "base_type": "type/BigInteger",
+              "semantic_type": null
+            }
+          ]
+        },
+        {
+          "id": 45,
+          "name": "roles",
+          "display_name": "Roles",
+          "schema": "public",
+          "fields": [
+            {
+              "name": "id",
+              "display_name": "ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/PK"
+            },
+            {
+              "name": "name",
+              "display_name": "Name",
+              "base_type": "type/Text",
+              "semantic_type": "type/Name"
+            },
+            {
+              "name": "created_at",
+              "display_name": "Created At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/CreationTimestamp"
+            },
+            {
+              "name": "updated_at",
+              "display_name": "Updated At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/UpdatedTimestamp"
+            }
+          ]
+        },
+        {
+          "id": 38,
+          "name": "schema_migrations",
+          "display_name": "Schema Migrations",
+          "schema": "public",
+          "fields": [
+            {
+              "name": "version",
+              "display_name": "Version",
+              "base_type": "type/BigInteger",
+              "semantic_type": "type/PK"
+            },
+            {
+              "name": "dirty",
+              "display_name": "Dirty",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            }
+          ]
+        },
+        {
+          "id": 48,
+          "name": "space_check_in",
+          "display_name": "Space Check In",
+          "schema": "public",
+          "fields": [
+            {
+              "name": "id",
+              "display_name": "ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/PK"
+            },
+            {
+              "name": "membership_id",
+              "display_name": "Membership ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "check_in_time",
+              "display_name": "Check In Time",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": null
+            },
+            {
+              "name": "check_out_time",
+              "display_name": "Check Out Time",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": null
+            },
+            {
+              "name": "purpose",
+              "display_name": "Purpose",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "is_mentor",
+              "display_name": "Is Mentor",
+              "base_type": "type/Boolean",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "created_at",
+              "display_name": "Created At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/CreationTimestamp"
+            },
+            {
+              "name": "updated_at",
+              "display_name": "Updated At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/UpdatedTimestamp"
+            },
+            {
+              "name": "working_on",
+              "display_name": "Working On",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "project_id",
+              "display_name": "Project ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            }
+          ]
+        },
+        {
+          "id": 66,
+          "name": "space_manager_report",
+          "display_name": "Space Manager Report",
+          "schema": "public",
+          "fields": [
+            {
+              "name": "id",
+              "display_name": "ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/PK"
+            },
+            {
+              "name": "membership_id",
+              "display_name": "Membership ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "work_status",
+              "display_name": "Work Status",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "donor_state",
+              "display_name": "Donor State",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "brief_info",
+              "display_name": "Brief Info",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "remarks",
+              "display_name": "Remarks",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "submitted_by",
+              "display_name": "Submitted By",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "created_at",
+              "display_name": "Created At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/CreationTimestamp"
+            },
+            {
+              "name": "updated_at",
+              "display_name": "Updated At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/UpdatedTimestamp"
+            }
+          ]
+        },
+        {
+          "id": 82,
+          "name": "speaker",
+          "display_name": "Speaker",
+          "schema": "public",
+          "fields": [
+            {
+              "name": "id",
+              "display_name": "ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/PK"
+            },
+            {
+              "name": "name",
+              "display_name": "Name",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "membership_id",
+              "display_name": "Membership ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "event_id",
+              "display_name": "Event ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "tagline",
+              "display_name": "Tagline",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "avatar",
+              "display_name": "Avatar",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "created_at",
+              "display_name": "Created At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": null
+            },
+            {
+              "name": "updated_at",
+              "display_name": "Updated At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": null
+            }
+          ]
+        },
+        {
+          "id": 71,
+          "name": "sub_org_admins",
+          "display_name": "Sub Org Admins",
+          "schema": "public",
+          "fields": [
+            {
+              "name": "id",
+              "display_name": "ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/PK"
+            },
+            {
+              "name": "sub_org_id",
+              "display_name": "Sub Org ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "membership_id",
+              "display_name": "Membership ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "role",
+              "display_name": "Role",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "year",
+              "display_name": "Year",
+              "base_type": "type/Integer",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "created_at",
+              "display_name": "Created At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/CreationTimestamp"
+            },
+            {
+              "name": "updated_at",
+              "display_name": "Updated At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/UpdatedTimestamp"
+            }
+          ]
+        },
+        {
+          "id": 41,
+          "name": "sub_orgs",
+          "display_name": "Sub Orgs",
+          "schema": "public",
+          "fields": [
+            {
+              "name": "id",
+              "display_name": "ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/PK"
+            },
+            {
+              "name": "name",
+              "display_name": "Name",
+              "base_type": "type/Text",
+              "semantic_type": "type/Name"
+            },
+            {
+              "name": "description",
+              "display_name": "Description",
+              "base_type": "type/Text",
+              "semantic_type": "type/Description"
+            },
+            {
+              "name": "avatar",
+              "display_name": "Avatar",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "org_id",
+              "display_name": "Org ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "manager_id",
+              "display_name": "Manager ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "created_at",
+              "display_name": "Created At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/CreationTimestamp"
+            },
+            {
+              "name": "updated_at",
+              "display_name": "Updated At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/UpdatedTimestamp"
+            },
+            {
+              "name": "district",
+              "display_name": "District",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "website",
+              "display_name": "Website",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "address",
+              "display_name": "Address",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "map_url",
+              "display_name": "Map URL",
+              "base_type": "type/Text",
+              "semantic_type": "type/URL"
+            },
+            {
+              "name": "state",
+              "display_name": "State",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "instagram",
+              "display_name": "Instagram",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "linkedin",
+              "display_name": "Linkedin",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "alias",
+              "display_name": "Alias",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "type",
+              "display_name": "Type",
+              "base_type": "type/Text",
+              "semantic_type": "type/Category"
+            },
+            {
+              "name": "principal_name",
+              "display_name": "Principal Name",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "principal_email",
+              "display_name": "Principal Email",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "faculty_name",
+              "display_name": "Faculty Name",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "faculty_email",
+              "display_name": "Faculty Email",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "principal_phone",
+              "display_name": "Principal Phone",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "faculty_phone",
+              "display_name": "Faculty Phone",
+              "base_type": "type/Text",
+              "semantic_type": null
+            }
+          ]
+        },
+        {
+          "id": 74,
+          "name": "username",
+          "display_name": "Username",
+          "schema": "public",
+          "fields": [
+            {
+              "name": "id",
+              "display_name": "ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/PK"
+            },
+            {
+              "name": "username",
+              "display_name": "Username",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "membership_id",
+              "display_name": "Membership ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/FK"
+            },
+            {
+              "name": "created_at",
+              "display_name": "Created At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/CreationTimestamp"
+            },
+            {
+              "name": "updated_at",
+              "display_name": "Updated At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/UpdatedTimestamp"
+            }
+          ]
+        },
+        {
+          "id": 44,
+          "name": "users",
+          "display_name": "Users",
+          "schema": "public",
+          "fields": [
+            {
+              "name": "id",
+              "display_name": "ID",
+              "base_type": "type/Integer",
+              "semantic_type": "type/PK"
+            },
+            {
+              "name": "phone_number",
+              "display_name": "Phone Number",
+              "base_type": "type/Text",
+              "semantic_type": null
+            },
+            {
+              "name": "created_at",
+              "display_name": "Created At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/CreationTimestamp"
+            },
+            {
+              "name": "updated_at",
+              "display_name": "Updated At",
+              "base_type": "type/DateTimeWithLocalTZ",
+              "semantic_type": "type/UpdatedTimestamp"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
