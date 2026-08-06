@@ -23,9 +23,14 @@ Required env vars:
   METABASE_URL       e.g. https://metabase.tinkerhub.org
   METABASE_API_KEY   Metabase API key (X-API-KEY header)
 
-Optional env vars:
-  EVENTS_SINCE_DATE   default "2026-07-01" (fixed cutoff -- "after June")
-  EVENTS_FUTURE_DAYS  default 45
+The query window is always the current Indian financial year (April 1 to
+March 31), computed fresh on every run from "now" -- so it automatically
+rolls over to the new FY on April 1 without needing any config change.
+
+Optional env vars (rarely needed -- override the FY window if you want a
+custom range instead):
+  EVENTS_SINCE_DATE   e.g. "2026-04-01" (overrides the computed FY start)
+  EVENTS_UNTIL_DATE   e.g. "2027-03-31" (overrides the computed FY end)
 """
 import os
 import re
@@ -40,8 +45,21 @@ from datetime import datetime, timezone
 BASE = os.environ.get("METABASE_URL", "").rstrip("/")
 KEY = os.environ.get("METABASE_API_KEY", "")
 DB_ID = 33
-SINCE_DATE = os.environ.get("EVENTS_SINCE_DATE", "2026-07-01")
-FUTURE_DAYS = int(os.environ.get("EVENTS_FUTURE_DAYS", "45"))
+
+
+def current_financial_year():
+    """Indian FY: April 1 -> March 31. Returns (start_date, end_date) as
+    'YYYY-MM-DD' strings, computed from today's date."""
+    today = datetime.now(timezone.utc).date()
+    fy_start_year = today.year if today.month >= 4 else today.year - 1
+    start = f"{fy_start_year}-04-01"
+    end = f"{fy_start_year + 1}-03-31"
+    return start, end
+
+
+_fy_start, _fy_end = current_financial_year()
+SINCE_DATE = os.environ.get("EVENTS_SINCE_DATE", _fy_start)
+UNTIL_DATE = os.environ.get("EVENTS_UNTIL_DATE", _fy_end)
 
 OUTPUT_PATH = "events-data.js"
 GEOCODE_CACHE_PATH = "geocode-cache.json"
@@ -117,7 +135,7 @@ LEFT JOIN sub_orgs so ON e.sub_org_id = so.id
 LEFT JOIN venue v ON v.event_id = e.id
 LEFT JOIN att a ON a.event_id = e.id
 WHERE e.start_date >= timestamp '{SINCE_DATE}'
-  AND e.start_date <= now() + interval '{FUTURE_DAYS} days'
+  AND e.start_date <= timestamp '{UNTIL_DATE}' + interval '1 day'
   AND e.status != 'cancelled'
   AND (so.id IS NULL OR so.state = 'active')
 ORDER BY e.start_date ASC
@@ -306,7 +324,7 @@ def main():
         "generatedAt": now.strftime("%Y-%m-%d"),
         "generatedAtIso": now.isoformat(),
         "windowSinceDate": SINCE_DATE,
-        "windowFutureDays": FUTURE_DAYS,
+        "windowUntilDate": UNTIL_DATE,
         "events": events,
         "summary": summary,
         "byType": [{"type": t, "count": c, "color": EVENT_TYPE_COLORS.get(t, DEFAULT_COLOR)} for t, c in sorted(by_type.items(), key=lambda x: -x[1])],
