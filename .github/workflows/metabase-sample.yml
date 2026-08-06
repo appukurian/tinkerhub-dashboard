@@ -1,0 +1,36 @@
+name: Metabase exploratory sample (one-shot helper)
+
+on:
+  push:
+    paths:
+      - "scripts/metabase_sample.py"
+      - ".github/workflows/metabase-sample.yml"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  sample:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run exploratory queries
+        env:
+          METABASE_URL: ${{ secrets.METABASE_URL }}
+          METABASE_API_KEY: ${{ secrets.METABASE_API_KEY }}
+        run: python scripts/metabase_sample.py
+      - name: Commit and push metabase-sample.json
+        run: |
+          git config user.name "TinkerHub Dashboard Bot"
+          git config user.email "actions@github.com"
+          git add metabase-sample.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Metabase exploratory sample $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          fi
