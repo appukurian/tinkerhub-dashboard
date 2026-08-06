@@ -42,6 +42,17 @@
   @media (max-width: 900px){ .map-layout{grid-template-columns:1fr;} }
   #map{height:560px; border-radius:10px; z-index:0;}
 
+  .when-toggle{display:flex; gap:8px; margin-bottom:14px; flex-wrap:wrap;}
+  .when-btn{
+    border:1px solid var(--border); background:#fff; color:var(--ink);
+    padding:6px 14px; border-radius:99px; font-size:12.5px; font-weight:600;
+    cursor:pointer; user-select:none;
+  }
+  .when-btn:hover{background:var(--gray-bg);}
+  .when-btn.active{background:var(--accent); color:#fff; border-color:var(--accent);}
+  .when-btn.active.today{background:var(--red); border-color:var(--red);}
+  .when-btn.active.upcoming{background:var(--blue); border-color:var(--blue);}
+  .when-btn.active.past{background:var(--gray); border-color:var(--gray);}
   .legend{display:flex; flex-direction:column; gap:8px; margin-bottom:16px;}
   .legend-item{display:flex; align-items:center; gap:8px; font-size:13px; cursor:pointer; user-select:none; padding:4px 6px; border-radius:6px;}
   .legend-item:hover{background:var(--gray-bg);}
@@ -124,6 +135,12 @@
 
 <section id="main-section" style="display:none;">
   <h2 style="margin-bottom:16px;">Where activity is happening</h2>
+  <div class="when-toggle" id="when-toggle">
+    <div class="when-btn active" data-when="">All (window)</div>
+    <div class="when-btn today" data-when="today">Today</div>
+    <div class="when-btn upcoming" data-when="upcoming">Upcoming</div>
+    <div class="when-btn past" data-when="past">Past</div>
+  </div>
   <div class="map-layout">
     <div id="map"></div>
     <div>
@@ -148,13 +165,8 @@
 
 <section id="events-section" style="display:none;">
   <h2>Events</h2>
+  <div class="sub" style="margin:-4px 0 10px; font-size:12px;">Filtered by the Today / Upcoming / Past toggle above the map.</div>
   <div class="filters">
-    <select id="f-when">
-      <option value="">All (window)</option>
-      <option value="today">Today</option>
-      <option value="upcoming">Upcoming</option>
-      <option value="past">Past</option>
-    </select>
     <select id="f-type">
       <option value="">All types</option>
     </select>
@@ -203,6 +215,7 @@ function whenBucket(ev){
 
 let map, markerLayer;
 const activeTypes = new Set();
+let currentWhen = ""; // "", "today", "upcoming", "past" -- shared by map + table
 
 function initMap(){
   map = L.map('map', {scrollWheelZoom:false}).setView([10.27, 76.4], 8);
@@ -215,7 +228,10 @@ function initMap(){
 
 function renderMarkers(){
   markerLayer.clearLayers();
-  const events = DATA.events.filter(e => e.lat != null && e.lng != null && activeTypes.has(e.type));
+  const events = DATA.events.filter(e =>
+    e.lat != null && e.lng != null && activeTypes.has(e.type) &&
+    (currentWhen === "" || whenBucket(e) === currentWhen)
+  );
   events.forEach(ev=>{
     const radius = 5 + Math.min(15, Math.sqrt(ev.registered || 1));
     const marker = L.circleMarker([ev.lat, ev.lng], {
@@ -298,13 +314,12 @@ function populateFilters(){
 }
 
 function renderEvents(){
-  const when = document.getElementById("f-when").value;
   const type = document.getElementById("f-type").value;
   const district = document.getElementById("f-district").value;
   const q = document.getElementById("f-search").value.trim().toLowerCase();
 
   const rows = DATA.events.filter(ev=>{
-    if(when && whenBucket(ev) !== when) return false;
+    if(currentWhen && whenBucket(ev) !== currentWhen) return false;
     if(type && ev.type !== type) return false;
     if(district && ev.district !== district) return false;
     if(q && !((ev.name||"").toLowerCase().includes(q) || (ev.campusName||"").toLowerCase().includes(q))) return false;
@@ -338,7 +353,15 @@ function renderEvents(){
   document.getElementById("f-count").textContent = rows.length + " of " + DATA.events.length + " events";
 }
 
-document.getElementById("f-when").addEventListener("change", renderEvents);
+document.querySelectorAll("#when-toggle .when-btn").forEach(btn=>{
+  btn.addEventListener("click", ()=>{
+    document.querySelectorAll("#when-toggle .when-btn").forEach(b=>b.classList.remove("active"));
+    btn.classList.add("active");
+    currentWhen = btn.dataset.when;
+    renderMarkers();
+    renderEvents();
+  });
+});
 document.getElementById("f-type").addEventListener("change", renderEvents);
 document.getElementById("f-district").addEventListener("change", renderEvents);
 document.getElementById("f-search").addEventListener("input", renderEvents);
