@@ -1,0 +1,1940 @@
+{
+  "event_types": {
+    "columns": [
+      "type",
+      "n"
+    ],
+    "rows": [
+      [
+        "Learning_Program",
+        1019
+      ],
+      [
+        "Meetup",
+        491
+      ],
+      [
+        "Talk_Session",
+        254
+      ],
+      [
+        "Workshop",
+        193
+      ],
+      [
+        "Core_Team_Meeting",
+        180
+      ],
+      [
+        "Bootcamp",
+        155
+      ],
+      [
+        "Hackathon",
+        68
+      ],
+      [
+        "Project_Building_Program",
+        2
+      ],
+      [
+        "Makeathon",
+        1
+      ]
+    ],
+    "row_count": 9
+  },
+  "event_status": {
+    "columns": [
+      "status",
+      "n"
+    ],
+    "rows": [
+      [
+        "published",
+        2310
+      ],
+      [
+        "draft",
+        19
+      ],
+      [
+        "pending",
+        18
+      ],
+      [
+        "paused",
+        9
+      ],
+      [
+        "cancelled",
+        7
+      ]
+    ],
+    "row_count": 5
+  },
+  "sub_org_districts": {
+    "columns": [
+      "district",
+      "state",
+      "n"
+    ],
+    "rows": [
+      [
+        "ernakulam",
+        "unknown",
+        164
+      ],
+      [
+        "thiruvananthapuram",
+        "unknown",
+        139
+      ],
+      [
+        "kozhikode",
+        "unknown",
+        131
+      ],
+      [
+        "malappuram",
+        "unknown",
+        129
+      ],
+      [
+        "thrissur",
+        "unknown",
+        113
+      ],
+      [
+        "kannur",
+        "unknown",
+        88
+      ],
+      [
+        "palakkad",
+        "unknown",
+        83
+      ],
+      [
+        "kollam",
+        "unknown",
+        80
+      ],
+      [
+        "kottayam",
+        "unknown",
+        77
+      ],
+      [
+        "pathanamthitta",
+        "unknown",
+        56
+      ],
+      [
+        "alappuzha",
+        "unknown",
+        53
+      ],
+      [
+        "kasaragod",
+        "unknown",
+        44
+      ],
+      [
+        "idukki",
+        "unknown",
+        34
+      ],
+      [
+        "wayanad",
+        "unknown",
+        21
+      ],
+      [
+        "ernakulam",
+        "active",
+        17
+      ],
+      [
+        "thrissur",
+        "active",
+        10
+      ],
+      [
+        "thiruvananthapuram",
+        "active",
+        6
+      ],
+      [
+        "alappuzha",
+        "active",
+        6
+      ],
+      [
+        "kottayam",
+        "active",
+        6
+      ],
+      [
+        "thrissur ",
+        "unknown",
+        6
+      ],
+      [
+        "kozhikode",
+        "active",
+        5
+      ],
+      [
+        "malappuram",
+        "active",
+        5
+      ],
+      [
+        "idukki ",
+        "unknown",
+        5
+      ],
+      [
+        "kollam",
+        "active",
+        4
+      ],
+      [
+        "palakkad",
+        "active",
+        3
+      ],
+      [
+        "pathanamthitta",
+        "active",
+        3
+      ],
+      [
+        "idukki",
+        "active",
+        3
+      ],
+      [
+        "kasaragod",
+        "active",
+        2
+      ],
+      [
+        "kannur",
+        "active",
+        2
+      ],
+      [
+        "All Kerala",
+        "unknown",
+        2
+      ]
+    ],
+    "row_count": 30
+  },
+  "sub_org_types": {
+    "columns": [
+      "type",
+      "n"
+    ],
+    "rows": [
+      [
+        null,
+        1297
+      ]
+    ],
+    "row_count": 1
+  },
+  "recent_events_sample": {
+    "columns": [
+      "id",
+      "name",
+      "type",
+      "status",
+      "start_date",
+      "end_date",
+      "location",
+      "map_url",
+      "is_virtual",
+      "number_of_seats",
+      "seats_available",
+      "sub_org_id",
+      "campus_name",
+      "district",
+      "state",
+      "campus_address",
+      "campus_map_url"
+    ],
+    "rows": [
+      [
+        3548,
+        "Gerber File Generation",
+        "Learning_Program",
+        "published",
+        "2026-08-11T16:30:00+05:30",
+        "2026-08-11T18:30:00+05:30",
+        "Anitha G Hall",
+        "",
+        false,
+        0,
+        null,
+        2635,
+        "Model Engineering College, Thrikkakara",
+        "ernakulam",
+        "active",
+        "Model Engineering College, Thrikkakara, Kochi 682021",
+        "https://maps.app.goo.gl/3ye4p8MtAjDWPCrS9"
+      ],
+      [
+        3547,
+        "PCB Layout & Routing",
+        "Learning_Program",
+        "published",
+        "2026-08-10T16:30:00+05:30",
+        "2026-08-10T18:30:00+05:30",
+        "Anitha G Hall",
+        "",
+        false,
+        0,
+        null,
+        2635,
+        "Model Engineering College, Thrikkakara",
+        "ernakulam",
+        "active",
+        "Model Engineering College, Thrikkakara, Kochi 682021",
+        "https://maps.app.goo.gl/3ye4p8MtAjDWPCrS9"
+      ],
+      [
+        3520,
+        "Session 4",
+        "Learning_Program",
+        "published",
+        "2026-08-10T16:00:00+05:30",
+        "2026-08-10T18:30:00+05:30",
+        "A324",
+        "",
+        false,
+        0,
+        null,
+        2355,
+        "College of Engineering, Thiruvananthapuram",
+        "thiruvananthapuram",
+        "active",
+        "College of Engineering, thiruvananthapuram 16",
+        "https://maps.app.goo.gl/kE6KGwY3bonvXxkK7"
+      ],
+      [
+        3523,
+        "AI Policy & Governance",
+        "Talk_Session",
+        "published",
+        "2026-08-09T19:30:00+05:30",
+        "2026-08-09T21:00:00+05:30",
+        null,
+        null,
+        true,
+        null,
+        null,
+        2160,
+        "Rajiv Gandhi Institute of Technology, Velloor",
+        "kottayam",
+        "active",
+        "Rajiv Gandhi Institute of Technology, Velloor PO, Pampady, kottayam-686 501",
+        "https://maps.app.goo.gl/Y9bWocbV9VxD3R4f7"
+      ],
+      [
+        3565,
+        "Session 2",
+        "Learning_Program",
+        "published",
+        "2026-08-09T19:00:00+05:30",
+        "2026-08-09T21:00:00+05:30",
+        "",
+        "",
+        true,
+        0,
+        null,
+        2427,
+        "Lourdes Matha College of Science & Technology, Kutttichal",
+        "thiruvananthapuram",
+        "active",
+        "Lourdes Matha College of Science &Technology, Opp. Kalampara Ashram,Kutttichal PO, thiruvananthapuram 695 574",
+        "https://maps.app.goo.gl/sUbgK8coWLW9ecB39"
+      ],
+      [
+        3537,
+        "Repair Cafe",
+        "Bootcamp",
+        "published",
+        "2026-08-09T16:00:00+05:30",
+        "2026-08-09T19:00:00+05:30",
+        "TinkerSpace, 21/258, Cusat.P.O, Punnekkattumoola, Seaport - Airport Rd, Vidya Nagar Colony, Thrikkakara, Kalamassery, Kochi, Kerala 682022",
+        "https://maps.app.goo.gl/j8w832j2VkvJPGeSA",
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        3513,
+        "Bir catchup week 4",
+        "Bootcamp",
+        "published",
+        "2026-08-09T10:00:00+05:30",
+        "2026-08-09T13:00:00+05:30",
+        "TinkerSpace, 21/258, Cusat.P.O, Punnekkattumoola, Seaport - Airport Rd, Vidya Nagar Colony, Thrikkakara, Kalamassery, Kochi, Kerala 682022",
+        "https://maps.app.goo.gl/j8w832j2VkvJPGeSA",
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        3488,
+        "Null Kochi August Meetup",
+        "Bootcamp",
+        "published",
+        "2026-08-09T09:30:00+05:30",
+        "2026-08-09T13:30:00+05:30",
+        "TinkerSpace, 21/258, Cusat.P.O, Punnekkattumoola, Seaport - Airport Rd, Vidya Nagar Colony, Thrikkakara, Kalamassery, Kochi, Kerala 682022",
+        "https://maps.app.goo.gl/j8w832j2VkvJPGeSA",
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        3518,
+        "Core team meeting",
+        "Core_Team_Meeting",
+        "published",
+        "2026-08-08T19:00:00+05:30",
+        "2026-08-08T20:00:00+05:30",
+        null,
+        null,
+        true,
+        null,
+        null,
+        2704,
+        "Muthoot Institute of Technology & Science (MITS), Puthencruz",
+        "ernakulam",
+        "active",
+        "Muthoot Institute of Technology & Science (MITS), Varikoli PO, Puthencruz, ernakulam 682308",
+        "https://www.google.com/maps/search/?api=1&query=Muthoot%20Institute%20of%20Technology%20%26%20Science%20%28MITS%29%2C%20Varikoli%20PO%2C%20Puthencruz%2C%20ernakulam%20682308"
+      ],
+      [
+        3564,
+        "Session 1",
+        "Learning_Program",
+        "published",
+        "2026-08-08T19:00:00+05:30",
+        "2026-08-08T21:00:00+05:30",
+        "",
+        "",
+        true,
+        0,
+        null,
+        2427,
+        "Lourdes Matha College of Science & Technology, Kutttichal",
+        "thiruvananthapuram",
+        "active",
+        "Lourdes Matha College of Science &Technology, Opp. Kalampara Ashram,Kutttichal PO, thiruvananthapuram 695 574",
+        "https://maps.app.goo.gl/sUbgK8coWLW9ecB39"
+      ],
+      [
+        3509,
+        "Introduction to Quantum computing: Exploring Qiskit",
+        "Workshop",
+        "published",
+        "2026-08-08T15:00:00+05:30",
+        "2026-08-08T18:00:00+05:30",
+        "TinkerSpace, 21/258, Cusat.P.O, Punnekkattumoola, Seaport - Airport Rd, Vidya Nagar Colony, Thrikkakara, Kalamassery, Kochi, Kerala 682022",
+        "https://maps.app.goo.gl/j8w832j2VkvJPGeSA",
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        3508,
+        "Introduction to Hardware",
+        "Bootcamp",
+        "published",
+        "2026-08-08T10:00:00+05:30",
+        "2026-08-08T13:00:00+05:30",
+        "TinkerSpace, 21/258, Cusat.P.O, Punnekkattumoola, Seaport - Airport Rd, Vidya Nagar Colony, Thrikkakara, Kalamassery, Kochi, Kerala 682022",
+        "https://maps.app.goo.gl/j8w832j2VkvJPGeSA",
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        3562,
+        "O-\u0d2a\u0d46\u0d7a-\u0d2e\u0d48\u0d15\u0d4d\u0d15\u0d4d",
+        "Talk_Session",
+        "published",
+        "2026-08-07T20:00:00+05:30",
+        "2026-08-07T21:00:00+05:30",
+        null,
+        null,
+        true,
+        null,
+        null,
+        2433,
+        "College of Engineering, Alappuzha",
+        "alappuzha",
+        "active",
+        "College of Engineering andManagement, Vadackal PO, Punnapra,alappuzha 688003",
+        "https://maps.app.goo.gl/yfA7oo82BmV9a4Xp6"
+      ],
+      [
+        3551,
+        "Rapid Prototyping with Node-RED and MQTT",
+        "Bootcamp",
+        "published",
+        "2026-08-07T20:00:00+05:30",
+        "2026-08-07T21:00:00+05:30",
+        null,
+        null,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        3544,
+        "Hello! CHATGPT Eth onnu fix akkuvoo? Day 2",
+        "Learning_Program",
+        "published",
+        "2026-08-07T19:30:00+05:30",
+        "2026-08-07T20:15:00+05:30",
+        null,
+        null,
+        true,
+        39,
+        null,
+        1677,
+        "Jyothi Engineering College, Cheruthuruthy",
+        "thrissur",
+        "active",
+        "Jyothi Engineering College, Jyothi Hills, Panjal Road, Vettikattiri PO, Cheruthuthuruthy, thrissur 679531",
+        "https://www.google.com/maps/search/?api=1&query=Jyothi%20Engineering%20College%2C%20Jyothi%20Hills%2C%20Panjal%20Road%2C%20Vettikattiri%20PO%2C%20Cheruthuthuruthy%2C%20thrissur%20679531"
+      ],
+      [
+        3566,
+        "Prompt Engineering",
+        "Workshop",
+        "pending",
+        "2026-08-07T19:00:00+05:30",
+        "2026-08-07T20:30:00+05:30",
+        null,
+        null,
+        true,
+        null,
+        null,
+        2074,
+        "Ilahia College of Engineering and Technology, Mulavoor",
+        "ernakulam",
+        "active",
+        "Ilahia College of Engineering and Technology, Mulavoor PO, Muvattupuzha, ernakulam-686 673",
+        "https://maps.app.goo.gl/UvmcrSF9rD7kASbXA"
+      ],
+      [
+        3563,
+        "kootam koodam",
+        "Meetup",
+        "pending",
+        "2026-08-07T14:33:00+05:30",
+        "2026-08-07T16:20:00+05:30",
+        "Tinkerspace ASET, IIT BLOCK",
+        "",
+        false,
+        null,
+        null,
+        2689,
+        "Ahalia School of Engineering & Technology, palakkad",
+        "palakkad",
+        "active",
+        "Ahalia School of Engineering & Technology, Kozhippara PO, Pudussery, palakkad",
+        "https://www.google.com/maps/search/?api=1&query=Ahalia%20School%20of%20Engineering%20%26%20Technology%2C%20Kozhippara%20PO%2C%20Pudussery%2C%20palakkad"
+      ],
+      [
+        3561,
+        "zero logic",
+        "Talk_Session",
+        "published",
+        "2026-08-07T14:00:00+05:30",
+        "2026-08-07T16:00:00+05:30",
+        "college room no 117",
+        "",
+        false,
+        null,
+        null,
+        1673,
+        "Thejus College Engineering College, Erumapetti",
+        "thrissur",
+        "active",
+        "Thejus Engineering College,9/403,Vellarakkad PO, Erumapetti thrissur 680584",
+        "https://maps.app.goo.gl/1TsSvANu1kK2wPkU6"
+      ],
+      [
+        3454,
+        "Adich Keri Va",
+        "Meetup",
+        "published",
+        "2026-08-07T13:20:00+05:30",
+        "2026-08-07T14:00:00+05:30",
+        "SNGCAST",
+        "",
+        false,
+        null,
+        null,
+        2083,
+        "Sree Narayana Gurukulam College of Engineering, Kadayiruppu",
+        "ernakulam",
+        "active",
+        "Sree Narayana Gurukulam College of Engineering, Kadayiruppu PO, Kolencherry, ernakulam-682311",
+        "https://www.google.com/maps/search/?api=1&query=Sree%20Narayana%20Gurukulam%20College%20of%20Engineering%2C%20Kadayiruppu%20PO%2C%20Kolencherry%2C%20ernakulam-682311"
+      ],
+      [
+        3468,
+        "Melody",
+        "Meetup",
+        "published",
+        "2026-08-07T12:50:00+05:30",
+        "2026-08-07T14:00:00+05:30",
+        "Seminar Hall, College of Engineering Poonjar",
+        "",
+        false,
+        null,
+        null,
+        2612,
+        "College of Engineering, Poonjar",
+        "kottayam",
+        "active",
+        "College of Engineering, Poonjar, Thekkekkara PO, kottayam 686 582",
+        "https://maps.app.goo.gl/dmh6FnCetwpcAU7Q7"
+      ],
+      [
+        3540,
+        "Chaya Salkaram 3.0",
+        "Meetup",
+        "published",
+        "2026-08-07T12:30:00+05:30",
+        "2026-08-07T16:00:00+05:30",
+        "Seminar Hall, Administrative Block",
+        "",
+        false,
+        50,
+        null,
+        2610,
+        "College of Engineering, Perumon",
+        "kollam",
+        "active",
+        "College of Engineering, Perumon PO, Perinad, kollam 691 601",
+        "https://www.google.com/maps/search/?api=1&query=College%20of%20Engineering%2C%20Perumon%20PO%2C%20Perinad%2C%20kollam%20691%20601"
+      ],
+      [
+        3557,
+        "Chai pe charcha",
+        "Meetup",
+        "published",
+        "2026-08-07T12:30:00+05:30",
+        "2026-08-07T14:00:00+05:30",
+        "CV Raman Hall , Einstein Block, Toc H Institute of Science & Technology ",
+        "",
+        false,
+        40,
+        null,
+        2614,
+        "Toc H Institute of Science & Technology, Arakkunnam",
+        "ernakulam",
+        "active",
+        "Toc H Institute of Science & Technology, Arakkunnam, ernakulam 682 313",
+        "https://www.google.com/maps/search/?api=1&query=Toc%20H%20Institute%20of%20Science%20%26%20Technology%2C%20Arakkunnam%2C%20ernakulam%20682%20313"
+      ],
+      [
+        3543,
+        "Hello! CHATGPT Eth onnu fix akkuvoo? Day 1",
+        "Learning_Program",
+        "published",
+        "2026-08-06T19:30:00+05:30",
+        "2026-08-06T20:15:00+05:30",
+        null,
+        null,
+        true,
+        40,
+        null,
+        1677,
+        "Jyothi Engineering College, Cheruthuruthy",
+        "thrissur",
+        "active",
+        "Jyothi Engineering College, Jyothi Hills, Panjal Road, Vettikattiri PO, Cheruthuthuruthy, thrissur 679531",
+        "https://www.google.com/maps/search/?api=1&query=Jyothi%20Engineering%20College%2C%20Jyothi%20Hills%2C%20Panjal%20Road%2C%20Vettikattiri%20PO%2C%20Cheruthuthuruthy%2C%20thrissur%20679531"
+      ],
+      [
+        3534,
+        "Vibe Coding 101: From Beginner to Builder \u2b50",
+        "Learning_Program",
+        "published",
+        "2026-08-06T19:00:00+05:30",
+        "2026-08-06T21:00:00+05:30",
+        "",
+        "",
+        true,
+        0,
+        null,
+        2423,
+        "Sree Buddha College of Engineering, Pattoor",
+        "alappuzha",
+        "active",
+        "Sree Buddha College of Engineering,Pattoor PO, Padanilam, Nooranad,alappuzha",
+        "https://www.google.com/maps/search/?api=1&query=Sree%20Buddha%20College%20of%20Engineering%2CPattoor%20PO%2C%20Padanilam%2C%20Nooranad%2Calappuzha"
+      ],
+      [
+        3510,
+        "Maker Thursday",
+        "Bootcamp",
+        "published",
+        "2026-08-06T19:00:00+05:30",
+        "2026-08-06T20:30:00+05:30",
+        "TinkerSpace, 21/258, Cusat.P.O, Punnekkattumoola, Seaport - Airport Rd, Vidya Nagar Colony, Thrikkakara, Kalamassery, Kochi, Kerala 682022",
+        "https://maps.app.goo.gl/j8w832j2VkvJPGeSA",
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        3549,
+        "Goodalochana",
+        "Core_Team_Meeting",
+        "published",
+        "2026-08-06T18:00:00+05:30",
+        "2026-08-06T19:00:00+05:30",
+        null,
+        null,
+        true,
+        null,
+        null,
+        1959,
+        "St.Thomas College, Ranni",
+        "pathanamthitta",
+        "active",
+        "St.Thomas College, Ranni, Pazhavangadi PO, pathanamthitta 689 673",
+        "https://maps.app.goo.gl/JCRk31MWKnCeFJ1n6"
+      ],
+      [
+        3556,
+        "O Penn Mic 2.O",
+        "Learning_Program",
+        "published",
+        "2026-08-06T18:00:00+05:30",
+        "2026-08-06T22:00:00+05:30",
+        null,
+        null,
+        true,
+        null,
+        null,
+        2423,
+        "Sree Buddha College of Engineering, Pattoor",
+        "alappuzha",
+        "active",
+        "Sree Buddha College of Engineering,Pattoor PO, Padanilam, Nooranad,alappuzha",
+        "https://www.google.com/maps/search/?api=1&query=Sree%20Buddha%20College%20of%20Engineering%2CPattoor%20PO%2C%20Padanilam%2C%20Nooranad%2Calappuzha"
+      ],
+      [
+        3517,
+        "Day 5: OOPS BAKKI",
+        "Learning_Program",
+        "published",
+        "2026-08-06T16:30:00+05:30",
+        "2026-08-06T18:30:00+05:30",
+        "CCF",
+        "",
+        false,
+        0,
+        null,
+        2635,
+        "Model Engineering College, Thrikkakara",
+        "ernakulam",
+        "active",
+        "Model Engineering College, Thrikkakara, Kochi 682021",
+        "https://maps.app.goo.gl/3ye4p8MtAjDWPCrS9"
+      ],
+      [
+        3546,
+        "Schematic Design",
+        "Learning_Program",
+        "published",
+        "2026-08-06T16:30:00+05:30",
+        "2026-08-06T18:30:00+05:30",
+        "Anitha G Hall",
+        "",
+        false,
+        0,
+        null,
+        2635,
+        "Model Engineering College, Thrikkakara",
+        "ernakulam",
+        "active",
+        "Model Engineering College, Thrikkakara, Kochi 682021",
+        "https://maps.app.goo.gl/3ye4p8MtAjDWPCrS9"
+      ],
+      [
+        3560,
+        "chayem puffsum",
+        "Meetup",
+        "published",
+        "2026-08-06T16:00:00+05:30",
+        "2026-08-06T18:30:00+05:30",
+        "Maxwell Hall EEE department",
+        "",
+        false,
+        null,
+        null,
+        1664,
+        "Government Engineering College, Thrissur",
+        "thrissur",
+        "active",
+        "Government Engineering College, Engineering College PO, thrissur",
+        "https://maps.app.goo.gl/5Fo8Q5QwjfWXd7MB6"
+      ],
+      [
+        3558,
+        "Figma Fiesta \u2013 Hands-on Design",
+        "Learning_Program",
+        "published",
+        "2026-08-06T16:00:00+05:30",
+        "2026-08-06T17:00:00+05:30",
+        "A Block",
+        "",
+        false,
+        0,
+        null,
+        2607,
+        "College of Engineering, Karunagappally",
+        "kollam",
+        "active",
+        "College of Engineering, Thodiyoor PO, Karunagappally, kollam 690 523",
+        "https://maps.app.goo.gl/TRFp9Lz5D5sZgUhH8"
+      ],
+      [
+        3539,
+        "Kulfi",
+        "Meetup",
+        "published",
+        "2026-08-06T15:50:00+05:30",
+        "2026-08-06T17:00:00+05:30",
+        "SDPK Hall",
+        "",
+        false,
+        null,
+        null,
+        2616,
+        "College of Engineering, Attingal",
+        "thiruvananthapuram",
+        "active",
+        "College of Engineering, Attingal, thiruvananthapuram 695101",
+        "https://www.google.com/maps/search/?api=1&query=College%20of%20Engineering%2C%20Attingal%2C%20thiruvananthapuram%20695101"
+      ],
+      [
+        3559,
+        "OOLE MELODY",
+        "Meetup",
+        "published",
+        "2026-08-06T11:00:00+05:30",
+        "2026-08-06T15:00:00+05:30",
+        "Ansar Women's College, Perumpilavu",
+        "",
+        false,
+        null,
+        null,
+        1651,
+        "Ansar Women's College, Perumpilavu",
+        "thrissur",
+        "active",
+        "Ansar Women's College, Perumpilavu, thrissur",
+        "https://www.google.com/maps/search/?api=1&query=Ansar%20Women%27s%20College%2C%20Perumpilavu%2C%20thrissur"
+      ],
+      [
+        3553,
+        "Mary Poppins",
+        "Meetup",
+        "published",
+        "2026-08-06T10:30:00+05:30",
+        "2026-08-06T12:30:00+05:30",
+        "Kumaranashan Hall",
+        "https://maps.app.goo.gl/9zrmTTdRWz4Djz5FA",
+        false,
+        null,
+        null,
+        2216,
+        "Sree Narayana Guru College of Engineering & Technology, Chalakode",
+        "kannur",
+        "active",
+        "Sree Narayana Guru College of Engineering & Technology, PO Chalakode, Payyanur kannur-670307",
+        "https://www.google.com/maps/search/?api=1&query=Sree%20Narayana%20Guru%20College%20of%20Engineering%20%26%20Technology%2C%20PO%20Chalakode%2C%20Payyanur%20kannur-670307"
+      ],
+      [
+        3555,
+        "Core Team Meeting",
+        "Core_Team_Meeting",
+        "published",
+        "2026-08-05T21:30:00+05:30",
+        "2026-08-05T22:30:00+05:30",
+        null,
+        null,
+        true,
+        null,
+        null,
+        2081,
+        "SCMS School of Engineering & Technology, Karukutty",
+        "ernakulam",
+        "active",
+        "SCMS School of Engineering & Technology, Karukutty, ernakulam 683 582",
+        "https://www.google.com/maps/search/?api=1&query=SCMS%20School%20of%20Engineering%20%26%20Technology%2C%20Karukutty%2C%20ernakulam%20683%20582"
+      ],
+      [
+        3533,
+        "Figma Fiesta - Day 2",
+        "Learning_Program",
+        "published",
+        "2026-08-05T20:00:00+05:30",
+        "2026-08-05T21:00:00+05:30",
+        "",
+        "",
+        true,
+        0,
+        null,
+        2607,
+        "College of Engineering, Karunagappally",
+        "kollam",
+        "active",
+        "College of Engineering, Thodiyoor PO, Karunagappally, kollam 690 523",
+        "https://maps.app.goo.gl/TRFp9Lz5D5sZgUhH8"
+      ],
+      [
+        3554,
+        "peruvady settakende",
+        "Core_Team_Meeting",
+        "published",
+        "2026-08-05T20:00:00+05:30",
+        "2026-08-05T21:15:00+05:30",
+        null,
+        null,
+        true,
+        null,
+        null,
+        2074,
+        "Ilahia College of Engineering and Technology, Mulavoor",
+        "ernakulam",
+        "active",
+        "Ilahia College of Engineering and Technology, Mulavoor PO, Muvattupuzha, ernakulam-686 673",
+        "https://maps.app.goo.gl/UvmcrSF9rD7kASbXA"
+      ],
+      [
+        3550,
+        "less make Makers 2.0",
+        "Meetup",
+        "published",
+        "2026-08-05T20:00:00+05:30",
+        "2026-08-05T21:00:00+05:30",
+        null,
+        null,
+        true,
+        null,
+        null,
+        2426,
+        "Christ College of Engineering, Irinjalakuda",
+        "thrissur",
+        "active",
+        "Christ College of Engineering, Christ College Road, Irinjalakuda, thrissur 680125",
+        "https://www.google.com/maps/search/?api=1&query=Christ%20College%20of%20Engineering%2C%20Christ%20College%20Road%2C%20Irinjalakuda%2C%20thrissur%20680125"
+      ],
+      [
+        3504,
+        "Day 4: OOPS",
+        "Learning_Program",
+        "published",
+        "2026-08-05T20:00:00+05:30",
+        "2026-08-05T22:00:00+05:30",
+        "CCF",
+        "",
+        true,
+        0,
+        null,
+        2635,
+        "Model Engineering College, Thrikkakara",
+        "ernakulam",
+        "active",
+        "Model Engineering College, Thrikkakara, Kochi 682021",
+        "https://maps.app.goo.gl/3ye4p8MtAjDWPCrS9"
+      ],
+      [
+        3530,
+        "Figma 101",
+        "Learning_Program",
+        "published",
+        "2026-08-05T19:30:00+05:30",
+        "2026-08-05T20:30:00+05:30",
+        null,
+        null,
+        true,
+        null,
+        null,
+        2421,
+        "LBS Institute of Technology for Women, Poojappura",
+        "thiruvananthapuram",
+        "active",
+        "LBS Institute of Technology forWomen, Poojappura, thiruvananthapuram 695 012",
+        "https://www.google.com/maps/search/?api=1&query=LBS%20Institute%20of%20Technology%20forWomen%2C%20Poojappura%2C%20thiruvananthapuram%20695%20012"
+      ]
+    ],
+    "row_count": 40
+  },
+  "upcoming_events_sample": {
+    "columns": [
+      "id",
+      "name",
+      "type",
+      "status",
+      "start_date",
+      "end_date",
+      "location",
+      "campus_name",
+      "district"
+    ],
+    "rows": [
+      [
+        3557,
+        "Chai pe charcha",
+        "Meetup",
+        "published",
+        "2026-08-07T12:30:00+05:30",
+        "2026-08-07T14:00:00+05:30",
+        "CV Raman Hall , Einstein Block, Toc H Institute of Science & Technology ",
+        "Toc H Institute of Science & Technology, Arakkunnam",
+        "ernakulam"
+      ],
+      [
+        3540,
+        "Chaya Salkaram 3.0",
+        "Meetup",
+        "published",
+        "2026-08-07T12:30:00+05:30",
+        "2026-08-07T16:00:00+05:30",
+        "Seminar Hall, Administrative Block",
+        "College of Engineering, Perumon",
+        "kollam"
+      ],
+      [
+        3468,
+        "Melody",
+        "Meetup",
+        "published",
+        "2026-08-07T12:50:00+05:30",
+        "2026-08-07T14:00:00+05:30",
+        "Seminar Hall, College of Engineering Poonjar",
+        "College of Engineering, Poonjar",
+        "kottayam"
+      ],
+      [
+        3454,
+        "Adich Keri Va",
+        "Meetup",
+        "published",
+        "2026-08-07T13:20:00+05:30",
+        "2026-08-07T14:00:00+05:30",
+        "SNGCAST",
+        "Sree Narayana Gurukulam College of Engineering, Kadayiruppu",
+        "ernakulam"
+      ],
+      [
+        3561,
+        "zero logic",
+        "Talk_Session",
+        "published",
+        "2026-08-07T14:00:00+05:30",
+        "2026-08-07T16:00:00+05:30",
+        "college room no 117",
+        "Thejus College Engineering College, Erumapetti",
+        "thrissur"
+      ],
+      [
+        3563,
+        "kootam koodam",
+        "Meetup",
+        "pending",
+        "2026-08-07T14:33:00+05:30",
+        "2026-08-07T16:20:00+05:30",
+        "Tinkerspace ASET, IIT BLOCK",
+        "Ahalia School of Engineering & Technology, palakkad",
+        "palakkad"
+      ],
+      [
+        3566,
+        "Prompt Engineering",
+        "Workshop",
+        "pending",
+        "2026-08-07T19:00:00+05:30",
+        "2026-08-07T20:30:00+05:30",
+        null,
+        "Ilahia College of Engineering and Technology, Mulavoor",
+        "ernakulam"
+      ],
+      [
+        3544,
+        "Hello! CHATGPT Eth onnu fix akkuvoo? Day 2",
+        "Learning_Program",
+        "published",
+        "2026-08-07T19:30:00+05:30",
+        "2026-08-07T20:15:00+05:30",
+        null,
+        "Jyothi Engineering College, Cheruthuruthy",
+        "thrissur"
+      ],
+      [
+        3551,
+        "Rapid Prototyping with Node-RED and MQTT",
+        "Bootcamp",
+        "published",
+        "2026-08-07T20:00:00+05:30",
+        "2026-08-07T21:00:00+05:30",
+        null,
+        null,
+        null
+      ],
+      [
+        3562,
+        "O-\u0d2a\u0d46\u0d7a-\u0d2e\u0d48\u0d15\u0d4d\u0d15\u0d4d",
+        "Talk_Session",
+        "published",
+        "2026-08-07T20:00:00+05:30",
+        "2026-08-07T21:00:00+05:30",
+        null,
+        "College of Engineering, Alappuzha",
+        "alappuzha"
+      ],
+      [
+        3508,
+        "Introduction to Hardware",
+        "Bootcamp",
+        "published",
+        "2026-08-08T10:00:00+05:30",
+        "2026-08-08T13:00:00+05:30",
+        "TinkerSpace, 21/258, Cusat.P.O, Punnekkattumoola, Seaport - Airport Rd, Vidya Nagar Colony, Thrikkakara, Kalamassery, Kochi, Kerala 682022",
+        null,
+        null
+      ],
+      [
+        3509,
+        "Introduction to Quantum computing: Exploring Qiskit",
+        "Workshop",
+        "published",
+        "2026-08-08T15:00:00+05:30",
+        "2026-08-08T18:00:00+05:30",
+        "TinkerSpace, 21/258, Cusat.P.O, Punnekkattumoola, Seaport - Airport Rd, Vidya Nagar Colony, Thrikkakara, Kalamassery, Kochi, Kerala 682022",
+        null,
+        null
+      ],
+      [
+        3518,
+        "Core team meeting",
+        "Core_Team_Meeting",
+        "published",
+        "2026-08-08T19:00:00+05:30",
+        "2026-08-08T20:00:00+05:30",
+        null,
+        "Muthoot Institute of Technology & Science (MITS), Puthencruz",
+        "ernakulam"
+      ],
+      [
+        3564,
+        "Session 1",
+        "Learning_Program",
+        "published",
+        "2026-08-08T19:00:00+05:30",
+        "2026-08-08T21:00:00+05:30",
+        "",
+        "Lourdes Matha College of Science & Technology, Kutttichal",
+        "thiruvananthapuram"
+      ],
+      [
+        3488,
+        "Null Kochi August Meetup",
+        "Bootcamp",
+        "published",
+        "2026-08-09T09:30:00+05:30",
+        "2026-08-09T13:30:00+05:30",
+        "TinkerSpace, 21/258, Cusat.P.O, Punnekkattumoola, Seaport - Airport Rd, Vidya Nagar Colony, Thrikkakara, Kalamassery, Kochi, Kerala 682022",
+        null,
+        null
+      ],
+      [
+        3513,
+        "Bir catchup week 4",
+        "Bootcamp",
+        "published",
+        "2026-08-09T10:00:00+05:30",
+        "2026-08-09T13:00:00+05:30",
+        "TinkerSpace, 21/258, Cusat.P.O, Punnekkattumoola, Seaport - Airport Rd, Vidya Nagar Colony, Thrikkakara, Kalamassery, Kochi, Kerala 682022",
+        null,
+        null
+      ],
+      [
+        3537,
+        "Repair Cafe",
+        "Bootcamp",
+        "published",
+        "2026-08-09T16:00:00+05:30",
+        "2026-08-09T19:00:00+05:30",
+        "TinkerSpace, 21/258, Cusat.P.O, Punnekkattumoola, Seaport - Airport Rd, Vidya Nagar Colony, Thrikkakara, Kalamassery, Kochi, Kerala 682022",
+        null,
+        null
+      ],
+      [
+        3565,
+        "Session 2",
+        "Learning_Program",
+        "published",
+        "2026-08-09T19:00:00+05:30",
+        "2026-08-09T21:00:00+05:30",
+        "",
+        "Lourdes Matha College of Science & Technology, Kutttichal",
+        "thiruvananthapuram"
+      ],
+      [
+        3523,
+        "AI Policy & Governance",
+        "Talk_Session",
+        "published",
+        "2026-08-09T19:30:00+05:30",
+        "2026-08-09T21:00:00+05:30",
+        null,
+        "Rajiv Gandhi Institute of Technology, Velloor",
+        "kottayam"
+      ],
+      [
+        3520,
+        "Session 4",
+        "Learning_Program",
+        "published",
+        "2026-08-10T16:00:00+05:30",
+        "2026-08-10T18:30:00+05:30",
+        "A324",
+        "College of Engineering, Thiruvananthapuram",
+        "thiruvananthapuram"
+      ]
+    ],
+    "row_count": 20
+  },
+  "event_venue_sample": {
+    "columns": [
+      "id",
+      "event_id",
+      "name",
+      "map_url",
+      "is_sub_org",
+      "sub_org_id",
+      "is_limited_seats",
+      "total_seats",
+      "created_at",
+      "updated_at",
+      "is_exclusive",
+      "start_date",
+      "end_date",
+      "registration_deadline",
+      "address"
+    ],
+    "rows": [
+      [
+        311,
+        3128,
+        "Government Engineering College, Thrissur",
+        null,
+        true,
+        1664,
+        true,
+        200,
+        "2026-06-10T13:04:32.497264+05:30",
+        "2026-06-10T13:04:32.497264+05:30",
+        true,
+        "2026-06-07T03:30:00+05:30",
+        "2026-06-18T18:29:00+05:30",
+        "2026-06-19T05:29:00+05:30",
+        "Government Engineering College, Engineering College PO, thrissur"
+      ],
+      [
+        308,
+        3056,
+        "Farook Institute of Management Studies, Farook College",
+        null,
+        true,
+        1759,
+        false,
+        null,
+        "2026-04-08T13:14:18.376824+05:30",
+        "2026-04-08T13:14:18.376824+05:30",
+        false,
+        "2026-04-05T04:30:00+05:30",
+        "2026-04-05T08:30:00+05:30",
+        "2026-04-05T14:00:00+05:30",
+        null
+      ],
+      [
+        307,
+        3056,
+        "Farook Institute of Management Studies, Farook College",
+        null,
+        true,
+        1759,
+        false,
+        null,
+        "2026-04-08T13:14:16.229069+05:30",
+        "2026-04-08T13:14:16.229069+05:30",
+        false,
+        "2026-04-05T04:30:00+05:30",
+        "2026-04-05T08:30:00+05:30",
+        "2026-04-05T14:00:00+05:30",
+        null
+      ],
+      [
+        306,
+        2783,
+        "Nirmala College Muvattupuzha (Autonomous)",
+        "https://maps.app.goo.gl/BKowpkRVo8SahC5m9",
+        false,
+        null,
+        true,
+        60,
+        "2026-02-25T22:06:37.873745+05:30",
+        "2026-02-25T22:06:37.873745+05:30",
+        false,
+        "2026-03-01T16:00:00+05:30",
+        "2026-03-02T14:00:00+05:30",
+        "2026-03-02T15:00:00+05:30",
+        "Nirmala college JN, Kizhakkekara, Muvattupuzha, Kerala 686661"
+      ],
+      [
+        305,
+        2783,
+        "TinkerSpace Kochi",
+        "https://maps.app.goo.gl/dSLZZ6ssJbJCxoEx6",
+        true,
+        2913,
+        true,
+        80,
+        "2026-02-25T12:39:11.940002+05:30",
+        "2026-02-25T12:39:11.940002+05:30",
+        false,
+        "2026-02-27T10:30:00+05:30",
+        "2026-02-28T08:30:00+05:30",
+        "2026-02-27T15:00:00+05:30",
+        "21/258, Cusat.P.O, Punnekkattumoola, Seaport - Airport Rd, Vidya Nagar Colony, Thrikkakara, Kalamassery, Kochi, Kerala 682022"
+      ],
+      [
+        310,
+        3078,
+        "TinkerSpace Kochi",
+        "https://maps.app.goo.gl/dSLZZ6ssJbJCxoEx6",
+        true,
+        2913,
+        true,
+        200,
+        "2026-02-25T12:39:11.940002+05:30",
+        "2026-02-25T12:39:11.940002+05:30",
+        false,
+        "2026-05-09T04:30:00+05:30",
+        "2026-05-10T19:30:00+05:30",
+        "2026-05-11T01:00:00+05:30",
+        "21/258, Cusat.P.O, Punnekkattumoola, Seaport - Airport Rd, Vidya Nagar Colony, Thrikkakara, Kalamassery, Kochi, Kerala 682022"
+      ],
+      [
+        304,
+        2783,
+        "Sree Narayana Guru college of engineering & Technology, Payyanur",
+        "https://maps.app.goo.gl/D1V5k6cUZG5jzHkv9",
+        false,
+        null,
+        true,
+        60,
+        "2026-02-22T14:26:17.851848+05:30",
+        "2026-02-22T14:26:17.851848+05:30",
+        false,
+        "2026-02-28T00:30:00+05:30",
+        "2026-02-28T16:30:00+05:30",
+        "2026-02-27T15:00:00+05:30",
+        "Post Chalakode, Korom, Payyanur, Kerala 670307"
+      ],
+      [
+        299,
+        2783,
+        "Vidya Academy of Science and Technology Thrissur",
+        "https://maps.app.goo.gl/56t1ymNSo9cdq3XG9",
+        true,
+        1670,
+        true,
+        100,
+        "2026-02-18T16:14:40.055732+05:30",
+        "2026-02-18T16:14:40.055732+05:30",
+        false,
+        "2026-02-27T10:30:00+05:30",
+        "2026-02-28T08:30:00+05:30",
+        "2026-02-27T15:00:00+05:30",
+        "P.O. Thalakottukara,, Kaipparambu, Thrissur, Kerala 680601"
+      ],
+      [
+        298,
+        2783,
+        "TKM College of Engineering",
+        "https://maps.app.goo.gl/RLSL1zn17g6aS3iY9",
+        true,
+        2357,
+        true,
+        100,
+        "2026-02-18T16:11:11.060427+05:30",
+        "2026-02-18T16:11:11.060427+05:30",
+        true,
+        "2026-02-27T10:30:00+05:30",
+        "2026-02-28T08:30:00+05:30",
+        "2026-02-27T15:00:00+05:30",
+        "Kollam - Thirumangalam Rd, Karicode, Peroor, Kollam, Kerala 691005"
+      ],
+      [
+        297,
+        2783,
+        "Sreepathy Institute of Management and Technology",
+        "https://maps.app.goo.gl/7P7yZDgxYYvxaw1z7",
+        false,
+        null,
+        true,
+        50,
+        "2026-02-18T16:08:14.483154+05:30",
+        "2026-02-18T16:08:14.483154+05:30",
+        false,
+        "2026-02-27T10:30:00+05:30",
+        "2026-02-28T08:30:00+05:30",
+        "2026-02-27T15:00:00+05:30",
+        "Q46V+QP7, Vavanoor, Koottanad, Kerala 679533"
+      ],
+      [
+        294,
+        2783,
+        "Providence College for Women (Autonomous), Coonoor. The Nilgiris.",
+        "https://maps.app.goo.gl/D7HoiZ9Xo5YxNke56",
+        false,
+        null,
+        true,
+        60,
+        "2026-02-18T15:50:44.158768+05:30",
+        "2026-02-18T15:50:44.158768+05:30",
+        false,
+        "2026-02-28T00:30:00+05:30",
+        "2026-02-28T16:30:00+05:30",
+        "2026-02-28T12:00:00+05:30",
+        "Spring Field, Coonoor, Bandishola, Tamil Nadu 643103"
+      ],
+      [
+        293,
+        2783,
+        "National Institute of Technology Calicut",
+        "https://maps.app.goo.gl/EW9T93vBQusig1YZ9",
+        false,
+        null,
+        true,
+        50,
+        "2026-02-18T15:46:41.969356+05:30",
+        "2026-02-18T15:46:41.969356+05:30",
+        false,
+        "2026-02-28T00:30:00+05:30",
+        "2026-02-28T16:30:00+05:30",
+        "2026-02-28T12:00:00+05:30",
+        "8WCM+JFX, Calicut Mukkam Road, Kattangal, Kerala 673601"
+      ],
+      [
+        292,
+        2783,
+        "MES College of Engineering and Technology, Kunnukara",
+        "https://maps.app.goo.gl/NwJtdoVsnoyb7c6b6",
+        true,
+        2702,
+        true,
+        50,
+        "2026-02-18T15:42:43.706329+05:30",
+        "2026-02-18T15:42:43.706329+05:30",
+        true,
+        "2026-02-28T00:30:00+05:30",
+        "2026-02-28T16:30:00+05:30",
+        "2026-02-28T00:00:00+05:30",
+        "Kunnukara, Kerala 683578"
+      ],
+      [
+        291,
+        2783,
+        "MBCCET peermade",
+        "https://maps.app.goo.gl/DAxwSrYgnDgo1nKh9",
+        true,
+        1949,
+        true,
+        70,
+        "2026-02-18T15:40:29.7876+05:30",
+        "2026-02-18T15:40:29.7876+05:30",
+        true,
+        "2026-03-02T00:30:00+05:30",
+        "2026-03-02T16:30:00+05:30",
+        "2026-03-02T15:00:00+05:30",
+        "Pallikunnu Peermade Rd, Peermade, Kuttikkanam, Kerala 685531"
+      ],
+      [
+        290,
+        2783,
+        "Govt. Model Engineering College, Thrikkakara",
+        "https://maps.app.goo.gl/MjLbFHpzCTuQoRrH8",
+        true,
+        2635,
+        true,
+        120,
+        "2026-02-18T15:38:00.383868+05:30",
+        "2026-02-18T15:38:00.383868+05:30",
+        true,
+        "2026-02-27T10:30:00+05:30",
+        "2026-02-28T08:30:00+05:30",
+        "2026-02-27T15:00:00+05:30",
+        "28HH+8CR, Model Engineering College Road, Karimakkad, Thrikkakara, Edappally, Ernakulam, Kochi, Kerala 682021"
+      ]
+    ],
+    "row_count": 15
+  },
+  "attendee_counts_sample": {
+    "columns": [
+      "event_id",
+      "registered",
+      "checked_in"
+    ],
+    "rows": [
+      [
+        null,
+        5141,
+        62
+      ],
+      [
+        1451,
+        5019,
+        3282
+      ],
+      [
+        807,
+        3970,
+        3018
+      ],
+      [
+        2783,
+        3744,
+        2838
+      ],
+      [
+        635,
+        2555,
+        1814
+      ],
+      [
+        2314,
+        829,
+        390
+      ],
+      [
+        720,
+        738,
+        291
+      ],
+      [
+        2985,
+        636,
+        252
+      ],
+      [
+        721,
+        488,
+        194
+      ],
+      [
+        1288,
+        460,
+        110
+      ],
+      [
+        2168,
+        321,
+        94
+      ],
+      [
+        862,
+        303,
+        138
+      ],
+      [
+        2749,
+        291,
+        214
+      ],
+      [
+        3420,
+        284,
+        66
+      ],
+      [
+        2750,
+        276,
+        133
+      ],
+      [
+        394,
+        257,
+        117
+      ],
+      [
+        2319,
+        241,
+        167
+      ],
+      [
+        2058,
+        238,
+        151
+      ],
+      [
+        2751,
+        228,
+        112
+      ],
+      [
+        737,
+        224,
+        55
+      ]
+    ],
+    "row_count": 20
+  },
+  "sub_org_sample": {
+    "columns": [
+      "id",
+      "name",
+      "district",
+      "state",
+      "address",
+      "map_url",
+      "type"
+    ],
+    "rows": [
+      [
+        2355,
+        "College of Engineering, Thiruvananthapuram",
+        "thiruvananthapuram",
+        "active",
+        "College of Engineering, thiruvananthapuram 16",
+        "https://maps.app.goo.gl/kE6KGwY3bonvXxkK7",
+        null
+      ],
+      [
+        2614,
+        "Toc H Institute of Science & Technology, Arakkunnam",
+        "ernakulam",
+        "active",
+        "Toc H Institute of Science & Technology, Arakkunnam, ernakulam 682 313",
+        "https://www.google.com/maps/search/?api=1&query=Toc%20H%20Institute%20of%20Science%20%26%20Technology%2C%20Arakkunnam%2C%20ernakulam%20682%20313",
+        null
+      ],
+      [
+        2602,
+        "College of Engineering, Munnar",
+        "idukki",
+        "active",
+        "College of Engineering, PB No. 45, County Hills, Munnar, idukki 685 612",
+        "https://maps.app.goo.gl/igTqqXBU8rJRhsYx8",
+        null
+      ],
+      [
+        1708,
+        "Farook College, Farook",
+        "kozhikode",
+        "active",
+        "Farook College, Farook College P.O, kozhikode - 673632",
+        "https://maps.app.goo.gl/TiNjg7AVDXULd39s6",
+        null
+      ],
+      [
+        1949,
+        "Mar Baselios Christian College of Engineering and Technology, Peerumedu",
+        "idukki",
+        "active",
+        "Mar Baselius Christian College of Engineering and Technology, Pallikkunnu PO, Peerumedu, idukki 685 531",
+        "https://www.google.com/maps/search/?api=1&query=Mar%20Baselius%20Christian%20College%20of%20Engineering%20and%20Technology%2C%20Pallikkunnu%20PO%2C%20Peerumedu%2C%20idukki%20685%20531",
+        null
+      ],
+      [
+        2613,
+        "College of Engineering, Trikaripur",
+        "kasaragod",
+        "active",
+        "College of Engineering Trikaripur, PO Cheemeni, kasaragod 671313",
+        "https://www.google.com/maps/search/?api=1&query=College%20of%20Engineering%20Trikaripur%2C%20PO%20Cheemeni%2C%20kasaragod%20671313",
+        null
+      ],
+      [
+        1810,
+        "EMEA College of Arts & Science , Kondotty",
+        "malappuram",
+        "active",
+        "EMEA Collge of Arts & Science, Kondotty, Kumminiparamba PO, malappuram-673 638",
+        "https://maps.app.goo.gl/B31vCip83BqRvQMr6",
+        null
+      ],
+      [
+        2148,
+        "Saintgits College of Applied Sciences, Pathamuttam",
+        "kottayam",
+        "active",
+        "Saintgits College of Applied Sciences, Kottukulam Hills, Pathamuttam PO, kottayam-686532",
+        "https://www.google.com/maps/search/?api=1&query=Saintgits%20College%20of%20Applied%20Sciences%2C%20Kottukulam%20Hills%2C%20Pathamuttam%20PO%2C%20kottayam-686532",
+        null
+      ],
+      [
+        2924,
+        "Indian Institute of Information Technology (IIIT), Kottayam",
+        "kottayam",
+        "active",
+        "Indian Institute of Information Technology (IIIT) Kottayam",
+        "https://maps.app.goo.gl/hBAEgtVgXfaCSC378",
+        null
+      ],
+      [
+        2077,
+        "KMEA Engineering College, Edathala",
+        "ernakulam",
+        "active",
+        "KMEA Engineering College, Kuzhivelipady, Edathala, Aluva, ernakulam-683 561",
+        "https://www.google.com/maps/search/?api=1&query=KMEA%20Engineering%20College%2C%20Kuzhivelipady%2C%20Edathala%2C%20Aluva%2C%20ernakulam-683%20561",
+        null
+      ],
+      [
+        1634,
+        "Sri. C. Achutha Menon Government College, Kuttanellur",
+        "thrissur",
+        "unknown",
+        "Sri. C. Achutha Menon Government College, Kuttanellur, thrissur",
+        "https://www.google.com/maps/search/?api=1&query=Sri.%20C.%20Achutha%20Menon%20Government%20College%2C%20Kuttanellur%2C%20thrissur",
+        null
+      ],
+      [
+        2217,
+        "Vimal Jyothi Engineering College, Chemperi",
+        "kannur",
+        "active",
+        "Vimal Jyothi Engineering College, Jyothi Nagar, Chemperi, kannur-670 632",
+        "https://maps.app.goo.gl/c2tZQKnY6sz3MFXEA",
+        null
+      ],
+      [
+        2076,
+        "Jai Bharath College of Management & Engineering Technology, Arackappady",
+        "ernakulam",
+        "active",
+        "Jai Bharath College of Management & Engineering Technology, Arackappady, Vengola PO, Perumbavoor, Kochi- 683 554",
+        "https://maps.app.goo.gl/KZoWo2q6uRVyn7tNA",
+        null
+      ],
+      [
+        2081,
+        "SCMS School of Engineering & Technology, Karukutty",
+        "ernakulam",
+        "active",
+        "SCMS School of Engineering & Technology, Karukutty, ernakulam 683 582",
+        "https://www.google.com/maps/search/?api=1&query=SCMS%20School%20of%20Engineering%20%26%20Technology%2C%20Karukutty%2C%20ernakulam%20683%20582",
+        null
+      ],
+      [
+        2084,
+        "SNM Institute of Management & Technology, Maliankara",
+        "ernakulam",
+        "active",
+        "SNM Institute of Management & Technology, Maliankara PO, Moothakunnam, North Paravur, ernakulam 683 516",
+        "https://maps.app.goo.gl/kyDU1r7xdtoYksFH9",
+        null
+      ],
+      [
+        2074,
+        "Ilahia College of Engineering and Technology, Mulavoor",
+        "ernakulam",
+        "active",
+        "Ilahia College of Engineering and Technology, Mulavoor PO, Muvattupuzha, ernakulam-686 673",
+        "https://maps.app.goo.gl/UvmcrSF9rD7kASbXA",
+        null
+      ],
+      [
+        2069,
+        "Adi Shankara Institute of Engineering and Technology, Mattoor",
+        "ernakulam",
+        "active",
+        "Adi Shankara Institute of Engineering and Technology, Sankar Nagar, Mattoor, Kalady- 683 547",
+        "https://maps.app.goo.gl/XooJqF1JTs7s9mk6A",
+        null
+      ],
+      [
+        1899,
+        "Jawaharlal College of Engineering and Technology, Lakkidi",
+        "palakkad",
+        "active",
+        "Jawaharlal College of Engineering and Technology, Jawahar Gardens, Mangalm, Lakkidiperur, Ottapalam, palakkad 679301",
+        "https://www.google.com/maps/search/?api=1&query=Jawaharlal%20College%20of%20Engineering%20and%20Technology%2C%20Jawahar%20Gardens%2C%20Mangalm%2C%20Lakkidiperur%2C%20Ottapalam%2C%20palakkad%20679301",
+        null
+      ],
+      [
+        2612,
+        "College of Engineering, Poonjar",
+        "kottayam",
+        "active",
+        "College of Engineering, Poonjar, Thekkekkara PO, kottayam 686 582",
+        "https://maps.app.goo.gl/dmh6FnCetwpcAU7Q7",
+        null
+      ],
+      [
+        2427,
+        "Lourdes Matha College of Science & Technology, Kutttichal",
+        "thiruvananthapuram",
+        "active",
+        "Lourdes Matha College of Science &Technology, Opp. Kalampara Ashram,Kutttichal PO, thiruvananthapuram 695 574",
+        "https://maps.app.goo.gl/sUbgK8coWLW9ecB39",
+        null
+      ],
+      [
+        2735,
+        "Providence College of Engineering, Chengannur",
+        "alappuzha",
+        "active",
+        "Providence College of Engineering, Angadical South, Chenagnnur, alappuzha 689122",
+        "https://www.google.com/maps/search/?api=1&query=Providence%20College%20of%20Engineering%2C%20Angadical%20South%2C%20Chenagnnur%2C%20alappuzha%20689122",
+        null
+      ],
+      [
+        2637,
+        "ACE College of Engineering, Karinkadamugal",
+        "thiruvananthapuram",
+        "active",
+        "ACE College of Engineering, Karinkadamugal, Thiruvallam PO, thiruvananthapuram 695027",
+        "https://www.google.com/maps/search/?api=1&query=ACE%20College%20of%20Engineering%2C%20Karinkadamugal%2C%20Thiruvallam%20PO%2C%20thiruvananthapuram%20695027",
+        null
+      ],
+      [
+        2419,
+        "Sree Chitra Thirunal College of Engineering, Pappanamcode",
+        "thiruvananthapuram",
+        "active",
+        "Sree Chitra Thirunal College ofEngineering, Pappanamcode, thiruvananthapuram",
+        "https://www.google.com/maps/search/?api=1&query=Sree%20Chitra%20Thirunal%20College%20ofEngineering%2C%20Pappanamcode%2C%20thiruvananthapuram",
+        null
+      ],
+      [
+        2688,
+        "Institute of Engineering and Technology, Thenhipalam",
+        "malappuram",
+        "active",
+        "Institute of Engineering and Technology, Calicut University, Thenhipalam, malappuram 673636",
+        "https://www.google.com/maps/search/?api=1&query=Institute%20of%20Engineering%20and%20Technology%2C%20Calicut%20University%2C%20Thenhipalam%2C%20malappuram%20673636",
+        null
+      ],
+      [
+        2689,
+        "Ahalia School of Engineering & Technology, palakkad",
+        "palakkad",
+        "active",
+        "Ahalia School of Engineering & Technology, Kozhippara PO, Pudussery, palakkad",
+        "https://www.google.com/maps/search/?api=1&query=Ahalia%20School%20of%20Engineering%20%26%20Technology%2C%20Kozhippara%20PO%2C%20Pudussery%2C%20palakkad",
+        null
+      ],
+      [
+        1665,
+        "MET  s School of Engineering, Mala",
+        "thrissur",
+        "unknown",
+        "MET 's School of Engineering, Mala, thrissur 680735",
+        "https://www.google.com/maps/search/?api=1&query=MET%20%27s%20School%20of%20Engineering%2C%20Mala%2C%20thrissur%20680735",
+        null
+      ],
+      [
+        1666,
+        "Nehru College of Engineering and Research Centre, Pampady",
+        "thrissur",
+        "unknown",
+        "Nehru College of Engineering and Research Centre, Pampady, thrissur",
+        "https://www.google.com/maps/search/?api=1&query=Nehru%20College%20of%20Engineering%20and%20Research%20Centre%2C%20Pampady%2C%20thrissur",
+        null
+      ],
+      [
+        1667,
+        "IES College of Engineering, Chittilappilly",
+        "thrissur",
+        "unknown",
+        "IES College of Engineering Chittilappilly, Thrissur",
+        "https://www.google.com/maps/search/?api=1&query=IES%20College%20of%20Engineering%20Chittilappilly%2C%20thrissur",
+        null
+      ],
+      [
+        2821,
+        "Paramekkavu College of Arts & Science, Punkunnam",
+        "thrissur",
+        "active",
+        "Paramekkavu College of Arts & Science, MLA Road, Punkunnam, thrissur 680002, Kerala",
+        "https://maps.app.goo.gl/MHmzxFt2rFV2qbM47",
+        null
+      ],
+      [
+        2618,
+        "College of Engineering, Vadakara",
+        "kozhikode",
+        "active",
+        "College of Engineering, Mandarathur PO, Vadakara, kozhikode 673 105",
+        "https://maps.app.goo.gl/6ahdCi5FW6FRvire8",
+        null
+      ]
+    ],
+    "row_count": 30
+  }
+}
