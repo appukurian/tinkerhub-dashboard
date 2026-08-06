@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TinkerHub Events Map</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<style>
+  :root{
+    --bg:#f6f7fb; --card:#ffffff; --ink:#1c1f2a; --muted:#6b7280;
+    --border:#e5e7eb; --accent:#5865F2;
+    --red:#dc2626; --red-bg:#fee2e2;
+    --amber:#d97706; --amber-bg:#fef3c7;
+    --blue:#2563eb; --blue-bg:#dbeafe;
+    --green:#16a34a; --green-bg:#dcfce7;
+    --gray:#6b7280; --gray-bg:#f1f5f9;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; padding:24px; background:var(--bg); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  .nav{font-size:13px; margin-bottom:10px;}
+  .nav a{color:var(--accent); text-decoration:none; font-weight:600;}
+  .nav a:hover{text-decoration:underline;}
+  .nav span{color:var(--muted); margin:0 6px;}
+  h1{font-size:22px; margin:0 0 4px;}
+  .sub{color:var(--muted); font-size:13px; margin-bottom:24px;}
+
+  .cards{display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; margin-bottom:24px;}
+  .card{background:var(--card); border:1px solid var(--border); border-radius:12px; padding:16px 18px;}
+  .card .n{font-size:26px; font-weight:700; line-height:1.1; color:var(--accent);}
+  .card .l{font-size:12.5px; color:var(--muted); margin-top:4px;}
+  .card.today .n{color:var(--red);}
+  .card.upcoming .n{color:var(--blue);}
+  .card.reg .n{color:var(--green);}
+
+  section{background:var(--card); border:1px solid var(--border); border-radius:12px; padding:20px; margin-bottom:24px;}
+  section h2{font-size:15px; margin:0 0 14px;}
+
+  .map-layout{display:grid; grid-template-columns:2.2fr 1fr; gap:16px;}
+  @media (max-width: 900px){ .map-layout{grid-template-columns:1fr;} }
+  #map{height:560px; border-radius:10px; z-index:0;}
+
+  .legend{display:flex; flex-direction:column; gap:8px; margin-bottom:16px;}
+  .legend-item{display:flex; align-items:center; gap:8px; font-size:13px; cursor:pointer; user-select:none; padding:4px 6px; border-radius:6px;}
+  .legend-item:hover{background:var(--gray-bg);}
+  .legend-item.off{opacity:.35;}
+  .legend-dot{width:12px; height:12px; border-radius:50%; flex:0 0 auto; border:1px solid rgba(0,0,0,.15);}
+  .legend-count{margin-left:auto; color:var(--muted); font-variant-numeric:tabular-nums; font-size:12px;}
+
+  .filters{display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin-bottom:14px;}
+  .filters select, .filters input{
+    padding:7px 10px; border-radius:8px; border:1px solid var(--border);
+    font-size:13px; background:#fff; color:var(--ink);
+  }
+  .filters input{flex:1; min-width:180px;}
+  .count-note{font-size:12.5px; color:var(--muted); margin-left:auto;}
+
+  table{width:100%; border-collapse:collapse; font-size:13.5px;}
+  th,td{text-align:left; padding:8px 10px; border-bottom:1px solid var(--border); vertical-align:top;}
+  th{color:var(--muted); font-weight:600; font-size:12px; text-transform:uppercase; letter-spacing:.02em;}
+  tr:last-child td{border-bottom:none;}
+  td.num{text-align:right; font-variant-numeric:tabular-nums;}
+  th.num{text-align:right;}
+
+  .badge{display:inline-block; padding:2px 9px; border-radius:99px; font-size:11.5px; font-weight:600; white-space:nowrap; color:#fff;}
+  .badge.today{background:var(--red);}
+  .badge.upcoming{background:var(--blue);}
+  .badge.past{background:var(--gray);}
+  .type-pill{display:inline-flex; align-items:center; gap:5px; padding:1px 8px; border-radius:6px; font-size:11.5px; font-weight:600; background:var(--gray-bg); color:#374151; white-space:nowrap;}
+  .type-dot{width:8px; height:8px; border-radius:50%; flex:0 0 auto;}
+  .virtual-tag{font-size:11px; color:var(--muted); border:1px solid var(--border); border-radius:5px; padding:0 5px; margin-left:5px;}
+
+  .bar-row{display:flex; align-items:center; gap:10px; margin-bottom:8px; font-size:13px;}
+  .bar-label{flex:0 0 150px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; text-transform:capitalize;}
+  .bar-track{flex:1; background:var(--gray-bg); border-radius:6px; height:10px; overflow:hidden;}
+  .bar-fill{background:var(--accent); height:100%; border-radius:6px;}
+  .bar-count{flex:0 0 28px; text-align:right; font-variant-numeric:tabular-nums; color:var(--muted);}
+
+  .btn{
+    border:1px solid var(--border); background:#fff; color:var(--accent);
+    padding:5px 10px; border-radius:7px; font-size:12px; cursor:pointer; text-decoration:none;
+    display:inline-block; line-height:1.2;
+  }
+  .btn:hover{background:var(--gray-bg);}
+  footer{color:var(--muted); font-size:12px; text-align:center; margin-top:8px;}
+  .empty-state{color:var(--muted); font-size:13px; padding:20px 0; text-align:center;}
+  .two-col{display:grid; grid-template-columns:1fr 1fr; gap:20px;}
+  @media (max-width: 800px){ .two-col{grid-template-columns:1fr;} }
+
+  .leaflet-popup-content{font-size:13px; min-width:200px;}
+  .leaflet-popup-content b{font-size:13.5px;}
+  .popup-meta{color:var(--muted); font-size:12px; margin-top:3px;}
+</style>
+</head>
+<body>
+
+<div class="nav">
+  <a href="mailbox-dashboard.html">Mailbox</a><span>|</span>
+  <a href="discord-dashboard.html">Discord threads</a><span>|</span>
+  <strong>Events map</strong>
+</div>
+
+<h1>TinkerHub Events Map</h1>
+<div class="sub" id="header-sub">What's happening across TinkerHub campuses in Kerala</div>
+
+<div class="cards">
+  <div class="card today"><div class="n" id="c-today">0</div><div class="l">Happening today</div></div>
+  <div class="card upcoming"><div class="n" id="c-upcoming">0</div><div class="l">Upcoming</div></div>
+  <div class="card"><div class="n" id="c-total">0</div><div class="l">Total in window</div></div>
+  <div class="card reg"><div class="n" id="c-registered">0</div><div class="l">Total registered</div></div>
+  <div class="card"><div class="n" id="c-checkedin">0</div><div class="l">Total checked in</div></div>
+  <div class="card"><div class="n" id="c-virtual">0</div><div class="l">Virtual events</div></div>
+</div>
+
+<section id="empty-state-section" style="display:none;">
+  <div class="empty-state">
+    No data yet — <code>events-data.js</code> hasn't been generated. Once the Metabase secrets are set up and the
+    <code>events-update.yml</code> workflow has run once (manually via "Run workflow" or on its schedule), this page
+    will populate automatically.
+  </div>
+</section>
+
+<section id="main-section" style="display:none;">
+  <h2 style="margin-bottom:16px;">Where activity is happening</h2>
+  <div class="map-layout">
+    <div id="map"></div>
+    <div>
+      <div class="legend" id="legend"></div>
+      <div class="sub" style="margin:0 0 6px; font-size:12px;">Click a type to toggle it on the map. Marker size ≈ registrations.</div>
+    </div>
+  </div>
+</section>
+
+<section id="districts-section" style="display:none;">
+  <div class="two-col">
+    <div>
+      <h2 style="margin-top:0;">Events by district</h2>
+      <div id="district-bars"></div>
+    </div>
+    <div>
+      <h2 style="margin-top:0;">Events by type</h2>
+      <div id="type-bars"></div>
+    </div>
+  </div>
+</section>
+
+<section id="events-section" style="display:none;">
+  <h2>Events</h2>
+  <div class="filters">
+    <select id="f-when">
+      <option value="">All (window)</option>
+      <option value="today">Today</option>
+      <option value="upcoming">Upcoming</option>
+      <option value="past">Past</option>
+    </select>
+    <select id="f-type">
+      <option value="">All types</option>
+    </select>
+    <select id="f-district">
+      <option value="">All districts</option>
+    </select>
+    <input id="f-search" type="text" placeholder="Search event or campus…">
+    <span class="count-note" id="f-count"></span>
+  </div>
+  <table id="events-table">
+    <thead>
+      <tr>
+        <th>Event</th><th>Type</th><th>Campus / District</th><th>When</th>
+        <th class="num">Registered</th><th class="num">Checked in</th><th>Map</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</section>
+
+<footer id="footer-note">Data refreshes every few hours via a GitHub Actions workflow querying Metabase directly, independent of any chat session.</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="events-data.js"></script>
+<script>
+const DATA = window.EVENTS_DATA;
+
+function escapeHtml(s){
+  return String(s||"").replace(/[&<>"']/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+}
+
+function fmtDate(iso){
+  if(!iso) return "—";
+  const d = new Date(iso);
+  return d.toLocaleString(undefined, {month:"short", day:"numeric", hour:"numeric", minute:"2-digit"});
+}
+
+function whenBucket(ev){
+  if(!ev.start) return "past";
+  const start = new Date(ev.start);
+  const now = new Date();
+  const sameDay = start.toDateString() === now.toDateString();
+  if(sameDay) return "today";
+  return start > now ? "upcoming" : "past";
+}
+
+let map, markerLayer;
+const activeTypes = new Set();
+
+function initMap(){
+  map = L.map('map', {scrollWheelZoom:false}).setView([10.27, 76.4], 8);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 18,
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(map);
+  markerLayer = L.layerGroup().addTo(map);
+}
+
+function renderMarkers(){
+  markerLayer.clearLayers();
+  const events = DATA.events.filter(e => e.lat != null && e.lng != null && activeTypes.has(e.type));
+  events.forEach(ev=>{
+    const radius = 5 + Math.min(15, Math.sqrt(ev.registered || 1));
+    const marker = L.circleMarker([ev.lat, ev.lng], {
+      radius: radius,
+      color: ev.typeColor,
+      fillColor: ev.typeColor,
+      fillOpacity: 0.55,
+      weight: 1.5,
+    });
+    const when = whenBucket(ev);
+    marker.bindPopup(`
+      <b>${escapeHtml(ev.name)}</b><br>
+      <span class="type-pill"><span class="type-dot" style="background:${ev.typeColor}"></span>${escapeHtml(ev.type.replace(/_/g," "))}</span>
+      <span class="badge ${when}" style="margin-left:4px;">${when}</span>
+      <div class="popup-meta">${escapeHtml(ev.campusName||"—")}${ev.district ? " · " + escapeHtml(ev.district) : ""}</div>
+      <div class="popup-meta">${fmtDate(ev.start)}${ev.isVirtual ? " · virtual" : ""}</div>
+      <div class="popup-meta">${ev.registered||0} registered · ${ev.checkedIn||0} checked in</div>
+      ${ev.mapUrl ? `<div style="margin-top:6px;"><a href="${ev.mapUrl}" target="_blank" rel="noopener">Open location ↗</a></div>` : ""}
+    `);
+    markerLayer.addLayer(marker);
+  });
+}
+
+function renderLegend(){
+  const el = document.getElementById("legend");
+  el.innerHTML = "";
+  DATA.byType.forEach(t=>{
+    activeTypes.add(t.type);
+    const row = document.createElement("div");
+    row.className = "legend-item";
+    row.dataset.type = t.type;
+    row.innerHTML = `
+      <span class="legend-dot" style="background:${t.color}"></span>
+      <span>${escapeHtml(t.type.replace(/_/g," "))}</span>
+      <span class="legend-count">${t.count}</span>
+    `;
+    row.addEventListener("click", ()=>{
+      if(activeTypes.has(t.type)){ activeTypes.delete(t.type); row.classList.add("off"); }
+      else { activeTypes.add(t.type); row.classList.remove("off"); }
+      renderMarkers();
+    });
+    el.appendChild(row);
+  });
+}
+
+function renderBars(containerId, items, labelKey, countKey){
+  const el = document.getElementById(containerId);
+  el.innerHTML = "";
+  if(!items || !items.length){
+    el.innerHTML = `<div class="empty-state">No data.</div>`;
+    return;
+  }
+  const max = Math.max(...items.map(i=>i[countKey]));
+  items.forEach(item=>{
+    const pct = max ? Math.round((item[countKey]/max)*100) : 0;
+    const row = document.createElement("div");
+    row.className = "bar-row";
+    row.innerHTML = `
+      <div class="bar-label" title="${escapeHtml(item[labelKey])}">${escapeHtml(item[labelKey])}</div>
+      <div class="bar-track"><div class="bar-fill" style="width:${pct}%; background:${item.color||'var(--accent)'}"></div></div>
+      <div class="bar-count">${item[countKey]}</div>
+    `;
+    el.appendChild(row);
+  });
+}
+
+function populateFilters(){
+  const typeSel = document.getElementById("f-type");
+  DATA.byType.forEach(t=>{
+    const opt = document.createElement("option");
+    opt.value = t.type; opt.textContent = t.type.replace(/_/g," ");
+    typeSel.appendChild(opt);
+  });
+  const distSel = document.getElementById("f-district");
+  DATA.byDistrict.forEach(d=>{
+    const opt = document.createElement("option");
+    opt.value = d.district; opt.textContent = d.district;
+    distSel.appendChild(opt);
+  });
+}
+
+function renderEvents(){
+  const when = document.getElementById("f-when").value;
+  const type = document.getElementById("f-type").value;
+  const district = document.getElementById("f-district").value;
+  const q = document.getElementById("f-search").value.trim().toLowerCase();
+
+  const rows = DATA.events.filter(ev=>{
+    if(when && whenBucket(ev) !== when) return false;
+    if(type && ev.type !== type) return false;
+    if(district && ev.district !== district) return false;
+    if(q && !((ev.name||"").toLowerCase().includes(q) || (ev.campusName||"").toLowerCase().includes(q))) return false;
+    return true;
+  }).sort((a,b)=> new Date(a.start||0) - new Date(b.start||0));
+
+  const tbody = document.querySelector("#events-table tbody");
+  tbody.innerHTML = "";
+  rows.forEach(ev=>{
+    const w = whenBucket(ev);
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td>${escapeHtml(ev.name)}${ev.isVirtual ? '<span class="virtual-tag">virtual</span>' : ""}</td>
+      <td><span class="type-pill"><span class="type-dot" style="background:${ev.typeColor}"></span>${escapeHtml(ev.type.replace(/_/g," "))}</span></td>
+      <td>${escapeHtml(ev.campusName||"—")}${ev.district ? "<br><span style='color:var(--muted); font-size:12px; text-transform:capitalize;'>"+escapeHtml(ev.district)+"</span>" : ""}</td>
+      <td><span class="badge ${w}">${w}</span><br><span style="color:var(--muted); font-size:12px;">${fmtDate(ev.start)}</span></td>
+      <td class="num">${ev.registered||0}</td>
+      <td class="num">${ev.checkedIn||0}</td>
+      <td>${ev.mapUrl ? `<a class="btn" href="${ev.mapUrl}" target="_blank" rel="noopener">Map</a>` : "—"}</td>
+    `;
+    tbody.appendChild(tr);
+  });
+  document.getElementById("f-count").textContent = rows.length + " of " + DATA.events.length + " events";
+}
+
+document.getElementById("f-when").addEventListener("change", renderEvents);
+document.getElementById("f-type").addEventListener("change", renderEvents);
+document.getElementById("f-district").addEventListener("change", renderEvents);
+document.getElementById("f-search").addEventListener("input", renderEvents);
+
+if(!DATA || !DATA.events){
+  document.getElementById("empty-state-section").style.display = "block";
+} else {
+  document.getElementById("main-section").style.display = "block";
+  document.getElementById("districts-section").style.display = "block";
+  document.getElementById("events-section").style.display = "block";
+  document.getElementById("header-sub").textContent =
+    "What's happening across TinkerHub campuses in Kerala · data as of " + (DATA.generatedAt || "unknown date");
+
+  document.getElementById("c-today").textContent = DATA.summary.todayCount || 0;
+  document.getElementById("c-upcoming").textContent = DATA.summary.upcomingCount || 0;
+  document.getElementById("c-total").textContent = DATA.summary.totalEvents || 0;
+  document.getElementById("c-registered").textContent = DATA.summary.totalRegistered || 0;
+  document.getElementById("c-checkedin").textContent = DATA.summary.totalCheckedIn || 0;
+  document.getElementById("c-virtual").textContent = DATA.summary.virtualCount || 0;
+
+  initMap();
+  renderLegend();
+  renderMarkers();
+  renderBars("district-bars", DATA.byDistrict, "district", "count");
+  renderBars("type-bars", DATA.byType, "type", "count");
+  populateFilters();
+  renderEvents();
+}
+</script>
+</body>
+</html>
