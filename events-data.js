@@ -2,7 +2,7 @@
 // Do NOT hand-edit -- this file is overwritten on each run.
 window.EVENTS_DATA = {
   "generatedAt": "2026-08-07",
-  "generatedAtIso": "2026-08-07T02:30:01.377251+00:00",
+  "generatedAtIso": "2026-08-07T04:51:58.535063+00:00",
   "windowSinceDate": "2026-04-01",
   "windowUntilDate": "2027-03-31",
   "events": [
@@ -6421,7 +6421,7 @@ window.EVENTS_DATA = {
       "lat": 8.93757,
       "lng": 76.58753,
       "locationSource": "district_fallback",
-      "registered": 48,
+      "registered": 50,
       "checkedIn": 0,
       "seats": 50,
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=College%20of%20Engineering%2C%20Perumon%20PO%2C%20Perinad%2C%20kollam%20691%20601"
@@ -6561,7 +6561,7 @@ window.EVENTS_DATA = {
       "lat": null,
       "lng": null,
       "locationSource": "unresolved",
-      "registered": 25,
+      "registered": 29,
       "checkedIn": 0,
       "seats": null,
       "mapUrl": null
@@ -6581,8 +6581,8 @@ window.EVENTS_DATA = {
       "lat": 9.4615534,
       "lng": 76.3319795,
       "locationSource": "maps_link",
-      "registered": 2,
-      "checkedIn": 0,
+      "registered": 7,
+      "checkedIn": 6,
       "seats": null,
       "mapUrl": "https://maps.app.goo.gl/yfA7oo82BmV9a4Xp6"
     },
@@ -6601,7 +6601,7 @@ window.EVENTS_DATA = {
       "lat": 10.0469797,
       "lng": 76.3351998,
       "locationSource": "maps_link",
-      "registered": 15,
+      "registered": 16,
       "checkedIn": 0,
       "seats": null,
       "mapUrl": "https://maps.app.goo.gl/j8w832j2VkvJPGeSA"
@@ -6661,7 +6661,7 @@ window.EVENTS_DATA = {
       "lat": 8.5584564,
       "lng": 77.0998152,
       "locationSource": "maps_link",
-      "registered": 0,
+      "registered": 4,
       "checkedIn": 0,
       "seats": 0,
       "mapUrl": "https://maps.app.goo.gl/sUbgK8coWLW9ecB39"
@@ -6741,7 +6741,7 @@ window.EVENTS_DATA = {
       "lat": 8.5584564,
       "lng": 77.0998152,
       "locationSource": "maps_link",
-      "registered": 0,
+      "registered": 4,
       "checkedIn": 0,
       "seats": 0,
       "mapUrl": "https://maps.app.goo.gl/sUbgK8coWLW9ecB39"
@@ -6761,7 +6761,7 @@ window.EVENTS_DATA = {
       "lat": 9.578816,
       "lng": 76.6228879,
       "locationSource": "maps_link",
-      "registered": 23,
+      "registered": 24,
       "checkedIn": 0,
       "seats": null,
       "mapUrl": "https://maps.app.goo.gl/Y9bWocbV9VxD3R4f7"
@@ -6832,8 +6832,8 @@ window.EVENTS_DATA = {
     "todayCount": 10,
     "upcomingCount": 22,
     "pastCount": 319,
-    "totalRegistered": 8258,
-    "totalCheckedIn": 4955,
+    "totalRegistered": 8279,
+    "totalCheckedIn": 4961,
     "virtualCount": 116,
     "geocoded": 222,
     "districtFallback": 94,
