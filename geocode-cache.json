@@ -1,4 +1,14 @@
 {
+  " https://maps.app.goo.gl/LsqvqRaRMe6J41uk7": {
+    "lat": null,
+    "lng": null,
+    "source": "unresolved"
+  },
+  "https://maps.app.goo.gl/1DzqRRpbxxf9YDi76": {
+    "lat": 11.8396491,
+    "lng": 75.9162978,
+    "source": "maps_link"
+  },
   "https://maps.app.goo.gl/1TsSvANu1kK2wPkU6": {
     "lat": 10.679796,
     "lng": 76.136955,
@@ -14,9 +24,24 @@
     "lng": 76.22466,
     "source": "maps_link"
   },
+  "https://maps.app.goo.gl/6ahdCi5FW6FRvire8": {
+    "lat": 11.5644239,
+    "lng": 75.6508443,
+    "source": "maps_link"
+  },
   "https://maps.app.goo.gl/8S9zoHmGbnQLpWPY6": {
     "lat": 9.0422158,
     "lng": 76.6445097,
+    "source": "maps_link"
+  },
+  "https://maps.app.goo.gl/8iqvWpvfm2jjqdD76": {
+    "lat": 11.3126192,
+    "lng": 75.9685494,
+    "source": "maps_link"
+  },
+  "https://maps.app.goo.gl/B31vCip83BqRvQMr6": {
+    "lat": 11.1339505,
+    "lng": 75.9425554,
     "source": "maps_link"
   },
   "https://maps.app.goo.gl/JCRk31MWKnCeFJ1n6": {
@@ -67,6 +92,21 @@
   "https://maps.app.goo.gl/Y9bWocbV9VxD3R4f7": {
     "lat": 9.578816,
     "lng": 76.6228879,
+    "source": "maps_link"
+  },
+  "https://maps.app.goo.gl/c2tZQKnY6sz3MFXEA": {
+    "lat": 12.0978918,
+    "lng": 75.5604206,
+    "source": "maps_link"
+  },
+  "https://maps.app.goo.gl/cunLHQGtxhdxBG278": {
+    "lat": 10.0469799,
+    "lng": 76.3352003,
+    "source": "maps_link"
+  },
+  "https://maps.app.goo.gl/dSLZZ6ssJbJCxoEx6": {
+    "lat": 10.0469797,
+    "lng": 76.3351998,
     "source": "maps_link"
   },
   "https://maps.app.goo.gl/dmh6FnCetwpcAU7Q7": {
@@ -124,6 +164,16 @@
     "lng": 76.3319795,
     "source": "maps_link"
   },
+  "https://share.google/N66h7hCm9MIm0OCq7": {
+    "lat": null,
+    "lng": null,
+    "source": "unresolved"
+  },
+  "https://share.google/U2fZMRYrlRRrS79s7": {
+    "lat": null,
+    "lng": null,
+    "source": "unresolved"
+  },
   "https://share.google/Z1bAzFekQVkrBM17h": {
     "lat": null,
     "lng": null,
@@ -174,6 +224,11 @@
     "lng": 75.7700465,
     "source": "nominatim"
   },
+  "https://www.google.com/maps/search/?api=1&query=Institute%20of%20Engineering%20and%20Technology%2C%20Calicut%20University%2C%20Thenhipalam%2C%20malappuram%20673636": {
+    "lat": null,
+    "lng": null,
+    "source": "unresolved"
+  },
   "https://www.google.com/maps/search/?api=1&query=Jawaharlal%20College%20of%20Engineering%20and%20Technology%2C%20Jawahar%20Gardens%2C%20Mangalm%2C%20Lakkidiperur%2C%20Ottapalam%2C%20palakkad%20679301": {
     "lat": null,
     "lng": null,
@@ -194,6 +249,11 @@
     "lng": null,
     "source": "unresolved"
   },
+  "https://www.google.com/maps/search/?api=1&query=MES%20College%20of%20Engineering%20and%20Technology%2C%20Kunnukara%20PO%2C%20ernakulam%20683578": {
+    "lat": null,
+    "lng": null,
+    "source": "unresolved"
+  },
   "https://www.google.com/maps/search/?api=1&query=Mar%20Athanasius%20College%20of%20Egineering%2C%20Kothamangalam%2C%20ernakulam-686%20666": {
     "lat": null,
     "lng": null,
@@ -209,6 +269,11 @@
     "lng": null,
     "source": "unresolved"
   },
+  "https://www.google.com/maps/search/?api=1&query=NSS%20College%20of%20Engineering%2C%20Akathethara%2C%20palakkad%20678%20008": {
+    "lat": 10.8239334,
+    "lng": 76.6410927,
+    "source": "nominatim"
+  },
   "https://www.google.com/maps/search/?api=1&query=SCMS%20School%20of%20Engineering%20%26%20Technology%2C%20Karukutty%2C%20ernakulam%20683%20582": {
     "lat": null,
     "lng": null,
@@ -223,6 +288,11 @@
     "lat": null,
     "lng": null,
     "source": "unresolved"
+  },
+  "https://www.google.com/maps/search/?api=1&query=School+Of+Engineering+CUSAT,+Kalamassery": {
+    "lat": 10.0489578,
+    "lng": 76.3314344,
+    "source": "nominatim"
   },
   "https://www.google.com/maps/search/?api=1&query=Sree%20Buddha%20College%20of%20Engineering%2CPattoor%20PO%2C%20Padanilam%2C%20Nooranad%2Calappuzha": {
     "lat": null,
@@ -255,6 +325,11 @@
     "source": "unresolved"
   },
   "https://www.google.com/maps/search/?api=1&query=Vidya%20Academy%20of%20Science%20%26%20Technology%2C%20Thalakkottukara%2C%20thrissur%20680501": {
+    "lat": null,
+    "lng": null,
+    "source": "unresolved"
+  },
+  "https://www.google.com/maps/search/?api=1&query=Viswajyoti%20College%20of%20Engineering%20%26%20Technology%2C%20Vazhakulam%20PO%2C%20Muvattupuzha%2C%20ernakulam%20686%20670": {
     "lat": null,
     "lng": null,
     "source": "unresolved"
