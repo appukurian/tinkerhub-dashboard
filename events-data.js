@@ -2,7 +2,7 @@
 // Do NOT hand-edit -- this file is overwritten on each run.
 window.EVENTS_DATA = {
   "generatedAt": "2026-08-07",
-  "generatedAtIso": "2026-08-07T18:51:00.801841+00:00",
+  "generatedAtIso": "2026-08-07T21:35:43.700369+00:00",
   "windowSinceDate": "2026-04-01",
   "windowUntilDate": "2027-03-31",
   "events": [
@@ -6741,7 +6741,7 @@ window.EVENTS_DATA = {
       "lat": null,
       "lng": null,
       "locationSource": "unresolved",
-      "registered": 29,
+      "registered": 34,
       "checkedIn": 0,
       "seats": null,
       "mapUrl": null
@@ -7012,7 +7012,7 @@ window.EVENTS_DATA = {
     "todayCount": 11,
     "upcomingCount": 21,
     "pastCount": 329,
-    "totalRegistered": 8516,
+    "totalRegistered": 8521,
     "totalCheckedIn": 5058,
     "virtualCount": 125,
     "geocoded": 225,
