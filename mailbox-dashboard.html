@@ -2,309 +2,325 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>TinkerHub Mailbox Dashboard</title>
 <style>
-  :root{
-    --bg:#f6f7fb; --card:#ffffff; --ink:#1c1f2a; --muted:#6b7280;
-    --border:#e5e7eb; --accent:#4f46e5;
-    --red:#dc2626; --red-bg:#fee2e2;
-    --amber:#d97706; --amber-bg:#fef3c7;
-    --blue:#2563eb; --blue-bg:#dbeafe;
-    --green:#16a34a; --green-bg:#dcfce7;
-    --gray:#6b7280; --gray-bg:#f1f5f9;
+  :root {
+    --bg: #0f1115;
+    --card: #171a21;
+    --card-border: #262b36;
+    --text: #e8eaed;
+    --text-dim: #9aa2b1;
+    --accent: #6aa9ff;
+    --green: #3ecf8e;
+    --yellow: #e8b84b;
+    --orange: #f0975a;
+    --red: #f0615a;
+    --purple: #b18cf0;
   }
-  *{box-sizing:border-box;}
-  body{
-    margin:0; padding:24px; background:var(--bg); color:var(--ink);
-    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    padding: 24px 32px 64px;
   }
-  .nav{font-size:13px; margin-bottom:10px;}
-  .nav a{color:var(--accent); text-decoration:none; font-weight:600;}
-  .nav a:hover{text-decoration:underline;}
-  .nav span{color:var(--muted); margin:0 6px;}
-  h1{font-size:22px; margin:0 0 4px;}
-  .sub{color:var(--muted); font-size:13px; margin-bottom:24px;}
-  .cards{display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:12px; margin-bottom:28px;}
-  .card{background:var(--card); border:1px solid var(--border); border-radius:12px; padding:16px 18px;}
-  .card .n{font-size:28px; font-weight:700; line-height:1.1;}
-  .card .l{font-size:12.5px; color:var(--muted); margin-top:4px;}
-  .card.no-response .n{color:var(--red);}
-  .card.awaiting-us .n{color:var(--amber);}
-  .card.awaiting-them .n{color:var(--blue);}
-  .card.resolved .n{color:var(--green);}
-  .card.info .n{color:var(--gray);}
-
-  section{background:var(--card); border:1px solid var(--border); border-radius:12px; padding:20px; margin-bottom:24px;}
-  section h2{font-size:15px; margin:0 0 14px;}
-
-  table{width:100%; border-collapse:collapse; font-size:13.5px;}
-  th,td{text-align:left; padding:8px 10px; border-bottom:1px solid var(--border); vertical-align:top;}
-  th{color:var(--muted); font-weight:600; font-size:12px; text-transform:uppercase; letter-spacing:.02em;}
-  tr:last-child td{border-bottom:none;}
-  td.num{text-align:right; font-variant-numeric:tabular-nums;}
-  th.num{text-align:right;}
-
-  .badge{display:inline-block; padding:2px 9px; border-radius:99px; font-size:12px; font-weight:600; white-space:nowrap;}
-  .badge.no-response{color:var(--red); background:var(--red-bg);}
-  .badge.awaiting-us{color:var(--amber); background:var(--amber-bg);}
-  .badge.awaiting-them{color:var(--blue); background:var(--blue-bg);}
-  .badge.resolved{color:var(--green); background:var(--green-bg);}
-  .badge.info{color:var(--gray); background:var(--gray-bg);}
-
-  .filters{display:flex; gap:10px; flex-wrap:wrap; align-items:center;}
-  .filters select, .filters input{
-    padding:7px 10px; border-radius:8px; border:1px solid var(--border);
-    font-size:13px; background:#fff; color:var(--ink);
+  h1 { font-size: 22px; margin: 0 0 4px; font-weight: 600; }
+  .subtitle { color: var(--text-dim); font-size: 13px; margin-bottom: 24px; }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 12px;
+    margin-bottom: 28px;
   }
-  .filters input{flex:1; min-width:200px;}
-  .count-note{font-size:12.5px; color:var(--muted); margin-left:auto;}
-
-  .days-open{font-weight:600;}
-  .days-warn{color:var(--red);}
-  .grp-pill{display:inline-block; padding:1px 8px; border-radius:6px; font-size:11.5px; font-weight:600; background:var(--gray-bg); color:#374151;}
-  .note{color:var(--muted); font-size:12.5px;}
-  footer{color:var(--muted); font-size:12px; text-align:center; margin-top:8px;}
-
-  .actions{display:flex; gap:6px; white-space:nowrap;}
-  .btn{
-    border:1px solid var(--border); background:#fff; color:var(--ink);
-    padding:5px 10px; border-radius:7px; font-size:12px; cursor:pointer; text-decoration:none;
-    display:inline-block; line-height:1.2;
+  .card {
+    background: var(--card);
+    border: 1px solid var(--card-border);
+    border-radius: 10px;
+    padding: 14px 16px;
   }
-  .btn:hover{background:var(--gray-bg);}
-  .btn.reply{color:var(--accent); border-color:#c7d2fe;}
-  .btn.close-btn{color:var(--green); border-color:#bbf7d0;}
-  .btn[disabled]{opacity:.4; cursor:not-allowed; pointer-events:none;}
+  .card .num { font-size: 26px; font-weight: 700; }
+  .card .label { font-size: 12px; color: var(--text-dim); margin-top: 2px; }
+  .card.total .num { color: var(--text); }
+  .card.no-response .num { color: var(--red); }
+  .card.awaiting-us .num { color: var(--orange); }
+  .card.awaiting-them .num { color: var(--yellow); }
+  .card.resolved .num { color: var(--green); }
+  .card.info .num { color: var(--purple); }
+
+  .section-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin: 28px 0 10px;
+  }
+
+  table.analytics {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--card);
+    border: 1px solid var(--card-border);
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+  table.analytics th, table.analytics td {
+    padding: 10px 14px;
+    text-align: left;
+    border-bottom: 1px solid var(--card-border);
+  }
+  table.analytics th { color: var(--text-dim); font-weight: 500; font-size: 12px; }
+  table.analytics tr:last-child td { border-bottom: none; }
+
+  .controls {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 14px;
+    flex-wrap: wrap;
+  }
+  .controls select, .controls input {
+    background: var(--card);
+    border: 1px solid var(--card-border);
+    color: var(--text);
+    padding: 7px 10px;
+    border-radius: 8px;
+    font-size: 13px;
+  }
+  .controls input { flex: 1; min-width: 180px; }
+  #reloadBtn {
+    background: var(--card);
+    border: 1px solid var(--card-border);
+    color: var(--text);
+    padding: 7px 14px;
+    border-radius: 8px;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  #reloadBtn:hover { border-color: var(--accent); }
+
+  .thread-list { display: flex; flex-direction: column; gap: 8px; }
+  .thread {
+    background: var(--card);
+    border: 1px solid var(--card-border);
+    border-radius: 10px;
+    padding: 12px 16px;
+    display: grid;
+    grid-template-columns: 90px 1fr 170px 90px 90px 150px;
+    gap: 12px;
+    align-items: center;
+    font-size: 13px;
+  }
+  .thread .grp {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    letter-spacing: 0.03em;
+  }
+  .thread .subj a { color: var(--text); text-decoration: none; font-weight: 500; }
+  .thread .subj a:hover { color: var(--accent); text-decoration: underline; }
+  .thread .subj .note { color: var(--text-dim); font-size: 12px; margin-top: 2px; }
+  .thread .counterpart { color: var(--text-dim); font-size: 12px; }
+  .thread .days { text-align: right; color: var(--text-dim); font-size: 12px; }
+  .badge {
+    display: inline-block;
+    padding: 3px 9px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .badge.no-response { background: rgba(240,97,90,0.15); color: var(--red); }
+  .badge.awaiting-us { background: rgba(240,151,90,0.15); color: var(--orange); }
+  .badge.awaiting-them { background: rgba(232,184,75,0.15); color: var(--yellow); }
+  .badge.resolved { background: rgba(62,207,142,0.15); color: var(--green); }
+  .badge.informational { background: rgba(177,140,240,0.15); color: var(--purple); }
+
+  .actions { display: flex; gap: 8px; justify-content: flex-end; }
+  .actions a, .actions button {
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    border: 1px solid var(--card-border);
+    background: transparent;
+    color: var(--text-dim);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .actions a:hover, .actions button:hover { color: var(--text); border-color: var(--accent); }
+
+  .empty { color: var(--text-dim); text-align: center; padding: 40px; }
+
+  @media (max-width: 900px) {
+    .thread { grid-template-columns: 1fr; }
+    .thread .days, .thread .counterpart { text-align: left; }
+    .actions { justify-content: flex-start; }
+    .cards { grid-template-columns: repeat(2, 1fr); }
+  }
 </style>
 </head>
 <body>
 
-<div class="nav"><strong>Mailbox</strong><span>|</span><a href="discord-dashboard.html">Discord threads →</a><span>|</span><a href="events-dashboard.html">Events map →</a></div>
-
 <h1>TinkerHub Mailbox Dashboard</h1>
-<div class="sub" id="header-sub">campus@ · support@ · finance@ · report@tinkerhub.org — threads from the last 30 days</div>
+<div class="subtitle" id="generatedAt">Loading...</div>
 
-<div class="cards">
-  <div class="card no-response"><div class="n" id="c-no-response">0</div><div class="l">No response at all</div></div>
-  <div class="card awaiting-us"><div class="n" id="c-awaiting-us">0</div><div class="l">Awaiting reply — from us</div></div>
-  <div class="card awaiting-them"><div class="n" id="c-awaiting-them">0</div><div class="l">Awaiting reply — from them</div></div>
-  <div class="card resolved"><div class="n" id="c-resolved">0</div><div class="l">Resolved</div></div>
-  <div class="card info"><div class="n" id="c-info">0</div><div class="l">Informational</div></div>
+<div class="cards" id="summaryCards"></div>
+
+<div class="section-title">By Group</div>
+<table class="analytics" id="analyticsTable"></table>
+
+<div class="section-title">Threads</div>
+<div class="controls">
+  <select id="groupFilter">
+    <option value="">All groups</option>
+    <option value="campus">Campus</option>
+    <option value="support">Support</option>
+    <option value="finance">Finance</option>
+    <option value="report">Report</option>
+  </select>
+  <select id="statusFilter">
+    <option value="">All statuses</option>
+    <option value="No response">No response</option>
+    <option value="Awaiting reply (from us)">Awaiting reply (from us)</option>
+    <option value="Awaiting reply (from them)">Awaiting reply (from them)</option>
+    <option value="Resolved">Resolved</option>
+    <option value="Informational">Informational</option>
+  </select>
+  <input type="text" id="searchBox" placeholder="Search subject or counterpart...">
+  <button id="reloadBtn" onclick="location.reload()">Reload</button>
 </div>
 
-<section>
-  <h2>Group-wise analytics</h2>
-  <table id="analytics-table">
-    <thead>
-      <tr>
-        <th>Group</th><th class="num">Total</th><th class="num">No response</th>
-        <th class="num">Awaiting (us)</th><th class="num">Awaiting (them)</th>
-        <th class="num">Resolved</th><th class="num">Informational</th>
-        <th class="num">Avg days open</th><th class="num">Avg days to resolved</th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
-</section>
-
-<section>
-  <h2>Threads</h2>
-  <div class="filters" style="margin-bottom:14px;">
-    <select id="f-group">
-      <option value="">All groups</option>
-      <option value="campus">campus</option>
-      <option value="support">support</option>
-      <option value="finance">finance</option>
-      <option value="report">report</option>
-    </select>
-    <select id="f-status">
-      <option value="">All statuses</option>
-      <option value="No response">No response</option>
-      <option value="Awaiting reply (from us)">Awaiting reply (from us)</option>
-      <option value="Awaiting reply (from them)">Awaiting reply (from them)</option>
-      <option value="Resolved">Resolved</option>
-      <option value="Informational">Informational</option>
-    </select>
-    <input id="f-search" type="text" placeholder="Search subject or sender…">
-    <span class="count-note" id="f-count"></span>
-  </div>
-  <table id="threads-table">
-    <thead>
-      <tr>
-        <th>Group</th><th>Subject</th><th>Counterpart</th><th>Received</th><th>Status</th>
-        <th class="num">Days</th><th>Note</th><th>Actions</th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
-</section>
-
-<footer id="footer-note">"Days" = days since the last message in the thread. Newest activity first. "Close" opens a pre-filled reply in Gmail — nothing is sent until you hit Send yourself.</footer>
+<div class="thread-list" id="threadList"></div>
 
 <script src="dashboard-data.js"></script>
 <script>
-const DATA = window.DASHBOARD_DATA;
-
-const statusClass = {
-  "No response":"no-response",
-  "Awaiting reply (from us)":"awaiting-us",
-  "Awaiting reply (from them)":"awaiting-them",
-  "Resolved":"resolved",
-  "Informational":"info"
+const STATUS_CLASS = {
+  "No response": "no-response",
+  "Awaiting reply (from us)": "awaiting-us",
+  "Awaiting reply (from them)": "awaiting-them",
+  "Resolved": "resolved",
+  "Informational": "informational",
 };
 
-function recompute(threads){
-  const groups = ["campus","support","finance","report"];
-  const statuses = ["No response","Awaiting reply (from us)","Awaiting reply (from them)","Resolved","Informational"];
-  const openStatuses = new Set(["No response","Awaiting reply (from us)","Awaiting reply (from them)"]);
-
-  const summary = {};
-  statuses.forEach(s=>summary[s]=0);
-  threads.forEach(t=>summary[t.status] = (summary[t.status]||0) + 1);
-
-  const analytics = {};
-  groups.forEach(g=>{
-    const gt = threads.filter(t=>t.group===g);
-    const row = {total: gt.length};
-    statuses.forEach(s=> row[s] = gt.filter(t=>t.status===s).length);
-    const openDays = gt.filter(t=>openStatuses.has(t.status)).map(t=>t.daysOpen);
-    const resolvedDays = gt.filter(t=>t.status==="Resolved").map(t=>t.daysOpen);
-    row.avgOpenDays = openDays.length ? Math.round(openDays.reduce((a,b)=>a+b,0)/openDays.length*10)/10 : null;
-    row.avgResolvedDays = resolvedDays.length ? Math.round(resolvedDays.reduce((a,b)=>a+b,0)/resolvedDays.length*10)/10 : null;
-    analytics[g] = row;
-  });
-  return {summary, analytics};
+function esc(s) {
+  if (s === null || s === undefined) return "";
+  return String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 }
 
-function renderSummary(summary){
-  document.getElementById("c-no-response").textContent = summary["No response"]||0;
-  document.getElementById("c-awaiting-us").textContent = summary["Awaiting reply (from us)"]||0;
-  document.getElementById("c-awaiting-them").textContent = summary["Awaiting reply (from them)"]||0;
-  document.getElementById("c-resolved").textContent = summary["Resolved"]||0;
-  document.getElementById("c-info").textContent = summary["Informational"]||0;
+function gmailThreadUrl(threadId) {
+  return `https://mail.google.com/mail/u/0/#all/${threadId}`;
 }
 
-function renderAnalytics(analytics){
-  const tbody = document.querySelector("#analytics-table tbody");
-  tbody.innerHTML = "";
-  ["campus","support","finance","report"].forEach(g=>{
-    const a = analytics[g];
-    if(!a) return;
-    const tr = document.createElement("tr");
-    tr.innerHTML = `
-      <td><span class="grp-pill">${g}</span></td>
-      <td class="num">${a.total}</td>
-      <td class="num">${a["No response"]||0}</td>
-      <td class="num">${a["Awaiting reply (from us)"]||0}</td>
-      <td class="num">${a["Awaiting reply (from them)"]||0}</td>
-      <td class="num">${a["Resolved"]||0}</td>
-      <td class="num">${a["Informational"]||0}</td>
-      <td class="num">${a.avgOpenDays!==null ? a.avgOpenDays+"d" : "—"}</td>
-      <td class="num">${a.avgResolvedDays!==null ? a.avgResolvedDays+"d" : "—"}</td>
-    `;
-    tbody.appendChild(tr);
-  });
+function gmailComposeUrl(thread) {
+  const to = thread.email || "";
+  const cc = (thread.cc || []).join(",");
+  const su = `Re: ${thread.subject}`;
+  const body = `Hi,\n\nThis thread has been quiet for ${thread.daysOpen} day${thread.daysOpen === 1 ? "" : "s"}, so we're closing it out on our end.\n\nPlease let us know if anything further is needed.\n\nThanks,\nTinkerHub`;
+  const params = new URLSearchParams({ view: "cm", fs: "1", su, body });
+  if (cc) params.set("cc", cc);
+  return `https://mail.google.com/mail/?${params.toString()}&to=${encodeURIComponent(to)}`;
 }
 
-function escapeHtml(s){
-  return String(s||"").replace(/[&<>"']/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-}
-
-// Compose-in-Gmail link for closing out a quiet thread. Opens a real Gmail
-// "reply all"-style compose window (new tab): addressed to the counterpart
-// and CC'd to everyone else who was actually on the thread (the shared
-// group inbox, plus any teammates who were cc'd), pre-filled with a closing
-// note referencing how many days it's been open. Nothing is sent until the
-// person reviews and hits Send themselves in Gmail.
-function closeComposeHref(t){
-  if(!t.email) return null;
-  const subject = "Re: " + t.subject;
-  const body =
-`Hi,
-
-It's been ${t.daysOpen} day${t.daysOpen === 1 ? "" : "s"} without a response on this thread, so we're closing it out for now.
-
-Feel free to reply anytime if this is still open and we'll pick it back up.
-
-Thanks,
-TinkerHub`;
-  const params = new URLSearchParams({
-    view: "cm",
-    fs: "1",
-    to: t.email,
-    su: subject,
-    body: body
-  });
-  const cc = (t.cc || []).filter(addr => addr && addr.toLowerCase() !== t.email.toLowerCase());
-  if(cc.length){
-    params.set("cc", cc.join(","));
+function renderSummary(summary) {
+  const order = ["No response", "Awaiting reply (from us)", "Awaiting reply (from them)", "Resolved", "Informational"];
+  const classMap = { "No response": "no-response", "Awaiting reply (from us)": "awaiting-us", "Awaiting reply (from them)": "awaiting-them", "Resolved": "resolved", "Informational": "info" };
+  const total = Object.values(summary).reduce((a,b) => a+b, 0);
+  let html = `<div class="card total"><div class="num">${total}</div><div class="label">Total threads</div></div>`;
+  for (const key of order) {
+    html += `<div class="card ${classMap[key]}"><div class="num">${summary[key] || 0}</div><div class="label">${esc(key)}</div></div>`;
   }
-  return `https://mail.google.com/mail/?${params.toString()}`;
+  document.getElementById("summaryCards").innerHTML = html;
 }
 
-function renderThreads(){
-  const g = document.getElementById("f-group").value;
-  const s = document.getElementById("f-status").value;
-  const q = document.getElementById("f-search").value.trim().toLowerCase();
+function renderAnalytics(analytics) {
+  let html = `<tr><th>Group</th><th>Total</th><th>No response</th><th>Awaiting (us)</th><th>Awaiting (them)</th><th>Resolved</th><th>Informational</th><th>Avg open (days)</th><th>Avg resolved (days)</th></tr>`;
+  for (const group of ["campus", "support", "finance", "report"]) {
+    const a = analytics[group];
+    if (!a) continue;
+    const c = a.counts || {};
+    html += `<tr>
+      <td style="text-transform:capitalize;font-weight:600;">${esc(group)}</td>
+      <td>${a.total}</td>
+      <td>${c["No response"] || 0}</td>
+      <td>${c["Awaiting reply (from us)"] || 0}</td>
+      <td>${c["Awaiting reply (from them)"] || 0}</td>
+      <td>${c["Resolved"] || 0}</td>
+      <td>${c["Informational"] || 0}</td>
+      <td>${a.avgOpenDays}</td>
+      <td>${a.avgResolvedDays}</td>
+    </tr>`;
+  }
+  document.getElementById("analyticsTable").innerHTML = html;
+}
 
-  const {summary, analytics} = recompute(DATA.threads);
-  renderSummary(summary);
-  renderAnalytics(analytics);
+function renderThreads(threads) {
+  const groupFilter = document.getElementById("groupFilter").value;
+  const statusFilter = document.getElementById("statusFilter").value;
+  const search = document.getElementById("searchBox").value.trim().toLowerCase();
 
-  const rows = DATA.threads.filter(t=>{
-    if(g && t.group!==g) return false;
-    if(s && t.status!==s) return false;
-    if(q && !(t.subject.toLowerCase().includes(q) || t.counterpart.toLowerCase().includes(q))) return false;
-    return true;
-  }).sort((a,b)=> new Date(b.last) - new Date(a.last));
-
-  const tbody = document.querySelector("#threads-table tbody");
-  tbody.innerHTML = "";
-  rows.forEach(t=>{
-    const cls = statusClass[t.status] || "info";
-    const warn = (t.status!=="Resolved" && t.status!=="Informational" && t.daysOpen>=7) ? "days-warn" : "";
-
-    // Subject and "Open in Gmail" open the real thread (same logged-in Chrome session).
-    const gmailHref = t.threadId ? `https://mail.google.com/mail/u/0/#all/${t.threadId}` : null;
-    const subjectHtml = gmailHref
-      ? `<a href="${gmailHref}" target="_blank" rel="noopener">${escapeHtml(t.subject)}</a>`
-      : escapeHtml(t.subject);
-
-    const replyBtn = gmailHref
-      ? `<a class="btn reply" href="${gmailHref}" target="_blank" rel="noopener">Open in Gmail</a>`
-      : `<button class="btn reply" disabled title="No thread reference for this row">Open</button>`;
-
-    let closeBtn = "";
-    if(t.status !== "Resolved" && t.status !== "Informational"){
-      const href = closeComposeHref(t);
-      closeBtn = href
-        ? `<a class="btn close-btn" href="${href}" target="_blank" rel="noopener">Close…</a>`
-        : `<button class="btn close-btn" disabled title="No email address for this counterpart">Close…</button>`;
+  let filtered = threads.filter(t => {
+    if (groupFilter && t.group !== groupFilter) return false;
+    if (statusFilter && t.status !== statusFilter) return false;
+    if (search) {
+      const hay = `${t.subject} ${t.counterpart}`.toLowerCase();
+      if (!hay.includes(search)) return false;
     }
-
-    const tr = document.createElement("tr");
-    tr.innerHTML = `
-      <td><span class="grp-pill">${t.group}</span></td>
-      <td>${subjectHtml}</td>
-      <td>${escapeHtml(t.counterpart)}</td>
-      <td>${t.received||""}</td>
-      <td><span class="badge ${cls}">${t.status}</span></td>
-      <td class="num days-open ${warn}">${t.daysOpen}</td>
-      <td class="note">${escapeHtml(t.note||"")}</td>
-      <td><div class="actions">${replyBtn}${closeBtn}</div></td>
-    `;
-    tbody.appendChild(tr);
+    return true;
   });
-  document.getElementById("f-count").textContent = rows.length + " of " + DATA.threads.length + " threads";
+
+  filtered.sort((a, b) => new Date(b.last) - new Date(a.last));
+
+  const list = document.getElementById("threadList");
+  if (filtered.length === 0) {
+    list.innerHTML = `<div class="empty">No threads match these filters.</div>`;
+    return;
+  }
+
+  list.innerHTML = filtered.map(t => {
+    const statusClass = STATUS_CLASS[t.status] || "";
+    const canClose = t.status !== "Resolved" && t.status !== "Informational" && t.email;
+    return `
+      <div class="thread">
+        <div class="grp">${esc(t.group)}</div>
+        <div class="subj">
+          <a href="${gmailThreadUrl(t.threadId)}" target="_blank" rel="noopener">${esc(t.subject)}</a>
+          ${t.note ? `<div class="note">${esc(t.note)}</div>` : ""}
+        </div>
+        <div class="counterpart">${esc(t.counterpart)}</div>
+        <div><span class="badge ${statusClass}">${esc(t.status)}</span></div>
+        <div class="days">${t.daysOpen}d open</div>
+        <div class="actions">
+          <a href="${gmailThreadUrl(t.threadId)}" target="_blank" rel="noopener">Open in Gmail</a>
+          ${canClose ? `<a href="${gmailComposeUrl(t)}" target="_blank" rel="noopener">Close&hellip;</a>` : ""}
+        </div>
+      </div>
+    `;
+  }).join("");
 }
 
-["f-group","f-status"].forEach(id=>document.getElementById(id).addEventListener("change", renderThreads));
-document.getElementById("f-search").addEventListener("input", renderThreads);
+function init() {
+  const data = window.DASHBOARD_DATA;
+  if (!data) {
+    document.getElementById("generatedAt").textContent = "No data loaded.";
+    return;
+  }
+  document.getElementById("generatedAt").textContent = `Last refreshed: ${data.generatedAt}`;
+  renderSummary(data.summary);
+  renderAnalytics(data.analytics);
+  renderThreads(data.threads);
 
-document.getElementById("header-sub").textContent =
-  "campus@ · support@ · finance@ · report@tinkerhub.org — threads from the last 30 days · data as of " + (DATA.generatedAt || "unknown date");
+  document.getElementById("groupFilter").addEventListener("change", () => renderThreads(data.threads));
+  document.getElementById("statusFilter").addEventListener("change", () => renderThreads(data.threads));
+  document.getElementById("searchBox").addEventListener("input", () => renderThreads(data.threads));
+}
 
-renderThreads();
+init();
 </script>
+
 </body>
 </html>
