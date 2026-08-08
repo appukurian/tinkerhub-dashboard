@@ -2,7 +2,7 @@
 // Do NOT hand-edit -- this file is overwritten on each run.
 window.EVENTS_DATA = {
   "generatedAt": "2026-08-08",
-  "generatedAtIso": "2026-08-08T01:18:14.671048+00:00",
+  "generatedAtIso": "2026-08-08T04:09:13.212614+00:00",
   "windowSinceDate": "2026-04-01",
   "windowUntilDate": "2027-03-31",
   "events": [
@@ -6721,7 +6721,7 @@ window.EVENTS_DATA = {
       "lat": 11.828,
       "lng": 75.3136,
       "locationSource": "district_fallback",
-      "registered": 0,
+      "registered": 4,
       "checkedIn": 0,
       "seats": null,
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sree%20Narayana%20Guru%20College%20of%20Engineering%20%26%20Technology%2C%20PO%20Chalakode%2C%20Payyanur%20kannur-670307"
@@ -6741,7 +6741,7 @@ window.EVENTS_DATA = {
       "lat": null,
       "lng": null,
       "locationSource": "unresolved",
-      "registered": 34,
+      "registered": 41,
       "checkedIn": 0,
       "seats": null,
       "mapUrl": null
@@ -6801,7 +6801,7 @@ window.EVENTS_DATA = {
       "lat": 10.0469797,
       "lng": 76.3351998,
       "locationSource": "maps_link",
-      "registered": 3,
+      "registered": 2,
       "checkedIn": 0,
       "seats": null,
       "mapUrl": "https://maps.app.goo.gl/j8w832j2VkvJPGeSA"
@@ -6861,7 +6861,7 @@ window.EVENTS_DATA = {
       "lat": 9.578816,
       "lng": 76.6228879,
       "locationSource": "maps_link",
-      "registered": 32,
+      "registered": 33,
       "checkedIn": 0,
       "seats": null,
       "mapUrl": "https://maps.app.goo.gl/Y9bWocbV9VxD3R4f7"
@@ -7012,7 +7012,7 @@ window.EVENTS_DATA = {
     "todayCount": 9,
     "upcomingCount": 21,
     "pastCount": 329,
-    "totalRegistered": 8523,
+    "totalRegistered": 8534,
     "totalCheckedIn": 5058,
     "virtualCount": 125,
     "geocoded": 225,
