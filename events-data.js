@@ -2,7 +2,7 @@
 // Do NOT hand-edit -- this file is overwritten on each run.
 window.EVENTS_DATA = {
   "generatedAt": "2026-08-08",
-  "generatedAtIso": "2026-08-08T18:32:20.802960+00:00",
+  "generatedAtIso": "2026-08-08T21:26:09.362119+00:00",
   "windowSinceDate": "2026-04-01",
   "windowUntilDate": "2027-03-31",
   "events": [
@@ -6901,7 +6901,7 @@ window.EVENTS_DATA = {
       "lat": 10.0469797,
       "lng": 76.3351998,
       "locationSource": "maps_link",
-      "registered": 2,
+      "registered": 5,
       "checkedIn": 0,
       "seats": null,
       "mapUrl": "https://maps.app.goo.gl/j8w832j2VkvJPGeSA"
@@ -7021,7 +7021,7 @@ window.EVENTS_DATA = {
       "lat": 11.5644239,
       "lng": 75.6508443,
       "locationSource": "maps_link",
-      "registered": 6,
+      "registered": 7,
       "checkedIn": 0,
       "seats": null,
       "mapUrl": "https://maps.app.goo.gl/6ahdCi5FW6FRvire8"
@@ -7141,7 +7141,7 @@ window.EVENTS_DATA = {
       "lat": 11.1984611,
       "lng": 75.8573271,
       "locationSource": "maps_link",
-      "registered": 17,
+      "registered": 18,
       "checkedIn": 0,
       "seats": 100,
       "mapUrl": "https://maps.app.goo.gl/TiNjg7AVDXULd39s6"
@@ -7272,7 +7272,7 @@ window.EVENTS_DATA = {
     "todayCount": 12,
     "upcomingCount": 22,
     "pastCount": 341,
-    "totalRegistered": 8737,
+    "totalRegistered": 8742,
     "totalCheckedIn": 5144,
     "virtualCount": 132,
     "geocoded": 235,
