@@ -576,15 +576,29 @@ function renderCards(){
 }
 
 function renderProjects(){
+  const total = document.getElementById("c-projects-total");
+  const people = document.getElementById("c-projects-people");
+  const eventLinked = document.getElementById("c-projects-event");
+  const independent = document.getElementById("c-projects-independent");
+
+  // DATA.projects only exists once the pipeline has run with the query that
+  // fetches it -- show a placeholder rather than a misleading "0" if an
+  // older events-data.js is still being served.
+  if(!Array.isArray(DATA.projects)){
+    [total, people, eventLinked, independent].forEach(el => { el.textContent = "—"; el.title = "Needs the next data refresh to populate"; });
+    return;
+  }
+  [total, people, eventLinked, independent].forEach(el => el.title = "");
+
   const projects = scopedProjects();
   const eventBased = projects.filter(p => p.eventBased).length;
   const collaboratorIds = new Set();
   projects.forEach(p => (p.collaboratorIds || []).forEach(id => collaboratorIds.add(id)));
 
-  document.getElementById("c-projects-total").textContent = projects.length;
-  document.getElementById("c-projects-people").textContent = collaboratorIds.size;
-  document.getElementById("c-projects-event").textContent = eventBased;
-  document.getElementById("c-projects-independent").textContent = projects.length - eventBased;
+  total.textContent = projects.length;
+  people.textContent = collaboratorIds.size;
+  eventLinked.textContent = eventBased;
+  independent.textContent = projects.length - eventBased;
 }
 
 function renderVerticalsTable(){
@@ -616,13 +630,15 @@ function renderVerticalsTable(){
   const collaboratorIds = new Set();
   projects.forEach(p => (p.collaboratorIds || []).forEach(id => collaboratorIds.add(id)));
   const projectsRow = document.createElement("tr");
+  const hasProjects = Array.isArray(DATA.projects);
   projectsRow.innerHTML = `
     <td><span class="type-pill"><span class="type-dot" style="background:#0891b2"></span>Projects</span></td>
-    <td class="num">${projects.length}</td>
+    <td class="num">${hasProjects ? projects.length : "—"}</td>
     <td class="num">—</td>
     <td class="num">—</td>
-    <td class="num">${collaboratorIds.size}</td>
+    <td class="num">${hasProjects ? collaboratorIds.size : "—"}</td>
   `;
+  if(!hasProjects) projectsRow.title = "Needs the next data refresh to populate";
   tbody.appendChild(projectsRow);
 }
 
