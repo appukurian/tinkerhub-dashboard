@@ -113,10 +113,27 @@ def mb_run_sql(sql):
     return [dict(zip(cols, r)) for r in rows]
 
 
+def parse_id_array(value):
+    """Normalize a Postgres integer[] column (array_agg(...)) coming back
+    through Metabase's dataset API -- usually already a JSON list, but be
+    defensive in case a driver ever serializes it as a "{1,2,3}" string."""
+    if value is None:
+        return []
+    if isinstance(value, list):
+        return [int(v) for v in value if v is not None]
+    if isinstance(value, str):
+        s = value.strip().strip("{}")
+        if not s:
+            return []
+        return [int(x) for x in s.split(",") if x.strip() not in ("", "NULL")]
+    return []
+
+
 SQL = f"""
 WITH att AS (
     SELECT event_id, COUNT(*) AS registered,
-           SUM(CASE WHEN check_in THEN 1 ELSE 0 END) AS checked_in
+           SUM(CASE WHEN check_in THEN 1 ELSE 0 END) AS checked_in,
+           array_agg(DISTINCT membership_id) FILTER (WHERE check_in AND membership_id IS NOT NULL) AS checked_in_member_ids
     FROM attendees
     GROUP BY event_id
 ),
@@ -131,7 +148,8 @@ SELECT e.id, e.name, e.type, e.status, e.start_date, e.end_date, e.is_virtual,
        so.id AS sub_org_id, so.name AS campus_name, so.district,
        so.address AS campus_address, so.map_url AS campus_map_url,
        v.venue_address, v.venue_map_url, v.venue_name,
-       COALESCE(a.registered, 0) AS registered, COALESCE(a.checked_in, 0) AS checked_in
+       COALESCE(a.registered, 0) AS registered, COALESCE(a.checked_in, 0) AS checked_in,
+       a.checked_in_member_ids
 FROM events e
 LEFT JOIN sub_orgs so ON e.sub_org_id = so.id
 LEFT JOIN venue v ON v.event_id = e.id
@@ -143,17 +161,15 @@ WHERE e.start_date >= timestamp '{SINCE_DATE}'
 ORDER BY e.start_date ASC
 """
 
-UNIQUE_ATTENDEES_SQL = f"""
-SELECT COUNT(DISTINCT a.membership_id) AS unique_attendees
-FROM attendees a
-JOIN events e ON a.event_id = e.id
-LEFT JOIN sub_orgs so ON e.sub_org_id = so.id
-WHERE a.check_in = true
-  AND a.membership_id IS NOT NULL
-  AND e.start_date >= timestamp '{SINCE_DATE}'
-  AND e.start_date <= timestamp '{UNTIL_DATE}' + interval '1 day'
-  AND e.status != 'cancelled'
-  AND (so.id IS NULL OR so.state = 'active')
+PROJECTS_SQL = f"""
+SELECT p.id, p.event_based, p.event_id, p.created_at,
+       array_agg(DISTINCT pc.membership_id) FILTER (WHERE pc.membership_id IS NOT NULL) AS collaborator_ids
+FROM projects p
+LEFT JOIN project_collaborators pc ON pc.project_id = p.id
+WHERE p.created_at >= timestamp '{SINCE_DATE}'
+  AND p.created_at <= timestamp '{UNTIL_DATE}' + interval '1 day'
+GROUP BY p.id, p.event_based, p.event_id, p.created_at
+ORDER BY p.created_at ASC
 """
 
 
@@ -274,7 +290,7 @@ def resolve_location(row, cache):
 
 def main():
     rows = mb_run_sql(SQL)
-    unique_rows = mb_run_sql(UNIQUE_ATTENDEES_SQL)
+    project_rows = mb_run_sql(PROJECTS_SQL)
     cache = load_geocode_cache()
 
     events = []
@@ -302,11 +318,22 @@ def main():
             "locationSource": source,
             "registered": row.get("registered") or 0,
             "checkedIn": row.get("checked_in") or 0,
+            "checkedInAttendeeIds": parse_id_array(row.get("checked_in_member_ids")),
             "seats": row.get("number_of_seats"),
             "mapUrl": row.get("venue_map_url") or row.get("campus_map_url") or row.get("event_map_url"),
         })
 
     save_geocode_cache(cache)
+
+    projects = []
+    for prow in project_rows:
+        projects.append({
+            "id": prow["id"],
+            "eventBased": bool(prow.get("event_based")),
+            "eventId": prow.get("event_id"),
+            "createdAt": prow.get("created_at"),
+            "collaboratorIds": parse_id_array(prow.get("collaborator_ids")),
+        })
 
     now = datetime.now(timezone.utc)
 
@@ -327,7 +354,18 @@ def main():
         if ev["district"]:
             by_district[ev["district"]] = by_district.get(ev["district"], 0) + 1
 
-    unique_attendees = (unique_rows[0].get("unique_attendees") or 0) if unique_rows else 0
+    all_attendee_ids = set()
+    for e in events:
+        all_attendee_ids.update(e["checkedInAttendeeIds"])
+    unique_attendees = len(all_attendee_ids)
+
+    all_collaborator_ids = set()
+    event_based_count = 0
+    for p in projects:
+        all_collaborator_ids.update(p["collaboratorIds"])
+        if p["eventBased"]:
+            event_based_count += 1
+    unique_people_in_projects = len(all_collaborator_ids)
 
     # Average daily attendance: total check-ins across days that have
     # already happened (today counts, future doesn't -- it has 0 check-ins
@@ -354,6 +392,10 @@ def main():
         "unresolved": sum(1 for e in events if e["locationSource"] == "unresolved"),
         "uniqueAttendees": unique_attendees,
         "avgDailyAttendance": avg_daily_attendance,
+        "totalProjects": len(projects),
+        "eventBasedProjects": event_based_count,
+        "independentProjects": len(projects) - event_based_count,
+        "uniquePeopleInProjects": unique_people_in_projects,
     }
 
     out = {
@@ -362,6 +404,7 @@ def main():
         "windowSinceDate": SINCE_DATE,
         "windowUntilDate": UNTIL_DATE,
         "events": events,
+        "projects": projects,
         "summary": summary,
         "byType": [{"type": t, "count": c, "color": EVENT_TYPE_COLORS.get(t, DEFAULT_COLOR)} for t, c in sorted(by_type.items(), key=lambda x: -x[1])],
         "byDistrict": [{"district": d, "count": c} for d, c in sorted(by_district.items(), key=lambda x: -x[1])],

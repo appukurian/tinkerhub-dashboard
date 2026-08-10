@@ -172,6 +172,30 @@
   </div>
 </section>
 
+<section id="projects-section" style="display:none;">
+  <h2 style="margin-bottom:16px;">Projects</h2>
+  <div class="cards" style="margin-bottom:20px;">
+    <div class="card"><div class="n" id="c-projects-total">0</div><div class="l">Total projects</div></div>
+    <div class="card"><div class="n" id="c-projects-people">0</div><div class="l">People involved</div></div>
+    <div class="card"><div class="n" id="c-projects-event">0</div><div class="l">Added via an event</div></div>
+    <div class="card"><div class="n" id="c-projects-independent">0</div><div class="l">Added independently</div></div>
+  </div>
+</section>
+
+<section id="verticals-section" style="display:none;">
+  <h2 style="margin-bottom:4px;">By vertical</h2>
+  <div class="sub" style="margin:0 0 14px; font-size:12px;">Attendance and unique-people detail for each event type, plus projects. Scoped to the quarter selected above.</div>
+  <table id="verticals-table">
+    <thead>
+      <tr>
+        <th>Vertical</th><th class="num">Count</th><th class="num">Registered</th>
+        <th class="num">Checked in</th><th class="num">Unique people</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</section>
+
 <section id="events-section" style="display:none;">
   <h2>Events</h2>
   <div class="sub" style="margin:-4px 0 10px; font-size:12px;">Filtered by the quarter selector and the Today / Upcoming / Past toggle above the map.</div>
@@ -259,15 +283,35 @@ function computeQuarters(){
   return quarters;
 }
 
-function matchesQuarter(ev){
+function dateInQuarter(dateStr){
   if(!currentQuarter) return true;
-  if(!ev.start) return false;
-  const t = new Date(ev.start);
+  if(!dateStr) return false;
+  const t = new Date(dateStr);
   return t >= currentQuarter.start && t < currentQuarter.end;
+}
+
+function matchesQuarter(ev){
+  return dateInQuarter(ev.start);
 }
 
 function scopedEvents(){
   return DATA.events.filter(matchesQuarter);
+}
+
+function scopedProjects(){
+  return (DATA.projects || []).filter(p => dateInQuarter(p.createdAt));
+}
+
+// Unique people from a list of events, deduped by attendee id. Falls back
+// to null (meaning "unknown, can't dedupe") if the events don't carry
+// per-attendee identity yet (older events-data.js from before this field
+// existed) rather than silently showing a wrong number.
+function uniqueAttendeeIds(events){
+  if(!events.length) return new Set();
+  if(!events.some(ev => Array.isArray(ev.checkedInAttendeeIds))) return null;
+  const ids = new Set();
+  events.forEach(ev => (ev.checkedInAttendeeIds || []).forEach(id => ids.add(id)));
+  return ids;
 }
 
 function initMap(){
@@ -467,6 +511,8 @@ document.getElementById("f-quarter").addEventListener("change", (e)=>{
   currentQuarter = idx === "" ? null : allQuarters[+idx];
   renderQuarterScopeNote();
   renderCards();
+  renderProjects();
+  renderVerticalsTable();
   renderLegend();
   renderMarkers();
   renderDistrictAndTypeBars();
@@ -509,14 +555,18 @@ function renderCards(){
   document.getElementById("c-virtual").textContent = virtualCount;
   document.getElementById("c-avg-daily").textContent = avgDailyAttendance;
 
-  // Unique attendees needs person-level check-in identity from Metabase
-  // directly (registered/checkedIn here are per-event aggregate counts, so
-  // summing them would double-count repeat attendees) -- that query is for
-  // the full financial-year window only, so it doesn't change with the
-  // quarter filter. Falls back to a placeholder if serving an
-  // events-data.js from before this field existed.
+  // Unique attendees, deduped by real check-in identity (registered/
+  // checkedIn are per-event aggregate counts, so summing them would double-
+  // count repeat attendees). Computed live from the events in scope, so it
+  // now updates with the quarter filter same as everything else. Falls back
+  // to the full-window figure from the pipeline if serving an
+  // events-data.js from before per-event attendee ids existed.
   const uniqueAttendeesEl = document.getElementById("c-unique-attendees");
-  if(typeof DATA.summary.uniqueAttendees === "number"){
+  const uniqueIds = uniqueAttendeeIds(events);
+  if(uniqueIds !== null){
+    uniqueAttendeesEl.textContent = uniqueIds.size;
+    uniqueAttendeesEl.title = "";
+  } else if(typeof DATA.summary.uniqueAttendees === "number"){
     uniqueAttendeesEl.textContent = DATA.summary.uniqueAttendees;
     uniqueAttendeesEl.title = currentQuarter ? "Full window figure -- doesn't change with the quarter filter" : "";
   } else {
@@ -525,11 +575,64 @@ function renderCards(){
   }
 }
 
+function renderProjects(){
+  const projects = scopedProjects();
+  const eventBased = projects.filter(p => p.eventBased).length;
+  const collaboratorIds = new Set();
+  projects.forEach(p => (p.collaboratorIds || []).forEach(id => collaboratorIds.add(id)));
+
+  document.getElementById("c-projects-total").textContent = projects.length;
+  document.getElementById("c-projects-people").textContent = collaboratorIds.size;
+  document.getElementById("c-projects-event").textContent = eventBased;
+  document.getElementById("c-projects-independent").textContent = projects.length - eventBased;
+}
+
+function renderVerticalsTable(){
+  const events = scopedEvents();
+  const projects = scopedProjects();
+  const tbody = document.querySelector("#verticals-table tbody");
+  tbody.innerHTML = "";
+
+  const types = DATA.byType.map(t => t.type); // fixed order
+  types.forEach(type=>{
+    const typeEvents = events.filter(ev => ev.type === type);
+    const registered = typeEvents.reduce((sum, ev) => sum + (ev.registered || 0), 0);
+    const checkedIn = typeEvents.reduce((sum, ev) => sum + (ev.checkedIn || 0), 0);
+    const uniqueIds = uniqueAttendeeIds(typeEvents);
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td><span class="type-pill"><span class="type-dot" style="background:${typeColorLookup.get(type)}"></span>${escapeHtml(type.replace(/_/g," "))}</span></td>
+      <td class="num">${typeEvents.length}</td>
+      <td class="num">${registered}</td>
+      <td class="num">${checkedIn}</td>
+      <td class="num">${uniqueIds === null ? "—" : uniqueIds.size}</td>
+    `;
+    tbody.appendChild(tr);
+  });
+
+  // Projects aren't an event type, but the same "how many, how many unique
+  // people" question applies, so it rides along in the same table per your
+  // request rather than living in a disconnected section.
+  const collaboratorIds = new Set();
+  projects.forEach(p => (p.collaboratorIds || []).forEach(id => collaboratorIds.add(id)));
+  const projectsRow = document.createElement("tr");
+  projectsRow.innerHTML = `
+    <td><span class="type-pill"><span class="type-dot" style="background:#0891b2"></span>Projects</span></td>
+    <td class="num">${projects.length}</td>
+    <td class="num">—</td>
+    <td class="num">—</td>
+    <td class="num">${collaboratorIds.size}</td>
+  `;
+  tbody.appendChild(projectsRow);
+}
+
 if(!DATA || !DATA.events){
   document.getElementById("empty-state-section").style.display = "block";
 } else {
   document.getElementById("main-section").style.display = "block";
   document.getElementById("districts-section").style.display = "block";
+  document.getElementById("projects-section").style.display = "block";
+  document.getElementById("verticals-section").style.display = "block";
   document.getElementById("events-section").style.display = "block";
   document.getElementById("header-sub").textContent =
     "What's happening across TinkerHub campuses in Kerala · data as of " + (DATA.generatedAt || "unknown date");
@@ -541,6 +644,8 @@ if(!DATA || !DATA.events){
   populateFilters();
   renderQuarterScopeNote();
   renderCards();
+  renderProjects();
+  renderVerticalsTable();
   initMap();
   renderLegend();
   renderMarkers();
