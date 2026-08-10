@@ -40,7 +40,9 @@ import hashlib
 import urllib.request
 import urllib.error
 import urllib.parse
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
+
+IST = timezone(timedelta(hours=5, minutes=30))
 
 BASE = os.environ.get("METABASE_URL", "").rstrip("/")
 KEY = os.environ.get("METABASE_API_KEY", "")
@@ -139,6 +141,19 @@ WHERE e.start_date >= timestamp '{SINCE_DATE}'
   AND e.status != 'cancelled'
   AND (so.id IS NULL OR so.state = 'active')
 ORDER BY e.start_date ASC
+"""
+
+UNIQUE_ATTENDEES_SQL = f"""
+SELECT COUNT(DISTINCT a.membership_id) AS unique_attendees
+FROM attendees a
+JOIN events e ON a.event_id = e.id
+LEFT JOIN sub_orgs so ON e.sub_org_id = so.id
+WHERE a.check_in = true
+  AND a.membership_id IS NOT NULL
+  AND e.start_date >= timestamp '{SINCE_DATE}'
+  AND e.start_date <= timestamp '{UNTIL_DATE}' + interval '1 day'
+  AND e.status != 'cancelled'
+  AND (so.id IS NULL OR so.state = 'active')
 """
 
 
@@ -259,6 +274,7 @@ def resolve_location(row, cache):
 
 def main():
     rows = mb_run_sql(SQL)
+    unique_rows = mb_run_sql(UNIQUE_ATTENDEES_SQL)
     cache = load_geocode_cache()
 
     events = []
@@ -295,10 +311,14 @@ def main():
     now = datetime.now(timezone.utc)
 
     def is_today(ev):
+        # Compare calendar dates in IST (events are all Kerala-based), not
+        # UTC -- otherwise anything after ~6:30pm IST or before 5:30am IST
+        # gets attributed to the wrong day and today/upcoming counts drift
+        # from what a human counting rows in IST would get.
         if not ev["start"]:
             return False
-        d = datetime.fromisoformat(ev["start"]).astimezone(timezone.utc).date()
-        return d == now.date()
+        d = datetime.fromisoformat(ev["start"]).astimezone(IST).date()
+        return d == now.astimezone(IST).date()
 
     by_type = {}
     by_district = {}
@@ -307,17 +327,33 @@ def main():
         if ev["district"]:
             by_district[ev["district"]] = by_district.get(ev["district"], 0) + 1
 
+    unique_attendees = (unique_rows[0].get("unique_attendees") or 0) if unique_rows else 0
+
+    # Average daily attendance: total check-ins across days that have
+    # already happened (today counts, future doesn't -- it has 0 check-ins
+    # by definition and would just water down the average), divided by how
+    # many distinct calendar days (IST) actually had an event.
+    happened = [
+        e for e in events
+        if e["start"] and datetime.fromisoformat(e["start"]).astimezone(IST) <= now.astimezone(IST)
+    ]
+    days_with_events = {datetime.fromisoformat(e["start"]).astimezone(IST).date() for e in happened}
+    checked_in_so_far = sum(e["checkedIn"] for e in happened)
+    avg_daily_attendance = round(checked_in_so_far / len(days_with_events), 1) if days_with_events else 0
+
     summary = {
         "totalEvents": len(events),
         "todayCount": sum(1 for e in events if is_today(e)),
-        "upcomingCount": sum(1 for e in events if e["start"] and datetime.fromisoformat(e["start"]).astimezone(timezone.utc) > now),
-        "pastCount": sum(1 for e in events if e["start"] and datetime.fromisoformat(e["start"]).astimezone(timezone.utc) <= now),
+        "upcomingCount": sum(1 for e in events if e["start"] and not is_today(e) and datetime.fromisoformat(e["start"]).astimezone(timezone.utc) > now),
+        "pastCount": sum(1 for e in events if e["start"] and not is_today(e) and datetime.fromisoformat(e["start"]).astimezone(timezone.utc) <= now),
         "totalRegistered": sum(e["registered"] for e in events),
         "totalCheckedIn": sum(e["checkedIn"] for e in events),
         "virtualCount": sum(1 for e in events if e["isVirtual"]),
         "geocoded": sum(1 for e in events if e["locationSource"] in ("maps_link", "nominatim")),
         "districtFallback": sum(1 for e in events if e["locationSource"] == "district_fallback"),
         "unresolved": sum(1 for e in events if e["locationSource"] == "unresolved"),
+        "uniqueAttendees": unique_attendees,
+        "avgDailyAttendance": avg_daily_attendance,
     }
 
     out = {

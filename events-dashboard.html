@@ -123,6 +123,8 @@
   <div class="card reg"><div class="n" id="c-registered">0</div><div class="l">Total registered</div></div>
   <div class="card"><div class="n" id="c-checkedin">0</div><div class="l">Total checked in</div></div>
   <div class="card"><div class="n" id="c-virtual">0</div><div class="l">Virtual events</div></div>
+  <div class="card"><div class="n" id="c-unique-attendees">0</div><div class="l">Unique people attended</div></div>
+  <div class="card"><div class="n" id="c-avg-daily">0</div><div class="l">Avg attendance / day</div></div>
 </div>
 
 <section id="empty-state-section" style="display:none;">
@@ -204,12 +206,19 @@ function fmtDate(iso){
   return d.toLocaleString(undefined, {month:"short", day:"numeric", hour:"numeric", minute:"2-digit"});
 }
 
+// Kerala-day helper: format any Date as a YYYY-MM-DD string *in IST*,
+// regardless of the viewer's own browser/OS timezone. Used so "today" means
+// today in Kerala, not today wherever the dashboard happens to be opened.
+const IST_FORMATTER = new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Kolkata", year: "numeric", month: "2-digit", day: "2-digit" });
+function istDateKey(d){
+  return IST_FORMATTER.format(d); // "en-CA" locale gives YYYY-MM-DD directly
+}
+
 function whenBucket(ev){
   if(!ev.start) return "past";
   const start = new Date(ev.start);
   const now = new Date();
-  const sameDay = start.toDateString() === now.toDateString();
-  if(sameDay) return "today";
+  if(istDateKey(start) === istDateKey(now)) return "today";
   return start > now ? "upcoming" : "past";
 }
 
@@ -375,12 +384,51 @@ if(!DATA || !DATA.events){
   document.getElementById("header-sub").textContent =
     "What's happening across TinkerHub campuses in Kerala · data as of " + (DATA.generatedAt || "unknown date");
 
-  document.getElementById("c-today").textContent = DATA.summary.todayCount || 0;
-  document.getElementById("c-upcoming").textContent = DATA.summary.upcomingCount || 0;
-  document.getElementById("c-total").textContent = DATA.summary.totalEvents || 0;
-  document.getElementById("c-registered").textContent = DATA.summary.totalRegistered || 0;
-  document.getElementById("c-checkedin").textContent = DATA.summary.totalCheckedIn || 0;
-  document.getElementById("c-virtual").textContent = DATA.summary.virtualCount || 0;
+  // Recompute live from the events array (same logic driving the map/table
+  // below) instead of trusting the baked-in summary, which is only as fresh
+  // as the last pipeline run and used UTC calendar days for "today" --
+  // both of which made the cards drift from what you'd count by hand.
+  const now = new Date();
+  let todayCount = 0, upcomingCount = 0, pastCount = 0;
+  let totalRegistered = 0, totalCheckedIn = 0, virtualCount = 0;
+  const dayTotals = new Map(); // IST date key -> checked-in count, for days that have happened
+  DATA.events.forEach(ev=>{
+    const w = whenBucket(ev);
+    if(w === "today") todayCount++;
+    else if(w === "upcoming") upcomingCount++;
+    else pastCount++;
+    totalRegistered += ev.registered || 0;
+    totalCheckedIn += ev.checkedIn || 0;
+    if(ev.isVirtual) virtualCount++;
+    if(ev.start && (w === "today" || w === "past")){
+      const key = istDateKey(new Date(ev.start));
+      dayTotals.set(key, (dayTotals.get(key) || 0) + (ev.checkedIn || 0));
+    }
+  });
+  const daysHappened = dayTotals.size;
+  const checkedInSoFar = [...dayTotals.values()].reduce((a,b)=>a+b, 0);
+  const avgDailyAttendance = daysHappened ? Math.round((checkedInSoFar / daysHappened) * 10) / 10 : 0;
+
+  document.getElementById("c-today").textContent = todayCount;
+  document.getElementById("c-upcoming").textContent = upcomingCount;
+  document.getElementById("c-total").textContent = DATA.events.length;
+  document.getElementById("c-registered").textContent = totalRegistered;
+  document.getElementById("c-checkedin").textContent = totalCheckedIn;
+  document.getElementById("c-virtual").textContent = virtualCount;
+  document.getElementById("c-avg-daily").textContent = avgDailyAttendance;
+
+  // Unique attendees needs person-level check-in identity, which only the
+  // Metabase pipeline can compute (registered/checkedIn here are per-event
+  // aggregate counts, so summing them would double-count repeat attendees).
+  // Falls back to a placeholder if serving an events-data.js from before
+  // this field existed, until the next scheduled refresh fills it in.
+  const uniqueAttendeesEl = document.getElementById("c-unique-attendees");
+  if(typeof DATA.summary.uniqueAttendees === "number"){
+    uniqueAttendeesEl.textContent = DATA.summary.uniqueAttendees;
+  } else {
+    uniqueAttendeesEl.textContent = "—";
+    uniqueAttendeesEl.title = "Needs the next data refresh to populate";
+  }
 
   initMap();
   renderLegend();
