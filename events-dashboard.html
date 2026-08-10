@@ -115,6 +115,7 @@
 
 <h1>TinkerHub Events Map</h1>
 <div class="sub" id="header-sub">What's happening across TinkerHub campuses in Kerala</div>
+<div class="sub" id="window-sub" style="margin-top:-18px;"></div>
 
 <div class="cards">
   <div class="card today"><div class="n" id="c-today">0</div><div class="l">Happening today</div></div>
@@ -137,8 +138,14 @@
 
 <section id="main-section" style="display:none;">
   <h2 style="margin-bottom:16px;">Where activity is happening</h2>
+  <div class="filters" style="margin-bottom:10px;">
+    <select id="f-quarter">
+      <option value="">All quarters (full window)</option>
+    </select>
+    <span class="count-note" id="quarter-range-note"></span>
+  </div>
   <div class="when-toggle" id="when-toggle">
-    <div class="when-btn active" data-when="">All (window)</div>
+    <div class="when-btn active" data-when="">All (this quarter)</div>
     <div class="when-btn today" data-when="today">Today</div>
     <div class="when-btn upcoming" data-when="upcoming">Upcoming</div>
     <div class="when-btn past" data-when="past">Past</div>
@@ -167,7 +174,7 @@
 
 <section id="events-section" style="display:none;">
   <h2>Events</h2>
-  <div class="sub" style="margin:-4px 0 10px; font-size:12px;">Filtered by the Today / Upcoming / Past toggle above the map.</div>
+  <div class="sub" style="margin:-4px 0 10px; font-size:12px;">Filtered by the quarter selector and the Today / Upcoming / Past toggle above the map.</div>
   <div class="filters">
     <select id="f-type">
       <option value="">All types</option>
@@ -225,6 +232,43 @@ function whenBucket(ev){
 let map, markerLayer;
 const activeTypes = new Set();
 let currentWhen = ""; // "", "today", "upcoming", "past" -- shared by map + table
+let currentQuarter = null; // null = full window, else {label, start, end} (end exclusive)
+
+function fmtShortDate(d){
+  return d.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" });
+}
+
+// The fetch window is always the Indian financial year (Apr 1 -> Mar 31),
+// so it splits cleanly into four 3-month quarters starting from
+// DATA.windowSinceDate. Computed from the data itself rather than hardcoded
+// so it keeps working automatically when the window rolls over each April.
+function computeQuarters(){
+  const start = new Date(DATA.windowSinceDate + "T00:00:00+05:30");
+  const quarters = [];
+  for(let i = 0; i < 4; i++){
+    const qStart = new Date(start);
+    qStart.setMonth(qStart.getMonth() + i * 3);
+    const qEnd = new Date(start);
+    qEnd.setMonth(qEnd.getMonth() + (i + 1) * 3);
+    quarters.push({
+      label: `Q${i + 1}: ${qStart.toLocaleDateString(undefined,{month:"short"})}–${new Date(qEnd - 86400000).toLocaleDateString(undefined,{month:"short"})} ${qStart.getFullYear()}`,
+      start: qStart,
+      end: qEnd, // exclusive
+    });
+  }
+  return quarters;
+}
+
+function matchesQuarter(ev){
+  if(!currentQuarter) return true;
+  if(!ev.start) return false;
+  const t = new Date(ev.start);
+  return t >= currentQuarter.start && t < currentQuarter.end;
+}
+
+function scopedEvents(){
+  return DATA.events.filter(matchesQuarter);
+}
 
 function initMap(){
   map = L.map('map', {scrollWheelZoom:false}).setView([10.27, 76.4], 8);
@@ -237,7 +281,7 @@ function initMap(){
 
 function renderMarkers(){
   markerLayer.clearLayers();
-  const events = DATA.events.filter(e =>
+  const events = scopedEvents().filter(e =>
     e.lat != null && e.lng != null && activeTypes.has(e.type) &&
     (currentWhen === "" || whenBucket(e) === currentWhen)
   );
@@ -264,22 +308,29 @@ function renderMarkers(){
   });
 }
 
+const typeColorLookup = new Map(DATA.byType.map(t => [t.type, t.color]));
+
 function renderLegend(){
   const el = document.getElementById("legend");
   el.innerHTML = "";
-  DATA.byType.forEach(t=>{
-    activeTypes.add(t.type);
+  const counts = new Map();
+  scopedEvents().forEach(ev => counts.set(ev.type, (counts.get(ev.type) || 0) + 1));
+  const allTypes = DATA.byType.map(t => t.type); // fixed order, stable across quarter changes
+  const firstRender = activeTypes.size === 0;
+  allTypes.forEach(type=>{
+    if(firstRender) activeTypes.add(type);
+    const count = counts.get(type) || 0;
     const row = document.createElement("div");
-    row.className = "legend-item";
-    row.dataset.type = t.type;
+    row.className = "legend-item" + (activeTypes.has(type) ? "" : " off");
+    row.dataset.type = type;
     row.innerHTML = `
-      <span class="legend-dot" style="background:${t.color}"></span>
-      <span>${escapeHtml(t.type.replace(/_/g," "))}</span>
-      <span class="legend-count">${t.count}</span>
+      <span class="legend-dot" style="background:${typeColorLookup.get(type)}"></span>
+      <span>${escapeHtml(type.replace(/_/g," "))}</span>
+      <span class="legend-count">${count}</span>
     `;
     row.addEventListener("click", ()=>{
-      if(activeTypes.has(t.type)){ activeTypes.delete(t.type); row.classList.add("off"); }
-      else { activeTypes.add(t.type); row.classList.remove("off"); }
+      if(activeTypes.has(type)){ activeTypes.delete(type); row.classList.add("off"); }
+      else { activeTypes.add(type); row.classList.remove("off"); }
       renderMarkers();
     });
     el.appendChild(row);
@@ -307,6 +358,18 @@ function renderBars(containerId, items, labelKey, countKey){
   });
 }
 
+function aggregateBy(events, key){
+  const counts = new Map();
+  events.forEach(ev=>{
+    const val = ev[key];
+    if(!val) return;
+    counts.set(val, (counts.get(val) || 0) + 1);
+  });
+  return [...counts.entries()]
+    .map(([k, count]) => ({ [key === "type" ? "type" : "district"]: k, count, color: typeColorLookup.get(k) }))
+    .sort((a,b) => b.count - a.count);
+}
+
 function populateFilters(){
   const typeSel = document.getElementById("f-type");
   DATA.byType.forEach(t=>{
@@ -320,6 +383,29 @@ function populateFilters(){
     opt.value = d.district; opt.textContent = d.district;
     distSel.appendChild(opt);
   });
+
+  const quarterSel = document.getElementById("f-quarter");
+  computeQuarters().forEach((q, i)=>{
+    const opt = document.createElement("option");
+    opt.value = String(i);
+    opt.textContent = q.label;
+    quarterSel.appendChild(opt);
+  });
+}
+
+function renderDistrictAndTypeBars(){
+  const events = scopedEvents();
+  renderBars("district-bars", aggregateBy(events, "district"), "district", "count");
+  renderBars("type-bars", aggregateBy(events, "type"), "type", "count");
+}
+
+function renderQuarterScopeNote(){
+  const note = document.getElementById("quarter-range-note");
+  if(currentQuarter){
+    note.textContent = `${fmtShortDate(currentQuarter.start)} – ${fmtShortDate(new Date(currentQuarter.end - 86400000))}`;
+  } else {
+    note.textContent = "Full window";
+  }
 }
 
 function renderEvents(){
@@ -327,7 +413,7 @@ function renderEvents(){
   const district = document.getElementById("f-district").value;
   const q = document.getElementById("f-search").value.trim().toLowerCase();
 
-  const rows = DATA.events.filter(ev=>{
+  const rows = scopedEvents().filter(ev=>{
     if(currentWhen && whenBucket(ev) !== currentWhen) return false;
     if(type && ev.type !== type) return false;
     if(district && ev.district !== district) return false;
@@ -359,7 +445,7 @@ function renderEvents(){
     `;
     tbody.appendChild(tr);
   });
-  document.getElementById("f-count").textContent = rows.length + " of " + DATA.events.length + " events";
+  document.getElementById("f-count").textContent = rows.length + " of " + scopedEvents().length + " events";
 }
 
 document.querySelectorAll("#when-toggle .when-btn").forEach(btn=>{
@@ -375,24 +461,29 @@ document.getElementById("f-type").addEventListener("change", renderEvents);
 document.getElementById("f-district").addEventListener("change", renderEvents);
 document.getElementById("f-search").addEventListener("input", renderEvents);
 
-if(!DATA || !DATA.events){
-  document.getElementById("empty-state-section").style.display = "block";
-} else {
-  document.getElementById("main-section").style.display = "block";
-  document.getElementById("districts-section").style.display = "block";
-  document.getElementById("events-section").style.display = "block";
-  document.getElementById("header-sub").textContent =
-    "What's happening across TinkerHub campuses in Kerala · data as of " + (DATA.generatedAt || "unknown date");
+let allQuarters = [];
+document.getElementById("f-quarter").addEventListener("change", (e)=>{
+  const idx = e.target.value;
+  currentQuarter = idx === "" ? null : allQuarters[+idx];
+  renderQuarterScopeNote();
+  renderCards();
+  renderLegend();
+  renderMarkers();
+  renderDistrictAndTypeBars();
+  renderEvents();
+});
 
-  // Recompute live from the events array (same logic driving the map/table
-  // below) instead of trusting the baked-in summary, which is only as fresh
-  // as the last pipeline run and used UTC calendar days for "today" --
-  // both of which made the cards drift from what you'd count by hand.
-  const now = new Date();
+// Cards are scoped to whichever quarter is selected (or the full window),
+// recomputed live from the events array -- same reasoning as the map/table:
+// a baked summary from the last pipeline run can't reflect a filter picked
+// after the fact, and using UTC calendar days for "today" drifted from what
+// you'd get counting rows in IST by hand.
+function renderCards(){
+  const events = scopedEvents();
   let todayCount = 0, upcomingCount = 0, pastCount = 0;
   let totalRegistered = 0, totalCheckedIn = 0, virtualCount = 0;
   const dayTotals = new Map(); // IST date key -> checked-in count, for days that have happened
-  DATA.events.forEach(ev=>{
+  events.forEach(ev=>{
     const w = whenBucket(ev);
     if(w === "today") todayCount++;
     else if(w === "upcoming") upcomingCount++;
@@ -411,31 +502,48 @@ if(!DATA || !DATA.events){
 
   document.getElementById("c-today").textContent = todayCount;
   document.getElementById("c-upcoming").textContent = upcomingCount;
-  document.getElementById("c-total").textContent = DATA.events.length;
+  document.getElementById("c-total").textContent = events.length;
   document.getElementById("c-registered").textContent = totalRegistered;
   document.getElementById("c-checkedin").textContent = totalCheckedIn;
   document.getElementById("c-virtual").textContent = virtualCount;
   document.getElementById("c-avg-daily").textContent = avgDailyAttendance;
 
-  // Unique attendees needs person-level check-in identity, which only the
-  // Metabase pipeline can compute (registered/checkedIn here are per-event
-  // aggregate counts, so summing them would double-count repeat attendees).
-  // Falls back to a placeholder if serving an events-data.js from before
-  // this field existed, until the next scheduled refresh fills it in.
+  // Unique attendees needs person-level check-in identity from Metabase
+  // directly (registered/checkedIn here are per-event aggregate counts, so
+  // summing them would double-count repeat attendees) -- that query is for
+  // the full financial-year window only, so it doesn't change with the
+  // quarter filter. Falls back to a placeholder if serving an
+  // events-data.js from before this field existed.
   const uniqueAttendeesEl = document.getElementById("c-unique-attendees");
   if(typeof DATA.summary.uniqueAttendees === "number"){
     uniqueAttendeesEl.textContent = DATA.summary.uniqueAttendees;
+    uniqueAttendeesEl.title = currentQuarter ? "Full window figure -- doesn't change with the quarter filter" : "";
   } else {
     uniqueAttendeesEl.textContent = "—";
     uniqueAttendeesEl.title = "Needs the next data refresh to populate";
   }
+}
 
+if(!DATA || !DATA.events){
+  document.getElementById("empty-state-section").style.display = "block";
+} else {
+  document.getElementById("main-section").style.display = "block";
+  document.getElementById("districts-section").style.display = "block";
+  document.getElementById("events-section").style.display = "block";
+  document.getElementById("header-sub").textContent =
+    "What's happening across TinkerHub campuses in Kerala · data as of " + (DATA.generatedAt || "unknown date");
+  document.getElementById("window-sub").textContent =
+    "Data window: " + fmtShortDate(new Date(DATA.windowSinceDate + "T00:00:00+05:30")) +
+    " – " + fmtShortDate(new Date(DATA.windowUntilDate + "T00:00:00+05:30"));
+
+  allQuarters = computeQuarters();
+  populateFilters();
+  renderQuarterScopeNote();
+  renderCards();
   initMap();
   renderLegend();
   renderMarkers();
-  renderBars("district-bars", DATA.byDistrict, "district", "count");
-  renderBars("type-bars", DATA.byType, "type", "count");
-  populateFilters();
+  renderDistrictAndTypeBars();
   renderEvents();
 }
 </script>
