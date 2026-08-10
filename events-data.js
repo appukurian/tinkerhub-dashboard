@@ -2,7 +2,7 @@
 // Do NOT hand-edit -- this file is overwritten on each run.
 window.EVENTS_DATA = {
   "generatedAt": "2026-08-10",
-  "generatedAtIso": "2026-08-10T18:52:19.070029+00:00",
+  "generatedAtIso": "2026-08-10T21:37:42.580427+00:00",
   "windowSinceDate": "2026-04-01",
   "windowUntilDate": "2027-03-31",
   "events": [
@@ -13543,7 +13543,7 @@ window.EVENTS_DATA = {
       "name": "Goodalochana",
       "type": "Core_Team_Meeting",
       "typeColor": "#6b7280",
-      "status": "pending",
+      "status": "published",
       "start": "2026-08-11T16:20:00+05:30",
       "end": "2026-08-11T17:30:00+05:30",
       "isVirtual": false,
@@ -13616,7 +13616,7 @@ window.EVENTS_DATA = {
       "lat": 10.0469797,
       "lng": 76.3351998,
       "locationSource": "maps_link",
-      "registered": 12,
+      "registered": 13,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -16620,7 +16620,7 @@ window.EVENTS_DATA = {
     "todayCount": 7,
     "upcomingCount": 8,
     "pastCount": 369,
-    "totalRegistered": 9261,
+    "totalRegistered": 9262,
     "totalCheckedIn": 5425,
     "virtualCount": 135,
     "geocoded": 247,
