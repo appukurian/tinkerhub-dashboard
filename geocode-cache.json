@@ -224,6 +224,11 @@
     "lng": 76.8194276,
     "source": "nominatim"
   },
+  "https://www.google.com/maps/search/?api=1&query=College%20of%20Engineering%2C%20Kadamankulam%20PO%2C%20Kallooppara%2C%20Thiruvalla%20%28via%29%2C%20pathanamthitta%20689603": {
+    "lat": null,
+    "lng": null,
+    "source": "unresolved"
+  },
   "https://www.google.com/maps/search/?api=1&query=College%20of%20Engineering%2C%20Perumon%20PO%2C%20Perinad%2C%20kollam%20691%20601": {
     "lat": null,
     "lng": null,
