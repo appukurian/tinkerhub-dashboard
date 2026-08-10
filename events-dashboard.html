@@ -120,7 +120,7 @@
 <div class="cards">
   <div class="card today"><div class="n" id="c-today">0</div><div class="l">Happening today</div></div>
   <div class="card upcoming"><div class="n" id="c-upcoming">0</div><div class="l">Upcoming</div></div>
-  <div class="card"><div class="n" id="c-total">0</div><div class="l">Total in window</div></div>
+  <div class="card"><div class="n" id="c-total">0</div><div class="l" id="c-total-label">Total in window</div></div>
   <div class="card reg"><div class="n" id="c-registered">0</div><div class="l">Total registered</div></div>
   <div class="card"><div class="n" id="c-checkedin">0</div><div class="l">Total checked in</div></div>
   <div class="card"><div class="n" id="c-virtual">0</div><div class="l">Virtual events</div></div>
@@ -503,6 +503,7 @@ function renderCards(){
   document.getElementById("c-today").textContent = todayCount;
   document.getElementById("c-upcoming").textContent = upcomingCount;
   document.getElementById("c-total").textContent = events.length;
+  document.getElementById("c-total-label").textContent = currentQuarter ? "Total this quarter" : "Total in window";
   document.getElementById("c-registered").textContent = totalRegistered;
   document.getElementById("c-checkedin").textContent = totalCheckedIn;
   document.getElementById("c-virtual").textContent = virtualCount;
