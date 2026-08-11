@@ -44,24 +44,6 @@ API = "https://discord.com/api/v10"
 DISCORD_EPOCH_MS = 1420070400000
 SNIPPET_MAX_LEN = 300
 OUTPUT_PATH = "discord-data.js"
-MANUAL_RESOLUTIONS_PATH = "manual-resolutions.json"
-
-
-def load_manual_resolutions():
-    """Return the set of Discord thread IDs that were manually resolved.
-    Reads manual-resolutions.json from the repo root (checked out by the
-    workflow before this script runs). Missing file = no overrides."""
-    try:
-        with open(MANUAL_RESOLUTIONS_PATH) as f:
-            data = json.load(f)
-        ids = data.get("discord", [])
-        return set(str(i) for i in ids)
-    except FileNotFoundError:
-        return set()
-    except Exception as e:
-        print(f"Warning: could not load {MANUAL_RESOLUTIONS_PATH}: {e}")
-        return set()
-
 
 TOKEN = os.environ.get("DISCORD_BOT_TOKEN", "")
 GUILD_ID = os.environ.get("DISCORD_GUILD_ID", "")
@@ -344,18 +326,6 @@ def main():
     results = freshly_processed + carried_over
     attach_suggestions(results)
     results.sort(key=lambda r: r["last"], reverse=True)
-
-    # Bake manual resolutions: override status to "Resolved" and stamp
-    # manuallyClosed=True so the frontend can show the badge differently.
-    manually_resolved_ids = load_manual_resolutions()
-    for r in results:
-        if r["id"] in manually_resolved_ids:
-            if r["status"] != "Resolved":
-                r["originalStatus"] = r["status"]
-                r["status"] = "Resolved"
-            r["manuallyClosed"] = True
-        else:
-            r.setdefault("manuallyClosed", False)
 
     statuses = ["No response", "Awaiting reply (from us)", "Awaiting reply (from them)", "Resolved"]
     summary = {s: len([r for r in results if r["status"] == s]) for s in statuses}
