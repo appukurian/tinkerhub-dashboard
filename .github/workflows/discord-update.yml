@@ -29,14 +29,17 @@ jobs:
           DISCORD_CHANNEL_ID: ${{ vars.DISCORD_CHANNEL_ID || secrets.DISCORD_CHANNEL_ID }}
         run: python scripts/discord_update.py
 
-      - name: Commit and push discord-data.js
+      - name: Apply manual resolutions to dashboard-data.js
+        run: python scripts/apply_manual_resolutions.py
+
+      - name: Commit and push updated data files
         run: |
           git config user.name "TinkerHub Discord Dashboard Bot"
           git config user.email "actions@github.com"
-          git add discord-data.js
+          git add discord-data.js dashboard-data.js
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Daily Discord data refresh $(date -u +%Y-%m-%d)"
+            git commit -m "Daily Discord data refresh + manual resolutions $(date -u +%Y-%m-%d)"
             git push
           fi
