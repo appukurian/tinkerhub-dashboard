@@ -104,6 +104,24 @@
     background-color: #f1f5f9;
     border-color: #cbd5e1;
   }
+  .btn.resolve-btn {
+    color: #16a34a;
+    border-color: #e5e7eb;
+    background-color: #ffffff;
+  }
+  .btn.resolve-btn:hover {
+    background-color: #f0fdf4;
+    border-color: #86efac;
+  }
+  .btn.reopen-btn {
+    color: #4b5563;
+    border-color: #cbd5e1;
+    background-color: #f8fafc;
+  }
+  .btn.reopen-btn:hover {
+    background-color: #f1f5f9;
+    border-color: #94a3b8;
+  }
   .days-open {
     font-weight: 600;
     font-variant-numeric: tabular-nums;
@@ -354,7 +372,69 @@ function populateCategoryFilter(){
   });
 }
 
+function applyManualClosed() {
+  const manuallyClosed = JSON.parse(localStorage.getItem("manually_closed_discord") || "{}");
+  DATA.threads.forEach(t => {
+    if (manuallyClosed[t.id]) {
+      if (!t.originalStatus) {
+        t.originalStatus = manuallyClosed[t.id];
+      }
+      t.status = "Resolved";
+      t.manuallyClosed = true;
+    } else {
+      if (t.manuallyClosed) {
+        t.status = t.originalStatus || t.status;
+        t.manuallyClosed = false;
+        delete t.originalStatus;
+      }
+    }
+  });
+}
+
+function recalculateAndRenderSummary() {
+  const summary = {
+    "No response": 0,
+    "Awaiting reply (from us)": 0,
+    "Awaiting reply (from them)": 0,
+    "Resolved": 0
+  };
+  DATA.threads.forEach(t => {
+    if (summary[t.status] !== undefined) {
+      summary[t.status]++;
+    }
+  });
+  renderSummary(summary, DATA.avgDaysToClose);
+}
+
+function markManuallyClosed(id) {
+  const t = DATA.threads.find(x => x.id === id);
+  if (!t) return;
+  const manuallyClosed = JSON.parse(localStorage.getItem("manually_closed_discord") || "{}");
+  manuallyClosed[id] = t.status;
+  localStorage.setItem("manually_closed_discord", JSON.stringify(manuallyClosed));
+  renderThreads();
+}
+
+function undoManualClose(id) {
+  const manuallyClosed = JSON.parse(localStorage.getItem("manually_closed_discord") || "{}");
+  delete manuallyClosed[id];
+  localStorage.setItem("manually_closed_discord", JSON.stringify(manuallyClosed));
+  
+  const t = DATA.threads.find(x => x.id === id);
+  if (t) {
+    if (t.originalStatus) {
+      t.status = t.originalStatus;
+    }
+    t.manuallyClosed = false;
+    delete t.originalStatus;
+  }
+  renderThreads();
+}
+
 function renderThreads(){
+  applyManualClosed();
+  recalculateAndRenderSummary();
+
   const s = document.getElementById("f-status").value;
   const cat = document.getElementById("f-category").value;
   const q = document.getElementById("f-search").value.trim().toLowerCase();
@@ -383,15 +463,29 @@ function renderThreads(){
         </div>`;
     }
 
+    let actionsHtml = "";
+    if (t.manuallyClosed) {
+      actionsHtml = `<button class="btn reopen-btn" onclick="undoManualClose('${t.id}')">Reopen</button>`;
+    } else {
+      const openBtn = `<a class="btn" href="${t.url}" target="_blank" rel="noopener">Open</a>`;
+      let resolveBtn = "";
+      if (t.status !== "Resolved") {
+        resolveBtn = `<button class="btn resolve-btn" onclick="markManuallyClosed('${t.id}')">Resolve</button>`;
+      }
+      actionsHtml = `<div class="actions">${openBtn}${resolveBtn}</div>`;
+    }
+
+    const badgeText = t.manuallyClosed ? "Resolved (Manual)" : t.status;
+
     const tr = document.createElement("tr");
     tr.innerHTML = `
       <td><a href="${t.url}" target="_blank" rel="noopener">${escapeHtml(t.name)}</a></td>
       <td><span class="cat-pill">${escapeHtml(t.category)}</span></td>
       <td>${escapeHtml(t.requester||"")}</td>
-      <td><span class="badge ${cls}">${t.status}</span></td>
+      <td><span class="badge ${cls}">${badgeText}</span></td>
       <td class="num days-open ${warn}">${t.daysOpen}</td>
       <td>${suggestionHtml}</td>
-      <td><a class="btn" href="${t.url}" target="_blank" rel="noopener">Open</a></td>
+      <td>${actionsHtml}</td>
     `;
     tbody.appendChild(tr);
   });
