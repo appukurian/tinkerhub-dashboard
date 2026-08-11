@@ -219,6 +219,32 @@
   #threads-table td a:not(.btn):hover {
     text-decoration: underline;
   }
+  /* ── Toast notification ── */
+  #toast {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #1c1f2a;
+    color: #f8fafc;
+    padding: 12px 18px;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+    transform: translateY(80px);
+    opacity: 0;
+    transition: transform 0.25s ease, opacity 0.25s ease;
+    pointer-events: none;
+    max-width: 320px;
+  }
+  #toast.show { transform: translateY(0); opacity: 1; }
+  #toast.success .toast-icon::before { content: "✓"; color: #4ade80; margin-right: 6px; }
+  #toast.error   .toast-icon::before { content: "✕"; color: #f87171; margin-right: 6px; }
+  #toast.loading .toast-icon::before { content: "…"; color: #94a3b8; margin-right: 6px; }
 </style>
 </head>
 <body class="bg-bg text-ink min-h-screen p-4 md:p-8 transition-colors duration-200">
@@ -318,16 +344,10 @@
   <footer id="footer-note" class="mt-8 text-center text-xs text-muted border-t border-border pt-6 leading-relaxed">"Days" = days since the last message in the thread. Data refreshes daily via a GitHub Actions workflow, independent of any chat session.</footer>
 </div>
 
-<!-- Custom Modal for collaborative persistence -->
-<div id="custom-modal" class="fixed inset-0 bg-slate-900/40 backdrop-blur-sm z-50 flex items-center justify-center hidden">
-  <div class="bg-white rounded-xl shadow-xl border border-border max-w-md w-full p-6 mx-4">
-    <h3 class="text-base font-semibold text-ink mb-2" id="modal-title">Resolve Thread</h3>
-    <div class="text-sm text-muted mb-5 leading-relaxed" id="modal-body"></div>
-    <div class="flex justify-end gap-3">
-      <button onclick="closeModal()" class="btn reopen-btn">Close</button>
-      <a id="modal-action-btn" href="#" target="_blank" rel="noopener" class="btn reply hidden">Go to GitHub</a>
-    </div>
-  </div>
+<!-- Toast notification -->
+<div id="toast" role="status" aria-live="polite">
+  <span class="toast-icon"></span>
+  <span id="toast-msg"></span>
 </div>
 
 <script src="discord-data.js"></script>
@@ -385,43 +405,89 @@ function populateCategoryFilter(){
   });
 }
 
-const GITHUB_RESOLUTIONS_URL = "https://github.com/Habeeb00/tinkerhub-dashboard/edit/main/manual-resolutions.json";
+// ── Cloudflare Worker ────────────────────────────────────────────────────────
+const WORKER_URL = "https://snowy-pond-1f3c.habeebrahmanofficial.workers.dev";
+const DASHBOARD_TYPE = "discord";
 
-function openModal(title, bodyHtml, actionUrl) {
-  document.getElementById("modal-title").textContent = title;
-  document.getElementById("modal-body").innerHTML = bodyHtml;
-  const btn = document.getElementById("modal-action-btn");
-  if (actionUrl) {
-    btn.href = actionUrl;
-    btn.classList.remove("hidden");
-  } else {
-    btn.classList.add("hidden");
+// ── Toast helper ─────────────────────────────────────────────────────────────
+let _toastTimer;
+function showToast(msg, type = "success") {
+  const el = document.getElementById("toast");
+  el.className = type;
+  document.getElementById("toast-msg").textContent = msg;
+  el.classList.add("show");
+  clearTimeout(_toastTimer);
+  _toastTimer = setTimeout(() => el.classList.remove("show"), 3000);
+}
+
+// ── In-memory resolved set (populated from Worker on init) ───────────────────
+let _resolvedIds = new Set(
+  (DATA.threads || []).filter(t => t.manuallyClosed).map(t => t.id)
+);
+
+async function loadResolvedFromWorker() {
+  try {
+    const res = await fetch(`${WORKER_URL}/resolutions`);
+    const data = await res.json();
+    const workerIds = new Set(data[DASHBOARD_TYPE] || []);
+    DATA.threads.forEach(t => {
+      if (workerIds.has(t.id) && !t.manuallyClosed) {
+        t.originalStatus = t.originalStatus || t.status;
+        t.status = "Resolved";
+        t.manuallyClosed = true;
+        _resolvedIds.add(t.id);
+      }
+    });
+    if (workerIds.size > 0) renderThreads();
+  } catch (e) {
+    console.warn("Could not reach resolutions worker:", e);
   }
-  document.getElementById("custom-modal").classList.remove("hidden");
 }
 
-function closeModal() {
-  document.getElementById("custom-modal").classList.add("hidden");
+async function markManuallyClosed(id) {
+  const t = DATA.threads.find(x => x.id === id);
+  if (!t) return;
+  t.originalStatus = t.originalStatus || t.status;
+  t.status = "Resolved";
+  t.manuallyClosed = true;
+  _resolvedIds.add(id);
+  renderThreads();
+  showToast("Marking as resolved…", "loading");
+  try {
+    const res = await fetch(`${WORKER_URL}/resolve`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ id, type: DASHBOARD_TYPE }),
+    });
+    if (!res.ok) throw new Error(await res.text());
+    showToast("Resolved — synced for all users ✓", "success");
+  } catch (e) {
+    showToast("Saved locally (Worker unreachable)", "error");
+    console.error(e);
+  }
 }
 
-function markManuallyClosed(id) {
-  openModal(
-    "Mark Thread as Resolved",
-    `<p>To permanently resolve this thread for all users, add its ID to <strong>manual-resolutions.json</strong> in the repository.</p>
-     <p class="mt-3 bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 font-mono text-xs break-all">${id}</p>
-     <p class="mt-3">Click <strong>Edit on GitHub</strong> and add <code>${id}</code> to the <code>"discord"</code> array. Once you commit, the GitHub Action will re-bake the data and everyone will see the updated status within minutes.</p>`,
-    GITHUB_RESOLUTIONS_URL
-  );
-}
-
-function undoManualClose(id) {
-  openModal(
-    "Reopen Thread",
-    `<p>To reopen this thread for all users, remove its ID from <strong>manual-resolutions.json</strong> in the repository.</p>
-     <p class="mt-3 bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 font-mono text-xs break-all">${id}</p>
-     <p class="mt-3">Click <strong>Edit on GitHub</strong> and remove <code>${id}</code> from the <code>"discord"</code> array. Once you commit, the GitHub Action will update the dashboard.</p>`,
-    GITHUB_RESOLUTIONS_URL
-  );
+async function undoManualClose(id) {
+  const t = DATA.threads.find(x => x.id === id);
+  if (!t) return;
+  if (t.originalStatus) t.status = t.originalStatus;
+  t.manuallyClosed = false;
+  delete t.originalStatus;
+  _resolvedIds.delete(id);
+  renderThreads();
+  showToast("Reopening…", "loading");
+  try {
+    const res = await fetch(`${WORKER_URL}/reopen`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ id, type: DASHBOARD_TYPE }),
+    });
+    if (!res.ok) throw new Error(await res.text());
+    showToast("Reopened — synced for all users ✓", "success");
+  } catch (e) {
+    showToast("Saved locally (Worker unreachable)", "error");
+    console.error(e);
+  }
 }
 
 function renderThreads(){
@@ -498,6 +564,7 @@ if(!DATA || !DATA.threads){
   renderBars("requester-bars", DATA.topRequesters, "name", "count");
   populateCategoryFilter();
   renderThreads();
+  loadResolvedFromWorker(); // async — layers Worker state on top of baked data
 }
 </script>
 </body>
