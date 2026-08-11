@@ -1,3 +1,6 @@
+// Auto-patched by scripts/apply_manual_resolutions.py
+// Do NOT hand-edit the manuallyClosed / originalStatus fields;
+// edit manual-resolutions.json instead.
 window.DASHBOARD_DATA = {
   "generatedAt": "2026-08-10",
   "threads": [
@@ -16,7 +19,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 1,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-ab71c98887",
@@ -33,7 +37,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 2,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-8f5f7dc0de",
@@ -50,7 +55,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 2,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-94c689f428",
@@ -67,7 +73,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 4,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-430d9c9bda",
@@ -84,7 +91,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 5,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-9e57027c1c",
@@ -101,7 +109,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 6,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-30894d30d5",
@@ -118,7 +127,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 6,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-24d03c42e8",
@@ -135,7 +145,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 7,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-2bfa647432",
@@ -152,7 +163,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 7,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-28235a727a",
@@ -170,7 +182,8 @@ window.DASHBOARD_DATA = {
       "cc": [
         "campus@tinkerhub.org",
         "council@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-58fd0e1ca2",
@@ -188,7 +201,8 @@ window.DASHBOARD_DATA = {
       "cc": [
         "campus@tinkerhub.org",
         "opportunities@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-80903801e3",
@@ -205,7 +219,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 9,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-b1709c8a74",
@@ -222,7 +237,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 9,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-fb16dbf730",
@@ -239,7 +255,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 10,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-44c3831cee",
@@ -256,7 +273,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 10,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-f89634b3dd",
@@ -274,7 +292,8 @@ window.DASHBOARD_DATA = {
       "cc": [
         "campus@tinkerhub.org",
         "femina@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-2507dc514a",
@@ -291,7 +310,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 11,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-09be0c6eb0",
@@ -309,7 +329,8 @@ window.DASHBOARD_DATA = {
       "cc": [
         "campus@tinkerhub.org",
         "femina@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-b35be5da49",
@@ -326,7 +347,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 11,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-b17217e481",
@@ -343,7 +365,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 11,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-dad84d275b",
@@ -360,7 +383,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 11,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-3dcf333a46",
@@ -380,7 +404,8 @@ window.DASHBOARD_DATA = {
         "femina@tinkerhub.org",
         "arundhathi@tinkerhub.org",
         "mehar@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-4a21584426",
@@ -397,7 +422,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 14,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-084ddd1cea",
@@ -414,7 +440,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 14,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-7831f0c718",
@@ -431,7 +458,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 18,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-f737be5a20",
@@ -448,7 +476,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 18,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-8ac3a68ab3",
@@ -465,7 +494,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 20,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-2c2890c90a",
@@ -482,7 +512,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 20,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-5d3e8bdc67",
@@ -499,7 +530,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 20,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-a83a810088",
@@ -516,7 +548,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 20,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-70d440f989",
@@ -533,7 +566,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 20,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-a321fe9e10",
@@ -550,7 +584,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 20,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-e651ea7810",
@@ -567,7 +602,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 20,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-a5585a1941",
@@ -584,7 +620,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 20,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-aa0cc9099b",
@@ -601,7 +638,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 22,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-f52d425e42",
@@ -619,7 +657,8 @@ window.DASHBOARD_DATA = {
       "cc": [
         "campus@tinkerhub.org",
         "shan@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-9d0e35ea04",
@@ -637,7 +676,8 @@ window.DASHBOARD_DATA = {
       "cc": [
         "campus@tinkerhub.org",
         "support@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-179c833944",
@@ -654,7 +694,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 24,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-0c9fe20e7e",
@@ -671,7 +712,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 24,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-bec146dfc7",
@@ -688,7 +730,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 24,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-4330c34beb",
@@ -705,7 +748,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 24,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-a38892d3fa",
@@ -722,7 +766,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 24,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-c3988de212",
@@ -739,7 +784,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 25,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-85d43028b9",
@@ -756,7 +802,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 25,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-acbbc1c00a",
@@ -773,7 +820,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 25,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-c94aaaf354",
@@ -790,7 +838,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 25,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-da0412190f",
@@ -807,7 +856,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 25,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-d4c824a60f",
@@ -824,7 +874,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 25,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-fc85bd0ca8",
@@ -841,7 +892,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 25,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-510064efeb",
@@ -858,7 +910,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 27,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-65eb2b179d",
@@ -875,7 +928,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 36,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "campus-958f4c7efd",
@@ -892,7 +946,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 30,
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "support-7d557d4ab3",
@@ -909,7 +964,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 5,
       "cc": [
         "support@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "support-103da3194a",
@@ -926,7 +982,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 7,
       "cc": [
         "support@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "support-89eeae956c",
@@ -943,7 +1000,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 9,
       "cc": [
         "support@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "support-9c4f92e4fe",
@@ -960,7 +1018,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 9,
       "cc": [
         "support@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "support-a825971ec5",
@@ -977,7 +1036,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 12,
       "cc": [
         "support@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "support-e6103cda7d",
@@ -994,7 +1054,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 16,
       "cc": [
         "support@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "support-1f753728c0",
@@ -1011,7 +1072,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 22,
       "cc": [
         "support@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "support-acd34f889b",
@@ -1028,7 +1090,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 24,
       "cc": [
         "support@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "support-e460831412",
@@ -1046,7 +1109,8 @@ window.DASHBOARD_DATA = {
       "cc": [
         "support@tinkerhub.org",
         "akhil@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "support-172cd6fb29",
@@ -1063,7 +1127,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 26,
       "cc": [
         "support@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "support-0da0eeee5a",
@@ -1081,7 +1146,8 @@ window.DASHBOARD_DATA = {
       "cc": [
         "support@tinkerhub.org",
         "akhil@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "support-79884c1322",
@@ -1099,7 +1165,8 @@ window.DASHBOARD_DATA = {
       "cc": [
         "support@tinkerhub.org",
         "akhil@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "support-9599a8bbb9",
@@ -1117,7 +1184,8 @@ window.DASHBOARD_DATA = {
       "cc": [
         "support@tinkerhub.org",
         "kurian@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "finance-0b91af766b",
@@ -1134,7 +1202,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 4,
       "cc": [
         "finance@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "finance-8ea92764f6",
@@ -1151,7 +1220,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 4,
       "cc": [
         "finance@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "finance-08254ebc7e",
@@ -1168,7 +1238,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 6,
       "cc": [
         "finance@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "finance-9a04bb745e",
@@ -1185,7 +1256,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 6,
       "cc": [
         "finance@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "finance-410f35ae93",
@@ -1202,7 +1274,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 7,
       "cc": [
         "finance@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "finance-abbe02127f",
@@ -1220,7 +1293,8 @@ window.DASHBOARD_DATA = {
       "cc": [
         "finance@tinkerhub.org",
         "mehar@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "finance-017a5a96ad",
@@ -1237,7 +1311,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 9,
       "cc": [
         "finance@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "finance-62d51bc572",
@@ -1254,7 +1329,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 9,
       "cc": [
         "finance@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "finance-718012ccf9",
@@ -1271,7 +1347,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 9,
       "cc": [
         "finance@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "finance-833c41682e",
@@ -1288,7 +1365,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 10,
       "cc": [
         "finance@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "finance-9beadf1205",
@@ -1306,7 +1384,8 @@ window.DASHBOARD_DATA = {
       "cc": [
         "finance@tinkerhub.org",
         "mehar@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "finance-d09ab45472",
@@ -1325,7 +1404,8 @@ window.DASHBOARD_DATA = {
         "finance@tinkerhub.org",
         "eldho@tinkerhub.org",
         "johnson@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "finance-16f29612ed",
@@ -1343,7 +1423,8 @@ window.DASHBOARD_DATA = {
       "cc": [
         "finance@tinkerhub.org",
         "mehar@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "report-def8320c7a",
@@ -1360,7 +1441,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 4,
       "cc": [
         "report@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "report-8b287804fc",
@@ -1377,7 +1459,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 11,
       "cc": [
         "report@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     },
     {
       "id": "report-eeea92eeff",
@@ -1394,7 +1477,8 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 27,
       "cc": [
         "report@tinkerhub.org"
-      ]
+      ],
+      "manuallyClosed": false
     }
   ],
   "summary": {

@@ -2,149 +2,353 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>TinkerHub Discord Thread Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          bg: '#f6f7fb',
+          card: '#ffffff',
+          ink: '#1c1f2a',
+          muted: '#6b7280',
+          border: '#e5e7eb',
+          accent: '#5865F2',
+          'status-red': '#dc2626',
+          'status-red-bg': '#fee2e2',
+          'status-amber': '#d97706',
+          'status-amber-bg': '#fef3c7',
+          'status-blue': '#2563eb',
+          'status-blue-bg': '#dbeafe',
+          'status-green': '#16a34a',
+          'status-green-bg': '#dcfce7',
+          'status-gray': '#6b7280',
+          'status-gray-bg': '#f1f5f9',
+        },
+        fontFamily: {
+          sans: ['Inter', 'sans-serif'],
+        }
+      }
+    }
+  }
+</script>
 <style>
-  :root{
-    --bg:#f6f7fb; --card:#ffffff; --ink:#1c1f2a; --muted:#6b7280;
-    --border:#e5e7eb; --accent:#5865F2;
-    --red:#dc2626; --red-bg:#fee2e2;
-    --amber:#d97706; --amber-bg:#fef3c7;
-    --blue:#2563eb; --blue-bg:#dbeafe;
-    --green:#16a34a; --green-bg:#dcfce7;
-    --gray:#6b7280; --gray-bg:#f1f5f9;
+  body {
+    font-family: 'Inter', sans-serif;
   }
-  *{box-sizing:border-box;}
-  body{
-    margin:0; padding:24px; background:var(--bg); color:var(--ink);
-    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  table {
+    width: 100%;
+    border-collapse: collapse;
   }
-  .nav{font-size:13px; margin-bottom:10px;}
-  .nav a{color:var(--accent); text-decoration:none; font-weight:600;}
-  .nav a:hover{text-decoration:underline;}
-  .nav span{color:var(--muted); margin:0 6px;}
-  h1{font-size:22px; margin:0 0 4px;}
-  .sub{color:var(--muted); font-size:13px; margin-bottom:24px;}
-  .cards{display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:12px; margin-bottom:28px;}
-  .card{background:var(--card); border:1px solid var(--border); border-radius:12px; padding:16px 18px;}
-  .card .n{font-size:28px; font-weight:700; line-height:1.1;}
-  .card .l{font-size:12.5px; color:var(--muted); margin-top:4px;}
-  .card.no-response .n{color:var(--red);}
-  .card.awaiting-us .n{color:var(--amber);}
-  .card.awaiting-them .n{color:var(--blue);}
-  .card.resolved .n{color:var(--green);}
-
-  section{background:var(--card); border:1px solid var(--border); border-radius:12px; padding:20px; margin-bottom:24px;}
-  section h2{font-size:15px; margin:0 0 14px;}
-
-  table{width:100%; border-collapse:collapse; font-size:13.5px;}
-  th,td{text-align:left; padding:8px 10px; border-bottom:1px solid var(--border); vertical-align:top;}
-  th{color:var(--muted); font-weight:600; font-size:12px; text-transform:uppercase; letter-spacing:.02em;}
-  tr:last-child td{border-bottom:none;}
-  td.num{text-align:right; font-variant-numeric:tabular-nums;}
-  th.num{text-align:right;}
-
-  .badge{display:inline-block; padding:2px 9px; border-radius:99px; font-size:12px; font-weight:600; white-space:nowrap;}
-  .badge.no-response{color:var(--red); background:var(--red-bg);}
-  .badge.awaiting-us{color:var(--amber); background:var(--amber-bg);}
-  .badge.awaiting-them{color:var(--blue); background:var(--blue-bg);}
-  .badge.resolved{color:var(--green); background:var(--green-bg);}
-
-  .filters{display:flex; gap:10px; flex-wrap:wrap; align-items:center;}
-  .filters select, .filters input{
-    padding:7px 10px; border-radius:8px; border:1px solid var(--border);
-    font-size:13px; background:#fff; color:var(--ink);
+  th, td {
+    padding: 10px 14px;
+    vertical-align: top;
+    border-bottom: 1px solid #e5e7eb;
   }
-  .filters input{flex:1; min-width:200px;}
-  .count-note{font-size:12.5px; color:var(--muted); margin-left:auto;}
-
-  .days-open{font-weight:600;}
-  .days-warn{color:var(--red);}
-  .btn{
-    border:1px solid var(--border); background:#fff; color:var(--accent);
-    padding:5px 10px; border-radius:7px; font-size:12px; cursor:pointer; text-decoration:none;
-    display:inline-block; line-height:1.2;
+  tr:last-child td {
+    border-bottom: none;
   }
-  .btn:hover{background:var(--gray-bg);}
-  footer{color:var(--muted); font-size:12px; text-align:center; margin-top:8px;}
-  .empty-state{color:var(--muted); font-size:13px; padding:20px 0; text-align:center;}
-  .card.neutral .n{color:var(--accent);}
-  .two-col{display:grid; grid-template-columns:1fr 1fr; gap:20px;}
-  @media (max-width: 800px){ .two-col{grid-template-columns:1fr;} }
-  .bar-row{display:flex; align-items:center; gap:10px; margin-bottom:8px; font-size:13px;}
-  .bar-label{flex:0 0 220px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
-  .bar-track{flex:1; background:var(--gray-bg); border-radius:6px; height:10px; overflow:hidden;}
-  .bar-fill{background:var(--accent); height:100%; border-radius:6px;}
-  .bar-count{flex:0 0 28px; text-align:right; font-variant-numeric:tabular-nums; color:var(--muted);}
-  .suggestion{background:var(--gray-bg); border-radius:8px; padding:8px 10px; font-size:12px; color:#374151; margin-top:4px;}
-  .suggestion a{color:var(--accent); font-weight:600; text-decoration:none;}
-  .suggestion a:hover{text-decoration:underline;}
-  .cat-pill{display:inline-block; padding:1px 8px; border-radius:6px; font-size:11.5px; font-weight:600; background:var(--gray-bg); color:#374151; white-space:nowrap;}
+  tbody tr {
+    transition: background-color 0.15s ease;
+  }
+  tbody tr:hover {
+    background-color: #f9fafb;
+  }
+  .num {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+  }
+  th.num {
+    text-align: right;
+  }
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 8px;
+    border-radius: 9999px;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1.2;
+    white-space: nowrap;
+    border: 1px solid transparent;
+  }
+  .badge.no-response { color: #dc2626; background: #fee2e2; border-color: #fca5a5; }
+  .badge.awaiting-us { color: #d97706; background: #fef3c7; border-color: #fde047; }
+  .badge.awaiting-them { color: #2563eb; background: #dbeafe; border-color: #bfdbfe; }
+  .badge.resolved { color: #16a34a; background: #dcfce7; border-color: #bbf7d0; }
+  .badge.info { color: #6b7280; background: #f1f5f9; border-color: #e5e7eb; }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e5e7eb;
+    background-color: #ffffff;
+    color: #5865F2;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 1.2;
+    transition: all 0.15s ease;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+  }
+  .btn:hover {
+    background-color: #f1f5f9;
+    border-color: #cbd5e1;
+  }
+  .btn.resolve-btn {
+    color: #16a34a;
+    border-color: #e5e7eb;
+    background-color: #ffffff;
+  }
+  .btn.resolve-btn:hover {
+    background-color: #f0fdf4;
+    border-color: #86efac;
+  }
+  .btn.reopen-btn {
+    color: #4b5563;
+    border-color: #cbd5e1;
+    background-color: #f8fafc;
+  }
+  .btn.reopen-btn:hover {
+    background-color: #f1f5f9;
+    border-color: #94a3b8;
+  }
+  .days-open {
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+  }
+  .days-warn {
+    color: #dc2626 !important;
+  }
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  @media (min-width: 768px) {
+    .two-col {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  .bar-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+    font-size: 13px;
+  }
+  .bar-label {
+    flex: 0 0 160px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #374151;
+    font-weight: 500;
+  }
+  @media (min-width: 640px) {
+    .bar-label {
+      flex: 0 0 220px;
+    }
+  }
+  .bar-track {
+    flex: 1;
+    background-color: #f1f5f9;
+    border-radius: 9999px;
+    height: 8px;
+    overflow: hidden;
+  }
+  .bar-fill {
+    background-color: #5865F2;
+    height: 100%;
+    border-radius: 9999px;
+    transition: width 0.3s ease;
+  }
+  .bar-count {
+    flex: 0 0 28px;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    color: #6b7280;
+    font-weight: 600;
+  }
+  .suggestion {
+    background-color: #f8fafc;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 12px;
+    color: #475569;
+    margin-top: 6px;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.01);
+  }
+  .suggestion a {
+    color: #5865F2;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.15s ease;
+  }
+  .suggestion a:hover {
+    color: #404eed;
+    text-decoration: underline;
+  }
+  .cat-pill {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 8px;
+    border-radius: 6px;
+    font-size: 11px;
+    font-weight: 600;
+    background-color: #f1f5f9;
+    color: #374151;
+    border: 1px solid #e5e7eb;
+    white-space: nowrap;
+  }
+  #threads-table td a:not(.btn) {
+    color: #5865F2;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  #threads-table td a:not(.btn):hover {
+    text-decoration: underline;
+  }
+  /* ── Toast notification ── */
+  #toast {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #1c1f2a;
+    color: #f8fafc;
+    padding: 12px 18px;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+    transform: translateY(80px);
+    opacity: 0;
+    transition: transform 0.25s ease, opacity 0.25s ease;
+    pointer-events: none;
+    max-width: 320px;
+  }
+  #toast.show { transform: translateY(0); opacity: 1; }
+  #toast.success .toast-icon::before { content: "✓"; color: #4ade80; margin-right: 6px; }
+  #toast.error   .toast-icon::before { content: "✕"; color: #f87171; margin-right: 6px; }
+  #toast.loading .toast-icon::before { content: "…"; color: #94a3b8; margin-right: 6px; }
 </style>
 </head>
-<body>
+<body class="bg-bg text-ink min-h-screen p-4 md:p-8 transition-colors duration-200">
 
-<div class="nav"><a href="mailbox-dashboard.html">← Mailbox dashboard</a><span>|</span><strong>Discord threads</strong><span>|</span><a href="events-dashboard.html">Events map →</a></div>
+<div class="max-w-7xl mx-auto">
+  <div class="flex items-center space-x-2 text-[13px] font-medium text-muted mb-6 bg-white border border-border px-4 py-2.5 rounded-xl shadow-sm">
+    <a href="mailbox-dashboard.html" class="hover:text-accent transition-colors flex items-center gap-1"><span class="text-[10px]">←</span> Mailbox dashboard</a>
+    <span class="text-border">/</span>
+    <span class="text-ink font-semibold flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-accent"></span>Discord threads</span>
+    <span class="text-border">/</span>
+    <a href="events-dashboard.html" class="hover:text-accent transition-colors flex items-center gap-1">Events map <span class="text-[10px]">→</span></a>
+  </div>
 
-<h1>TinkerHub Discord Thread Dashboard</h1>
-<div class="sub" id="header-sub">Tech-issue threads in the tracked channel</div>
+  <div class="mb-8">
+    <h1 class="text-2xl font-bold tracking-tight text-ink md:text-3xl">TinkerHub Discord Thread Dashboard</h1>
+    <p class="text-sm text-muted mt-1.5" id="header-sub">Tech-issue threads in the tracked channel</p>
+  </div>
 
-<div class="cards">
-  <div class="card no-response"><div class="n" id="c-no-response">0</div><div class="l">No response at all</div></div>
-  <div class="card awaiting-us"><div class="n" id="c-awaiting-us">0</div><div class="l">Awaiting reply — from us</div></div>
-  <div class="card awaiting-them"><div class="n" id="c-awaiting-them">0</div><div class="l">Awaiting reply — from them</div></div>
-  <div class="card resolved"><div class="n" id="c-resolved">0</div><div class="l">Resolved (archived/locked)</div></div>
-  <div class="card neutral"><div class="n" id="c-avg-close">–</div><div class="l">Avg days to close</div></div>
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 mb-8">
+    <div class="bg-white border border-border rounded-xl p-5 shadow-sm transition-all hover:shadow-md">
+      <div class="text-3xl font-bold tracking-tight text-status-red" id="c-no-response">0</div>
+      <div class="text-[12.5px] font-medium text-muted mt-2 leading-tight">No response at all</div>
+    </div>
+    <div class="bg-white border border-border rounded-xl p-5 shadow-sm transition-all hover:shadow-md">
+      <div class="text-3xl font-bold tracking-tight text-status-amber" id="c-awaiting-us">0</div>
+      <div class="text-[12.5px] font-medium text-muted mt-2 leading-tight">Awaiting reply — from us</div>
+    </div>
+    <div class="bg-white border border-border rounded-xl p-5 shadow-sm transition-all hover:shadow-md">
+      <div class="text-3xl font-bold tracking-tight text-status-blue" id="c-awaiting-them">0</div>
+      <div class="text-[12.5px] font-medium text-muted mt-2 leading-tight">Awaiting reply — from them</div>
+    </div>
+    <div class="bg-white border border-border rounded-xl p-5 shadow-sm transition-all hover:shadow-md">
+      <div class="text-3xl font-bold tracking-tight text-status-green" id="c-resolved">0</div>
+      <div class="text-[12.5px] font-medium text-muted mt-2 leading-tight">Resolved (archived/locked)</div>
+    </div>
+    <div class="bg-white border border-border rounded-xl p-5 shadow-sm transition-all hover:shadow-md">
+      <div class="text-3xl font-bold tracking-tight text-accent" id="c-avg-close">–</div>
+      <div class="text-[12.5px] font-medium text-muted mt-2 leading-tight">Avg days to close</div>
+    </div>
+  </div>
+
+  <section id="empty-state-section" style="display:none;" class="bg-white border border-border rounded-xl p-6 mb-8 shadow-sm">
+    <div class="text-center text-sm text-muted py-6">
+      No data yet — <code>discord-data.js</code> hasn't been generated. Once the Discord bot token, channel/guild IDs,
+      and Message Content Intent are set up and the <code>discord-update.yml</code> workflow has run once
+      (manually via "Run workflow" or on its daily schedule), this page will populate automatically.
+    </div>
+  </section>
+
+  <section id="main-section" style="display:none;" class="bg-white border border-border rounded-xl p-5 md:p-6 mb-8 shadow-sm">
+    <div class="two-col">
+      <div>
+        <h2 class="text-base font-semibold text-ink mb-4">Most common issues</h2>
+        <div id="category-bars"></div>
+      </div>
+      <div>
+        <h2 class="text-base font-semibold text-ink mb-4">Most active requesters</h2>
+        <div id="requester-bars"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="threads-section" style="display:none;" class="bg-white border border-border rounded-xl p-5 md:p-6 mb-8 shadow-sm">
+    <h2 class="text-base font-semibold text-ink mb-4">Threads</h2>
+    <div class="flex flex-col md:flex-row md:items-center gap-3 mb-5">
+      <select id="f-status" class="rounded-lg border border-border px-3 py-2 text-sm bg-white text-ink shadow-sm focus:outline-none focus:ring-2 focus:ring-accent/20 focus:border-accent cursor-pointer transition-all">
+        <option value="">All statuses</option>
+        <option value="No response">No response</option>
+        <option value="Awaiting reply (from us)">Awaiting reply (from us)</option>
+        <option value="Awaiting reply (from them)">Awaiting reply (from them)</option>
+        <option value="Resolved">Resolved</option>
+      </select>
+      <select id="f-category" class="rounded-lg border border-border px-3 py-2 text-sm bg-white text-ink shadow-sm focus:outline-none focus:ring-2 focus:ring-accent/20 focus:border-accent cursor-pointer transition-all">
+        <option value="">All categories</option>
+      </select>
+      <input id="f-search" type="text" placeholder="Search thread name…" class="flex-1 rounded-lg border border-border px-3 py-2 text-sm bg-white text-ink shadow-sm placeholder:text-muted focus:outline-none focus:ring-2 focus:ring-accent/20 focus:border-accent transition-all">
+      <span class="text-xs text-muted font-medium ml-auto md:self-center" id="f-count"></span>
+    </div>
+    <div class="overflow-x-auto">
+      <table id="threads-table" class="min-w-full text-[13.5px] text-left">
+        <thead>
+          <tr class="border-b border-border">
+            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider">Thread</th>
+            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider">Category</th>
+            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider">Requester</th>
+            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider">Status</th>
+            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider text-right">Days</th>
+            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider">Suggested fix (from a similar past thread)</th>
+            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider">Open</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-border/60"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer id="footer-note" class="mt-8 text-center text-xs text-muted border-t border-border pt-6 leading-relaxed">"Days" = days since the last message in the thread. Data refreshes daily via a GitHub Actions workflow, independent of any chat session.</footer>
 </div>
 
-<section id="empty-state-section" style="display:none;">
-  <div class="empty-state">
-    No data yet — <code>discord-data.js</code> hasn't been generated. Once the Discord bot token, channel/guild IDs,
-    and Message Content Intent are set up and the <code>discord-update.yml</code> workflow has run once
-    (manually via "Run workflow" or on its daily schedule), this page will populate automatically.
-  </div>
-</section>
-
-<section id="main-section" style="display:none;">
-  <div class="two-col">
-    <div>
-      <h2 style="margin-top:0;">Most common issues</h2>
-      <div id="category-bars"></div>
-    </div>
-    <div>
-      <h2 style="margin-top:0;">Most active requesters</h2>
-      <div id="requester-bars"></div>
-    </div>
-  </div>
-</section>
-
-<section id="threads-section" style="display:none;">
-  <h2>Threads</h2>
-  <div class="filters" style="margin-bottom:14px;">
-    <select id="f-status">
-      <option value="">All statuses</option>
-      <option value="No response">No response</option>
-      <option value="Awaiting reply (from us)">Awaiting reply (from us)</option>
-      <option value="Awaiting reply (from them)">Awaiting reply (from them)</option>
-      <option value="Resolved">Resolved</option>
-    </select>
-    <select id="f-category">
-      <option value="">All categories</option>
-    </select>
-    <input id="f-search" type="text" placeholder="Search thread name…">
-    <span class="count-note" id="f-count"></span>
-  </div>
-  <table id="threads-table">
-    <thead>
-      <tr>
-        <th>Thread</th><th>Category</th><th>Requester</th><th>Status</th>
-        <th class="num">Days</th><th>Suggested fix (from a similar past thread)</th><th>Open</th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
-</section>
-
-<footer id="footer-note">"Days" = days since the last message in the thread. Data refreshes daily via a GitHub Actions workflow, independent of any chat session.</footer>
+<!-- Toast notification -->
+<div id="toast" role="status" aria-live="polite">
+  <span class="toast-icon"></span>
+  <span id="toast-msg"></span>
+</div>
 
 <script src="discord-data.js"></script>
 <script>
@@ -201,6 +405,91 @@ function populateCategoryFilter(){
   });
 }
 
+// ── Cloudflare Worker ────────────────────────────────────────────────────────
+const WORKER_URL = "https://snowy-pond-1f3c.habeebrahmanofficial.workers.dev";
+const DASHBOARD_TYPE = "discord";
+
+// ── Toast helper ─────────────────────────────────────────────────────────────
+let _toastTimer;
+function showToast(msg, type = "success") {
+  const el = document.getElementById("toast");
+  el.className = type;
+  document.getElementById("toast-msg").textContent = msg;
+  el.classList.add("show");
+  clearTimeout(_toastTimer);
+  _toastTimer = setTimeout(() => el.classList.remove("show"), 3000);
+}
+
+// ── In-memory resolved set (populated from Worker on init) ───────────────────
+let _resolvedIds = new Set(
+  (DATA.threads || []).filter(t => t.manuallyClosed).map(t => t.id)
+);
+
+async function loadResolvedFromWorker() {
+  try {
+    const res = await fetch(`${WORKER_URL}/resolutions`);
+    const data = await res.json();
+    const workerIds = new Set(data[DASHBOARD_TYPE] || []);
+    DATA.threads.forEach(t => {
+      if (workerIds.has(t.id) && !t.manuallyClosed) {
+        t.originalStatus = t.originalStatus || t.status;
+        t.status = "Resolved";
+        t.manuallyClosed = true;
+        _resolvedIds.add(t.id);
+      }
+    });
+    if (workerIds.size > 0) renderThreads();
+  } catch (e) {
+    console.warn("Could not reach resolutions worker:", e);
+  }
+}
+
+async function markManuallyClosed(id) {
+  const t = DATA.threads.find(x => x.id === id);
+  if (!t) return;
+  t.originalStatus = t.originalStatus || t.status;
+  t.status = "Resolved";
+  t.manuallyClosed = true;
+  _resolvedIds.add(id);
+  renderThreads();
+  showToast("Marking as resolved…", "loading");
+  try {
+    const res = await fetch(`${WORKER_URL}/resolve`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ id, type: DASHBOARD_TYPE }),
+    });
+    if (!res.ok) throw new Error(await res.text());
+    showToast("Resolved — synced for all users ✓", "success");
+  } catch (e) {
+    showToast("Saved locally (Worker unreachable)", "error");
+    console.error(e);
+  }
+}
+
+async function undoManualClose(id) {
+  const t = DATA.threads.find(x => x.id === id);
+  if (!t) return;
+  if (t.originalStatus) t.status = t.originalStatus;
+  t.manuallyClosed = false;
+  delete t.originalStatus;
+  _resolvedIds.delete(id);
+  renderThreads();
+  showToast("Reopening…", "loading");
+  try {
+    const res = await fetch(`${WORKER_URL}/reopen`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ id, type: DASHBOARD_TYPE }),
+    });
+    if (!res.ok) throw new Error(await res.text());
+    showToast("Reopened — synced for all users ✓", "success");
+  } catch (e) {
+    showToast("Saved locally (Worker unreachable)", "error");
+    console.error(e);
+  }
+}
+
 function renderThreads(){
   const s = document.getElementById("f-status").value;
   const cat = document.getElementById("f-category").value;
@@ -230,15 +519,29 @@ function renderThreads(){
         </div>`;
     }
 
+    let actionsHtml = "";
+    if (t.manuallyClosed) {
+      actionsHtml = `<button class="btn reopen-btn" onclick="undoManualClose('${t.id}')">Reopen</button>`;
+    } else {
+      const openBtn = `<a class="btn" href="${t.url}" target="_blank" rel="noopener">Open</a>`;
+      let resolveBtn = "";
+      if (t.status !== "Resolved") {
+        resolveBtn = `<button class="btn resolve-btn" onclick="markManuallyClosed('${t.id}')">Resolve</button>`;
+      }
+      actionsHtml = `<div class="actions">${openBtn}${resolveBtn}</div>`;
+    }
+
+    const badgeText = t.manuallyClosed ? "Resolved (Manual)" : t.status;
+
     const tr = document.createElement("tr");
     tr.innerHTML = `
       <td><a href="${t.url}" target="_blank" rel="noopener">${escapeHtml(t.name)}</a></td>
       <td><span class="cat-pill">${escapeHtml(t.category)}</span></td>
       <td>${escapeHtml(t.requester||"")}</td>
-      <td><span class="badge ${cls}">${t.status}</span></td>
+      <td><span class="badge ${cls}">${badgeText}</span></td>
       <td class="num days-open ${warn}">${t.daysOpen}</td>
       <td>${suggestionHtml}</td>
-      <td><a class="btn" href="${t.url}" target="_blank" rel="noopener">Open</a></td>
+      <td>${actionsHtml}</td>
     `;
     tbody.appendChild(tr);
   });
@@ -261,6 +564,7 @@ if(!DATA || !DATA.threads){
   renderBars("requester-bars", DATA.topRequesters, "name", "count");
   populateCategoryFilter();
   renderThreads();
+  loadResolvedFromWorker(); // async — layers Worker state on top of baked data
 }
 </script>
 </body>
