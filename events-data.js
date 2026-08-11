@@ -2,7 +2,7 @@
 // Do NOT hand-edit -- this file is overwritten on each run.
 window.EVENTS_DATA = {
   "generatedAt": "2026-08-11",
-  "generatedAtIso": "2026-08-11T01:22:59.976505+00:00",
+  "generatedAtIso": "2026-08-11T04:16:41.653845+00:00",
   "windowSinceDate": "2026-04-01",
   "windowUntilDate": "2027-03-31",
   "events": [
@@ -13490,7 +13490,7 @@ window.EVENTS_DATA = {
       "lat": 9.2474,
       "lng": 76.78145,
       "locationSource": "district_fallback",
-      "registered": 38,
+      "registered": 43,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -13516,6 +13516,27 @@ window.EVENTS_DATA = {
       "checkedInAttendeeIds": [],
       "seats": 0,
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Muthoot%20Institute%20of%20Technology%20%26%20Science%20%28MITS%29%2C%20Varikoli%20PO%2C%20Puthencruz%2C%20ernakulam%20682308"
+    },
+    {
+      "id": 3619,
+      "name": "Core team meetup",
+      "type": "Core_Team_Meeting",
+      "typeColor": "#6b7280",
+      "status": "pending",
+      "start": "2026-08-11T16:00:00+05:30",
+      "end": "2026-08-11T17:00:00+05:30",
+      "isVirtual": false,
+      "campusName": "Mar Baselios Christian College of Engineering and Technology, Peerumedu",
+      "district": "idukki",
+      "address": "Mar Baselius Christian College of Engineering and Technology, Pallikkunnu PO, Peerumedu, idukki 685 531",
+      "lat": 9.81035,
+      "lng": 76.98188,
+      "locationSource": "district_fallback",
+      "registered": 10,
+      "checkedIn": 0,
+      "checkedInAttendeeIds": [],
+      "seats": null,
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Mar%20Baselius%20Christian%20College%20of%20Engineering%20and%20Technology%2C%20Pallikkunnu%20PO%2C%20Peerumedu%2C%20idukki%20685%20531"
     },
     {
       "id": 3613,
@@ -13623,27 +13644,6 @@ window.EVENTS_DATA = {
       "mapUrl": "https://maps.app.goo.gl/j8w832j2VkvJPGeSA"
     },
     {
-      "id": 3588,
-      "name": "AI Wednesday",
-      "type": "Bootcamp",
-      "typeColor": "#db2777",
-      "status": "published",
-      "start": "2026-08-12T19:00:00+05:30",
-      "end": "2026-08-12T20:30:00+05:30",
-      "isVirtual": false,
-      "campusName": null,
-      "district": null,
-      "address": null,
-      "lat": 10.0469797,
-      "lng": 76.3351998,
-      "locationSource": "maps_link",
-      "registered": 14,
-      "checkedIn": 0,
-      "checkedInAttendeeIds": [],
-      "seats": null,
-      "mapUrl": "https://maps.app.goo.gl/j8w832j2VkvJPGeSA"
-    },
-    {
       "id": 3616,
       "name": "Basics Intro to Capcut app",
       "type": "Learning_Program",
@@ -13665,6 +13665,27 @@ window.EVENTS_DATA = {
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=College%20of%20Engineering%2C%20Perumon%20PO%2C%20Perinad%2C%20kollam%20691%20601"
     },
     {
+      "id": 3588,
+      "name": "AI Wednesday",
+      "type": "Bootcamp",
+      "typeColor": "#db2777",
+      "status": "published",
+      "start": "2026-08-12T19:00:00+05:30",
+      "end": "2026-08-12T20:30:00+05:30",
+      "isVirtual": false,
+      "campusName": null,
+      "district": null,
+      "address": null,
+      "lat": 10.0469797,
+      "lng": 76.3351998,
+      "locationSource": "maps_link",
+      "registered": 15,
+      "checkedIn": 0,
+      "checkedInAttendeeIds": [],
+      "seats": null,
+      "mapUrl": "https://maps.app.goo.gl/j8w832j2VkvJPGeSA"
+    },
+    {
       "id": 3586,
       "name": "Kattan and orientation 3.0",
       "type": "Meetup",
@@ -13679,32 +13700,11 @@ window.EVENTS_DATA = {
       "lat": 11.1984611,
       "lng": 75.8573271,
       "locationSource": "maps_link",
-      "registered": 68,
+      "registered": 70,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": 100,
       "mapUrl": "https://maps.app.goo.gl/TiNjg7AVDXULd39s6"
-    },
-    {
-      "id": 3601,
-      "name": "Maker Thursday",
-      "type": "Bootcamp",
-      "typeColor": "#db2777",
-      "status": "published",
-      "start": "2026-08-13T19:00:00+05:30",
-      "end": "2026-08-13T20:30:00+05:30",
-      "isVirtual": false,
-      "campusName": null,
-      "district": null,
-      "address": null,
-      "lat": 10.0469797,
-      "lng": 76.3351998,
-      "locationSource": "maps_link",
-      "registered": 5,
-      "checkedIn": 0,
-      "checkedInAttendeeIds": [],
-      "seats": null,
-      "mapUrl": "https://maps.app.goo.gl/j8w832j2VkvJPGeSA"
     },
     {
       "id": 3617,
@@ -13726,6 +13726,27 @@ window.EVENTS_DATA = {
       "checkedInAttendeeIds": [],
       "seats": 0,
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=College%20of%20Engineering%2C%20Perumon%20PO%2C%20Perinad%2C%20kollam%20691%20601"
+    },
+    {
+      "id": 3601,
+      "name": "Maker Thursday",
+      "type": "Bootcamp",
+      "typeColor": "#db2777",
+      "status": "published",
+      "start": "2026-08-13T19:00:00+05:30",
+      "end": "2026-08-13T20:30:00+05:30",
+      "isVirtual": false,
+      "campusName": null,
+      "district": null,
+      "address": null,
+      "lat": 10.0469797,
+      "lng": 76.3351998,
+      "locationSource": "maps_link",
+      "registered": 5,
+      "checkedIn": 0,
+      "checkedInAttendeeIds": [],
+      "seats": null,
+      "mapUrl": "https://maps.app.goo.gl/j8w832j2VkvJPGeSA"
     },
     {
       "id": 3557,
@@ -16614,15 +16635,15 @@ window.EVENTS_DATA = {
     }
   ],
   "summary": {
-    "totalEvents": 384,
-    "todayCount": 7,
+    "totalEvents": 385,
+    "todayCount": 8,
     "upcomingCount": 8,
     "pastCount": 369,
-    "totalRegistered": 9263,
+    "totalRegistered": 9281,
     "totalCheckedIn": 5425,
     "virtualCount": 135,
     "geocoded": 247,
-    "districtFallback": 111,
+    "districtFallback": 112,
     "unresolved": 26,
     "uniqueAttendees": 3341,
     "avgDailyAttendance": 56.5,
@@ -16644,7 +16665,7 @@ window.EVENTS_DATA = {
     },
     {
       "type": "Core_Team_Meeting",
-      "count": 83,
+      "count": 84,
       "color": "#6b7280"
     },
     {
@@ -16719,7 +16740,7 @@ window.EVENTS_DATA = {
     },
     {
       "district": "idukki",
-      "count": 2
+      "count": 3
     }
   ],
   "typeColors": {
