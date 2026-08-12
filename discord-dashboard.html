@@ -104,24 +104,6 @@
     background-color: #f1f5f9;
     border-color: #cbd5e1;
   }
-  .btn.resolve-btn {
-    color: #16a34a;
-    border-color: #e5e7eb;
-    background-color: #ffffff;
-  }
-  .btn.resolve-btn:hover {
-    background-color: #f0fdf4;
-    border-color: #86efac;
-  }
-  .btn.reopen-btn {
-    color: #4b5563;
-    border-color: #cbd5e1;
-    background-color: #f8fafc;
-  }
-  .btn.reopen-btn:hover {
-    background-color: #f1f5f9;
-    border-color: #94a3b8;
-  }
   .days-open {
     font-weight: 600;
     font-variant-numeric: tabular-nums;
@@ -219,32 +201,6 @@
   #threads-table td a:not(.btn):hover {
     text-decoration: underline;
   }
-  /* ── Toast notification ── */
-  #toast {
-    position: fixed;
-    bottom: 24px;
-    right: 24px;
-    z-index: 9999;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    background: #1c1f2a;
-    color: #f8fafc;
-    padding: 12px 18px;
-    border-radius: 10px;
-    font-size: 13px;
-    font-weight: 500;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.18);
-    transform: translateY(80px);
-    opacity: 0;
-    transition: transform 0.25s ease, opacity 0.25s ease;
-    pointer-events: none;
-    max-width: 320px;
-  }
-  #toast.show { transform: translateY(0); opacity: 1; }
-  #toast.success .toast-icon::before { content: "✓"; color: #4ade80; margin-right: 6px; }
-  #toast.error   .toast-icon::before { content: "✕"; color: #f87171; margin-right: 6px; }
-  #toast.loading .toast-icon::before { content: "…"; color: #94a3b8; margin-right: 6px; }
 </style>
 </head>
 <body class="bg-bg text-ink min-h-screen p-4 md:p-8 transition-colors duration-200">
@@ -344,12 +300,6 @@
   <footer id="footer-note" class="mt-8 text-center text-xs text-muted border-t border-border pt-6 leading-relaxed">"Days" = days since the last message in the thread. Data refreshes daily via a GitHub Actions workflow, independent of any chat session.</footer>
 </div>
 
-<!-- Toast notification -->
-<div id="toast" role="status" aria-live="polite">
-  <span class="toast-icon"></span>
-  <span id="toast-msg"></span>
-</div>
-
 <script src="discord-data.js"></script>
 <script>
 const DATA = window.DISCORD_DATA;
@@ -405,91 +355,6 @@ function populateCategoryFilter(){
   });
 }
 
-// ── Cloudflare Worker ────────────────────────────────────────────────────────
-const WORKER_URL = "https://snowy-pond-1f3c.habeebrahmanofficial.workers.dev";
-const DASHBOARD_TYPE = "discord";
-
-// ── Toast helper ─────────────────────────────────────────────────────────────
-let _toastTimer;
-function showToast(msg, type = "success") {
-  const el = document.getElementById("toast");
-  el.className = type;
-  document.getElementById("toast-msg").textContent = msg;
-  el.classList.add("show");
-  clearTimeout(_toastTimer);
-  _toastTimer = setTimeout(() => el.classList.remove("show"), 3000);
-}
-
-// ── In-memory resolved set (populated from Worker on init) ───────────────────
-let _resolvedIds = new Set(
-  (DATA.threads || []).filter(t => t.manuallyClosed).map(t => t.id)
-);
-
-async function loadResolvedFromWorker() {
-  try {
-    const res = await fetch(`${WORKER_URL}/resolutions`);
-    const data = await res.json();
-    const workerIds = new Set(data[DASHBOARD_TYPE] || []);
-    DATA.threads.forEach(t => {
-      if (workerIds.has(t.id) && !t.manuallyClosed) {
-        t.originalStatus = t.originalStatus || t.status;
-        t.status = "Resolved";
-        t.manuallyClosed = true;
-        _resolvedIds.add(t.id);
-      }
-    });
-    if (workerIds.size > 0) renderThreads();
-  } catch (e) {
-    console.warn("Could not reach resolutions worker:", e);
-  }
-}
-
-async function markManuallyClosed(id) {
-  const t = DATA.threads.find(x => x.id === id);
-  if (!t) return;
-  t.originalStatus = t.originalStatus || t.status;
-  t.status = "Resolved";
-  t.manuallyClosed = true;
-  _resolvedIds.add(id);
-  renderThreads();
-  showToast("Marking as resolved…", "loading");
-  try {
-    const res = await fetch(`${WORKER_URL}/resolve`, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ id, type: DASHBOARD_TYPE }),
-    });
-    if (!res.ok) throw new Error(await res.text());
-    showToast("Resolved — synced for all users ✓", "success");
-  } catch (e) {
-    showToast("Saved locally (Worker unreachable)", "error");
-    console.error(e);
-  }
-}
-
-async function undoManualClose(id) {
-  const t = DATA.threads.find(x => x.id === id);
-  if (!t) return;
-  if (t.originalStatus) t.status = t.originalStatus;
-  t.manuallyClosed = false;
-  delete t.originalStatus;
-  _resolvedIds.delete(id);
-  renderThreads();
-  showToast("Reopening…", "loading");
-  try {
-    const res = await fetch(`${WORKER_URL}/reopen`, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ id, type: DASHBOARD_TYPE }),
-    });
-    if (!res.ok) throw new Error(await res.text());
-    showToast("Reopened — synced for all users ✓", "success");
-  } catch (e) {
-    showToast("Saved locally (Worker unreachable)", "error");
-    console.error(e);
-  }
-}
-
 function renderThreads(){
   const s = document.getElementById("f-status").value;
   const cat = document.getElementById("f-category").value;
@@ -519,19 +384,8 @@ function renderThreads(){
         </div>`;
     }
 
-    let actionsHtml = "";
-    if (t.manuallyClosed) {
-      actionsHtml = `<button class="btn reopen-btn" onclick="undoManualClose('${t.id}')">Reopen</button>`;
-    } else {
-      const openBtn = `<a class="btn" href="${t.url}" target="_blank" rel="noopener">Open</a>`;
-      let resolveBtn = "";
-      if (t.status !== "Resolved") {
-        resolveBtn = `<button class="btn resolve-btn" onclick="markManuallyClosed('${t.id}')">Resolve</button>`;
-      }
-      actionsHtml = `<div class="actions">${openBtn}${resolveBtn}</div>`;
-    }
-
-    const badgeText = t.manuallyClosed ? "Resolved (Manual)" : t.status;
+    const actionsHtml = `<div class="actions"><a class="btn" href="${t.url}" target="_blank" rel="noopener">Open</a></div>`;
+    const badgeText = t.status;
 
     const tr = document.createElement("tr");
     tr.innerHTML = `
@@ -564,7 +418,6 @@ if(!DATA || !DATA.threads){
   renderBars("requester-bars", DATA.topRequesters, "name", "count");
   populateCategoryFilter();
   renderThreads();
-  loadResolvedFromWorker(); // async — layers Worker state on top of baked data
 }
 </script>
 </body>
