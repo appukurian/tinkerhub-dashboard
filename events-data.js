@@ -2,7 +2,7 @@
 // Do NOT hand-edit -- this file is overwritten on each run.
 window.EVENTS_DATA = {
   "generatedAt": "2026-08-15",
-  "generatedAtIso": "2026-08-15T15:16:08.702470+00:00",
+  "generatedAtIso": "2026-08-15T18:22:50.456610+00:00",
   "windowSinceDate": "2026-04-01",
   "windowUntilDate": "2027-03-31",
   "events": [
@@ -15725,7 +15725,7 @@ window.EVENTS_DATA = {
       "lat": 9.59032,
       "lng": 76.4867,
       "locationSource": "district_fallback",
-      "registered": 50,
+      "registered": 51,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -15908,7 +15908,7 @@ window.EVENTS_DATA = {
       "lat": 9.0422158,
       "lng": 76.6445097,
       "locationSource": "maps_link",
-      "registered": 4,
+      "registered": 5,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -15930,8 +15930,13 @@ window.EVENTS_DATA = {
       "lng": 76.6445097,
       "locationSource": "maps_link",
       "registered": 8,
-      "checkedIn": 0,
-      "checkedInAttendeeIds": [],
+      "checkedIn": 4,
+      "checkedInAttendeeIds": [
+        40995,
+        45712,
+        45803,
+        48871
+      ],
       "seats": null,
       "mapUrl": "https://maps.app.goo.gl/8S9zoHmGbnQLpWPY6"
     },
@@ -15993,7 +15998,7 @@ window.EVENTS_DATA = {
       "lng": 76.32471,
       "locationSource": "district_fallback",
       "registered": 20,
-      "checkedIn": 14,
+      "checkedIn": 20,
       "checkedInAttendeeIds": [
         22360,
         23123,
@@ -16003,12 +16008,18 @@ window.EVENTS_DATA = {
         23985,
         27086,
         28711,
+        34296,
         34428,
         44338,
         44711,
         44712,
+        45453,
+        45461,
         46553,
-        48040
+        48040,
+        48048,
+        48853,
+        48932
       ],
       "seats": null,
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sree%20Buddha%20College%20of%20Engineering%2CPattoor%20PO%2C%20Padanilam%2C%20Nooranad%2Calappuzha"
@@ -16091,7 +16102,7 @@ window.EVENTS_DATA = {
       "lat": 9.4615534,
       "lng": 76.3319795,
       "locationSource": "maps_link",
-      "registered": 2,
+      "registered": 12,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": 15,
@@ -16154,7 +16165,7 @@ window.EVENTS_DATA = {
       "lat": 10.79052,
       "lng": 76.62576,
       "locationSource": "district_fallback",
-      "registered": 33,
+      "registered": 35,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": 0,
@@ -16238,7 +16249,7 @@ window.EVENTS_DATA = {
       "lat": 10.79052,
       "lng": 76.62576,
       "locationSource": "district_fallback",
-      "registered": 33,
+      "registered": 35,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": 0,
@@ -16322,7 +16333,7 @@ window.EVENTS_DATA = {
       "lat": 10.79052,
       "lng": 76.62576,
       "locationSource": "district_fallback",
-      "registered": 33,
+      "registered": 35,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": 0,
@@ -19485,6 +19496,16 @@ window.EVENTS_DATA = {
       "collaboratorIds": [
         48846
       ]
+    },
+    {
+      "id": 7801,
+      "eventBased": false,
+      "eventId": null,
+      "createdAt": "2026-08-15T22:39:36.181063+05:30",
+      "collaboratorIds": [
+        48461,
+        48852
+      ]
     }
   ],
   "summary": {
@@ -19492,18 +19513,18 @@ window.EVENTS_DATA = {
     "todayCount": 11,
     "upcomingCount": 17,
     "pastCount": 422,
-    "totalRegistered": 10803,
-    "totalCheckedIn": 6576,
+    "totalRegistered": 10821,
+    "totalCheckedIn": 6586,
     "virtualCount": 161,
     "geocoded": 285,
     "districtFallback": 138,
     "unresolved": 27,
-    "uniqueAttendees": 4152,
-    "avgDailyAttendance": 65.1,
-    "totalProjects": 341,
+    "uniqueAttendees": 4156,
+    "avgDailyAttendance": 65.2,
+    "totalProjects": 342,
     "eventBasedProjects": 30,
-    "independentProjects": 311,
-    "uniquePeopleInProjects": 324
+    "independentProjects": 312,
+    "uniquePeopleInProjects": 326
   },
   "byType": [
     {
