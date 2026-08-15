@@ -2,7 +2,7 @@
 // Do NOT hand-edit -- this file is overwritten on each run.
 window.EVENTS_DATA = {
   "generatedAt": "2026-08-15",
-  "generatedAtIso": "2026-08-15T01:01:38.432401+00:00",
+  "generatedAtIso": "2026-08-15T03:35:32.053123+00:00",
   "windowSinceDate": "2026-04-01",
   "windowUntilDate": "2027-03-31",
   "events": [
@@ -14909,7 +14909,7 @@ window.EVENTS_DATA = {
       "lat": 9.59032,
       "lng": 76.4867,
       "locationSource": "district_fallback",
-      "registered": 0,
+      "registered": 1,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -15917,7 +15917,7 @@ window.EVENTS_DATA = {
       "lat": 9.0422158,
       "lng": 76.6445097,
       "locationSource": "maps_link",
-      "registered": 0,
+      "registered": 2,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -15959,7 +15959,7 @@ window.EVENTS_DATA = {
       "lat": 9.47236,
       "lng": 76.32471,
       "locationSource": "district_fallback",
-      "registered": 4,
+      "registered": 5,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -16043,7 +16043,7 @@ window.EVENTS_DATA = {
       "lat": 9.4615534,
       "lng": 76.3319795,
       "locationSource": "maps_link",
-      "registered": 0,
+      "registered": 1,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": 15,
@@ -16169,7 +16169,7 @@ window.EVENTS_DATA = {
       "lat": 9.578816,
       "lng": 76.6228879,
       "locationSource": "maps_link",
-      "registered": 1,
+      "registered": 2,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": 0,
@@ -16211,7 +16211,7 @@ window.EVENTS_DATA = {
       "lat": 9.578816,
       "lng": 76.6228879,
       "locationSource": "maps_link",
-      "registered": 1,
+      "registered": 2,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": 0,
@@ -19410,6 +19410,24 @@ window.EVENTS_DATA = {
       "collaboratorIds": [
         37939
       ]
+    },
+    {
+      "id": 7798,
+      "eventBased": false,
+      "eventId": null,
+      "createdAt": "2026-08-15T08:42:05.907571+05:30",
+      "collaboratorIds": [
+        1
+      ]
+    },
+    {
+      "id": 7799,
+      "eventBased": false,
+      "eventId": null,
+      "createdAt": "2026-08-15T08:44:07.265375+05:30",
+      "collaboratorIds": [
+        1
+      ]
     }
   ],
   "summary": {
@@ -19417,7 +19435,7 @@ window.EVENTS_DATA = {
     "todayCount": 10,
     "upcomingCount": 17,
     "pastCount": 423,
-    "totalRegistered": 10689,
+    "totalRegistered": 10696,
     "totalCheckedIn": 6530,
     "virtualCount": 161,
     "geocoded": 285,
@@ -19425,10 +19443,10 @@ window.EVENTS_DATA = {
     "unresolved": 27,
     "uniqueAttendees": 4147,
     "avgDailyAttendance": 65.3,
-    "totalProjects": 338,
+    "totalProjects": 340,
     "eventBasedProjects": 30,
-    "independentProjects": 308,
-    "uniquePeopleInProjects": 322
+    "independentProjects": 310,
+    "uniquePeopleInProjects": 323
   },
   "byType": [
     {
