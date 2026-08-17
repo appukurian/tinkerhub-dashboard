@@ -2,7 +2,7 @@
 // Do NOT hand-edit -- this file is overwritten on each run.
 window.EVENTS_DATA = {
   "generatedAt": "2026-08-17",
-  "generatedAtIso": "2026-08-17T01:03:05.827701+00:00",
+  "generatedAtIso": "2026-08-17T03:46:45.925131+00:00",
   "windowSinceDate": "2026-04-01",
   "windowUntilDate": "2027-03-31",
   "events": [
@@ -16029,9 +16029,13 @@ window.EVENTS_DATA = {
       "lat": 9.59032,
       "lng": 76.4867,
       "locationSource": "district_fallback",
-      "registered": 1,
-      "checkedIn": 0,
-      "checkedInAttendeeIds": [],
+      "registered": 4,
+      "checkedIn": 3,
+      "checkedInAttendeeIds": [
+        47677,
+        48053,
+        48079
+      ],
       "seats": null,
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Saintgits%20College%20of%20Applied%20Sciences%2C%20Kottukulam%20Hills%2C%20Pathamuttam%20PO%2C%20kottayam-686532"
     },
@@ -16138,7 +16142,7 @@ window.EVENTS_DATA = {
       "lat": 10.0070408,
       "lng": 76.3656069,
       "locationSource": "maps_link",
-      "registered": 31,
+      "registered": 42,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": 80,
@@ -16264,7 +16268,7 @@ window.EVENTS_DATA = {
       "lat": 11.2864519,
       "lng": 75.7700465,
       "locationSource": "nominatim",
-      "registered": 2,
+      "registered": 3,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -16376,7 +16380,7 @@ window.EVENTS_DATA = {
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Jawaharlal%20College%20of%20Engineering%20and%20Technology%2C%20Jawahar%20Gardens%2C%20Mangalm%2C%20Lakkidiperur%2C%20Ottapalam%2C%20palakkad%20679301"
     },
     {
-      "id": 3697,
+      "id": 3699,
       "name": "Chayeem Puppsum",
       "type": "Meetup",
       "typeColor": "#16a34a",
@@ -19966,13 +19970,13 @@ window.EVENTS_DATA = {
     "todayCount": 5,
     "upcomingCount": 15,
     "pastCount": 435,
-    "totalRegistered": 10916,
-    "totalCheckedIn": 6619,
+    "totalRegistered": 10931,
+    "totalCheckedIn": 6622,
     "virtualCount": 160,
     "geocoded": 289,
     "districtFallback": 140,
     "unresolved": 26,
-    "uniqueAttendees": 4175,
+    "uniqueAttendees": 4178,
     "avgDailyAttendance": 64.9,
     "totalProjects": 376,
     "eventBasedProjects": 52,
