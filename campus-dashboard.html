@@ -77,17 +77,6 @@
   }
   .viz-root { background: var(--page-plane); min-height: 100vh; padding: 0 20px 60px; }
   .wrap { max-width: 1280px; margin: 0 auto; }
-  /* Top nav shared across dashboards */
-  .site-nav {
-    display: flex; align-items: center; gap: 4px; max-width: 1280px; margin: 0 auto;
-    padding: 14px 0 10px; flex-wrap: wrap;
-  }
-  .site-nav a {
-    text-decoration: none; font-size: 13px; font-weight: 600; color: var(--text-muted);
-    padding: 6px 12px; border-radius: 7px; border: 1px solid transparent;
-  }
-  .site-nav a:hover { color: var(--text-primary); background: var(--surface-1); }
-  .site-nav a.active { color: var(--text-primary); background: var(--surface-1); border-color: var(--border); }
   .topbar { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; margin-bottom: 20px; flex-wrap: wrap; padding-top: 8px; }
   h1 { font-size: 22px; font-weight: 700; margin: 0 0 4px; color: var(--text-primary); }
   .subtitle { color: var(--text-secondary); font-size: 13.5px; line-height: 1.5; max-width: 720px; }
@@ -167,12 +156,14 @@
 </style>
 </head>
 <body>
-<nav style="max-width:1280px;margin:0 auto;padding:14px 16px 0;display:flex;gap:6px;flex-wrap:wrap;font-family:system-ui,-apple-system,'Segoe UI',sans-serif;">
-  <a href="mailbox-dashboard.html" style="text-decoration:none;font-size:13px;font-weight:600;color:#6b7280;padding:6px 12px;border-radius:7px;">Mailbox</a>
-  <a href="events-dashboard.html" style="text-decoration:none;font-size:13px;font-weight:600;color:#6b7280;padding:6px 12px;border-radius:7px;">Events</a>
-  <a href="discord-dashboard.html" style="text-decoration:none;font-size:13px;font-weight:600;color:#6b7280;padding:6px 12px;border-radius:7px;">Discord</a>
-  <a href="campus-dashboard.html" style="text-decoration:none;font-size:13px;font-weight:600;color:#1c1f2a;background:#eef0f4;padding:6px 12px;border-radius:7px;">Campus</a>
-</nav>
+<div style="max-width:1280px;margin:14px auto 0;padding:0 20px;">
+  <nav style="display:inline-flex;gap:2px;flex-wrap:wrap;background:var(--surface-1);border:1px solid var(--border);border-radius:11px;padding:6px;font-family:system-ui,-apple-system,'Segoe UI',sans-serif;box-shadow:0 1px 2px rgba(0,0,0,0.03);">
+    <a href="mailbox-dashboard.html" style="text-decoration:none;font-size:13px;font-weight:600;color:var(--text-muted);padding:6px 12px;border-radius:8px;">Mailbox</a>
+    <a href="events-dashboard.html" style="text-decoration:none;font-size:13px;font-weight:600;color:var(--text-muted);padding:6px 12px;border-radius:8px;">Events</a>
+    <a href="discord-dashboard.html" style="text-decoration:none;font-size:13px;font-weight:600;color:var(--text-muted);padding:6px 12px;border-radius:8px;">Discord</a>
+    <a href="campus-dashboard.html" style="text-decoration:none;font-size:13px;font-weight:600;color:var(--text-primary);background:var(--page-plane);padding:6px 12px;border-radius:8px;">Campus</a>
+  </nav>
+</div>
 <div class="viz-root" id="root">
 <div class="wrap">
   <div class="topbar">

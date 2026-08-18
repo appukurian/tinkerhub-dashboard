@@ -306,23 +306,17 @@
 </style>
 </head>
 <body class="bg-bg text-ink min-h-screen p-4 md:p-8 transition-colors duration-200">
-<nav style="max-width:1280px;margin:0 auto;padding:14px 16px 0;display:flex;gap:6px;flex-wrap:wrap;font-family:system-ui,-apple-system,'Segoe UI',sans-serif;">
-  <a href="mailbox-dashboard.html" style="text-decoration:none;font-size:13px;font-weight:600;color:#6b7280;padding:6px 12px;border-radius:7px;">Mailbox</a>
-  <a href="events-dashboard.html" style="text-decoration:none;font-size:13px;font-weight:600;color:#1c1f2a;background:#eef0f4;padding:6px 12px;border-radius:7px;">Events</a>
-  <a href="discord-dashboard.html" style="text-decoration:none;font-size:13px;font-weight:600;color:#6b7280;padding:6px 12px;border-radius:7px;">Discord</a>
-  <a href="campus-dashboard.html" style="text-decoration:none;font-size:13px;font-weight:600;color:#6b7280;padding:6px 12px;border-radius:7px;">Campus</a>
-</nav>
+<div class="max-w-7xl mx-auto mb-6 mt-0">
+  <nav class="flex items-center gap-1 flex-wrap bg-white border border-border rounded-xl shadow-sm px-2 py-1.5 text-[13px] font-medium w-fit">
+    <a href="mailbox-dashboard.html" class="px-3 py-1.5 rounded-lg transition-colors text-muted hover:text-ink hover:bg-bg/60">Mailbox</a>
+    <a href="events-dashboard.html" class="px-3 py-1.5 rounded-lg transition-colors text-ink bg-bg font-semibold">Events</a>
+    <a href="discord-dashboard.html" class="px-3 py-1.5 rounded-lg transition-colors text-muted hover:text-ink hover:bg-bg/60">Discord</a>
+    <a href="campus-dashboard.html" class="px-3 py-1.5 rounded-lg transition-colors text-muted hover:text-ink hover:bg-bg/60">Campus</a>
+  </nav>
+</div>
 
 
 <div class="max-w-7xl mx-auto">
-  <div class="flex items-center space-x-2 text-[13px] font-medium text-muted mb-6 bg-white border border-border px-4 py-2.5 rounded-xl shadow-sm">
-    <a href="mailbox-dashboard.html" class="hover:text-accent transition-colors flex items-center gap-1">Mailbox dashboard <span class="text-[10px]">→</span></a>
-    <span class="text-border">/</span>
-    <a href="discord-dashboard.html" class="hover:text-accent transition-colors flex items-center gap-1">Discord threads <span class="text-[10px]">→</span></a>
-    <span class="text-border">/</span>
-    <span class="text-ink font-semibold flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-accent"></span>Events map</span>
-  </div>
-
   <div class="mb-8">
     <h1 class="text-2xl font-bold tracking-tight text-ink md:text-3xl">TinkerHub Events Map</h1>
     <p class="text-sm text-muted mt-1.5" id="header-sub">What's happening across TinkerHub campuses in Kerala</p>
