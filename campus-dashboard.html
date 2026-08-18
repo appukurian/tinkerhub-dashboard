@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TinkerHub Campus Chapters Dashboard</title>
+<style>
+  :root { color-scheme: light; }
+  .viz-root {
+    color-scheme: light;
+    --surface-1:      #fcfcfb;
+    --page-plane:     #f9f9f7;
+    --text-primary:   #0b0b0b;
+    --text-secondary: #52514e;
+    --text-muted:     #898781;
+    --gridline:       #e1e0d9;
+    --baseline:       #c3c2b7;
+    --border:         rgba(11,11,11,0.10);
+    --success:        #006300;
+    --series-1: #2a78d6; /* Learning Program */
+    --series-2: #eb6834; /* Meetup */
+    --series-3: #1baf7a; /* Talk Session */
+    --series-4: #eda100; /* Core Team Meeting */
+    --series-5: #e87ba4; /* Workshop */
+    --series-6: #008300; /* Bootcamp */
+    --series-7: #4a3aa7; /* Hackathon */
+    --series-8: #e34948; /* Other */
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) .viz-root {
+      color-scheme: dark;
+      --surface-1:      #1a1a19;
+      --page-plane:     #0d0d0d;
+      --text-primary:   #ffffff;
+      --text-secondary: #c3c2b7;
+      --text-muted:     #898781;
+      --gridline:       #2c2c2a;
+      --baseline:       #383835;
+      --border:         rgba(255,255,255,0.10);
+      --success:        #0ca30c;
+      --series-1: #3987e5;
+      --series-2: #d95926;
+      --series-3: #199e70;
+      --series-4: #c98500;
+      --series-5: #d55181;
+      --series-6: #008300;
+      --series-7: #9085e9;
+      --series-8: #e66767;
+    }
+  }
+  :root[data-theme="dark"] .viz-root {
+    color-scheme: dark;
+    --surface-1:      #1a1a19;
+    --page-plane:     #0d0d0d;
+    --text-primary:   #ffffff;
+    --text-secondary: #c3c2b7;
+    --text-muted:     #898781;
+    --gridline:       #2c2c2a;
+    --baseline:       #383835;
+    --border:         rgba(255,255,255,0.10);
+    --success:        #0ca30c;
+    --series-1: #3987e5;
+    --series-2: #d95926;
+    --series-3: #199e70;
+    --series-4: #c98500;
+    --series-5: #d55181;
+    --series-6: #008300;
+    --series-7: #9085e9;
+    --series-8: #e66767;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    background: var(--page-plane);
+    color: var(--text-primary);
+  }
+  .viz-root { background: var(--page-plane); min-height: 100vh; padding: 0 20px 60px; }
+  .wrap { max-width: 1280px; margin: 0 auto; }
+  /* Top nav shared across dashboards */
+  .site-nav {
+    display: flex; align-items: center; gap: 4px; max-width: 1280px; margin: 0 auto;
+    padding: 14px 0 10px; flex-wrap: wrap;
+  }
+  .site-nav a {
+    text-decoration: none; font-size: 13px; font-weight: 600; color: var(--text-muted);
+    padding: 6px 12px; border-radius: 7px; border: 1px solid transparent;
+  }
+  .site-nav a:hover { color: var(--text-primary); background: var(--surface-1); }
+  .site-nav a.active { color: var(--text-primary); background: var(--surface-1); border-color: var(--border); }
+  .topbar { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; margin-bottom: 20px; flex-wrap: wrap; padding-top: 8px; }
+  h1 { font-size: 22px; font-weight: 700; margin: 0 0 4px; color: var(--text-primary); }
+  .subtitle { color: var(--text-secondary); font-size: 13.5px; line-height: 1.5; max-width: 720px; }
+  .subtitle b { color: var(--text-primary); }
+  .theme-toggle {
+    border: 1px solid var(--border); background: var(--surface-1); color: var(--text-secondary);
+    border-radius: 8px; padding: 7px 12px; font-size: 12.5px; cursor: pointer; white-space: nowrap;
+  }
+  .theme-toggle:hover { color: var(--text-primary); }
+  /* Stat tiles */
+  .tiles { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 22px; }
+  @media (max-width: 900px) { .tiles { grid-template-columns: repeat(2, 1fr); } }
+  .tile {
+    background: var(--surface-1); border: 1px solid var(--border); border-radius: 10px;
+    padding: 14px 16px;
+  }
+  .tile .label { font-size: 11.5px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.03em; margin-bottom: 6px; }
+  .tile .value { font-size: 24px; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .tile .sub { font-size: 12px; color: var(--text-secondary); margin-top: 3px; }
+  /* Event mix chart */
+  .panel {
+    background: var(--surface-1); border: 1px solid var(--border); border-radius: 10px;
+    padding: 18px 20px; margin-bottom: 20px;
+  }
+  .panel h2 { font-size: 14px; margin: 0 0 3px; font-weight: 600; }
+  .panel .panel-sub { font-size: 12px; color: var(--text-muted); margin-bottom: 14px; }
+  .stackbar { display: flex; width: 100%; height: 28px; border-radius: 6px; overflow: hidden; background: var(--gridline); }
+  .stackbar .seg { position: relative; cursor: default; }
+  .stackbar .seg + .seg { margin-left: 2px; }
+  .legend { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 14px; }
+  .legend-item { display: flex; align-items: center; gap: 6px; font-size: 12.5px; color: var(--text-secondary); }
+  .legend-dot { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
+  .tooltip {
+    position: fixed; pointer-events: none; background: var(--text-primary); color: var(--page-plane);
+    font-size: 12px; padding: 6px 10px; border-radius: 6px; z-index: 50; opacity: 0; transition: opacity 0.08s;
+    max-width: 260px; line-height: 1.4;
+  }
+  .tooltip.show { opacity: 1; }
+  /* Filters */
+  .filters { display: flex; gap: 10px; margin-bottom: 14px; flex-wrap: wrap; align-items: center; }
+  .filters input, .filters select {
+    background: var(--surface-1); border: 1px solid var(--border); color: var(--text-primary);
+    border-radius: 8px; padding: 8px 12px; font-size: 13px; font-family: inherit;
+  }
+  .filters input { flex: 1; min-width: 220px; }
+  .filters .count { font-size: 12.5px; color: var(--text-muted); white-space: nowrap; }
+  /* Table */
+  .table-scroll { overflow-x: auto; border: 1px solid var(--border); border-radius: 10px; background: var(--surface-1); }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; min-width: 1080px; }
+  thead th {
+    text-align: left; padding: 10px 12px; font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.02em;
+    color: var(--text-muted); border-bottom: 1px solid var(--gridline); cursor: pointer; user-select: none;
+    white-space: nowrap; position: sticky; top: 0; background: var(--surface-1);
+  }
+  thead th:hover { color: var(--text-primary); }
+  thead th .arrow { font-size: 10px; margin-left: 3px; opacity: 0.6; }
+  tbody td { padding: 9px 12px; border-bottom: 1px solid var(--gridline); vertical-align: middle; }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr:hover { background: var(--page-plane); }
+  .num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .campus-name { font-weight: 600; color: var(--text-primary); }
+  .campus-district { font-size: 11.5px; color: var(--text-muted); text-transform: capitalize; }
+  .mini-bar { display: flex; width: 90px; height: 8px; border-radius: 3px; overflow: hidden; background: var(--gridline); margin-top: 4px; }
+  .mini-bar .seg + .seg { margin-left: 1px; }
+  .zero-flag { display: inline-block; font-size: 10.5px; font-weight: 700; color: var(--surface-1); background: #d03b3b; border-radius: 4px; padding: 1px 6px; margin-left: 6px; vertical-align: middle; }
+  .retention-cell { display: flex; align-items: center; gap: 8px; justify-content: flex-end; }
+  .retention-bar-track { width: 46px; height: 6px; border-radius: 3px; background: var(--gridline); overflow: hidden; }
+  .retention-bar-fill { height: 100%; background: var(--series-1); border-radius: 3px; }
+  .dash { color: var(--text-muted); }
+  .footnote { margin-top: 18px; font-size: 12px; color: var(--text-muted); line-height: 1.6; }
+  .footnote b { color: var(--text-secondary); }
+  .stale-banner {
+    display: none; background: #fff4e5; border: 1px solid #f0c36d; color: #7a5200; border-radius: 8px;
+    padding: 10px 14px; font-size: 12.5px; margin-bottom: 16px;
+  }
+  :root[data-theme="dark"] .stale-banner, @media (prefers-color-scheme: dark) { }
+</style>
+</head>
+<body>
+<nav style="max-width:1280px;margin:0 auto;padding:14px 16px 0;display:flex;gap:6px;flex-wrap:wrap;font-family:system-ui,-apple-system,'Segoe UI',sans-serif;">
+  <a href="mailbox-dashboard.html" style="text-decoration:none;font-size:13px;font-weight:600;color:#6b7280;padding:6px 12px;border-radius:7px;">Mailbox</a>
+  <a href="events-dashboard.html" style="text-decoration:none;font-size:13px;font-weight:600;color:#6b7280;padding:6px 12px;border-radius:7px;">Events</a>
+  <a href="discord-dashboard.html" style="text-decoration:none;font-size:13px;font-weight:600;color:#6b7280;padding:6px 12px;border-radius:7px;">Discord</a>
+  <a href="campus-dashboard.html" style="text-decoration:none;font-size:13px;font-weight:600;color:#1c1f2a;background:#eef0f4;padding:6px 12px;border-radius:7px;">Campus</a>
+</nav>
+<div class="viz-root" id="root">
+<div class="wrap">
+  <div class="topbar">
+    <div>
+      <h1>TinkerHub Campus Chapters Dashboard</h1>
+      <div class="subtitle" id="subtitleText">Loading…</div>
+    </div>
+    <button class="theme-toggle" id="themeToggle">🌓 Toggle theme</button>
+  </div>
+  <div class="stale-banner" id="staleBanner"></div>
+  <div class="tiles" id="tiles"></div>
+  <div class="panel">
+    <h2 id="mixTitle">Network-wide event mix</h2>
+    <div class="panel-sub" id="mixSub">Share of events run this FY across all active chapters, by program type</div>
+    <div class="stackbar" id="mixBar"></div>
+    <div class="legend" id="mixLegend"></div>
+  </div>
+  <div class="filters">
+    <input type="text" id="searchBox" placeholder="Search campus or district…">
+    <select id="districtFilter"><option value="">All districts</option></select>
+    <select id="flagFilter">
+      <option value="">All chapters</option>
+      <option value="zero">No events this FY</option>
+      <option value="lowret">Retention below 30%</option>
+      <option value="noproj">Zero projects</option>
+    </select>
+    <span class="count" id="rowCount"></span>
+  </div>
+  <div class="table-scroll">
+    <table>
+      <thead>
+        <tr>
+          <th data-key="name">Campus <span class="arrow"></span></th>
+          <th data-key="events" class="num">Events (FY) <span class="arrow"></span></th>
+          <th data-key="uniqueAttendees" class="num">Unique attendees (FY) <span class="arrow"></span></th>
+          <th data-key="retention" class="num">Retention <span class="arrow"></span></th>
+          <th data-key="members" class="num">Community members <span class="arrow"></span></th>
+          <th data-key="newFY" class="num">New joiners (FY) <span class="arrow"></span></th>
+          <th data-key="stillIn" class="num">Still in campus <span class="arrow"></span></th>
+          <th data-key="alumni" class="num">Alumni <span class="arrow"></span></th>
+          <th data-key="projects" class="num">Projects (FY) <span class="arrow"></span></th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </div>
+  <div class="footnote" id="footnoteText"></div>
+</div>
+</div>
+<div class="tooltip" id="tooltip"></div>
+
+<!-- Auto-refreshed by .github/workflows/campus-update.yml -- do not hand-edit campus-data.js -->
+<script src="campus-data.js"></script>
+<script>
+const RAW = (window.CAMPUS_DATA && window.CAMPUS_DATA.campuses) ? window.CAMPUS_DATA : { generatedAt: null, windowSinceDate: null, windowUntilDate: null, campuses: [] };
+
+const TYPE_ORDER = ["Learning_Program","Meetup","Talk_Session","Core_Team_Meeting","Workshop","Bootcamp","Hackathon","Other"];
+const TYPE_LABEL = {
+  Learning_Program: "Learning Program", Meetup: "Meetup", Talk_Session: "Talk Session",
+  Core_Team_Meeting: "Core Team Meeting", Workshop: "Workshop", Bootcamp: "Bootcamp",
+  Hackathon: "Hackathon", Other: "Other"
+};
+const TYPE_VAR = {
+  Learning_Program: "--series-1", Meetup: "--series-2", Talk_Session: "--series-3",
+  Core_Team_Meeting: "--series-4", Workshop: "--series-5", Bootcamp: "--series-6",
+  Hackathon: "--series-7", Other: "--series-8"
+};
+function normalizeTypes(t) {
+  const out = {};
+  for (const k in (t || {})) {
+    const key = TYPE_ORDER.includes(k) ? k : "Other";
+    out[key] = (out[key] || 0) + t[k];
+  }
+  return out;
+}
+
+function fmtDate(iso) {
+  if (!iso) return "";
+  const [y, m, d] = iso.split("-").map(Number);
+  return new Date(Date.UTC(y, m - 1, d)).toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" });
+}
+
+const rows = RAW.campuses.map(c => {
+  const types = normalizeTypes(c.types || {});
+  const uniqueAttendees = c.uniqueAttendees || 0, returning = c.returning || 0;
+  return {
+    id: c.id, name: c.name, district: c.district || "unknown", events: c.events || 0, types,
+    uniqueAttendees, returning, totalAttendance: c.totalAttendance || 0,
+    members: c.members || 0, newFY: c.newFY || 0, stillIn: c.stillIn || 0, alumni: c.alumni || 0, gradUnknown: c.gradUnknown || 0,
+    projects: c.projects || 0,
+    retention: uniqueAttendees > 0 ? Math.round((returning / uniqueAttendees) * 100) : null
+  };
+});
+
+const root = document.getElementById('root');
+const tooltip = document.getElementById('tooltip');
+function showTip(e, html) {
+  tooltip.innerHTML = html;
+  tooltip.classList.add('show');
+  moveTip(e);
+}
+function moveTip(e) {
+  const x = e.clientX + 14, y = e.clientY + 14;
+  tooltip.style.left = Math.min(x, window.innerWidth - 270) + 'px';
+  tooltip.style.top = y + 'px';
+}
+function hideTip() { tooltip.classList.remove('show'); }
+// ---------- Theme toggle ----------
+const themeBtn = document.getElementById('themeToggle');
+themeBtn.addEventListener('click', () => {
+  const cur = document.documentElement.getAttribute('data-theme');
+  document.documentElement.setAttribute('data-theme', cur === 'dark' ? 'light' : 'dark');
+});
+
+// ---------- Header text (dynamic window / freshness) ----------
+document.getElementById('subtitleText').innerHTML =
+  `<b>${rows.length} active campus chapters</b> · Data pulled from the Hub app database (TheHubDB), as of <b>${fmtDate(RAW.generatedAt)}</b>. ` +
+  `Every number below is scoped to <b>this financial year (${fmtDate(RAW.windowSinceDate)} – ${fmtDate(RAW.windowUntilDate)})</b> only — the period since this year's campus teams took over — not all-time totals. Click any column header to sort, or search/filter below.`;
+
+document.getElementById('footnoteText').innerHTML =
+  `<b>Definitions</b> — All of Events, Unique attendees, Retention and Projects below are scoped to <b>this financial year (${fmtDate(RAW.windowSinceDate)} – ${fmtDate(RAW.windowUntilDate)})</b> only, so this reflects what's happened since this year's campus teams took charge — it excludes anything run by last year's team. Unique attendees: distinct members with a non-rejected registration at ≥1 event at that chapter this FY. Retention: share of those FY attendees who came back for a 2nd (or later) event this FY. Community members / Still in campus / Alumni are current snapshots (not FY-scoped), since membership and graduation status don't reset each year — Still in campus uses year of graduation ${RAW.windowUntilDate ? RAW.windowUntilDate.slice(0,4) : ''} or later; a handful of records have no graduation year on file and aren't counted in either bucket. Projects: distinct projects submitted at that chapter's events this FY, plus projects built by its members outside a formal event this FY. "New joiners (FY)" counts memberships created since ${fmtDate(RAW.windowSinceDate)}.<br>` +
+  `Source: TinkerHub Hub app database (Metabase · TheHubDB), tables <b>sub_orgs / events / attendees / memberships / projects</b>. Chapters with zero events this FY are flagged in red. This page refreshes automatically via a scheduled GitHub Action.`;
+
+// staleness banner: warn if data is more than 2 days old
+if (RAW.generatedAt) {
+  const genDate = new Date(RAW.generatedAt + "T00:00:00Z");
+  const ageDays = Math.floor((Date.now() - genDate.getTime()) / 86400000);
+  if (ageDays >= 2) {
+    const banner = document.getElementById('staleBanner');
+    banner.style.display = 'block';
+    banner.textContent = `Heads up — this data is ${ageDays} days old (last refreshed ${fmtDate(RAW.generatedAt)}). The scheduled refresh may be stuck; check the campus-update workflow in GitHub Actions.`;
+  }
+}
+
+// ---------- Summary tiles ----------
+const totalEvents = rows.reduce((s, r) => s + r.events, 0);
+const totalUnique = rows.reduce((s, r) => s + r.uniqueAttendees, 0);
+const totalReturning = rows.reduce((s, r) => s + r.returning, 0);
+const totalMembers = rows.reduce((s, r) => s + r.members, 0);
+const totalNewFY = rows.reduce((s, r) => s + r.newFY, 0);
+const totalStillIn = rows.reduce((s, r) => s + r.stillIn, 0);
+const totalAlumni = rows.reduce((s, r) => s + r.alumni, 0);
+const totalProjects = rows.reduce((s, r) => s + r.projects, 0);
+const networkRetention = totalUnique > 0 ? Math.round((totalReturning / totalUnique) * 100) : 0;
+const chaptersWithZero = rows.filter(r => r.events === 0).length;
+const tiles = [
+  { label: "Active chapters", value: rows.length, sub: chaptersWithZero + " with zero events this FY" },
+  { label: "Events this FY", value: totalEvents.toLocaleString(), sub: `${fmtDate(RAW.windowSinceDate)} – ${fmtDate(RAW.windowUntilDate)}, across every chapter` },
+  { label: "Unique attendees (FY)", value: totalUnique.toLocaleString(), sub: "summed per chapter (a person in 2 chapters counts twice)" },
+  { label: "Retention (FY)", value: networkRetention + "%", sub: "FY attendees who returned for a 2nd+ event" },
+  { label: "Community members", value: totalMembers.toLocaleString(), sub: "current snapshot, all chapter memberships" },
+  { label: "New joiners (FY)", value: totalNewFY.toLocaleString(), sub: `joined since ${fmtDate(RAW.windowSinceDate)}` },
+  { label: "Still in campus", value: totalStillIn.toLocaleString(), sub: totalAlumni.toLocaleString() + " alumni (current snapshot)" },
+  { label: "Projects shipped (FY)", value: totalProjects.toLocaleString(), sub: `since ${fmtDate(RAW.windowSinceDate)}, across all chapters` },
+];
+document.getElementById('tiles').innerHTML = tiles.map(t =>
+  `<div class="tile"><div class="label">${t.label}</div><div class="value">${t.value}</div><div class="sub">${t.sub}</div></div>`
+).join('');
+// ---------- Network event mix ----------
+document.getElementById('mixSub').textContent = `Share of events run since ${fmtDate(RAW.windowSinceDate)} across the ${rows.length} active chapters, by program type`;
+const typeTotals = {};
+TYPE_ORDER.forEach(t => typeTotals[t] = 0);
+rows.forEach(r => { for (const k in r.types) typeTotals[k] = (typeTotals[k] || 0) + r.types[k]; });
+const grandTotal = Object.values(typeTotals).reduce((a, b) => a + b, 0) || 1;
+const mixBar = document.getElementById('mixBar');
+TYPE_ORDER.filter(t => typeTotals[t] > 0).forEach(t => {
+  const pct = (typeTotals[t] / grandTotal) * 100;
+  const seg = document.createElement('div');
+  seg.className = 'seg';
+  seg.style.width = pct + '%';
+  seg.style.background = `var(${TYPE_VAR[t]})`;
+  seg.addEventListener('mousemove', (e) => showTip(e, `<b>${TYPE_LABEL[t]}</b><br>${typeTotals[t].toLocaleString()} events · ${pct.toFixed(1)}%`));
+  seg.addEventListener('mouseleave', hideTip);
+  mixBar.appendChild(seg);
+});
+document.getElementById('mixLegend').innerHTML = TYPE_ORDER.filter(t => typeTotals[t] > 0).map(t =>
+  `<div class="legend-item"><span class="legend-dot" style="background:var(${TYPE_VAR[t]})"></span>${TYPE_LABEL[t]} — ${typeTotals[t].toLocaleString()}</div>`
+).join('');
+// ---------- District filter options ----------
+const districts = [...new Set(rows.map(r => r.district))].sort();
+const districtSel = document.getElementById('districtFilter');
+districts.forEach(d => {
+  const opt = document.createElement('option');
+  opt.value = d; opt.textContent = d.charAt(0).toUpperCase() + d.slice(1);
+  districtSel.appendChild(opt);
+});
+// ---------- Table rendering ----------
+let sortKey = 'events', sortDir = -1;
+let searchTerm = '', districtVal = '', flagVal = '';
+function miniBarHTML(types) {
+  const total = Object.values(types).reduce((a, b) => a + b, 0);
+  if (total === 0) return '<span class="dash">—</span>';
+  const segs = TYPE_ORDER.filter(t => types[t] > 0).map(t => {
+    const pct = (types[t] / total) * 100;
+    return `<div class="seg" style="width:${pct}%;background:var(${TYPE_VAR[t]})" data-type="${t}" data-count="${types[t]}"></div>`;
+  }).join('');
+  return `<div class="mini-bar">${segs}</div>`;
+}
+function retentionCell(r) {
+  if (r.retention === null) return '<span class="dash">—</span>';
+  return `<div class="retention-cell"><div class="retention-bar-track"><div class="retention-bar-fill" style="width:${r.retention}%"></div></div><span>${r.retention}%</span></div>`;
+}
+function render() {
+  let filtered = rows.filter(r => {
+    if (districtVal && r.district !== districtVal) return false;
+    if (searchTerm) {
+      const s = searchTerm.toLowerCase();
+      if (!r.name.toLowerCase().includes(s) && !r.district.toLowerCase().includes(s)) return false;
+    }
+    if (flagVal === 'zero' && r.events !== 0) return false;
+    if (flagVal === 'lowret' && !(r.retention !== null && r.retention < 30)) return false;
+    if (flagVal === 'noproj' && r.projects !== 0) return false;
+    return true;
+  });
+  filtered.sort((a, b) => {
+    let av = a[sortKey], bv = b[sortKey];
+    if (av === null) av = -1;
+    if (bv === null) bv = -1;
+    if (typeof av === 'string') return sortDir * av.localeCompare(bv);
+    return sortDir * (av - bv);
+  });
+  document.getElementById('rowCount').textContent = `${filtered.length} of ${rows.length} chapters`;
+  document.getElementById('tbody').innerHTML = filtered.map(r => `
+    <tr>
+      <td>
+        <div class="campus-name">${r.name}${r.events === 0 ? '<span class="zero-flag">NO EVENTS</span>' : ''}</div>
+        <div class="campus-district">${r.district}</div>
+      </td>
+      <td class="num">${r.events}${miniBarHTML(r.types)}</td>
+      <td class="num">${r.uniqueAttendees.toLocaleString()}</td>
+      <td class="num">${retentionCell(r)}</td>
+      <td class="num">${r.members.toLocaleString()}</td>
+      <td class="num">${r.newFY.toLocaleString()}</td>
+      <td class="num">${r.stillIn.toLocaleString()}</td>
+      <td class="num">${r.alumni.toLocaleString()}</td>
+      <td class="num">${r.projects.toLocaleString()}</td>
+    </tr>
+  `).join('');
+  // wire up mini-bar tooltips
+  document.querySelectorAll('.mini-bar .seg').forEach(seg => {
+    seg.addEventListener('mousemove', (e) => {
+      const t = seg.getAttribute('data-type');
+      showTip(e, `<b>${TYPE_LABEL[t]}</b><br>${seg.getAttribute('data-count')} events`);
+    });
+    seg.addEventListener('mouseleave', hideTip);
+  });
+  // update header arrows
+  document.querySelectorAll('thead th').forEach(th => {
+    const arrow = th.querySelector('.arrow');
+    if (th.getAttribute('data-key') === sortKey) arrow.textContent = sortDir === 1 ? '▲' : '▼';
+    else arrow.textContent = '';
+  });
+}
+document.querySelectorAll('thead th').forEach(th => {
+  th.addEventListener('click', () => {
+    const key = th.getAttribute('data-key');
+    if (sortKey === key) sortDir *= -1;
+    else { sortKey = key; sortDir = key === 'name' ? 1 : -1; }
+    render();
+  });
+});
+document.getElementById('searchBox').addEventListener('input', (e) => { searchTerm = e.target.value; render(); });
+document.getElementById('districtFilter').addEventListener('change', (e) => { districtVal = e.target.value; render(); });
+document.getElementById('flagFilter').addEventListener('change', (e) => { flagVal = e.target.value; render(); });
+document.addEventListener('mousemove', (e) => { if (tooltip.classList.contains('show')) moveTip(e); });
+render();
+</script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+name: TinkerHub campus chapters dashboard update
+
+on:
+  schedule:
+    # Runs daily at 04:00 UTC (~9:30 AM IST). Chapter-level stats move slowly
+    # (membership/event rollups), so a daily refresh is plenty -- no need for
+    # the 3-hourly cadence the events map uses.
+    - cron: "0 4 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch campus chapter stats from Metabase and build campus-data.js
+        env:
+          METABASE_URL: ${{ secrets.METABASE_URL }}
+          METABASE_API_KEY: ${{ secrets.METABASE_API_KEY }}
+        run: python scripts/metabase_campus_update.py
+
+      - name: Commit and push campus-data.js
+        run: |
+          git config user.name "TinkerHub Dashboard Bot"
+          git config user.email "actions@github.com"
+          git add campus-data.js
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Campus dashboard data refresh $(date -u +%Y-%m-%d)"
+            git push
+          fi
