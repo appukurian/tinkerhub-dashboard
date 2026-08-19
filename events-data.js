@@ -2,7 +2,7 @@
 // Do NOT hand-edit -- this file is overwritten on each run.
 window.EVENTS_DATA = {
   "generatedAt": "2026-08-19",
-  "generatedAtIso": "2026-08-19T09:29:55.302507+00:00",
+  "generatedAtIso": "2026-08-19T12:38:59.242392+00:00",
   "windowSinceDate": "2026-04-01",
   "windowUntilDate": "2027-03-31",
   "events": [
@@ -16992,9 +16992,32 @@ window.EVENTS_DATA = {
       "lat": 8.5458513,
       "lng": 76.9063407,
       "locationSource": "maps_link",
-      "registered": 34,
-      "checkedIn": 0,
-      "checkedInAttendeeIds": [],
+      "registered": 39,
+      "checkedIn": 22,
+      "checkedInAttendeeIds": [
+        8244,
+        9703,
+        11888,
+        29395,
+        30244,
+        34482,
+        34531,
+        35272,
+        35945,
+        35948,
+        36112,
+        36743,
+        36761,
+        38963,
+        44240,
+        44241,
+        45145,
+        47051,
+        49359,
+        49413,
+        49518,
+        49531
+      ],
       "seats": 40,
       "mapUrl": "https://maps.app.goo.gl/kE6KGwY3bonvXxkK7"
     },
@@ -17034,7 +17057,7 @@ window.EVENTS_DATA = {
       "lat": 10.0469797,
       "lng": 76.3351998,
       "locationSource": "maps_link",
-      "registered": 12,
+      "registered": 17,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -17055,7 +17078,7 @@ window.EVENTS_DATA = {
       "lat": 11.2775736,
       "lng": 75.8443931,
       "locationSource": "maps_link",
-      "registered": 28,
+      "registered": 29,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -17097,11 +17120,40 @@ window.EVENTS_DATA = {
       "lat": 10.3586508,
       "lng": 76.2129296,
       "locationSource": "nominatim",
-      "registered": 6,
-      "checkedIn": 2,
+      "registered": 32,
+      "checkedIn": 31,
       "checkedInAttendeeIds": [
+        30733,
         30826,
-        34610
+        30886,
+        31738,
+        34610,
+        34666,
+        34753,
+        45308,
+        47789,
+        49621,
+        49624,
+        49625,
+        49628,
+        49629,
+        49630,
+        49632,
+        49633,
+        49634,
+        49636,
+        49638,
+        49639,
+        49640,
+        49641,
+        49644,
+        49645,
+        49646,
+        49648,
+        49649,
+        49653,
+        49654,
+        49655
       ],
       "seats": null,
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Christ%20College%20of%20Engineering%2C%20Christ%20College%20Road%2C%20Irinjalakuda%2C%20thrissur%20680125"
@@ -17205,7 +17257,7 @@ window.EVENTS_DATA = {
       "lat": 10.5386,
       "lng": 76.2319,
       "locationSource": "district_fallback",
-      "registered": 20,
+      "registered": 22,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -20925,9 +20977,7 @@ window.EVENTS_DATA = {
       "eventBased": false,
       "eventId": null,
       "createdAt": "2026-08-18T18:00:20.417829+05:30",
-      "collaboratorIds": [
-        47994
-      ]
+      "collaboratorIds": []
     },
     {
       "id": 7839,
@@ -20937,6 +20987,15 @@ window.EVENTS_DATA = {
       "collaboratorIds": [
         2280
       ]
+    },
+    {
+      "id": 7840,
+      "eventBased": false,
+      "eventId": null,
+      "createdAt": "2026-08-19T15:43:34.556042+05:30",
+      "collaboratorIds": [
+        2311
+      ]
     }
   ],
   "summary": {
@@ -20944,17 +21003,17 @@ window.EVENTS_DATA = {
     "todayCount": 12,
     "upcomingCount": 16,
     "pastCount": 449,
-    "totalRegistered": 11552,
-    "totalCheckedIn": 7080,
+    "totalRegistered": 11591,
+    "totalCheckedIn": 7131,
     "virtualCount": 167,
     "geocoded": 299,
     "districtFallback": 152,
     "unresolved": 26,
-    "uniqueAttendees": 4491,
-    "avgDailyAttendance": 67.4,
-    "totalProjects": 380,
+    "uniqueAttendees": 4520,
+    "avgDailyAttendance": 67.6,
+    "totalProjects": 381,
     "eventBasedProjects": 52,
-    "independentProjects": 328,
+    "independentProjects": 329,
     "uniquePeopleInProjects": 367
   },
   "byType": [
