@@ -324,6 +324,11 @@
     "lng": 76.6410927,
     "source": "nominatim"
   },
+  "https://www.google.com/maps/search/?api=1&query=Providence%20College%20of%20Engineering%2C%20Angadical%20South%2C%20Chenagnnur%2C%20alappuzha%20689122": {
+    "lat": null,
+    "lng": null,
+    "source": "unresolved"
+  },
   "https://www.google.com/maps/search/?api=1&query=SCMS%20School%20of%20Engineering%20%26%20Technology%2C%20Karukutty%2C%20ernakulam%20683%20582": {
     "lat": null,
     "lng": null,
