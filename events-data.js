@@ -2,7 +2,7 @@
 // Do NOT hand-edit -- this file is overwritten on each run.
 window.EVENTS_DATA = {
   "generatedAt": "2026-08-19",
-  "generatedAtIso": "2026-08-19T18:29:39.910093+00:00",
+  "generatedAtIso": "2026-08-19T21:21:22.837763+00:00",
   "windowSinceDate": "2026-04-01",
   "windowUntilDate": "2027-03-31",
   "events": [
@@ -17353,7 +17353,7 @@ window.EVENTS_DATA = {
     },
     {
       "id": 3737,
-      "name": "Chaya & Puffs \u2013 Kickstarter",
+      "name": "YUM YUM \u2013 Kickstarter",
       "type": "Meetup",
       "typeColor": "#16a34a",
       "status": "pending",
@@ -17618,7 +17618,7 @@ window.EVENTS_DATA = {
       "lat": 10.79052,
       "lng": 76.62576,
       "locationSource": "district_fallback",
-      "registered": 35,
+      "registered": 26,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": 0,
@@ -21193,10 +21193,10 @@ window.EVENTS_DATA = {
   ],
   "summary": {
     "totalEvents": 483,
-    "todayCount": 13,
-    "upcomingCount": 21,
-    "pastCount": 449,
-    "totalRegistered": 11666,
+    "todayCount": 10,
+    "upcomingCount": 11,
+    "pastCount": 462,
+    "totalRegistered": 11657,
     "totalCheckedIn": 7193,
     "virtualCount": 168,
     "geocoded": 301,
