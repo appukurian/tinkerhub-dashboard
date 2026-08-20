@@ -2,7 +2,7 @@
 // Do NOT hand-edit -- this file is overwritten on each run.
 window.EVENTS_DATA = {
   "generatedAt": "2026-08-20",
-  "generatedAtIso": "2026-08-20T18:33:35.783494+00:00",
+  "generatedAtIso": "2026-08-20T21:23:55.642125+00:00",
   "windowSinceDate": "2026-04-01",
   "windowUntilDate": "2027-03-31",
   "events": [
@@ -17513,7 +17513,7 @@ window.EVENTS_DATA = {
       "name": "TinkerTalks",
       "type": "Talk_Session",
       "typeColor": "#d97706",
-      "status": "pending",
+      "status": "published",
       "start": "2026-08-20T20:30:00+05:30",
       "end": "2026-08-20T21:30:00+05:30",
       "isVirtual": true,
@@ -17628,7 +17628,7 @@ window.EVENTS_DATA = {
       "lat": 11.2775736,
       "lng": 75.8443931,
       "locationSource": "maps_link",
-      "registered": 1,
+      "registered": 3,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -17754,7 +17754,7 @@ window.EVENTS_DATA = {
       "lat": 10.0469797,
       "lng": 76.3351998,
       "locationSource": "maps_link",
-      "registered": 48,
+      "registered": 49,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -21370,6 +21370,15 @@ window.EVENTS_DATA = {
       "collaboratorIds": [
         49806
       ]
+    },
+    {
+      "id": 7846,
+      "eventBased": false,
+      "eventId": null,
+      "createdAt": "2026-08-21T00:31:39.51747+05:30",
+      "collaboratorIds": [
+        48390
+      ]
     }
   ],
   "summary": {
@@ -21377,7 +21386,7 @@ window.EVENTS_DATA = {
     "todayCount": 1,
     "upcomingCount": 14,
     "pastCount": 471,
-    "totalRegistered": 11766,
+    "totalRegistered": 11769,
     "totalCheckedIn": 7258,
     "virtualCount": 169,
     "geocoded": 304,
@@ -21385,10 +21394,10 @@ window.EVENTS_DATA = {
     "unresolved": 26,
     "uniqueAttendees": 4595,
     "avgDailyAttendance": 68.5,
-    "totalProjects": 386,
+    "totalProjects": 387,
     "eventBasedProjects": 52,
-    "independentProjects": 334,
-    "uniquePeopleInProjects": 369
+    "independentProjects": 335,
+    "uniquePeopleInProjects": 370
   },
   "byType": [
     {
