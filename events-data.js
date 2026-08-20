@@ -2,7 +2,7 @@
 // Do NOT hand-edit -- this file is overwritten on each run.
 window.EVENTS_DATA = {
   "generatedAt": "2026-08-20",
-  "generatedAtIso": "2026-08-20T01:01:41.599362+00:00",
+  "generatedAtIso": "2026-08-20T03:42:35.757761+00:00",
   "windowSinceDate": "2026-04-01",
   "windowUntilDate": "2027-03-31",
   "events": [
@@ -15797,7 +15797,7 @@ window.EVENTS_DATA = {
       "lat": 10.3586508,
       "lng": 76.2129296,
       "locationSource": "nominatim",
-      "registered": 30,
+      "registered": 31,
       "checkedIn": 30,
       "checkedInAttendeeIds": [
         21338,
@@ -17324,7 +17324,7 @@ window.EVENTS_DATA = {
       "lat": 10.4036961,
       "lng": 76.3690349,
       "locationSource": "maps_link",
-      "registered": 0,
+      "registered": 1,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -17450,7 +17450,7 @@ window.EVENTS_DATA = {
       "lat": 11.2775736,
       "lng": 75.8443931,
       "locationSource": "maps_link",
-      "registered": 15,
+      "registered": 18,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -21189,6 +21189,15 @@ window.EVENTS_DATA = {
       "collaboratorIds": [
         2311
       ]
+    },
+    {
+      "id": 7841,
+      "eventBased": false,
+      "eventId": null,
+      "createdAt": "2026-08-20T08:56:15.719475+05:30",
+      "collaboratorIds": [
+        24768
+      ]
     }
   ],
   "summary": {
@@ -21196,7 +21205,7 @@ window.EVENTS_DATA = {
     "todayCount": 10,
     "upcomingCount": 11,
     "pastCount": 462,
-    "totalRegistered": 11657,
+    "totalRegistered": 11662,
     "totalCheckedIn": 7193,
     "virtualCount": 168,
     "geocoded": 301,
@@ -21204,10 +21213,10 @@ window.EVENTS_DATA = {
     "unresolved": 26,
     "uniqueAttendees": 4558,
     "avgDailyAttendance": 68.5,
-    "totalProjects": 381,
+    "totalProjects": 382,
     "eventBasedProjects": 52,
-    "independentProjects": 329,
-    "uniquePeopleInProjects": 367
+    "independentProjects": 330,
+    "uniquePeopleInProjects": 368
   },
   "byType": [
     {
