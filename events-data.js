@@ -2,7 +2,7 @@
 // Do NOT hand-edit -- this file is overwritten on each run.
 window.EVENTS_DATA = {
   "generatedAt": "2026-08-21",
-  "generatedAtIso": "2026-08-21T09:32:51.771214+00:00",
+  "generatedAtIso": "2026-08-21T12:39:23.367592+00:00",
   "windowSinceDate": "2026-04-01",
   "windowUntilDate": "2027-03-31",
   "events": [
@@ -6773,6 +6773,36 @@ window.EVENTS_DATA = {
       "mapUrl": "https://maps.app.goo.gl/XooJqF1JTs7s9mk6A"
     },
     {
+      "id": 3396,
+      "name": "Onboarding Volunteers!",
+      "type": "Meetup",
+      "typeColor": "#16a34a",
+      "status": "published",
+      "start": "2026-07-23T19:00:00+05:30",
+      "end": "2026-07-23T20:00:00+05:30",
+      "isVirtual": true,
+      "campusName": "College of Engineering, Karunagappally",
+      "district": "kollam",
+      "address": "College of Engineering, Thodiyoor PO, Karunagappally, kollam 690 523",
+      "lat": 9.0645863,
+      "lng": 76.5569874,
+      "locationSource": "maps_link",
+      "registered": 11,
+      "checkedIn": 8,
+      "checkedInAttendeeIds": [
+        12691,
+        30542,
+        30556,
+        30572,
+        30576,
+        30577,
+        32134,
+        35599
+      ],
+      "seats": null,
+      "mapUrl": "https://maps.app.goo.gl/TRFp9Lz5D5sZgUhH8"
+    },
+    {
       "id": 3375,
       "name": "Maker Thursday",
       "type": "Meetup",
@@ -6811,36 +6841,6 @@ window.EVENTS_DATA = {
       ],
       "seats": null,
       "mapUrl": "https://maps.app.goo.gl/j8w832j2VkvJPGeSA"
-    },
-    {
-      "id": 3396,
-      "name": "Onboarding Volunteers!",
-      "type": "Meetup",
-      "typeColor": "#16a34a",
-      "status": "published",
-      "start": "2026-07-23T19:00:00+05:30",
-      "end": "2026-07-23T20:00:00+05:30",
-      "isVirtual": true,
-      "campusName": "College of Engineering, Karunagappally",
-      "district": "kollam",
-      "address": "College of Engineering, Thodiyoor PO, Karunagappally, kollam 690 523",
-      "lat": 9.0645863,
-      "lng": 76.5569874,
-      "locationSource": "maps_link",
-      "registered": 11,
-      "checkedIn": 8,
-      "checkedInAttendeeIds": [
-        12691,
-        30542,
-        30556,
-        30572,
-        30576,
-        30577,
-        32134,
-        35599
-      ],
-      "seats": null,
-      "mapUrl": "https://maps.app.goo.gl/TRFp9Lz5D5sZgUhH8"
     },
     {
       "id": 3392,
@@ -6934,6 +6934,34 @@ window.EVENTS_DATA = {
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=College%20of%20Engineering%20Trikaripur%2C%20PO%20Cheemeni%2C%20kasaragod%20671313"
     },
     {
+      "id": 3401,
+      "name": "KHATAM..",
+      "type": "Meetup",
+      "typeColor": "#16a34a",
+      "status": "published",
+      "start": "2026-07-24T13:00:00+05:30",
+      "end": "2026-07-24T14:00:00+05:30",
+      "isVirtual": false,
+      "campusName": "Unity Women's College, Manjeri",
+      "district": "malappuram",
+      "address": "Unity Women's College, Manjeri, P.O. Narukara, malappuram-676 122",
+      "lat": 11.1303316,
+      "lng": 76.0836729,
+      "locationSource": "maps_link",
+      "registered": 6,
+      "checkedIn": 6,
+      "checkedInAttendeeIds": [
+        24802,
+        27176,
+        27203,
+        28154,
+        39381,
+        45116
+      ],
+      "seats": null,
+      "mapUrl": "https://maps.app.goo.gl/K7MvYPjmHoBa38JR8"
+    },
+    {
       "id": 3407,
       "name": "\u0d35\u0d1f\u0d4d\u0d1f\u0d2e\u0d47\u0d36 \u0d38\u0d2e\u0d4d\u0d2e\u0d47\u0d33\u0d28\u0d02",
       "type": "Meetup",
@@ -6976,34 +7004,6 @@ window.EVENTS_DATA = {
       ],
       "seats": null,
       "mapUrl": "https://maps.app.goo.gl/XooJqF1JTs7s9mk6A"
-    },
-    {
-      "id": 3401,
-      "name": "KHATAM..",
-      "type": "Meetup",
-      "typeColor": "#16a34a",
-      "status": "published",
-      "start": "2026-07-24T13:00:00+05:30",
-      "end": "2026-07-24T14:00:00+05:30",
-      "isVirtual": false,
-      "campusName": "Unity Women's College, Manjeri",
-      "district": "malappuram",
-      "address": "Unity Women's College, Manjeri, P.O. Narukara, malappuram-676 122",
-      "lat": 11.1303316,
-      "lng": 76.0836729,
-      "locationSource": "maps_link",
-      "registered": 6,
-      "checkedIn": 6,
-      "checkedInAttendeeIds": [
-        24802,
-        27176,
-        27203,
-        28154,
-        39381,
-        45116
-      ],
-      "seats": null,
-      "mapUrl": "https://maps.app.goo.gl/K7MvYPjmHoBa38JR8"
     },
     {
       "id": 3411,
@@ -7509,6 +7509,37 @@ window.EVENTS_DATA = {
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=College%20of%20Engineering%2C%20Perumon%20PO%2C%20Perinad%2C%20kollam%20691%20601"
     },
     {
+      "id": 3426,
+      "name": "./CodeConnect",
+      "type": "Learning_Program",
+      "typeColor": "#2563eb",
+      "status": "published",
+      "start": "2026-07-26T20:00:00+05:30",
+      "end": "2026-07-26T20:30:00+05:30",
+      "isVirtual": true,
+      "campusName": "College of Engineering, Trikaripur",
+      "district": "kasaragod",
+      "address": "College of Engineering Trikaripur, PO Cheemeni, kasaragod 671313",
+      "lat": 12.51708,
+      "lng": 75.01801,
+      "locationSource": "district_fallback",
+      "registered": 10,
+      "checkedIn": 9,
+      "checkedInAttendeeIds": [
+        900,
+        19980,
+        22690,
+        40083,
+        41068,
+        44794,
+        44795,
+        44840,
+        45254
+      ],
+      "seats": null,
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=College%20of%20Engineering%20Trikaripur%2C%20PO%20Cheemeni%2C%20kasaragod%20671313"
+    },
+    {
       "id": 3427,
       "name": "AI systems engineering basics",
       "type": "Learning_Program",
@@ -7545,37 +7576,6 @@ window.EVENTS_DATA = {
       ],
       "seats": null,
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sahrdaya%20College%20of%20Engineering%20%26%20Technology%2C%20Kodakara%2C%20thrissur"
-    },
-    {
-      "id": 3426,
-      "name": "./CodeConnect",
-      "type": "Learning_Program",
-      "typeColor": "#2563eb",
-      "status": "published",
-      "start": "2026-07-26T20:00:00+05:30",
-      "end": "2026-07-26T20:30:00+05:30",
-      "isVirtual": true,
-      "campusName": "College of Engineering, Trikaripur",
-      "district": "kasaragod",
-      "address": "College of Engineering Trikaripur, PO Cheemeni, kasaragod 671313",
-      "lat": 12.51708,
-      "lng": 75.01801,
-      "locationSource": "district_fallback",
-      "registered": 10,
-      "checkedIn": 9,
-      "checkedInAttendeeIds": [
-        900,
-        19980,
-        22690,
-        40083,
-        41068,
-        44794,
-        44795,
-        44840,
-        45254
-      ],
-      "seats": null,
-      "mapUrl": "https://www.google.com/maps/search/?api=1&query=College%20of%20Engineering%20Trikaripur%2C%20PO%20Cheemeni%2C%20kasaragod%20671313"
     },
     {
       "id": 3430,
@@ -7692,6 +7692,27 @@ window.EVENTS_DATA = {
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Toc%20H%20Institute%20of%20Science%20%26%20Technology%2C%20Arakkunnam%2C%20ernakulam%20682%20313"
     },
     {
+      "id": 3416,
+      "name": "\u0d2e\u0d27\u0d41\u0d30 \u0d38\u0d02\u0d35\u0d3e\u0d26\u0d02 - Kickstarter",
+      "type": "Meetup",
+      "typeColor": "#16a34a",
+      "status": "pending",
+      "start": "2026-07-27T13:00:00+05:30",
+      "end": "2026-07-27T15:30:00+05:30",
+      "isVirtual": false,
+      "campusName": "College of Engineering, Alappuzha",
+      "district": "alappuzha",
+      "address": "College of Engineering andManagement, Vadackal PO, Punnapra,alappuzha 688003",
+      "lat": 9.4615534,
+      "lng": 76.3319795,
+      "locationSource": "maps_link",
+      "registered": 0,
+      "checkedIn": 0,
+      "checkedInAttendeeIds": [],
+      "seats": null,
+      "mapUrl": "https://maps.app.goo.gl/yfA7oo82BmV9a4Xp6"
+    },
+    {
       "id": 3439,
       "name": "Let's \u0d15\u0d42\u0d1f\u0d3e\u0d02",
       "type": "Core_Team_Meeting",
@@ -7716,27 +7737,6 @@ window.EVENTS_DATA = {
       ],
       "seats": null,
       "mapUrl": "https://maps.app.goo.gl/K7MvYPjmHoBa38JR8"
-    },
-    {
-      "id": 3416,
-      "name": "\u0d2e\u0d27\u0d41\u0d30 \u0d38\u0d02\u0d35\u0d3e\u0d26\u0d02 - Kickstarter",
-      "type": "Meetup",
-      "typeColor": "#16a34a",
-      "status": "pending",
-      "start": "2026-07-27T13:00:00+05:30",
-      "end": "2026-07-27T15:30:00+05:30",
-      "isVirtual": false,
-      "campusName": "College of Engineering, Alappuzha",
-      "district": "alappuzha",
-      "address": "College of Engineering andManagement, Vadackal PO, Punnapra,alappuzha 688003",
-      "lat": 9.4615534,
-      "lng": 76.3319795,
-      "locationSource": "maps_link",
-      "registered": 0,
-      "checkedIn": 0,
-      "checkedInAttendeeIds": [],
-      "seats": null,
-      "mapUrl": "https://maps.app.goo.gl/yfA7oo82BmV9a4Xp6"
     },
     {
       "id": 3417,
@@ -8113,27 +8113,6 @@ window.EVENTS_DATA = {
       "mapUrl": "https://maps.app.goo.gl/sUbgK8coWLW9ecB39"
     },
     {
-      "id": 3435,
-      "name": "Kalapila",
-      "type": "Meetup",
-      "typeColor": "#16a34a",
-      "status": "published",
-      "start": "2026-07-28T03:00:00+05:30",
-      "end": "2026-07-28T05:00:00+05:30",
-      "isVirtual": false,
-      "campusName": "Duxford College for Advanced Studies",
-      "district": "malappuram",
-      "address": "Edupark, Duxford, Karutheni, Kalikavu, Kerala 679339",
-      "lat": 11.1949179,
-      "lng": 76.2783591,
-      "locationSource": "maps_link",
-      "registered": 6,
-      "checkedIn": 0,
-      "checkedInAttendeeIds": [],
-      "seats": null,
-      "mapUrl": "https://maps.app.goo.gl/Xwmy9iRbvMkH6dUt9"
-    },
-    {
       "id": 3451,
       "name": "\u0d15\u0d42\u0d1f\u0d3f\u0d2f\u0d3e\u0d32\u0d4b\u0d1a\u0d28",
       "type": "Core_Team_Meeting",
@@ -8277,6 +8256,40 @@ window.EVENTS_DATA = {
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Jawaharlal%20College%20of%20Engineering%20and%20Technology%2C%20Jawahar%20Gardens%2C%20Mangalm%2C%20Lakkidiperur%2C%20Ottapalam%2C%20palakkad%20679301"
     },
     {
+      "id": 3374,
+      "name": "Session 2",
+      "type": "Learning_Program",
+      "typeColor": "#2563eb",
+      "status": "published",
+      "start": "2026-07-28T16:30:00+05:30",
+      "end": "2026-07-28T18:30:00+05:30",
+      "isVirtual": false,
+      "campusName": "College of Engineering, Thiruvananthapuram",
+      "district": "thiruvananthapuram",
+      "address": "College of Engineering, thiruvananthapuram 16",
+      "lat": 8.5458513,
+      "lng": 76.9063407,
+      "locationSource": "maps_link",
+      "registered": 13,
+      "checkedIn": 12,
+      "checkedInAttendeeIds": [
+        30244,
+        30952,
+        35945,
+        35947,
+        35948,
+        36112,
+        36743,
+        36761,
+        39918,
+        40368,
+        45145,
+        45147
+      ],
+      "seats": 0,
+      "mapUrl": "https://maps.app.goo.gl/kE6KGwY3bonvXxkK7"
+    },
+    {
       "id": 3433,
       "name": "Chayeem Puppsum",
       "type": "Talk_Session",
@@ -8368,40 +8381,6 @@ window.EVENTS_DATA = {
       ],
       "seats": 120,
       "mapUrl": "https://maps.app.goo.gl/3ye4p8MtAjDWPCrS9"
-    },
-    {
-      "id": 3374,
-      "name": "Session 2",
-      "type": "Learning_Program",
-      "typeColor": "#2563eb",
-      "status": "published",
-      "start": "2026-07-28T16:30:00+05:30",
-      "end": "2026-07-28T18:30:00+05:30",
-      "isVirtual": false,
-      "campusName": "College of Engineering, Thiruvananthapuram",
-      "district": "thiruvananthapuram",
-      "address": "College of Engineering, thiruvananthapuram 16",
-      "lat": 8.5458513,
-      "lng": 76.9063407,
-      "locationSource": "maps_link",
-      "registered": 13,
-      "checkedIn": 12,
-      "checkedInAttendeeIds": [
-        30244,
-        30952,
-        35945,
-        35947,
-        35948,
-        36112,
-        36743,
-        36761,
-        39918,
-        40368,
-        45145,
-        45147
-      ],
-      "seats": 0,
-      "mapUrl": "https://maps.app.goo.gl/kE6KGwY3bonvXxkK7"
     },
     {
       "id": 3424,
@@ -17545,7 +17524,7 @@ window.EVENTS_DATA = {
       "lat": 10.5386,
       "lng": 76.2319,
       "locationSource": "district_fallback",
-      "registered": 17,
+      "registered": 18,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -17629,7 +17608,7 @@ window.EVENTS_DATA = {
       "lat": 11.2775736,
       "lng": 75.8443931,
       "locationSource": "maps_link",
-      "registered": 10,
+      "registered": 11,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -17734,7 +17713,7 @@ window.EVENTS_DATA = {
       "lat": 8.56158,
       "lng": 76.99412,
       "locationSource": "district_fallback",
-      "registered": 12,
+      "registered": 18,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": 0,
@@ -17755,7 +17734,7 @@ window.EVENTS_DATA = {
       "lat": 10.0469797,
       "lng": 76.3351998,
       "locationSource": "maps_link",
-      "registered": 51,
+      "registered": 52,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -17776,7 +17755,7 @@ window.EVENTS_DATA = {
       "lat": 8.56158,
       "lng": 76.99412,
       "locationSource": "district_fallback",
-      "registered": 6,
+      "registered": 7,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": 0,
@@ -21383,14 +21362,14 @@ window.EVENTS_DATA = {
     }
   ],
   "summary": {
-    "totalEvents": 486,
+    "totalEvents": 485,
     "todayCount": 1,
     "upcomingCount": 14,
-    "pastCount": 471,
-    "totalRegistered": 11787,
+    "pastCount": 470,
+    "totalRegistered": 11791,
     "totalCheckedIn": 7259,
     "virtualCount": 169,
-    "geocoded": 304,
+    "geocoded": 303,
     "districtFallback": 156,
     "unresolved": 26,
     "uniqueAttendees": 4595,
@@ -21403,7 +21382,7 @@ window.EVENTS_DATA = {
   "byType": [
     {
       "type": "Meetup",
-      "count": 142,
+      "count": 141,
       "color": "#16a34a"
     },
     {
@@ -21467,11 +21446,11 @@ window.EVENTS_DATA = {
       "count": 18
     },
     {
-      "district": "malappuram",
-      "count": 16
+      "district": "kasaragod",
+      "count": 15
     },
     {
-      "district": "kasaragod",
+      "district": "malappuram",
       "count": 15
     },
     {
