@@ -2,7 +2,7 @@
 // Do NOT hand-edit -- this file is overwritten on each run.
 window.EVENTS_DATA = {
   "generatedAt": "2026-08-21",
-  "generatedAtIso": "2026-08-21T18:31:31.908897+00:00",
+  "generatedAtIso": "2026-08-21T21:20:30.112127+00:00",
   "windowSinceDate": "2026-04-01",
   "windowUntilDate": "2027-03-31",
   "events": [
@@ -17706,7 +17706,7 @@ window.EVENTS_DATA = {
       "lat": 8.56158,
       "lng": 76.99412,
       "locationSource": "district_fallback",
-      "registered": 23,
+      "registered": 24,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": 0,
@@ -21466,6 +21466,24 @@ window.EVENTS_DATA = {
       "collaboratorIds": [
         48644
       ]
+    },
+    {
+      "id": 7848,
+      "eventBased": false,
+      "eventId": null,
+      "createdAt": "2026-08-22T00:10:34.504828+05:30",
+      "collaboratorIds": [
+        49934
+      ]
+    },
+    {
+      "id": 7849,
+      "eventBased": false,
+      "eventId": null,
+      "createdAt": "2026-08-22T00:37:57.151275+05:30",
+      "collaboratorIds": [
+        43196
+      ]
     }
   ],
   "summary": {
@@ -21473,7 +21491,7 @@ window.EVENTS_DATA = {
     "todayCount": 10,
     "upcomingCount": 8,
     "pastCount": 471,
-    "totalRegistered": 11816,
+    "totalRegistered": 11817,
     "totalCheckedIn": 7272,
     "virtualCount": 172,
     "geocoded": 306,
@@ -21481,10 +21499,10 @@ window.EVENTS_DATA = {
     "unresolved": 26,
     "uniqueAttendees": 4598,
     "avgDailyAttendance": 68.0,
-    "totalProjects": 388,
+    "totalProjects": 390,
     "eventBasedProjects": 53,
-    "independentProjects": 335,
-    "uniquePeopleInProjects": 370
+    "independentProjects": 337,
+    "uniquePeopleInProjects": 372
   },
   "byType": [
     {
