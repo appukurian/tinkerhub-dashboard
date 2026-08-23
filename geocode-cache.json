@@ -244,6 +244,11 @@
     "lng": 76.2129296,
     "source": "nominatim"
   },
+  "https://www.google.com/maps/search/?api=1&query=Cochin+University+College+of+Engineering,+Kuttanad": {
+    "lat": null,
+    "lng": null,
+    "source": "unresolved"
+  },
   "https://www.google.com/maps/search/?api=1&query=College%20of%20Engineering%20Trikaripur%2C%20PO%20Cheemeni%2C%20kasaragod%20671313": {
     "lat": null,
     "lng": null,
