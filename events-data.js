@@ -2,7 +2,7 @@
 // Do NOT hand-edit -- this file is overwritten on each run.
 window.EVENTS_DATA = {
   "generatedAt": "2026-08-26",
-  "generatedAtIso": "2026-08-26T16:14:56.049344+00:00",
+  "generatedAtIso": "2026-08-26T19:44:11.694468+00:00",
   "windowSinceDate": "2026-04-01",
   "windowUntilDate": "2027-03-31",
   "events": [
@@ -18018,7 +18018,7 @@ window.EVENTS_DATA = {
       "lat": 9.578816,
       "lng": 76.6228879,
       "locationSource": "maps_link",
-      "registered": 98,
+      "registered": 99,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -18246,8 +18246,8 @@ window.EVENTS_DATA = {
       "lat": 9.3779197,
       "lng": 76.7939411,
       "locationSource": "maps_link",
-      "registered": 36,
-      "checkedIn": 34,
+      "registered": 37,
+      "checkedIn": 36,
       "checkedInAttendeeIds": [
         5183,
         5365,
@@ -18263,10 +18263,12 @@ window.EVENTS_DATA = {
         31223,
         34005,
         37937,
+        39219,
         40833,
         41792,
         44516,
         45076,
+        45939,
         47065,
         47860,
         48213,
@@ -19322,7 +19324,7 @@ window.EVENTS_DATA = {
       "lat": 11.2775736,
       "lng": 75.8443931,
       "locationSource": "maps_link",
-      "registered": 20,
+      "registered": 21,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -19385,7 +19387,7 @@ window.EVENTS_DATA = {
       "lat": 8.55527,
       "lng": 76.92981,
       "locationSource": "district_fallback",
-      "registered": 2,
+      "registered": 3,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -19406,7 +19408,7 @@ window.EVENTS_DATA = {
       "lat": 11.2775736,
       "lng": 75.8443931,
       "locationSource": "maps_link",
-      "registered": 22,
+      "registered": 24,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -19427,7 +19429,7 @@ window.EVENTS_DATA = {
       "lat": 10.5386,
       "lng": 76.2319,
       "locationSource": "district_fallback",
-      "registered": 17,
+      "registered": 18,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -19438,7 +19440,7 @@ window.EVENTS_DATA = {
       "name": "Code <a> Pookalam",
       "type": "Hackathon",
       "typeColor": "#dc2626",
-      "status": "pending",
+      "status": "published",
       "start": "2026-08-28T00:00:00+05:30",
       "end": "2026-08-30T23:59:00+05:30",
       "isVirtual": true,
@@ -19448,7 +19450,7 @@ window.EVENTS_DATA = {
       "lat": 9.58578,
       "lng": 76.49893,
       "locationSource": "district_fallback",
-      "registered": 0,
+      "registered": 1,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -19595,7 +19597,7 @@ window.EVENTS_DATA = {
       "lat": 10.5386,
       "lng": 76.2319,
       "locationSource": "district_fallback",
-      "registered": 5,
+      "registered": 6,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -19616,7 +19618,7 @@ window.EVENTS_DATA = {
       "lat": null,
       "lng": null,
       "locationSource": "unresolved",
-      "registered": 284,
+      "registered": 304,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -19679,7 +19681,7 @@ window.EVENTS_DATA = {
       "lat": 9.4615534,
       "lng": 76.3319795,
       "locationSource": "maps_link",
-      "registered": 11,
+      "registered": 12,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -23349,25 +23351,70 @@ window.EVENTS_DATA = {
       "collaboratorIds": [
         50169
       ]
+    },
+    {
+      "id": 7861,
+      "eventBased": false,
+      "eventId": null,
+      "createdAt": "2026-08-26T21:48:19.492632+05:30",
+      "collaboratorIds": [
+        50300
+      ]
+    },
+    {
+      "id": 7862,
+      "eventBased": false,
+      "eventId": null,
+      "createdAt": "2026-08-26T22:25:46.874188+05:30",
+      "collaboratorIds": [
+        50085
+      ]
+    },
+    {
+      "id": 7863,
+      "eventBased": false,
+      "eventId": null,
+      "createdAt": "2026-08-26T22:51:28.851614+05:30",
+      "collaboratorIds": [
+        50141
+      ]
+    },
+    {
+      "id": 7864,
+      "eventBased": true,
+      "eventId": 3762,
+      "createdAt": "2026-08-26T22:52:28.212669+05:30",
+      "collaboratorIds": [
+        50331
+      ]
+    },
+    {
+      "id": 7865,
+      "eventBased": false,
+      "eventId": null,
+      "createdAt": "2026-08-26T23:16:32.10749+05:30",
+      "collaboratorIds": [
+        50145
+      ]
     }
   ],
   "summary": {
     "totalEvents": 532,
     "todayCount": 6,
-    "upcomingCount": 18,
-    "pastCount": 508,
-    "totalRegistered": 13515,
-    "totalCheckedIn": 8100,
+    "upcomingCount": 12,
+    "pastCount": 514,
+    "totalRegistered": 13545,
+    "totalCheckedIn": 8102,
     "virtualCount": 203,
     "geocoded": 326,
     "districtFallback": 179,
     "unresolved": 27,
     "uniqueAttendees": 5002,
     "avgDailyAttendance": 72.3,
-    "totalProjects": 401,
-    "eventBasedProjects": 53,
-    "independentProjects": 348,
-    "uniquePeopleInProjects": 382
+    "totalProjects": 406,
+    "eventBasedProjects": 54,
+    "independentProjects": 352,
+    "uniquePeopleInProjects": 387
   },
   "byType": [
     {
