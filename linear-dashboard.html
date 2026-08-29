@@ -30,9 +30,7 @@
           'status-gray': '#6b7280',
           'status-gray-bg': '#f1f5f9',
         },
-        fontFamily: {
-          sans: ['Inter', 'sans-serif'],
-        }
+        fontFamily: { sans: ['Inter', 'sans-serif'] }
       }
     }
   }
@@ -59,6 +57,7 @@
   .grp-pill {
     display: inline-flex; align-items: center; padding: 2px 8px; border-radius: 6px;
     font-size: 11px; font-weight: 600; background-color: #f1f5f9; color: #374151; border: 1px solid #e5e7eb;
+    white-space: nowrap;
   }
   .days-open { font-weight: 600; font-variant-numeric: tabular-nums; }
   .days-warn { color: #dc2626 !important; }
@@ -75,6 +74,36 @@
     color: #4f46e5; text-decoration: none; font-weight: 500;
   }
   #stuck-table td a:not(.btn):hover { text-decoration: underline; }
+
+  /* Kanban board */
+  .board { display: flex; gap: 14px; overflow-x: auto; padding-bottom: 8px; align-items: flex-start; }
+  .board-col {
+    flex: 0 0 260px; width: 260px; background: #f6f7fb; border: 1px solid #e5e7eb; border-radius: 10px;
+    display: flex; flex-direction: column; max-height: 640px;
+  }
+  .board-col-head {
+    padding: 10px 12px; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em;
+    color: #374151; border-bottom: 1px solid #e5e7eb; display: flex; justify-content: space-between; align-items: center;
+    position: sticky; top: 0; background: #f6f7fb; border-radius: 10px 10px 0 0;
+  }
+  .board-col-head .count {
+    background: #ffffff; border: 1px solid #e5e7eb; border-radius: 9999px; padding: 1px 8px; font-size: 11px; color: #6b7280;
+  }
+  .board-col-body { overflow-y: auto; padding: 8px; display: flex; flex-direction: column; gap: 8px; }
+  .card {
+    background: #ffffff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 10px 11px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.03); text-decoration: none; color: inherit; display: block;
+    transition: all 0.15s ease;
+  }
+  .card:hover { border-color: #c7d2fe; box-shadow: 0 2px 6px rgba(79,70,229,0.1); }
+  .card .cid { font-size: 11px; font-weight: 700; color: #4f46e5; }
+  .card .ctitle { font-size: 12.5px; font-weight: 500; color: #1c1f2a; margin-top: 3px; line-height: 1.35; }
+  .card .cmeta { margin-top: 7px; display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+  .card .cassignee { font-size: 11px; color: #6b7280; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .board-empty { padding: 20px 10px; text-align: center; color: #9ca3af; font-size: 12px; }
+  select, input[type="text"] {
+    rounded: 8px;
+  }
 </style>
 </head>
 <body class="bg-bg text-ink min-h-screen p-4 md:p-8 transition-colors duration-200">
@@ -117,7 +146,7 @@
     </div>
   </div>
 
-  <section class="bg-white border border-status-red-bg border-2 rounded-xl p-5 md:p-6 mb-8 shadow-sm" style="border-color:#fecaca;">
+  <section class="bg-white border-2 rounded-xl p-5 md:p-6 mb-8 shadow-sm" style="border-color:#fecaca;">
     <h2 class="text-base font-semibold text-ink mb-1">Stuck in the building phase</h2>
     <p class="text-sm text-muted mb-4" id="stuck-sub"></p>
     <div class="overflow-x-auto">
@@ -129,7 +158,6 @@
             <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider">Project</th>
             <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider">Status</th>
             <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider">Assignee</th>
-            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider">Started</th>
             <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider text-right">Days stuck</th>
             <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider">Actions</th>
           </tr>
@@ -140,12 +168,25 @@
   </section>
 
   <section class="bg-white border border-border rounded-xl p-5 md:p-6 mb-8 shadow-sm">
-    <h2 class="text-base font-semibold text-ink mb-4">Projects overview</h2>
+    <h2 class="text-base font-semibold text-ink mb-1">All issues — board view</h2>
+    <p class="text-sm text-muted mb-4">Every issue in the Devs team backlog, grouped by status. Use this to check whether something the team mentioned has actually been added and where it stands.</p>
+    <div class="flex flex-col md:flex-row md:items-center gap-3 mb-5">
+      <select id="f-project" class="rounded-lg border border-border px-3 py-2 text-sm bg-white text-ink shadow-sm focus:outline-none focus:ring-2 focus:ring-accent/20 focus:border-accent cursor-pointer transition-all">
+        <option value="">All categories</option>
+      </select>
+      <input id="f-search" type="text" placeholder="Search by title or issue ID…" class="flex-1 rounded-lg border border-border px-3 py-2 text-sm bg-white text-ink shadow-sm placeholder:text-muted focus:outline-none focus:ring-2 focus:ring-accent/20 focus:border-accent transition-all">
+      <span class="text-xs text-muted font-medium ml-auto md:self-center" id="f-count"></span>
+    </div>
+    <div class="board" id="board"></div>
+  </section>
+
+  <section class="bg-white border border-border rounded-xl p-5 md:p-6 mb-8 shadow-sm">
+    <h2 class="text-base font-semibold text-ink mb-4">Categories overview</h2>
     <div class="overflow-x-auto">
       <table id="projects-table" class="min-w-full text-[13.5px] text-left">
         <thead>
           <tr class="border-b border-border">
-            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider">Project</th>
+            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider">Category</th>
             <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider">Lead</th>
             <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider text-right">Total</th>
             <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider text-right">Backlog</th>
@@ -160,24 +201,24 @@
     </div>
   </section>
 
-  <footer id="footer-note" class="mt-8 text-center text-xs text-muted border-t border-border pt-6 leading-relaxed">"Days stuck" = days since the issue's status was last updated while still In Progress / In Review.</footer>
+  <footer id="footer-note" class="mt-8 text-center text-xs text-muted border-t border-border pt-6 leading-relaxed">"Days stuck" = days since the issue's status was last updated while still In Progress / In Review. Board columns follow Linear's own workflow states.</footer>
 </div>
 
 <script src="linear-data.js"></script>
 <script>
 const DATA = window.LINEAR_DATA;
 
+const COLUMNS = [
+  { key: "Backlog", label: "Backlog", match: it => it.statusType === "backlog" },
+  { key: "Todo", label: "Todo", match: it => it.statusType === "unstarted" },
+  { key: "In Progress", label: "In Progress", match: it => it.status === "In Progress" },
+  { key: "In Review", label: "In Review", match: it => it.status === "In Review" },
+  { key: "Done", label: "Done", match: it => it.statusType === "completed" },
+  { key: "Canceled", label: "Canceled / Duplicate", match: it => it.statusType === "canceled" || it.statusType === "duplicate" },
+];
+
 function escapeHtml(s){
   return String(s||"").replace(/[&<>"']/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-}
-
-function renderSummary(){
-  const t = DATA.teamTotals;
-  document.getElementById("c-stuck").textContent = DATA.stuck.length;
-  document.getElementById("c-longest").textContent = (DATA.stuck[0] ? DATA.stuck[0].daysSinceUpdate : 0) + "d";
-  document.getElementById("c-backlog").textContent = t.backlog + t.todo;
-  document.getElementById("c-done").textContent = t.completed;
-  document.getElementById("c-total").textContent = t.total;
 }
 
 function statusClass(status){
@@ -187,6 +228,15 @@ function statusClass(status){
   if(status === "Backlog") return "backlog";
   if(status === "Todo") return "todo";
   return "canceled";
+}
+
+function renderSummary(){
+  const t = DATA.teamTotals;
+  document.getElementById("c-stuck").textContent = DATA.stuck.length;
+  document.getElementById("c-longest").textContent = (DATA.stuck[0] ? DATA.stuck[0].daysSinceUpdate : 0) + "d";
+  document.getElementById("c-backlog").textContent = t.backlog + t.todo;
+  document.getElementById("c-done").textContent = t.completed;
+  document.getElementById("c-total").textContent = t.total;
 }
 
 function renderStuck(){
@@ -202,7 +252,6 @@ function renderStuck(){
       <td>${s.project ? `<span class="grp-pill">${escapeHtml(s.project)}</span>` : `<span class="text-muted">—</span>`}</td>
       <td><span class="badge ${statusClass(s.status)}">${s.status}</span></td>
       <td>${s.assignee ? escapeHtml(s.assignee) : `<span class="text-muted">Unassigned</span>`}</td>
-      <td>${s.startedAt ? s.startedAt.slice(0,10) : ""}</td>
       <td class="num days-open ${warn}">${s.daysSinceUpdate}</td>
       <td><a class="btn reply" href="${s.url}" target="_blank" rel="noopener">Open in Linear</a></td>
     `;
@@ -233,11 +282,64 @@ function renderProjects(){
   });
 }
 
+function populateProjectFilter(){
+  const sel = document.getElementById("f-project");
+  const names = Array.from(new Set(DATA.allIssues.map(i=>i.project))).sort();
+  names.forEach(n=>{
+    const opt = document.createElement("option");
+    opt.value = n; opt.textContent = n;
+    sel.appendChild(opt);
+  });
+}
+
+function renderBoard(){
+  const project = document.getElementById("f-project").value;
+  const q = document.getElementById("f-search").value.trim().toLowerCase();
+
+  const filtered = DATA.allIssues.filter(it=>{
+    if(project && it.project !== project) return false;
+    if(q && !(it.title.toLowerCase().includes(q) || it.id.toLowerCase().includes(q))) return false;
+    return true;
+  });
+
+  const board = document.getElementById("board");
+  board.innerHTML = "";
+  COLUMNS.forEach(col=>{
+    const items = filtered.filter(col.match);
+    const colEl = document.createElement("div");
+    colEl.className = "board-col";
+    const cardsHtml = items.length
+      ? items.map(it => `
+          <a class="card" href="${it.url}" target="_blank" rel="noopener">
+            <div class="cid">${it.id}</div>
+            <div class="ctitle">${escapeHtml(it.title)}</div>
+            <div class="cmeta">
+              <span class="grp-pill">${escapeHtml(it.project)}</span>
+              <span class="cassignee">${it.assignee ? escapeHtml(it.assignee.split('@')[0]) : 'Unassigned'}</span>
+            </div>
+          </a>
+        `).join("")
+      : `<div class="board-empty">No issues</div>`;
+    colEl.innerHTML = `
+      <div class="board-col-head"><span>${col.label}</span><span class="count">${items.length}</span></div>
+      <div class="board-col-body">${cardsHtml}</div>
+    `;
+    board.appendChild(colEl);
+  });
+
+  document.getElementById("f-count").textContent = filtered.length + " of " + DATA.allIssues.length + " issues";
+}
+
+document.getElementById("f-project").addEventListener("change", renderBoard);
+document.getElementById("f-search").addEventListener("input", renderBoard);
+
 document.getElementById("header-sub").textContent =
   "Devs team · th-app workspace — data as of " + (DATA.generatedAt || "unknown date");
 
 renderSummary();
 renderStuck();
+populateProjectFilter();
+renderBoard();
 renderProjects();
 </script>
 </body>
