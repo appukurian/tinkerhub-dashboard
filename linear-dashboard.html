@@ -159,7 +159,6 @@
             <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider">Status</th>
             <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider">Assignee</th>
             <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider text-right">Days stuck</th>
-            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider">Actions</th>
           </tr>
         </thead>
         <tbody class="divide-y divide-border/60"></tbody>
@@ -253,7 +252,6 @@ function renderStuck(){
       <td><span class="badge ${statusClass(s.status)}">${s.status}</span></td>
       <td>${s.assignee ? escapeHtml(s.assignee) : `<span class="text-muted">Unassigned</span>`}</td>
       <td class="num days-open ${warn}">${s.daysSinceUpdate}</td>
-      <td><a class="btn reply" href="${s.url}" target="_blank" rel="noopener">Open in Linear</a></td>
     `;
     tbody.appendChild(tr);
   });
