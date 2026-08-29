@@ -2,7 +2,7 @@
 // Do NOT hand-edit -- this file is overwritten on each run.
 window.EVENTS_DATA = {
   "generatedAt": "2026-08-29",
-  "generatedAtIso": "2026-08-29T18:09:13.573602+00:00",
+  "generatedAtIso": "2026-08-29T22:58:15.626489+00:00",
   "windowSinceDate": "2026-04-01",
   "windowUntilDate": "2027-03-31",
   "events": [
@@ -18055,11 +18055,18 @@ window.EVENTS_DATA = {
       "lng": 76.6228879,
       "locationSource": "maps_link",
       "registered": 111,
-      "checkedIn": 4,
+      "checkedIn": 11,
       "checkedInAttendeeIds": [
         7291,
+        8096,
         11090,
         20031,
+        20033,
+        24417,
+        40100,
+        41340,
+        48419,
+        49937,
         50331
       ],
       "seats": null,
@@ -19503,7 +19510,7 @@ window.EVENTS_DATA = {
       "lng": 76.92981,
       "locationSource": "district_fallback",
       "registered": 17,
-      "checkedIn": 12,
+      "checkedIn": 13,
       "checkedInAttendeeIds": [
         1644,
         16523,
@@ -19516,7 +19523,8 @@ window.EVENTS_DATA = {
         49937,
         50681,
         50689,
-        50690
+        50690,
+        50848
       ],
       "seats": null,
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sree%20Chitra%20Thirunal%20College%20ofEngineering%2C%20Pappanamcode%2C%20thiruvananthapuram"
@@ -20370,7 +20378,7 @@ window.EVENTS_DATA = {
       "lat": 8.56158,
       "lng": 76.99412,
       "locationSource": "district_fallback",
-      "registered": 10,
+      "registered": 12,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": 0,
@@ -20559,7 +20567,7 @@ window.EVENTS_DATA = {
       "lat": null,
       "lng": null,
       "locationSource": "unresolved",
-      "registered": 691,
+      "registered": 695,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -24804,25 +24812,34 @@ window.EVENTS_DATA = {
       "collaboratorIds": [
         48918
       ]
+    },
+    {
+      "id": 7915,
+      "eventBased": true,
+      "eventId": 3790,
+      "createdAt": "2026-08-30T00:02:29.715071+05:30",
+      "collaboratorIds": [
+        6850
+      ]
     }
   ],
   "summary": {
     "totalEvents": 559,
-    "todayCount": 8,
-    "upcomingCount": 15,
-    "pastCount": 536,
-    "totalRegistered": 14463,
-    "totalCheckedIn": 8470,
+    "todayCount": 3,
+    "upcomingCount": 12,
+    "pastCount": 544,
+    "totalRegistered": 14469,
+    "totalCheckedIn": 8478,
     "virtualCount": 225,
     "geocoded": 339,
     "districtFallback": 193,
     "unresolved": 27,
-    "uniqueAttendees": 5143,
+    "uniqueAttendees": 5147,
     "avgDailyAttendance": 73.7,
-    "totalProjects": 455,
-    "eventBasedProjects": 69,
+    "totalProjects": 456,
+    "eventBasedProjects": 70,
     "independentProjects": 386,
-    "uniquePeopleInProjects": 437
+    "uniquePeopleInProjects": 438
   },
   "byType": [
     {
