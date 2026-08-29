@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TinkerHub Hub App — Linear Status</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          bg: '#f6f7fb',
+          card: '#ffffff',
+          ink: '#1c1f2a',
+          muted: '#6b7280',
+          border: '#e5e7eb',
+          accent: '#4f46e5',
+          'status-red': '#dc2626',
+          'status-red-bg': '#fee2e2',
+          'status-amber': '#d97706',
+          'status-amber-bg': '#fef3c7',
+          'status-blue': '#2563eb',
+          'status-blue-bg': '#dbeafe',
+          'status-green': '#16a34a',
+          'status-green-bg': '#dcfce7',
+          'status-gray': '#6b7280',
+          'status-gray-bg': '#f1f5f9',
+        },
+        fontFamily: {
+          sans: ['Inter', 'sans-serif'],
+        }
+      }
+    }
+  }
+</script>
+<style>
+  body { font-family: 'Inter', sans-serif; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { padding: 10px 14px; vertical-align: top; border-bottom: 1px solid #e5e7eb; }
+  tr:last-child td { border-bottom: none; }
+  tbody tr { transition: background-color 0.15s ease; }
+  tbody tr:hover { background-color: #f9fafb; }
+  .num { text-align: right; font-variant-numeric: tabular-nums; }
+  th.num { text-align: right; }
+  .badge {
+    display: inline-flex; align-items: center; padding: 2px 8px; border-radius: 9999px;
+    font-size: 11px; font-weight: 600; line-height: 1.2; white-space: nowrap; border: 1px solid transparent;
+  }
+  .badge.in-progress { color: #d97706; background: #fef3c7; border-color: #fde047; }
+  .badge.in-review { color: #2563eb; background: #dbeafe; border-color: #bfdbfe; }
+  .badge.done { color: #16a34a; background: #dcfce7; border-color: #bbf7d0; }
+  .badge.backlog { color: #6b7280; background: #f1f5f9; border-color: #e5e7eb; }
+  .badge.todo { color: #6b7280; background: #f1f5f9; border-color: #e5e7eb; }
+  .badge.canceled { color: #6b7280; background: #f1f5f9; border-color: #e5e7eb; }
+  .grp-pill {
+    display: inline-flex; align-items: center; padding: 2px 8px; border-radius: 6px;
+    font-size: 11px; font-weight: 600; background-color: #f1f5f9; color: #374151; border: 1px solid #e5e7eb;
+  }
+  .days-open { font-weight: 600; font-variant-numeric: tabular-nums; }
+  .days-warn { color: #dc2626 !important; }
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center; border: 1px solid #e5e7eb;
+    background-color: #ffffff; color: #1c1f2a; padding: 6px 12px; border-radius: 6px; font-size: 12px;
+    font-weight: 500; cursor: pointer; text-decoration: none; line-height: 1.2; transition: all 0.15s ease;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+  }
+  .btn:hover { background-color: #f1f5f9; border-color: #cbd5e1; }
+  .btn.reply { color: #4f46e5; border-color: #c7d2fe; background-color: #f5f3ff; }
+  .btn.reply:hover { background-color: #ede9fe; border-color: #a5b4fc; }
+  #stuck-table td a:not(.btn), #projects-table td a:not(.btn) {
+    color: #4f46e5; text-decoration: none; font-weight: 500;
+  }
+  #stuck-table td a:not(.btn):hover { text-decoration: underline; }
+</style>
+</head>
+<body class="bg-bg text-ink min-h-screen p-4 md:p-8 transition-colors duration-200">
+<div class="max-w-7xl mx-auto mb-6 mt-0">
+  <nav class="flex items-center gap-1 flex-wrap bg-white border border-border rounded-xl shadow-sm px-2 py-1.5 text-[13px] font-medium w-fit">
+    <a href="mailbox-dashboard.html" class="px-3 py-1.5 rounded-lg transition-colors text-muted hover:text-ink hover:bg-bg/60">Mailbox</a>
+    <a href="events-dashboard.html" class="px-3 py-1.5 rounded-lg transition-colors text-muted hover:text-ink hover:bg-bg/60">Events</a>
+    <a href="discord-dashboard.html" class="px-3 py-1.5 rounded-lg transition-colors text-muted hover:text-ink hover:bg-bg/60">Discord</a>
+    <a href="campus-dashboard.html" class="px-3 py-1.5 rounded-lg transition-colors text-muted hover:text-ink hover:bg-bg/60">Campus</a>
+    <a href="linear-dashboard.html" class="px-3 py-1.5 rounded-lg transition-colors text-ink bg-bg font-semibold">Linear</a>
+  </nav>
+</div>
+
+<div class="max-w-7xl mx-auto">
+  <div class="mb-8">
+    <h1 class="text-2xl font-bold tracking-tight text-ink md:text-3xl">Hub App — Linear Project Status</h1>
+    <p class="text-sm text-muted mt-1.5" id="header-sub">Devs team · th-app workspace</p>
+  </div>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 mb-8">
+    <div class="bg-white border border-border rounded-xl p-5 shadow-sm transition-all hover:shadow-md">
+      <div class="text-3xl font-bold tracking-tight text-status-red" id="c-stuck">0</div>
+      <div class="text-[12.5px] font-medium text-muted mt-2 leading-tight">Stuck in progress / review</div>
+    </div>
+    <div class="bg-white border border-border rounded-xl p-5 shadow-sm transition-all hover:shadow-md">
+      <div class="text-3xl font-bold tracking-tight text-status-red" id="c-longest">0d</div>
+      <div class="text-[12.5px] font-medium text-muted mt-2 leading-tight">Longest stuck (days)</div>
+    </div>
+    <div class="bg-white border border-border rounded-xl p-5 shadow-sm transition-all hover:shadow-md">
+      <div class="text-3xl font-bold tracking-tight text-status-gray" id="c-backlog">0</div>
+      <div class="text-[12.5px] font-medium text-muted mt-2 leading-tight">Backlog + Todo</div>
+    </div>
+    <div class="bg-white border border-border rounded-xl p-5 shadow-sm transition-all hover:shadow-md">
+      <div class="text-3xl font-bold tracking-tight text-status-green" id="c-done">0</div>
+      <div class="text-[12.5px] font-medium text-muted mt-2 leading-tight">Done</div>
+    </div>
+    <div class="bg-white border border-border rounded-xl p-5 shadow-sm transition-all hover:shadow-md">
+      <div class="text-3xl font-bold tracking-tight text-ink" id="c-total">0</div>
+      <div class="text-[12.5px] font-medium text-muted mt-2 leading-tight">Total issues (Devs team)</div>
+    </div>
+  </div>
+
+  <section class="bg-white border border-status-red-bg border-2 rounded-xl p-5 md:p-6 mb-8 shadow-sm" style="border-color:#fecaca;">
+    <h2 class="text-base font-semibold text-ink mb-1">Stuck in the building phase</h2>
+    <p class="text-sm text-muted mb-4" id="stuck-sub"></p>
+    <div class="overflow-x-auto">
+      <table id="stuck-table" class="min-w-full text-[13.5px] text-left">
+        <thead>
+          <tr class="border-b border-border">
+            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider">ID</th>
+            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider">Title</th>
+            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider">Project</th>
+            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider">Status</th>
+            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider">Assignee</th>
+            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider">Started</th>
+            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider text-right">Days stuck</th>
+            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider">Actions</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-border/60"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="bg-white border border-border rounded-xl p-5 md:p-6 mb-8 shadow-sm">
+    <h2 class="text-base font-semibold text-ink mb-4">Projects overview</h2>
+    <div class="overflow-x-auto">
+      <table id="projects-table" class="min-w-full text-[13.5px] text-left">
+        <thead>
+          <tr class="border-b border-border">
+            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider">Project</th>
+            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider">Lead</th>
+            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider text-right">Total</th>
+            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider text-right">Backlog</th>
+            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider text-right">Todo</th>
+            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider text-right">In progress/review</th>
+            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider text-right">Done</th>
+            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider text-right">Canceled/Dup</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-border/60"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer id="footer-note" class="mt-8 text-center text-xs text-muted border-t border-border pt-6 leading-relaxed">"Days stuck" = days since the issue's status was last updated while still In Progress / In Review.</footer>
+</div>
+
+<script src="linear-data.js"></script>
+<script>
+const DATA = window.LINEAR_DATA;
+
+function escapeHtml(s){
+  return String(s||"").replace(/[&<>"']/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+}
+
+function renderSummary(){
+  const t = DATA.teamTotals;
+  document.getElementById("c-stuck").textContent = DATA.stuck.length;
+  document.getElementById("c-longest").textContent = (DATA.stuck[0] ? DATA.stuck[0].daysSinceUpdate : 0) + "d";
+  document.getElementById("c-backlog").textContent = t.backlog + t.todo;
+  document.getElementById("c-done").textContent = t.completed;
+  document.getElementById("c-total").textContent = t.total;
+}
+
+function statusClass(status){
+  if(status === "In Progress") return "in-progress";
+  if(status === "In Review") return "in-review";
+  if(status === "Done") return "done";
+  if(status === "Backlog") return "backlog";
+  if(status === "Todo") return "todo";
+  return "canceled";
+}
+
+function renderStuck(){
+  const rows = DATA.stuck.slice().sort((a,b)=> b.daysSinceUpdate - a.daysSinceUpdate);
+  const tbody = document.querySelector("#stuck-table tbody");
+  tbody.innerHTML = "";
+  rows.forEach(s=>{
+    const warn = s.daysSinceUpdate >= 30 ? "days-warn" : "";
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td><a href="${s.url}" target="_blank" rel="noopener">${s.id}</a></td>
+      <td>${escapeHtml(s.title)}</td>
+      <td>${s.project ? `<span class="grp-pill">${escapeHtml(s.project)}</span>` : `<span class="text-muted">—</span>`}</td>
+      <td><span class="badge ${statusClass(s.status)}">${s.status}</span></td>
+      <td>${s.assignee ? escapeHtml(s.assignee) : `<span class="text-muted">Unassigned</span>`}</td>
+      <td>${s.startedAt ? s.startedAt.slice(0,10) : ""}</td>
+      <td class="num days-open ${warn}">${s.daysSinceUpdate}</td>
+      <td><a class="btn reply" href="${s.url}" target="_blank" rel="noopener">Open in Linear</a></td>
+    `;
+    tbody.appendChild(tr);
+  });
+  document.getElementById("stuck-sub").textContent =
+    rows.length + " issue" + (rows.length===1?"":"s") + " currently In Progress or In Review — every one of them has been untouched for " +
+    Math.min(...rows.map(r=>r.daysSinceUpdate)) + "+ days.";
+}
+
+function renderProjects(){
+  const tbody = document.querySelector("#projects-table tbody");
+  tbody.innerHTML = "";
+  const projects = DATA.projects.slice().sort((a,b)=> b.total - a.total);
+  projects.forEach(p=>{
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td class="font-medium">${escapeHtml(p.name)}</td>
+      <td>${p.lead ? escapeHtml(p.lead) : `<span class="text-muted">—</span>`}</td>
+      <td class="num">${p.total}</td>
+      <td class="num">${p.backlog}</td>
+      <td class="num">${p.todo}</td>
+      <td class="num ${p.started>0?'days-warn':''}">${p.started}</td>
+      <td class="num">${p.completed}</td>
+      <td class="num">${p.canceled + p.duplicate}</td>
+    `;
+    tbody.appendChild(tr);
+  });
+}
+
+document.getElementById("header-sub").textContent =
+  "Devs team · th-app workspace — data as of " + (DATA.generatedAt || "unknown date");
+
+renderSummary();
+renderStuck();
+renderProjects();
+</script>
+</body>
+</html>
