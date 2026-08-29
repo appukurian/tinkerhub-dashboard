@@ -2,7 +2,7 @@
 // Do NOT hand-edit -- this file is overwritten on each run.
 window.EVENTS_DATA = {
   "generatedAt": "2026-08-29",
-  "generatedAtIso": "2026-08-29T12:14:05.575626+00:00",
+  "generatedAtIso": "2026-08-29T18:09:13.573602+00:00",
   "windowSinceDate": "2026-04-01",
   "windowUntilDate": "2027-03-31",
   "events": [
@@ -18055,8 +18055,13 @@ window.EVENTS_DATA = {
       "lng": 76.6228879,
       "locationSource": "maps_link",
       "registered": 111,
-      "checkedIn": 0,
-      "checkedInAttendeeIds": [],
+      "checkedIn": 4,
+      "checkedInAttendeeIds": [
+        7291,
+        11090,
+        20031,
+        50331
+      ],
       "seats": null,
       "mapUrl": "https://maps.app.goo.gl/Y9bWocbV9VxD3R4f7"
     },
@@ -19083,11 +19088,12 @@ window.EVENTS_DATA = {
       "lat": 10.8239334,
       "lng": 76.6410927,
       "locationSource": "nominatim",
-      "registered": 6,
-      "checkedIn": 6,
+      "registered": 9,
+      "checkedIn": 7,
       "checkedInAttendeeIds": [
         9127,
         24848,
+        34544,
         35903,
         47469,
         50644,
@@ -19409,8 +19415,8 @@ window.EVENTS_DATA = {
       "lat": 8.56158,
       "lng": 76.99412,
       "locationSource": "district_fallback",
-      "registered": 85,
-      "checkedIn": 64,
+      "registered": 86,
+      "checkedIn": 65,
       "checkedInAttendeeIds": [
         30445,
         31207,
@@ -19423,6 +19429,7 @@ window.EVENTS_DATA = {
         48701,
         48785,
         48789,
+        48796,
         48801,
         48829,
         48849,
@@ -19495,7 +19502,7 @@ window.EVENTS_DATA = {
       "lat": 8.55527,
       "lng": 76.92981,
       "locationSource": "district_fallback",
-      "registered": 16,
+      "registered": 17,
       "checkedIn": 12,
       "checkedInAttendeeIds": [
         1644,
@@ -19656,8 +19663,8 @@ window.EVENTS_DATA = {
       "lat": 9.58578,
       "lng": 76.49893,
       "locationSource": "district_fallback",
-      "registered": 31,
-      "checkedIn": 29,
+      "registered": 32,
+      "checkedIn": 32,
       "checkedInAttendeeIds": [
         6838,
         6850,
@@ -19671,6 +19678,7 @@ window.EVENTS_DATA = {
         30613,
         30801,
         30822,
+        30912,
         32039,
         32041,
         32043,
@@ -19681,13 +19689,15 @@ window.EVENTS_DATA = {
         32358,
         36076,
         37895,
+        38070,
         40100,
         43431,
         44708,
         47928,
         49652,
         49695,
-        50737
+        50737,
+        50874
       ],
       "seats": null,
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Saintgits%20College%20of%20Engineering%2C%20Kottukulam%20Hills%2C%20Pathamuttom%20PO%2C%20kottayam-686532a"
@@ -19728,7 +19738,7 @@ window.EVENTS_DATA = {
       "lat": 9.98579,
       "lng": 76.35609,
       "locationSource": "district_fallback",
-      "registered": 12,
+      "registered": 14,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -20123,12 +20133,14 @@ window.EVENTS_DATA = {
       "lat": 9.47236,
       "lng": 76.32471,
       "locationSource": "district_fallback",
-      "registered": 7,
-      "checkedIn": 6,
+      "registered": 8,
+      "checkedIn": 8,
       "checkedInAttendeeIds": [
+        22360,
         23123,
         34427,
         44338,
+        44712,
         44723,
         50779,
         50842
@@ -20216,7 +20228,7 @@ window.EVENTS_DATA = {
       "typeColor": "#2563eb",
       "status": "published",
       "start": "2026-08-29T16:00:00+05:30",
-      "end": "2026-08-30T00:00:00+05:30",
+      "end": "2026-08-31T00:00:00+05:30",
       "isVirtual": false,
       "campusName": "Majlis Arts & Science College, Valanchery",
       "district": "malappuram",
@@ -20276,9 +20288,23 @@ window.EVENTS_DATA = {
       "lat": 11.1303316,
       "lng": 76.0836729,
       "locationSource": "maps_link",
-      "registered": 8,
-      "checkedIn": 0,
-      "checkedInAttendeeIds": [],
+      "registered": 15,
+      "checkedIn": 13,
+      "checkedInAttendeeIds": [
+        15697,
+        15809,
+        23675,
+        27200,
+        27201,
+        27203,
+        27208,
+        28154,
+        39765,
+        46517,
+        48502,
+        50831,
+        50844
+      ],
       "seats": 0,
       "mapUrl": "https://maps.app.goo.gl/K7MvYPjmHoBa38JR8"
     },
@@ -20297,9 +20323,14 @@ window.EVENTS_DATA = {
       "lat": 8.93757,
       "lng": 76.58753,
       "locationSource": "district_fallback",
-      "registered": 1,
-      "checkedIn": 0,
-      "checkedInAttendeeIds": [],
+      "registered": 4,
+      "checkedIn": 4,
+      "checkedInAttendeeIds": [
+        4856,
+        9286,
+        30548,
+        48484
+      ],
       "seats": null,
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=College%20of%20Engineering%2C%20Perumon%20PO%2C%20Perinad%2C%20kollam%20691%20601"
     },
@@ -20318,7 +20349,7 @@ window.EVENTS_DATA = {
       "lat": 9.2474,
       "lng": 76.78145,
       "locationSource": "district_fallback",
-      "registered": 8,
+      "registered": 11,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -20339,7 +20370,7 @@ window.EVENTS_DATA = {
       "lat": 8.56158,
       "lng": 76.99412,
       "locationSource": "district_fallback",
-      "registered": 1,
+      "registered": 10,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": 0,
@@ -20360,7 +20391,7 @@ window.EVENTS_DATA = {
       "lat": 9.0645863,
       "lng": 76.5569874,
       "locationSource": "maps_link",
-      "registered": 45,
+      "registered": 46,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -20381,7 +20412,7 @@ window.EVENTS_DATA = {
       "lat": 11.1303316,
       "lng": 76.0836729,
       "locationSource": "maps_link",
-      "registered": 8,
+      "registered": 15,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": 0,
@@ -20423,7 +20454,7 @@ window.EVENTS_DATA = {
       "lat": 8.56158,
       "lng": 76.99412,
       "locationSource": "district_fallback",
-      "registered": 0,
+      "registered": 1,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": 0,
@@ -20444,7 +20475,7 @@ window.EVENTS_DATA = {
       "lat": 10.5386,
       "lng": 76.2319,
       "locationSource": "district_fallback",
-      "registered": 11,
+      "registered": 13,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -20486,7 +20517,7 @@ window.EVENTS_DATA = {
       "lat": 11.1303316,
       "lng": 76.0836729,
       "locationSource": "maps_link",
-      "registered": 8,
+      "registered": 15,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": 0,
@@ -20528,7 +20559,7 @@ window.EVENTS_DATA = {
       "lat": null,
       "lng": null,
       "locationSource": "unresolved",
-      "registered": 574,
+      "registered": 691,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -20612,7 +20643,7 @@ window.EVENTS_DATA = {
       "lat": 9.4615534,
       "lng": 76.3319795,
       "locationSource": "maps_link",
-      "registered": 13,
+      "registered": 14,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -24658,6 +24689,121 @@ window.EVENTS_DATA = {
       "collaboratorIds": [
         11090
       ]
+    },
+    {
+      "id": 7902,
+      "eventBased": true,
+      "eventId": 3790,
+      "createdAt": "2026-08-29T18:12:54.399215+05:30",
+      "collaboratorIds": [
+        30613
+      ]
+    },
+    {
+      "id": 7903,
+      "eventBased": false,
+      "eventId": null,
+      "createdAt": "2026-08-29T18:54:13.659471+05:30",
+      "collaboratorIds": []
+    },
+    {
+      "id": 7904,
+      "eventBased": true,
+      "eventId": 3790,
+      "createdAt": "2026-08-29T18:58:34.561163+05:30",
+      "collaboratorIds": [
+        32043
+      ]
+    },
+    {
+      "id": 7905,
+      "eventBased": true,
+      "eventId": 3792,
+      "createdAt": "2026-08-29T20:28:57.83855+05:30",
+      "collaboratorIds": [
+        48673
+      ]
+    },
+    {
+      "id": 7906,
+      "eventBased": true,
+      "eventId": 3788,
+      "createdAt": "2026-08-29T20:34:38.831213+05:30",
+      "collaboratorIds": [
+        35903
+      ]
+    },
+    {
+      "id": 7907,
+      "eventBased": true,
+      "eventId": 3792,
+      "createdAt": "2026-08-29T22:00:26.060855+05:30",
+      "collaboratorIds": [
+        48796
+      ]
+    },
+    {
+      "id": 7908,
+      "eventBased": true,
+      "eventId": 3790,
+      "createdAt": "2026-08-29T22:04:05.072936+05:30",
+      "collaboratorIds": [
+        40100
+      ]
+    },
+    {
+      "id": 7909,
+      "eventBased": true,
+      "eventId": 3790,
+      "createdAt": "2026-08-29T22:14:13.501811+05:30",
+      "collaboratorIds": [
+        10019
+      ]
+    },
+    {
+      "id": 7910,
+      "eventBased": false,
+      "eventId": null,
+      "createdAt": "2026-08-29T22:23:35.085158+05:30",
+      "collaboratorIds": [
+        40765
+      ]
+    },
+    {
+      "id": 7911,
+      "eventBased": false,
+      "eventId": null,
+      "createdAt": "2026-08-29T22:36:37.830194+05:30",
+      "collaboratorIds": [
+        40765
+      ]
+    },
+    {
+      "id": 7912,
+      "eventBased": true,
+      "eventId": 3788,
+      "createdAt": "2026-08-29T23:00:09.124251+05:30",
+      "collaboratorIds": [
+        34544
+      ]
+    },
+    {
+      "id": 7913,
+      "eventBased": true,
+      "eventId": 3792,
+      "createdAt": "2026-08-29T23:01:23.798165+05:30",
+      "collaboratorIds": [
+        48681
+      ]
+    },
+    {
+      "id": 7914,
+      "eventBased": true,
+      "eventId": 3792,
+      "createdAt": "2026-08-29T23:29:17.077602+05:30",
+      "collaboratorIds": [
+        48918
+      ]
     }
   ],
   "summary": {
@@ -24665,18 +24811,18 @@ window.EVENTS_DATA = {
     "todayCount": 8,
     "upcomingCount": 15,
     "pastCount": 536,
-    "totalRegistered": 14296,
-    "totalCheckedIn": 8442,
+    "totalRegistered": 14463,
+    "totalCheckedIn": 8470,
     "virtualCount": 225,
     "geocoded": 339,
     "districtFallback": 193,
     "unresolved": 27,
-    "uniqueAttendees": 5134,
-    "avgDailyAttendance": 73.4,
-    "totalProjects": 442,
-    "eventBasedProjects": 59,
-    "independentProjects": 383,
-    "uniquePeopleInProjects": 427
+    "uniqueAttendees": 5143,
+    "avgDailyAttendance": 73.7,
+    "totalProjects": 455,
+    "eventBasedProjects": 69,
+    "independentProjects": 386,
+    "uniquePeopleInProjects": 437
   },
   "byType": [
     {
