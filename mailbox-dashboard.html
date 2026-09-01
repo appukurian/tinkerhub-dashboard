@@ -4,382 +4,365 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>TinkerHub Mailbox Dashboard</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<script src="https://cdn.tailwindcss.com"></script>
-<script>
-  tailwind.config = {
-    theme: {
-      extend: {
-        colors: {
-          bg: '#f6f7fb',
-          card: '#ffffff',
-          ink: '#1c1f2a',
-          muted: '#6b7280',
-          border: '#e5e7eb',
-          accent: '#4f46e5',
-          'status-red': '#dc2626',
-          'status-red-bg': '#fee2e2',
-          'status-amber': '#d97706',
-          'status-amber-bg': '#fef3c7',
-          'status-blue': '#2563eb',
-          'status-blue-bg': '#dbeafe',
-          'status-green': '#16a34a',
-          'status-green-bg': '#dcfce7',
-          'status-gray': '#6b7280',
-          'status-gray-bg': '#f1f5f9',
-        },
-        fontFamily: {
-          sans: ['Inter', 'sans-serif'],
-        }
-      }
-    }
-  }
-</script>
 <style>
-  body {
-    font-family: 'Inter', sans-serif;
+  :root {
+    --bg: #f7f8fa;
+    --card-bg: #ffffff;
+    --border: #e3e6ea;
+    --text: #1c2126;
+    --muted: #6b7280;
+    --accent: #4f46e5;
+    --green: #16a34a;
+    --amber: #d97706;
+    --red: #dc2626;
+    --blue: #2563eb;
+    --gray: #6b7280;
   }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+  }
+  header {
+    padding: 24px 32px 8px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  header h1 { font-size: 22px; margin: 0; }
+  header .meta { color: var(--muted); font-size: 13px; }
+  .container { padding: 8px 32px 48px; max-width: 1200px; margin: 0 auto; }
+
+  .summary-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 12px;
+    margin: 16px 0 28px;
+  }
+  .card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 16px;
+  }
+  .card .num { font-size: 26px; font-weight: 700; }
+  .card .label { font-size: 12.5px; color: var(--muted); margin-top: 2px; }
+
+  .status-No-response .num { color: var(--red); }
+  .status-Awaiting-reply-from-us .num { color: var(--amber); }
+  .status-Awaiting-reply-from-them .num { color: var(--blue); }
+  .status-Resolved .num { color: var(--green); }
+  .status-Informational .num { color: var(--gray); }
+
   table {
     width: 100%;
     border-collapse: collapse;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 13.5px;
   }
-  th, td {
-    padding: 10px 14px;
-    vertical-align: top;
-    border-bottom: 1px solid #e5e7eb;
-  }
-  tr:last-child td {
-    border-bottom: none;
-  }
-  tbody tr {
-    transition: background-color 0.15s ease;
-  }
-  tbody tr:hover {
-    background-color: #f9fafb;
-  }
-  .num {
-    text-align: right;
-    font-variant-numeric: tabular-nums;
-  }
-  th.num {
-    text-align: right;
-  }
-  .badge {
-    display: inline-flex;
-    align-items: center;
-    padding: 2px 8px;
-    border-radius: 9999px;
-    font-size: 11px;
+  thead th {
+    text-align: left;
+    background: #fafbfc;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border);
+    color: var(--muted);
     font-weight: 600;
-    line-height: 1.2;
-    white-space: nowrap;
-    border: 1px solid transparent;
-  }
-  .badge.no-response { color: #dc2626; background: #fee2e2; border-color: #fca5a5; }
-  .badge.awaiting-us { color: #d97706; background: #fef3c7; border-color: #fde047; }
-  .badge.awaiting-them { color: #2563eb; background: #dbeafe; border-color: #bfdbfe; }
-  .badge.resolved { color: #16a34a; background: #dcfce7; border-color: #bbf7d0; }
-  .badge.info { color: #6b7280; background: #f1f5f9; border-color: #e5e7eb; }
-
-  .grp-pill {
-    display: inline-flex;
-    align-items: center;
-    padding: 2px 8px;
-    border-radius: 6px;
-    font-size: 11px;
-    font-weight: 600;
-    background-color: #f1f5f9;
-    color: #374151;
-    border: 1px solid #e5e7eb;
-  }
-  .days-open {
-    font-weight: 600;
-    font-variant-numeric: tabular-nums;
-  }
-  .days-warn {
-    color: #dc2626 !important;
-  }
-  .btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #e5e7eb;
-    background-color: #ffffff;
-    color: #1c1f2a;
-    padding: 6px 12px;
-    border-radius: 6px;
     font-size: 12px;
-    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+  }
+  tbody td {
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr:hover { background: #fafbff; }
+
+  h2 { font-size: 16px; margin: 32px 0 12px; }
+
+  .badge {
+    display: inline-block;
+    padding: 2px 9px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .badge-No-response { background: #fde8e8; color: var(--red); }
+  .badge-Awaiting-reply-from-us { background: #fef3e0; color: var(--amber); }
+  .badge-Awaiting-reply-from-them { background: #e0e9ff; color: var(--blue); }
+  .badge-Resolved { background: #e3f7e9; color: var(--green); }
+  .badge-Informational { background: #eef0f2; color: var(--gray); }
+
+  .group-pill {
+    display: inline-block;
+    padding: 1px 8px;
+    border-radius: 6px;
+    font-size: 11.5px;
+    font-weight: 600;
+    background: #f0f1f5;
+    color: #444;
+    text-transform: uppercase;
+  }
+
+  .filters {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin: 8px 0 16px;
+  }
+  .filters select, .filters input {
+    padding: 6px 10px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    font-size: 13px;
+    background: white;
+  }
+  .filters input { flex: 1; min-width: 180px; }
+
+  a.subject-link { color: var(--accent); text-decoration: none; font-weight: 500; }
+  a.subject-link:hover { text-decoration: underline; }
+
+  .counterpart-name { font-weight: 500; }
+  .counterpart-email { color: var(--muted); font-size: 12px; }
+
+  .note { color: var(--muted); font-size: 12.5px; font-style: italic; }
+
+  .days { font-variant-numeric: tabular-nums; color: var(--muted); font-size: 12.5px; }
+
+  .btn-close {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    background: #fff;
+    color: var(--text);
+    font-size: 12px;
+    text-decoration: none;
     cursor: pointer;
+    white-space: nowrap;
+  }
+  .btn-close:hover { background: #f5f5f7; border-color: #ccc; }
+  .btn-open {
+    display: inline-block;
+    font-size: 12px;
+    color: var(--accent);
     text-decoration: none;
-    line-height: 1.2;
-    transition: all 0.15s ease;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+    margin-top: 2px;
   }
-  .btn:hover {
-    background-color: #f1f5f9;
-    border-color: #cbd5e1;
-  }
-  .btn.reply {
-    color: #4f46e5;
-    border-color: #c7d2fe;
-    background-color: #f5f3ff;
-  }
-  .btn.reply:hover {
-    background-color: #ede9fe;
-    border-color: #a5b4fc;
-  }
-  .btn[disabled] {
-    opacity: 0.4;
-    cursor: not-allowed;
-    pointer-events: none;
-    box-shadow: none;
-  }
-  #threads-table td a:not(.btn) {
-    color: #4f46e5;
-    text-decoration: none;
-    font-weight: 500;
-  }
-  #threads-table td a:not(.btn):hover {
-    text-decoration: underline;
+
+  .actions-cell { white-space: nowrap; }
+
+  .analytics-table td, .analytics-table th { text-align: center; }
+  .analytics-table td:first-child, .analytics-table th:first-child { text-align: left; }
+
+  #empty-state {
+    text-align: center;
+    padding: 40px;
+    color: var(--muted);
+    display: none;
   }
 </style>
 </head>
-<body class="bg-bg text-ink min-h-screen p-4 md:p-8 transition-colors duration-200">
-<div class="max-w-7xl mx-auto mb-6 mt-0">
-  <nav class="flex items-center gap-1 flex-wrap bg-white border border-border rounded-xl shadow-sm px-2 py-1.5 text-[13px] font-medium w-fit">
-    <a href="mailbox-dashboard.html" class="px-3 py-1.5 rounded-lg transition-colors text-ink bg-bg font-semibold">Mailbox</a>
-    <a href="events-dashboard.html" class="px-3 py-1.5 rounded-lg transition-colors text-muted hover:text-ink hover:bg-bg/60">Events</a>
-    <a href="discord-dashboard.html" class="px-3 py-1.5 rounded-lg transition-colors text-muted hover:text-ink hover:bg-bg/60">Discord</a>
-    <a href="campus-dashboard.html" class="px-3 py-1.5 rounded-lg transition-colors text-muted hover:text-ink hover:bg-bg/60">Campus</a>
-    <a href="linear-dashboard.html" class="px-3 py-1.5 rounded-lg transition-colors text-muted hover:text-ink hover:bg-bg/60">Linear</a>
-  </nav>
-</div>
+<body>
 
+<header>
+  <h1>📬 TinkerHub Mailbox Dashboard</h1>
+  <div class="meta">Last refreshed: <span id="generated-at">—</span> · <button onclick="location.reload()" style="cursor:pointer;border:1px solid var(--border);background:white;border-radius:6px;padding:4px 10px;font-size:12px;">Reload</button></div>
+</header>
 
-<div class="max-w-7xl mx-auto">
-  <div class="mb-8">
-    <h1 class="text-2xl font-bold tracking-tight text-ink md:text-3xl">TinkerHub Mailbox Dashboard</h1>
-    <p class="text-sm text-muted mt-1.5" id="header-sub">campus@ · support@ · finance@ · report@tinkerhub.org — threads from the last 30 days</p>
+<div class="container">
+
+  <div class="summary-cards" id="summary-cards"></div>
+
+  <h2>Group Analytics</h2>
+  <table class="analytics-table" id="analytics-table">
+    <thead>
+      <tr>
+        <th>Group</th>
+        <th>Total</th>
+        <th>No response</th>
+        <th>Awaiting (us)</th>
+        <th>Awaiting (them)</th>
+        <th>Resolved</th>
+        <th>Informational</th>
+        <th>Avg days open</th>
+        <th>Avg days to resolve</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <h2>Threads</h2>
+  <div class="filters">
+    <select id="filter-group">
+      <option value="">All groups</option>
+      <option value="campus">Campus</option>
+      <option value="support">Support</option>
+      <option value="finance">Finance</option>
+      <option value="report">Report</option>
+    </select>
+    <select id="filter-status">
+      <option value="">All statuses</option>
+      <option value="No response">No response</option>
+      <option value="Awaiting reply (from us)">Awaiting reply (from us)</option>
+      <option value="Awaiting reply (from them)">Awaiting reply (from them)</option>
+      <option value="Resolved">Resolved</option>
+      <option value="Informational">Informational</option>
+    </select>
+    <input id="filter-search" type="text" placeholder="Search subject or counterpart…">
   </div>
 
-  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 mb-8">
-    <div class="bg-white border border-border rounded-xl p-5 shadow-sm transition-all hover:shadow-md">
-      <div class="text-3xl font-bold tracking-tight text-status-red" id="c-no-response">0</div>
-      <div class="text-[12.5px] font-medium text-muted mt-2 leading-tight">No response at all</div>
-    </div>
-    <div class="bg-white border border-border rounded-xl p-5 shadow-sm transition-all hover:shadow-md">
-      <div class="text-3xl font-bold tracking-tight text-status-amber" id="c-awaiting-us">0</div>
-      <div class="text-[12.5px] font-medium text-muted mt-2 leading-tight">Awaiting reply — from us</div>
-    </div>
-    <div class="bg-white border border-border rounded-xl p-5 shadow-sm transition-all hover:shadow-md">
-      <div class="text-3xl font-bold tracking-tight text-status-blue" id="c-awaiting-them">0</div>
-      <div class="text-[12.5px] font-medium text-muted mt-2 leading-tight">Awaiting reply — from them</div>
-    </div>
-    <div class="bg-white border border-border rounded-xl p-5 shadow-sm transition-all hover:shadow-md">
-      <div class="text-3xl font-bold tracking-tight text-status-green" id="c-resolved">0</div>
-      <div class="text-[12.5px] font-medium text-muted mt-2 leading-tight">Resolved</div>
-    </div>
-    <div class="bg-white border border-border rounded-xl p-5 shadow-sm transition-all hover:shadow-md">
-      <div class="text-3xl font-bold tracking-tight text-status-gray" id="c-info">0</div>
-      <div class="text-[12.5px] font-medium text-muted mt-2 leading-tight">Informational</div>
-    </div>
-  </div>
+  <table id="threads-table">
+    <thead>
+      <tr>
+        <th>Group</th>
+        <th>Subject</th>
+        <th>Counterpart</th>
+        <th>Received</th>
+        <th>Last activity</th>
+        <th>Status</th>
+        <th>Note</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody id="threads-body"></tbody>
+  </table>
+  <div id="empty-state">No threads match these filters.</div>
 
-  <section class="bg-white border border-border rounded-xl p-5 md:p-6 mb-8 shadow-sm">
-    <h2 class="text-base font-semibold text-ink mb-4">Group-wise analytics</h2>
-    <div class="overflow-x-auto">
-      <table id="analytics-table" class="min-w-full text-[13.5px] text-left">
-        <thead>
-          <tr class="border-b border-border">
-            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider">Group</th>
-            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider text-right">Total</th>
-            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider text-right">No response</th>
-            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider text-right">Awaiting (us)</th>
-            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider text-right">Awaiting (them)</th>
-            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider text-right">Resolved</th>
-            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider text-right">Informational</th>
-            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider text-right">Avg days open</th>
-            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider text-right">Avg days to resolved</th>
-          </tr>
-        </thead>
-        <tbody class="divide-y divide-border/60"></tbody>
-      </table>
-    </div>
-  </section>
-
-  <section class="bg-white border border-border rounded-xl p-5 md:p-6 mb-8 shadow-sm">
-    <h2 class="text-base font-semibold text-ink mb-4">Threads</h2>
-    <div class="flex flex-col md:flex-row md:items-center gap-3 mb-5">
-      <select id="f-group" class="rounded-lg border border-border px-3 py-2 text-sm bg-white text-ink shadow-sm focus:outline-none focus:ring-2 focus:ring-accent/20 focus:border-accent cursor-pointer transition-all">
-        <option value="">All groups</option>
-        <option value="campus">campus</option>
-        <option value="support">support</option>
-        <option value="finance">finance</option>
-        <option value="report">report</option>
-      </select>
-      <select id="f-status" class="rounded-lg border border-border px-3 py-2 text-sm bg-white text-ink shadow-sm focus:outline-none focus:ring-2 focus:ring-accent/20 focus:border-accent cursor-pointer transition-all">
-        <option value="">All statuses</option>
-        <option value="No response">No response</option>
-        <option value="Awaiting reply (from us)">Awaiting reply (from us)</option>
-        <option value="Awaiting reply (from them)">Awaiting reply (from them)</option>
-        <option value="Resolved">Resolved</option>
-        <option value="Informational">Informational</option>
-      </select>
-      <input id="f-search" type="text" placeholder="Search subject or sender…" class="flex-1 rounded-lg border border-border px-3 py-2 text-sm bg-white text-ink shadow-sm placeholder:text-muted focus:outline-none focus:ring-2 focus:ring-accent/20 focus:border-accent transition-all">
-      <span class="text-xs text-muted font-medium ml-auto md:self-center" id="f-count"></span>
-    </div>
-    <div class="overflow-x-auto">
-      <table id="threads-table" class="min-w-full text-[13.5px] text-left">
-        <thead>
-          <tr class="border-b border-border">
-            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider">Group</th>
-            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider">Subject</th>
-            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider">Counterpart</th>
-            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider">Received</th>
-            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider">Status</th>
-            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider text-right">Days</th>
-            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider">Note</th>
-            <th class="pb-3 text-[11px] font-bold text-muted uppercase tracking-wider">Actions</th>
-          </tr>
-        </thead>
-        <tbody class="divide-y divide-border/60"></tbody>
-      </table>
-    </div>
-  </section>
-
-  <footer id="footer-note" class="mt-8 text-center text-xs text-muted border-t border-border pt-6 leading-relaxed">"Days" = days since the last message in the thread. Newest activity first.</footer>
 </div>
 
 <script src="dashboard-data.js"></script>
 <script>
-const DATA = window.DASHBOARD_DATA;
+(function() {
+  const DATA = window.DASHBOARD_DATA || { generatedAt: '', threads: [], summary: {}, analytics: {} };
 
-const statusClass = {
-  "No response":"no-response",
-  "Awaiting reply (from us)":"awaiting-us",
-  "Awaiting reply (from them)":"awaiting-them",
-  "Resolved":"resolved",
-  "Informational":"info"
-};
+  document.getElementById('generated-at').textContent = DATA.generatedAt || '—';
 
-function recompute(threads){
-  const groups = ["campus","support","finance","report"];
-  const statuses = ["No response","Awaiting reply (from us)","Awaiting reply (from them)","Resolved","Informational"];
-  const openStatuses = new Set(["No response","Awaiting reply (from us)","Awaiting reply (from them)"]);
+  function slug(status) {
+    return status.replace(/[^a-zA-Z]+/g, '-').replace(/^-|-$/g, '');
+  }
 
-  const summary = {};
-  statuses.forEach(s=>summary[s]=0);
-  threads.forEach(t=>summary[t.status] = (summary[t.status]||0) + 1);
+  // Summary cards
+  const statusOrder = ['No response', 'Awaiting reply (from us)', 'Awaiting reply (from them)', 'Resolved', 'Informational'];
+  const summaryEl = document.getElementById('summary-cards');
+  const totalThreads = DATA.threads.length;
+  summaryEl.innerHTML = `<div class="card"><div class="num">${totalThreads}</div><div class="label">Total threads (30d)</div></div>` +
+    statusOrder.map(s => {
+      const count = DATA.summary[s] || 0;
+      return `<div class="card status-${slug(s)}"><div class="num">${count}</div><div class="label">${s}</div></div>`;
+    }).join('');
 
-  const analytics = {};
-  groups.forEach(g=>{
-    const gt = threads.filter(t=>t.group===g);
-    const row = {total: gt.length};
-    statuses.forEach(s=> row[s] = gt.filter(t=>t.status===s).length);
-    const openDays = gt.filter(t=>openStatuses.has(t.status)).map(t=>t.daysOpen);
-    const resolvedDays = gt.filter(t=>t.status==="Resolved").map(t=>t.daysOpen);
-    row.avgOpenDays = openDays.length ? Math.round(openDays.reduce((a,b)=>a+b,0)/openDays.length*10)/10 : null;
-    row.avgResolvedDays = resolvedDays.length ? Math.round(resolvedDays.reduce((a,b)=>a+b,0)/resolvedDays.length*10)/10 : null;
-    analytics[g] = row;
-  });
-  return {summary, analytics};
-}
+  // Analytics table
+  const groups = ['campus', 'support', 'finance', 'report'];
+  const analyticsBody = document.querySelector('#analytics-table tbody');
+  analyticsBody.innerHTML = groups.map(g => {
+    const a = DATA.analytics[g] || { total: 0, counts: {}, avgOpenDays: 0, avgResolvedDays: 0 };
+    const c = a.counts || {};
+    return `<tr>
+      <td style="text-transform:capitalize;font-weight:600;">${g}</td>
+      <td>${a.total || 0}</td>
+      <td>${c['No response'] || 0}</td>
+      <td>${c['Awaiting reply (from us)'] || 0}</td>
+      <td>${c['Awaiting reply (from them)'] || 0}</td>
+      <td>${c['Resolved'] || 0}</td>
+      <td>${c['Informational'] || 0}</td>
+      <td>${a.avgOpenDays ?? 0}d</td>
+      <td>${a.avgResolvedDays ?? 0}d</td>
+    </tr>`;
+  }).join('');
 
-function renderSummary(summary){
-  document.getElementById("c-no-response").textContent = summary["No response"]||0;
-  document.getElementById("c-awaiting-us").textContent = summary["Awaiting reply (from us)"]||0;
-  document.getElementById("c-awaiting-them").textContent = summary["Awaiting reply (from them)"]||0;
-  document.getElementById("c-resolved").textContent = summary["Resolved"]||0;
-  document.getElementById("c-info").textContent = summary["Informational"]||0;
-}
+  // Threads table
+  const tbody = document.getElementById('threads-body');
+  const emptyState = document.getElementById('empty-state');
+  const filterGroup = document.getElementById('filter-group');
+  const filterStatus = document.getElementById('filter-status');
+  const filterSearch = document.getElementById('filter-search');
 
-function renderAnalytics(analytics){
-  const tbody = document.querySelector("#analytics-table tbody");
-  tbody.innerHTML = "";
-  ["campus","support","finance","report"].forEach(g=>{
-    const a = analytics[g];
-    if(!a) return;
-    const tr = document.createElement("tr");
-    tr.innerHTML = `
-      <td><span class="grp-pill">${g}</span></td>
-      <td class="num">${a.total}</td>
-      <td class="num">${a["No response"]||0}</td>
-      <td class="num">${a["Awaiting reply (from us)"]||0}</td>
-      <td class="num">${a["Awaiting reply (from them)"]||0}</td>
-      <td class="num">${a["Resolved"]||0}</td>
-      <td class="num">${a["Informational"]||0}</td>
-      <td class="num">${a.avgOpenDays!==null ? a.avgOpenDays+"d" : "—"}</td>
-      <td class="num">${a.avgResolvedDays!==null ? a.avgResolvedDays+"d" : "—"}</td>
-    `;
-    tbody.appendChild(tr);
-  });
-}
+  function escapeHtml(str) {
+    return String(str || '').replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+  }
 
-function escapeHtml(s){
-  return String(s||"").replace(/[&<>"']/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-}
+  function buildCloseHref(t) {
+    const to = t.email || '';
+    const cc = (t.cc || []).join(',');
+    const subject = 'Re: ' + t.subject;
+    const body = `Hi,\n\nFollowing up — this thread has been quiet for ${t.daysOpen} day(s), so we're closing it out on our end. Please reach back out if anything is still outstanding.\n\nThanks,\nTinkerHub`;
+    const params = new URLSearchParams({
+      view: 'cm',
+      fs: '1',
+      to: to,
+      cc: cc,
+      su: subject,
+      body: body
+    });
+    return `https://mail.google.com/mail/?${params.toString()}`;
+  }
 
-function renderThreads(){
-  const g = document.getElementById("f-group").value;
-  const s = document.getElementById("f-status").value;
-  const q = document.getElementById("f-search").value.trim().toLowerCase();
+  function render() {
+    const g = filterGroup.value;
+    const s = filterStatus.value;
+    const q = filterSearch.value.trim().toLowerCase();
 
-  const {summary, analytics} = recompute(DATA.threads);
-  renderSummary(summary);
-  renderAnalytics(analytics);
+    let rows = DATA.threads.slice().sort((a, b) => (a.last < b.last ? 1 : a.last > b.last ? -1 : 0));
 
-  const rows = DATA.threads.filter(t=>{
-    if(g && t.group!==g) return false;
-    if(s && t.status!==s) return false;
-    if(q && !(t.subject.toLowerCase().includes(q) || t.counterpart.toLowerCase().includes(q))) return false;
-    return true;
-  }).sort((a,b)=> new Date(b.last) - new Date(a.last));
+    rows = rows.filter(t => {
+      if (g && t.group !== g) return false;
+      if (s && t.status !== s) return false;
+      if (q) {
+        const hay = (t.subject + ' ' + t.counterpart + ' ' + (t.email || '')).toLowerCase();
+        if (!hay.includes(q)) return false;
+      }
+      return true;
+    });
 
-  const tbody = document.querySelector("#threads-table tbody");
-  tbody.innerHTML = "";
-  rows.forEach(t=>{
-    const cls = statusClass[t.status] || "info";
-    const warn = (t.status!=="Resolved" && t.status!=="Informational" && t.daysOpen>=7) ? "days-warn" : "";
+    if (rows.length === 0) {
+      tbody.innerHTML = '';
+      emptyState.style.display = 'block';
+      return;
+    }
+    emptyState.style.display = 'none';
 
-    // Subject and "Open in Gmail" open the real thread (same logged-in Chrome session).
-    const gmailHref = t.threadId ? `https://mail.google.com/mail/u/0/#all/${t.threadId}` : null;
-    const subjectHtml = gmailHref
-      ? `<a href="${gmailHref}" target="_blank" rel="noopener">${escapeHtml(t.subject)}</a>`
-      : escapeHtml(t.subject);
+    tbody.innerHTML = rows.map(t => {
+      const gmailUrl = `https://mail.google.com/mail/u/0/#all/${t.threadId}`;
+      const canClose = t.status !== 'Resolved' && t.status !== 'Informational';
+      const closeBtn = canClose
+        ? `<a class="btn-close" href="${buildCloseHref(t)}" target="_blank" rel="noopener">Close…</a>`
+        : '';
+      return `<tr>
+        <td><span class="group-pill">${escapeHtml(t.group)}</span></td>
+        <td>
+          <a class="subject-link" href="${gmailUrl}" target="_blank" rel="noopener">${escapeHtml(t.subject)}</a><br>
+          <a class="btn-open" href="${gmailUrl}" target="_blank" rel="noopener">Open in Gmail →</a>
+        </td>
+        <td>
+          <div class="counterpart-name">${escapeHtml(t.counterpart)}</div>
+          ${t.email ? `<div class="counterpart-email">${escapeHtml(t.email)}</div>` : ''}
+        </td>
+        <td class="days">${t.received}<br>(${t.daysSinceReceived}d ago)</td>
+        <td class="days">${t.last}</td>
+        <td><span class="badge badge-${slug(t.status)}">${escapeHtml(t.status)}</span></td>
+        <td class="note">${escapeHtml(t.note || '')}</td>
+        <td class="actions-cell">${closeBtn}</td>
+      </tr>`;
+    }).join('');
+  }
 
-    const replyBtn = gmailHref
-      ? `<a class="btn reply" href="${gmailHref}" target="_blank" rel="noopener">Open in Gmail</a>`
-      : `<button class="btn reply" disabled title="No thread reference for this row">Open</button>`;
-    const actionsHtml = `<div class="actions">${replyBtn}</div>`;
+  filterGroup.addEventListener('change', render);
+  filterStatus.addEventListener('change', render);
+  filterSearch.addEventListener('input', render);
 
-    const badgeText = t.status;
-
-    const tr = document.createElement("tr");
-    tr.innerHTML = `
-      <td><span class="grp-pill">${t.group}</span></td>
-      <td>${subjectHtml}</td>
-      <td>${escapeHtml(t.counterpart)}</td>
-      <td>${t.received||""}</td>
-      <td><span class="badge ${cls}">${badgeText}</span></td>
-      <td class="num days-open ${warn}">${t.daysOpen}</td>
-      <td class="note">${escapeHtml(t.note||"")}</td>
-      <td>${actionsHtml}</td>
-    `;
-    tbody.appendChild(tr);
-  });
-  document.getElementById("f-count").textContent = rows.length + " of " + DATA.threads.length + " threads";
-}
-
-["f-group","f-status"].forEach(id=>document.getElementById(id).addEventListener("change", renderThreads));
-document.getElementById("f-search").addEventListener("input", renderThreads);
-
-document.getElementById("header-sub").textContent =
-  "campus@ · support@ · finance@ · report@tinkerhub.org — threads from the last 30 days · data as of " + (DATA.generatedAt || "unknown date");
-
-renderThreads();
+  render();
+})();
 </script>
+
 </body>
 </html>
