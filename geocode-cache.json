@@ -249,6 +249,11 @@
     "lng": 76.0887232,
     "source": "nominatim"
   },
+  "https://www.google.com/maps/search/?api=1&query=Baselios%20Marthoma%20Mathews%20II%20Training%20College%2C%20Kottarakara%2C%20kollam": {
+    "lat": null,
+    "lng": null,
+    "source": "unresolved"
+  },
   "https://www.google.com/maps/search/?api=1&query=Carmel%20College%20of%20Engineering%20and%20Technology%2C%20Punnapra%20PO%2C%20alappuzha%20688004": {
     "lat": null,
     "lng": null,
