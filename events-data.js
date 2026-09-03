@@ -2,7 +2,7 @@
 // Do NOT hand-edit -- this file is overwritten on each run.
 window.EVENTS_DATA = {
   "generatedAt": "2026-09-03",
-  "generatedAtIso": "2026-09-03T18:19:06.974393+00:00",
+  "generatedAtIso": "2026-09-03T22:57:32.711848+00:00",
   "windowSinceDate": "2026-04-01",
   "windowUntilDate": "2027-03-31",
   "events": [
@@ -22965,7 +22965,7 @@ window.EVENTS_DATA = {
       "lat": null,
       "lng": null,
       "locationSource": "unresolved",
-      "registered": 1935,
+      "registered": 1937,
       "checkedIn": 471,
       "checkedInAttendeeIds": [
         1158,
@@ -23906,7 +23906,7 @@ window.EVENTS_DATA = {
       "lat": 11.828,
       "lng": 75.3136,
       "locationSource": "district_fallback",
-      "registered": 1,
+      "registered": 2,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -30080,14 +30080,42 @@ window.EVENTS_DATA = {
         52610,
         52611
       ]
+    },
+    {
+      "id": 8123,
+      "eventBased": false,
+      "eventId": null,
+      "createdAt": "2026-09-03T23:51:08.401944+05:30",
+      "collaboratorIds": [
+        48054
+      ]
+    },
+    {
+      "id": 8124,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-03T23:54:52.299819+05:30",
+      "collaboratorIds": [
+        48054,
+        52077
+      ]
+    },
+    {
+      "id": 8125,
+      "eventBased": false,
+      "eventId": null,
+      "createdAt": "2026-09-04T01:21:54.04953+05:30",
+      "collaboratorIds": [
+        47526
+      ]
     }
   ],
   "summary": {
     "totalEvents": 618,
-    "todayCount": 14,
-    "upcomingCount": 11,
-    "pastCount": 593,
-    "totalRegistered": 17675,
+    "todayCount": 2,
+    "upcomingCount": 9,
+    "pastCount": 607,
+    "totalRegistered": 17678,
     "totalCheckedIn": 10525,
     "virtualCount": 244,
     "geocoded": 367,
@@ -30095,10 +30123,10 @@ window.EVENTS_DATA = {
     "unresolved": 27,
     "uniqueAttendees": 6184,
     "avgDailyAttendance": 87.7,
-    "totalProjects": 663,
-    "eventBasedProjects": 142,
-    "independentProjects": 521,
-    "uniquePeopleInProjects": 637
+    "totalProjects": 666,
+    "eventBasedProjects": 143,
+    "independentProjects": 523,
+    "uniquePeopleInProjects": 640
   },
   "byType": [
     {
