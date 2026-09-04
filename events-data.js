@@ -2,7 +2,7 @@
 // Do NOT hand-edit -- this file is overwritten on each run.
 window.EVENTS_DATA = {
   "generatedAt": "2026-09-04",
-  "generatedAtIso": "2026-09-04T02:46:40.611386+00:00",
+  "generatedAtIso": "2026-09-04T07:40:41.410696+00:00",
   "windowSinceDate": "2026-04-01",
   "windowUntilDate": "2027-03-31",
   "events": [
@@ -11091,6 +11091,32 @@ window.EVENTS_DATA = {
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=TKM%20College%20of%20Engineering%2C%20Karicode%2C%20kollam%20691005"
     },
     {
+      "id": 3494,
+      "name": "AI wednesday",
+      "type": "Bootcamp",
+      "typeColor": "#db2777",
+      "status": "published",
+      "start": "2026-08-05T19:00:00+05:30",
+      "end": "2026-08-05T20:30:00+05:30",
+      "isVirtual": false,
+      "campusName": null,
+      "district": null,
+      "address": null,
+      "lat": 10.0469797,
+      "lng": 76.3351998,
+      "locationSource": "maps_link",
+      "registered": 15,
+      "checkedIn": 4,
+      "checkedInAttendeeIds": [
+        1486,
+        5635,
+        5666,
+        42820
+      ],
+      "seats": null,
+      "mapUrl": "https://maps.app.goo.gl/j8w832j2VkvJPGeSA"
+    },
+    {
       "id": 3535,
       "name": "\ud83d\udcda Session: Vibe Coding Implementation Lab",
       "type": "Learning_Program",
@@ -11123,32 +11149,6 @@ window.EVENTS_DATA = {
       ],
       "seats": 0,
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sree%20Buddha%20College%20of%20Engineering%2CPattoor%20PO%2C%20Padanilam%2C%20Nooranad%2Calappuzha"
-    },
-    {
-      "id": 3494,
-      "name": "AI wednesday",
-      "type": "Bootcamp",
-      "typeColor": "#db2777",
-      "status": "published",
-      "start": "2026-08-05T19:00:00+05:30",
-      "end": "2026-08-05T20:30:00+05:30",
-      "isVirtual": false,
-      "campusName": null,
-      "district": null,
-      "address": null,
-      "lat": 10.0469797,
-      "lng": 76.3351998,
-      "locationSource": "maps_link",
-      "registered": 15,
-      "checkedIn": 4,
-      "checkedInAttendeeIds": [
-        1486,
-        5635,
-        5666,
-        42820
-      ],
-      "seats": null,
-      "mapUrl": "https://maps.app.goo.gl/j8w832j2VkvJPGeSA"
     },
     {
       "id": 3530,
@@ -11190,6 +11190,40 @@ window.EVENTS_DATA = {
       ],
       "seats": null,
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=LBS%20Institute%20of%20Technology%20forWomen%2C%20Poojappura%2C%20thiruvananthapuram%20695%20012"
+    },
+    {
+      "id": 3533,
+      "name": "Figma Fiesta - Day 2",
+      "type": "Learning_Program",
+      "typeColor": "#2563eb",
+      "status": "published",
+      "start": "2026-08-05T20:00:00+05:30",
+      "end": "2026-08-05T21:00:00+05:30",
+      "isVirtual": true,
+      "campusName": "College of Engineering, Karunagappally",
+      "district": "kollam",
+      "address": "College of Engineering, Thodiyoor PO, Karunagappally, kollam 690 523",
+      "lat": 9.0645863,
+      "lng": 76.5569874,
+      "locationSource": "maps_link",
+      "registered": 13,
+      "checkedIn": 12,
+      "checkedInAttendeeIds": [
+        11747,
+        23448,
+        30577,
+        31624,
+        32134,
+        33506,
+        35599,
+        36233,
+        38553,
+        38614,
+        46815,
+        46818
+      ],
+      "seats": 0,
+      "mapUrl": "https://maps.app.goo.gl/TRFp9Lz5D5sZgUhH8"
     },
     {
       "id": 3554,
@@ -11240,40 +11274,6 @@ window.EVENTS_DATA = {
       ],
       "seats": null,
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Christ%20College%20of%20Engineering%2C%20Christ%20College%20Road%2C%20Irinjalakuda%2C%20thrissur%20680125"
-    },
-    {
-      "id": 3533,
-      "name": "Figma Fiesta - Day 2",
-      "type": "Learning_Program",
-      "typeColor": "#2563eb",
-      "status": "published",
-      "start": "2026-08-05T20:00:00+05:30",
-      "end": "2026-08-05T21:00:00+05:30",
-      "isVirtual": true,
-      "campusName": "College of Engineering, Karunagappally",
-      "district": "kollam",
-      "address": "College of Engineering, Thodiyoor PO, Karunagappally, kollam 690 523",
-      "lat": 9.0645863,
-      "lng": 76.5569874,
-      "locationSource": "maps_link",
-      "registered": 13,
-      "checkedIn": 12,
-      "checkedInAttendeeIds": [
-        11747,
-        23448,
-        30577,
-        31624,
-        32134,
-        33506,
-        35599,
-        36233,
-        38553,
-        38614,
-        46815,
-        46818
-      ],
-      "seats": 0,
-      "mapUrl": "https://maps.app.goo.gl/TRFp9Lz5D5sZgUhH8"
     },
     {
       "id": 3504,
@@ -11546,6 +11546,33 @@ window.EVENTS_DATA = {
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=College%20of%20Engineering%2C%20Attingal%2C%20thiruvananthapuram%20695101"
     },
     {
+      "id": 3558,
+      "name": "Figma Fiesta \u2013 Hands-on Design",
+      "type": "Learning_Program",
+      "typeColor": "#2563eb",
+      "status": "published",
+      "start": "2026-08-06T16:00:00+05:30",
+      "end": "2026-08-06T17:00:00+05:30",
+      "isVirtual": false,
+      "campusName": "College of Engineering, Karunagappally",
+      "district": "kollam",
+      "address": "College of Engineering, Thodiyoor PO, Karunagappally, kollam 690 523",
+      "lat": 9.0645863,
+      "lng": 76.5569874,
+      "locationSource": "maps_link",
+      "registered": 5,
+      "checkedIn": 5,
+      "checkedInAttendeeIds": [
+        11747,
+        30556,
+        32134,
+        33506,
+        35599
+      ],
+      "seats": 0,
+      "mapUrl": "https://maps.app.goo.gl/TRFp9Lz5D5sZgUhH8"
+    },
+    {
       "id": 3560,
       "name": "chayem puffsum",
       "type": "Meetup",
@@ -11611,33 +11638,6 @@ window.EVENTS_DATA = {
       ],
       "seats": null,
       "mapUrl": "https://maps.app.goo.gl/5Fo8Q5QwjfWXd7MB6"
-    },
-    {
-      "id": 3558,
-      "name": "Figma Fiesta \u2013 Hands-on Design",
-      "type": "Learning_Program",
-      "typeColor": "#2563eb",
-      "status": "published",
-      "start": "2026-08-06T16:00:00+05:30",
-      "end": "2026-08-06T17:00:00+05:30",
-      "isVirtual": false,
-      "campusName": "College of Engineering, Karunagappally",
-      "district": "kollam",
-      "address": "College of Engineering, Thodiyoor PO, Karunagappally, kollam 690 523",
-      "lat": 9.0645863,
-      "lng": 76.5569874,
-      "locationSource": "maps_link",
-      "registered": 5,
-      "checkedIn": 5,
-      "checkedInAttendeeIds": [
-        11747,
-        30556,
-        32134,
-        33506,
-        35599
-      ],
-      "seats": 0,
-      "mapUrl": "https://maps.app.goo.gl/TRFp9Lz5D5sZgUhH8"
     },
     {
       "id": 3546,
@@ -12042,29 +12042,6 @@ window.EVENTS_DATA = {
       "mapUrl": "https://maps.app.goo.gl/UvmcrSF9rD7kASbXA"
     },
     {
-      "id": 3573,
-      "name": "Tinkertalk",
-      "type": "Talk_Session",
-      "typeColor": "#d97706",
-      "status": "published",
-      "start": "2026-08-07T19:30:00+05:30",
-      "end": "2026-08-07T21:00:00+05:30",
-      "isVirtual": true,
-      "campusName": "Al Azhar College of Engineering & Technology, Perumpillichira",
-      "district": "idukki",
-      "address": "Al Azhar College of Engineering & Technology, Perumpillichira PO, Thodupuzha, idukki 685605",
-      "lat": 9.80918,
-      "lng": 76.98396,
-      "locationSource": "district_fallback",
-      "registered": 6,
-      "checkedIn": 1,
-      "checkedInAttendeeIds": [
-        43585
-      ],
-      "seats": null,
-      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Al%20Azhar%20College%20of%20Engineering%20%26%20Technology%2C%20Perumpillichira%20PO%2C%20Thodupuzha%2C%20idukki%20685605"
-    },
-    {
       "id": 3544,
       "name": "Hello! CHATGPT Eth onnu fix akkuvoo? Day 2",
       "type": "Learning_Program",
@@ -12111,6 +12088,60 @@ window.EVENTS_DATA = {
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Jyothi%20Engineering%20College%2C%20Jyothi%20Hills%2C%20Panjal%20Road%2C%20Vettikattiri%20PO%2C%20Cheruthuthuruthy%2C%20thrissur%20679531"
     },
     {
+      "id": 3573,
+      "name": "Tinkertalk",
+      "type": "Talk_Session",
+      "typeColor": "#d97706",
+      "status": "published",
+      "start": "2026-08-07T19:30:00+05:30",
+      "end": "2026-08-07T21:00:00+05:30",
+      "isVirtual": true,
+      "campusName": "Al Azhar College of Engineering & Technology, Perumpillichira",
+      "district": "idukki",
+      "address": "Al Azhar College of Engineering & Technology, Perumpillichira PO, Thodupuzha, idukki 685605",
+      "lat": 9.80918,
+      "lng": 76.98396,
+      "locationSource": "district_fallback",
+      "registered": 6,
+      "checkedIn": 1,
+      "checkedInAttendeeIds": [
+        43585
+      ],
+      "seats": null,
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Al%20Azhar%20College%20of%20Engineering%20%26%20Technology%2C%20Perumpillichira%20PO%2C%20Thodupuzha%2C%20idukki%20685605"
+    },
+    {
+      "id": 3551,
+      "name": "Rapid Prototyping with Node-RED and MQTT",
+      "type": "Bootcamp",
+      "typeColor": "#db2777",
+      "status": "published",
+      "start": "2026-08-07T20:00:00+05:30",
+      "end": "2026-08-07T21:00:00+05:30",
+      "isVirtual": true,
+      "campusName": null,
+      "district": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "locationSource": "unresolved",
+      "registered": 85,
+      "checkedIn": 9,
+      "checkedInAttendeeIds": [
+        11519,
+        17694,
+        21495,
+        24535,
+        24913,
+        26742,
+        44762,
+        47259,
+        47269
+      ],
+      "seats": null,
+      "mapUrl": null
+    },
+    {
       "id": 3562,
       "name": "O-\u0d2a\u0d46\u0d7a-\u0d2e\u0d48\u0d15\u0d4d\u0d15\u0d4d",
       "type": "Talk_Session",
@@ -12147,37 +12178,6 @@ window.EVENTS_DATA = {
       "mapUrl": "https://maps.app.goo.gl/yfA7oo82BmV9a4Xp6"
     },
     {
-      "id": 3551,
-      "name": "Rapid Prototyping with Node-RED and MQTT",
-      "type": "Bootcamp",
-      "typeColor": "#db2777",
-      "status": "published",
-      "start": "2026-08-07T20:00:00+05:30",
-      "end": "2026-08-07T21:00:00+05:30",
-      "isVirtual": true,
-      "campusName": null,
-      "district": null,
-      "address": null,
-      "lat": null,
-      "lng": null,
-      "locationSource": "unresolved",
-      "registered": 85,
-      "checkedIn": 9,
-      "checkedInAttendeeIds": [
-        11519,
-        17694,
-        21495,
-        24535,
-        24913,
-        26742,
-        44762,
-        47259,
-        47269
-      ],
-      "seats": null,
-      "mapUrl": null
-    },
-    {
       "id": 3578,
       "name": "Core Caf\u00e9",
       "type": "Core_Team_Meeting",
@@ -12203,6 +12203,27 @@ window.EVENTS_DATA = {
       "mapUrl": "https://maps.app.goo.gl/sUbgK8coWLW9ecB39"
     },
     {
+      "id": 3576,
+      "name": "Core Team Meeting",
+      "type": "Core_Team_Meeting",
+      "typeColor": "#6b7280",
+      "status": "published",
+      "start": "2026-08-07T21:30:00+05:30",
+      "end": "2026-08-07T23:00:00+05:30",
+      "isVirtual": true,
+      "campusName": "Model Engineering College, Thrikkakara",
+      "district": "ernakulam",
+      "address": "Model Engineering College, Thrikkakara, Kochi 682021",
+      "lat": 10.0283637,
+      "lng": 76.3285124,
+      "locationSource": "maps_link",
+      "registered": 3,
+      "checkedIn": 0,
+      "checkedInAttendeeIds": [],
+      "seats": null,
+      "mapUrl": "https://maps.app.goo.gl/3ye4p8MtAjDWPCrS9"
+    },
+    {
       "id": 3572,
       "name": "TinkerTalks",
       "type": "Meetup",
@@ -12226,27 +12247,6 @@ window.EVENTS_DATA = {
       ],
       "seats": null,
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=College%20of%20Engineering%20Trikaripur%2C%20PO%20Cheemeni%2C%20kasaragod%20671313"
-    },
-    {
-      "id": 3576,
-      "name": "Core Team Meeting",
-      "type": "Core_Team_Meeting",
-      "typeColor": "#6b7280",
-      "status": "published",
-      "start": "2026-08-07T21:30:00+05:30",
-      "end": "2026-08-07T23:00:00+05:30",
-      "isVirtual": true,
-      "campusName": "Model Engineering College, Thrikkakara",
-      "district": "ernakulam",
-      "address": "Model Engineering College, Thrikkakara, Kochi 682021",
-      "lat": 10.0283637,
-      "lng": 76.3285124,
-      "locationSource": "maps_link",
-      "registered": 3,
-      "checkedIn": 0,
-      "checkedInAttendeeIds": [],
-      "seats": null,
-      "mapUrl": "https://maps.app.goo.gl/3ye4p8MtAjDWPCrS9"
     },
     {
       "id": 3508,
@@ -12285,30 +12285,6 @@ window.EVENTS_DATA = {
       "mapUrl": "https://maps.app.goo.gl/j8w832j2VkvJPGeSA"
     },
     {
-      "id": 3584,
-      "name": "Kalapila",
-      "type": "Core_Team_Meeting",
-      "typeColor": "#6b7280",
-      "status": "published",
-      "start": "2026-08-08T15:00:00+05:30",
-      "end": "2026-08-08T15:50:00+05:30",
-      "isVirtual": true,
-      "campusName": "Vimal Jyothi Engineering College, Chemperi",
-      "district": "kannur",
-      "address": "Vimal Jyothi Engineering College, Jyothi Nagar, Chemperi, kannur-670 632",
-      "lat": 12.0978918,
-      "lng": 75.5604206,
-      "locationSource": "maps_link",
-      "registered": 3,
-      "checkedIn": 2,
-      "checkedInAttendeeIds": [
-        17185,
-        44067
-      ],
-      "seats": null,
-      "mapUrl": "https://maps.app.goo.gl/c2tZQKnY6sz3MFXEA"
-    },
-    {
       "id": 3509,
       "name": "Introduction to Quantum computing: Exploring Qiskit",
       "type": "Workshop",
@@ -12339,6 +12315,30 @@ window.EVENTS_DATA = {
       ],
       "seats": null,
       "mapUrl": "https://maps.app.goo.gl/j8w832j2VkvJPGeSA"
+    },
+    {
+      "id": 3584,
+      "name": "Kalapila",
+      "type": "Core_Team_Meeting",
+      "typeColor": "#6b7280",
+      "status": "published",
+      "start": "2026-08-08T15:00:00+05:30",
+      "end": "2026-08-08T15:50:00+05:30",
+      "isVirtual": true,
+      "campusName": "Vimal Jyothi Engineering College, Chemperi",
+      "district": "kannur",
+      "address": "Vimal Jyothi Engineering College, Jyothi Nagar, Chemperi, kannur-670 632",
+      "lat": 12.0978918,
+      "lng": 75.5604206,
+      "locationSource": "maps_link",
+      "registered": 3,
+      "checkedIn": 2,
+      "checkedInAttendeeIds": [
+        17185,
+        44067
+      ],
+      "seats": null,
+      "mapUrl": "https://maps.app.goo.gl/c2tZQKnY6sz3MFXEA"
     },
     {
       "id": 3564,
@@ -12545,30 +12545,6 @@ window.EVENTS_DATA = {
       "mapUrl": null
     },
     {
-      "id": 3592,
-      "name": "WEEK3",
-      "type": "Learning_Program",
-      "typeColor": "#2563eb",
-      "status": "published",
-      "start": "2026-08-08T21:00:00+05:30",
-      "end": "2026-08-08T21:40:00+05:30",
-      "isVirtual": true,
-      "campusName": "College of Engineering, Trikaripur",
-      "district": "kasaragod",
-      "address": "College of Engineering Trikaripur, PO Cheemeni, kasaragod 671313",
-      "lat": 12.51708,
-      "lng": 75.01801,
-      "locationSource": "district_fallback",
-      "registered": 2,
-      "checkedIn": 2,
-      "checkedInAttendeeIds": [
-        10583,
-        30826
-      ],
-      "seats": 0,
-      "mapUrl": "https://www.google.com/maps/search/?api=1&query=College%20of%20Engineering%20Trikaripur%2C%20PO%20Cheemeni%2C%20kasaragod%20671313"
-    },
-    {
       "id": 3593,
       "name": "Core Team Meeting",
       "type": "Core_Team_Meeting",
@@ -12596,6 +12572,30 @@ window.EVENTS_DATA = {
       ],
       "seats": null,
       "mapUrl": "https://maps.app.goo.gl/ovZwKHbWRpcT2MUW8"
+    },
+    {
+      "id": 3592,
+      "name": "WEEK3",
+      "type": "Learning_Program",
+      "typeColor": "#2563eb",
+      "status": "published",
+      "start": "2026-08-08T21:00:00+05:30",
+      "end": "2026-08-08T21:40:00+05:30",
+      "isVirtual": true,
+      "campusName": "College of Engineering, Trikaripur",
+      "district": "kasaragod",
+      "address": "College of Engineering Trikaripur, PO Cheemeni, kasaragod 671313",
+      "lat": 12.51708,
+      "lng": 75.01801,
+      "locationSource": "district_fallback",
+      "registered": 2,
+      "checkedIn": 2,
+      "checkedInAttendeeIds": [
+        10583,
+        30826
+      ],
+      "seats": 0,
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=College%20of%20Engineering%20Trikaripur%2C%20PO%20Cheemeni%2C%20kasaragod%20671313"
     },
     {
       "id": 3587,
@@ -12640,35 +12640,6 @@ window.EVENTS_DATA = {
       "mapUrl": "https://maps.app.goo.gl/j8w832j2VkvJPGeSA"
     },
     {
-      "id": 3513,
-      "name": "Bir catchup week 4",
-      "type": "Bootcamp",
-      "typeColor": "#db2777",
-      "status": "published",
-      "start": "2026-08-09T10:00:00+05:30",
-      "end": "2026-08-09T13:00:00+05:30",
-      "isVirtual": false,
-      "campusName": null,
-      "district": null,
-      "address": null,
-      "lat": 10.0469797,
-      "lng": 76.3351998,
-      "locationSource": "maps_link",
-      "registered": 11,
-      "checkedIn": 7,
-      "checkedInAttendeeIds": [
-        14860,
-        26904,
-        29908,
-        32440,
-        37138,
-        44355,
-        44358
-      ],
-      "seats": null,
-      "mapUrl": "https://maps.app.goo.gl/j8w832j2VkvJPGeSA"
-    },
-    {
       "id": 3591,
       "name": "Reimagining Internships  That Work for Everyone",
       "type": "Workshop",
@@ -12697,6 +12668,35 @@ window.EVENTS_DATA = {
         29767,
         32331,
         33936
+      ],
+      "seats": null,
+      "mapUrl": "https://maps.app.goo.gl/j8w832j2VkvJPGeSA"
+    },
+    {
+      "id": 3513,
+      "name": "Bir catchup week 4",
+      "type": "Bootcamp",
+      "typeColor": "#db2777",
+      "status": "published",
+      "start": "2026-08-09T10:00:00+05:30",
+      "end": "2026-08-09T13:00:00+05:30",
+      "isVirtual": false,
+      "campusName": null,
+      "district": null,
+      "address": null,
+      "lat": 10.0469797,
+      "lng": 76.3351998,
+      "locationSource": "maps_link",
+      "registered": 11,
+      "checkedIn": 7,
+      "checkedInAttendeeIds": [
+        14860,
+        26904,
+        29908,
+        32440,
+        37138,
+        44355,
+        44358
       ],
       "seats": null,
       "mapUrl": "https://maps.app.goo.gl/j8w832j2VkvJPGeSA"
@@ -13074,6 +13074,27 @@ window.EVENTS_DATA = {
       "mapUrl": "https://maps.app.goo.gl/6ahdCi5FW6FRvire8"
     },
     {
+      "id": 3520,
+      "name": "Session 4",
+      "type": "Learning_Program",
+      "typeColor": "#2563eb",
+      "status": "published",
+      "start": "2026-08-10T16:00:00+05:30",
+      "end": "2026-08-10T18:30:00+05:30",
+      "isVirtual": false,
+      "campusName": "College of Engineering, Thiruvananthapuram",
+      "district": "thiruvananthapuram",
+      "address": "College of Engineering, thiruvananthapuram 16",
+      "lat": 8.5458513,
+      "lng": 76.9063407,
+      "locationSource": "maps_link",
+      "registered": 0,
+      "checkedIn": 0,
+      "checkedInAttendeeIds": [],
+      "seats": 0,
+      "mapUrl": "https://maps.app.goo.gl/kE6KGwY3bonvXxkK7"
+    },
+    {
       "id": 3606,
       "name": "TinkerTalks",
       "type": "Talk_Session",
@@ -13165,27 +13186,6 @@ window.EVENTS_DATA = {
       ],
       "seats": null,
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=NSS%20College%20of%20Engineering%2C%20Akathethara%2C%20palakkad%20678%20008"
-    },
-    {
-      "id": 3520,
-      "name": "Session 4",
-      "type": "Learning_Program",
-      "typeColor": "#2563eb",
-      "status": "published",
-      "start": "2026-08-10T16:00:00+05:30",
-      "end": "2026-08-10T18:30:00+05:30",
-      "isVirtual": false,
-      "campusName": "College of Engineering, Thiruvananthapuram",
-      "district": "thiruvananthapuram",
-      "address": "College of Engineering, thiruvananthapuram 16",
-      "lat": 8.5458513,
-      "lng": 76.9063407,
-      "locationSource": "maps_link",
-      "registered": 0,
-      "checkedIn": 0,
-      "checkedInAttendeeIds": [],
-      "seats": 0,
-      "mapUrl": "https://maps.app.goo.gl/kE6KGwY3bonvXxkK7"
     },
     {
       "id": 3547,
@@ -13941,45 +13941,6 @@ window.EVENTS_DATA = {
       "mapUrl": "https://maps.app.goo.gl/ovZwKHbWRpcT2MUW8"
     },
     {
-      "id": 3588,
-      "name": "AI Wednesday",
-      "type": "Bootcamp",
-      "typeColor": "#db2777",
-      "status": "published",
-      "start": "2026-08-12T19:00:00+05:30",
-      "end": "2026-08-12T20:30:00+05:30",
-      "isVirtual": false,
-      "campusName": null,
-      "district": null,
-      "address": null,
-      "lat": 10.0469797,
-      "lng": 76.3351998,
-      "locationSource": "maps_link",
-      "registered": 39,
-      "checkedIn": 17,
-      "checkedInAttendeeIds": [
-        382,
-        937,
-        2023,
-        7434,
-        11616,
-        12704,
-        37142,
-        37965,
-        43239,
-        45056,
-        45140,
-        45837,
-        47074,
-        47134,
-        47200,
-        47481,
-        47713
-      ],
-      "seats": null,
-      "mapUrl": "https://maps.app.goo.gl/j8w832j2VkvJPGeSA"
-    },
-    {
       "id": 3616,
       "name": "Basics Intro to Capcut app",
       "type": "Learning_Program",
@@ -14036,6 +13997,45 @@ window.EVENTS_DATA = {
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=LBS%20Institute%20of%20Technology%20forWomen%2C%20Poojappura%2C%20thiruvananthapuram%20695%20012"
     },
     {
+      "id": 3588,
+      "name": "AI Wednesday",
+      "type": "Bootcamp",
+      "typeColor": "#db2777",
+      "status": "published",
+      "start": "2026-08-12T19:00:00+05:30",
+      "end": "2026-08-12T20:30:00+05:30",
+      "isVirtual": false,
+      "campusName": null,
+      "district": null,
+      "address": null,
+      "lat": 10.0469797,
+      "lng": 76.3351998,
+      "locationSource": "maps_link",
+      "registered": 39,
+      "checkedIn": 17,
+      "checkedInAttendeeIds": [
+        382,
+        937,
+        2023,
+        7434,
+        11616,
+        12704,
+        37142,
+        37965,
+        43239,
+        45056,
+        45140,
+        45837,
+        47074,
+        47134,
+        47200,
+        47481,
+        47713
+      ],
+      "seats": null,
+      "mapUrl": "https://maps.app.goo.gl/j8w832j2VkvJPGeSA"
+    },
+    {
       "id": 3649,
       "name": "Core Team Meeting",
       "type": "Core_Team_Meeting",
@@ -14085,27 +14085,6 @@ window.EVENTS_DATA = {
       ],
       "seats": null,
       "mapUrl": "https://maps.app.goo.gl/kyDU1r7xdtoYksFH9"
-    },
-    {
-      "id": 3657,
-      "name": "Then muttai (Tinkerhub orientation)",
-      "type": "Bootcamp",
-      "typeColor": "#db2777",
-      "status": "published",
-      "start": "2026-08-13T13:30:00+05:30",
-      "end": "2026-08-13T17:00:00+05:30",
-      "isVirtual": false,
-      "campusName": "EMEA College of Arts & Science , Kondotty",
-      "district": "malappuram",
-      "address": "EMEA Collge of Arts & Science, Kondotty, Kumminiparamba PO, malappuram-673 638",
-      "lat": 11.1339505,
-      "lng": 75.9425554,
-      "locationSource": "maps_link",
-      "registered": 0,
-      "checkedIn": 0,
-      "checkedInAttendeeIds": [],
-      "seats": null,
-      "mapUrl": "https://maps.app.goo.gl/B31vCip83BqRvQMr6"
     },
     {
       "id": 3651,
@@ -14260,6 +14239,27 @@ window.EVENTS_DATA = {
       ],
       "seats": null,
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sree%20Narayana%20Guru%20College%20of%20Engineering%20%26%20Technology%2C%20PO%20Chalakode%2C%20Payyanur%20kannur-670307"
+    },
+    {
+      "id": 3657,
+      "name": "Then muttai (Tinkerhub orientation)",
+      "type": "Bootcamp",
+      "typeColor": "#db2777",
+      "status": "published",
+      "start": "2026-08-13T13:30:00+05:30",
+      "end": "2026-08-13T17:00:00+05:30",
+      "isVirtual": false,
+      "campusName": "EMEA College of Arts & Science , Kondotty",
+      "district": "malappuram",
+      "address": "EMEA Collge of Arts & Science, Kondotty, Kumminiparamba PO, malappuram-673 638",
+      "lat": 11.1339505,
+      "lng": 75.9425554,
+      "locationSource": "maps_link",
+      "registered": 0,
+      "checkedIn": 0,
+      "checkedInAttendeeIds": [],
+      "seats": null,
+      "mapUrl": "https://maps.app.goo.gl/B31vCip83BqRvQMr6"
     },
     {
       "id": 3645,
@@ -14548,36 +14548,6 @@ window.EVENTS_DATA = {
       "mapUrl": "https://maps.app.goo.gl/6ahdCi5FW6FRvire8"
     },
     {
-      "id": 3664,
-      "name": "Microcontrollers and Embedded systems",
-      "type": "Learning_Program",
-      "typeColor": "#2563eb",
-      "status": "published",
-      "start": "2026-08-13T17:00:00+05:30",
-      "end": "2026-08-13T18:00:00+05:30",
-      "isVirtual": false,
-      "campusName": "Government Engineering College, Thrissur",
-      "district": "thrissur",
-      "address": "Government Engineering College, Engineering College PO, thrissur",
-      "lat": 10.5545108,
-      "lng": 76.22466,
-      "locationSource": "maps_link",
-      "registered": 10,
-      "checkedIn": 8,
-      "checkedInAttendeeIds": [
-        39553,
-        47141,
-        47142,
-        47143,
-        47147,
-        48403,
-        48405,
-        48407
-      ],
-      "seats": 0,
-      "mapUrl": "https://maps.app.goo.gl/5Fo8Q5QwjfWXd7MB6"
-    },
-    {
       "id": 3658,
       "name": "Control systems s5",
       "type": "Learning_Program",
@@ -14604,6 +14574,36 @@ window.EVENTS_DATA = {
         48263,
         48395,
         48401
+      ],
+      "seats": 0,
+      "mapUrl": "https://maps.app.goo.gl/5Fo8Q5QwjfWXd7MB6"
+    },
+    {
+      "id": 3664,
+      "name": "Microcontrollers and Embedded systems",
+      "type": "Learning_Program",
+      "typeColor": "#2563eb",
+      "status": "published",
+      "start": "2026-08-13T17:00:00+05:30",
+      "end": "2026-08-13T18:00:00+05:30",
+      "isVirtual": false,
+      "campusName": "Government Engineering College, Thrissur",
+      "district": "thrissur",
+      "address": "Government Engineering College, Engineering College PO, thrissur",
+      "lat": 10.5545108,
+      "lng": 76.22466,
+      "locationSource": "maps_link",
+      "registered": 10,
+      "checkedIn": 8,
+      "checkedInAttendeeIds": [
+        39553,
+        47141,
+        47142,
+        47143,
+        47147,
+        48403,
+        48405,
+        48407
       ],
       "seats": 0,
       "mapUrl": "https://maps.app.goo.gl/5Fo8Q5QwjfWXd7MB6"
@@ -15078,6 +15078,27 @@ window.EVENTS_DATA = {
       "mapUrl": "https://maps.app.goo.gl/Y9bWocbV9VxD3R4f7"
     },
     {
+      "id": 3672,
+      "name": "Zero to Maker",
+      "type": "Talk_Session",
+      "typeColor": "#d97706",
+      "status": "published",
+      "start": "2026-08-14T13:30:00+05:30",
+      "end": "2026-08-14T15:30:00+05:30",
+      "isVirtual": false,
+      "campusName": "Mar Baselios Christian College of Engineering and Technology, Peerumedu",
+      "district": "idukki",
+      "address": "Mar Baselius Christian College of Engineering and Technology, Pallikkunnu PO, Peerumedu, idukki 685 531",
+      "lat": 9.81035,
+      "lng": 76.98188,
+      "locationSource": "district_fallback",
+      "registered": 0,
+      "checkedIn": 0,
+      "checkedInAttendeeIds": [],
+      "seats": null,
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Mar%20Baselius%20Christian%20College%20of%20Engineering%20and%20Technology%2C%20Pallikkunnu%20PO%2C%20Peerumedu%2C%20idukki%20685%20531"
+    },
+    {
       "id": 3653,
       "name": "O-penn Mic - Kickstart",
       "type": "Workshop",
@@ -15120,27 +15141,6 @@ window.EVENTS_DATA = {
       ],
       "seats": null,
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=College%20of%20Engineering%2C%20Perumon%20PO%2C%20Perinad%2C%20kollam%20691%20601"
-    },
-    {
-      "id": 3672,
-      "name": "Zero to Maker",
-      "type": "Talk_Session",
-      "typeColor": "#d97706",
-      "status": "published",
-      "start": "2026-08-14T13:30:00+05:30",
-      "end": "2026-08-14T15:30:00+05:30",
-      "isVirtual": false,
-      "campusName": "Mar Baselios Christian College of Engineering and Technology, Peerumedu",
-      "district": "idukki",
-      "address": "Mar Baselius Christian College of Engineering and Technology, Pallikkunnu PO, Peerumedu, idukki 685 531",
-      "lat": 9.81035,
-      "lng": 76.98188,
-      "locationSource": "district_fallback",
-      "registered": 0,
-      "checkedIn": 0,
-      "checkedInAttendeeIds": [],
-      "seats": null,
-      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Mar%20Baselius%20Christian%20College%20of%20Engineering%20and%20Technology%2C%20Pallikkunnu%20PO%2C%20Peerumedu%2C%20idukki%20685%20531"
     },
     {
       "id": 3666,
@@ -15648,6 +15648,99 @@ window.EVENTS_DATA = {
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Saintgits%20College%20of%20Applied%20Sciences%2C%20Kottukulam%20Hills%2C%20Pathamuttam%20PO%2C%20kottayam-686532"
     },
     {
+      "id": 3641,
+      "name": "\ud83c\udfac MAVELI AICTION AI Promo Video Challenge! \ud83e\udd16\ud83c\udf38",
+      "type": "Learning_Program",
+      "typeColor": "#2563eb",
+      "status": "published",
+      "start": "2026-08-15T10:00:00+05:30",
+      "end": "2026-08-20T10:00:00+05:30",
+      "isVirtual": true,
+      "campusName": "Christ College of Engineering, Irinjalakuda",
+      "district": "thrissur",
+      "address": "Christ College of Engineering, Christ College Road, Irinjalakuda, thrissur 680125",
+      "lat": 10.3586508,
+      "lng": 76.2129296,
+      "locationSource": "nominatim",
+      "registered": 25,
+      "checkedIn": 25,
+      "checkedInAttendeeIds": [
+        22329,
+        24494,
+        24768,
+        27948,
+        30733,
+        30826,
+        30828,
+        30886,
+        31738,
+        34031,
+        34079,
+        34084,
+        34362,
+        34582,
+        34610,
+        34618,
+        34697,
+        34882,
+        35094,
+        45308,
+        47789,
+        49186,
+        49295,
+        49298,
+        49328
+      ],
+      "seats": 101,
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Christ%20College%20of%20Engineering%2C%20Christ%20College%20Road%2C%20Irinjalakuda%2C%20thrissur%20680125"
+    },
+    {
+      "id": 3638,
+      "name": "Onam Fusion",
+      "type": "Learning_Program",
+      "typeColor": "#2563eb",
+      "status": "published",
+      "start": "2026-08-15T10:00:00+05:30",
+      "end": "2026-08-20T10:00:00+05:30",
+      "isVirtual": true,
+      "campusName": "Christ College of Engineering, Irinjalakuda",
+      "district": "thrissur",
+      "address": "Christ College of Engineering, Christ College Road, Irinjalakuda, thrissur 680125",
+      "lat": 10.3586508,
+      "lng": 76.2129296,
+      "locationSource": "nominatim",
+      "registered": 24,
+      "checkedIn": 24,
+      "checkedInAttendeeIds": [
+        22329,
+        28259,
+        30733,
+        30818,
+        30820,
+        30823,
+        30826,
+        30828,
+        30830,
+        30886,
+        31738,
+        34031,
+        34079,
+        34582,
+        34610,
+        34618,
+        34634,
+        34882,
+        44329,
+        44330,
+        47789,
+        49291,
+        49298,
+        49314
+      ],
+      "seats": 101,
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Christ%20College%20of%20Engineering%2C%20Christ%20College%20Road%2C%20Irinjalakuda%2C%20thrissur%20680125"
+    },
+    {
       "id": 3642,
       "name": "AI\u2019YY MAVeli\ud83d\udc51",
       "type": "Learning_Program",
@@ -15700,99 +15793,6 @@ window.EVENTS_DATA = {
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Christ%20College%20of%20Engineering%2C%20Christ%20College%20Road%2C%20Irinjalakuda%2C%20thrissur%20680125"
     },
     {
-      "id": 3638,
-      "name": "Onam Fusion",
-      "type": "Learning_Program",
-      "typeColor": "#2563eb",
-      "status": "published",
-      "start": "2026-08-15T10:00:00+05:30",
-      "end": "2026-08-20T10:00:00+05:30",
-      "isVirtual": true,
-      "campusName": "Christ College of Engineering, Irinjalakuda",
-      "district": "thrissur",
-      "address": "Christ College of Engineering, Christ College Road, Irinjalakuda, thrissur 680125",
-      "lat": 10.3586508,
-      "lng": 76.2129296,
-      "locationSource": "nominatim",
-      "registered": 24,
-      "checkedIn": 24,
-      "checkedInAttendeeIds": [
-        22329,
-        28259,
-        30733,
-        30818,
-        30820,
-        30823,
-        30826,
-        30828,
-        30830,
-        30886,
-        31738,
-        34031,
-        34079,
-        34582,
-        34610,
-        34618,
-        34634,
-        34882,
-        44329,
-        44330,
-        47789,
-        49291,
-        49298,
-        49314
-      ],
-      "seats": 101,
-      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Christ%20College%20of%20Engineering%2C%20Christ%20College%20Road%2C%20Irinjalakuda%2C%20thrissur%20680125"
-    },
-    {
-      "id": 3641,
-      "name": "\ud83c\udfac MAVELI AICTION AI Promo Video Challenge! \ud83e\udd16\ud83c\udf38",
-      "type": "Learning_Program",
-      "typeColor": "#2563eb",
-      "status": "published",
-      "start": "2026-08-15T10:00:00+05:30",
-      "end": "2026-08-20T10:00:00+05:30",
-      "isVirtual": true,
-      "campusName": "Christ College of Engineering, Irinjalakuda",
-      "district": "thrissur",
-      "address": "Christ College of Engineering, Christ College Road, Irinjalakuda, thrissur 680125",
-      "lat": 10.3586508,
-      "lng": 76.2129296,
-      "locationSource": "nominatim",
-      "registered": 25,
-      "checkedIn": 25,
-      "checkedInAttendeeIds": [
-        22329,
-        24494,
-        24768,
-        27948,
-        30733,
-        30826,
-        30828,
-        30886,
-        31738,
-        34031,
-        34079,
-        34084,
-        34362,
-        34582,
-        34610,
-        34618,
-        34697,
-        34882,
-        35094,
-        45308,
-        47789,
-        49186,
-        49295,
-        49298,
-        49328
-      ],
-      "seats": 101,
-      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Christ%20College%20of%20Engineering%2C%20Christ%20College%20Road%2C%20Irinjalakuda%2C%20thrissur%20680125"
-    },
-    {
       "id": 3628,
       "name": "BIR week 5 catchup - Prototype demo",
       "type": "Meetup",
@@ -15812,6 +15812,27 @@ window.EVENTS_DATA = {
       "checkedInAttendeeIds": [],
       "seats": null,
       "mapUrl": "https://maps.app.goo.gl/j8w832j2VkvJPGeSA"
+    },
+    {
+      "id": 3689,
+      "name": "Core team meeting",
+      "type": "Core_Team_Meeting",
+      "typeColor": "#6b7280",
+      "status": "published",
+      "start": "2026-08-15T11:00:00+05:30",
+      "end": "2026-08-15T12:00:00+05:30",
+      "isVirtual": true,
+      "campusName": "Model Engineering College, Thrikkakara",
+      "district": "ernakulam",
+      "address": "Model Engineering College, Thrikkakara, Kochi 682021",
+      "lat": 10.0283637,
+      "lng": 76.3285124,
+      "locationSource": "maps_link",
+      "registered": 3,
+      "checkedIn": 0,
+      "checkedInAttendeeIds": [],
+      "seats": null,
+      "mapUrl": "https://maps.app.goo.gl/3ye4p8MtAjDWPCrS9"
     },
     {
       "id": 3677,
@@ -15866,27 +15887,6 @@ window.EVENTS_DATA = {
       ],
       "seats": null,
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sree%20Buddha%20College%20of%20Engineering%2CPattoor%20PO%2C%20Padanilam%2C%20Nooranad%2Calappuzha"
-    },
-    {
-      "id": 3689,
-      "name": "Core team meeting",
-      "type": "Core_Team_Meeting",
-      "typeColor": "#6b7280",
-      "status": "published",
-      "start": "2026-08-15T11:00:00+05:30",
-      "end": "2026-08-15T12:00:00+05:30",
-      "isVirtual": true,
-      "campusName": "Model Engineering College, Thrikkakara",
-      "district": "ernakulam",
-      "address": "Model Engineering College, Thrikkakara, Kochi 682021",
-      "lat": 10.0283637,
-      "lng": 76.3285124,
-      "locationSource": "maps_link",
-      "registered": 3,
-      "checkedIn": 0,
-      "checkedInAttendeeIds": [],
-      "seats": null,
-      "mapUrl": "https://maps.app.goo.gl/3ye4p8MtAjDWPCrS9"
     },
     {
       "id": 3686,
@@ -16400,27 +16400,6 @@ window.EVENTS_DATA = {
       "mapUrl": "https://maps.app.goo.gl/NAv3dzhMYt2N6jyp8"
     },
     {
-      "id": 3718,
-      "name": "Git and github basics",
-      "type": "Learning_Program",
-      "typeColor": "#2563eb",
-      "status": "published",
-      "start": "2026-08-18T11:00:00+05:30",
-      "end": "2026-08-18T12:30:00+05:30",
-      "isVirtual": false,
-      "campusName": "Institute of Engineering and Technology, Thenhipalam",
-      "district": "malappuram",
-      "address": "Institute of Engineering and Technology, Calicut University, Thenhipalam, malappuram 673636",
-      "lat": 11.06569,
-      "lng": 76.06931,
-      "locationSource": "district_fallback",
-      "registered": 0,
-      "checkedIn": 0,
-      "checkedInAttendeeIds": [],
-      "seats": 0,
-      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Institute%20of%20Engineering%20and%20Technology%2C%20Calicut%20University%2C%20Thenhipalam%2C%20malappuram%20673636"
-    },
-    {
       "id": 3710,
       "name": "Ori-entha-tion & Website Launch",
       "type": "Meetup",
@@ -16469,6 +16448,27 @@ window.EVENTS_DATA = {
       ],
       "seats": null,
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Ansar%20Women%27s%20College%2C%20Perumpilavu%2C%20thrissur"
+    },
+    {
+      "id": 3718,
+      "name": "Git and github basics",
+      "type": "Learning_Program",
+      "typeColor": "#2563eb",
+      "status": "published",
+      "start": "2026-08-18T11:00:00+05:30",
+      "end": "2026-08-18T12:30:00+05:30",
+      "isVirtual": false,
+      "campusName": "Institute of Engineering and Technology, Thenhipalam",
+      "district": "malappuram",
+      "address": "Institute of Engineering and Technology, Calicut University, Thenhipalam, malappuram 673636",
+      "lat": 11.06569,
+      "lng": 76.06931,
+      "locationSource": "district_fallback",
+      "registered": 0,
+      "checkedIn": 0,
+      "checkedInAttendeeIds": [],
+      "seats": 0,
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Institute%20of%20Engineering%20and%20Technology%2C%20Calicut%20University%2C%20Thenhipalam%2C%20malappuram%20673636"
     },
     {
       "id": 3705,
@@ -17394,34 +17394,6 @@ window.EVENTS_DATA = {
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Mar%20Athanasius%20College%20of%20Egineering%2C%20Kothamangalam%2C%20ernakulam-686%20666"
     },
     {
-      "id": 3723,
-      "name": "Maker Thursday",
-      "type": "Bootcamp",
-      "typeColor": "#db2777",
-      "status": "published",
-      "start": "2026-08-20T19:00:00+05:30",
-      "end": "2026-08-20T20:30:00+05:30",
-      "isVirtual": false,
-      "campusName": null,
-      "district": null,
-      "address": null,
-      "lat": 10.0469797,
-      "lng": 76.3351998,
-      "locationSource": "maps_link",
-      "registered": 10,
-      "checkedIn": 6,
-      "checkedInAttendeeIds": [
-        50,
-        2023,
-        2499,
-        10820,
-        12094,
-        44762
-      ],
-      "seats": null,
-      "mapUrl": "https://maps.app.goo.gl/j8w832j2VkvJPGeSA"
-    },
-    {
       "id": 3701,
       "name": "Onathinte idakk FIGMA",
       "type": "Learning_Program",
@@ -17487,6 +17459,34 @@ window.EVENTS_DATA = {
       ],
       "seats": null,
       "mapUrl": "https://maps.app.goo.gl/NAv3dzhMYt2N6jyp8"
+    },
+    {
+      "id": 3723,
+      "name": "Maker Thursday",
+      "type": "Bootcamp",
+      "typeColor": "#db2777",
+      "status": "published",
+      "start": "2026-08-20T19:00:00+05:30",
+      "end": "2026-08-20T20:30:00+05:30",
+      "isVirtual": false,
+      "campusName": null,
+      "district": null,
+      "address": null,
+      "lat": 10.0469797,
+      "lng": 76.3351998,
+      "locationSource": "maps_link",
+      "registered": 10,
+      "checkedIn": 6,
+      "checkedInAttendeeIds": [
+        50,
+        2023,
+        2499,
+        10820,
+        12094,
+        44762
+      ],
+      "seats": null,
+      "mapUrl": "https://maps.app.goo.gl/j8w832j2VkvJPGeSA"
     },
     {
       "id": 3740,
@@ -18004,42 +18004,6 @@ window.EVENTS_DATA = {
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=SCMS%20School%20of%20Engineering%20%26%20Technology%2C%20Karukutty%2C%20ernakulam%20683%20582"
     },
     {
-      "id": 3744,
-      "name": "PCB Manufacturing & Soldering: From Circuit to Working Board",
-      "type": "Bootcamp",
-      "typeColor": "#db2777",
-      "status": "published",
-      "start": "2026-08-23T10:00:00+05:30",
-      "end": "2026-08-23T13:00:00+05:30",
-      "isVirtual": false,
-      "campusName": null,
-      "district": null,
-      "address": null,
-      "lat": 11.2775736,
-      "lng": 75.8443931,
-      "locationSource": "maps_link",
-      "registered": 22,
-      "checkedIn": 14,
-      "checkedInAttendeeIds": [
-        2012,
-        3685,
-        8251,
-        11519,
-        13678,
-        20825,
-        34080,
-        39413,
-        44530,
-        47202,
-        47937,
-        49034,
-        49038,
-        50031
-      ],
-      "seats": 30,
-      "mapUrl": "https://maps.app.goo.gl/NAv3dzhMYt2N6jyp8"
-    },
-    {
       "id": 3626,
       "name": "Tinkering with KiCad",
       "type": "Bootcamp",
@@ -18088,6 +18052,42 @@ window.EVENTS_DATA = {
       "mapUrl": "https://maps.app.goo.gl/j8w832j2VkvJPGeSA"
     },
     {
+      "id": 3744,
+      "name": "PCB Manufacturing & Soldering: From Circuit to Working Board",
+      "type": "Bootcamp",
+      "typeColor": "#db2777",
+      "status": "published",
+      "start": "2026-08-23T10:00:00+05:30",
+      "end": "2026-08-23T13:00:00+05:30",
+      "isVirtual": false,
+      "campusName": null,
+      "district": null,
+      "address": null,
+      "lat": 11.2775736,
+      "lng": 75.8443931,
+      "locationSource": "maps_link",
+      "registered": 22,
+      "checkedIn": 14,
+      "checkedInAttendeeIds": [
+        2012,
+        3685,
+        8251,
+        11519,
+        13678,
+        20825,
+        34080,
+        39413,
+        44530,
+        47202,
+        47937,
+        49034,
+        49038,
+        50031
+      ],
+      "seats": 30,
+      "mapUrl": "https://maps.app.goo.gl/NAv3dzhMYt2N6jyp8"
+    },
+    {
       "id": 3747,
       "name": "Code <a> Pookalam\ud83c\udf3c",
       "type": "Workshop",
@@ -18133,30 +18133,6 @@ window.EVENTS_DATA = {
       "mapUrl": "https://maps.app.goo.gl/Y9bWocbV9VxD3R4f7"
     },
     {
-      "id": 3764,
-      "name": "Core Team Meeting",
-      "type": "Core_Team_Meeting",
-      "typeColor": "#6b7280",
-      "status": "published",
-      "start": "2026-08-23T18:00:00+05:30",
-      "end": "2026-08-23T22:11:00+05:30",
-      "isVirtual": true,
-      "campusName": "Sree Buddha College of Engineering, Pattoor",
-      "district": "alappuzha",
-      "address": "Sree Buddha College of Engineering,Pattoor PO, Padanilam, Nooranad,alappuzha",
-      "lat": 9.47236,
-      "lng": 76.32471,
-      "locationSource": "district_fallback",
-      "registered": 5,
-      "checkedIn": 2,
-      "checkedInAttendeeIds": [
-        22360,
-        23123
-      ],
-      "seats": null,
-      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sree%20Buddha%20College%20of%20Engineering%2CPattoor%20PO%2C%20Padanilam%2C%20Nooranad%2Calappuzha"
-    },
-    {
       "id": 3753,
       "name": "Capture the Colours of Onam! \ud83c\udf3c",
       "type": "Learning_Program",
@@ -18190,6 +18166,30 @@ window.EVENTS_DATA = {
       ],
       "seats": null,
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sree%20Narayana%20Guru%20College%20of%20Engineering%20%26%20Technology%2C%20PO%20Chalakode%2C%20Payyanur%20kannur-670307"
+    },
+    {
+      "id": 3764,
+      "name": "Core Team Meeting",
+      "type": "Core_Team_Meeting",
+      "typeColor": "#6b7280",
+      "status": "published",
+      "start": "2026-08-23T18:00:00+05:30",
+      "end": "2026-08-23T22:11:00+05:30",
+      "isVirtual": true,
+      "campusName": "Sree Buddha College of Engineering, Pattoor",
+      "district": "alappuzha",
+      "address": "Sree Buddha College of Engineering,Pattoor PO, Padanilam, Nooranad,alappuzha",
+      "lat": 9.47236,
+      "lng": 76.32471,
+      "locationSource": "district_fallback",
+      "registered": 5,
+      "checkedIn": 2,
+      "checkedInAttendeeIds": [
+        22360,
+        23123
+      ],
+      "seats": null,
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sree%20Buddha%20College%20of%20Engineering%2CPattoor%20PO%2C%20Padanilam%2C%20Nooranad%2Calappuzha"
     },
     {
       "id": 3757,
@@ -18408,61 +18408,6 @@ window.EVENTS_DATA = {
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=MES%20College%20of%20Engineering%20and%20Technology%2C%20Kunnukara%20PO%2C%20ernakulam%20683578"
     },
     {
-      "id": 3770,
-      "name": "2.0 : From Chat to Chatbots",
-      "type": "Learning_Program",
-      "typeColor": "#2563eb",
-      "status": "published",
-      "start": "2026-08-24T19:00:00+05:30",
-      "end": "2026-08-24T20:30:00+05:30",
-      "isVirtual": true,
-      "campusName": "Toc H Institute of Science & Technology, Arakkunnam",
-      "district": "ernakulam",
-      "address": "Toc H Institute of Science & Technology, Arakkunnam, ernakulam 682 313",
-      "lat": 9.98579,
-      "lng": 76.35609,
-      "locationSource": "district_fallback",
-      "registered": 39,
-      "checkedIn": 33,
-      "checkedInAttendeeIds": [
-        5095,
-        5362,
-        5365,
-        5372,
-        7892,
-        29493,
-        29704,
-        31108,
-        31708,
-        32000,
-        32047,
-        33819,
-        33914,
-        43619,
-        45678,
-        48182,
-        48186,
-        48213,
-        48243,
-        48270,
-        48373,
-        48422,
-        49695,
-        50340,
-        50349,
-        50354,
-        50359,
-        50360,
-        50384,
-        50385,
-        50395,
-        50399,
-        50400
-      ],
-      "seats": 0,
-      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Toc%20H%20Institute%20of%20Science%20%26%20Technology%2C%20Arakkunnam%2C%20ernakulam%20682%20313"
-    },
-    {
       "id": 3755,
       "name": "Code a Pookalam",
       "type": "Workshop",
@@ -18530,30 +18475,6 @@ window.EVENTS_DATA = {
       ],
       "seats": null,
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Muthoot%20Institute%20of%20Technology%20%26%20Science%20%28MITS%29%2C%20Varikoli%20PO%2C%20Puthencruz%2C%20ernakulam%20682308"
-    },
-    {
-      "id": 3760,
-      "name": "Introduction to Figma",
-      "type": "Learning_Program",
-      "typeColor": "#2563eb",
-      "status": "published",
-      "start": "2026-08-24T19:00:00+05:30",
-      "end": "2026-08-24T20:00:00+05:30",
-      "isVirtual": true,
-      "campusName": "Institute of Engineering and Technology, Thenhipalam",
-      "district": "malappuram",
-      "address": "Institute of Engineering and Technology, Calicut University, Thenhipalam, malappuram 673636",
-      "lat": 11.06569,
-      "lng": 76.06931,
-      "locationSource": "district_fallback",
-      "registered": 15,
-      "checkedIn": 2,
-      "checkedInAttendeeIds": [
-        5183,
-        45195
-      ],
-      "seats": 0,
-      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Institute%20of%20Engineering%20and%20Technology%2C%20Calicut%20University%2C%20Thenhipalam%2C%20malappuram%20673636"
     },
     {
       "id": 3765,
@@ -18703,6 +18624,85 @@ window.EVENTS_DATA = {
       ],
       "seats": null,
       "mapUrl": "https://maps.app.goo.gl/JCRk31MWKnCeFJ1n6"
+    },
+    {
+      "id": 3770,
+      "name": "2.0 : From Chat to Chatbots",
+      "type": "Learning_Program",
+      "typeColor": "#2563eb",
+      "status": "published",
+      "start": "2026-08-24T19:00:00+05:30",
+      "end": "2026-08-24T20:30:00+05:30",
+      "isVirtual": true,
+      "campusName": "Toc H Institute of Science & Technology, Arakkunnam",
+      "district": "ernakulam",
+      "address": "Toc H Institute of Science & Technology, Arakkunnam, ernakulam 682 313",
+      "lat": 9.98579,
+      "lng": 76.35609,
+      "locationSource": "district_fallback",
+      "registered": 39,
+      "checkedIn": 33,
+      "checkedInAttendeeIds": [
+        5095,
+        5362,
+        5365,
+        5372,
+        7892,
+        29493,
+        29704,
+        31108,
+        31708,
+        32000,
+        32047,
+        33819,
+        33914,
+        43619,
+        45678,
+        48182,
+        48186,
+        48213,
+        48243,
+        48270,
+        48373,
+        48422,
+        49695,
+        50340,
+        50349,
+        50354,
+        50359,
+        50360,
+        50384,
+        50385,
+        50395,
+        50399,
+        50400
+      ],
+      "seats": 0,
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Toc%20H%20Institute%20of%20Science%20%26%20Technology%2C%20Arakkunnam%2C%20ernakulam%20682%20313"
+    },
+    {
+      "id": 3760,
+      "name": "Introduction to Figma",
+      "type": "Learning_Program",
+      "typeColor": "#2563eb",
+      "status": "published",
+      "start": "2026-08-24T19:00:00+05:30",
+      "end": "2026-08-24T20:00:00+05:30",
+      "isVirtual": true,
+      "campusName": "Institute of Engineering and Technology, Thenhipalam",
+      "district": "malappuram",
+      "address": "Institute of Engineering and Technology, Calicut University, Thenhipalam, malappuram 673636",
+      "lat": 11.06569,
+      "lng": 76.06931,
+      "locationSource": "district_fallback",
+      "registered": 15,
+      "checkedIn": 2,
+      "checkedInAttendeeIds": [
+        5183,
+        45195
+      ],
+      "seats": 0,
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Institute%20of%20Engineering%20and%20Technology%2C%20Calicut%20University%2C%20Thenhipalam%2C%20malappuram%20673636"
     },
     {
       "id": 3776,
@@ -18955,27 +18955,6 @@ window.EVENTS_DATA = {
       "mapUrl": "https://maps.app.goo.gl/NAv3dzhMYt2N6jyp8"
     },
     {
-      "id": 3761,
-      "name": "Communication through Design",
-      "type": "Learning_Program",
-      "typeColor": "#2563eb",
-      "status": "published",
-      "start": "2026-08-25T19:00:00+05:30",
-      "end": "2026-08-25T20:00:00+05:30",
-      "isVirtual": true,
-      "campusName": "Institute of Engineering and Technology, Thenhipalam",
-      "district": "malappuram",
-      "address": "Institute of Engineering and Technology, Calicut University, Thenhipalam, malappuram 673636",
-      "lat": 11.06569,
-      "lng": 76.06931,
-      "locationSource": "district_fallback",
-      "registered": 16,
-      "checkedIn": 0,
-      "checkedInAttendeeIds": [],
-      "seats": 0,
-      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Institute%20of%20Engineering%20and%20Technology%2C%20Calicut%20University%2C%20Thenhipalam%2C%20malappuram%20673636"
-    },
-    {
       "id": 3633,
       "name": "Arduino Basics: From Zero to Hardware",
       "type": "Learning_Program",
@@ -19058,6 +19037,27 @@ window.EVENTS_DATA = {
       ],
       "seats": 0,
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=LBS%20Institute%20of%20Technology%20forWomen%2C%20Poojappura%2C%20thiruvananthapuram%20695%20012"
+    },
+    {
+      "id": 3761,
+      "name": "Communication through Design",
+      "type": "Learning_Program",
+      "typeColor": "#2563eb",
+      "status": "published",
+      "start": "2026-08-25T19:00:00+05:30",
+      "end": "2026-08-25T20:00:00+05:30",
+      "isVirtual": true,
+      "campusName": "Institute of Engineering and Technology, Thenhipalam",
+      "district": "malappuram",
+      "address": "Institute of Engineering and Technology, Calicut University, Thenhipalam, malappuram 673636",
+      "lat": 11.06569,
+      "lng": 76.06931,
+      "locationSource": "district_fallback",
+      "registered": 16,
+      "checkedIn": 0,
+      "checkedInAttendeeIds": [],
+      "seats": 0,
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Institute%20of%20Engineering%20and%20Technology%2C%20Calicut%20University%2C%20Thenhipalam%2C%20malappuram%20673636"
     },
     {
       "id": 3779,
@@ -19553,6 +19553,41 @@ window.EVENTS_DATA = {
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=LBS%20Institute%20of%20Technology%20forWomen%2C%20Poojappura%2C%20thiruvananthapuram%20695%20012"
     },
     {
+      "id": 3785,
+      "name": "Code-a-Pookalam",
+      "type": "Workshop",
+      "typeColor": "#7c3aed",
+      "status": "published",
+      "start": "2026-08-27T19:30:00+05:30",
+      "end": "2026-08-30T23:59:00+05:30",
+      "isVirtual": true,
+      "campusName": "Sree Chitra Thirunal College of Engineering, Pappanamcode",
+      "district": "thiruvananthapuram",
+      "address": "Sree Chitra Thirunal College ofEngineering, Pappanamcode, thiruvananthapuram",
+      "lat": 8.55527,
+      "lng": 76.92981,
+      "locationSource": "district_fallback",
+      "registered": 18,
+      "checkedIn": 13,
+      "checkedInAttendeeIds": [
+        1644,
+        16523,
+        23013,
+        31833,
+        32482,
+        36477,
+        48213,
+        49695,
+        49937,
+        50681,
+        50689,
+        50690,
+        50848
+      ],
+      "seats": null,
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sree%20Chitra%20Thirunal%20College%20ofEngineering%2C%20Pappanamcode%2C%20thiruvananthapuram"
+    },
+    {
       "id": 3749,
       "name": "Maker Thursday - Getting Started with Embedded Systems",
       "type": "Meetup",
@@ -19596,41 +19631,6 @@ window.EVENTS_DATA = {
       ],
       "seats": null,
       "mapUrl": "https://maps.app.goo.gl/NAv3dzhMYt2N6jyp8"
-    },
-    {
-      "id": 3785,
-      "name": "Code-a-Pookalam",
-      "type": "Workshop",
-      "typeColor": "#7c3aed",
-      "status": "published",
-      "start": "2026-08-27T19:30:00+05:30",
-      "end": "2026-08-30T23:59:00+05:30",
-      "isVirtual": true,
-      "campusName": "Sree Chitra Thirunal College of Engineering, Pappanamcode",
-      "district": "thiruvananthapuram",
-      "address": "Sree Chitra Thirunal College ofEngineering, Pappanamcode, thiruvananthapuram",
-      "lat": 8.55527,
-      "lng": 76.92981,
-      "locationSource": "district_fallback",
-      "registered": 18,
-      "checkedIn": 13,
-      "checkedInAttendeeIds": [
-        1644,
-        16523,
-        23013,
-        31833,
-        32482,
-        36477,
-        48213,
-        49695,
-        49937,
-        50681,
-        50689,
-        50690,
-        50848
-      ],
-      "seats": null,
-      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sree%20Chitra%20Thirunal%20College%20ofEngineering%2C%20Pappanamcode%2C%20thiruvananthapuram"
     },
     {
       "id": 3773,
@@ -19689,27 +19689,6 @@ window.EVENTS_DATA = {
       "checkedInAttendeeIds": [],
       "seats": null,
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sree%20Narayana%20Gurukulam%20College%20of%20Engineering%2C%20Kadayiruppu%20PO%2C%20Kolencherry%2C%20ernakulam-682311"
-    },
-    {
-      "id": 3809,
-      "name": "Code a Pookalam",
-      "type": "Hackathon",
-      "typeColor": "#dc2626",
-      "status": "published",
-      "start": "2026-08-28T00:00:00+05:30",
-      "end": "2026-09-02T23:59:00+05:30",
-      "isVirtual": true,
-      "campusName": "College of Engineering, Trikaripur",
-      "district": "kasaragod",
-      "address": "College of Engineering Trikaripur, PO Cheemeni, kasaragod 671313",
-      "lat": 12.51708,
-      "lng": 75.01801,
-      "locationSource": "district_fallback",
-      "registered": 9,
-      "checkedIn": 0,
-      "checkedInAttendeeIds": [],
-      "seats": null,
-      "mapUrl": "https://www.google.com/maps/search/?api=1&query=College%20of%20Engineering%20Trikaripur%2C%20PO%20Cheemeni%2C%20kasaragod%20671313"
     },
     {
       "id": 3790,
@@ -19793,25 +19772,25 @@ window.EVENTS_DATA = {
       "mapUrl": "https://maps.app.goo.gl/sUbgK8coWLW9ecB39"
     },
     {
-      "id": 3804,
-      "name": "Vamanan GPT",
-      "type": "Learning_Program",
-      "typeColor": "#2563eb",
+      "id": 3809,
+      "name": "Code a Pookalam",
+      "type": "Hackathon",
+      "typeColor": "#dc2626",
       "status": "published",
-      "start": "2026-08-28T10:00:00+05:30",
-      "end": "2026-09-06T23:30:00+05:30",
+      "start": "2026-08-28T00:00:00+05:30",
+      "end": "2026-09-02T23:59:00+05:30",
       "isVirtual": true,
-      "campusName": "Toc H Institute of Science & Technology, Arakkunnam",
-      "district": "ernakulam",
-      "address": "Toc H Institute of Science & Technology, Arakkunnam, ernakulam 682 313",
-      "lat": 9.98579,
-      "lng": 76.35609,
+      "campusName": "College of Engineering, Trikaripur",
+      "district": "kasaragod",
+      "address": "College of Engineering Trikaripur, PO Cheemeni, kasaragod 671313",
+      "lat": 12.51708,
+      "lng": 75.01801,
       "locationSource": "district_fallback",
-      "registered": 31,
+      "registered": 9,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
-      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Toc%20H%20Institute%20of%20Science%20%26%20Technology%2C%20Arakkunnam%2C%20ernakulam%20682%20313"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=College%20of%20Engineering%20Trikaripur%2C%20PO%20Cheemeni%2C%20kasaragod%20671313"
     },
     {
       "id": 3805,
@@ -19833,6 +19812,27 @@ window.EVENTS_DATA = {
       "checkedInAttendeeIds": [],
       "seats": null,
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=MES%20College%20of%20Engineering%20and%20Technology%2C%20Kunnukara%20PO%2C%20ernakulam%20683578"
+    },
+    {
+      "id": 3804,
+      "name": "Vamanan GPT",
+      "type": "Learning_Program",
+      "typeColor": "#2563eb",
+      "status": "published",
+      "start": "2026-08-28T10:00:00+05:30",
+      "end": "2026-09-06T23:30:00+05:30",
+      "isVirtual": true,
+      "campusName": "Toc H Institute of Science & Technology, Arakkunnam",
+      "district": "ernakulam",
+      "address": "Toc H Institute of Science & Technology, Arakkunnam, ernakulam 682 313",
+      "lat": 9.98579,
+      "lng": 76.35609,
+      "locationSource": "district_fallback",
+      "registered": 31,
+      "checkedIn": 0,
+      "checkedInAttendeeIds": [],
+      "seats": null,
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Toc%20H%20Institute%20of%20Science%20%26%20Technology%2C%20Arakkunnam%2C%20ernakulam%20682%20313"
     },
     {
       "id": 3798,
@@ -20067,35 +20067,33 @@ window.EVENTS_DATA = {
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Cochin+University+College+of+Engineering,+Kuttanad"
     },
     {
-      "id": 3759,
-      "name": "Game Night",
-      "type": "Bootcamp",
-      "typeColor": "#db2777",
+      "id": 3775,
+      "name": "FROM SKETCH TO SOLID Day 2",
+      "type": "Learning_Program",
+      "typeColor": "#2563eb",
       "status": "published",
       "start": "2026-08-28T20:00:00+05:30",
-      "end": "2026-08-28T22:00:00+05:30",
-      "isVirtual": false,
-      "campusName": null,
-      "district": null,
-      "address": null,
-      "lat": 10.0469797,
-      "lng": 76.3351998,
-      "locationSource": "maps_link",
-      "registered": 17,
-      "checkedIn": 9,
+      "end": "2026-08-28T21:00:00+05:30",
+      "isVirtual": true,
+      "campusName": "Jyothi Engineering College, Cheruthuruthy",
+      "district": "thrissur",
+      "address": "Jyothi Engineering College, Jyothi Hills, Panjal Road, Vettikattiri PO, Cheruthuthuruthy, thrissur 679531",
+      "lat": 10.5386,
+      "lng": 76.2319,
+      "locationSource": "district_fallback",
+      "registered": 20,
+      "checkedIn": 7,
       "checkedInAttendeeIds": [
-        9411,
-        11462,
-        26904,
-        32440,
-        43999,
-        45837,
-        49005,
-        49528,
-        50691
+        900,
+        3002,
+        26796,
+        31341,
+        48966,
+        49515,
+        50705
       ],
       "seats": null,
-      "mapUrl": "https://maps.app.goo.gl/j8w832j2VkvJPGeSA"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Jyothi%20Engineering%20College%2C%20Jyothi%20Hills%2C%20Panjal%20Road%2C%20Vettikattiri%20PO%2C%20Cheruthuthuruthy%2C%20thrissur%20679531"
     },
     {
       "id": 3806,
@@ -20131,33 +20129,35 @@ window.EVENTS_DATA = {
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=MES%20College%20of%20Engineering%20and%20Technology%2C%20Kunnukara%20PO%2C%20ernakulam%20683578"
     },
     {
-      "id": 3775,
-      "name": "FROM SKETCH TO SOLID Day 2",
-      "type": "Learning_Program",
-      "typeColor": "#2563eb",
+      "id": 3759,
+      "name": "Game Night",
+      "type": "Bootcamp",
+      "typeColor": "#db2777",
       "status": "published",
       "start": "2026-08-28T20:00:00+05:30",
-      "end": "2026-08-28T21:00:00+05:30",
-      "isVirtual": true,
-      "campusName": "Jyothi Engineering College, Cheruthuruthy",
-      "district": "thrissur",
-      "address": "Jyothi Engineering College, Jyothi Hills, Panjal Road, Vettikattiri PO, Cheruthuthuruthy, thrissur 679531",
-      "lat": 10.5386,
-      "lng": 76.2319,
-      "locationSource": "district_fallback",
-      "registered": 20,
-      "checkedIn": 7,
+      "end": "2026-08-28T22:00:00+05:30",
+      "isVirtual": false,
+      "campusName": null,
+      "district": null,
+      "address": null,
+      "lat": 10.0469797,
+      "lng": 76.3351998,
+      "locationSource": "maps_link",
+      "registered": 17,
+      "checkedIn": 9,
       "checkedInAttendeeIds": [
-        900,
-        3002,
-        26796,
-        31341,
-        48966,
-        49515,
-        50705
+        9411,
+        11462,
+        26904,
+        32440,
+        43999,
+        45837,
+        49005,
+        49528,
+        50691
       ],
       "seats": null,
-      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Jyothi%20Engineering%20College%2C%20Jyothi%20Hills%2C%20Panjal%20Road%2C%20Vettikattiri%20PO%2C%20Cheruthuthuruthy%2C%20thrissur%20679531"
+      "mapUrl": "https://maps.app.goo.gl/j8w832j2VkvJPGeSA"
     },
     {
       "id": 3813,
@@ -21001,6 +21001,65 @@ window.EVENTS_DATA = {
       "mapUrl": "https://maps.app.goo.gl/MoUSCTbpHF4wiGSp8"
     },
     {
+      "id": 3847,
+      "name": "Syntax-inu Oru \u0d06\u0d26\u0d30\u0d3e\u0d1e\u0d4d\u0d1c\u0d32\u0d3f",
+      "type": "Learning_Program",
+      "typeColor": "#2563eb",
+      "status": "published",
+      "start": "2026-09-01T13:30:00+05:30",
+      "end": "2026-09-01T15:05:00+05:30",
+      "isVirtual": false,
+      "campusName": "Sahrdaya College of Advanced Studies, Kodakara",
+      "district": "thrissur",
+      "address": "Sahrdaya College of Advanced Studies, PB No 18, Kodakara, thrissur",
+      "lat": 10.350078,
+      "lng": 76.2885861,
+      "locationSource": "maps_link",
+      "registered": 58,
+      "checkedIn": 37,
+      "checkedInAttendeeIds": [
+        22350,
+        24613,
+        24615,
+        24621,
+        27700,
+        28114,
+        37440,
+        47120,
+        47123,
+        47126,
+        47128,
+        47170,
+        47171,
+        47172,
+        47173,
+        47175,
+        47188,
+        47246,
+        47247,
+        47313,
+        47507,
+        47627,
+        51001,
+        51049,
+        51124,
+        51139,
+        51155,
+        51157,
+        51158,
+        51196,
+        51268,
+        51269,
+        51279,
+        51288,
+        51337,
+        51516,
+        51520
+      ],
+      "seats": null,
+      "mapUrl": "https://maps.app.goo.gl/fdMarqMrnYJh4ksV6"
+    },
+    {
       "id": 3850,
       "name": "Kattanum Paattum",
       "type": "Meetup",
@@ -21182,65 +21241,6 @@ window.EVENTS_DATA = {
       ],
       "seats": null,
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Albertian%20Institute%20of%20Science%20and%20Technology%20%28AISAT%29%2C%20Technical%20Campus%2C%20Cochin%20University%20PO%2C%20Kalamassery%2C%20Kochi"
-    },
-    {
-      "id": 3847,
-      "name": "Syntax-inu Oru \u0d06\u0d26\u0d30\u0d3e\u0d1e\u0d4d\u0d1c\u0d32\u0d3f",
-      "type": "Learning_Program",
-      "typeColor": "#2563eb",
-      "status": "published",
-      "start": "2026-09-01T13:30:00+05:30",
-      "end": "2026-09-01T15:05:00+05:30",
-      "isVirtual": false,
-      "campusName": "Sahrdaya College of Advanced Studies, Kodakara",
-      "district": "thrissur",
-      "address": "Sahrdaya College of Advanced Studies, PB No 18, Kodakara, thrissur",
-      "lat": 10.350078,
-      "lng": 76.2885861,
-      "locationSource": "maps_link",
-      "registered": 58,
-      "checkedIn": 37,
-      "checkedInAttendeeIds": [
-        22350,
-        24613,
-        24615,
-        24621,
-        27700,
-        28114,
-        37440,
-        47120,
-        47123,
-        47126,
-        47128,
-        47170,
-        47171,
-        47172,
-        47173,
-        47175,
-        47188,
-        47246,
-        47247,
-        47313,
-        47507,
-        47627,
-        51001,
-        51049,
-        51124,
-        51139,
-        51155,
-        51157,
-        51158,
-        51196,
-        51268,
-        51269,
-        51279,
-        51288,
-        51337,
-        51516,
-        51520
-      ],
-      "seats": null,
-      "mapUrl": "https://maps.app.goo.gl/fdMarqMrnYJh4ksV6"
     },
     {
       "id": 3843,
@@ -21425,56 +21425,6 @@ window.EVENTS_DATA = {
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=LBS%20Institute%20of%20Technology%20forWomen%2C%20Poojappura%2C%20thiruvananthapuram%20695%20012"
     },
     {
-      "id": 3854,
-      "name": "How do I do Hardware ? 101",
-      "type": "Learning_Program",
-      "typeColor": "#2563eb",
-      "status": "published",
-      "start": "2026-09-01T16:30:00+05:30",
-      "end": "2026-09-01T18:00:00+05:30",
-      "isVirtual": false,
-      "campusName": "College of Engineering, Thiruvananthapuram",
-      "district": "thiruvananthapuram",
-      "address": "College of Engineering, thiruvananthapuram 16",
-      "lat": 8.5458513,
-      "lng": 76.9063407,
-      "locationSource": "maps_link",
-      "registered": 28,
-      "checkedIn": 28,
-      "checkedInAttendeeIds": [
-        15010,
-        23072,
-        34482,
-        34494,
-        35272,
-        45145,
-        49348,
-        51122,
-        51167,
-        51169,
-        51170,
-        51172,
-        51201,
-        51205,
-        51208,
-        51211,
-        51217,
-        51227,
-        51237,
-        51241,
-        51253,
-        51645,
-        51646,
-        51648,
-        51649,
-        51652,
-        51659,
-        51663
-      ],
-      "seats": null,
-      "mapUrl": "https://maps.app.goo.gl/kE6KGwY3bonvXxkK7"
-    },
-    {
       "id": 3837,
       "name": "Zero Hour- Day 2",
       "type": "Workshop",
@@ -21537,6 +21487,56 @@ window.EVENTS_DATA = {
       ],
       "seats": null,
       "mapUrl": "https://maps.app.goo.gl/3ye4p8MtAjDWPCrS9"
+    },
+    {
+      "id": 3854,
+      "name": "How do I do Hardware ? 101",
+      "type": "Learning_Program",
+      "typeColor": "#2563eb",
+      "status": "published",
+      "start": "2026-09-01T16:30:00+05:30",
+      "end": "2026-09-01T18:00:00+05:30",
+      "isVirtual": false,
+      "campusName": "College of Engineering, Thiruvananthapuram",
+      "district": "thiruvananthapuram",
+      "address": "College of Engineering, thiruvananthapuram 16",
+      "lat": 8.5458513,
+      "lng": 76.9063407,
+      "locationSource": "maps_link",
+      "registered": 28,
+      "checkedIn": 28,
+      "checkedInAttendeeIds": [
+        15010,
+        23072,
+        34482,
+        34494,
+        35272,
+        45145,
+        49348,
+        51122,
+        51167,
+        51169,
+        51170,
+        51172,
+        51201,
+        51205,
+        51208,
+        51211,
+        51217,
+        51227,
+        51237,
+        51241,
+        51253,
+        51645,
+        51646,
+        51648,
+        51649,
+        51652,
+        51659,
+        51663
+      ],
+      "seats": null,
+      "mapUrl": "https://maps.app.goo.gl/kE6KGwY3bonvXxkK7"
     },
     {
       "id": 3866,
@@ -22371,61 +22371,73 @@ window.EVENTS_DATA = {
       "mapUrl": "https://maps.app.goo.gl/6Nz514HiR39qkz5b8"
     },
     {
-      "id": 3874,
-      "name": "\u0d12\u0d30\u0d41 \u0d1a\u0d3e\u0d2f \u0d06\u0d2f\u0d3e\u0d32\u0d4b?",
+      "id": 3871,
+      "name": "Project Demo",
       "type": "Meetup",
       "typeColor": "#16a34a",
       "status": "published",
       "start": "2026-09-02T16:00:00+05:30",
       "end": "2026-09-02T17:00:00+05:30",
       "isVirtual": false,
-      "campusName": "College of Engineering, Munnar",
-      "district": "idukki",
-      "address": "College of Engineering, PB No. 45, County Hills, Munnar, idukki 685 612",
-      "lat": 10.0929689,
-      "lng": 77.0682335,
-      "locationSource": "maps_link",
-      "registered": 70,
-      "checkedIn": 35,
+      "campusName": "LBS Institute of Technology for Women, Poojappura",
+      "district": "thiruvananthapuram",
+      "address": "LBS Institute of Technology forWomen, Poojappura, thiruvananthapuram 695 012",
+      "lat": 8.56158,
+      "lng": 76.99412,
+      "locationSource": "district_fallback",
+      "registered": 50,
+      "checkedIn": 47,
       "checkedInAttendeeIds": [
-        7992,
-        7995,
-        8005,
-        8018,
-        8037,
-        8040,
-        8041,
-        8046,
-        8060,
-        29930,
-        29941,
-        29973,
-        29984,
-        29986,
-        29991,
-        29993,
-        37382,
-        48725,
-        48726,
-        48735,
-        48751,
-        48756,
-        50839,
-        51825,
-        51826,
-        51828,
-        51829,
-        51830,
-        51831,
-        51834,
-        51835,
-        51843,
-        51854,
-        51865,
-        52018
+        9560,
+        12523,
+        13890,
+        29695,
+        29701,
+        29729,
+        30810,
+        31199,
+        31206,
+        31295,
+        31301,
+        31350,
+        31356,
+        31364,
+        31436,
+        31447,
+        31575,
+        31598,
+        31796,
+        32590,
+        35449,
+        35728,
+        38821,
+        39080,
+        39940,
+        40304,
+        45119,
+        48689,
+        48801,
+        48896,
+        49114,
+        49574,
+        49588,
+        49652,
+        49657,
+        49726,
+        49904,
+        49906,
+        49915,
+        50049,
+        50279,
+        50380,
+        50405,
+        50418,
+        50645,
+        50682,
+        52120
       ],
-      "seats": 50,
-      "mapUrl": "https://maps.app.goo.gl/igTqqXBU8rJRhsYx8"
+      "seats": null,
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=LBS%20Institute%20of%20Technology%20forWomen%2C%20Poojappura%2C%20thiruvananthapuram%20695%20012"
     },
     {
       "id": 3878,
@@ -22559,73 +22571,61 @@ window.EVENTS_DATA = {
       "mapUrl": "https://maps.app.goo.gl/5Fo8Q5QwjfWXd7MB6"
     },
     {
-      "id": 3871,
-      "name": "Project Demo",
+      "id": 3874,
+      "name": "\u0d12\u0d30\u0d41 \u0d1a\u0d3e\u0d2f \u0d06\u0d2f\u0d3e\u0d32\u0d4b?",
       "type": "Meetup",
       "typeColor": "#16a34a",
       "status": "published",
       "start": "2026-09-02T16:00:00+05:30",
       "end": "2026-09-02T17:00:00+05:30",
       "isVirtual": false,
-      "campusName": "LBS Institute of Technology for Women, Poojappura",
-      "district": "thiruvananthapuram",
-      "address": "LBS Institute of Technology forWomen, Poojappura, thiruvananthapuram 695 012",
-      "lat": 8.56158,
-      "lng": 76.99412,
-      "locationSource": "district_fallback",
-      "registered": 50,
-      "checkedIn": 47,
+      "campusName": "College of Engineering, Munnar",
+      "district": "idukki",
+      "address": "College of Engineering, PB No. 45, County Hills, Munnar, idukki 685 612",
+      "lat": 10.0929689,
+      "lng": 77.0682335,
+      "locationSource": "maps_link",
+      "registered": 70,
+      "checkedIn": 35,
       "checkedInAttendeeIds": [
-        9560,
-        12523,
-        13890,
-        29695,
-        29701,
-        29729,
-        30810,
-        31199,
-        31206,
-        31295,
-        31301,
-        31350,
-        31356,
-        31364,
-        31436,
-        31447,
-        31575,
-        31598,
-        31796,
-        32590,
-        35449,
-        35728,
-        38821,
-        39080,
-        39940,
-        40304,
-        45119,
-        48689,
-        48801,
-        48896,
-        49114,
-        49574,
-        49588,
-        49652,
-        49657,
-        49726,
-        49904,
-        49906,
-        49915,
-        50049,
-        50279,
-        50380,
-        50405,
-        50418,
-        50645,
-        50682,
-        52120
+        7992,
+        7995,
+        8005,
+        8018,
+        8037,
+        8040,
+        8041,
+        8046,
+        8060,
+        29930,
+        29941,
+        29973,
+        29984,
+        29986,
+        29991,
+        29993,
+        37382,
+        48725,
+        48726,
+        48735,
+        48751,
+        48756,
+        50839,
+        51825,
+        51826,
+        51828,
+        51829,
+        51830,
+        51831,
+        51834,
+        51835,
+        51843,
+        51854,
+        51865,
+        52018
       ],
-      "seats": null,
-      "mapUrl": "https://www.google.com/maps/search/?api=1&query=LBS%20Institute%20of%20Technology%20forWomen%2C%20Poojappura%2C%20thiruvananthapuram%20695%20012"
+      "seats": 50,
+      "mapUrl": "https://maps.app.goo.gl/igTqqXBU8rJRhsYx8"
     },
     {
       "id": 3836,
@@ -22684,43 +22684,6 @@ window.EVENTS_DATA = {
       "mapUrl": "https://maps.app.goo.gl/3ye4p8MtAjDWPCrS9"
     },
     {
-      "id": 3875,
-      "name": "Useless Projects 3.0 Pre-events Day 03!",
-      "type": "Learning_Program",
-      "typeColor": "#2563eb",
-      "status": "published",
-      "start": "2026-09-02T19:00:00+05:30",
-      "end": "2026-09-02T20:00:00+05:30",
-      "isVirtual": true,
-      "campusName": "College of Engineering, Kallooppara",
-      "district": "pathanamthitta",
-      "address": "College of Engineering, Kadamankulam PO, Kallooppara, Thiruvalla (via), pathanamthitta 689603",
-      "lat": 9.2474,
-      "lng": 76.78145,
-      "locationSource": "district_fallback",
-      "registered": 26,
-      "checkedIn": 15,
-      "checkedInAttendeeIds": [
-        22131,
-        22225,
-        22291,
-        22309,
-        35288,
-        36693,
-        36700,
-        36704,
-        36721,
-        36737,
-        36739,
-        49937,
-        50591,
-        50659,
-        52128
-      ],
-      "seats": null,
-      "mapUrl": "https://www.google.com/maps/search/?api=1&query=College%20of%20Engineering%2C%20Kadamankulam%20PO%2C%20Kallooppara%2C%20Thiruvalla%20%28via%29%2C%20pathanamthitta%20689603"
-    },
-    {
       "id": 3845,
       "name": "AI Wednesday",
       "type": "Meetup",
@@ -22759,34 +22722,41 @@ window.EVENTS_DATA = {
       "mapUrl": "https://maps.app.goo.gl/j8w832j2VkvJPGeSA"
     },
     {
-      "id": 3852,
-      "name": "AI Wednesday - Under the Hood: Local LLM Inference",
-      "type": "Bootcamp",
-      "typeColor": "#db2777",
+      "id": 3875,
+      "name": "Useless Projects 3.0 Pre-events Day 03!",
+      "type": "Learning_Program",
+      "typeColor": "#2563eb",
       "status": "published",
-      "start": "2026-09-02T19:30:00+05:30",
-      "end": "2026-09-02T20:30:00+05:30",
-      "isVirtual": false,
-      "campusName": null,
-      "district": null,
-      "address": null,
-      "lat": 11.2775736,
-      "lng": 75.8443931,
-      "locationSource": "maps_link",
-      "registered": 15,
-      "checkedIn": 8,
+      "start": "2026-09-02T19:00:00+05:30",
+      "end": "2026-09-02T20:00:00+05:30",
+      "isVirtual": true,
+      "campusName": "College of Engineering, Kallooppara",
+      "district": "pathanamthitta",
+      "address": "College of Engineering, Kadamankulam PO, Kallooppara, Thiruvalla (via), pathanamthitta 689603",
+      "lat": 9.2474,
+      "lng": 76.78145,
+      "locationSource": "district_fallback",
+      "registered": 26,
+      "checkedIn": 15,
       "checkedInAttendeeIds": [
-        2012,
-        39413,
-        40411,
-        44530,
-        47320,
-        48567,
-        51583,
-        51992
+        22131,
+        22225,
+        22291,
+        22309,
+        35288,
+        36693,
+        36700,
+        36704,
+        36721,
+        36737,
+        36739,
+        49937,
+        50591,
+        50659,
+        52128
       ],
       "seats": null,
-      "mapUrl": "https://maps.app.goo.gl/NAv3dzhMYt2N6jyp8"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=College%20of%20Engineering%2C%20Kadamankulam%20PO%2C%20Kallooppara%2C%20Thiruvalla%20%28via%29%2C%20pathanamthitta%20689603"
     },
     {
       "id": 3818,
@@ -22817,6 +22787,36 @@ window.EVENTS_DATA = {
       ],
       "seats": 0,
       "mapUrl": "https://maps.app.goo.gl/K7MvYPjmHoBa38JR8"
+    },
+    {
+      "id": 3852,
+      "name": "AI Wednesday - Under the Hood: Local LLM Inference",
+      "type": "Bootcamp",
+      "typeColor": "#db2777",
+      "status": "published",
+      "start": "2026-09-02T19:30:00+05:30",
+      "end": "2026-09-02T20:30:00+05:30",
+      "isVirtual": false,
+      "campusName": null,
+      "district": null,
+      "address": null,
+      "lat": 11.2775736,
+      "lng": 75.8443931,
+      "locationSource": "maps_link",
+      "registered": 15,
+      "checkedIn": 8,
+      "checkedInAttendeeIds": [
+        2012,
+        39413,
+        40411,
+        44530,
+        47320,
+        48567,
+        51583,
+        51992
+      ],
+      "seats": null,
+      "mapUrl": "https://maps.app.goo.gl/NAv3dzhMYt2N6jyp8"
     },
     {
       "id": 3820,
@@ -22965,7 +22965,7 @@ window.EVENTS_DATA = {
       "lat": null,
       "lng": null,
       "locationSource": "unresolved",
-      "registered": 1939,
+      "registered": 1993,
       "checkedIn": 473,
       "checkedInAttendeeIds": [
         1158,
@@ -23845,7 +23845,7 @@ window.EVENTS_DATA = {
       "lat": 10.0469797,
       "lng": 76.3351998,
       "locationSource": "maps_link",
-      "registered": 11,
+      "registered": 10,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -23894,6 +23894,27 @@ window.EVENTS_DATA = {
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Institute%20of%20Engineering%20and%20Technology%2C%20Calicut%20University%2C%20Thenhipalam%2C%20malappuram%20673636"
     },
     {
+      "id": 3891,
+      "name": "Introduction to Git & GitHub useless pre-event 1",
+      "type": "Learning_Program",
+      "typeColor": "#2563eb",
+      "status": "published",
+      "start": "2026-09-05T19:00:00+05:30",
+      "end": "2026-09-05T20:00:00+05:30",
+      "isVirtual": true,
+      "campusName": "Jyothi Engineering College, Cheruthuruthy",
+      "district": "thrissur",
+      "address": "Jyothi Engineering College, Jyothi Hills, Panjal Road, Vettikattiri PO, Cheruthuthuruthy, thrissur 679531",
+      "lat": 10.5386,
+      "lng": 76.2319,
+      "locationSource": "district_fallback",
+      "registered": 1,
+      "checkedIn": 0,
+      "checkedInAttendeeIds": [],
+      "seats": 50,
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Jyothi%20Engineering%20College%2C%20Jyothi%20Hills%2C%20Panjal%20Road%2C%20Vettikattiri%20PO%2C%20Cheruthuthuruthy%2C%20thrissur%20679531"
+    },
+    {
       "id": 3890,
       "name": "MEET THE MAKER -2",
       "type": "Learning_Program",
@@ -23908,7 +23929,7 @@ window.EVENTS_DATA = {
       "lat": 11.828,
       "lng": 75.3136,
       "locationSource": "district_fallback",
-      "registered": 2,
+      "registered": 10,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -23929,7 +23950,7 @@ window.EVENTS_DATA = {
       "lat": 10.0469797,
       "lng": 76.3351998,
       "locationSource": "maps_link",
-      "registered": 2,
+      "registered": 3,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -23971,7 +23992,7 @@ window.EVENTS_DATA = {
       "lat": 9.4615534,
       "lng": 76.3319795,
       "locationSource": "maps_link",
-      "registered": 24,
+      "registered": 26,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -30552,8 +30573,7 @@ window.EVENTS_DATA = {
       "eventId": null,
       "createdAt": "2026-09-04T07:23:15.857795+05:30",
       "collaboratorIds": [
-        29540,
-        29544
+        29540
       ]
     },
     {
@@ -30994,9 +31014,7 @@ window.EVENTS_DATA = {
       "eventBased": false,
       "eventId": null,
       "createdAt": "2026-09-04T07:44:11.683335+05:30",
-      "collaboratorIds": [
-        46270
-      ]
+      "collaboratorIds": []
     },
     {
       "id": 8217,
@@ -31300,9 +31318,7 @@ window.EVENTS_DATA = {
       "eventBased": false,
       "eventId": null,
       "createdAt": "2026-09-04T08:03:49.278633+05:30",
-      "collaboratorIds": [
-        33725
-      ]
+      "collaboratorIds": []
     },
     {
       "id": 8248,
@@ -31370,30 +31386,1162 @@ window.EVENTS_DATA = {
         31674,
         51146
       ]
+    },
+    {
+      "id": 8255,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T08:16:58.071095+05:30",
+      "collaboratorIds": [
+        21491,
+        22044
+      ]
+    },
+    {
+      "id": 8256,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T08:17:03.54967+05:30",
+      "collaboratorIds": [
+        32220,
+        35554
+      ]
+    },
+    {
+      "id": 8257,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T08:20:18.092609+05:30",
+      "collaboratorIds": [
+        39399
+      ]
+    },
+    {
+      "id": 8258,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T08:22:20.683374+05:30",
+      "collaboratorIds": [
+        48387,
+        52291
+      ]
+    },
+    {
+      "id": 8259,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T08:22:45.79161+05:30",
+      "collaboratorIds": [
+        33147,
+        43001
+      ]
+    },
+    {
+      "id": 8260,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T08:23:54.489676+05:30",
+      "collaboratorIds": [
+        22997,
+        23020
+      ]
+    },
+    {
+      "id": 8261,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T08:24:22.743895+05:30",
+      "collaboratorIds": [
+        31356,
+        31703
+      ]
+    },
+    {
+      "id": 8262,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T08:26:10.436055+05:30",
+      "collaboratorIds": [
+        45247,
+        50856
+      ]
+    },
+    {
+      "id": 8263,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T08:28:03.922429+05:30",
+      "collaboratorIds": [
+        30395,
+        30654
+      ]
+    },
+    {
+      "id": 8264,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T08:30:24.359126+05:30",
+      "collaboratorIds": [
+        31674,
+        51146
+      ]
+    },
+    {
+      "id": 8265,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T08:31:46.991928+05:30",
+      "collaboratorIds": [
+        32087,
+        33725
+      ]
+    },
+    {
+      "id": 8266,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T08:33:56.358695+05:30",
+      "collaboratorIds": [
+        50657,
+        50658
+      ]
+    },
+    {
+      "id": 8267,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T08:35:42.06899+05:30",
+      "collaboratorIds": [
+        41808,
+        50578
+      ]
+    },
+    {
+      "id": 8268,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T08:39:14.696309+05:30",
+      "collaboratorIds": [
+        22225,
+        22244
+      ]
+    },
+    {
+      "id": 8269,
+      "eventBased": false,
+      "eventId": null,
+      "createdAt": "2026-09-04T08:39:34.62427+05:30",
+      "collaboratorIds": [
+        35265,
+        47648
+      ]
+    },
+    {
+      "id": 8270,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T08:39:48.017543+05:30",
+      "collaboratorIds": [
+        36737,
+        36739
+      ]
+    },
+    {
+      "id": 8271,
+      "eventBased": false,
+      "eventId": null,
+      "createdAt": "2026-09-04T08:41:14.682916+05:30",
+      "collaboratorIds": [
+        22315
+      ]
+    },
+    {
+      "id": 8272,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T08:41:59.632797+05:30",
+      "collaboratorIds": [
+        33909,
+        35305
+      ]
+    },
+    {
+      "id": 8273,
+      "eventBased": false,
+      "eventId": null,
+      "createdAt": "2026-09-04T08:43:07.557914+05:30",
+      "collaboratorIds": [
+        35104,
+        36699
+      ]
+    },
+    {
+      "id": 8274,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T08:43:57.47356+05:30",
+      "collaboratorIds": [
+        22231,
+        22255
+      ]
+    },
+    {
+      "id": 8275,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T08:44:31.654554+05:30",
+      "collaboratorIds": [
+        22315
+      ]
+    },
+    {
+      "id": 8276,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T08:46:53.118903+05:30",
+      "collaboratorIds": [
+        22063,
+        52351
+      ]
+    },
+    {
+      "id": 8277,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T08:47:27.364334+05:30",
+      "collaboratorIds": [
+        36700,
+        36721
+      ]
+    },
+    {
+      "id": 8278,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T08:48:29.520787+05:30",
+      "collaboratorIds": [
+        13377,
+        23233
+      ]
+    },
+    {
+      "id": 8279,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T08:48:40.166037+05:30",
+      "collaboratorIds": [
+        31253,
+        31540
+      ]
+    },
+    {
+      "id": 8280,
+      "eventBased": false,
+      "eventId": null,
+      "createdAt": "2026-09-04T08:51:02.763695+05:30",
+      "collaboratorIds": [
+        31253
+      ]
+    },
+    {
+      "id": 8281,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T08:51:08.159137+05:30",
+      "collaboratorIds": [
+        35288,
+        36664
+      ]
+    },
+    {
+      "id": 8282,
+      "eventBased": false,
+      "eventId": null,
+      "createdAt": "2026-09-04T08:52:28.032622+05:30",
+      "collaboratorIds": [
+        47637
+      ]
+    },
+    {
+      "id": 8283,
+      "eventBased": false,
+      "eventId": null,
+      "createdAt": "2026-09-04T08:52:39.76924+05:30",
+      "collaboratorIds": [
+        36754
+      ]
+    },
+    {
+      "id": 8284,
+      "eventBased": false,
+      "eventId": null,
+      "createdAt": "2026-09-04T08:53:37.584048+05:30",
+      "collaboratorIds": [
+        35270,
+        36778
+      ]
+    },
+    {
+      "id": 8285,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T08:54:01.603788+05:30",
+      "collaboratorIds": [
+        50628,
+        50630
+      ]
+    },
+    {
+      "id": 8286,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T08:54:09.617193+05:30",
+      "collaboratorIds": [
+        13890
+      ]
+    },
+    {
+      "id": 8287,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T08:54:32.083391+05:30",
+      "collaboratorIds": [
+        36754,
+        36776
+      ]
+    },
+    {
+      "id": 8288,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T08:55:37.411914+05:30",
+      "collaboratorIds": [
+        35271,
+        47637
+      ]
+    },
+    {
+      "id": 8289,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T08:56:03.020671+05:30",
+      "collaboratorIds": [
+        35270,
+        36778
+      ]
+    },
+    {
+      "id": 8290,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T08:56:31.96332+05:30",
+      "collaboratorIds": [
+        22228
+      ]
+    },
+    {
+      "id": 8291,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T08:57:02.843753+05:30",
+      "collaboratorIds": [
+        36725,
+        50659
+      ]
+    },
+    {
+      "id": 8292,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T08:58:10.281784+05:30",
+      "collaboratorIds": [
+        22359,
+        50601
+      ]
+    },
+    {
+      "id": 8293,
+      "eventBased": false,
+      "eventId": null,
+      "createdAt": "2026-09-04T09:00:59.380857+05:30",
+      "collaboratorIds": [
+        31223,
+        31239
+      ]
+    },
+    {
+      "id": 8294,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T09:01:54.101504+05:30",
+      "collaboratorIds": [
+        29541,
+        31389
+      ]
+    },
+    {
+      "id": 8295,
+      "eventBased": false,
+      "eventId": null,
+      "createdAt": "2026-09-04T09:03:45.087261+05:30",
+      "collaboratorIds": [
+        22249,
+        50600
+      ]
+    },
+    {
+      "id": 8296,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T09:05:24.016458+05:30",
+      "collaboratorIds": [
+        31364,
+        31511
+      ]
+    },
+    {
+      "id": 8297,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T09:05:44.696011+05:30",
+      "collaboratorIds": [
+        51772,
+        51783
+      ]
+    },
+    {
+      "id": 8298,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T09:06:41.522608+05:30",
+      "collaboratorIds": [
+        22249,
+        50600
+      ]
+    },
+    {
+      "id": 8299,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T09:07:22.318804+05:30",
+      "collaboratorIds": [
+        31223,
+        31239
+      ]
+    },
+    {
+      "id": 8300,
+      "eventBased": false,
+      "eventId": null,
+      "createdAt": "2026-09-04T09:08:18.685231+05:30",
+      "collaboratorIds": [
+        22309,
+        40802
+      ]
+    },
+    {
+      "id": 8301,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T09:09:36.417069+05:30",
+      "collaboratorIds": [
+        22131,
+        36693
+      ]
+    },
+    {
+      "id": 8302,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T09:10:00.548834+05:30",
+      "collaboratorIds": [
+        36642,
+        36704
+      ]
+    },
+    {
+      "id": 8303,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T09:11:48.833924+05:30",
+      "collaboratorIds": [
+        22309,
+        40802
+      ]
+    },
+    {
+      "id": 8304,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T09:12:35.380783+05:30",
+      "collaboratorIds": [
+        8278,
+        16682
+      ]
+    },
+    {
+      "id": 8305,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T09:13:32.11254+05:30",
+      "collaboratorIds": [
+        27683,
+        44655
+      ]
+    },
+    {
+      "id": 8306,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T09:19:16.898889+05:30",
+      "collaboratorIds": [
+        51765,
+        51766
+      ]
+    },
+    {
+      "id": 8307,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T09:21:21.45133+05:30",
+      "collaboratorIds": [
+        51275,
+        51483
+      ]
+    },
+    {
+      "id": 8308,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T09:23:29.518294+05:30",
+      "collaboratorIds": [
+        33069,
+        33144
+      ]
+    },
+    {
+      "id": 8309,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T09:24:12.615324+05:30",
+      "collaboratorIds": [
+        36654,
+        50610
+      ]
+    },
+    {
+      "id": 8310,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T09:24:58.426693+05:30",
+      "collaboratorIds": [
+        29695,
+        30337
+      ]
+    },
+    {
+      "id": 8311,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T09:30:32.67594+05:30",
+      "collaboratorIds": [
+        33113,
+        50937
+      ]
+    },
+    {
+      "id": 8312,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T09:31:21.262123+05:30",
+      "collaboratorIds": [
+        35503
+      ]
+    },
+    {
+      "id": 8313,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T09:35:26.571774+05:30",
+      "collaboratorIds": [
+        33161
+      ]
+    },
+    {
+      "id": 8314,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T09:38:06.934616+05:30",
+      "collaboratorIds": [
+        32446,
+        33185
+      ]
+    },
+    {
+      "id": 8315,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T09:45:12.817459+05:30",
+      "collaboratorIds": [
+        33100,
+        50878
+      ]
+    },
+    {
+      "id": 8316,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T09:46:55.825149+05:30",
+      "collaboratorIds": [
+        50682
+      ]
+    },
+    {
+      "id": 8317,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T09:49:44.855422+05:30",
+      "collaboratorIds": [
+        35278,
+        47580
+      ]
+    },
+    {
+      "id": 8318,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T09:55:25.527205+05:30",
+      "collaboratorIds": [
+        13918,
+        23613
+      ]
+    },
+    {
+      "id": 8319,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T09:58:47.078014+05:30",
+      "collaboratorIds": [
+        50418
+      ]
+    },
+    {
+      "id": 8320,
+      "eventBased": false,
+      "eventId": null,
+      "createdAt": "2026-09-04T09:59:08.748177+05:30",
+      "collaboratorIds": [
+        13750,
+        13934
+      ]
+    },
+    {
+      "id": 8321,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T10:01:02.194082+05:30",
+      "collaboratorIds": [
+        33157,
+        33181
+      ]
+    },
+    {
+      "id": 8322,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T10:01:20.395002+05:30",
+      "collaboratorIds": [
+        13750,
+        13934
+      ]
+    },
+    {
+      "id": 8323,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T10:02:56.150337+05:30",
+      "collaboratorIds": [
+        12930,
+        40836
+      ]
+    },
+    {
+      "id": 8324,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T10:08:35.226051+05:30",
+      "collaboratorIds": [
+        35104,
+        36699
+      ]
+    },
+    {
+      "id": 8325,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T10:15:45.23345+05:30",
+      "collaboratorIds": [
+        33140,
+        33148
+      ]
+    },
+    {
+      "id": 8326,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T10:16:46.592977+05:30",
+      "collaboratorIds": [
+        37666
+      ]
+    },
+    {
+      "id": 8327,
+      "eventBased": false,
+      "eventId": null,
+      "createdAt": "2026-09-04T10:20:28.47301+05:30",
+      "collaboratorIds": [
+        33151,
+        45251
+      ]
+    },
+    {
+      "id": 8328,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T10:20:49.668172+05:30",
+      "collaboratorIds": [
+        26682,
+        37733
+      ]
+    },
+    {
+      "id": 8329,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T10:22:27.206609+05:30",
+      "collaboratorIds": [
+        32807,
+        42044
+      ]
+    },
+    {
+      "id": 8330,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T10:37:09.752323+05:30",
+      "collaboratorIds": [
+        39030,
+        39031
+      ]
+    },
+    {
+      "id": 8331,
+      "eventBased": false,
+      "eventId": null,
+      "createdAt": "2026-09-04T10:38:21.690073+05:30",
+      "collaboratorIds": [
+        33124,
+        34620
+      ]
+    },
+    {
+      "id": 8332,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T10:40:32.116212+05:30",
+      "collaboratorIds": [
+        33124,
+        34620
+      ]
+    },
+    {
+      "id": 8333,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T10:41:37.55863+05:30",
+      "collaboratorIds": [
+        13684,
+        40859
+      ]
+    },
+    {
+      "id": 8334,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T10:41:38.650204+05:30",
+      "collaboratorIds": [
+        22276,
+        22280
+      ]
+    },
+    {
+      "id": 8335,
+      "eventBased": false,
+      "eventId": null,
+      "createdAt": "2026-09-04T10:43:57.673046+05:30",
+      "collaboratorIds": []
+    },
+    {
+      "id": 8336,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T10:45:16.036935+05:30",
+      "collaboratorIds": [
+        13725,
+        13732
+      ]
+    },
+    {
+      "id": 8337,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T10:46:50.387167+05:30",
+      "collaboratorIds": [
+        35265,
+        47648
+      ]
+    },
+    {
+      "id": 8338,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T10:47:04.998259+05:30",
+      "collaboratorIds": [
+        33090,
+        50921
+      ]
+    },
+    {
+      "id": 8339,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T10:48:25.508318+05:30",
+      "collaboratorIds": [
+        45262,
+        45263
+      ]
+    },
+    {
+      "id": 8340,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T10:49:21.83223+05:30",
+      "collaboratorIds": [
+        32362,
+        51194
+      ]
+    },
+    {
+      "id": 8341,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T10:49:25.957159+05:30",
+      "collaboratorIds": [
+        33094,
+        33120
+      ]
+    },
+    {
+      "id": 8342,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T10:56:21.709603+05:30",
+      "collaboratorIds": [
+        50860,
+        50905
+      ]
+    },
+    {
+      "id": 8343,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T10:56:53.698567+05:30",
+      "collaboratorIds": [
+        32445,
+        32806
+      ]
+    },
+    {
+      "id": 8344,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T10:56:53.952887+05:30",
+      "collaboratorIds": [
+        32445,
+        32806
+      ]
+    },
+    {
+      "id": 8345,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T11:00:09.838866+05:30",
+      "collaboratorIds": [
+        33020,
+        33314
+      ]
+    },
+    {
+      "id": 8346,
+      "eventBased": false,
+      "eventId": null,
+      "createdAt": "2026-09-04T11:05:21.101127+05:30",
+      "collaboratorIds": [
+        7022,
+        7040,
+        7398
+      ]
+    },
+    {
+      "id": 8347,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T11:08:35.579433+05:30",
+      "collaboratorIds": [
+        20762,
+        50999
+      ]
+    },
+    {
+      "id": 8348,
+      "eventBased": false,
+      "eventId": null,
+      "createdAt": "2026-09-04T11:08:56.988064+05:30",
+      "collaboratorIds": [
+        32340,
+        33195
+      ]
+    },
+    {
+      "id": 8349,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T11:09:08.4595+05:30",
+      "collaboratorIds": [
+        33141,
+        51028
+      ]
+    },
+    {
+      "id": 8350,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T11:10:41.405657+05:30",
+      "collaboratorIds": [
+        34981,
+        51579
+      ]
+    },
+    {
+      "id": 8351,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T11:11:17.719834+05:30",
+      "collaboratorIds": [
+        50857,
+        50863
+      ]
+    },
+    {
+      "id": 8352,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T11:13:50.278025+05:30",
+      "collaboratorIds": [
+        34985,
+        50903
+      ]
+    },
+    {
+      "id": 8353,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T11:14:44.506051+05:30",
+      "collaboratorIds": [
+        33001,
+        50885
+      ]
+    },
+    {
+      "id": 8354,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T11:15:52.138786+05:30",
+      "collaboratorIds": [
+        33195,
+        45227
+      ]
+    },
+    {
+      "id": 8355,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T11:16:00.149678+05:30",
+      "collaboratorIds": [
+        33063,
+        50884
+      ]
+    },
+    {
+      "id": 8356,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T11:17:02.855343+05:30",
+      "collaboratorIds": [
+        34924,
+        39269
+      ]
+    },
+    {
+      "id": 8357,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T11:17:52.507612+05:30",
+      "collaboratorIds": [
+        9178,
+        43337
+      ]
+    },
+    {
+      "id": 8358,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T11:21:57.789955+05:30",
+      "collaboratorIds": [
+        9471,
+        17417
+      ]
+    },
+    {
+      "id": 8359,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T11:31:31.406654+05:30",
+      "collaboratorIds": [
+        32808,
+        34917
+      ]
+    },
+    {
+      "id": 8360,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T11:35:18.912559+05:30",
+      "collaboratorIds": [
+        33073,
+        33924
+      ]
+    },
+    {
+      "id": 8361,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T11:36:33.714574+05:30",
+      "collaboratorIds": [
+        33168,
+        34989
+      ]
+    },
+    {
+      "id": 8362,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T11:37:23.358222+05:30",
+      "collaboratorIds": [
+        45252,
+        50177
+      ]
+    },
+    {
+      "id": 8363,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T11:45:00.589232+05:30",
+      "collaboratorIds": [
+        9770,
+        12867
+      ]
+    },
+    {
+      "id": 8364,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T11:55:04.687623+05:30",
+      "collaboratorIds": [
+        50907,
+        51351
+      ]
+    },
+    {
+      "id": 8365,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T12:05:08.610253+05:30",
+      "collaboratorIds": [
+        50867,
+        51291
+      ]
+    },
+    {
+      "id": 8366,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T12:10:42.442744+05:30",
+      "collaboratorIds": [
+        33074,
+        33129
+      ]
+    },
+    {
+      "id": 8367,
+      "eventBased": false,
+      "eventId": null,
+      "createdAt": "2026-09-04T12:25:34.90505+05:30",
+      "collaboratorIds": [
+        52646
+      ]
+    },
+    {
+      "id": 8368,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-04T12:54:43.117377+05:30",
+      "collaboratorIds": [
+        50820
+      ]
+    },
+    {
+      "id": 8369,
+      "eventBased": false,
+      "eventId": null,
+      "createdAt": "2026-09-04T12:54:50.423844+05:30",
+      "collaboratorIds": [
+        52585
+      ]
     }
   ],
   "summary": {
-    "totalEvents": 618,
+    "totalEvents": 619,
     "todayCount": 2,
-    "upcomingCount": 9,
+    "upcomingCount": 10,
     "pastCount": 607,
-    "totalRegistered": 17680,
+    "totalRegistered": 17745,
     "totalCheckedIn": 10527,
-    "virtualCount": 244,
+    "virtualCount": 245,
     "geocoded": 367,
-    "districtFallback": 224,
+    "districtFallback": 225,
     "unresolved": 27,
     "uniqueAttendees": 6185,
     "avgDailyAttendance": 87.7,
-    "totalProjects": 795,
-    "eventBasedProjects": 242,
-    "independentProjects": 553,
-    "uniquePeopleInProjects": 823
+    "totalProjects": 910,
+    "eventBasedProjects": 339,
+    "independentProjects": 571,
+    "uniquePeopleInProjects": 1001
   },
   "byType": [
     {
       "type": "Learning_Program",
-      "count": 172,
+      "count": 173,
       "color": "#2563eb"
     },
     {
@@ -31434,7 +32582,7 @@ window.EVENTS_DATA = {
     },
     {
       "district": "thrissur",
-      "count": 74
+      "count": 75
     },
     {
       "district": "thiruvananthapuram",
