@@ -2,7 +2,7 @@
 // Do NOT hand-edit -- this file is overwritten on each run.
 window.EVENTS_DATA = {
   "generatedAt": "2026-09-06",
-  "generatedAtIso": "2026-09-06T19:57:08.316167+00:00",
+  "generatedAtIso": "2026-09-06T22:39:47.547513+00:00",
   "windowSinceDate": "2026-04-01",
   "windowUntilDate": "2027-03-31",
   "events": [
@@ -23001,7 +23001,7 @@ window.EVENTS_DATA = {
       "lat": null,
       "lng": null,
       "locationSource": "unresolved",
-      "registered": 2648,
+      "registered": 2650,
       "checkedIn": 762,
       "checkedInAttendeeIds": [
         508,
@@ -24812,7 +24812,7 @@ window.EVENTS_DATA = {
       "name": "_hack_ Study Jam",
       "type": "Learning_Program",
       "typeColor": "#2563eb",
-      "status": "pending",
+      "status": "published",
       "start": "2026-09-07T16:00:00+05:30",
       "end": "2026-09-07T18:00:00+05:30",
       "isVirtual": false,
@@ -36652,7 +36652,8 @@ window.EVENTS_DATA = {
       "eventId": null,
       "createdAt": "2026-09-07T00:29:59.527924+05:30",
       "collaboratorIds": [
-        24379
+        24379,
+        50788
       ]
     },
     {
@@ -36681,7 +36682,7 @@ window.EVENTS_DATA = {
     "todayCount": 8,
     "upcomingCount": 35,
     "pastCount": 625,
-    "totalRegistered": 18938,
+    "totalRegistered": 18940,
     "totalCheckedIn": 11094,
     "virtualCount": 270,
     "geocoded": 401,
