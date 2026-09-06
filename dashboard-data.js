@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-06T03:47:00Z",
+  "generatedAt": "2026-09-06T10:41:37Z",
   "threads": [
     {
       "id": "campus-cfdfbbc5d9",
@@ -9,9 +9,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "Trisha",
       "email": "mail.trishaa@gmail.com",
       "received": "2026-09-05",
-      "last": "2026-09-05",
-      "status": "No response",
-      "note": "app shows wrong slot time vs actual; needs check",
+      "last": "2026-09-06",
+      "status": "Resolved",
+      "note": "slot time corrected as requested",
       "daysOpen": 1,
       "daysSinceReceived": 1,
       "cc": [
@@ -43,9 +43,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "Rose (CE Poonjar)",
       "email": "rosecep24@gmail.com",
       "received": "2026-09-05",
-      "last": "2026-09-05",
-      "status": "No response",
-      "note": "requesting RSVP event date change",
+      "last": "2026-09-06",
+      "status": "Awaiting reply (from them)",
+      "note": "we owe them updated slot (11 Sep 5pm–12 Sep 11am)",
       "daysOpen": 1,
       "daysSinceReceived": 1,
       "cc": [
@@ -60,9 +60,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "Shaamila Shahul (JCET)",
       "email": "shaamilaashahul@gmail.com",
       "received": "2026-09-05",
-      "last": "2026-09-05",
-      "status": "No response",
-      "note": "requesting seat capacity increase",
+      "last": "2026-09-06",
+      "status": "Awaiting reply (from them)",
+      "note": "seat capacity increase (60→70) pending",
       "daysOpen": 1,
       "daysSinceReceived": 1,
       "cc": [
@@ -253,9 +253,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "Farsana (TinkerHub)",
       "email": "fathimathulfarsaana@gmail.com",
       "received": "2026-09-02",
-      "last": "2026-09-02",
-      "status": "No response",
-      "note": "seat increase + reopen registration request",
+      "last": "2026-09-06",
+      "status": "Awaiting reply (from them)",
+      "note": "seat count increase (50→70) + reopen registration pending",
       "daysOpen": 4,
       "daysSinceReceived": 4,
       "cc": [
@@ -581,9 +581,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "Abhirag R Nair",
       "email": "abhiragrnair2006@gmail.com",
       "received": "2026-08-30",
-      "last": "2026-09-03",
+      "last": "2026-09-06",
       "status": "Awaiting reply (from us)",
-      "note": "student replied to prompt, no ack sent",
+      "note": "students replying to prompt, no ack sent (latest: Silpa)",
       "daysOpen": 7,
       "daysSinceReceived": 7,
       "cc": [
@@ -937,9 +937,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "Fahma Fathima (Kerala Startup Mission)",
       "email": "fahma@fellow.startupmission.in",
       "received": "2026-08-21",
-      "last": "2026-09-01",
-      "status": "Awaiting reply (from us)",
-      "note": "they sent poster/content for us to circulate",
+      "last": "2026-09-04",
+      "status": "Awaiting reply (from them)",
+      "note": "looped in Aswathi as mentor contact; collaboration ongoing",
       "daysOpen": 16,
       "daysSinceReceived": 16,
       "cc": [
@@ -2033,61 +2033,112 @@ window.DASHBOARD_DATA = {
       "cc": [
         "report@tinkerhub.org"
       ]
+    },
+    {
+      "id": "campus-8bac430dff",
+      "threadId": "1a075df83eaf8cfd",
+      "group": "campus",
+      "subject": "Time Correction for Useless project",
+      "counterpart": "Farsana (Ansar Women's College)",
+      "email": "fathimathulfarsaana@gmail.com",
+      "received": "2026-09-06",
+      "last": "2026-09-06",
+      "status": "No response",
+      "note": "requesting time slot correction to 11th 6pm–12th 8am",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-136b7634bb",
+      "threadId": "1a0751866cc40610",
+      "group": "campus",
+      "subject": "Enquiry to introduce tinkerhub to my college",
+      "counterpart": "Joel Justine (Mentor Engineering College)",
+      "email": "joeljustine2008@gmail.com",
+      "received": "2026-09-06",
+      "last": "2026-09-06",
+      "status": "No response",
+      "note": "asking how to start a TinkerHub chapter at his college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "support-0637de2179",
+      "threadId": "1a075a655b8ad000",
+      "group": "support",
+      "subject": "Request to Register for Useless Projects 3.0 at My College",
+      "counterpart": "Aysha Lina (RIT Kottayam)",
+      "email": "ayshalina729@gmail.com",
+      "received": "2026-09-06",
+      "last": "2026-09-06",
+      "status": "Resolved",
+      "note": "given Sept 11–12 dates; told to retry registration",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "support@tinkerhub.org"
+      ]
     }
   ],
   "summary": {
-    "No response": 18,
-    "Awaiting reply (from them)": 39,
-    "Resolved": 27,
+    "Resolved": 29,
+    "No response": 16,
+    "Awaiting reply (from them)": 43,
     "Informational": 23,
-    "Awaiting reply (from us)": 8
+    "Awaiting reply (from us)": 7
   },
   "analytics": {
     "campus": {
-      "total": 77,
-      "avgOpenDays": 11.1,
-      "avgResolvedDays": 5.2,
+      "total": 79,
       "counts": {
-        "No response": 7,
-        "Awaiting reply (from them)": 28,
-        "Resolved": 21,
+        "Resolved": 22,
+        "No response": 5,
+        "Awaiting reply (from them)": 32,
         "Informational": 17,
-        "Awaiting reply (from us)": 4
-      }
+        "Awaiting reply (from us)": 3
+      },
+      "avgOpenDays": 10.8,
+      "avgResolvedDays": 5
     },
     "support": {
-      "total": 18,
-      "avgOpenDays": 13.4,
-      "avgResolvedDays": 13.5,
+      "total": 19,
       "counts": {
         "Awaiting reply (from them)": 5,
-        "Resolved": 2,
+        "Resolved": 3,
         "No response": 9,
         "Awaiting reply (from us)": 2
-      }
+      },
+      "avgOpenDays": 13.4,
+      "avgResolvedDays": 9
     },
     "finance": {
       "total": 13,
-      "avgOpenDays": 14.5,
-      "avgResolvedDays": 1.3,
       "counts": {
         "Awaiting reply (from us)": 1,
         "Informational": 6,
         "Awaiting reply (from them)": 2,
         "Resolved": 3,
         "No response": 1
-      }
+      },
+      "avgOpenDays": 14.5,
+      "avgResolvedDays": 1.3
     },
     "report": {
       "total": 7,
-      "avgOpenDays": 11.0,
-      "avgResolvedDays": 15.0,
       "counts": {
         "Awaiting reply (from them)": 4,
         "Awaiting reply (from us)": 1,
         "No response": 1,
         "Resolved": 1
-      }
+      },
+      "avgOpenDays": 11,
+      "avgResolvedDays": 15
     }
   }
 };
