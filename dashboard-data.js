@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-06T10:41:37Z",
+  "generatedAt": "2026-09-06T12:35:51Z",
   "threads": [
     {
       "id": "campus-cfdfbbc5d9",
@@ -1982,25 +1982,6 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "finance-bfb5517877",
-      "threadId": "19fc7f2ab26d3e7f",
-      "group": "finance",
-      "subject": "Re: TDS | Tinkerhub | July 2026",
-      "counterpart": "R Rajan Associates",
-      "email": "rraca.kochi@gmail.com",
-      "received": "2026-08-03",
-      "last": "2026-08-05",
-      "status": "Resolved",
-      "note": "TDS Rs.43,759 paid, challan received",
-      "daysOpen": 2,
-      "daysSinceReceived": 34,
-      "cc": [
-        "finance@tinkerhub.org",
-        "althaf@tinkerhub.org",
-        "mehar@tinkerhub.org"
-      ]
-    },
-    {
       "id": "report-55409c5545",
       "threadId": "1a064036048dfc40",
       "group": "report",
@@ -2087,7 +2068,7 @@ window.DASHBOARD_DATA = {
     }
   ],
   "summary": {
-    "Resolved": 29,
+    "Resolved": 28,
     "No response": 16,
     "Awaiting reply (from them)": 43,
     "Informational": 23,
@@ -2104,7 +2085,18 @@ window.DASHBOARD_DATA = {
         "Awaiting reply (from us)": 3
       },
       "avgOpenDays": 10.8,
-      "avgResolvedDays": 5
+      "avgResolvedDays": 5.0
+    },
+    "report": {
+      "total": 7,
+      "counts": {
+        "Awaiting reply (from them)": 4,
+        "Awaiting reply (from us)": 1,
+        "No response": 1,
+        "Resolved": 1
+      },
+      "avgOpenDays": 11.0,
+      "avgResolvedDays": 15.0
     },
     "support": {
       "total": 19,
@@ -2115,30 +2107,19 @@ window.DASHBOARD_DATA = {
         "Awaiting reply (from us)": 2
       },
       "avgOpenDays": 13.4,
-      "avgResolvedDays": 9
+      "avgResolvedDays": 9.0
     },
     "finance": {
-      "total": 13,
+      "total": 12,
       "counts": {
         "Awaiting reply (from us)": 1,
         "Informational": 6,
         "Awaiting reply (from them)": 2,
-        "Resolved": 3,
+        "Resolved": 2,
         "No response": 1
       },
       "avgOpenDays": 14.5,
-      "avgResolvedDays": 1.3
-    },
-    "report": {
-      "total": 7,
-      "counts": {
-        "Awaiting reply (from them)": 4,
-        "Awaiting reply (from us)": 1,
-        "No response": 1,
-        "Resolved": 1
-      },
-      "avgOpenDays": 11,
-      "avgResolvedDays": 15
+      "avgResolvedDays": 1.0
     }
   }
 };
