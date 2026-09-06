@@ -1,7 +1,7 @@
 // Auto-generated daily by .github/workflows/discord-update.yml
 // Do NOT hand-edit — this file is overwritten on each run.
 window.DISCORD_DATA = {
-  "generatedAt": "2026-09-06",
+  "generatedAt": "2026-09-06T03:30:00Z",
   "threads": [
     {
       "id": "1546049342790574170",

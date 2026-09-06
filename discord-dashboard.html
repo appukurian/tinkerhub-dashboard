@@ -219,6 +219,7 @@
   <div class="mb-8">
     <h1 class="text-2xl font-bold tracking-tight text-ink md:text-3xl">TinkerHub Discord Thread Dashboard</h1>
     <p class="text-sm text-muted mt-1.5" id="header-sub">Tech-issue threads in the tracked channel</p>
+    <p class="text-xs text-muted mt-1" id="refresh-status"></p>
   </div>
 
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 mb-8">
@@ -299,7 +300,7 @@
     </div>
   </section>
 
-  <footer id="footer-note" class="mt-8 text-center text-xs text-muted border-t border-border pt-6 leading-relaxed">"Days" = days since the last message in the thread. Data refreshes daily via a GitHub Actions workflow, independent of any chat session.</footer>
+  <footer id="footer-note" class="mt-8 text-center text-xs text-muted border-t border-border pt-6 leading-relaxed">"Days" = days since the last message in the thread. Data auto-refreshes every 2 hours between 8am–11pm IST via a GitHub Actions workflow, independent of any chat session.</footer>
 </div>
 
 <script src="discord-data.js"></script>
@@ -415,6 +416,36 @@ if(!DATA || !DATA.threads){
   document.getElementById("threads-section").style.display = "block";
   document.getElementById("header-sub").textContent =
     "Tech-issue threads in the tracked channel · data as of " + (DATA.generatedAt || "unknown date");
+  (function () {
+    // Auto-refreshes every 2 hours during the active window (8am-11pm IST).
+    var SCHEDULE_HOURS_IST = [8, 10, 12, 14, 16, 18, 20, 22];
+    function istParts(d) {
+      var s = d.toLocaleString("en-US", { timeZone: "Asia/Kolkata", hour12: false, hour: "2-digit", minute: "2-digit" });
+      var m = s.match(/(\d{1,2}):(\d{2})/);
+      return { hour: +m[1], minute: +m[2] };
+    }
+    function fmtIST(d) {
+      return d.toLocaleString("en-IN", { timeZone: "Asia/Kolkata", hour: "numeric", minute: "2-digit", hour12: true, day: "2-digit", month: "short" }) + " IST";
+    }
+    function fmtHourIST(h) {
+      var hh = h % 12 === 0 ? 12 : h % 12;
+      return hh + ":00 " + (h < 12 ? "AM" : "PM") + " IST";
+    }
+    function nextUpdateLabel(now) {
+      var p = istParts(now);
+      var next = SCHEDULE_HOURS_IST.find(function (h) { return h > p.hour; });
+      if (next === undefined) return fmtHourIST(SCHEDULE_HOURS_IST[0]) + " tomorrow";
+      return fmtHourIST(next) + " today";
+    }
+    var el = document.getElementById("refresh-status");
+    if (el && DATA.generatedAt) {
+      var gen = new Date(DATA.generatedAt);
+      if (!isNaN(gen)) {
+        el.textContent = "Last updated " + fmtIST(gen) + " · next update ~" + nextUpdateLabel(new Date()) +
+          " (auto-refreshes every 2h, 8am–11pm IST)";
+      }
+    }
+  })();
   renderSummary(DATA.summary || {}, DATA.avgDaysToClose);
   renderBars("category-bars", DATA.topCategories, "category", "count");
   renderBars("requester-bars", DATA.topRequesters, "name", "count");

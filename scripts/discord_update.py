@@ -342,7 +342,7 @@ def main():
     top_requesters = [{"name": n, "count": c} for n, c in requester_counts.most_common(15)]
 
     out = {
-        "generatedAt": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+        "generatedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "threads": results,
         "summary": summary,
         "avgOpenDays": avg_open,

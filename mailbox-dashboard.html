@@ -177,6 +177,7 @@
   <div class="mb-8">
     <h1 class="text-2xl font-bold tracking-tight text-ink md:text-3xl">TinkerHub Mailbox Dashboard</h1>
     <p class="text-sm text-muted mt-1.5" id="header-sub">campus@ · support@ · finance@ · report@tinkerhub.org — threads from the last 30 days</p>
+    <p class="text-xs text-muted mt-1" id="refresh-status"></p>
   </div>
 
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 mb-8">
@@ -409,6 +410,37 @@ document.getElementById("f-search").addEventListener("input", renderThreads);
 
 document.getElementById("header-sub").textContent =
   "campus@ · support@ · finance@ · report@tinkerhub.org — threads from the last 30 days · data as of " + (DATA.generatedAt || "unknown date");
+
+(function () {
+  // Auto-refreshes every 2 hours during the active window (8am-11pm IST).
+  var SCHEDULE_HOURS_IST = [8, 10, 12, 14, 16, 18, 20, 22];
+  function istParts(d) {
+    var s = d.toLocaleString("en-US", { timeZone: "Asia/Kolkata", hour12: false, hour: "2-digit", minute: "2-digit" });
+    var m = s.match(/(\d{1,2}):(\d{2})/);
+    return { hour: +m[1], minute: +m[2] };
+  }
+  function fmtIST(d) {
+    return d.toLocaleString("en-IN", { timeZone: "Asia/Kolkata", hour: "numeric", minute: "2-digit", hour12: true, day: "2-digit", month: "short" }) + " IST";
+  }
+  function fmtHourIST(h) {
+    var hh = h % 12 === 0 ? 12 : h % 12;
+    return hh + ":00 " + (h < 12 ? "AM" : "PM") + " IST";
+  }
+  function nextUpdateLabel(now) {
+    var p = istParts(now);
+    var next = SCHEDULE_HOURS_IST.find(function (h) { return h > p.hour; });
+    if (next === undefined) return fmtHourIST(SCHEDULE_HOURS_IST[0]) + " tomorrow";
+    return fmtHourIST(next) + " today";
+  }
+  var el = document.getElementById("refresh-status");
+  if (el && DATA.generatedAt) {
+    var gen = new Date(DATA.generatedAt);
+    if (!isNaN(gen)) {
+      el.textContent = "Last updated " + fmtIST(gen) + " · next update ~" + nextUpdateLabel(new Date()) +
+        " (auto-refreshes every 2h, 8am–11pm IST)";
+    }
+  }
+})();
 
 renderThreads();
 </script>

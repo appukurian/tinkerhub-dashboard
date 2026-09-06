@@ -2,8 +2,9 @@ name: Discord thread dashboard update
 
 on:
   schedule:
-    # Runs daily at 03:30 UTC (~9:00 AM IST). Adjust as you like.
-    - cron: "30 3 * * *"
+    # Every 2 hours during the active window, 8am-11pm IST (UTC+5:30):
+    # IST 8,10,12,14,16,18,20,22 -> UTC 2:30,4:30,6:30,8:30,10:30,12:30,14:30,16:30
+    - cron: "30 2,4,6,8,10,12,14,16 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -37,6 +38,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Daily Discord data refresh $(date -u +%Y-%m-%d)"
+            git commit -m "Discord data refresh $(date -u +%Y-%m-%dT%H:%M:%SZ)"
             git push
           fi
