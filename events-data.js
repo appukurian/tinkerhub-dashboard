@@ -2,7 +2,7 @@
 // Do NOT hand-edit -- this file is overwritten on each run.
 window.EVENTS_DATA = {
   "generatedAt": "2026-09-07",
-  "generatedAtIso": "2026-09-07T18:58:12.325969+00:00",
+  "generatedAtIso": "2026-09-07T23:15:30.917432+00:00",
   "windowSinceDate": "2026-04-01",
   "windowUntilDate": "2027-03-31",
   "events": [
@@ -22960,8 +22960,9 @@ window.EVENTS_DATA = {
       "lng": 76.49893,
       "locationSource": "district_fallback",
       "registered": 14,
-      "checkedIn": 11,
+      "checkedIn": 12,
       "checkedInAttendeeIds": [
+        26071,
         30613,
         30806,
         30834,
@@ -23007,13 +23008,13 @@ window.EVENTS_DATA = {
       "start": "2026-09-03T10:00:00+05:30",
       "end": "2026-09-14T17:00:00+05:30",
       "isVirtual": false,
-      "campusName": "Baselios Marthoma Mathews II College of Engineering, Sasthamcotta",
+      "campusName": "Baselios Mathews II College of Engineering, Sasthamcotta",
       "district": null,
       "address": "Baselios Marthoma Mathews II Training College, Kottarakara, Kollam",
       "lat": null,
       "lng": null,
       "locationSource": "unresolved",
-      "registered": 3313,
+      "registered": 3316,
       "checkedIn": 762,
       "checkedInAttendeeIds": [
         508,
@@ -25184,7 +25185,7 @@ window.EVENTS_DATA = {
       "lng": 75.3136,
       "locationSource": "district_fallback",
       "registered": 26,
-      "checkedIn": 21,
+      "checkedIn": 23,
       "checkedInAttendeeIds": [
         45516,
         45856,
@@ -25200,9 +25201,11 @@ window.EVENTS_DATA = {
         48257,
         48284,
         48296,
+        48318,
         48322,
         48331,
         48341,
+        48350,
         48351,
         48950,
         49036,
@@ -25541,7 +25544,7 @@ window.EVENTS_DATA = {
       "lat": 8.93757,
       "lng": 76.58753,
       "locationSource": "district_fallback",
-      "registered": 16,
+      "registered": 17,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -25562,7 +25565,7 @@ window.EVENTS_DATA = {
       "lat": 10.0469797,
       "lng": 76.3351998,
       "locationSource": "maps_link",
-      "registered": 13,
+      "registered": 14,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -25730,7 +25733,7 @@ window.EVENTS_DATA = {
       "lat": 11.828,
       "lng": 75.3136,
       "locationSource": "district_fallback",
-      "registered": 0,
+      "registered": 1,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": 0,
@@ -37602,6 +37605,16 @@ window.EVENTS_DATA = {
       "collaboratorIds": [
         53631
       ]
+    },
+    {
+      "id": 8666,
+      "eventBased": false,
+      "eventId": null,
+      "createdAt": "2026-09-08T02:06:16.863708+05:30",
+      "collaboratorIds": [
+        46503,
+        53683
+      ]
     }
   ],
   "summary": {
@@ -37609,18 +37622,18 @@ window.EVENTS_DATA = {
     "todayCount": 25,
     "upcomingCount": 26,
     "pastCount": 637,
-    "totalRegistered": 20174,
-    "totalCheckedIn": 11318,
+    "totalRegistered": 20180,
+    "totalCheckedIn": 11321,
     "virtualCount": 275,
     "geocoded": 410,
     "districtFallback": 251,
     "unresolved": 27,
-    "uniqueAttendees": 6648,
+    "uniqueAttendees": 6650,
     "avgDailyAttendance": 91.3,
-    "totalProjects": 1206,
+    "totalProjects": 1207,
     "eventBasedProjects": 526,
-    "independentProjects": 680,
-    "uniquePeopleInProjects": 1348
+    "independentProjects": 681,
+    "uniquePeopleInProjects": 1350
   },
   "byType": [
     {
