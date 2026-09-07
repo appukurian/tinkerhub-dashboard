@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-07T06:41:00Z",
+  "generatedAt": "2026-09-07T08:37:10Z",
   "threads": [
     {
       "id": "campus-cfdfbbc5d9",
@@ -2065,38 +2065,44 @@ window.DASHBOARD_DATA = {
       "cc": [
         "support@tinkerhub.org"
       ]
+    },
+    {
+      "id": "campus-eec1a67d3f",
+      "threadId": "1a07a9fc5b2bfa88",
+      "group": "campus",
+      "subject": "Request to Increase Useless Project Participant Capacity to 60",
+      "counterpart": "Nija Sulthana (Al Azhar CET)",
+      "email": "njsltn07@gmail.com",
+      "received": "2026-09-07",
+      "last": "2026-09-07",
+      "status": "No response",
+      "note": "seat capacity increase request (6→60)",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     }
   ],
   "summary": {
     "Resolved": 27,
-    "No response": 16,
+    "No response": 17,
     "Awaiting reply (from them)": 43,
     "Informational": 23,
     "Awaiting reply (from us)": 8
   },
   "analytics": {
     "campus": {
-      "total": 79,
+      "total": 80,
       "counts": {
         "Resolved": 22,
-        "No response": 5,
+        "No response": 6,
         "Awaiting reply (from them)": 32,
         "Informational": 17,
         "Awaiting reply (from us)": 3
       },
-      "avgOpenDays": 11.8,
+      "avgOpenDays": 11.5,
       "avgResolvedDays": 5
-    },
-    "report": {
-      "total": 7,
-      "counts": {
-        "Awaiting reply (from them)": 4,
-        "Awaiting reply (from us)": 1,
-        "No response": 1,
-        "Resolved": 1
-      },
-      "avgOpenDays": 12,
-      "avgResolvedDays": 15
     },
     "support": {
       "total": 19,
@@ -2120,6 +2126,17 @@ window.DASHBOARD_DATA = {
       },
       "avgOpenDays": 15.5,
       "avgResolvedDays": 1
+    },
+    "report": {
+      "total": 7,
+      "counts": {
+        "Awaiting reply (from them)": 4,
+        "Awaiting reply (from us)": 1,
+        "No response": 1,
+        "Resolved": 1
+      },
+      "avgOpenDays": 12,
+      "avgResolvedDays": 15
     }
   }
 };
