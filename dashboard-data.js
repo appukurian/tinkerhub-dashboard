@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-09T10:42:37Z",
+  "generatedAt": "2026-09-09T12:42:00Z",
   "threads": [
     {
       "id": "campus-ec47efe888",
@@ -1533,40 +1533,6 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "finance-1e975d5195",
-      "threadId": "19febad48e94ec41",
-      "group": "finance",
-      "subject": "Your receipt from Resend #2155-8005",
-      "counterpart": "Resend (automated)",
-      "email": null,
-      "received": "2026-08-10",
-      "last": "2026-08-10",
-      "status": "Informational",
-      "note": "$20 payment receipt, subscription charged",
-      "daysOpen": 0,
-      "daysSinceReceived": 30,
-      "cc": [
-        "finance@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "finance-410f35ae93",
-      "threadId": "19febac4a8e8ace6",
-      "group": "finance",
-      "subject": "Low SMS balance - Ekuttan, MSG91!",
-      "counterpart": "MSG91 (automated)",
-      "email": null,
-      "received": "2026-08-10",
-      "last": "2026-08-10",
-      "status": "Informational",
-      "note": "SMS wallet balance low, add funds",
-      "daysOpen": 0,
-      "daysSinceReceived": 30,
-      "cc": [
-        "finance@tinkerhub.org"
-      ]
-    },
-    {
       "id": "finance-5a0a3cbdca",
       "threadId": "19ff599ef2a205f5",
       "group": "finance",
@@ -2395,36 +2361,53 @@ window.DASHBOARD_DATA = {
         "support@tinkerhub.org",
         "report@tinkerhub.org"
       ]
+    },
+    {
+      "id": "campus-df3c852183",
+      "threadId": "1a0862818a2bb56a",
+      "group": "campus",
+      "subject": "To increase our seats from 100 to 112",
+      "counterpart": "Amal S Kumar (TinkerHub CE-Alappuzha)",
+      "email": "tinkerhub@cempunnapra.org",
+      "received": "2026-09-09",
+      "last": "2026-09-09",
+      "status": "No response",
+      "note": "",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     }
   ],
   "summary": {
     "Resolved": 29,
     "Awaiting reply (from us)": 14,
     "Awaiting reply (from them)": 54,
-    "Informational": 24,
-    "No response": 15
+    "Informational": 22,
+    "No response": 16
   },
   "analytics": {
     "campus": {
-      "total": 87,
+      "total": 88,
       "statusCounts": {
         "Resolved": 23,
         "Awaiting reply (from us)": 9,
         "Awaiting reply (from them)": 37,
         "Informational": 16,
-        "No response": 2
+        "No response": 3
       },
-      "avgOpenDays": 11.6,
+      "avgOpenDays": 11.4,
       "avgResolvedDays": 4.9
     },
     "finance": {
-      "total": 16,
+      "total": 14,
       "statusCounts": {
-        "Informational": 8,
         "No response": 2,
         "Awaiting reply (from us)": 1,
         "Resolved": 3,
-        "Awaiting reply (from them)": 2
+        "Awaiting reply (from them)": 2,
+        "Informational": 6
       },
       "avgOpenDays": 14.4,
       "avgResolvedDays": 1.0
