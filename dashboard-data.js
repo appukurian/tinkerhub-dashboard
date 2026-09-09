@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-09T06:43:19Z",
+  "generatedAt": "2026-09-09T08:44:47Z",
   "threads": [
     {
       "id": "campus-ec47efe888",
@@ -1346,6 +1346,23 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
+      "id": "campus-136b7634bb",
+      "threadId": "1a0751866cc40610",
+      "group": "campus",
+      "subject": "Enquiry to introduce tinkerhub to my college",
+      "counterpart": "Joel Justine (Mentor Engineering College)",
+      "email": "joeljustine2008@gmail.com",
+      "received": "2026-09-06",
+      "last": "2026-09-08",
+      "status": "Awaiting reply (from them)",
+      "note": "campus team replied, offered to help him start a chapter",
+      "daysOpen": 3,
+      "daysSinceReceived": 3,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
       "id": "campus-cfbc52b5e5",
       "threadId": "1a07c0c2639bd396",
       "group": "campus",
@@ -1448,23 +1465,6 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "campus-136b7634bb",
-      "threadId": "1a0751866cc40610",
-      "group": "campus",
-      "subject": "Enquiry to introduce tinkerhub to my college",
-      "counterpart": "Joel Justine (Mentor Engineering College)",
-      "email": "joeljustine2008@gmail.com",
-      "received": "2026-09-06",
-      "last": "2026-09-08",
-      "status": "Awaiting reply (from them)",
-      "note": "campus team replied, offered to help him start a chapter",
-      "daysOpen": 3,
-      "daysSinceReceived": 3,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
       "id": "campus-e835ed1494",
       "threadId": "1a084b4d31ae09c4",
       "group": "campus",
@@ -1516,369 +1516,21 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "support-ce112b72d0",
-      "threadId": "19f70cb00532cc3e",
-      "group": "support",
-      "subject": "Change of Faculty Coordinator: KAHM Unity Women's College Manjeri",
-      "counterpart": "Fathima Afrah Peedikaparamben",
-      "email": "fathimaafrahpp@gmail.com",
-      "received": "2026-07-17",
-      "last": "2026-08-11",
-      "status": "Resolved",
-      "note": "closed, already updated in Koottam",
-      "daysOpen": 25,
-      "daysSinceReceived": 54,
+      "id": "campus-ea4e73daab",
+      "threadId": "1a084f7873a2929f",
+      "group": "campus",
+      "subject": "(no subject) – Seat capacity increase for USELESS 3.0",
+      "counterpart": "Hellan Raichel Benoy",
+      "email": "hellan1845@gmail.com",
+      "received": "2026-09-09",
+      "last": "2026-09-09",
+      "status": "No response",
+      "note": "wants seat capacity for USELESS 3.0 (Sep 11-12) raised 60→70; also flags some registered teams unable to attend",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
       "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-cae6d70712",
-      "threadId": "19fef734079841d1",
-      "group": "support",
-      "subject": "Fwd: Regarding the change of role from Friends of Tinkerhub to student",
-      "counterpart": "Abi Alif",
-      "email": "abialifhere@gmail.com",
-      "received": "2026-08-11",
-      "last": "2026-08-30",
-      "status": "Awaiting reply (from them)",
-      "note": "role change looped to support",
-      "daysOpen": 29,
-      "daysSinceReceived": 29,
-      "cc": [
-        "support@tinkerhub.org",
         "campus@tinkerhub.org"
       ]
-    },
-    {
-      "id": "support-d1aa7afd77",
-      "threadId": "19ff659a3473cde4",
-      "group": "support",
-      "subject": "Change the degree college",
-      "counterpart": "Nihal T",
-      "email": "nihal.chiyoor@gmail.com",
-      "received": "2026-08-12",
-      "last": "2026-08-12",
-      "status": "Awaiting reply (from them)",
-      "note": "redirected to support, no fix yet",
-      "daysOpen": 28,
-      "daysSinceReceived": 28,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-8bac1bd4e1",
-      "threadId": "1a013c3f0bc11a1e",
-      "group": "support",
-      "subject": "Request to update college details – HLJP6V6755",
-      "counterpart": "Fidha Fathima",
-      "email": "ff080870@gmail.com",
-      "received": "2026-08-18",
-      "last": "2026-08-20",
-      "status": "Resolved",
-      "note": "college details updated",
-      "daysOpen": 2,
-      "daysSinceReceived": 22,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-4d866af761",
-      "threadId": "1a01fabb03f3ee2f",
-      "group": "support",
-      "subject": "Request to Change College Name in TinkerHub Account",
-      "counterpart": "Akshay Harilal",
-      "email": "akshayharilal10@gmail.com",
-      "received": "2026-08-20",
-      "last": "2026-08-20",
-      "status": "No response",
-      "note": "college name change request",
-      "daysOpen": 20,
-      "daysSinceReceived": 20,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-e48da1bdd3",
-      "threadId": "1a02412b56d4d47a",
-      "group": "support",
-      "subject": "(no subject)",
-      "counterpart": "Amrithasree C",
-      "email": "amrithasreec066@gmail.com",
-      "received": "2026-08-21",
-      "last": "2026-08-21",
-      "status": "No response",
-      "note": "duplicate of later thread",
-      "daysOpen": 19,
-      "daysSinceReceived": 19,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-e48da1bdd3",
-      "threadId": "1a0286f4d46a5c4c",
-      "group": "support",
-      "subject": "(no subject)",
-      "counterpart": "Amrithasree C",
-      "email": "amrithasreec066@gmail.com",
-      "received": "2026-08-22",
-      "last": "2026-08-23",
-      "status": "Awaiting reply (from us)",
-      "note": "sent screenshot, needs profile fix",
-      "daysOpen": 18,
-      "daysSinceReceived": 18,
-      "cc": [
-        "support@tinkerhub.org",
-        "akhil@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-855e19fd13",
-      "threadId": "1a029a998be98f06",
-      "group": "support",
-      "subject": "Error in Github repository adding",
-      "counterpart": "Ayan Hashique",
-      "email": "ayanhashique2006@gmail.com",
-      "received": "2026-08-22",
-      "last": "2026-08-22",
-      "status": "No response",
-      "note": "GitHub repo selection bug",
-      "daysOpen": 18,
-      "daysSinceReceived": 18,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-51bd020885",
-      "threadId": "1a033a51db9f94be",
-      "group": "support",
-      "subject": "Logging issue in tinkerhub",
-      "counterpart": "Goutham R",
-      "email": "gouthamr4567@gmail.com",
-      "received": "2026-08-24",
-      "last": "2026-08-24",
-      "status": "No response",
-      "note": "duplicate OTP report",
-      "daysOpen": 16,
-      "daysSinceReceived": 16,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-fb3566d206",
-      "threadId": "1a033c3d3b6522c6",
-      "group": "support",
-      "subject": "Report: Unable to sign in and \"failed to send OTP\" error during mobile verification",
-      "counterpart": "Shani Nair",
-      "email": "shaninair781@gmail.com",
-      "received": "2026-08-24",
-      "last": "2026-08-24",
-      "status": "Awaiting reply (from them)",
-      "note": "OTP issue tagged to support",
-      "daysOpen": 16,
-      "daysSinceReceived": 16,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-16a4419f31",
-      "threadId": "1a032c21a83ee0f8",
-      "group": "support",
-      "subject": "Issue on Tinkerhub app",
-      "counterpart": "Goutham R",
-      "email": "gouthamr4567@gmail.com",
-      "received": "2026-08-24",
-      "last": "2026-08-24",
-      "status": "Awaiting reply (from them)",
-      "note": "OTP fails, tagged to support",
-      "daysOpen": 16,
-      "daysSinceReceived": 16,
-      "cc": [
-        "support@tinkerhub.org",
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-7dc073f54d",
-      "threadId": "1a0385d224e84b2c",
-      "group": "support",
-      "subject": "College Not Available in TinkerHub App",
-      "counterpart": "Adnan Ibnu Rasheed",
-      "email": "adnankp249@gmail.com",
-      "received": "2026-08-25",
-      "last": "2026-08-25",
-      "status": "No response",
-      "note": "college missing from selection list",
-      "daysOpen": 15,
-      "daysSinceReceived": 15,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-7807caa213",
-      "threadId": "1a03933119a19f56",
-      "group": "support",
-      "subject": "(no subject)",
-      "counterpart": "Shani Nair",
-      "email": "shaninair781@gmail.com",
-      "received": "2026-08-25",
-      "last": "2026-08-25",
-      "status": "No response",
-      "note": "duplicate follow-up, still locked out",
-      "daysOpen": 15,
-      "daysSinceReceived": 15,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-8859da3162",
-      "threadId": "1a037a3e72a46ef9",
-      "group": "support",
-      "subject": "Cannot login to page",
-      "counterpart": "Gouri ES",
-      "email": "gourishaju07@gmail.com",
-      "received": "2026-08-25",
-      "last": "2026-08-25",
-      "status": "Awaiting reply (from us)",
-      "note": "still failing, needs troubleshooting",
-      "daysOpen": 15,
-      "daysSinceReceived": 15,
-      "cc": [
-        "support@tinkerhub.org",
-        "akhil@tinkerhub.org",
-        "kurian@tinkerhub.org",
-        "report@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-3ee4e1e8c3",
-      "threadId": "1a03f8c447ad92e9",
-      "group": "support",
-      "subject": "Bug Report: UI jump and layout issue on \"Upcoming Activities\" page in Tinkerhub App",
-      "counterpart": "Anson Boby",
-      "email": "ansonboby@gmail.com",
-      "received": "2026-08-26",
-      "last": "2026-08-26",
-      "status": "No response",
-      "note": "UI bug report, needs review",
-      "daysOpen": 14,
-      "daysSinceReceived": 14,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-260b19eb06",
-      "threadId": "1a042cdc25fcb5c6",
-      "group": "support",
-      "subject": "OTP Not Being Sent When Trying to Log In",
-      "counterpart": "Athul Benedict",
-      "email": "athulbenedict123@gmail.com",
-      "received": "2026-08-27",
-      "last": "2026-08-28",
-      "status": "Awaiting reply (from them)",
-      "note": "OTP issue tagged to support",
-      "daysOpen": 13,
-      "daysSinceReceived": 13,
-      "cc": [
-        "support@tinkerhub.org",
-        "report@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-796ba6e5ce",
-      "threadId": "1a066d48f646e734",
-      "group": "support",
-      "subject": "Failed to send OTP",
-      "counterpart": "Thasneem Co H",
-      "email": "thasneemchalil@gmail.com",
-      "received": "2026-09-03",
-      "last": "2026-09-03",
-      "status": "No response",
-      "note": "needs OTP troubleshooting",
-      "daysOpen": 6,
-      "daysSinceReceived": 6,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-5359c95f3e",
-      "threadId": "1a06ff002a590034",
-      "group": "support",
-      "subject": "Failed otp verification for login and unable to edit profile",
-      "counterpart": "Lachu Krishna",
-      "email": "lachukrishna01@gmail.com",
-      "received": "2026-09-05",
-      "last": "2026-09-05",
-      "status": "No response",
-      "note": "OTP verification failing; also can't edit profile",
-      "daysOpen": 4,
-      "daysSinceReceived": 4,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-0637de2179",
-      "threadId": "1a075a655b8ad000",
-      "group": "support",
-      "subject": "Request to Register for Useless Projects 3.0 at My College",
-      "counterpart": "Aysha Lina (RIT Kottayam)",
-      "email": "ayshalina729@gmail.com",
-      "received": "2026-09-06",
-      "last": "2026-09-07",
-      "status": "Awaiting reply (from us)",
-      "note": "still can't register for Sept 11-12 slot despite instructions; needs further help",
-      "daysOpen": 3,
-      "daysSinceReceived": 3,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-c9e3a899cb",
-      "threadId": "1a07c7647bc4616e",
-      "group": "support",
-      "subject": "Event Registration Issue",
-      "counterpart": "Pooja S N (Saintgits)",
-      "email": "poojasn.er2428@saintgits.org",
-      "received": "2026-09-07",
-      "last": "2026-09-07",
-      "status": "No response",
-      "note": "~100 students at Saintgits Kudumba Unit event couldn't register in time; asking to add attached list of 27 names to the event",
-      "daysOpen": 2,
-      "daysSinceReceived": 2,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-767af85ff1",
-      "threadId": "1a07f8adc7a282ef",
-      "group": "support",
-      "subject": "(no subject) – OTP request limit exceeded",
-      "counterpart": "Renil Augustine",
-      "email": "augustinerenil723@gmail.com",
-      "received": "2026-09-08",
-      "last": "2026-09-08",
-      "status": "Awaiting reply (from them)",
-      "note": "OTP limit issue tagged to support",
-      "cc": [
-        "support@tinkerhub.org",
-        "report@tinkerhub.org"
-      ],
-      "daysSinceReceived": 1,
-      "daysOpen": 1
     },
     {
       "id": "finance-1e975d5195",
@@ -2294,16 +1946,17 @@ window.DASHBOARD_DATA = {
       "threadId": "1a07f81e530dfb34",
       "group": "report",
       "subject": "Tinkerhub not sending OTP for login",
-      "counterpart": "Unknown sender",
+      "counterpart": "Dev Anand VP",
       "email": "blindinglucario@gmail.com",
       "received": "2026-09-08",
-      "last": "2026-09-08",
-      "status": "No response",
-      "note": "OTP not sending, likely too many requests; has upcoming hackathon",
+      "last": "2026-09-09",
+      "status": "Awaiting reply (from them)",
+      "note": "OTP not sending (too many requests); tagged to support for handling",
       "daysOpen": 1,
       "daysSinceReceived": 1,
       "cc": [
-        "report@tinkerhub.org"
+        "report@tinkerhub.org",
+        "support@tinkerhub.org"
       ]
     },
     {
@@ -2332,12 +1985,414 @@ window.DASHBOARD_DATA = {
       "counterpart": "Shaphen Binu Kuriakose",
       "email": "shaphenbinukuriakose@gmail.com",
       "received": "2026-09-08",
-      "last": "2026-09-08",
-      "status": "No response",
-      "note": "failed to send OTP on login",
+      "last": "2026-09-09",
+      "status": "Awaiting reply (from them)",
+      "note": "OTP failure on login; tagged to support for handling",
       "daysOpen": 1,
       "daysSinceReceived": 1,
       "cc": [
+        "report@tinkerhub.org",
+        "support@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "support-ce112b72d0",
+      "threadId": "19f70cb00532cc3e",
+      "group": "support",
+      "subject": "Change of Faculty Coordinator: KAHM Unity Women's College Manjeri",
+      "counterpart": "Fathima Afrah Peedikaparamben",
+      "email": "fathimaafrahpp@gmail.com",
+      "received": "2026-07-17",
+      "last": "2026-08-11",
+      "status": "Resolved",
+      "note": "closed, already updated in Koottam",
+      "daysOpen": 25,
+      "daysSinceReceived": 54,
+      "cc": [
+        "support@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "support-cae6d70712",
+      "threadId": "19fef734079841d1",
+      "group": "support",
+      "subject": "Fwd: Regarding the change of role from Friends of Tinkerhub to student",
+      "counterpart": "Abi Alif",
+      "email": "abialifhere@gmail.com",
+      "received": "2026-08-11",
+      "last": "2026-08-30",
+      "status": "Awaiting reply (from them)",
+      "note": "role change looped to support",
+      "daysOpen": 29,
+      "daysSinceReceived": 29,
+      "cc": [
+        "support@tinkerhub.org",
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "support-d1aa7afd77",
+      "threadId": "19ff659a3473cde4",
+      "group": "support",
+      "subject": "Change the degree college",
+      "counterpart": "Nihal T",
+      "email": "nihal.chiyoor@gmail.com",
+      "received": "2026-08-12",
+      "last": "2026-08-12",
+      "status": "Awaiting reply (from them)",
+      "note": "redirected to support, no fix yet",
+      "daysOpen": 28,
+      "daysSinceReceived": 28,
+      "cc": [
+        "support@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "support-8bac1bd4e1",
+      "threadId": "1a013c3f0bc11a1e",
+      "group": "support",
+      "subject": "Request to update college details – HLJP6V6755",
+      "counterpart": "Fidha Fathima",
+      "email": "ff080870@gmail.com",
+      "received": "2026-08-18",
+      "last": "2026-08-20",
+      "status": "Resolved",
+      "note": "college details updated",
+      "daysOpen": 2,
+      "daysSinceReceived": 22,
+      "cc": [
+        "support@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "support-4d866af761",
+      "threadId": "1a01fabb03f3ee2f",
+      "group": "support",
+      "subject": "Request to Change College Name in TinkerHub Account",
+      "counterpart": "Akshay Harilal",
+      "email": "akshayharilal10@gmail.com",
+      "received": "2026-08-20",
+      "last": "2026-08-20",
+      "status": "No response",
+      "note": "college name change request",
+      "daysOpen": 20,
+      "daysSinceReceived": 20,
+      "cc": [
+        "support@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "support-e48da1bdd3",
+      "threadId": "1a02412b56d4d47a",
+      "group": "support",
+      "subject": "(no subject)",
+      "counterpart": "Amrithasree C",
+      "email": "amrithasreec066@gmail.com",
+      "received": "2026-08-21",
+      "last": "2026-08-21",
+      "status": "No response",
+      "note": "duplicate of later thread",
+      "daysOpen": 19,
+      "daysSinceReceived": 19,
+      "cc": [
+        "support@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "support-e48da1bdd3",
+      "threadId": "1a0286f4d46a5c4c",
+      "group": "support",
+      "subject": "(no subject)",
+      "counterpart": "Amrithasree C",
+      "email": "amrithasreec066@gmail.com",
+      "received": "2026-08-22",
+      "last": "2026-08-23",
+      "status": "Awaiting reply (from us)",
+      "note": "sent screenshot, needs profile fix",
+      "daysOpen": 18,
+      "daysSinceReceived": 18,
+      "cc": [
+        "support@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "support-855e19fd13",
+      "threadId": "1a029a998be98f06",
+      "group": "support",
+      "subject": "Error in Github repository adding",
+      "counterpart": "Ayan Hashique",
+      "email": "ayanhashique2006@gmail.com",
+      "received": "2026-08-22",
+      "last": "2026-08-22",
+      "status": "No response",
+      "note": "GitHub repo selection bug",
+      "daysOpen": 18,
+      "daysSinceReceived": 18,
+      "cc": [
+        "support@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "support-51bd020885",
+      "threadId": "1a033a51db9f94be",
+      "group": "support",
+      "subject": "Logging issue in tinkerhub",
+      "counterpart": "Goutham R",
+      "email": "gouthamr4567@gmail.com",
+      "received": "2026-08-24",
+      "last": "2026-08-24",
+      "status": "No response",
+      "note": "duplicate OTP report",
+      "daysOpen": 16,
+      "daysSinceReceived": 16,
+      "cc": [
+        "support@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "support-fb3566d206",
+      "threadId": "1a033c3d3b6522c6",
+      "group": "support",
+      "subject": "Report: Unable to sign in and \"failed to send OTP\" error during mobile verification",
+      "counterpart": "Shani Nair",
+      "email": "shaninair781@gmail.com",
+      "received": "2026-08-24",
+      "last": "2026-08-24",
+      "status": "Awaiting reply (from them)",
+      "note": "OTP issue tagged to support",
+      "daysOpen": 16,
+      "daysSinceReceived": 16,
+      "cc": [
+        "support@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "support-16a4419f31",
+      "threadId": "1a032c21a83ee0f8",
+      "group": "support",
+      "subject": "Issue on Tinkerhub app",
+      "counterpart": "Goutham R",
+      "email": "gouthamr4567@gmail.com",
+      "received": "2026-08-24",
+      "last": "2026-08-24",
+      "status": "Awaiting reply (from them)",
+      "note": "OTP fails, tagged to support",
+      "daysOpen": 16,
+      "daysSinceReceived": 16,
+      "cc": [
+        "support@tinkerhub.org",
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "support-7dc073f54d",
+      "threadId": "1a0385d224e84b2c",
+      "group": "support",
+      "subject": "College Not Available in TinkerHub App",
+      "counterpart": "Adnan Ibnu Rasheed",
+      "email": "adnankp249@gmail.com",
+      "received": "2026-08-25",
+      "last": "2026-08-25",
+      "status": "No response",
+      "note": "college missing from selection list",
+      "daysOpen": 15,
+      "daysSinceReceived": 15,
+      "cc": [
+        "support@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "support-7807caa213",
+      "threadId": "1a03933119a19f56",
+      "group": "support",
+      "subject": "(no subject)",
+      "counterpart": "Shani Nair",
+      "email": "shaninair781@gmail.com",
+      "received": "2026-08-25",
+      "last": "2026-08-25",
+      "status": "No response",
+      "note": "duplicate follow-up, still locked out",
+      "daysOpen": 15,
+      "daysSinceReceived": 15,
+      "cc": [
+        "support@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "support-8859da3162",
+      "threadId": "1a037a3e72a46ef9",
+      "group": "support",
+      "subject": "Cannot login to page",
+      "counterpart": "Gouri ES",
+      "email": "gourishaju07@gmail.com",
+      "received": "2026-08-25",
+      "last": "2026-08-25",
+      "status": "Awaiting reply (from us)",
+      "note": "still failing, needs troubleshooting",
+      "daysOpen": 15,
+      "daysSinceReceived": 15,
+      "cc": [
+        "support@tinkerhub.org",
+        "akhil@tinkerhub.org",
+        "kurian@tinkerhub.org",
+        "report@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "support-3ee4e1e8c3",
+      "threadId": "1a03f8c447ad92e9",
+      "group": "support",
+      "subject": "Bug Report: UI jump and layout issue on \"Upcoming Activities\" page in Tinkerhub App",
+      "counterpart": "Anson Boby",
+      "email": "ansonboby@gmail.com",
+      "received": "2026-08-26",
+      "last": "2026-08-26",
+      "status": "No response",
+      "note": "UI bug report, needs review",
+      "daysOpen": 14,
+      "daysSinceReceived": 14,
+      "cc": [
+        "support@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "support-260b19eb06",
+      "threadId": "1a042cdc25fcb5c6",
+      "group": "support",
+      "subject": "OTP Not Being Sent When Trying to Log In",
+      "counterpart": "Athul Benedict",
+      "email": "athulbenedict123@gmail.com",
+      "received": "2026-08-27",
+      "last": "2026-08-28",
+      "status": "Awaiting reply (from them)",
+      "note": "OTP issue tagged to support",
+      "daysOpen": 13,
+      "daysSinceReceived": 13,
+      "cc": [
+        "support@tinkerhub.org",
+        "report@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "support-796ba6e5ce",
+      "threadId": "1a066d48f646e734",
+      "group": "support",
+      "subject": "Failed to send OTP",
+      "counterpart": "Thasneem Co H",
+      "email": "thasneemchalil@gmail.com",
+      "received": "2026-09-03",
+      "last": "2026-09-03",
+      "status": "No response",
+      "note": "needs OTP troubleshooting",
+      "daysOpen": 6,
+      "daysSinceReceived": 6,
+      "cc": [
+        "support@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "support-5359c95f3e",
+      "threadId": "1a06ff002a590034",
+      "group": "support",
+      "subject": "Failed otp verification for login and unable to edit profile",
+      "counterpart": "Lachu Krishna",
+      "email": "lachukrishna01@gmail.com",
+      "received": "2026-09-05",
+      "last": "2026-09-05",
+      "status": "No response",
+      "note": "OTP verification failing; also can't edit profile",
+      "daysOpen": 4,
+      "daysSinceReceived": 4,
+      "cc": [
+        "support@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "support-0637de2179",
+      "threadId": "1a075a655b8ad000",
+      "group": "support",
+      "subject": "Request to Register for Useless Projects 3.0 at My College",
+      "counterpart": "Aysha Lina (RIT Kottayam)",
+      "email": "ayshalina729@gmail.com",
+      "received": "2026-09-06",
+      "last": "2026-09-07",
+      "status": "Awaiting reply (from us)",
+      "note": "still can't register for Sept 11-12 slot despite instructions; needs further help",
+      "daysOpen": 3,
+      "daysSinceReceived": 3,
+      "cc": [
+        "support@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "support-c9e3a899cb",
+      "threadId": "1a07c7647bc4616e",
+      "group": "support",
+      "subject": "Event Registration Issue",
+      "counterpart": "Pooja S N (Saintgits)",
+      "email": "poojasn.er2428@saintgits.org",
+      "received": "2026-09-07",
+      "last": "2026-09-07",
+      "status": "No response",
+      "note": "~100 students at Saintgits Kudumba Unit event couldn't register in time; asking to add attached list of 27 names to the event",
+      "daysOpen": 2,
+      "daysSinceReceived": 2,
+      "cc": [
+        "support@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "support-767af85ff1",
+      "threadId": "1a07f8adc7a282ef",
+      "group": "support",
+      "subject": "(no subject) – OTP request limit exceeded",
+      "counterpart": "Renil Augustine",
+      "email": "augustinerenil723@gmail.com",
+      "received": "2026-09-08",
+      "last": "2026-09-08",
+      "status": "Awaiting reply (from them)",
+      "note": "OTP limit issue tagged to support",
+      "daysOpen": 1,
+      "daysSinceReceived": 1,
+      "cc": [
+        "support@tinkerhub.org",
+        "report@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "support-76e8ed1974",
+      "threadId": "1a07f81e530dfb34",
+      "group": "support",
+      "subject": "Tinkerhub not sending OTP for login",
+      "counterpart": "Dev Anand VP",
+      "email": "blindinglucario@gmail.com",
+      "received": "2026-09-08",
+      "last": "2026-09-09",
+      "status": "Awaiting reply (from them)",
+      "note": "OTP issue tagged to support",
+      "daysOpen": 1,
+      "daysSinceReceived": 1,
+      "cc": [
+        "support@tinkerhub.org",
+        "report@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "support-41ce301bde",
+      "threadId": "1a07f972d58575c1",
+      "group": "support",
+      "subject": "OTP failing",
+      "counterpart": "Shaphen Binu Kuriakose",
+      "email": "shaphenbinukuriakose@gmail.com",
+      "received": "2026-09-08",
+      "last": "2026-09-09",
+      "status": "Awaiting reply (from them)",
+      "note": "OTP failure issue tagged to support",
+      "daysOpen": 1,
+      "daysSinceReceived": 1,
+      "cc": [
+        "support@tinkerhub.org",
         "report@tinkerhub.org"
       ]
     }
@@ -2345,33 +2400,22 @@ window.DASHBOARD_DATA = {
   "summary": {
     "Resolved": 29,
     "Awaiting reply (from us)": 14,
-    "Awaiting reply (from them)": 49,
+    "Awaiting reply (from them)": 53,
     "Informational": 24,
-    "No response": 17
+    "No response": 16
   },
   "analytics": {
     "campus": {
-      "total": 86,
+      "total": 87,
       "statusCounts": {
         "Resolved": 23,
         "Awaiting reply (from us)": 9,
         "Awaiting reply (from them)": 36,
         "Informational": 16,
-        "No response": 2
+        "No response": 3
       },
-      "avgOpenDays": 11.9,
+      "avgOpenDays": 11.6,
       "avgResolvedDays": 4.9
-    },
-    "support": {
-      "total": 21,
-      "statusCounts": {
-        "Resolved": 2,
-        "Awaiting reply (from them)": 6,
-        "No response": 10,
-        "Awaiting reply (from us)": 3
-      },
-      "avgOpenDays": 14.1,
-      "avgResolvedDays": 13.5
     },
     "finance": {
       "total": 16,
@@ -2383,18 +2427,29 @@ window.DASHBOARD_DATA = {
         "Awaiting reply (from them)": 2
       },
       "avgOpenDays": 14.4,
-      "avgResolvedDays": 1
+      "avgResolvedDays": 1.0
     },
     "report": {
       "total": 10,
       "statusCounts": {
         "Resolved": 1,
-        "Awaiting reply (from them)": 5,
+        "Awaiting reply (from them)": 7,
         "Awaiting reply (from us)": 1,
-        "No response": 3
+        "No response": 1
       },
       "avgOpenDays": 9.7,
-      "avgResolvedDays": 15
+      "avgResolvedDays": 15.0
+    },
+    "support": {
+      "total": 23,
+      "statusCounts": {
+        "Resolved": 2,
+        "Awaiting reply (from them)": 8,
+        "No response": 10,
+        "Awaiting reply (from us)": 3
+      },
+      "avgOpenDays": 12.9,
+      "avgResolvedDays": 13.5
     }
   }
 };
