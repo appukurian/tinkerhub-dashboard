@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-09T08:44:47Z",
+  "generatedAt": "2026-09-09T10:42:37Z",
   "threads": [
     {
       "id": "campus-ec47efe888",
@@ -1524,8 +1524,8 @@ window.DASHBOARD_DATA = {
       "email": "hellan1845@gmail.com",
       "received": "2026-09-09",
       "last": "2026-09-09",
-      "status": "No response",
-      "note": "wants seat capacity for USELESS 3.0 (Sep 11-12) raised 60→70; also flags some registered teams unable to attend",
+      "status": "Awaiting reply (from them)",
+      "note": "seat capacity 60→70 requested for USELESS 3.0 (Sep 11-12); Femina replied asking for details on the team issue, suggested posting to Discord tech support channel",
       "daysOpen": 0,
       "daysSinceReceived": 0,
       "cc": [
@@ -2400,9 +2400,9 @@ window.DASHBOARD_DATA = {
   "summary": {
     "Resolved": 29,
     "Awaiting reply (from us)": 14,
-    "Awaiting reply (from them)": 53,
+    "Awaiting reply (from them)": 54,
     "Informational": 24,
-    "No response": 16
+    "No response": 15
   },
   "analytics": {
     "campus": {
@@ -2410,9 +2410,9 @@ window.DASHBOARD_DATA = {
       "statusCounts": {
         "Resolved": 23,
         "Awaiting reply (from us)": 9,
-        "Awaiting reply (from them)": 36,
+        "Awaiting reply (from them)": 37,
         "Informational": 16,
-        "No response": 3
+        "No response": 2
       },
       "avgOpenDays": 11.6,
       "avgResolvedDays": 4.9
