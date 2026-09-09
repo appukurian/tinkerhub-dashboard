@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-09T12:42:00Z",
+  "generatedAt": "2026-09-09T14:36:00Z",
   "threads": [
     {
       "id": "campus-ec47efe888",
@@ -2371,34 +2371,79 @@ window.DASHBOARD_DATA = {
       "email": "tinkerhub@cempunnapra.org",
       "received": "2026-09-09",
       "last": "2026-09-09",
-      "status": "No response",
-      "note": "",
+      "status": "Awaiting reply (from us)",
+      "note": "we owe them: update seat capacity to 112 (told them shortly)",
       "daysOpen": 0,
       "daysSinceReceived": 0,
       "cc": [
         "campus@tinkerhub.org"
       ]
+    },
+    {
+      "id": "campus-8191f333af",
+      "threadId": "1a086693e5262d40",
+      "group": "campus",
+      "subject": "Request for new slot - Useless Projects on 11th September",
+      "counterpart": "Sidrah (MAMOC)",
+      "email": "sidrahaysha@gmail.com",
+      "received": "2026-09-09",
+      "last": "2026-09-09",
+      "status": "No response",
+      "note": "requesting a new slot (11 Sep, 9:30am-7pm) + their poster tracking ID",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "support-d09a80eb95",
+      "threadId": "1a0867185a9f192c",
+      "group": "support",
+      "subject": "regarding changing Discord user accounts in the TinkerHub community server",
+      "counterpart": "Kendrik K Joseph",
+      "email": "kendrikkjoseph3@gmail.com",
+      "received": "2026-09-09",
+      "last": "2026-09-09",
+      "status": "No response",
+      "note": "wants alt Discord account (turtkingdom) merged/switched to main (silvrknight)",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "support@tinkerhub.org"
+      ]
     }
   ],
   "summary": {
     "Resolved": 29,
-    "Awaiting reply (from us)": 14,
+    "Awaiting reply (from us)": 15,
     "Awaiting reply (from them)": 54,
     "Informational": 22,
-    "No response": 16
+    "No response": 17
   },
   "analytics": {
     "campus": {
-      "total": 88,
+      "total": 89,
       "statusCounts": {
         "Resolved": 23,
-        "Awaiting reply (from us)": 9,
+        "Awaiting reply (from us)": 10,
         "Awaiting reply (from them)": 37,
         "Informational": 16,
         "No response": 3
       },
-      "avgOpenDays": 11.4,
+      "avgOpenDays": 11.2,
       "avgResolvedDays": 4.9
+    },
+    "support": {
+      "total": 24,
+      "statusCounts": {
+        "Resolved": 2,
+        "Awaiting reply (from them)": 8,
+        "No response": 11,
+        "Awaiting reply (from us)": 3
+      },
+      "avgOpenDays": 12.3,
+      "avgResolvedDays": 13.5
     },
     "finance": {
       "total": 14,
@@ -2410,7 +2455,7 @@ window.DASHBOARD_DATA = {
         "Informational": 6
       },
       "avgOpenDays": 14.4,
-      "avgResolvedDays": 1.0
+      "avgResolvedDays": 1
     },
     "report": {
       "total": 10,
@@ -2421,18 +2466,7 @@ window.DASHBOARD_DATA = {
         "No response": 1
       },
       "avgOpenDays": 9.7,
-      "avgResolvedDays": 15.0
-    },
-    "support": {
-      "total": 23,
-      "statusCounts": {
-        "Resolved": 2,
-        "Awaiting reply (from them)": 8,
-        "No response": 10,
-        "Awaiting reply (from us)": 3
-      },
-      "avgOpenDays": 12.9,
-      "avgResolvedDays": 13.5
+      "avgResolvedDays": 15
     }
   }
 };
