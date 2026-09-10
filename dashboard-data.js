@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-10T06:42:41Z",
+  "generatedAt": "2026-09-10T08:41:15Z",
   "threads": [
     {
       "id": "campus-8191f333af",
@@ -1418,23 +1418,6 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "campus-acbcacdef6",
-      "threadId": "19fc7554956315d3",
-      "group": "campus",
-      "subject": "Clarification Regarding Kootam Event Creation for Design Volunteer Selection",
-      "counterpart": "Gouri (MGITS)",
-      "email": "25ct048@mgits.ac.in",
-      "received": "2026-08-03",
-      "last": "2026-08-11",
-      "status": "Resolved",
-      "note": "closed - already addressed",
-      "daysOpen": 8,
-      "daysSinceReceived": 38,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
       "id": "campus-af288aa227",
       "threadId": "19fef734079841d1",
       "group": "campus",
@@ -2464,25 +2447,43 @@ window.DASHBOARD_DATA = {
       "cc": [
         "campus@tinkerhub.org"
       ]
+    },
+    {
+      "id": "campus-b052325465",
+      "threadId": "1a08a2c522835b95",
+      "group": "campus",
+      "subject": "Re: Useless Project submission issue",
+      "counterpart": "TinkerHub LBSITW",
+      "email": "lbsitwtinkerhub@gmail.com",
+      "received": "2026-09-10",
+      "last": "2026-09-10",
+      "status": "Awaiting reply (from them)",
+      "note": "forwarded GitHub repo access issue (Useless Project submission) to college contact; awaiting confirmation it is resolved",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "council@tinkerhub.org"
+      ]
     }
   ],
   "summary": {
-    "No response": 16,
+    "Awaiting reply (from them)": 56,
     "Awaiting reply (from us)": 19,
-    "Awaiting reply (from them)": 55,
-    "Resolved": 27,
-    "Informational": 23
+    "Informational": 23,
+    "Resolved": 26,
+    "No response": 16
   },
   "analytics": {
     "campus": {
       "total": 92,
       "No response": 2,
       "Awaiting reply (from us)": 14,
-      "Awaiting reply (from them)": 38,
-      "Resolved": 22,
+      "Awaiting reply (from them)": 39,
+      "Resolved": 21,
       "Informational": 16,
-      "avgOpenDays": 10.6,
-      "avgResolvedDays": 4.0
+      "avgOpenDays": 10.4,
+      "avgResolvedDays": 3.8
     },
     "support": {
       "total": 23,
@@ -2492,7 +2493,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 0,
       "avgOpenDays": 13.3,
-      "avgResolvedDays": 2.0
+      "avgResolvedDays": 2
     },
     "finance": {
       "total": 15,
@@ -2502,7 +2503,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 3,
       "Informational": 7,
       "avgOpenDays": 15.4,
-      "avgResolvedDays": 1.0
+      "avgResolvedDays": 1
     },
     "report": {
       "total": 10,
@@ -2512,7 +2513,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 0,
       "avgOpenDays": 10.7,
-      "avgResolvedDays": 15.0
+      "avgResolvedDays": 15
     }
   }
 };
