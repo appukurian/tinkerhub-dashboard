@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-10T04:36:00Z",
+  "generatedAt": "2026-09-10T06:42:41Z",
   "threads": [
     {
       "id": "campus-8191f333af",
@@ -9,9 +9,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "Sidrah (MAMOC)",
       "email": "sidrahaysha@gmail.com",
       "received": "2026-09-09",
-      "last": "2026-09-09",
-      "status": "No response",
-      "note": "requesting a new slot (11 Sep, 9:30am-7pm) + their poster tracking ID",
+      "last": "2026-09-10",
+      "status": "Awaiting reply (from them)",
+      "note": "sent posters + venue checklist for tomorrow’s event; reimbursing up to 10 printed copies, keep itemized bill",
       "daysOpen": 1,
       "daysSinceReceived": 1,
       "cc": [
@@ -1471,41 +1471,6 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "campus-58fd0e1ca2",
-      "threadId": "19fc2395f43cd853",
-      "group": "campus",
-      "subject": "Founding 100 for TinkerHub's campus maker communities",
-      "counterpart": "Manit (Waycode)",
-      "email": "manit@waycode.in",
-      "received": "2026-08-02",
-      "last": "2026-08-11",
-      "status": "Awaiting reply (from them)",
-      "note": "waiting on ready-to-post announcement copy",
-      "daysOpen": 39,
-      "daysSinceReceived": 39,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-9578e699b8",
-      "threadId": "19f70cb00532cc3e",
-      "group": "campus",
-      "subject": "Change of Faculty Coordinator: KAHM Unity Women's College Manjeri",
-      "counterpart": "Fathima (KAHM Unity Women's College)",
-      "email": "fathimaafrahpp@gmail.com",
-      "received": "2026-07-17",
-      "last": "2026-08-11",
-      "status": "Resolved",
-      "note": "already resolved via Koottam",
-      "daysOpen": 25,
-      "daysSinceReceived": 55,
-      "cc": [
-        "campus@tinkerhub.org",
-        "support@tinkerhub.org"
-      ]
-    },
-    {
       "id": "support-d09a80eb95",
       "threadId": "1a0867185a9f192c",
       "group": "support",
@@ -1902,23 +1867,6 @@ window.DASHBOARD_DATA = {
       "note": "redirected to support, no fix yet",
       "daysOpen": 29,
       "daysSinceReceived": 29,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-ce112b72d0",
-      "threadId": "19f70cb00532cc3e",
-      "group": "support",
-      "subject": "Change of Faculty Coordinator: KAHM Unity Women's College Manjeri",
-      "counterpart": "Fathima Afrah Peedikaparamben",
-      "email": "fathimaafrahpp@gmail.com",
-      "received": "2026-07-17",
-      "last": "2026-08-11",
-      "status": "Resolved",
-      "note": "closed, already updated in Koottam",
-      "daysOpen": 25,
-      "daysSinceReceived": 55,
       "cc": [
         "support@tinkerhub.org"
       ]
@@ -2421,13 +2369,14 @@ window.DASHBOARD_DATA = {
       "counterpart": "Trishaa",
       "email": "mail.trishaa@gmail.com",
       "received": "2026-09-09",
-      "last": "2026-09-09",
-      "status": "No response",
-      "note": "principal restricting event to 1st years only; requesting escalation",
+      "last": "2026-09-10",
+      "status": "Awaiting reply (from them)",
+      "note": "arundhathi asked what action to take (email/call) + contact details for the principal/faculty coordinator",
       "daysOpen": 1,
       "daysSinceReceived": 1,
       "cc": [
-        "campus@tinkerhub.org"
+        "campus@tinkerhub.org",
+        "femina@tinkerhub.org"
       ]
     },
     {
@@ -2446,35 +2395,104 @@ window.DASHBOARD_DATA = {
       "cc": [
         "finance@tinkerhub.org"
       ]
+    },
+    {
+      "id": "campus-b4fc999d8f",
+      "threadId": "1a08a04283b6d326",
+      "group": "campus",
+      "subject": "Request to Extend Useless Projects 3.0 Registration Deadline to 9 PM",
+      "counterpart": "Raj Kumar Soni (TinkerHub Providence)",
+      "email": "tinker.hub@providence.edu.in",
+      "received": "2026-09-10",
+      "last": "2026-09-10",
+      "status": "Awaiting reply (from us)",
+      "note": "we owe them: update registration deadline to 10pm today (told them shortly)",
+      "daysSinceReceived": 0,
+      "daysOpen": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "habeeb@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-76c216953a",
+      "threadId": "1a089de40cedb43a",
+      "group": "campus",
+      "subject": "Regarding No. Of Seats for Useless Projects 3.0",
+      "counterpart": "Midhun Raaj (TinkerHub SOE CUSAT)",
+      "email": "midhunraaj9b@gmail.com",
+      "received": "2026-09-10",
+      "last": "2026-09-10",
+      "status": "Awaiting reply (from us)",
+      "note": "we owe them: increase seat count 60→100 for SOE CUSAT (told them shortly)",
+      "daysSinceReceived": 0,
+      "daysOpen": 0,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-6d9fd389ca",
+      "threadId": "1a089d011f53ec32",
+      "group": "campus",
+      "subject": "Request for Campus Support to Increase Participant Capacity – Useless Projects 3.0",
+      "counterpart": "Devi (TinkerHub CEKnpy)",
+      "email": "deva41184@gmail.com",
+      "received": "2026-09-10",
+      "last": "2026-09-10",
+      "status": "Awaiting reply (from us)",
+      "note": "we owe them: increase participant capacity 40→50 for CEKnpy (told them shortly)",
+      "daysSinceReceived": 0,
+      "daysOpen": 0,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-196bb738b6",
+      "threadId": "1a089cf96014396f",
+      "group": "campus",
+      "subject": "To increase slots for useless hackathon",
+      "counterpart": "Amal Sankar (TinkerHub SNMIMT)",
+      "email": "tinkerhub@snmimt.edu.in",
+      "received": "2026-09-10",
+      "last": "2026-09-10",
+      "status": "Awaiting reply (from us)",
+      "note": "we owe them: update slot count 50→65 for SNMIMT (told them shortly)",
+      "daysSinceReceived": 0,
+      "daysOpen": 0,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     }
   ],
   "summary": {
-    "No response": 18,
-    "Awaiting reply (from us)": 15,
-    "Awaiting reply (from them)": 54,
-    "Resolved": 29,
+    "No response": 16,
+    "Awaiting reply (from us)": 19,
+    "Awaiting reply (from them)": 55,
+    "Resolved": 27,
     "Informational": 23
   },
   "analytics": {
     "campus": {
-      "total": 90,
-      "No response": 4,
-      "Awaiting reply (from us)": 10,
-      "Awaiting reply (from them)": 37,
-      "Resolved": 23,
+      "total": 92,
+      "No response": 2,
+      "Awaiting reply (from us)": 14,
+      "Awaiting reply (from them)": 38,
+      "Resolved": 22,
       "Informational": 16,
-      "avgOpenDays": 12.0,
-      "avgResolvedDays": 4.9
+      "avgOpenDays": 10.6,
+      "avgResolvedDays": 4.0
     },
     "support": {
-      "total": 24,
+      "total": 23,
       "No response": 11,
       "Awaiting reply (from us)": 3,
       "Awaiting reply (from them)": 8,
-      "Resolved": 2,
+      "Resolved": 1,
       "Informational": 0,
       "avgOpenDays": 13.3,
-      "avgResolvedDays": 13.5
+      "avgResolvedDays": 2.0
     },
     "finance": {
       "total": 15,
