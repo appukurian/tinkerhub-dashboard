@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-10T12:38:01Z",
+  "generatedAt": "2026-09-10T14:42:30Z",
   "threads": [
     {
       "id": "campus-8191f333af",
@@ -2482,36 +2482,137 @@ window.DASHBOARD_DATA = {
         "report@tinkerhub.org",
         "support@tinkerhub.org"
       ]
+    },
+    {
+      "threadId": "1a08bad951813e8b",
+      "group": "campus",
+      "subject": "Plss reopen application for useless projects 3.0",
+      "counterpart": "Afeefa Parvin (ICET)",
+      "email": "afeefaparvin88@gmail.com",
+      "received": "2026-09-10",
+      "last": "2026-09-10",
+      "status": "No response",
+      "note": "asking to reopen registration - ICET students missed deadline due to exams/dept events",
+      "cc": [
+        "campus@tinkerhub.org"
+      ],
+      "id": "campus-03b664fd32",
+      "daysSinceReceived": 0,
+      "daysOpen": 0
+    },
+    {
+      "threadId": "1a08ba0e5eb96fd0",
+      "group": "campus",
+      "subject": "Request to reopen registration - Thejus Engineering College",
+      "counterpart": "Dhrisya Narayanan (Thejus Engineering College)",
+      "email": "dhrisyanarayanan7@gmail.com",
+      "received": "2026-09-10",
+      "last": "2026-09-10",
+      "status": "Resolved",
+      "note": "registration reopening confirmed, ~10 min turnaround promised",
+      "cc": [
+        "campus@tinkerhub.org"
+      ],
+      "id": "campus-c43f1eab73",
+      "daysSinceReceived": 0,
+      "daysOpen": 0
+    },
+    {
+      "threadId": "1a08b911345e05e5",
+      "group": "campus",
+      "subject": "Unexpected Closing of Registration For Useless Project",
+      "counterpart": "Arjun AS (Vimal Jyothi Engineering College)",
+      "email": "arjunaskvl@gmail.com",
+      "received": "2026-09-10",
+      "last": "2026-09-10",
+      "status": "Resolved",
+      "note": "registration extended till Sep 11, 5pm",
+      "cc": [
+        "campus@tinkerhub.org"
+      ],
+      "id": "campus-e75b3c1d9d",
+      "daysSinceReceived": 0,
+      "daysOpen": 0
+    },
+    {
+      "threadId": "1a08b8dc299dc56a",
+      "group": "campus",
+      "subject": "Request to extend registration time - EMEA College",
+      "counterpart": "Anshif (EMEA College of Arts & Science)",
+      "email": "muhammedanshif450@gmail.com",
+      "received": "2026-09-10",
+      "last": "2026-09-10",
+      "status": "Resolved",
+      "note": "registration extended till 10pm",
+      "cc": [
+        "campus@tinkerhub.org"
+      ],
+      "id": "campus-c7ea4b8d1c",
+      "daysSinceReceived": 0,
+      "daysOpen": 0
+    },
+    {
+      "threadId": "1a08b7f24db59faa",
+      "group": "campus",
+      "subject": "Add Individual participant as registration is closed",
+      "counterpart": "Adithya Vijay (NSS College of Engineering, Palakkad)",
+      "email": "adithyavijay04@gmail.com",
+      "received": "2026-09-10",
+      "last": "2026-09-10",
+      "status": "Resolved",
+      "note": "2 individual participants added; registration reopened till 9pm",
+      "cc": [
+        "campus@tinkerhub.org"
+      ],
+      "id": "campus-540b331395",
+      "daysSinceReceived": 0,
+      "daysOpen": 0
+    },
+    {
+      "threadId": "1a08b6492189e120",
+      "group": "campus",
+      "subject": "Request to Increase Useless Projects 3.0 Seat Capacity to 225",
+      "counterpart": "Jual Aju (Sahrdaya College of Engineering and Technology)",
+      "email": "jualajum6@gmail.com",
+      "received": "2026-09-10",
+      "last": "2026-09-10",
+      "status": "Awaiting reply (from us)",
+      "note": "we owe them: update seat count 200→225",
+      "cc": [
+        "campus@tinkerhub.org"
+      ],
+      "id": "campus-32e1e4ad9c",
+      "daysSinceReceived": 0,
+      "daysOpen": 0
     }
   ],
   "summary": {
-    "No response": 16,
-    "Awaiting reply (from us)": 20,
     "Awaiting reply (from them)": 56,
-    "Resolved": 26,
-    "Informational": 23
+    "Awaiting reply (from us)": 21,
+    "Informational": 23,
+    "Resolved": 30,
+    "No response": 17
   },
   "analytics": {
     "campus": {
-      "total": 93,
+      "total": 99,
       "statusCounts": {
-        "No response": 2,
-        "Awaiting reply (from us)": 15,
         "Awaiting reply (from them)": 39,
-        "Resolved": 21,
-        "Informational": 16
+        "Awaiting reply (from us)": 16,
+        "Informational": 16,
+        "Resolved": 25,
+        "No response": 3
       },
-      "avgOpenDays": 10.2,
-      "avgResolvedDays": 3.8
+      "avgOpenDays": 9.8,
+      "avgResolvedDays": 3.2
     },
     "support": {
       "total": 23,
       "statusCounts": {
         "No response": 11,
-        "Awaiting reply (from us)": 3,
         "Awaiting reply (from them)": 8,
-        "Resolved": 1,
-        "Informational": 0
+        "Awaiting reply (from us)": 3,
+        "Resolved": 1
       },
       "avgOpenDays": 13.3,
       "avgResolvedDays": 2.0
@@ -2519,11 +2620,11 @@ window.DASHBOARD_DATA = {
     "finance": {
       "total": 15,
       "statusCounts": {
-        "No response": 2,
-        "Awaiting reply (from us)": 1,
-        "Awaiting reply (from them)": 2,
         "Resolved": 3,
-        "Informational": 7
+        "Informational": 7,
+        "No response": 2,
+        "Awaiting reply (from them)": 2,
+        "Awaiting reply (from us)": 1
       },
       "avgOpenDays": 15.4,
       "avgResolvedDays": 1.0
@@ -2531,11 +2632,10 @@ window.DASHBOARD_DATA = {
     "report": {
       "total": 10,
       "statusCounts": {
+        "Awaiting reply (from them)": 7,
         "No response": 1,
         "Awaiting reply (from us)": 1,
-        "Awaiting reply (from them)": 7,
-        "Resolved": 1,
-        "Informational": 0
+        "Resolved": 1
       },
       "avgOpenDays": 10.7,
       "avgResolvedDays": 15.0
