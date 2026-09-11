@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-11T10:43:42Z",
+  "generatedAt": "2026-09-11T12:37:49Z",
   "threads": [
     {
       "id": "campus-48af43790b",
@@ -45,7 +45,7 @@ window.DASHBOARD_DATA = {
       "received": "2026-09-11",
       "last": "2026-09-11",
       "status": "Informational",
-      "note": "SMS wallet balance low (Rs 99.89), add funds",
+      "note": "SMS wallet balance low (Rs 49.92 as of latest alert), add funds",
       "daysOpen": 0,
       "daysSinceReceived": 0,
       "cc": [
@@ -2483,7 +2483,7 @@ window.DASHBOARD_DATA = {
         "Resolved": 25,
         "Informational": 15
       },
-      "avgOpenDays": 8.0,
+      "avgOpenDays": 8,
       "avgResolvedDays": 3.2
     },
     "finance": {
@@ -2496,7 +2496,7 @@ window.DASHBOARD_DATA = {
         "Awaiting reply (from them)": 2
       },
       "avgOpenDays": 16.4,
-      "avgResolvedDays": 1.0
+      "avgResolvedDays": 1
     },
     "report": {
       "total": 10,
@@ -2507,7 +2507,7 @@ window.DASHBOARD_DATA = {
         "Resolved": 1
       },
       "avgOpenDays": 11.7,
-      "avgResolvedDays": 15.0
+      "avgResolvedDays": 15
     },
     "support": {
       "total": 16,
@@ -2517,8 +2517,8 @@ window.DASHBOARD_DATA = {
         "Awaiting reply (from us)": 2,
         "Resolved": 1
       },
-      "avgOpenDays": 15.0,
-      "avgResolvedDays": 2.0
+      "avgOpenDays": 15,
+      "avgResolvedDays": 2
     }
   }
 };
