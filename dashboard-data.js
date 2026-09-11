@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-11T14:36:01Z",
+  "generatedAt": "2026-09-11T16:40:00Z",
   "threads": [
     {
       "id": "campus-48af43790b",
@@ -1749,40 +1749,6 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "campus-e932ffb94b",
-      "threadId": "19ff5bc527a65925",
-      "group": "campus",
-      "subject": "Document shared with you: Useless Projects Handbook",
-      "counterpart": "internal (Arundhathi)",
-      "email": null,
-      "received": "2026-08-12",
-      "last": "2026-08-12",
-      "status": "Informational",
-      "note": "doc share",
-      "daysOpen": 0,
-      "daysSinceReceived": 30,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-3dcc00665b",
-      "threadId": "19ff5b903248c338",
-      "group": "campus",
-      "subject": "Document shared with you: Useless Projects",
-      "counterpart": "internal (Arundhathi)",
-      "email": null,
-      "received": "2026-08-12",
-      "last": "2026-08-12",
-      "status": "Informational",
-      "note": "doc share",
-      "daysOpen": 0,
-      "daysSinceReceived": 30,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
       "id": "campus-41e0c211ca",
       "threadId": "19ff18c82e901e0e",
       "group": "campus",
@@ -1797,24 +1763,6 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 31,
       "cc": [
         "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-ec47efe888",
-      "threadId": "19f6a941d9f837ef",
-      "group": "campus",
-      "subject": "Request for TinkerHub Orientation Session",
-      "counterpart": "Dhrisya Narayanan (Thejus Engineering)",
-      "email": "dhrisyanarayanan7@gmail.com",
-      "received": "2026-07-16",
-      "last": "2026-08-12",
-      "status": "Resolved",
-      "note": "orientation went well; thanked for update",
-      "daysOpen": 27,
-      "daysSinceReceived": 57,
-      "cc": [
-        "campus@tinkerhub.org",
-        "habeeb@tinkerhub.org"
       ]
     },
     {
@@ -2167,24 +2115,6 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "report-0ee54030cc",
-      "threadId": "19ff659a3473cde4",
-      "group": "report",
-      "subject": "Change the degree college",
-      "counterpart": "Nihal T",
-      "email": "nihal.chiyoor@gmail.com",
-      "received": "2026-08-12",
-      "last": "2026-08-12",
-      "status": "Awaiting reply (from them)",
-      "note": "redirected to support, no follow-up seen",
-      "daysOpen": 30,
-      "daysSinceReceived": 30,
-      "cc": [
-        "report@tinkerhub.org",
-        "support@tinkerhub.org"
-      ]
-    },
-    {
       "id": "finance-410f35ae93",
       "threadId": "1a086f1520581056",
       "group": "finance",
@@ -2412,26 +2342,6 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "finance-5a0a3cbdca",
-      "threadId": "19ff599ef2a205f5",
-      "group": "finance",
-      "subject": "Invoice from R Rajan Associates | Inv No COK/2026-27/64 | Tinkerhub Technology Innovation Foundation",
-      "counterpart": "R Rajan Associates",
-      "email": "rraca.kochi@gmail.com",
-      "received": "2026-08-12",
-      "last": "2026-08-12",
-      "status": "No response",
-      "note": "invoice COK/2026-27/64 pending payment",
-      "daysOpen": 30,
-      "daysSinceReceived": 30,
-      "cc": [
-        "finance@tinkerhub.org",
-        "mehar@tinkerhub.org",
-        "kurian@tinkerhub.org",
-        "eldho@tinkerhub.org"
-      ]
-    },
-    {
       "id": "report-55409c5545",
       "threadId": "1a064036048dfc40",
       "group": "report",
@@ -2484,47 +2394,47 @@ window.DASHBOARD_DATA = {
     }
   ],
   "summary": {
-    "No response": 17,
-    "Awaiting reply (from them)": 49,
-    "Informational": 24,
+    "No response": 16,
+    "Awaiting reply (from them)": 48,
+    "Informational": 22,
     "Awaiting reply (from us)": 22,
-    "Resolved": 30
+    "Resolved": 29
   },
   "analytics": {
     "campus": {
-      "total": 100,
+      "total": 97,
       "counts": {
         "No response": 3,
         "Awaiting reply (from them)": 38,
         "Awaiting reply (from us)": 18,
-        "Resolved": 25,
-        "Informational": 16
+        "Resolved": 24,
+        "Informational": 14
       },
-      "avgOpenDays": 8,
-      "avgResolvedDays": 3.2
+      "avgOpenDays": 8.0,
+      "avgResolvedDays": 2.2
     },
     "finance": {
-      "total": 16,
+      "total": 15,
       "counts": {
         "Informational": 8,
         "Awaiting reply (from us)": 1,
         "Resolved": 3,
-        "No response": 2,
+        "No response": 1,
         "Awaiting reply (from them)": 2
       },
-      "avgOpenDays": 16.4,
-      "avgResolvedDays": 1
+      "avgOpenDays": 13.0,
+      "avgResolvedDays": 1.0
     },
     "report": {
-      "total": 10,
+      "total": 9,
       "counts": {
-        "Awaiting reply (from them)": 7,
+        "Awaiting reply (from them)": 6,
         "Awaiting reply (from us)": 1,
         "No response": 1,
         "Resolved": 1
       },
-      "avgOpenDays": 11.7,
-      "avgResolvedDays": 15
+      "avgOpenDays": 9.4,
+      "avgResolvedDays": 15.0
     },
     "support": {
       "total": 16,
@@ -2534,8 +2444,8 @@ window.DASHBOARD_DATA = {
         "Awaiting reply (from us)": 2,
         "Resolved": 1
       },
-      "avgOpenDays": 15,
-      "avgResolvedDays": 2
+      "avgOpenDays": 15.0,
+      "avgResolvedDays": 2.0
     }
   }
 };
