@@ -1,6 +1,23 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-11T02:36:00Z",
+  "generatedAt": "2026-09-11T04:38:00Z",
   "threads": [
+    {
+      "id": "campus-c86e263d2b",
+      "threadId": "1a08e533f7c70a07",
+      "group": "campus",
+      "subject": "Reduce sear count and starting time for tomorrows Useless Project",
+      "counterpart": "Akarsh A (TinkerHub CEA)",
+      "email": "akarshajith06@gmail.com",
+      "received": "2026-09-11",
+      "last": "2026-09-11",
+      "status": "No response",
+      "note": "we owe them: reduce seat count 60→30 and shift start time 10am→9:30am for CEA (College of Engineering, Adoor), Sep 12 event",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
     {
       "id": "campus-8fe256d04f",
       "threadId": "1a08c26a40b11da7",
@@ -2456,60 +2473,58 @@ window.DASHBOARD_DATA = {
     }
   ],
   "summary": {
-    "No response": 16,
-    "Awaiting reply (from us)": 23,
+    "No response": 17,
     "Awaiting reply (from them)": 48,
+    "Awaiting reply (from us)": 23,
     "Resolved": 30,
     "Informational": 23
   },
   "analytics": {
     "campus": {
-      "total": 99,
+      "total": 100,
       "statusCounts": {
-        "No response": 2,
-        "Awaiting reply (from us)": 19,
+        "No response": 3,
         "Awaiting reply (from them)": 37,
+        "Awaiting reply (from us)": 19,
         "Resolved": 25,
         "Informational": 16
       },
-      "avgOpenDays": 9.4,
+      "avgOpenDays": 9.3,
       "avgResolvedDays": 3.2
-    },
-    "support": {
-      "total": 16,
-      "statusCounts": {
-        "No response": 11,
-        "Awaiting reply (from us)": 2,
-        "Awaiting reply (from them)": 2,
-        "Resolved": 1,
-        "Informational": 0
-      },
-      "avgOpenDays": 15.0,
-      "avgResolvedDays": 2.0
-    },
-    "finance": {
-      "total": 15,
-      "statusCounts": {
-        "No response": 2,
-        "Awaiting reply (from us)": 1,
-        "Awaiting reply (from them)": 2,
-        "Resolved": 3,
-        "Informational": 7
-      },
-      "avgOpenDays": 16.4,
-      "avgResolvedDays": 1.0
     },
     "report": {
       "total": 10,
       "statusCounts": {
-        "No response": 1,
-        "Awaiting reply (from us)": 1,
         "Awaiting reply (from them)": 7,
-        "Resolved": 1,
-        "Informational": 0
+        "Awaiting reply (from us)": 1,
+        "No response": 1,
+        "Resolved": 1
       },
       "avgOpenDays": 11.7,
-      "avgResolvedDays": 15.0
+      "avgResolvedDays": 15
+    },
+    "support": {
+      "total": 16,
+      "statusCounts": {
+        "Awaiting reply (from them)": 2,
+        "No response": 11,
+        "Awaiting reply (from us)": 2,
+        "Resolved": 1
+      },
+      "avgOpenDays": 15,
+      "avgResolvedDays": 2
+    },
+    "finance": {
+      "total": 15,
+      "statusCounts": {
+        "Awaiting reply (from us)": 1,
+        "Informational": 7,
+        "Resolved": 3,
+        "No response": 2,
+        "Awaiting reply (from them)": 2
+      },
+      "avgOpenDays": 16.4,
+      "avgResolvedDays": 1
     }
   }
 };
