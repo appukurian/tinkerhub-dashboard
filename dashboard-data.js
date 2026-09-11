@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-11T08:41:32Z",
+  "generatedAt": "2026-09-11T10:43:42Z",
   "threads": [
     {
       "id": "campus-48af43790b",
@@ -1800,43 +1800,6 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "campus-127a9c87f8",
-      "threadId": "19ff11836878ed49",
-      "group": "campus",
-      "subject": "Request to Reschedule Shubhaarambham to August 20",
-      "counterpart": "Jasim (TinkerHub VJCET)",
-      "email": "jasimmarrangattu@gmail.com",
-      "received": "2026-08-11",
-      "last": "2026-08-12",
-      "status": "Awaiting reply (from them)",
-      "note": "reviewed reschedule request; awaiting confirmation",
-      "daysOpen": 31,
-      "daysSinceReceived": 31,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-3dcf333a46",
-      "threadId": "19fac9430a50a7cd",
-      "group": "campus",
-      "subject": "TinkerHub x LOUD - Something exciting could brew",
-      "counterpart": "Bhavana (LOUD)",
-      "email": "goloudindia90@gmail.com",
-      "received": "2026-07-29",
-      "last": "2026-08-12",
-      "status": "Awaiting reply (from us)",
-      "note": "LOUD partnership/collab call scheduled for Aug 12 3pm; she asked if still happening or postponed - needs our reply",
-      "daysOpen": 44,
-      "daysSinceReceived": 44,
-      "cc": [
-        "campus@tinkerhub.org",
-        "kurian@tinkerhub.org",
-        "arundhathi@tinkerhub.org",
-        "mehar@tinkerhub.org"
-      ]
-    },
-    {
       "id": "campus-ec47efe888",
       "threadId": "19f6a941d9f837ef",
       "group": "campus",
@@ -2505,22 +2468,22 @@ window.DASHBOARD_DATA = {
   ],
   "summary": {
     "No response": 17,
-    "Awaiting reply (from them)": 50,
+    "Awaiting reply (from them)": 49,
     "Informational": 23,
-    "Awaiting reply (from us)": 23,
+    "Awaiting reply (from us)": 22,
     "Resolved": 30
   },
   "analytics": {
     "campus": {
-      "total": 101,
+      "total": 99,
       "statusCounts": {
         "No response": 3,
-        "Awaiting reply (from them)": 39,
-        "Awaiting reply (from us)": 19,
+        "Awaiting reply (from them)": 38,
+        "Awaiting reply (from us)": 18,
         "Resolved": 25,
         "Informational": 15
       },
-      "avgOpenDays": 9.0,
+      "avgOpenDays": 8.0,
       "avgResolvedDays": 3.2
     },
     "finance": {
