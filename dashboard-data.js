@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-11T12:37:49Z",
+  "generatedAt": "2026-09-11T14:36:01Z",
   "threads": [
     {
       "id": "campus-48af43790b",
@@ -45,7 +45,7 @@ window.DASHBOARD_DATA = {
       "received": "2026-09-11",
       "last": "2026-09-11",
       "status": "Informational",
-      "note": "SMS wallet balance low (Rs 49.92 as of latest alert), add funds",
+      "note": "SMS wallet balance low (Rs 24.84 as of latest alert), add funds",
       "daysOpen": 0,
       "daysSinceReceived": 0,
       "cc": [
@@ -2464,31 +2464,48 @@ window.DASHBOARD_DATA = {
       "cc": [
         "report@tinkerhub.org"
       ]
+    },
+    {
+      "id": "campus-2b1254b880",
+      "threadId": "1a090bb604124cfc",
+      "group": "campus",
+      "subject": "Update Regarding Useless Project 3.0",
+      "counterpart": "Rosemary Rejimon (College of Engineering Poonjar)",
+      "email": "rosecep24@gmail.com",
+      "received": "2026-09-11",
+      "last": "2026-09-11",
+      "status": "Informational",
+      "note": "Hackathon (Useless Project 3.0) cancelled due to a clash with other college event dates",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     }
   ],
   "summary": {
     "No response": 17,
     "Awaiting reply (from them)": 49,
-    "Informational": 23,
+    "Informational": 24,
     "Awaiting reply (from us)": 22,
     "Resolved": 30
   },
   "analytics": {
     "campus": {
-      "total": 99,
-      "statusCounts": {
+      "total": 100,
+      "counts": {
         "No response": 3,
         "Awaiting reply (from them)": 38,
         "Awaiting reply (from us)": 18,
         "Resolved": 25,
-        "Informational": 15
+        "Informational": 16
       },
       "avgOpenDays": 8,
       "avgResolvedDays": 3.2
     },
     "finance": {
       "total": 16,
-      "statusCounts": {
+      "counts": {
         "Informational": 8,
         "Awaiting reply (from us)": 1,
         "Resolved": 3,
@@ -2500,7 +2517,7 @@ window.DASHBOARD_DATA = {
     },
     "report": {
       "total": 10,
-      "statusCounts": {
+      "counts": {
         "Awaiting reply (from them)": 7,
         "Awaiting reply (from us)": 1,
         "No response": 1,
@@ -2511,7 +2528,7 @@ window.DASHBOARD_DATA = {
     },
     "support": {
       "total": 16,
-      "statusCounts": {
+      "counts": {
         "Awaiting reply (from them)": 2,
         "No response": 11,
         "Awaiting reply (from us)": 2,
