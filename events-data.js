@@ -2,7 +2,7 @@
 // Do NOT hand-edit -- this file is overwritten on each run.
 window.EVENTS_DATA = {
   "generatedAt": "2026-09-11",
-  "generatedAtIso": "2026-09-11T18:08:52.189094+00:00",
+  "generatedAtIso": "2026-09-11T22:56:46.300901+00:00",
   "windowSinceDate": "2026-04-01",
   "windowUntilDate": "2027-03-31",
   "events": [
@@ -23015,8 +23015,8 @@ window.EVENTS_DATA = {
       "lat": 11.3126192,
       "lng": 75.9685494,
       "locationSource": "maps_link",
-      "registered": 5240,
-      "checkedIn": 2852,
+      "registered": 5241,
+      "checkedIn": 2857,
       "checkedInAttendeeIds": [
         508,
         907,
@@ -23041,6 +23041,7 @@ window.EVENTS_DATA = {
         2626,
         2743,
         2897,
+        2940,
         2958,
         2960,
         2970,
@@ -23410,6 +23411,7 @@ window.EVENTS_DATA = {
         17823,
         17861,
         18053,
+        18099,
         18155,
         18175,
         18176,
@@ -23676,6 +23678,7 @@ window.EVENTS_DATA = {
         27217,
         27220,
         27221,
+        27246,
         27265,
         27270,
         27327,
@@ -24486,6 +24489,7 @@ window.EVENTS_DATA = {
         45134,
         45135,
         45145,
+        45148,
         45204,
         45213,
         45227,
@@ -25225,6 +25229,7 @@ window.EVENTS_DATA = {
         52531,
         52533,
         52536,
+        52538,
         52539,
         52540,
         52543,
@@ -30719,7 +30724,7 @@ window.EVENTS_DATA = {
       "lat": 10.0469797,
       "lng": 76.3351998,
       "locationSource": "maps_link",
-      "registered": 41,
+      "registered": 42,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -30740,7 +30745,7 @@ window.EVENTS_DATA = {
       "lat": 11.2775736,
       "lng": 75.8443931,
       "locationSource": "maps_link",
-      "registered": 30,
+      "registered": 32,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -43779,25 +43784,102 @@ window.EVENTS_DATA = {
       "collaboratorIds": [
         29467
       ]
+    },
+    {
+      "id": 8842,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-12T02:18:15.672973+05:30",
+      "collaboratorIds": [
+        51969,
+        52046
+      ]
+    },
+    {
+      "id": 8843,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-12T02:42:06.915841+05:30",
+      "collaboratorIds": [
+        50802,
+        51860
+      ]
+    },
+    {
+      "id": 8844,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-12T03:00:45.733943+05:30",
+      "collaboratorIds": [
+        53412
+      ]
+    },
+    {
+      "id": 8845,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-12T03:12:28.409255+05:30",
+      "collaboratorIds": [
+        51593,
+        51791
+      ]
+    },
+    {
+      "id": 8846,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-12T04:02:58.215354+05:30",
+      "collaboratorIds": [
+        45856,
+        48234
+      ]
+    },
+    {
+      "id": 8847,
+      "eventBased": false,
+      "eventId": null,
+      "createdAt": "2026-09-12T04:11:53.706899+05:30",
+      "collaboratorIds": [
+        45856
+      ]
+    },
+    {
+      "id": 8848,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-12T04:13:28.838688+05:30",
+      "collaboratorIds": [
+        48297
+      ]
+    },
+    {
+      "id": 8849,
+      "eventBased": true,
+      "eventId": 3763,
+      "createdAt": "2026-09-12T04:22:00.780794+05:30",
+      "collaboratorIds": [
+        46048,
+        47947
+      ]
     }
   ],
   "summary": {
     "totalEvents": 742,
-    "todayCount": 10,
-    "upcomingCount": 5,
-    "pastCount": 727,
-    "totalRegistered": 23838,
-    "totalCheckedIn": 14644,
+    "todayCount": 3,
+    "upcomingCount": 2,
+    "pastCount": 737,
+    "totalRegistered": 23842,
+    "totalCheckedIn": 14649,
     "virtualCount": 300,
     "geocoded": 445,
     "districtFallback": 271,
     "unresolved": 26,
-    "uniqueAttendees": 8358,
+    "uniqueAttendees": 8360,
     "avgDailyAttendance": 114.4,
-    "totalProjects": 1381,
-    "eventBasedProjects": 606,
-    "independentProjects": 775,
-    "uniquePeopleInProjects": 1571
+    "totalProjects": 1389,
+    "eventBasedProjects": 613,
+    "independentProjects": 776,
+    "uniquePeopleInProjects": 1583
   },
   "byType": [
     {
