@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-12T12:39:41Z",
+  "generatedAt": "2026-09-12T14:44:25Z",
   "threads": [
     {
       "id": "campus-48af43790b",
@@ -14,6 +14,177 @@ window.DASHBOARD_DATA = {
       "note": "registration deadline extended as requested for CE Adoor (CEA); registrations updated",
       "daysOpen": 1,
       "daysSinceReceived": 1,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-2b1254b880",
+      "threadId": "1a090bb604124cfc",
+      "group": "campus",
+      "subject": "Update Regarding Useless Project 3.0",
+      "counterpart": "Rosemary Rejimon (College of Engineering Poonjar)",
+      "email": "rosecep24@gmail.com",
+      "received": "2026-09-11",
+      "last": "2026-09-12",
+      "status": "Resolved",
+      "note": "acknowledged College of Engineering Poonjar's cancellation of Useless Project 3.0 due to a date clash; wished them well for next season",
+      "daysOpen": 1,
+      "daysSinceReceived": 1,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-3ca9b5e58c",
+      "threadId": "1a0915d5b38bda32",
+      "group": "campus",
+      "subject": "Cancellation of Useless Projects at Vidya Academy of Science and Technology",
+      "counterpart": "Athira (TinkerHub Vidya Academy of Science and Technology)",
+      "email": "kjathira15@gmail.com",
+      "received": "2026-09-11",
+      "last": "2026-09-12",
+      "status": "Resolved",
+      "note": "acknowledged cancellation of Useless Projects event; asked them to continue with other planned activities",
+      "daysOpen": 1,
+      "daysSinceReceived": 1,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-87eeb45a91",
+      "threadId": "1a08c06f932c91ab",
+      "group": "campus",
+      "subject": "Useless project starting time is a little early",
+      "counterpart": "Adarsh M (Ahalia School of Engineering and Technology)",
+      "email": "adarshmurugesan33@gmail.com",
+      "received": "2026-09-10",
+      "last": "2026-09-12",
+      "status": "Resolved",
+      "note": "replied: unable to update timings, event start time stands at 6pm as scheduled for Ahalia's overnight program",
+      "daysOpen": 2,
+      "daysSinceReceived": 2,
+      "cc": [
+        "campus@tinkerhub.org",
+        "habeeb@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "finance-410f35ae93",
+      "threadId": "1a08f3a6cb48d4e1",
+      "group": "finance",
+      "subject": "Low SMS balance - Ekuttan, MSG91!",
+      "counterpart": "MSG91 (automated)",
+      "email": null,
+      "received": "2026-09-11",
+      "last": "2026-09-12",
+      "status": "Informational",
+      "note": "SMS wallet balance low (Rs 9.83 as of latest alert), add funds",
+      "daysOpen": 1,
+      "daysSinceReceived": 1,
+      "cc": [
+        "finance@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-e8d8afd755",
+      "threadId": "1a093d6d595665b5",
+      "group": "campus",
+      "subject": "Cancellation Of Venue - FISAT",
+      "counterpart": "Nikhil (TinkerHub FISAT)",
+      "email": "nikhilak2005@gmail.com",
+      "received": "2026-09-12",
+      "last": "2026-09-12",
+      "status": "No response",
+      "note": "FISAT withdrawing as venue for Useless Project 3.0 this season due to permissions/logistics issues",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "support-d59d3935b7",
+      "threadId": "1a0954b7f5f2842b",
+      "group": "support",
+      "subject": "Verification code not receiving",
+      "counterpart": "Alexander Ajay",
+      "email": "alexanderajay970@gmail.com",
+      "received": "2026-09-12",
+      "last": "2026-09-12",
+      "status": "No response",
+      "note": "OTP/verification code not received on login despite resend attempt",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "support@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "finance-410f35ae93",
+      "threadId": "1a0958f7d4070c13",
+      "group": "finance",
+      "subject": "Low SMS balance - Ekuttan, MSG91!",
+      "counterpart": "MSG91 (automated)",
+      "email": null,
+      "received": "2026-09-12",
+      "last": "2026-09-12",
+      "status": "Informational",
+      "note": "SMS wallet balance low (Rs 4999.76 as of latest alert, shortly after 5000 INR recharge)",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "finance@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "finance-0b616a747a",
+      "threadId": "1a0958c063ec6064",
+      "group": "finance",
+      "subject": "Recharge at MSG91 - ekuttan (UN) - 5000 INR (amount) - successful!",
+      "counterpart": "MSG91 (automated)",
+      "email": null,
+      "received": "2026-09-12",
+      "last": "2026-09-12",
+      "status": "Informational",
+      "note": "SMS wallet recharge of 5000 INR (+900 INR tax) processed successfully",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "finance@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-c795556269",
+      "threadId": "1a095ea227c3b2fb",
+      "group": "campus",
+      "subject": "Voting time extension.",
+      "counterpart": "arjunaskvl@gmail.com",
+      "email": "arjunaskvl@gmail.com",
+      "received": "2026-09-12",
+      "last": "2026-09-12",
+      "status": "No response",
+      "note": "asking to reopen ULP venue voting after channel visibility issue caused missed votes",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-d508169072",
+      "threadId": "1a095b24ef9d8a5a",
+      "group": "campus",
+      "subject": "Requesting to extend useless application",
+      "counterpart": "afeefaparvin88@gmail.com",
+      "email": "afeefaparvin88@gmail.com",
+      "received": "2026-09-12",
+      "last": "2026-09-12",
+      "status": "No response",
+      "note": "Ilahia College requesting 1hr extension on Useless Project 3.0 applications after OTP issue blocked students",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -70,23 +241,6 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "campus-2b1254b880",
-      "threadId": "1a090bb604124cfc",
-      "group": "campus",
-      "subject": "Update Regarding Useless Project 3.0",
-      "counterpart": "Rosemary Rejimon (College of Engineering Poonjar)",
-      "email": "rosecep24@gmail.com",
-      "received": "2026-09-11",
-      "last": "2026-09-12",
-      "status": "Resolved",
-      "note": "acknowledged College of Engineering Poonjar's cancellation of Useless Project 3.0 due to a date clash; wished them well for next season",
-      "daysOpen": 1,
-      "daysSinceReceived": 1,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
       "id": "campus-9dfc53a4c8",
       "threadId": "1a0915eed4f09bf9",
       "group": "campus",
@@ -97,23 +251,6 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-11",
       "status": "Awaiting reply (from them)",
       "note": "requested shift to Sep 12, 9AM-3PM (till 6PM for evaluation) due to last-minute permission withdrawal; we acknowledged and asked them to inform participants",
-      "daysOpen": 1,
-      "daysSinceReceived": 1,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-3ca9b5e58c",
-      "threadId": "1a0915d5b38bda32",
-      "group": "campus",
-      "subject": "Cancellation of Useless Projects at Vidya Academy of Science and Technology",
-      "counterpart": "Athira (TinkerHub Vidya Academy of Science and Technology)",
-      "email": "kjathira15@gmail.com",
-      "received": "2026-09-11",
-      "last": "2026-09-12",
-      "status": "Resolved",
-      "note": "acknowledged cancellation of Useless Projects event; asked them to continue with other planned activities",
       "daysOpen": 1,
       "daysSinceReceived": 1,
       "cc": [
@@ -135,24 +272,6 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 2,
       "cc": [
         "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-87eeb45a91",
-      "threadId": "1a08c06f932c91ab",
-      "group": "campus",
-      "subject": "Useless project starting time is a little early",
-      "counterpart": "Adarsh M (Ahalia School of Engineering and Technology)",
-      "email": "adarshmurugesan33@gmail.com",
-      "received": "2026-09-10",
-      "last": "2026-09-12",
-      "status": "Resolved",
-      "note": "replied: unable to update timings, event start time stands at 6pm as scheduled for Ahalia's overnight program",
-      "daysOpen": 2,
-      "daysSinceReceived": 2,
-      "cc": [
-        "campus@tinkerhub.org",
-        "habeeb@tinkerhub.org"
       ]
     },
     {
@@ -482,6 +601,111 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
+      "id": "finance-410f35ae93",
+      "threadId": "1a086f1520581056",
+      "group": "finance",
+      "subject": "Low SMS balance - Ekuttan, MSG91!",
+      "counterpart": "MSG91 (automated)",
+      "email": null,
+      "received": "2026-09-09",
+      "last": "2026-09-09",
+      "status": "Informational",
+      "note": "SMS wallet balance low (Rs 499.84)",
+      "daysOpen": 0,
+      "daysSinceReceived": 3,
+      "cc": [
+        "finance@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "finance-979ae0f4a4",
+      "threadId": "1a081f64794ec535",
+      "group": "finance",
+      "subject": "Invoice for Maker Survey",
+      "counterpart": "Sonal Kuruvilla (Nayaneethi Policy Collective)",
+      "email": "connect.npoc@gmail.com",
+      "received": "2026-09-08",
+      "last": "2026-09-09",
+      "status": "Resolved",
+      "note": "invoice \u20b99,440 paid, TDS deducted, receipt sent",
+      "daysOpen": 1,
+      "daysSinceReceived": 4,
+      "cc": [
+        "finance@tinkerhub.org",
+        "mehar@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "report-14807cce3a",
+      "threadId": "1a07f81e530dfb34",
+      "group": "report",
+      "subject": "Tinkerhub not sending OTP for login",
+      "counterpart": "Dev Anand VP",
+      "email": "blindinglucario@gmail.com",
+      "received": "2026-09-08",
+      "last": "2026-09-09",
+      "status": "Awaiting reply (from them)",
+      "note": "OTP not sending (too many requests); tagged to support for handling",
+      "daysOpen": 4,
+      "daysSinceReceived": 4,
+      "cc": [
+        "report@tinkerhub.org",
+        "support@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "report-c5d20472ea",
+      "threadId": "1a07f972d58575c1",
+      "group": "report",
+      "subject": "OTP failing",
+      "counterpart": "Shaphen Binu Kuriakose",
+      "email": "shaphenbinukuriakose@gmail.com",
+      "received": "2026-09-08",
+      "last": "2026-09-09",
+      "status": "Awaiting reply (from them)",
+      "note": "OTP failure on login; tagged to support for handling",
+      "daysOpen": 4,
+      "daysSinceReceived": 4,
+      "cc": [
+        "report@tinkerhub.org",
+        "support@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "support-d09a80eb95",
+      "threadId": "1a0867185a9f192c",
+      "group": "support",
+      "subject": "regarding changing Discord user accounts in the TinkerHub community server",
+      "counterpart": "Kendrik K Joseph",
+      "email": "kendrikkjoseph3@gmail.com",
+      "received": "2026-09-09",
+      "last": "2026-09-09",
+      "status": "No response",
+      "note": "wants alt Discord account (turtkingdom) merged/switched to main (silvrknight)",
+      "daysOpen": 3,
+      "daysSinceReceived": 3,
+      "cc": [
+        "support@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-2aa21e3a97",
+      "threadId": "1a084d65d074ea92",
+      "group": "campus",
+      "subject": "Invitation: Useless Projects: Demo Meet @ Wed Sep 9, 2026 9pm - 10pm (IST)",
+      "counterpart": "Google Calendar (automated)",
+      "email": null,
+      "received": "2026-09-09",
+      "last": "2026-09-09",
+      "status": "Informational",
+      "note": "calendar invite for Useless Projects demo meet call, Sep 9 9-10pm; FYI only, no action needed",
+      "daysOpen": 0,
+      "daysSinceReceived": 3,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
       "id": "campus-2c84fa63ee",
       "threadId": "1a08096c278462c6",
       "group": "campus",
@@ -693,6 +917,109 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
+      "id": "finance-16d3d8f808",
+      "threadId": "1a08006739d0555a",
+      "group": "finance",
+      "subject": "Your receipt from Resend #2748-2663",
+      "counterpart": "Resend (automated)",
+      "email": null,
+      "received": "2026-09-08",
+      "last": "2026-09-08",
+      "status": "Informational",
+      "note": "$20 payment receipt, subscription charged",
+      "daysOpen": 0,
+      "daysSinceReceived": 4,
+      "cc": [
+        "finance@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "finance-410f35ae93",
+      "threadId": "1a07fe00d0471929",
+      "group": "finance",
+      "subject": "Low SMS balance - Ekuttan, MSG91!",
+      "counterpart": "MSG91 (automated)",
+      "email": null,
+      "received": "2026-09-08",
+      "last": "2026-09-08",
+      "status": "Informational",
+      "note": "SMS wallet balance low (999.92), add funds",
+      "daysOpen": 0,
+      "daysSinceReceived": 4,
+      "cc": [
+        "finance@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "report-c626f2085e",
+      "threadId": "1a07f8adc7a282ef",
+      "group": "report",
+      "subject": "(no subject) \u2013 OTP request limit exceeded",
+      "counterpart": "Renil Augustine",
+      "email": "augustinerenil723@gmail.com",
+      "received": "2026-09-08",
+      "last": "2026-09-08",
+      "status": "Awaiting reply (from them)",
+      "note": "OTP limit exceeded, forwarded to support team",
+      "daysOpen": 4,
+      "daysSinceReceived": 4,
+      "cc": [
+        "report@tinkerhub.org",
+        "support@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "finance-3635f35f12",
+      "threadId": "1a07c2d2441f2d98",
+      "group": "finance",
+      "subject": "Kozhikode Shoot - Invoice",
+      "counterpart": "Cyril Luke Anish",
+      "email": "cyrilanish10@gmail.com",
+      "received": "2026-09-07",
+      "last": "2026-09-07",
+      "status": "No response",
+      "note": "invoice submitted for Kozhikode shoot, pending review/payment",
+      "daysOpen": 5,
+      "daysSinceReceived": 5,
+      "cc": [
+        "finance@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "support-c9e3a899cb",
+      "threadId": "1a07c7647bc4616e",
+      "group": "support",
+      "subject": "Event Registration Issue",
+      "counterpart": "Pooja S N (Saintgits)",
+      "email": "poojasn.er2428@saintgits.org",
+      "received": "2026-09-07",
+      "last": "2026-09-07",
+      "status": "No response",
+      "note": "~100 students at Saintgits Kudumba Unit event couldn't register in time; asking to add attached list of 27 names to the event",
+      "daysOpen": 5,
+      "daysSinceReceived": 5,
+      "cc": [
+        "support@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "support-0637de2179",
+      "threadId": "1a075a655b8ad000",
+      "group": "support",
+      "subject": "Request to Register for Useless Projects 3.0 at My College",
+      "counterpart": "Aysha Lina (RIT Kottayam)",
+      "email": "ayshalina729@gmail.com",
+      "received": "2026-09-06",
+      "last": "2026-09-07",
+      "status": "Awaiting reply (from us)",
+      "note": "still can't register for Sept 11-12 slot despite instructions; needs further help",
+      "daysOpen": 6,
+      "daysSinceReceived": 6,
+      "cc": [
+        "support@tinkerhub.org"
+      ]
+    },
+    {
       "id": "campus-cfdfbbc5d9",
       "threadId": "1a07329568726f96",
       "group": "campus",
@@ -847,6 +1174,42 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
+      "id": "support-5359c95f3e",
+      "threadId": "1a06ff002a590034",
+      "group": "support",
+      "subject": "Failed otp verification for login and unable to edit profile",
+      "counterpart": "Lachu Krishna",
+      "email": "lachukrishna01@gmail.com",
+      "received": "2026-09-05",
+      "last": "2026-09-05",
+      "status": "No response",
+      "note": "OTP verification failing; also can't edit profile",
+      "daysOpen": 7,
+      "daysSinceReceived": 7,
+      "cc": [
+        "support@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "report-1ab73293c1",
+      "threadId": "1a06c6af7fac7d4f",
+      "group": "report",
+      "subject": "Complaint Regarding Participation Fee for Useless Project 3.0 at Sahrdaya College",
+      "counterpart": "Arjun",
+      "email": "kiki432005@proton.me",
+      "received": "2026-09-04",
+      "last": "2026-09-04",
+      "status": "Awaiting reply (from them)",
+      "note": "escalated participation-fee complaint to campus lead, follow-up owed",
+      "daysOpen": 8,
+      "daysSinceReceived": 8,
+      "cc": [
+        "report@tinkerhub.org",
+        "campus@tinkerhub.org",
+        "council@tinkerhub.org"
+      ]
+    },
+    {
       "id": "campus-cc8be4d752",
       "threadId": "1a0684a762010b6a",
       "group": "campus",
@@ -879,6 +1242,23 @@ window.DASHBOARD_DATA = {
       "cc": [
         "campus@tinkerhub.org",
         "habeeb@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "support-796ba6e5ce",
+      "threadId": "1a066d48f646e734",
+      "group": "support",
+      "subject": "Failed to send OTP",
+      "counterpart": "Thasneem Co H",
+      "email": "thasneemchalil@gmail.com",
+      "received": "2026-09-03",
+      "last": "2026-09-03",
+      "status": "No response",
+      "note": "needs OTP troubleshooting",
+      "daysOpen": 9,
+      "daysSinceReceived": 9,
+      "cc": [
+        "support@tinkerhub.org"
       ]
     },
     {
@@ -1036,6 +1416,94 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
+      "id": "finance-d25183bada",
+      "threadId": "1a05e51a21ec7878",
+      "group": "finance",
+      "subject": "Re-certification Required for Eligibility - TinkerHub Technology Innovation Foundation",
+      "counterpart": "Benevity (automated)",
+      "email": null,
+      "received": "2026-09-01",
+      "last": "2026-09-02",
+      "status": "Informational",
+      "note": "annual self-cert renewal due Nov 2026",
+      "daysOpen": 1,
+      "daysSinceReceived": 11,
+      "cc": [
+        "finance@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "finance-0c649e65cb",
+      "threadId": "1a060b371008b9e2",
+      "group": "finance",
+      "subject": "Re: Tinkerhub | Q4 TDS Revision | FY 2025-26",
+      "counterpart": "R Rajan Associates",
+      "email": "rraca.kochi@gmail.com",
+      "received": "2026-09-02",
+      "last": "2026-09-02",
+      "status": "Awaiting reply (from them)",
+      "note": "sent TDS corrections, awaiting revised filing",
+      "daysOpen": 10,
+      "daysSinceReceived": 10,
+      "cc": [
+        "finance@tinkerhub.org",
+        "mehar@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "finance-27daac57aa",
+      "threadId": "1a0604dbcc3c2364",
+      "group": "finance",
+      "subject": "Amazon Web Services GST Invoice Available",
+      "counterpart": "Amazon Web Services (automated)",
+      "email": null,
+      "received": "2026-09-02",
+      "last": "2026-09-02",
+      "status": "Informational",
+      "note": "GST invoice available for download",
+      "daysOpen": 0,
+      "daysSinceReceived": 10,
+      "cc": [
+        "finance@tinkerhub.org",
+        "kolaambi@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "finance-c4c18e5732",
+      "threadId": "1a0571fc7c2856c5",
+      "group": "finance",
+      "subject": "Invoice for August, 2026",
+      "counterpart": "Chinnu Susan Varghese",
+      "email": "chinnnu.susan@gmail.com",
+      "received": "2026-08-31",
+      "last": "2026-09-02",
+      "status": "Resolved",
+      "note": "invoice INV-0039 paid, receipt sent",
+      "daysOpen": 2,
+      "daysSinceReceived": 12,
+      "cc": [
+        "finance@tinkerhub.org",
+        "mehar@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "report-55409c5545",
+      "threadId": "1a064036048dfc40",
+      "group": "report",
+      "subject": "(no subject)",
+      "counterpart": "Fidha",
+      "email": "msx201700@gmail.com",
+      "received": "2026-09-02",
+      "last": "2026-09-02",
+      "status": "No response",
+      "note": "OTP login issue, no reply yet",
+      "daysOpen": 10,
+      "daysSinceReceived": 10,
+      "cc": [
+        "report@tinkerhub.org"
+      ]
+    },
+    {
       "id": "campus-2b9c1b96eb",
       "threadId": "1a05bdc3142cab3c",
       "group": "campus",
@@ -1177,6 +1645,57 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
+      "id": "finance-9e2ebb2b5a",
+      "threadId": "1a05d31ddc729f55",
+      "group": "finance",
+      "subject": "Fwd: AXIS BANK : Statement for period 01-04-2024 to 31-03-2025",
+      "counterpart": "Axis Bank (automated)",
+      "email": null,
+      "received": "2026-09-01",
+      "last": "2026-09-01",
+      "status": "Informational",
+      "note": "FY24-25 statement shared for records",
+      "daysOpen": 0,
+      "daysSinceReceived": 11,
+      "cc": [
+        "finance@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "finance-3b567ed2f3",
+      "threadId": "1a05d213c33ddb32",
+      "group": "finance",
+      "subject": "Request for Account Statement",
+      "counterpart": "Axis Bank",
+      "email": "oprh3577@axisbank.com",
+      "received": "2026-09-01",
+      "last": "2026-09-01",
+      "status": "Awaiting reply (from them)",
+      "note": "requested FY24-25 statement, awaiting bank",
+      "daysOpen": 11,
+      "daysSinceReceived": 11,
+      "cc": [
+        "finance@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "finance-62d51bc572",
+      "threadId": "1a05d1eff96b20c7",
+      "group": "finance",
+      "subject": "MSG91 - Your MSG91 Subscription Renewal Summary",
+      "counterpart": "MSG91 (automated)",
+      "email": null,
+      "received": "2026-09-01",
+      "last": "2026-09-01",
+      "status": "Informational",
+      "note": "free plan auto-renewed, zero charged",
+      "daysOpen": 0,
+      "daysSinceReceived": 11,
+      "cc": [
+        "finance@tinkerhub.org"
+      ]
+    },
+    {
       "id": "campus-4d173f8d45",
       "threadId": "1a0534e73fcfb4a0",
       "group": "campus",
@@ -1191,6 +1710,25 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 13,
       "cc": [
         "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "finance-b503fadd37",
+      "threadId": "1a05675d215aba56",
+      "group": "finance",
+      "subject": "INVOICE - AUGUST 2026",
+      "counterpart": "Sindhu Associates",
+      "email": "hrdsss2007@gmail.com",
+      "received": "2026-08-31",
+      "last": "2026-08-31",
+      "status": "Resolved",
+      "note": "invoice Sol/34 paid, receipt sent",
+      "daysOpen": 0,
+      "daysSinceReceived": 12,
+      "cc": [
+        "finance@tinkerhub.org",
+        "eldho@tinkerhub.org",
+        "johnson@tinkerhub.org"
       ]
     },
     {
@@ -1228,6 +1766,24 @@ window.DASHBOARD_DATA = {
         "kurian@tinkerhub.org",
         "femina@tinkerhub.org",
         "arundhathi@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-af288aa227",
+      "threadId": "19fef734079841d1",
+      "group": "campus",
+      "subject": "Fwd: Regarding the change of role from Friends of Tinkerhub to student",
+      "counterpart": "Abi Alif",
+      "email": "abialifhere@gmail.com",
+      "received": "2026-08-11",
+      "last": "2026-08-30",
+      "status": "Awaiting reply (from us)",
+      "note": "role change request looped in to support team for account update; no confirmation yet that it's done",
+      "daysOpen": 32,
+      "daysSinceReceived": 32,
+      "cc": [
+        "campus@tinkerhub.org",
+        "support@tinkerhub.org"
       ]
     },
     {
@@ -1325,6 +1881,24 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
+      "id": "report-aa14764f2a",
+      "threadId": "1a042cdc25fcb5c6",
+      "group": "report",
+      "subject": "OTP Not Being Sent When Trying to Log In",
+      "counterpart": "Athul Benedict",
+      "email": "athulbenedict123@gmail.com",
+      "received": "2026-08-27",
+      "last": "2026-08-28",
+      "status": "Awaiting reply (from them)",
+      "note": "forwarded to support, awaiting fix",
+      "daysOpen": 16,
+      "daysSinceReceived": 16,
+      "cc": [
+        "report@tinkerhub.org",
+        "support@tinkerhub.org"
+      ]
+    },
+    {
       "id": "campus-9ebf56ad11",
       "threadId": "1a03a30e23d2b66b",
       "group": "campus",
@@ -1359,6 +1933,23 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
+      "id": "support-3ee4e1e8c3",
+      "threadId": "1a03f8c447ad92e9",
+      "group": "support",
+      "subject": "Bug Report: UI jump and layout issue on \"Upcoming Activities\" page in Tinkerhub App",
+      "counterpart": "Anson Boby",
+      "email": "ansonboby@gmail.com",
+      "received": "2026-08-26",
+      "last": "2026-08-26",
+      "status": "No response",
+      "note": "UI bug report, needs review",
+      "daysOpen": 17,
+      "daysSinceReceived": 17,
+      "cc": [
+        "support@tinkerhub.org"
+      ]
+    },
+    {
       "id": "campus-94faff2680",
       "threadId": "1a037d4b84a3535c",
       "group": "campus",
@@ -1373,6 +1964,60 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 18,
       "cc": [
         "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "report-d467652a9f",
+      "threadId": "1a037a3e72a46ef9",
+      "group": "report",
+      "subject": "Cannot login to page",
+      "counterpart": "Gouri ES",
+      "email": "gourishaju07@gmail.com",
+      "received": "2026-08-25",
+      "last": "2026-08-25",
+      "status": "Awaiting reply (from us)",
+      "note": "network switch didn't fix OTP issue",
+      "daysOpen": 18,
+      "daysSinceReceived": 18,
+      "cc": [
+        "akhil@tinkerhub.org",
+        "kurian@tinkerhub.org",
+        "support@tinkerhub.org",
+        "report@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "support-7807caa213",
+      "threadId": "1a03933119a19f56",
+      "group": "support",
+      "subject": "(no subject)",
+      "counterpart": "Shani Nair",
+      "email": "shaninair781@gmail.com",
+      "received": "2026-08-25",
+      "last": "2026-08-25",
+      "status": "No response",
+      "note": "duplicate follow-up, still locked out",
+      "daysOpen": 18,
+      "daysSinceReceived": 18,
+      "cc": [
+        "support@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "support-7dc073f54d",
+      "threadId": "1a0385d224e84b2c",
+      "group": "support",
+      "subject": "College Not Available in TinkerHub App",
+      "counterpart": "Adnan Ibnu Rasheed",
+      "email": "adnankp249@gmail.com",
+      "received": "2026-08-25",
+      "last": "2026-08-25",
+      "status": "No response",
+      "note": "college missing from selection list",
+      "daysOpen": 18,
+      "daysSinceReceived": 18,
+      "cc": [
+        "support@tinkerhub.org"
       ]
     },
     {
@@ -1407,6 +2052,59 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 19,
       "cc": [
         "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "report-7608a88b9f",
+      "threadId": "1a033c3d3b6522c6",
+      "group": "report",
+      "subject": "Report: Unable to sign in and \"failed to send OTP\" error during mobile verification",
+      "counterpart": "Shani Nair",
+      "email": "shaninair781@gmail.com",
+      "received": "2026-08-24",
+      "last": "2026-08-24",
+      "status": "Awaiting reply (from them)",
+      "note": "forwarded to support team",
+      "daysOpen": 19,
+      "daysSinceReceived": 19,
+      "cc": [
+        "report@tinkerhub.org",
+        "support@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "support-16a4419f31",
+      "threadId": "1a032c21a83ee0f8",
+      "group": "support",
+      "subject": "Issue on Tinkerhub app",
+      "counterpart": "Goutham R",
+      "email": "gouthamr4567@gmail.com",
+      "received": "2026-08-24",
+      "last": "2026-08-24",
+      "status": "Awaiting reply (from them)",
+      "note": "OTP fails, tagged to support",
+      "daysOpen": 19,
+      "daysSinceReceived": 19,
+      "cc": [
+        "support@tinkerhub.org",
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "support-51bd020885",
+      "threadId": "1a033a51db9f94be",
+      "group": "support",
+      "subject": "Logging issue in tinkerhub",
+      "counterpart": "Goutham R",
+      "email": "gouthamr4567@gmail.com",
+      "received": "2026-08-24",
+      "last": "2026-08-24",
+      "status": "No response",
+      "note": "duplicate OTP report",
+      "daysOpen": 19,
+      "daysSinceReceived": 19,
+      "cc": [
+        "support@tinkerhub.org"
       ]
     },
     {
@@ -1461,6 +2159,24 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
+      "id": "support-e48da1bdd3",
+      "threadId": "1a0286f4d46a5c4c",
+      "group": "support",
+      "subject": "(no subject)",
+      "counterpart": "Amrithasree C",
+      "email": "amrithasreec066@gmail.com",
+      "received": "2026-08-22",
+      "last": "2026-08-23",
+      "status": "Awaiting reply (from us)",
+      "note": "sent screenshot, needs profile fix",
+      "daysOpen": 21,
+      "daysSinceReceived": 21,
+      "cc": [
+        "support@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
       "id": "campus-81633a0246",
       "threadId": "1a02a5b5b9643f07",
       "group": "campus",
@@ -1475,6 +2191,23 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 21,
       "cc": [
         "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "support-855e19fd13",
+      "threadId": "1a029a998be98f06",
+      "group": "support",
+      "subject": "Error in Github repository adding",
+      "counterpart": "Ayan Hashique",
+      "email": "ayanhashique2006@gmail.com",
+      "received": "2026-08-22",
+      "last": "2026-08-22",
+      "status": "No response",
+      "note": "GitHub repo selection bug",
+      "daysOpen": 21,
+      "daysSinceReceived": 21,
+      "cc": [
+        "support@tinkerhub.org"
       ]
     },
     {
@@ -1529,6 +2262,91 @@ window.DASHBOARD_DATA = {
         "kurian@tinkerhub.org",
         "femina@tinkerhub.org",
         "arundhathi@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "support-e48da1bdd3",
+      "threadId": "1a02412b56d4d47a",
+      "group": "support",
+      "subject": "(no subject)",
+      "counterpart": "Amrithasree C",
+      "email": "amrithasreec066@gmail.com",
+      "received": "2026-08-21",
+      "last": "2026-08-21",
+      "status": "No response",
+      "note": "duplicate of later thread",
+      "daysOpen": 22,
+      "daysSinceReceived": 22,
+      "cc": [
+        "support@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-4956838c36",
+      "threadId": "19fe126b92e57e89",
+      "group": "campus",
+      "subject": "Re: Invitation to TinkerOnam 2026 \u2013 August 22",
+      "counterpart": "Ananya Anand (TinkerHub CCE)",
+      "email": "ananyaanandmenoth@gmail.com",
+      "received": "2026-08-08",
+      "last": "2026-08-21",
+      "status": "Resolved",
+      "note": "declined TinkerOnam invite due to schedule conflict; thread concluded",
+      "daysOpen": 13,
+      "daysSinceReceived": 35,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "report-ac405b7493",
+      "threadId": "19fd7e0cc9b20c98",
+      "group": "report",
+      "subject": "Re: (no content)",
+      "counterpart": "Anosh John Ditto",
+      "email": "anoshjohnditto10@gmail.com",
+      "received": "2026-08-06",
+      "last": "2026-08-21",
+      "status": "Resolved",
+      "note": "sender's message had no content; Kurian closed the thread",
+      "daysOpen": 15,
+      "daysSinceReceived": 37,
+      "cc": [
+        "report@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "support-4d866af761",
+      "threadId": "1a01fabb03f3ee2f",
+      "group": "support",
+      "subject": "Request to Change College Name in TinkerHub Account",
+      "counterpart": "Akshay Harilal",
+      "email": "akshayharilal10@gmail.com",
+      "received": "2026-08-20",
+      "last": "2026-08-20",
+      "status": "No response",
+      "note": "college name change request",
+      "daysOpen": 23,
+      "daysSinceReceived": 23,
+      "cc": [
+        "support@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "support-8bac1bd4e1",
+      "threadId": "1a013c3f0bc11a1e",
+      "group": "support",
+      "subject": "Request to update college details \u2013 HLJP6V6755",
+      "counterpart": "Fidha Fathima",
+      "email": "ff080870@gmail.com",
+      "received": "2026-08-18",
+      "last": "2026-08-20",
+      "status": "Resolved",
+      "note": "college details updated",
+      "daysOpen": 2,
+      "daysSinceReceived": 25,
+      "cc": [
+        "support@tinkerhub.org"
       ]
     },
     {
@@ -1642,788 +2460,91 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "finance-410f35ae93",
-      "threadId": "1a08f3a6cb48d4e1",
-      "group": "finance",
-      "subject": "Low SMS balance - Ekuttan, MSG91!",
-      "counterpart": "MSG91 (automated)",
-      "email": null,
-      "received": "2026-09-11",
-      "last": "2026-09-12",
-      "status": "Informational",
-      "note": "SMS wallet balance low (Rs 9.83 as of latest alert), add funds",
-      "daysOpen": 1,
-      "daysSinceReceived": 1,
-      "cc": [
-        "finance@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "finance-410f35ae93",
-      "threadId": "1a086f1520581056",
-      "group": "finance",
-      "subject": "Low SMS balance - Ekuttan, MSG91!",
-      "counterpart": "MSG91 (automated)",
-      "email": null,
-      "received": "2026-09-09",
-      "last": "2026-09-09",
-      "status": "Informational",
-      "note": "SMS wallet balance low (Rs 499.84)",
-      "daysOpen": 0,
-      "daysSinceReceived": 3,
-      "cc": [
-        "finance@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "finance-979ae0f4a4",
-      "threadId": "1a081f64794ec535",
-      "group": "finance",
-      "subject": "Invoice for Maker Survey",
-      "counterpart": "Sonal Kuruvilla (Nayaneethi Policy Collective)",
-      "email": "connect.npoc@gmail.com",
-      "received": "2026-09-08",
-      "last": "2026-09-09",
+      "id": "campus-aa913fd2f6",
+      "threadId": "19fd5f5be48a25b7",
+      "group": "campus",
+      "subject": "Spelling mistake correction \"Navya A\" in certificate",
+      "counterpart": "Navya",
+      "email": "navyakzhm563@gmail.com",
+      "received": "2026-08-06",
+      "last": "2026-08-14",
       "status": "Resolved",
-      "note": "invoice \u20b99,440 paid, TDS deducted, receipt sent",
-      "daysOpen": 1,
-      "daysSinceReceived": 4,
-      "cc": [
-        "finance@tinkerhub.org",
-        "mehar@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "finance-16d3d8f808",
-      "threadId": "1a08006739d0555a",
-      "group": "finance",
-      "subject": "Your receipt from Resend #2748-2663",
-      "counterpart": "Resend (automated)",
-      "email": null,
-      "received": "2026-09-08",
-      "last": "2026-09-08",
-      "status": "Informational",
-      "note": "$20 payment receipt, subscription charged",
-      "daysOpen": 0,
-      "daysSinceReceived": 4,
-      "cc": [
-        "finance@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "finance-410f35ae93",
-      "threadId": "1a07fe00d0471929",
-      "group": "finance",
-      "subject": "Low SMS balance - Ekuttan, MSG91!",
-      "counterpart": "MSG91 (automated)",
-      "email": null,
-      "received": "2026-09-08",
-      "last": "2026-09-08",
-      "status": "Informational",
-      "note": "SMS wallet balance low (999.92), add funds",
-      "daysOpen": 0,
-      "daysSinceReceived": 4,
-      "cc": [
-        "finance@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "finance-3635f35f12",
-      "threadId": "1a07c2d2441f2d98",
-      "group": "finance",
-      "subject": "Kozhikode Shoot - Invoice",
-      "counterpart": "Cyril Luke Anish",
-      "email": "cyrilanish10@gmail.com",
-      "received": "2026-09-07",
-      "last": "2026-09-07",
-      "status": "No response",
-      "note": "invoice submitted for Kozhikode shoot, pending review/payment",
-      "daysOpen": 5,
-      "daysSinceReceived": 5,
-      "cc": [
-        "finance@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "finance-d25183bada",
-      "threadId": "1a05e51a21ec7878",
-      "group": "finance",
-      "subject": "Re-certification Required for Eligibility - TinkerHub Technology Innovation Foundation",
-      "counterpart": "Benevity (automated)",
-      "email": null,
-      "received": "2026-09-01",
-      "last": "2026-09-02",
-      "status": "Informational",
-      "note": "annual self-cert renewal due Nov 2026",
-      "daysOpen": 1,
-      "daysSinceReceived": 11,
-      "cc": [
-        "finance@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "finance-0c649e65cb",
-      "threadId": "1a060b371008b9e2",
-      "group": "finance",
-      "subject": "Re: Tinkerhub | Q4 TDS Revision | FY 2025-26",
-      "counterpart": "R Rajan Associates",
-      "email": "rraca.kochi@gmail.com",
-      "received": "2026-09-02",
-      "last": "2026-09-02",
-      "status": "Awaiting reply (from them)",
-      "note": "sent TDS corrections, awaiting revised filing",
-      "daysOpen": 10,
-      "daysSinceReceived": 10,
-      "cc": [
-        "finance@tinkerhub.org",
-        "mehar@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "finance-27daac57aa",
-      "threadId": "1a0604dbcc3c2364",
-      "group": "finance",
-      "subject": "Amazon Web Services GST Invoice Available",
-      "counterpart": "Amazon Web Services (automated)",
-      "email": null,
-      "received": "2026-09-02",
-      "last": "2026-09-02",
-      "status": "Informational",
-      "note": "GST invoice available for download",
-      "daysOpen": 0,
-      "daysSinceReceived": 10,
-      "cc": [
-        "finance@tinkerhub.org",
-        "kolaambi@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "finance-c4c18e5732",
-      "threadId": "1a0571fc7c2856c5",
-      "group": "finance",
-      "subject": "Invoice for August, 2026",
-      "counterpart": "Chinnu Susan Varghese",
-      "email": "chinnnu.susan@gmail.com",
-      "received": "2026-08-31",
-      "last": "2026-09-02",
-      "status": "Resolved",
-      "note": "invoice INV-0039 paid, receipt sent",
-      "daysOpen": 2,
-      "daysSinceReceived": 12,
-      "cc": [
-        "finance@tinkerhub.org",
-        "mehar@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "finance-9e2ebb2b5a",
-      "threadId": "1a05d31ddc729f55",
-      "group": "finance",
-      "subject": "Fwd: AXIS BANK : Statement for period 01-04-2024 to 31-03-2025",
-      "counterpart": "Axis Bank (automated)",
-      "email": null,
-      "received": "2026-09-01",
-      "last": "2026-09-01",
-      "status": "Informational",
-      "note": "FY24-25 statement shared for records",
-      "daysOpen": 0,
-      "daysSinceReceived": 11,
-      "cc": [
-        "finance@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "finance-3b567ed2f3",
-      "threadId": "1a05d213c33ddb32",
-      "group": "finance",
-      "subject": "Request for Account Statement",
-      "counterpart": "Axis Bank",
-      "email": "oprh3577@axisbank.com",
-      "received": "2026-09-01",
-      "last": "2026-09-01",
-      "status": "Awaiting reply (from them)",
-      "note": "requested FY24-25 statement, awaiting bank",
-      "daysOpen": 11,
-      "daysSinceReceived": 11,
-      "cc": [
-        "finance@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "finance-62d51bc572",
-      "threadId": "1a05d1eff96b20c7",
-      "group": "finance",
-      "subject": "MSG91 - Your MSG91 Subscription Renewal Summary",
-      "counterpart": "MSG91 (automated)",
-      "email": null,
-      "received": "2026-09-01",
-      "last": "2026-09-01",
-      "status": "Informational",
-      "note": "free plan auto-renewed, zero charged",
-      "daysOpen": 0,
-      "daysSinceReceived": 11,
-      "cc": [
-        "finance@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "finance-b503fadd37",
-      "threadId": "1a05675d215aba56",
-      "group": "finance",
-      "subject": "INVOICE - AUGUST 2026",
-      "counterpart": "Sindhu Associates",
-      "email": "hrdsss2007@gmail.com",
-      "received": "2026-08-31",
-      "last": "2026-08-31",
-      "status": "Resolved",
-      "note": "invoice Sol/34 paid, receipt sent",
-      "daysOpen": 0,
-      "daysSinceReceived": 12,
-      "cc": [
-        "finance@tinkerhub.org",
-        "eldho@tinkerhub.org",
-        "johnson@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "report-14807cce3a",
-      "threadId": "1a07f81e530dfb34",
-      "group": "report",
-      "subject": "Tinkerhub not sending OTP for login",
-      "counterpart": "Dev Anand VP",
-      "email": "blindinglucario@gmail.com",
-      "received": "2026-09-08",
-      "last": "2026-09-09",
-      "status": "Awaiting reply (from them)",
-      "note": "OTP not sending (too many requests); tagged to support for handling",
-      "daysOpen": 4,
-      "daysSinceReceived": 4,
-      "cc": [
-        "report@tinkerhub.org",
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "report-c5d20472ea",
-      "threadId": "1a07f972d58575c1",
-      "group": "report",
-      "subject": "OTP failing",
-      "counterpart": "Shaphen Binu Kuriakose",
-      "email": "shaphenbinukuriakose@gmail.com",
-      "received": "2026-09-08",
-      "last": "2026-09-09",
-      "status": "Awaiting reply (from them)",
-      "note": "OTP failure on login; tagged to support for handling",
-      "daysOpen": 4,
-      "daysSinceReceived": 4,
-      "cc": [
-        "report@tinkerhub.org",
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "report-c626f2085e",
-      "threadId": "1a07f8adc7a282ef",
-      "group": "report",
-      "subject": "(no subject) \u2013 OTP request limit exceeded",
-      "counterpart": "Renil Augustine",
-      "email": "augustinerenil723@gmail.com",
-      "received": "2026-09-08",
-      "last": "2026-09-08",
-      "status": "Awaiting reply (from them)",
-      "note": "OTP limit exceeded, forwarded to support team",
-      "daysOpen": 4,
-      "daysSinceReceived": 4,
-      "cc": [
-        "report@tinkerhub.org",
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "report-1ab73293c1",
-      "threadId": "1a06c6af7fac7d4f",
-      "group": "report",
-      "subject": "Complaint Regarding Participation Fee for Useless Project 3.0 at Sahrdaya College",
-      "counterpart": "Arjun",
-      "email": "kiki432005@proton.me",
-      "received": "2026-09-04",
-      "last": "2026-09-04",
-      "status": "Awaiting reply (from them)",
-      "note": "escalated participation-fee complaint to campus lead, follow-up owed",
+      "note": "corrected certificate PDF sent",
       "daysOpen": 8,
-      "daysSinceReceived": 8,
+      "daysSinceReceived": 37,
       "cc": [
-        "report@tinkerhub.org",
-        "campus@tinkerhub.org",
-        "council@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "report-55409c5545",
-      "threadId": "1a064036048dfc40",
-      "group": "report",
-      "subject": "(no subject)",
-      "counterpart": "Fidha",
-      "email": "msx201700@gmail.com",
-      "received": "2026-09-02",
-      "last": "2026-09-02",
-      "status": "No response",
-      "note": "OTP login issue, no reply yet",
-      "daysOpen": 10,
-      "daysSinceReceived": 10,
-      "cc": [
-        "report@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "report-aa14764f2a",
-      "threadId": "1a042cdc25fcb5c6",
-      "group": "report",
-      "subject": "OTP Not Being Sent When Trying to Log In",
-      "counterpart": "Athul Benedict",
-      "email": "athulbenedict123@gmail.com",
-      "received": "2026-08-27",
-      "last": "2026-08-28",
-      "status": "Awaiting reply (from them)",
-      "note": "forwarded to support, awaiting fix",
-      "daysOpen": 16,
-      "daysSinceReceived": 16,
-      "cc": [
-        "report@tinkerhub.org",
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "report-d467652a9f",
-      "threadId": "1a037a3e72a46ef9",
-      "group": "report",
-      "subject": "Cannot login to page",
-      "counterpart": "Gouri ES",
-      "email": "gourishaju07@gmail.com",
-      "received": "2026-08-25",
-      "last": "2026-08-25",
-      "status": "Awaiting reply (from us)",
-      "note": "network switch didn't fix OTP issue",
-      "daysOpen": 18,
-      "daysSinceReceived": 18,
-      "cc": [
-        "akhil@tinkerhub.org",
-        "kurian@tinkerhub.org",
-        "support@tinkerhub.org",
-        "report@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "report-7608a88b9f",
-      "threadId": "1a033c3d3b6522c6",
-      "group": "report",
-      "subject": "Report: Unable to sign in and \"failed to send OTP\" error during mobile verification",
-      "counterpart": "Shani Nair",
-      "email": "shaninair781@gmail.com",
-      "received": "2026-08-24",
-      "last": "2026-08-24",
-      "status": "Awaiting reply (from them)",
-      "note": "forwarded to support team",
-      "daysOpen": 19,
-      "daysSinceReceived": 19,
-      "cc": [
-        "report@tinkerhub.org",
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-d09a80eb95",
-      "threadId": "1a0867185a9f192c",
-      "group": "support",
-      "subject": "regarding changing Discord user accounts in the TinkerHub community server",
-      "counterpart": "Kendrik K Joseph",
-      "email": "kendrikkjoseph3@gmail.com",
-      "received": "2026-09-09",
-      "last": "2026-09-09",
-      "status": "No response",
-      "note": "wants alt Discord account (turtkingdom) merged/switched to main (silvrknight)",
-      "daysOpen": 3,
-      "daysSinceReceived": 3,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-c9e3a899cb",
-      "threadId": "1a07c7647bc4616e",
-      "group": "support",
-      "subject": "Event Registration Issue",
-      "counterpart": "Pooja S N (Saintgits)",
-      "email": "poojasn.er2428@saintgits.org",
-      "received": "2026-09-07",
-      "last": "2026-09-07",
-      "status": "No response",
-      "note": "~100 students at Saintgits Kudumba Unit event couldn't register in time; asking to add attached list of 27 names to the event",
-      "daysOpen": 5,
-      "daysSinceReceived": 5,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-0637de2179",
-      "threadId": "1a075a655b8ad000",
-      "group": "support",
-      "subject": "Request to Register for Useless Projects 3.0 at My College",
-      "counterpart": "Aysha Lina (RIT Kottayam)",
-      "email": "ayshalina729@gmail.com",
-      "received": "2026-09-06",
-      "last": "2026-09-07",
-      "status": "Awaiting reply (from us)",
-      "note": "still can't register for Sept 11-12 slot despite instructions; needs further help",
-      "daysOpen": 6,
-      "daysSinceReceived": 6,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-5359c95f3e",
-      "threadId": "1a06ff002a590034",
-      "group": "support",
-      "subject": "Failed otp verification for login and unable to edit profile",
-      "counterpart": "Lachu Krishna",
-      "email": "lachukrishna01@gmail.com",
-      "received": "2026-09-05",
-      "last": "2026-09-05",
-      "status": "No response",
-      "note": "OTP verification failing; also can't edit profile",
-      "daysOpen": 7,
-      "daysSinceReceived": 7,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-796ba6e5ce",
-      "threadId": "1a066d48f646e734",
-      "group": "support",
-      "subject": "Failed to send OTP",
-      "counterpart": "Thasneem Co H",
-      "email": "thasneemchalil@gmail.com",
-      "received": "2026-09-03",
-      "last": "2026-09-03",
-      "status": "No response",
-      "note": "needs OTP troubleshooting",
-      "daysOpen": 9,
-      "daysSinceReceived": 9,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-3ee4e1e8c3",
-      "threadId": "1a03f8c447ad92e9",
-      "group": "support",
-      "subject": "Bug Report: UI jump and layout issue on \"Upcoming Activities\" page in Tinkerhub App",
-      "counterpart": "Anson Boby",
-      "email": "ansonboby@gmail.com",
-      "received": "2026-08-26",
-      "last": "2026-08-26",
-      "status": "No response",
-      "note": "UI bug report, needs review",
-      "daysOpen": 17,
-      "daysSinceReceived": 17,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-7807caa213",
-      "threadId": "1a03933119a19f56",
-      "group": "support",
-      "subject": "(no subject)",
-      "counterpart": "Shani Nair",
-      "email": "shaninair781@gmail.com",
-      "received": "2026-08-25",
-      "last": "2026-08-25",
-      "status": "No response",
-      "note": "duplicate follow-up, still locked out",
-      "daysOpen": 18,
-      "daysSinceReceived": 18,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-7dc073f54d",
-      "threadId": "1a0385d224e84b2c",
-      "group": "support",
-      "subject": "College Not Available in TinkerHub App",
-      "counterpart": "Adnan Ibnu Rasheed",
-      "email": "adnankp249@gmail.com",
-      "received": "2026-08-25",
-      "last": "2026-08-25",
-      "status": "No response",
-      "note": "college missing from selection list",
-      "daysOpen": 18,
-      "daysSinceReceived": 18,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-16a4419f31",
-      "threadId": "1a032c21a83ee0f8",
-      "group": "support",
-      "subject": "Issue on Tinkerhub app",
-      "counterpart": "Goutham R",
-      "email": "gouthamr4567@gmail.com",
-      "received": "2026-08-24",
-      "last": "2026-08-24",
-      "status": "Awaiting reply (from them)",
-      "note": "OTP fails, tagged to support",
-      "daysOpen": 19,
-      "daysSinceReceived": 19,
-      "cc": [
-        "support@tinkerhub.org",
         "campus@tinkerhub.org"
       ]
     },
     {
-      "id": "support-51bd020885",
-      "threadId": "1a033a51db9f94be",
-      "group": "support",
-      "subject": "Logging issue in tinkerhub",
-      "counterpart": "Goutham R",
-      "email": "gouthamr4567@gmail.com",
-      "received": "2026-08-24",
-      "last": "2026-08-24",
-      "status": "No response",
-      "note": "duplicate OTP report",
-      "daysOpen": 19,
-      "daysSinceReceived": 19,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-e48da1bdd3",
-      "threadId": "1a0286f4d46a5c4c",
-      "group": "support",
-      "subject": "(no subject)",
-      "counterpart": "Amrithasree C",
-      "email": "amrithasreec066@gmail.com",
-      "received": "2026-08-22",
-      "last": "2026-08-23",
-      "status": "Awaiting reply (from us)",
-      "note": "sent screenshot, needs profile fix",
-      "daysOpen": 21,
-      "daysSinceReceived": 21,
-      "cc": [
-        "support@tinkerhub.org",
-        "akhil@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-855e19fd13",
-      "threadId": "1a029a998be98f06",
-      "group": "support",
-      "subject": "Error in Github repository adding",
-      "counterpart": "Ayan Hashique",
-      "email": "ayanhashique2006@gmail.com",
-      "received": "2026-08-22",
-      "last": "2026-08-22",
-      "status": "No response",
-      "note": "GitHub repo selection bug",
-      "daysOpen": 21,
-      "daysSinceReceived": 21,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-e48da1bdd3",
-      "threadId": "1a02412b56d4d47a",
-      "group": "support",
-      "subject": "(no subject)",
-      "counterpart": "Amrithasree C",
-      "email": "amrithasreec066@gmail.com",
-      "received": "2026-08-21",
-      "last": "2026-08-21",
-      "status": "No response",
-      "note": "duplicate of later thread",
-      "daysOpen": 22,
-      "daysSinceReceived": 22,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-4d866af761",
-      "threadId": "1a01fabb03f3ee2f",
-      "group": "support",
-      "subject": "Request to Change College Name in TinkerHub Account",
-      "counterpart": "Akshay Harilal",
-      "email": "akshayharilal10@gmail.com",
-      "received": "2026-08-20",
-      "last": "2026-08-20",
-      "status": "No response",
-      "note": "college name change request",
-      "daysOpen": 23,
-      "daysSinceReceived": 23,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-8bac1bd4e1",
-      "threadId": "1a013c3f0bc11a1e",
-      "group": "support",
-      "subject": "Request to update college details \u2013 HLJP6V6755",
-      "counterpart": "Fidha Fathima",
-      "email": "ff080870@gmail.com",
-      "received": "2026-08-18",
-      "last": "2026-08-20",
+      "id": "campus-3dc7d697ef",
+      "threadId": "19fa210980081212",
+      "group": "campus",
+      "subject": "Request for another letter due to change of principal",
+      "counterpart": "Abdel Baasit (Campus Lead, CEP)",
+      "email": "tinkerhubcep@gmail.com",
+      "received": "2026-07-27",
+      "last": "2026-08-14",
       "status": "Resolved",
-      "note": "college details updated",
-      "daysOpen": 2,
-      "daysSinceReceived": 25,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-2aa21e3a97",
-      "threadId": "1a084d65d074ea92",
-      "group": "campus",
-      "subject": "Invitation: Useless Projects: Demo Meet @ Wed Sep 9, 2026 9pm - 10pm (IST)",
-      "counterpart": "Google Calendar (automated)",
-      "email": null,
-      "received": "2026-09-09",
-      "last": "2026-09-09",
-      "status": "Informational",
-      "note": "calendar invite for Useless Projects demo meet call, Sep 9 9-10pm; FYI only, no action needed",
-      "daysOpen": 0,
-      "daysSinceReceived": 3,
+      "note": "updated letter for new principal sent; thread closed",
+      "daysOpen": 18,
+      "daysSinceReceived": 47,
       "cc": [
         "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-e8d8afd755",
-      "threadId": "1a093d6d595665b5",
-      "group": "campus",
-      "subject": "Cancellation Of Venue - FISAT",
-      "counterpart": "Nikhil (TinkerHub FISAT)",
-      "email": "nikhilak2005@gmail.com",
-      "received": "2026-09-12",
-      "last": "2026-09-12",
-      "status": "No response",
-      "note": "FISAT withdrawing as venue for Useless Project 3.0 this season due to permissions/logistics issues",
-      "daysOpen": 0,
-      "daysSinceReceived": 0,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-d59d3935b7",
-      "threadId": "1a0954b7f5f2842b",
-      "group": "support",
-      "subject": "Verification code not receiving",
-      "counterpart": "Alexander Ajay",
-      "email": "alexanderajay970@gmail.com",
-      "received": "2026-09-12",
-      "last": "2026-09-12",
-      "status": "No response",
-      "note": "OTP/verification code not received on login despite resend attempt",
-      "daysOpen": 0,
-      "daysSinceReceived": 0,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "finance-410f35ae93",
-      "threadId": "1a0958f7d4070c13",
-      "group": "finance",
-      "subject": "Low SMS balance - Ekuttan, MSG91!",
-      "counterpart": "MSG91 (automated)",
-      "email": null,
-      "received": "2026-09-12",
-      "last": "2026-09-12",
-      "status": "Informational",
-      "note": "SMS wallet balance low (Rs 4999.76 as of latest alert, shortly after 5000 INR recharge)",
-      "daysOpen": 0,
-      "daysSinceReceived": 0,
-      "cc": [
-        "finance@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "finance-0b616a747a",
-      "threadId": "1a0958c063ec6064",
-      "group": "finance",
-      "subject": "Recharge at MSG91 - ekuttan (UN) - 5000 INR (amount) - successful!",
-      "counterpart": "MSG91 (automated)",
-      "email": null,
-      "received": "2026-09-12",
-      "last": "2026-09-12",
-      "status": "Informational",
-      "note": "SMS wallet recharge of 5000 INR (+900 INR tax) processed successfully",
-      "daysOpen": 0,
-      "daysSinceReceived": 0,
-      "cc": [
-        "finance@tinkerhub.org"
       ]
     }
   ],
   "summary": {
-    "Resolved": 28,
+    "Resolved": 32,
     "Awaiting reply (from them)": 48,
-    "Awaiting reply (from us)": 20,
-    "No response": 17,
+    "Awaiting reply (from us)": 21,
+    "No response": 19,
     "Informational": 23
   },
   "analytics": {
     "campus": {
-      "total": 96,
-      "counts": {
-        "Resolved": 24,
+      "total": 102,
+      "statusCounts": {
+        "Resolved": 27,
         "Awaiting reply (from them)": 39,
-        "Awaiting reply (from us)": 17,
-        "No response": 3,
+        "Awaiting reply (from us)": 18,
+        "No response": 5,
         "Informational": 13
       },
-      "avgOpenDays": 8.98,
-      "avgResolvedDays": 0.67
+      "avgOpenDays": 9.1,
+      "avgResolvedDays": 2.0
     },
     "finance": {
       "total": 16,
-      "counts": {
+      "statusCounts": {
         "Informational": 10,
         "Resolved": 3,
         "No response": 1,
         "Awaiting reply (from them)": 2
       },
-      "avgOpenDays": 8.67,
+      "avgOpenDays": 8.7,
       "avgResolvedDays": 1.0
     },
     "report": {
-      "total": 8,
-      "counts": {
+      "total": 9,
+      "statusCounts": {
         "Awaiting reply (from them)": 6,
         "No response": 1,
-        "Awaiting reply (from us)": 1
+        "Awaiting reply (from us)": 1,
+        "Resolved": 1
       },
-      "avgOpenDays": 10.38,
-      "avgResolvedDays": 0
+      "avgOpenDays": 10.4,
+      "avgResolvedDays": 15.0
     },
     "support": {
       "total": 16,
-      "counts": {
+      "statusCounts": {
         "No response": 12,
         "Awaiting reply (from us)": 2,
         "Awaiting reply (from them)": 1,
         "Resolved": 1
       },
-      "avgOpenDays": 13.87,
+      "avgOpenDays": 13.9,
       "avgResolvedDays": 2.0
     }
   }
