@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-12T02:45:53Z",
+  "generatedAt": "2026-09-12T04:44:12Z",
   "threads": [
     {
       "id": "campus-48af43790b",
@@ -9,9 +9,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "Akarsh A (TinkerHub CEA)",
       "email": "akarshajith06@gmail.com",
       "received": "2026-09-11",
-      "last": "2026-09-11",
-      "status": "No response",
-      "note": "asks to extend registration deadline for CEA (Adoor) till 9 PM today ahead of Sep 12 event",
+      "last": "2026-09-12",
+      "status": "Resolved",
+      "note": "registration deadline extended as requested for CE Adoor (CEA); registrations updated",
       "daysOpen": 1,
       "daysSinceReceived": 1,
       "cc": [
@@ -77,10 +77,10 @@ window.DASHBOARD_DATA = {
       "counterpart": "Rosemary Rejimon (College of Engineering Poonjar)",
       "email": "rosecep24@gmail.com",
       "received": "2026-09-11",
-      "last": "2026-09-11",
-      "status": "Informational",
-      "note": "Hackathon (Useless Project 3.0) cancelled due to a clash with other college event dates",
-      "daysOpen": 0,
+      "last": "2026-09-12",
+      "status": "Resolved",
+      "note": "acknowledged College of Engineering Poonjar's cancellation of Useless Project 3.0 due to a date clash; wished them well for next season",
+      "daysOpen": 1,
       "daysSinceReceived": 1,
       "cc": [
         "campus@tinkerhub.org"
@@ -145,9 +145,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "Adarsh M (Ahalia School of Engineering and Technology)",
       "email": "adarshmurugesan33@gmail.com",
       "received": "2026-09-10",
-      "last": "2026-09-10",
-      "status": "Awaiting reply (from us)",
-      "note": "we owe them: correct event start time from 6am to 6pm for Ahalia overnight program",
+      "last": "2026-09-12",
+      "status": "Resolved",
+      "note": "replied: unable to update timings, event start time stands at 6pm as scheduled for Ahalia's overnight program",
       "daysOpen": 2,
       "daysSinceReceived": 2,
       "cc": [
@@ -2408,27 +2408,61 @@ window.DASHBOARD_DATA = {
       "cc": [
         "support@tinkerhub.org"
       ]
+    },
+    {
+      "id": "campus-2aa21e3a97",
+      "threadId": "1a084d65d074ea92",
+      "group": "campus",
+      "subject": "Invitation: Useless Projects: Demo Meet @ Wed Sep 9, 2026 9pm - 10pm (IST)",
+      "counterpart": "Google Calendar (automated)",
+      "email": null,
+      "received": "2026-09-09",
+      "last": "2026-09-09",
+      "status": "Informational",
+      "note": "calendar invite for Useless Projects demo meet call, Sep 9 9-10pm; FYI only, no action needed",
+      "daysOpen": 0,
+      "daysSinceReceived": 3,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-e8d8afd755",
+      "threadId": "1a093d6d595665b5",
+      "group": "campus",
+      "subject": "Cancellation Of Venue - FISAT",
+      "counterpart": "Nikhil (TinkerHub FISAT)",
+      "email": "nikhilak2005@gmail.com",
+      "received": "2026-09-12",
+      "last": "2026-09-12",
+      "status": "No response",
+      "note": "FISAT withdrawing as venue for Useless Project 3.0 this season due to permissions/logistics issues",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     }
   ],
   "summary": {
-    "No response": 17,
+    "Resolved": 32,
     "Awaiting reply (from them)": 49,
-    "Awaiting reply (from us)": 22,
-    "Informational": 21,
-    "Resolved": 29
+    "Awaiting reply (from us)": 21,
+    "No response": 17,
+    "Informational": 21
   },
   "analytics": {
     "campus": {
-      "total": 98,
+      "total": 100,
       "statusCounts": {
-        "No response": 4,
+        "Resolved": 27,
         "Awaiting reply (from them)": 39,
-        "Awaiting reply (from us)": 18,
-        "Informational": 13,
-        "Resolved": 24
+        "Awaiting reply (from us)": 17,
+        "No response": 4,
+        "Informational": 13
       },
       "avgOpenDays": 8.8,
-      "avgResolvedDays": 2.2
+      "avgResolvedDays": 2.1
     },
     "support": {
       "total": 16,
@@ -2438,8 +2472,8 @@ window.DASHBOARD_DATA = {
         "Awaiting reply (from them)": 2,
         "Resolved": 1
       },
-      "avgOpenDays": 16,
-      "avgResolvedDays": 2
+      "avgOpenDays": 16.0,
+      "avgResolvedDays": 2.0
     },
     "finance": {
       "total": 15,
@@ -2450,8 +2484,8 @@ window.DASHBOARD_DATA = {
         "Awaiting reply (from them)": 2,
         "Awaiting reply (from us)": 1
       },
-      "avgOpenDays": 14,
-      "avgResolvedDays": 1
+      "avgOpenDays": 14.0,
+      "avgResolvedDays": 1.0
     },
     "report": {
       "total": 9,
@@ -2462,7 +2496,7 @@ window.DASHBOARD_DATA = {
         "Resolved": 1
       },
       "avgOpenDays": 10.4,
-      "avgResolvedDays": 15
+      "avgResolvedDays": 15.0
     }
   }
 };
