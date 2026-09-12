@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-12T08:36:05Z",
+  "generatedAt": "2026-09-12T10:42:08Z",
   "threads": [
     {
       "id": "campus-48af43790b",
@@ -1954,24 +1954,6 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "finance-9807dba43c",
-      "threadId": "19ffaa5fb14b142b",
-      "group": "finance",
-      "subject": "Re: Follow-up on Financial Reimbursement – Onboarding Camp 2026",
-      "counterpart": "Nija Sulthana",
-      "email": "njsltn07@gmail.com",
-      "received": "2026-08-13",
-      "last": "2026-08-13",
-      "status": "Awaiting reply (from us)",
-      "note": "reimbursement pending, needs payment follow-up",
-      "daysOpen": 30,
-      "daysSinceReceived": 30,
-      "cc": [
-        "finance@tinkerhub.org",
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
       "id": "report-14807cce3a",
       "threadId": "1a07f81e530dfb34",
       "group": "report",
@@ -2447,7 +2429,7 @@ window.DASHBOARD_DATA = {
   "summary": {
     "Resolved": 33,
     "Awaiting reply (from them)": 49,
-    "Awaiting reply (from us)": 21,
+    "Awaiting reply (from us)": 20,
     "No response": 16,
     "Informational": 21
   },
@@ -2465,15 +2447,14 @@ window.DASHBOARD_DATA = {
       "avgResolvedDays": 2
     },
     "finance": {
-      "total": 15,
+      "total": 14,
       "statusCounts": {
         "Informational": 8,
         "Resolved": 3,
         "No response": 1,
-        "Awaiting reply (from them)": 2,
-        "Awaiting reply (from us)": 1
+        "Awaiting reply (from them)": 2
       },
-      "avgOpenDays": 14,
+      "avgOpenDays": 8.7,
       "avgResolvedDays": 1
     },
     "report": {
