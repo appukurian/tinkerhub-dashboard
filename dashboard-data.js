@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-13T14:40:00Z",
+  "generatedAt": "2026-09-13T16:37:47Z",
   "threads": [
     {
       "id": "campus-48af43790b",
@@ -1769,24 +1769,6 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "campus-af288aa227",
-      "threadId": "19fef734079841d1",
-      "group": "campus",
-      "subject": "Fwd: Regarding the change of role from Friends of Tinkerhub to student",
-      "counterpart": "Abi Alif",
-      "email": "abialifhere@gmail.com",
-      "received": "2026-08-11",
-      "last": "2026-08-30",
-      "status": "Awaiting reply (from us)",
-      "note": "role change request looped in to support team for account update; no confirmation yet that it's done",
-      "daysOpen": 33,
-      "daysSinceReceived": 33,
-      "cc": [
-        "campus@tinkerhub.org",
-        "support@tinkerhub.org"
-      ]
-    },
-    {
       "id": "campus-0cef750774",
       "threadId": "1a04e85cd64123b6",
       "group": "campus",
@@ -1911,23 +1893,6 @@ window.DASHBOARD_DATA = {
       "note": "slot updated",
       "daysOpen": 2,
       "daysSinceReceived": 19,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-6bf4cfb119",
-      "threadId": "19ffb8b081ba51ae",
-      "group": "campus",
-      "subject": "TinkerHub's Useless Projects is here!",
-      "counterpart": "Ananya Anand (Christ College of Engineering Irinjalakuda)",
-      "email": "ananyaanandmenoth@gmail.com",
-      "received": "2026-08-13",
-      "last": "2026-08-27",
-      "status": "Awaiting reply (from them)",
-      "note": "mass Useless Projects kickoff email to campus leads; latest exchange: Ananya asked to move slot to Sep 12 daytime, told to refill RSVP form",
-      "daysOpen": 31,
-      "daysSinceReceived": 31,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -2282,40 +2247,6 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "campus-4956838c36",
-      "threadId": "19fe126b92e57e89",
-      "group": "campus",
-      "subject": "Re: Invitation to TinkerOnam 2026 – August 22",
-      "counterpart": "Ananya Anand (TinkerHub CCE)",
-      "email": "ananyaanandmenoth@gmail.com",
-      "received": "2026-08-08",
-      "last": "2026-08-21",
-      "status": "Resolved",
-      "note": "declined TinkerOnam invite due to schedule conflict; thread concluded",
-      "daysOpen": 13,
-      "daysSinceReceived": 36,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "report-ac405b7493",
-      "threadId": "19fd7e0cc9b20c98",
-      "group": "report",
-      "subject": "Re: (no content)",
-      "counterpart": "Anosh John Ditto",
-      "email": "anoshjohnditto10@gmail.com",
-      "received": "2026-08-06",
-      "last": "2026-08-21",
-      "status": "Resolved",
-      "note": "sender's message had no content; Kurian closed the thread",
-      "daysOpen": 15,
-      "daysSinceReceived": 38,
-      "cc": [
-        "report@tinkerhub.org"
-      ]
-    },
-    {
       "id": "support-4d866af761",
       "threadId": "1a01fabb03f3ee2f",
       "group": "support",
@@ -2462,35 +2393,24 @@ window.DASHBOARD_DATA = {
     }
   ],
   "summary": {
-    "Resolved": 30,
+    "Resolved": 28,
     "Informational": 23,
     "No response": 19,
-    "Awaiting reply (from them)": 48,
-    "Awaiting reply (from us)": 21
+    "Awaiting reply (from them)": 47,
+    "Awaiting reply (from us)": 20
   },
   "analytics": {
     "campus": {
-      "total": 100,
+      "total": 97,
       "statusCounts": {
-        "Resolved": 25,
+        "Resolved": 24,
         "No response": 5,
-        "Awaiting reply (from them)": 39,
-        "Awaiting reply (from us)": 18,
+        "Awaiting reply (from them)": 38,
+        "Awaiting reply (from us)": 17,
         "Informational": 13
       },
-      "avgOpenDays": 9.6,
-      "avgResolvedDays": 1.2
-    },
-    "support": {
-      "total": 16,
-      "statusCounts": {
-        "No response": 12,
-        "Awaiting reply (from us)": 2,
-        "Awaiting reply (from them)": 1,
-        "Resolved": 1
-      },
-      "avgOpenDays": 14.9,
-      "avgResolvedDays": 2
+      "avgOpenDays": 8.8,
+      "avgResolvedDays": 0.7
     },
     "finance": {
       "total": 16,
@@ -2503,16 +2423,26 @@ window.DASHBOARD_DATA = {
       "avgOpenDays": 9.7,
       "avgResolvedDays": 1
     },
+    "support": {
+      "total": 16,
+      "statusCounts": {
+        "No response": 12,
+        "Awaiting reply (from us)": 2,
+        "Awaiting reply (from them)": 1,
+        "Resolved": 1
+      },
+      "avgOpenDays": 14.9,
+      "avgResolvedDays": 2
+    },
     "report": {
-      "total": 9,
+      "total": 8,
       "statusCounts": {
         "Awaiting reply (from them)": 6,
         "No response": 1,
-        "Awaiting reply (from us)": 1,
-        "Resolved": 1
+        "Awaiting reply (from us)": 1
       },
       "avgOpenDays": 11.4,
-      "avgResolvedDays": 15
+      "avgResolvedDays": 0
     }
   }
 };
