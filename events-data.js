@@ -2,7 +2,7 @@
 // Do NOT hand-edit -- this file is overwritten on each run.
 window.EVENTS_DATA = {
   "generatedAt": "2026-09-13",
-  "generatedAtIso": "2026-09-13T17:54:04.063960+00:00",
+  "generatedAtIso": "2026-09-13T20:15:55.793807+00:00",
   "windowSinceDate": "2026-04-01",
   "windowUntilDate": "2027-03-31",
   "events": [
@@ -50738,9 +50738,9 @@ window.EVENTS_DATA = {
   ],
   "summary": {
     "totalEvents": 756,
-    "todayCount": 1,
-    "upcomingCount": 15,
-    "pastCount": 740,
+    "todayCount": 3,
+    "upcomingCount": 12,
+    "pastCount": 741,
     "totalRegistered": 23947,
     "totalCheckedIn": 15218,
     "virtualCount": 302,
