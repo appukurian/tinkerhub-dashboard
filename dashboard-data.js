@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-14T14:37:00Z",
+  "generatedAt": "2026-09-14T16:45:00Z",
   "threads": [
     {
       "id": "campus-48af43790b",
@@ -2476,26 +2476,43 @@ window.DASHBOARD_DATA = {
       "cc": [
         "support@tinkerhub.org"
       ]
+    },
+    {
+      "id": "campus-b88bc66543",
+      "threadId": "1a0a073d680f8c24",
+      "group": "campus",
+      "subject": "Concern Regarding Judging Fairness – Useless Projects CUSAT",
+      "counterpart": "Sivadarsh P Dinesh (CUSAT)",
+      "email": "sivadarshpdinesh@gmail.com",
+      "received": "2026-09-14",
+      "last": "2026-09-14",
+      "status": "No response",
+      "note": "feedback that late-slot teams at CUSAT event got smaller live audiences for judging/voting; asks for fairer process",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     }
   ],
   "summary": {
     "Resolved": 30,
     "Informational": 23,
-    "No response": 20,
+    "No response": 21,
     "Awaiting reply (from them)": 48,
     "Awaiting reply (from us)": 21
   },
   "analytics": {
     "campus": {
-      "total": 100,
+      "total": 101,
       "statusCounts": {
         "Resolved": 25,
-        "No response": 5,
+        "No response": 6,
         "Awaiting reply (from them)": 39,
         "Awaiting reply (from us)": 18,
         "Informational": 13
       },
-      "avgOpenDays": 10.6,
+      "avgOpenDays": 10.4,
       "avgResolvedDays": 1.2
     },
     "finance": {
@@ -2507,7 +2524,7 @@ window.DASHBOARD_DATA = {
         "Awaiting reply (from them)": 2
       },
       "avgOpenDays": 10.7,
-      "avgResolvedDays": 1
+      "avgResolvedDays": 1.0
     },
     "report": {
       "total": 9,
@@ -2518,7 +2535,7 @@ window.DASHBOARD_DATA = {
         "Resolved": 1
       },
       "avgOpenDays": 12.4,
-      "avgResolvedDays": 15
+      "avgResolvedDays": 15.0
     },
     "support": {
       "total": 17,
@@ -2529,7 +2546,7 @@ window.DASHBOARD_DATA = {
         "Resolved": 1
       },
       "avgOpenDays": 14.9,
-      "avgResolvedDays": 2
+      "avgResolvedDays": 2.0
     }
   }
 };
