@@ -2,7 +2,7 @@
 // Do NOT hand-edit -- this file is overwritten on each run.
 window.EVENTS_DATA = {
   "generatedAt": "2026-09-15",
-  "generatedAtIso": "2026-09-15T20:49:58.206373+00:00",
+  "generatedAtIso": "2026-09-15T23:23:00.996404+00:00",
   "windowSinceDate": "2026-04-01",
   "windowUntilDate": "2027-03-31",
   "events": [
