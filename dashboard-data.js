@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-15T08:43:13Z",
+  "generatedAt": "2026-09-15T10:41:21Z",
   "threads": [
     {
       "id": "campus-519f4ea5b0",
@@ -2645,26 +2645,44 @@ window.DASHBOARD_DATA = {
       ],
       "daysOpen": 1,
       "daysSinceReceived": 1
+    },
+    {
+      "id": "campus-2c58b36fa5",
+      "threadId": "19fc5b277d1d1530",
+      "group": "campus",
+      "subject": "Space for developer sprint",
+      "counterpart": "Akansha Sakhre (Project Tech4Dev)",
+      "email": "akansha@projecttech4dev.org",
+      "received": "2026-08-03",
+      "last": "2026-09-15",
+      "status": "Awaiting reply (from us)",
+      "note": "declined week-long sprint use of TinkerSpace as a venue; she's now asking to visit with 20 people this Thursday — needs a reply",
+      "daysOpen": 43,
+      "daysSinceReceived": 43,
+      "cc": [
+        "campus@tinkerhub.org",
+        "habeeb@tinkerhub.org"
+      ]
     }
   ],
   "summary": {
     "No response": 17,
-    "Awaiting reply (from us)": 21,
+    "Awaiting reply (from us)": 22,
     "Awaiting reply (from them)": 49,
     "Resolved": 42,
     "Informational": 23
   },
   "analytics": {
     "campus": {
-      "total": 109,
+      "total": 110,
       "byStatus": {
         "No response": 1,
-        "Awaiting reply (from us)": 18,
+        "Awaiting reply (from us)": 19,
         "Awaiting reply (from them)": 40,
         "Resolved": 37,
         "Informational": 13
       },
-      "avgOpenDays": 12.0,
+      "avgOpenDays": 12.5,
       "avgResolvedDays": 1.2
     },
     "support": {
