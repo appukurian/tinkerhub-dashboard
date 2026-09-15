@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-15T12:41:47Z",
+  "generatedAt": "2026-09-15T14:36:56Z",
   "threads": [
     {
       "id": "campus-5736e0bdd4",
@@ -2647,21 +2647,21 @@ window.DASHBOARD_DATA = {
     }
   ],
   "summary": {
-    "No response": 17,
+    "Resolved": 42,
+    "Informational": 23,
     "Awaiting reply (from us)": 22,
     "Awaiting reply (from them)": 48,
-    "Resolved": 42,
-    "Informational": 23
+    "No response": 17
   },
   "analytics": {
     "campus": {
       "total": 109,
       "byStatus": {
-        "No response": 1,
+        "Resolved": 37,
+        "Informational": 13,
         "Awaiting reply (from us)": 19,
         "Awaiting reply (from them)": 39,
-        "Resolved": 37,
-        "Informational": 13
+        "No response": 1
       },
       "avgOpenDays": 12.2,
       "avgResolvedDays": 1.2
@@ -2670,37 +2670,34 @@ window.DASHBOARD_DATA = {
       "total": 18,
       "byStatus": {
         "No response": 14,
-        "Awaiting reply (from us)": 2,
-        "Awaiting reply (from them)": 1,
         "Resolved": 1,
-        "Informational": 0
+        "Awaiting reply (from us)": 2,
+        "Awaiting reply (from them)": 1
       },
       "avgOpenDays": 14.9,
-      "avgResolvedDays": 2.0
+      "avgResolvedDays": 2
     },
     "finance": {
       "total": 16,
       "byStatus": {
-        "No response": 1,
-        "Awaiting reply (from us)": 0,
-        "Awaiting reply (from them)": 2,
         "Resolved": 3,
-        "Informational": 10
+        "Informational": 10,
+        "Awaiting reply (from them)": 2,
+        "No response": 1
       },
       "avgOpenDays": 11.7,
-      "avgResolvedDays": 1.0
+      "avgResolvedDays": 1
     },
     "report": {
       "total": 9,
       "byStatus": {
-        "No response": 1,
-        "Awaiting reply (from us)": 1,
-        "Awaiting reply (from them)": 6,
         "Resolved": 1,
-        "Informational": 0
+        "Awaiting reply (from them)": 6,
+        "Awaiting reply (from us)": 1,
+        "No response": 1
       },
       "avgOpenDays": 13.4,
-      "avgResolvedDays": 15.0
+      "avgResolvedDays": 15
     }
   }
 };
