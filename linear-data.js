@@ -1,5 +1,5 @@
 window.LINEAR_DATA = {
-  "generatedAt": "2026-09-15T18:02:53Z",
+  "generatedAt": "2026-09-16T04:16:11Z",
   "workspace": "th-app",
   "team": "Devs",
   "teamTotals": {
