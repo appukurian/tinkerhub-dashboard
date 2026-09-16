@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-16T10:42:30Z",
+  "generatedAt": "2026-09-16T12:41:33Z",
   "threads": [
     {
       "id": "campus-2bfa647432",
@@ -2352,25 +2352,6 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "report-1ab73293c1",
-      "threadId": "1a06c6af7fac7d4f",
-      "group": "report",
-      "subject": "Complaint Regarding Participation Fee for Useless Project 3.0 at Sahrdaya College",
-      "counterpart": "Arjun",
-      "email": "kiki432005@proton.me",
-      "received": "2026-09-04",
-      "last": "2026-09-04",
-      "status": "Awaiting reply (from them)",
-      "note": "escalated participation-fee complaint to campus lead, follow-up owed",
-      "daysOpen": 12,
-      "daysSinceReceived": 12,
-      "cc": [
-        "report@tinkerhub.org",
-        "campus@tinkerhub.org",
-        "council@tinkerhub.org"
-      ]
-    },
-    {
       "id": "report-c626f2085e",
       "threadId": "1a07f8adc7a282ef",
       "group": "report",
@@ -2421,24 +2402,6 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 8,
       "cc": [
         "report@tinkerhub.org",
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-cae6d70712",
-      "threadId": "19fef734079841d1",
-      "group": "support",
-      "subject": "Fwd: Regarding the change of role from Friends of Tinkerhub to student",
-      "counterpart": "Abi Alif",
-      "email": "abialifhere@gmail.com",
-      "received": "2026-08-11",
-      "last": "2026-08-30",
-      "status": "Awaiting reply (from us)",
-      "note": "we owe them: update account role from Friends of Tinkerhub to student (looped in support team Aug 30)",
-      "daysOpen": 36,
-      "daysSinceReceived": 36,
-      "cc": [
-        "campus@tinkerhub.org",
         "support@tinkerhub.org"
       ]
     },
@@ -2529,24 +2492,6 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "support-16a4419f31",
-      "threadId": "1a032c21a83ee0f8",
-      "group": "support",
-      "subject": "Issue on Tinkerhub app",
-      "counterpart": "Goutham R",
-      "email": "gouthamr4567@gmail.com",
-      "received": "2026-08-24",
-      "last": "2026-08-24",
-      "status": "Awaiting reply (from them)",
-      "note": "OTP fails, tagged to support",
-      "daysOpen": 23,
-      "daysSinceReceived": 23,
-      "cc": [
-        "support@tinkerhub.org",
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
       "id": "support-51bd020885",
       "threadId": "1a033a51db9f94be",
       "group": "support",
@@ -2560,24 +2505,6 @@ window.DASHBOARD_DATA = {
       "daysOpen": 23,
       "daysSinceReceived": 23,
       "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-fb3566d206",
-      "threadId": "1a033c3d3b6522c6",
-      "group": "support",
-      "subject": "Report: Unable to sign in and \"failed to send OTP\" error during mobile verification",
-      "counterpart": "Shani Nair",
-      "email": "shaninair781@gmail.com",
-      "received": "2026-08-24",
-      "last": "2026-08-24",
-      "status": "Awaiting reply (from them)",
-      "note": "forwarded to support team",
-      "daysOpen": 23,
-      "daysSinceReceived": 23,
-      "cc": [
-        "report@tinkerhub.org",
         "support@tinkerhub.org"
       ]
     },
@@ -2596,26 +2523,6 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 22,
       "cc": [
         "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-8859da3162",
-      "threadId": "1a037a3e72a46ef9",
-      "group": "support",
-      "subject": "Cannot login to page",
-      "counterpart": "Gouri ES",
-      "email": "gourishaju07@gmail.com",
-      "received": "2026-08-25",
-      "last": "2026-08-25",
-      "status": "Awaiting reply (from us)",
-      "note": "network switch didn't fix OTP issue",
-      "daysOpen": 22,
-      "daysSinceReceived": 22,
-      "cc": [
-        "akhil@tinkerhub.org",
-        "kurian@tinkerhub.org",
-        "support@tinkerhub.org",
-        "report@tinkerhub.org"
       ]
     },
     {
@@ -2649,24 +2556,6 @@ window.DASHBOARD_DATA = {
       "daysOpen": 21,
       "daysSinceReceived": 21,
       "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-260b19eb06",
-      "threadId": "1a042cdc25fcb5c6",
-      "group": "support",
-      "subject": "OTP Not Being Sent When Trying to Log In",
-      "counterpart": "Athul Benedict",
-      "email": "athulbenedict123@gmail.com",
-      "received": "2026-08-27",
-      "last": "2026-08-28",
-      "status": "Awaiting reply (from them)",
-      "note": "forwarded to support, awaiting fix",
-      "daysOpen": 20,
-      "daysSinceReceived": 20,
-      "cc": [
-        "report@tinkerhub.org",
         "support@tinkerhub.org"
       ]
     },
@@ -2735,60 +2624,6 @@ window.DASHBOARD_DATA = {
       "daysOpen": 9,
       "daysSinceReceived": 9,
       "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-767af85ff1",
-      "threadId": "1a07f8adc7a282ef",
-      "group": "support",
-      "subject": "(no subject) – OTP request limit exceeded",
-      "counterpart": "Renil Augustine",
-      "email": "augustinerenil723@gmail.com",
-      "received": "2026-09-08",
-      "last": "2026-09-08",
-      "status": "Awaiting reply (from them)",
-      "note": "OTP limit exceeded, forwarded to support team",
-      "daysOpen": 8,
-      "daysSinceReceived": 8,
-      "cc": [
-        "report@tinkerhub.org",
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-41ce301bde",
-      "threadId": "1a07f972d58575c1",
-      "group": "support",
-      "subject": "OTP failing",
-      "counterpart": "Shaphen Binu Kuriakose",
-      "email": "shaphenbinukuriakose@gmail.com",
-      "received": "2026-09-08",
-      "last": "2026-09-09",
-      "status": "Awaiting reply (from them)",
-      "note": "OTP failure on login; tagged to support for handling",
-      "daysOpen": 8,
-      "daysSinceReceived": 8,
-      "cc": [
-        "report@tinkerhub.org",
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-76e8ed1974",
-      "threadId": "1a07f81e530dfb34",
-      "group": "support",
-      "subject": "Tinkerhub not sending OTP for login",
-      "counterpart": "Dev Anand VP",
-      "email": "blindinglucario@gmail.com",
-      "received": "2026-09-08",
-      "last": "2026-09-09",
-      "status": "Awaiting reply (from them)",
-      "note": "OTP not sending (too many requests); tagged to support for handling",
-      "daysOpen": 8,
-      "daysSinceReceived": 8,
-      "cc": [
-        "report@tinkerhub.org",
         "support@tinkerhub.org"
       ]
     },
@@ -2862,35 +2697,24 @@ window.DASHBOARD_DATA = {
     }
   ],
   "summary": {
+    "Awaiting reply (from us)": 21,
     "Resolved": 45,
+    "Awaiting reply (from them)": 48,
     "Informational": 23,
-    "Awaiting reply (from them)": 55,
-    "Awaiting reply (from us)": 23,
     "No response": 18
   },
   "analytics": {
     "campus": {
       "total": 114,
       "statusCounts": {
-        "Resolved": 40,
-        "Informational": 13,
-        "Awaiting reply (from them)": 41,
         "Awaiting reply (from us)": 18,
+        "Resolved": 40,
+        "Awaiting reply (from them)": 41,
+        "Informational": 13,
         "No response": 2
       },
       "avgOpenDays": 12.7,
       "avgResolvedDays": 1.4
-    },
-    "support": {
-      "total": 25,
-      "statusCounts": {
-        "No response": 14,
-        "Resolved": 1,
-        "Awaiting reply (from us)": 4,
-        "Awaiting reply (from them)": 6
-      },
-      "avgOpenDays": 16.5,
-      "avgResolvedDays": 2.0
     },
     "finance": {
       "total": 16,
@@ -2904,15 +2728,25 @@ window.DASHBOARD_DATA = {
       "avgResolvedDays": 1.0
     },
     "report": {
-      "total": 9,
+      "total": 8,
       "statusCounts": {
-        "Awaiting reply (from them)": 6,
+        "Resolved": 1,
+        "Awaiting reply (from them)": 5,
         "Awaiting reply (from us)": 1,
-        "No response": 1,
-        "Resolved": 1
+        "No response": 1
       },
-      "avgOpenDays": 14.4,
+      "avgOpenDays": 14.7,
       "avgResolvedDays": 15.0
+    },
+    "support": {
+      "total": 17,
+      "statusCounts": {
+        "Resolved": 1,
+        "No response": 14,
+        "Awaiting reply (from us)": 2
+      },
+      "avgOpenDays": 15.5,
+      "avgResolvedDays": 2.0
     }
   }
 };
