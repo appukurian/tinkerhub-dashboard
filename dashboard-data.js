@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-17T02:43:54Z",
+  "generatedAt": "2026-09-17T04:41:01Z",
   "threads": [
     {
       "id": "campus-2bfa647432",
@@ -2677,6 +2677,23 @@ window.DASHBOARD_DATA = {
       "cc": [
         "support@tinkerhub.org"
       ]
+    },
+    {
+      "id": "campus-089c0ce0ef",
+      "threadId": "1a0ad51fcfa6efaf",
+      "group": "campus",
+      "subject": "Useless projects 3.0 queries",
+      "counterpart": "Amal Sankar K R (TinkerHub SNMIMT)",
+      "email": "tinkerhub@snmimt.edu.in",
+      "received": "2026-09-17",
+      "last": "2026-09-17",
+      "status": "No response",
+      "note": "campus lead flagged OTP, submission and voting issues during their Useless Projects event; needs a reply",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     }
   ],
   "summary": {
@@ -2684,19 +2701,19 @@ window.DASHBOARD_DATA = {
     "Resolved": 45,
     "Awaiting reply (from them)": 47,
     "Informational": 23,
-    "No response": 18
+    "No response": 19
   },
   "analytics": {
     "campus": {
-      "total": 113,
+      "total": 114,
       "statuses": {
         "Awaiting reply (from us)": 18,
         "Resolved": 39,
         "Awaiting reply (from them)": 41,
         "Informational": 13,
-        "No response": 2
+        "No response": 3
       },
-      "avgOpenDays": 13.7,
+      "avgOpenDays": 13.5,
       "avgResolvedDays": 1.4
     },
     "finance": {
