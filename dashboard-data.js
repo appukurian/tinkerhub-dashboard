@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-17T06:38:00Z",
+  "generatedAt": "2026-09-17T08:41:46Z",
   "threads": [
     {
       "id": "campus-2bfa647432",
@@ -2741,47 +2741,47 @@ window.DASHBOARD_DATA = {
   "analytics": {
     "campus": {
       "total": 116,
-      "avgOpenDays": 13.2,
-      "avgResolvedDays": 1.4,
       "statuses": {
         "Awaiting reply (from us)": 18,
         "Resolved": 39,
         "Awaiting reply (from them)": 41,
         "Informational": 14,
         "No response": 4
-      }
+      },
+      "avgOpenDays": 13.2,
+      "avgResolvedDays": 1.4
     },
     "finance": {
       "total": 16,
-      "avgOpenDays": 13.0,
-      "avgResolvedDays": 4.2,
       "statuses": {
         "Resolved": 4,
         "Informational": 10,
         "Awaiting reply (from them)": 1,
         "No response": 1
-      }
+      },
+      "avgOpenDays": 13.0,
+      "avgResolvedDays": 4.2
     },
     "report": {
       "total": 8,
-      "avgOpenDays": 15.7,
-      "avgResolvedDays": 15.0,
       "statuses": {
         "Resolved": 1,
         "Awaiting reply (from them)": 5,
         "Awaiting reply (from us)": 1,
         "No response": 1
-      }
+      },
+      "avgOpenDays": 15.7,
+      "avgResolvedDays": 15.0
     },
     "support": {
       "total": 17,
-      "avgOpenDays": 16.5,
-      "avgResolvedDays": 2.0,
       "statuses": {
         "Resolved": 1,
         "No response": 14,
         "Awaiting reply (from us)": 2
-      }
+      },
+      "avgOpenDays": 16.5,
+      "avgResolvedDays": 2.0
     }
   }
 };
