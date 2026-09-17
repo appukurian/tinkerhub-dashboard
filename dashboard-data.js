@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-17T04:41:01Z",
+  "generatedAt": "2026-09-17T06:38:00Z",
   "threads": [
     {
       "id": "campus-2bfa647432",
@@ -2694,59 +2694,94 @@ window.DASHBOARD_DATA = {
       "cc": [
         "campus@tinkerhub.org"
       ]
+    },
+    {
+      "threadId": "1a0ade25de1d42cb",
+      "group": "campus",
+      "subject": "Request to Consider Team Overthink() for Evaluation",
+      "counterpart": "TinkerHub CEC",
+      "email": "tinkerhub@ceconline.edu",
+      "received": "2026-09-17",
+      "last": "2026-09-17",
+      "status": "No response",
+      "note": "asking if team Overthink() can still be evaluated despite a GitHub repo submission issue",
+      "cc": [
+        "campus@tinkerhub.org",
+        "femina@tinkerhub.org"
+      ],
+      "id": "campus-7b6b432292",
+      "daysSinceReceived": 0,
+      "daysOpen": 0
+    },
+    {
+      "threadId": "1a0add76318b945d",
+      "group": "campus",
+      "subject": "Report Useless Projects Tech Issues by Saturday 3 PM",
+      "counterpart": "internal (Femina)",
+      "email": null,
+      "received": "2026-09-17",
+      "last": "2026-09-17",
+      "status": "Informational",
+      "note": "tech-issues report form broadcast to campus leads - deadline Saturday 3pm",
+      "cc": [
+        "campus@tinkerhub.org"
+      ],
+      "id": "campus-91c802a2e8",
+      "daysSinceReceived": 0,
+      "daysOpen": 0
     }
   ],
   "summary": {
     "Awaiting reply (from us)": 21,
     "Resolved": 45,
     "Awaiting reply (from them)": 47,
-    "Informational": 23,
-    "No response": 19
+    "Informational": 24,
+    "No response": 20
   },
   "analytics": {
     "campus": {
-      "total": 114,
+      "total": 116,
+      "avgOpenDays": 13.2,
+      "avgResolvedDays": 1.4,
       "statuses": {
         "Awaiting reply (from us)": 18,
         "Resolved": 39,
         "Awaiting reply (from them)": 41,
-        "Informational": 13,
-        "No response": 3
-      },
-      "avgOpenDays": 13.5,
-      "avgResolvedDays": 1.4
+        "Informational": 14,
+        "No response": 4
+      }
     },
     "finance": {
       "total": 16,
+      "avgOpenDays": 13.0,
+      "avgResolvedDays": 4.2,
       "statuses": {
         "Resolved": 4,
         "Informational": 10,
         "Awaiting reply (from them)": 1,
         "No response": 1
-      },
-      "avgOpenDays": 13.0,
-      "avgResolvedDays": 4.2
+      }
     },
     "report": {
       "total": 8,
+      "avgOpenDays": 15.7,
+      "avgResolvedDays": 15.0,
       "statuses": {
         "Resolved": 1,
         "Awaiting reply (from them)": 5,
         "Awaiting reply (from us)": 1,
         "No response": 1
-      },
-      "avgOpenDays": 15.7,
-      "avgResolvedDays": 15.0
+      }
     },
     "support": {
       "total": 17,
+      "avgOpenDays": 16.5,
+      "avgResolvedDays": 2.0,
       "statuses": {
         "Resolved": 1,
         "No response": 14,
         "Awaiting reply (from us)": 2
-      },
-      "avgOpenDays": 16.5,
-      "avgResolvedDays": 2.0
+      }
     }
   }
 };
