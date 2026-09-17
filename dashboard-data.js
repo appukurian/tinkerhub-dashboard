@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
- "generatedAt": "2026-09-17T12:45:05Z",
+ "generatedAt": "2026-09-17T14:52:00Z",
  "threads": [
   {
    "id": "campus-2bfa647432",
@@ -2691,26 +2691,75 @@ window.DASHBOARD_DATA = {
     "report@tinkerhub.org",
     "support@tinkerhub.org"
    ]
+  },
+  {
+   "id": "campus-5c6008afb3",
+   "threadId": "1a0142a6576682b9",
+   "group": "campus",
+   "subject": "Invitation: Campus visit - Providence chengannur @ Thu Aug 20, 2026 9am - 6pm (IST) (Kurian Jacob)",
+   "counterpart": "internal (Habeeb)",
+   "email": null,
+   "received": "2026-08-18",
+   "last": "2026-08-18",
+   "status": "Informational",
+   "note": "calendar invite",
+   "daysOpen": 0,
+   "daysSinceReceived": 30,
+   "cc": [
+    "campus@tinkerhub.org",
+    "kurian@tinkerhub.org",
+    "femina@tinkerhub.org",
+    "arundhathi@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "campus-e340f92f6e",
+   "threadId": "19ffeaf2fba184ff",
+   "group": "campus",
+   "subject": "Invitation to Join “YUM YUM” – Chaya & Puffs",
+   "counterpart": "TinkerHub PRC (Providence College of Engineering)",
+   "email": "tinker.hub@providence.edu.in",
+   "received": "2026-08-14",
+   "last": "2026-08-18",
+   "status": "Resolved",
+   "note": "confirmed team visit (Femina, Arundhathi, Habeeb) for YUM YUM event Aug 20 - session timing shared",
+   "daysOpen": 4,
+   "daysSinceReceived": 34,
+   "cc": [
+    "campus@tinkerhub.org"
+   ]
   }
  ],
  "summary": {
   "No response": 20,
   "Awaiting reply (from us)": 21,
   "Awaiting reply (from them)": 47,
-  "Resolved": 44,
-  "Informational": 23
+  "Resolved": 45,
+  "Informational": 24
  },
  "analytics": {
   "campus": {
-   "total": 114,
+   "total": 116,
    "avgOpenDays": 13.2,
    "avgResolvedDays": 1.4,
    "statuses": {
     "No response": 4,
     "Awaiting reply (from us)": 18,
     "Awaiting reply (from them)": 41,
-    "Resolved": 38,
-    "Informational": 13
+    "Resolved": 39,
+    "Informational": 14
+   }
+  },
+  "support": {
+   "total": 17,
+   "avgOpenDays": 16.5,
+   "avgResolvedDays": 2.0,
+   "statuses": {
+    "No response": 14,
+    "Awaiting reply (from us)": 2,
+    "Awaiting reply (from them)": 0,
+    "Resolved": 1,
+    "Informational": 0
    }
   },
   "finance": {
@@ -2733,18 +2782,6 @@ window.DASHBOARD_DATA = {
     "No response": 1,
     "Awaiting reply (from us)": 1,
     "Awaiting reply (from them)": 5,
-    "Resolved": 1,
-    "Informational": 0
-   }
-  },
-  "support": {
-   "total": 17,
-   "avgOpenDays": 16.5,
-   "avgResolvedDays": 2.0,
-   "statuses": {
-    "No response": 14,
-    "Awaiting reply (from us)": 2,
-    "Awaiting reply (from them)": 0,
     "Resolved": 1,
     "Informational": 0
    }
