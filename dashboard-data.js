@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
- "generatedAt": "2026-09-18T04:41:11Z",
+ "generatedAt": "2026-09-18T06:41:00Z",
  "threads": [
   {
    "id": "campus-2bfa647432",
@@ -23,7 +23,7 @@ window.DASHBOARD_DATA = {
    "id": "campus-4a09f3376a",
    "threadId": "19fe126b92e57e89",
    "group": "campus",
-   "subject": "Re: Invitation to TinkerOnam 2026 \u2013 August 22",
+   "subject": "Re: Invitation to TinkerOnam 2026 – August 22",
    "counterpart": "Ananya Anand",
    "email": "ananyaanandmenoth@gmail.com",
    "received": "2026-08-08",
@@ -95,23 +95,20 @@ window.DASHBOARD_DATA = {
    ]
   },
   {
-   "id": "campus-e05713caa3",
-   "threadId": "1a023f757aff137c",
+   "id": "campus-2f2de79537",
+   "threadId": "1a0252c0a174b0fc",
    "group": "campus",
-   "subject": "Invitation: Leads meet about ULP @ Fri Aug 28, 2026 7pm - 8pm (IST) (Kurian Jacob)",
-   "counterpart": "internal (Habeeb)",
-   "email": null,
+   "subject": "Useless Projects Permission Issue",
+   "counterpart": "TinkerHub Unity Women's College (Afrah)",
+   "email": "tinkerhub@unitywomenscollege.ac.in",
    "received": "2026-08-21",
-   "last": "2026-08-21",
-   "status": "Informational",
-   "note": "calendar invite",
-   "daysOpen": 0,
+   "last": "2026-08-23",
+   "status": "Awaiting reply (from them)",
+   "note": "offered Sept 12/13 daytime slots",
+   "daysOpen": 28,
    "daysSinceReceived": 28,
    "cc": [
-    "campus@tinkerhub.org",
-    "kurian@tinkerhub.org",
-    "femina@tinkerhub.org",
-    "arundhathi@tinkerhub.org"
+    "campus@tinkerhub.org"
    ]
   },
   {
@@ -149,18 +146,38 @@ window.DASHBOARD_DATA = {
    ]
   },
   {
-   "id": "campus-2f2de79537",
-   "threadId": "1a0252c0a174b0fc",
+   "id": "campus-e05713caa3",
+   "threadId": "1a023f757aff137c",
    "group": "campus",
-   "subject": "Useless Projects Permission Issue",
-   "counterpart": "TinkerHub Unity Women's College (Afrah)",
-   "email": "tinkerhub@unitywomenscollege.ac.in",
+   "subject": "Invitation: Leads meet about ULP @ Fri Aug 28, 2026 7pm - 8pm (IST) (Kurian Jacob)",
+   "counterpart": "internal (Habeeb)",
+   "email": null,
    "received": "2026-08-21",
-   "last": "2026-08-23",
-   "status": "Awaiting reply (from them)",
-   "note": "offered Sept 12/13 daytime slots",
-   "daysOpen": 28,
+   "last": "2026-08-21",
+   "status": "Informational",
+   "note": "calendar invite",
+   "daysOpen": 0,
    "daysSinceReceived": 28,
+   "cc": [
+    "campus@tinkerhub.org",
+    "kurian@tinkerhub.org",
+    "femina@tinkerhub.org",
+    "arundhathi@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "campus-81633a0246",
+   "threadId": "1a02a5b5b9643f07",
+   "group": "campus",
+   "subject": "Spreadsheet shared with you: \"todos\"",
+   "counterpart": "internal (Habeeb)",
+   "email": null,
+   "received": "2026-08-22",
+   "last": "2026-08-22",
+   "status": "Informational",
+   "note": "spreadsheet share",
+   "daysOpen": 0,
+   "daysSinceReceived": 27,
    "cc": [
     "campus@tinkerhub.org"
    ]
@@ -177,23 +194,6 @@ window.DASHBOARD_DATA = {
    "status": "Resolved",
    "note": "stepping down acknowledged",
    "daysOpen": 1,
-   "daysSinceReceived": 27,
-   "cc": [
-    "campus@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "campus-81633a0246",
-   "threadId": "1a02a5b5b9643f07",
-   "group": "campus",
-   "subject": "Spreadsheet shared with you: \"todos\"",
-   "counterpart": "internal (Habeeb)",
-   "email": null,
-   "received": "2026-08-22",
-   "last": "2026-08-22",
-   "status": "Informational",
-   "note": "spreadsheet share",
-   "daysOpen": 0,
    "daysSinceReceived": 27,
    "cc": [
     "campus@tinkerhub.org"
@@ -235,23 +235,6 @@ window.DASHBOARD_DATA = {
    ]
   },
   {
-   "id": "campus-ee87746e44",
-   "threadId": "1a0342b5cd9cfcc2",
-   "group": "campus",
-   "subject": "Re: Request to Reschedule Useless Project from September 5\u20136 to September 11\u201312",
-   "counterpart": "Farsana (TinkerHub)",
-   "email": "fathimathulfarsaana@gmail.com",
-   "received": "2026-08-24",
-   "last": "2026-08-24",
-   "status": "Awaiting reply (from them)",
-   "note": "confirming overnight slot Sept 11-12",
-   "daysOpen": 25,
-   "daysSinceReceived": 25,
-   "cc": [
-    "campus@tinkerhub.org"
-   ]
-  },
-  {
    "id": "campus-ce9a96efba",
    "threadId": "1a03412ad886bc42",
    "group": "campus",
@@ -262,6 +245,23 @@ window.DASHBOARD_DATA = {
    "last": "2026-08-24",
    "status": "Awaiting reply (from them)",
    "note": "encouraged to proceed, next steps shared",
+   "daysOpen": 25,
+   "daysSinceReceived": 25,
+   "cc": [
+    "campus@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "campus-ee87746e44",
+   "threadId": "1a0342b5cd9cfcc2",
+   "group": "campus",
+   "subject": "Re: Request to Reschedule Useless Project from September 5–6 to September 11–12",
+   "counterpart": "Farsana (TinkerHub)",
+   "email": "fathimathulfarsaana@gmail.com",
+   "received": "2026-08-24",
+   "last": "2026-08-24",
+   "status": "Awaiting reply (from them)",
+   "note": "confirming overnight slot Sept 11-12",
    "daysOpen": 25,
    "daysSinceReceived": 25,
    "cc": [
@@ -303,26 +303,6 @@ window.DASHBOARD_DATA = {
    ]
   },
   {
-   "id": "campus-94026afb5a",
-   "threadId": "1a041e17361e004f",
-   "group": "campus",
-   "subject": "Re: Partnership Opportunity | Useless Projects \u00d7 Innovation Incubator Advisory",
-   "counterpart": "Fannie Nesa (iiNerds)",
-   "email": "fannie.na@iinerds.com",
-   "received": "2026-08-27",
-   "last": "2026-08-28",
-   "status": "Awaiting reply (from them)",
-   "note": "looped in campus lead for follow-up",
-   "daysOpen": 22,
-   "daysSinceReceived": 22,
-   "cc": [
-    "campus@tinkerhub.org",
-    "mehar@tinkerhub.org",
-    "kurian@tinkerhub.org",
-    "arundhathi@tinkerhub.org"
-   ]
-  },
-  {
    "id": "campus-631c793db4",
    "threadId": "1a0444cab561f080",
    "group": "campus",
@@ -340,6 +320,26 @@ window.DASHBOARD_DATA = {
    ]
   },
   {
+   "id": "campus-94026afb5a",
+   "threadId": "1a041e17361e004f",
+   "group": "campus",
+   "subject": "Re: Partnership Opportunity | Useless Projects × Innovation Incubator Advisory",
+   "counterpart": "Fannie Nesa (iiNerds)",
+   "email": "fannie.na@iinerds.com",
+   "received": "2026-08-27",
+   "last": "2026-08-28",
+   "status": "Awaiting reply (from them)",
+   "note": "looped in campus lead for follow-up",
+   "daysOpen": 22,
+   "daysSinceReceived": 22,
+   "cc": [
+    "campus@tinkerhub.org",
+    "mehar@tinkerhub.org",
+    "kurian@tinkerhub.org",
+    "arundhathi@tinkerhub.org"
+   ]
+  },
+  {
    "id": "campus-66b4aebe0b",
    "threadId": "1a0474a6a62ca7b5",
    "group": "campus",
@@ -354,26 +354,6 @@ window.DASHBOARD_DATA = {
    "daysSinceReceived": 21,
    "cc": [
     "campus@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "campus-7a1a41629f",
-   "threadId": "1a04e78ccaed1738",
-   "group": "campus",
-   "subject": "Invitation: Leads meet - useless projects @ Mon Aug 31, 2026 8pm - 9pm (IST) (Kurian Jacob)",
-   "counterpart": "internal (Habeeb)",
-   "email": null,
-   "received": "2026-08-29",
-   "last": "2026-08-29",
-   "status": "Informational",
-   "note": "calendar invite",
-   "daysOpen": 0,
-   "daysSinceReceived": 20,
-   "cc": [
-    "campus@tinkerhub.org",
-    "kurian@tinkerhub.org",
-    "femina@tinkerhub.org",
-    "arundhathi@tinkerhub.org"
    ]
   },
   {
@@ -397,40 +377,23 @@ window.DASHBOARD_DATA = {
    ]
   },
   {
-   "id": "campus-ffec0cf114",
-   "threadId": "1a051c89f70f5d8d",
+   "id": "campus-7a1a41629f",
+   "threadId": "1a04e78ccaed1738",
    "group": "campus",
-   "subject": "Invitation: Dry run -ulp @ Tue Sep 1, 2026 10:30am - 11:30am (IST) (Kurian Jacob)",
+   "subject": "Invitation: Leads meet - useless projects @ Mon Aug 31, 2026 8pm - 9pm (IST) (Kurian Jacob)",
    "counterpart": "internal (Habeeb)",
    "email": null,
-   "received": "2026-08-30",
-   "last": "2026-08-30",
+   "received": "2026-08-29",
+   "last": "2026-08-29",
    "status": "Informational",
    "note": "calendar invite",
    "daysOpen": 0,
-   "daysSinceReceived": 19,
+   "daysSinceReceived": 20,
    "cc": [
     "campus@tinkerhub.org",
     "kurian@tinkerhub.org",
     "femina@tinkerhub.org",
     "arundhathi@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "campus-4d173f8d45",
-   "threadId": "1a0534e73fcfb4a0",
-   "group": "campus",
-   "subject": "Leads meet - useless projects on August 30, 2026 | Read Meeting Report",
-   "counterpart": "Meeting notes bot (automated)",
-   "email": null,
-   "received": "2026-08-30",
-   "last": "2026-08-31",
-   "status": "Informational",
-   "note": "auto meeting-report notification",
-   "daysOpen": 1,
-   "daysSinceReceived": 19,
-   "cc": [
-    "campus@tinkerhub.org"
    ]
   },
   {
@@ -448,59 +411,6 @@ window.DASHBOARD_DATA = {
    "daysSinceReceived": 19,
    "cc": [
     "campus@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "campus-6b1a636d0c",
-   "threadId": "1a0534c449dc69b5",
-   "group": "campus",
-   "subject": "Request for Foundation\u2013College Communication",
-   "counterpart": "Meenakshy MS",
-   "email": "me24kshy@gmail.com",
-   "received": "2026-08-30",
-   "last": "2026-09-01",
-   "status": "Awaiting reply (from them)",
-   "note": "we owe them - contact college principal",
-   "daysOpen": 19,
-   "daysSinceReceived": 19,
-   "cc": [
-    "campus@tinkerhub.org",
-    "femina@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "campus-32d7ec956b",
-   "threadId": "1a053623e56c89eb",
-   "group": "campus",
-   "subject": "Request to Edit Event Slot \u2013 Useless Projects 3.0",
-   "counterpart": "Rezin",
-   "email": "rezinch@gmail.com",
-   "received": "2026-08-30",
-   "last": "2026-09-01",
-   "status": "Awaiting reply (from them)",
-   "note": "we owe them slot update",
-   "daysOpen": 19,
-   "daysSinceReceived": 19,
-   "cc": [
-    "campus@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "campus-6cf93f164b",
-   "threadId": "1a05323f780838ae",
-   "group": "campus",
-   "subject": "Shitty First Drafts: What is one thing you really want to do but keep putting off?",
-   "counterpart": "Abhirag R Nair",
-   "email": "abhiragrnair2006@gmail.com",
-   "received": "2026-08-30",
-   "last": "2026-09-08",
-   "status": "Awaiting reply (from us)",
-   "note": "students replying to prompt, no ack sent (latest: Janavi)",
-   "daysOpen": 19,
-   "daysSinceReceived": 19,
-   "cc": [
-    "campus@tinkerhub.org",
-    "femina@tinkerhub.org"
    ]
   },
   {
@@ -522,6 +432,96 @@ window.DASHBOARD_DATA = {
    ]
   },
   {
+   "id": "campus-32d7ec956b",
+   "threadId": "1a053623e56c89eb",
+   "group": "campus",
+   "subject": "Request to Edit Event Slot – Useless Projects 3.0",
+   "counterpart": "Rezin",
+   "email": "rezinch@gmail.com",
+   "received": "2026-08-30",
+   "last": "2026-09-01",
+   "status": "Awaiting reply (from them)",
+   "note": "we owe them slot update",
+   "daysOpen": 19,
+   "daysSinceReceived": 19,
+   "cc": [
+    "campus@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "campus-4d173f8d45",
+   "threadId": "1a0534e73fcfb4a0",
+   "group": "campus",
+   "subject": "Leads meet - useless projects on August 30, 2026 | Read Meeting Report",
+   "counterpart": "Meeting notes bot (automated)",
+   "email": null,
+   "received": "2026-08-30",
+   "last": "2026-08-31",
+   "status": "Informational",
+   "note": "auto meeting-report notification",
+   "daysOpen": 1,
+   "daysSinceReceived": 19,
+   "cc": [
+    "campus@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "campus-6b1a636d0c",
+   "threadId": "1a0534c449dc69b5",
+   "group": "campus",
+   "subject": "Request for Foundation–College Communication",
+   "counterpart": "Meenakshy MS",
+   "email": "me24kshy@gmail.com",
+   "received": "2026-08-30",
+   "last": "2026-09-01",
+   "status": "Awaiting reply (from them)",
+   "note": "we owe them - contact college principal",
+   "daysOpen": 19,
+   "daysSinceReceived": 19,
+   "cc": [
+    "campus@tinkerhub.org",
+    "femina@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "campus-6cf93f164b",
+   "threadId": "1a05323f780838ae",
+   "group": "campus",
+   "subject": "Shitty First Drafts: What is one thing you really want to do but keep putting off?",
+   "counterpart": "Abhirag R Nair",
+   "email": "abhiragrnair2006@gmail.com",
+   "received": "2026-08-30",
+   "last": "2026-09-08",
+   "status": "Awaiting reply (from us)",
+   "note": "students replying to prompt, no ack sent (latest: Janavi)",
+   "daysOpen": 19,
+   "daysSinceReceived": 19,
+   "cc": [
+    "campus@tinkerhub.org",
+    "femina@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "campus-ffec0cf114",
+   "threadId": "1a051c89f70f5d8d",
+   "group": "campus",
+   "subject": "Invitation: Dry run -ulp @ Tue Sep 1, 2026 10:30am - 11:30am (IST) (Kurian Jacob)",
+   "counterpart": "internal (Habeeb)",
+   "email": null,
+   "received": "2026-08-30",
+   "last": "2026-08-30",
+   "status": "Informational",
+   "note": "calendar invite",
+   "daysOpen": 0,
+   "daysSinceReceived": 19,
+   "cc": [
+    "campus@tinkerhub.org",
+    "kurian@tinkerhub.org",
+    "femina@tinkerhub.org",
+    "arundhathi@tinkerhub.org"
+   ]
+  },
+  {
    "id": "campus-1e0adcb16e",
    "threadId": "1a056990540bd189",
    "group": "campus",
@@ -536,25 +536,6 @@ window.DASHBOARD_DATA = {
    "daysSinceReceived": 18,
    "cc": [
     "campus@tinkerhub.org",
-    "femina@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "campus-6b6e1fda90",
-   "threadId": "1a058202c16b8fd9",
-   "group": "campus",
-   "subject": "Regarding Permission for Useless Projects \u2013 September 18 & 19",
-   "counterpart": "Meenakshy MS",
-   "email": "me24kshy@gmail.com",
-   "received": "2026-08-31",
-   "last": "2026-09-01",
-   "status": "Awaiting reply (from them)",
-   "note": "proposed alternative dates",
-   "daysOpen": 18,
-   "daysSinceReceived": 18,
-   "cc": [
-    "campus@tinkerhub.org",
-    "council@tinkerhub.org",
     "femina@tinkerhub.org"
    ]
   },
@@ -576,6 +557,25 @@ window.DASHBOARD_DATA = {
    ]
   },
   {
+   "id": "campus-6b6e1fda90",
+   "threadId": "1a058202c16b8fd9",
+   "group": "campus",
+   "subject": "Regarding Permission for Useless Projects – September 18 & 19",
+   "counterpart": "Meenakshy MS",
+   "email": "me24kshy@gmail.com",
+   "received": "2026-08-31",
+   "last": "2026-09-01",
+   "status": "Awaiting reply (from them)",
+   "note": "proposed alternative dates",
+   "daysOpen": 18,
+   "daysSinceReceived": 18,
+   "cc": [
+    "campus@tinkerhub.org",
+    "council@tinkerhub.org",
+    "femina@tinkerhub.org"
+   ]
+  },
+  {
    "id": "campus-f387814e49",
    "threadId": "1a057272b0a7fd3a",
    "group": "campus",
@@ -593,23 +593,6 @@ window.DASHBOARD_DATA = {
    ]
   },
   {
-   "id": "campus-5da0c294b6",
-   "threadId": "1a05d0bc5d24e14f",
-   "group": "campus",
-   "subject": "Clarification Regarding Useless Projects Slot Dates",
-   "counterpart": "Jasim Nazar",
-   "email": "jasimmarrangattu@gmail.com",
-   "received": "2026-09-01",
-   "last": "2026-09-02",
-   "status": "Awaiting reply (from them)",
-   "note": "we owe them updated slot",
-   "daysOpen": 17,
-   "daysSinceReceived": 17,
-   "cc": [
-    "campus@tinkerhub.org"
-   ]
-  },
-  {
    "id": "campus-2b9c1b96eb",
    "threadId": "1a05bdc3142cab3c",
    "group": "campus",
@@ -621,6 +604,23 @@ window.DASHBOARD_DATA = {
    "status": "Resolved",
    "note": "orientation went well; campus visit planned",
    "daysOpen": 0,
+   "daysSinceReceived": 17,
+   "cc": [
+    "campus@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "campus-5da0c294b6",
+   "threadId": "1a05d0bc5d24e14f",
+   "group": "campus",
+   "subject": "Clarification Regarding Useless Projects Slot Dates",
+   "counterpart": "Jasim Nazar",
+   "email": "jasimmarrangattu@gmail.com",
+   "received": "2026-09-01",
+   "last": "2026-09-02",
+   "status": "Awaiting reply (from them)",
+   "note": "we owe them updated slot",
+   "daysOpen": 17,
    "daysSinceReceived": 17,
    "cc": [
     "campus@tinkerhub.org"
@@ -647,7 +647,7 @@ window.DASHBOARD_DATA = {
    "id": "campus-e09885798c",
    "threadId": "1a05daea95e056a0",
    "group": "campus",
-   "subject": "Request to Reschedule Useless Project \u2013 5\u20136 September to 4\u20135 September",
+   "subject": "Request to Reschedule Useless Project – 5–6 September to 4–5 September",
    "counterpart": "Vibin VM",
    "email": "vibinvm90@gmail.com",
    "received": "2026-09-01",
@@ -661,69 +661,16 @@ window.DASHBOARD_DATA = {
    ]
   },
   {
-   "id": "campus-349256eb38",
-   "threadId": "1a0631e9eab54565",
+   "id": "campus-00a0ca9529",
+   "threadId": "1a062ccf74b0d71f",
    "group": "campus",
-   "subject": "Re:",
-   "counterpart": "Meenakshy MS",
-   "email": "me24kshy@gmail.com",
+   "subject": "Request to increase Hackathon Seat Count and reopen Registration",
+   "counterpart": "Farsana (TinkerHub)",
+   "email": "fathimathulfarsaana@gmail.com",
    "received": "2026-09-02",
-   "last": "2026-09-03",
+   "last": "2026-09-06",
    "status": "Awaiting reply (from them)",
-   "note": "asked her to fill RSVP form",
-   "daysOpen": 16,
-   "daysSinceReceived": 16,
-   "cc": [
-    "campus@tinkerhub.org",
-    "habeeb@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "campus-4d66e9b26f",
-   "threadId": "1a060b3ca08a03db",
-   "group": "campus",
-   "subject": "Re: Request for Extension of Useless Project Registration Deadline",
-   "counterpart": "Dhanvin Krishna",
-   "email": "dhanvinkrishna2007@gmail.com",
-   "received": "2026-09-02",
-   "last": "2026-09-02",
-   "status": "Awaiting reply (from them)",
-   "note": "we owe them deadline update",
-   "daysOpen": 16,
-   "daysSinceReceived": 16,
-   "cc": [
-    "campus@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "campus-258171bd51",
-   "threadId": "1a060b238827bdc9",
-   "group": "campus",
-   "subject": "Re: Request to Extend Registration Deadline \u2013 Useless Projects 3.0",
-   "counterpart": "Anjali Pillai",
-   "email": "anjalispillai321@gmail.com",
-   "received": "2026-09-02",
-   "last": "2026-09-02",
-   "status": "Resolved",
-   "note": "deadline extended, thanked",
-   "daysOpen": 0,
-   "daysSinceReceived": 16,
-   "cc": [
-    "campus@tinkerhub.org",
-    "femina@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "campus-d3953b3666",
-   "threadId": "1a0612c097c5bc83",
-   "group": "campus",
-   "subject": "Request for Useless Projects Slot Change CET",
-   "counterpart": "Niyas S Makkiyil",
-   "email": "niyasmkyl@gmail.com",
-   "received": "2026-09-02",
-   "last": "2026-09-02",
-   "status": "Awaiting reply (from them)",
-   "note": "we owe them updated slot",
+   "note": "seat count increase (50→70) + reopen registration pending",
    "daysOpen": 16,
    "daysSinceReceived": 16,
    "cc": [
@@ -765,16 +712,69 @@ window.DASHBOARD_DATA = {
    ]
   },
   {
-   "id": "campus-00a0ca9529",
-   "threadId": "1a062ccf74b0d71f",
+   "id": "campus-258171bd51",
+   "threadId": "1a060b238827bdc9",
    "group": "campus",
-   "subject": "Request to increase Hackathon Seat Count and reopen Registration",
-   "counterpart": "Farsana (TinkerHub)",
-   "email": "fathimathulfarsaana@gmail.com",
+   "subject": "Re: Request to Extend Registration Deadline – Useless Projects 3.0",
+   "counterpart": "Anjali Pillai",
+   "email": "anjalispillai321@gmail.com",
    "received": "2026-09-02",
-   "last": "2026-09-06",
+   "last": "2026-09-02",
+   "status": "Resolved",
+   "note": "deadline extended, thanked",
+   "daysOpen": 0,
+   "daysSinceReceived": 16,
+   "cc": [
+    "campus@tinkerhub.org",
+    "femina@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "campus-349256eb38",
+   "threadId": "1a0631e9eab54565",
+   "group": "campus",
+   "subject": "Re:",
+   "counterpart": "Meenakshy MS",
+   "email": "me24kshy@gmail.com",
+   "received": "2026-09-02",
+   "last": "2026-09-03",
    "status": "Awaiting reply (from them)",
-   "note": "seat count increase (50\u219270) + reopen registration pending",
+   "note": "asked her to fill RSVP form",
+   "daysOpen": 16,
+   "daysSinceReceived": 16,
+   "cc": [
+    "campus@tinkerhub.org",
+    "habeeb@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "campus-4d66e9b26f",
+   "threadId": "1a060b3ca08a03db",
+   "group": "campus",
+   "subject": "Re: Request for Extension of Useless Project Registration Deadline",
+   "counterpart": "Dhanvin Krishna",
+   "email": "dhanvinkrishna2007@gmail.com",
+   "received": "2026-09-02",
+   "last": "2026-09-02",
+   "status": "Awaiting reply (from them)",
+   "note": "we owe them deadline update",
+   "daysOpen": 16,
+   "daysSinceReceived": 16,
+   "cc": [
+    "campus@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "campus-d3953b3666",
+   "threadId": "1a0612c097c5bc83",
+   "group": "campus",
+   "subject": "Request for Useless Projects Slot Change CET",
+   "counterpart": "Niyas S Makkiyil",
+   "email": "niyasmkyl@gmail.com",
+   "received": "2026-09-02",
+   "last": "2026-09-02",
+   "status": "Awaiting reply (from them)",
+   "note": "we owe them updated slot",
    "daysOpen": 16,
    "daysSinceReceived": 16,
    "cc": [
@@ -819,7 +819,7 @@ window.DASHBOARD_DATA = {
    "id": "campus-cc8be4d752",
    "threadId": "1a0684a762010b6a",
    "group": "campus",
-   "subject": "Re: Follow-up: Capacity Increase & Application Deadline \u2013 Useless Projects 3.0",
+   "subject": "Re: Follow-up: Capacity Increase & Application Deadline – Useless Projects 3.0",
    "counterpart": "Elizabeth Bobby",
    "email": "elizabethbobby169@gmail.com",
    "received": "2026-09-03",
@@ -830,6 +830,41 @@ window.DASHBOARD_DATA = {
    "daysSinceReceived": 15,
    "cc": [
     "campus@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "campus-2f6679c6ea",
+   "threadId": "1a06add25ec0d27e",
+   "group": "campus",
+   "subject": "Request to increase seat count",
+   "counterpart": "Farsana (TinkerHub)",
+   "email": "fathimathulfarsaana@gmail.com",
+   "received": "2026-09-04",
+   "last": "2026-09-05",
+   "status": "Awaiting reply (from them)",
+   "note": "seat increase (70→100) pending",
+   "daysOpen": 14,
+   "daysSinceReceived": 14,
+   "cc": [
+    "campus@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "campus-7a4a107b80",
+   "threadId": "1a06c07fffe07b51",
+   "group": "campus",
+   "subject": "Update on Participant Capacity – Useless Projects 3.0",
+   "counterpart": "Raj Soni (PRC)",
+   "email": "raj310994@gmail.com",
+   "received": "2026-09-04",
+   "last": "2026-09-06",
+   "status": "Resolved",
+   "note": "capacity revised, thanked",
+   "daysOpen": 2,
+   "daysSinceReceived": 14,
+   "cc": [
+    "campus@tinkerhub.org",
+    "femina@tinkerhub.org"
    ]
   },
   {
@@ -852,27 +887,10 @@ window.DASHBOARD_DATA = {
    ]
   },
   {
-   "id": "campus-db12ea468f",
-   "threadId": "1a06ae13f0b153c5",
-   "group": "campus",
-   "subject": "Request for change of number of seats for Useless Projects",
-   "counterpart": "Midhun Raaj (CUSAT)",
-   "email": "midhunraaj9b@gmail.com",
-   "received": "2026-09-04",
-   "last": "2026-09-05",
-   "status": "Awaiting reply (from them)",
-   "note": "seat count change pending (120\u219260)",
-   "daysOpen": 14,
-   "daysSinceReceived": 14,
-   "cc": [
-    "campus@tinkerhub.org"
-   ]
-  },
-  {
    "id": "campus-d61b0346ae",
    "threadId": "1a06c2bd47f6baf1",
    "group": "campus",
-   "subject": "Request to Increase Seat Count & Clarification on Participant Approval \u2013 Useless Project 3.0",
+   "subject": "Request to Increase Seat Count & Clarification on Participant Approval – Useless Project 3.0",
    "counterpart": "Lekshmy S",
    "email": "lekshmys33@gmail.com",
    "received": "2026-09-04",
@@ -886,16 +904,16 @@ window.DASHBOARD_DATA = {
    ]
   },
   {
-   "id": "campus-2f6679c6ea",
-   "threadId": "1a06add25ec0d27e",
+   "id": "campus-db12ea468f",
+   "threadId": "1a06ae13f0b153c5",
    "group": "campus",
-   "subject": "Request to increase seat count",
-   "counterpart": "Farsana (TinkerHub)",
-   "email": "fathimathulfarsaana@gmail.com",
+   "subject": "Request for change of number of seats for Useless Projects",
+   "counterpart": "Midhun Raaj (CUSAT)",
+   "email": "midhunraaj9b@gmail.com",
    "received": "2026-09-04",
    "last": "2026-09-05",
    "status": "Awaiting reply (from them)",
-   "note": "seat increase (70\u2192100) pending",
+   "note": "seat count change pending (120→60)",
    "daysOpen": 14,
    "daysSinceReceived": 14,
    "cc": [
@@ -920,21 +938,54 @@ window.DASHBOARD_DATA = {
    ]
   },
   {
-   "id": "campus-7a4a107b80",
-   "threadId": "1a06c07fffe07b51",
+   "id": "campus-0342e5e215",
+   "threadId": "1a072a0160e7dbdc",
    "group": "campus",
-   "subject": "Update on Participant Capacity \u2013 Useless Projects 3.0",
-   "counterpart": "Raj Soni (PRC)",
-   "email": "raj310994@gmail.com",
-   "received": "2026-09-04",
+   "subject": "Request to Update Useless Project 3.0 Event Date",
+   "counterpart": "Rose (CE Poonjar)",
+   "email": "rosecep24@gmail.com",
+   "received": "2026-09-05",
    "last": "2026-09-06",
-   "status": "Resolved",
-   "note": "capacity revised, thanked",
-   "daysOpen": 2,
-   "daysSinceReceived": 14,
+   "status": "Awaiting reply (from them)",
+   "note": "we owe them updated slot (11 Sep 5pm–12 Sep 11am)",
+   "daysOpen": 13,
+   "daysSinceReceived": 13,
    "cc": [
-    "campus@tinkerhub.org",
-    "femina@tinkerhub.org"
+    "campus@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "campus-24868031a3",
+   "threadId": "1a07175f158e1e83",
+   "group": "campus",
+   "subject": "Request to Increase Seat Capacity for Useless Projects – JCET",
+   "counterpart": "Shaamila Shahul (JCET)",
+   "email": "shaamilaashahul@gmail.com",
+   "received": "2026-09-05",
+   "last": "2026-09-06",
+   "status": "Awaiting reply (from them)",
+   "note": "seat capacity increase (60→70) pending",
+   "daysOpen": 13,
+   "daysSinceReceived": 13,
+   "cc": [
+    "campus@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "campus-6eaf750213",
+   "threadId": "1a07306dcf490485",
+   "group": "campus",
+   "subject": "Clarification Regarding Useless Project 3.0 – College of Engineering, Poonjar",
+   "counterpart": "Rosemary Rejimon (College of Engineering Poonjar)",
+   "email": "rosemary@cep.ac.in",
+   "received": "2026-09-05",
+   "last": "2026-09-08",
+   "status": "Awaiting reply (from them)",
+   "note": "sent detailed guidance on free, no-fee policy; offered to speak with Principal if needed",
+   "daysOpen": 13,
+   "daysSinceReceived": 13,
+   "cc": [
+    "campus@tinkerhub.org"
    ]
   },
   {
@@ -949,57 +1000,6 @@ window.DASHBOARD_DATA = {
    "status": "Resolved",
    "note": "slot time corrected as requested",
    "daysOpen": 1,
-   "daysSinceReceived": 13,
-   "cc": [
-    "campus@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "campus-6eaf750213",
-   "threadId": "1a07306dcf490485",
-   "group": "campus",
-   "subject": "Clarification Regarding Useless Project 3.0 \u2013 College of Engineering, Poonjar",
-   "counterpart": "Rosemary Rejimon (College of Engineering Poonjar)",
-   "email": "rosemary@cep.ac.in",
-   "received": "2026-09-05",
-   "last": "2026-09-08",
-   "status": "Awaiting reply (from them)",
-   "note": "sent detailed guidance on free, no-fee policy; offered to speak with Principal if needed",
-   "daysOpen": 13,
-   "daysSinceReceived": 13,
-   "cc": [
-    "campus@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "campus-24868031a3",
-   "threadId": "1a07175f158e1e83",
-   "group": "campus",
-   "subject": "Request to Increase Seat Capacity for Useless Projects \u2013 JCET",
-   "counterpart": "Shaamila Shahul (JCET)",
-   "email": "shaamilaashahul@gmail.com",
-   "received": "2026-09-05",
-   "last": "2026-09-06",
-   "status": "Awaiting reply (from them)",
-   "note": "seat capacity increase (60\u219270) pending",
-   "daysOpen": 13,
-   "daysSinceReceived": 13,
-   "cc": [
-    "campus@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "campus-0342e5e215",
-   "threadId": "1a072a0160e7dbdc",
-   "group": "campus",
-   "subject": "Request to Update Useless Project 3.0 Event Date",
-   "counterpart": "Rose (CE Poonjar)",
-   "email": "rosecep24@gmail.com",
-   "received": "2026-09-05",
-   "last": "2026-09-06",
-   "status": "Awaiting reply (from them)",
-   "note": "we owe them updated slot (11 Sep 5pm\u201312 Sep 11am)",
-   "daysOpen": 13,
    "daysSinceReceived": 13,
    "cc": [
     "campus@tinkerhub.org"
@@ -1032,7 +1032,7 @@ window.DASHBOARD_DATA = {
    "received": "2026-09-06",
    "last": "2026-09-08",
    "status": "Awaiting reply (from us)",
-   "note": "we owe them: update slot to 11th 6pm\u201312th 8am (promised 'today')",
+   "note": "we owe them: update slot to 11th 6pm–12th 8am (promised 'today')",
    "daysOpen": 12,
    "daysSinceReceived": 12,
    "cc": [
@@ -1049,7 +1049,7 @@ window.DASHBOARD_DATA = {
    "received": "2026-09-07",
    "last": "2026-09-08",
    "status": "Awaiting reply (from them)",
-   "note": "we owe them updated seat capacity (125\u2192140)",
+   "note": "we owe them updated seat capacity (125→140)",
    "daysOpen": 11,
    "daysSinceReceived": 11,
    "cc": [
@@ -1066,7 +1066,7 @@ window.DASHBOARD_DATA = {
    "received": "2026-09-07",
    "last": "2026-09-08",
    "status": "Resolved",
-   "note": "seat capacity increased 125\u2192170 as requested",
+   "note": "seat capacity increased 125→170 as requested",
    "daysOpen": 1,
    "daysSinceReceived": 11,
    "cc": [
@@ -1083,7 +1083,7 @@ window.DASHBOARD_DATA = {
    "received": "2026-09-07",
    "last": "2026-09-08",
    "status": "Awaiting reply (from them)",
-   "note": "we owe them updated seat capacity (6\u219260)",
+   "note": "we owe them updated seat capacity (6→60)",
    "daysOpen": 11,
    "daysSinceReceived": 11,
    "cc": [
@@ -1091,16 +1091,16 @@ window.DASHBOARD_DATA = {
    ]
   },
   {
-   "id": "campus-ed768b2f66",
-   "threadId": "1a07f955958605db",
+   "id": "campus-2c84fa63ee",
+   "threadId": "1a08096c278462c6",
    "group": "campus",
-   "subject": "Re: Request to Increase Useless Project Participant Capacity to 40",
-   "counterpart": "Nija Sulthana (Al Azhar College of Engineering & Technology)",
-   "email": "njsltn07@gmail.com",
+   "subject": "We need your brain again (December camp edition)",
+   "counterpart": "Ramees (Strength Factors)",
+   "email": "ramees@strengthfactors.in",
    "received": "2026-09-08",
    "last": "2026-09-08",
    "status": "Awaiting reply (from us)",
-   "note": "we owe them: update seat capacity to 40 (told them 'shortly')",
+   "note": "Ramees replied with detailed framework brainstorm; Aru to continue thread",
    "daysOpen": 10,
    "daysSinceReceived": 10,
    "cc": [
@@ -1125,16 +1125,16 @@ window.DASHBOARD_DATA = {
    ]
   },
   {
-   "id": "campus-2c84fa63ee",
-   "threadId": "1a08096c278462c6",
+   "id": "campus-ed768b2f66",
+   "threadId": "1a07f955958605db",
    "group": "campus",
-   "subject": "We need your brain again (December camp edition)",
-   "counterpart": "Ramees (Strength Factors)",
-   "email": "ramees@strengthfactors.in",
+   "subject": "Re: Request to Increase Useless Project Participant Capacity to 40",
+   "counterpart": "Nija Sulthana (Al Azhar College of Engineering & Technology)",
+   "email": "njsltn07@gmail.com",
    "received": "2026-09-08",
    "last": "2026-09-08",
    "status": "Awaiting reply (from us)",
-   "note": "Ramees replied with detailed framework brainstorm; Aru to continue thread",
+   "note": "we owe them: update seat capacity to 40 (told them 'shortly')",
    "daysOpen": 10,
    "daysSinceReceived": 10,
    "cc": [
@@ -1142,16 +1142,67 @@ window.DASHBOARD_DATA = {
    ]
   },
   {
-   "id": "campus-ea4e73daab",
-   "threadId": "1a084f7873a2929f",
+   "id": "campus-2aa21e3a97",
+   "threadId": "1a084d65d074ea92",
    "group": "campus",
-   "subject": "(no subject) \u2013 Seat capacity increase for USELESS 3.0",
-   "counterpart": "Hellan Raichel Benoy",
-   "email": "hellan1845@gmail.com",
+   "subject": "Invitation: Useless Projects: Demo Meet @ Wed Sep 9, 2026 9pm - 10pm (IST)",
+   "counterpart": "Google Calendar (automated)",
+   "email": null,
    "received": "2026-09-09",
    "last": "2026-09-09",
+   "status": "Informational",
+   "note": "calendar invite for Useless Projects demo meet call, Sep 9 9-10pm; FYI only, no action needed",
+   "daysOpen": 0,
+   "daysSinceReceived": 9,
+   "cc": [
+    "campus@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "campus-8191f333af",
+   "threadId": "1a086693e5262d40",
+   "group": "campus",
+   "subject": "Request for new slot - Useless Projects on 11th September",
+   "counterpart": "Sidrah (MAMOC)",
+   "email": "sidrahaysha@gmail.com",
+   "received": "2026-09-09",
+   "last": "2026-09-10",
    "status": "Awaiting reply (from them)",
-   "note": "seat capacity 60\u219270 requested for USELESS 3.0 (Sep 11-12); Femina replied asking for details on the team issue, suggested posting to Discord tech support channel",
+   "note": "sent posters + venue checklist for tomorrow’s event; reimbursing up to 10 printed copies, keep itemized bill",
+   "daysOpen": 9,
+   "daysSinceReceived": 9,
+   "cc": [
+    "campus@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "campus-84d9ad079d",
+   "threadId": "1a084d685a60d71e",
+   "group": "campus",
+   "subject": "Re: Request to Extend Registration Deadline – Useless Projects 3.0 (CUCEK)",
+   "counterpart": "Rezin C H (TinkerHub CUCEK)",
+   "email": "rezinch@gmail.com",
+   "received": "2026-09-09",
+   "last": "2026-09-09",
+   "status": "Awaiting reply (from us)",
+   "note": "we owe them: update registration deadline to Sept 11, 2pm",
+   "daysOpen": 9,
+   "daysSinceReceived": 9,
+   "cc": [
+    "campus@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "campus-df3c852183",
+   "threadId": "1a0862818a2bb56a",
+   "group": "campus",
+   "subject": "To increase our seats from 100 to 112",
+   "counterpart": "Amal S Kumar (TinkerHub CE-Alappuzha)",
+   "email": "tinkerhub@cempunnapra.org",
+   "received": "2026-09-09",
+   "last": "2026-09-09",
+   "status": "Awaiting reply (from us)",
+   "note": "we owe them: update seat capacity to 112 (told them shortly)",
    "daysOpen": 9,
    "daysSinceReceived": 9,
    "cc": [
@@ -1176,50 +1227,16 @@ window.DASHBOARD_DATA = {
    ]
   },
   {
-   "id": "campus-2aa21e3a97",
-   "threadId": "1a084d65d074ea92",
+   "id": "campus-ea4e73daab",
+   "threadId": "1a084f7873a2929f",
    "group": "campus",
-   "subject": "Invitation: Useless Projects: Demo Meet @ Wed Sep 9, 2026 9pm - 10pm (IST)",
-   "counterpart": "Google Calendar (automated)",
-   "email": null,
+   "subject": "(no subject) – Seat capacity increase for USELESS 3.0",
+   "counterpart": "Hellan Raichel Benoy",
+   "email": "hellan1845@gmail.com",
    "received": "2026-09-09",
    "last": "2026-09-09",
-   "status": "Informational",
-   "note": "calendar invite for Useless Projects demo meet call, Sep 9 9-10pm; FYI only, no action needed",
-   "daysOpen": 0,
-   "daysSinceReceived": 9,
-   "cc": [
-    "campus@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "campus-84d9ad079d",
-   "threadId": "1a084d685a60d71e",
-   "group": "campus",
-   "subject": "Re: Request to Extend Registration Deadline \u2013 Useless Projects 3.0 (CUCEK)",
-   "counterpart": "Rezin C H (TinkerHub CUCEK)",
-   "email": "rezinch@gmail.com",
-   "received": "2026-09-09",
-   "last": "2026-09-09",
-   "status": "Awaiting reply (from us)",
-   "note": "we owe them: update registration deadline to Sept 11, 2pm",
-   "daysOpen": 9,
-   "daysSinceReceived": 9,
-   "cc": [
-    "campus@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "campus-8191f333af",
-   "threadId": "1a086693e5262d40",
-   "group": "campus",
-   "subject": "Request for new slot - Useless Projects on 11th September",
-   "counterpart": "Sidrah (MAMOC)",
-   "email": "sidrahaysha@gmail.com",
-   "received": "2026-09-09",
-   "last": "2026-09-10",
    "status": "Awaiting reply (from them)",
-   "note": "sent posters + venue checklist for tomorrow\u2019s event; reimbursing up to 10 printed copies, keep itemized bill",
+   "note": "seat capacity 60→70 requested for USELESS 3.0 (Sep 11-12); Femina replied asking for details on the team issue, suggested posting to Discord tech support channel",
    "daysOpen": 9,
    "daysSinceReceived": 9,
    "cc": [
@@ -1245,33 +1262,50 @@ window.DASHBOARD_DATA = {
    ]
   },
   {
-   "id": "campus-df3c852183",
-   "threadId": "1a0862818a2bb56a",
+   "id": "campus-03b664fd32",
+   "threadId": "1a08bad951813e8b",
    "group": "campus",
-   "subject": "To increase our seats from 100 to 112",
-   "counterpart": "Amal S Kumar (TinkerHub CE-Alappuzha)",
-   "email": "tinkerhub@cempunnapra.org",
-   "received": "2026-09-09",
-   "last": "2026-09-09",
-   "status": "Awaiting reply (from us)",
-   "note": "we owe them: update seat capacity to 112 (told them shortly)",
-   "daysOpen": 9,
-   "daysSinceReceived": 9,
+   "subject": "Plss reopen application for useless projects 3.0",
+   "counterpart": "Afeefa Parvin (ICET)",
+   "email": "afeefaparvin88@gmail.com",
+   "received": "2026-09-10",
+   "last": "2026-09-10",
+   "status": "No response",
+   "note": "asking to reopen registration - ICET students missed deadline due to exams/dept events",
+   "daysOpen": 8,
+   "daysSinceReceived": 8,
    "cc": [
     "campus@tinkerhub.org"
    ]
   },
   {
-   "id": "campus-8fe256d04f",
-   "threadId": "1a08c26a40b11da7",
+   "id": "campus-196bb738b6",
+   "threadId": "1a089cf96014396f",
    "group": "campus",
-   "subject": "(no subject) \u2013 Venue dashboard link for USELESS 3.0 venue",
-   "counterpart": "Sidrah (MAMOC)",
-   "email": "sidrahaysha@gmail.com",
+   "subject": "To increase slots for useless hackathon",
+   "counterpart": "Amal Sankar (TinkerHub SNMIMT)",
+   "email": "tinkerhub@snmimt.edu.in",
    "received": "2026-09-10",
    "last": "2026-09-10",
-   "status": "Awaiting reply (from them)",
-   "note": "sent venue dashboard link for her venue",
+   "status": "Awaiting reply (from us)",
+   "note": "we owe them: update slot count 50→65 for SNMIMT (told them shortly)",
+   "daysOpen": 8,
+   "daysSinceReceived": 8,
+   "cc": [
+    "campus@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "campus-32e1e4ad9c",
+   "threadId": "1a08b6492189e120",
+   "group": "campus",
+   "subject": "Request to Increase Useless Projects 3.0 Seat Capacity to 225",
+   "counterpart": "Jual Aju (Sahrdaya College of Engineering and Technology)",
+   "email": "jualajum6@gmail.com",
+   "received": "2026-09-10",
+   "last": "2026-09-10",
+   "status": "Awaiting reply (from us)",
+   "note": "we owe them: update seat count 200→225",
    "daysOpen": 8,
    "daysSinceReceived": 8,
    "cc": [
@@ -1296,16 +1330,16 @@ window.DASHBOARD_DATA = {
    ]
   },
   {
-   "id": "campus-d60751a748",
-   "threadId": "1a08acbaffc062c0",
+   "id": "campus-6d9fd389ca",
+   "threadId": "1a089d011f53ec32",
    "group": "campus",
-   "subject": "Increase of seat count to 75",
-   "counterpart": "Arya Vijayan (TinkerHub SNGCET)",
-   "email": "wit.tinker@sngcet.ac.in",
+   "subject": "Request for Campus Support to Increase Participant Capacity – Useless Projects 3.0",
+   "counterpart": "Devi (TinkerHub CEKnpy)",
+   "email": "deva41184@gmail.com",
    "received": "2026-09-10",
    "last": "2026-09-10",
    "status": "Awaiting reply (from us)",
-   "note": "we owe them: increase seat count 50\u219275 for SNGCET (told them shortly)",
+   "note": "we owe them: increase participant capacity 40→50 for CEKnpy (told them shortly)",
    "daysOpen": 8,
    "daysSinceReceived": 8,
    "cc": [
@@ -1313,16 +1347,68 @@ window.DASHBOARD_DATA = {
    ]
   },
   {
-   "id": "campus-03b664fd32",
-   "threadId": "1a08bad951813e8b",
+   "id": "campus-76c216953a",
+   "threadId": "1a089de40cedb43a",
    "group": "campus",
-   "subject": "Plss reopen application for useless projects 3.0",
-   "counterpart": "Afeefa Parvin (ICET)",
-   "email": "afeefaparvin88@gmail.com",
+   "subject": "Regarding No. Of Seats for Useless Projects 3.0",
+   "counterpart": "Midhun Raaj (TinkerHub SOE CUSAT)",
+   "email": "midhunraaj9b@gmail.com",
    "received": "2026-09-10",
    "last": "2026-09-10",
-   "status": "No response",
-   "note": "asking to reopen registration - ICET students missed deadline due to exams/dept events",
+   "status": "Awaiting reply (from us)",
+   "note": "we owe them: increase seat count 60→100 for SOE CUSAT (told them shortly)",
+   "daysOpen": 8,
+   "daysSinceReceived": 8,
+   "cc": [
+    "campus@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "campus-87eeb45a91",
+   "threadId": "1a08c06f932c91ab",
+   "group": "campus",
+   "subject": "Useless project starting time is a little early",
+   "counterpart": "Adarsh M (Ahalia School of Engineering and Technology)",
+   "email": "adarshmurugesan33@gmail.com",
+   "received": "2026-09-10",
+   "last": "2026-09-12",
+   "status": "Resolved",
+   "note": "replied: unable to update timings, event start time stands at 6pm as scheduled for Ahalia's overnight program",
+   "daysOpen": 2,
+   "daysSinceReceived": 8,
+   "cc": [
+    "campus@tinkerhub.org",
+    "habeeb@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "campus-89cc752581",
+   "threadId": "1a08bf4233445aa8",
+   "group": "campus",
+   "subject": "Subject Request to Reschedule Useless Project Slot",
+   "counterpart": "Nidha Fathim (TinkerHub MASC)",
+   "email": "tinkerhub@masc.edu.in",
+   "received": "2026-09-10",
+   "last": "2026-09-16",
+   "status": "Resolved",
+   "note": "declined reschedule past Sep 13 deadline; suggested self-organized hackathon instead",
+   "daysOpen": 6,
+   "daysSinceReceived": 8,
+   "cc": [
+    "campus@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "campus-8fe256d04f",
+   "threadId": "1a08c26a40b11da7",
+   "group": "campus",
+   "subject": "(no subject) – Venue dashboard link for USELESS 3.0 venue",
+   "counterpart": "Sidrah (MAMOC)",
+   "email": "sidrahaysha@gmail.com",
+   "received": "2026-09-10",
+   "last": "2026-09-10",
+   "status": "Awaiting reply (from them)",
+   "note": "sent venue dashboard link for her venue",
    "daysOpen": 8,
    "daysSinceReceived": 8,
    "cc": [
@@ -1348,33 +1434,16 @@ window.DASHBOARD_DATA = {
    ]
   },
   {
-   "id": "campus-76c216953a",
-   "threadId": "1a089de40cedb43a",
+   "id": "campus-b3f9aa5c06",
+   "threadId": "1a08bcf71efb662e",
    "group": "campus",
-   "subject": "Regarding No. Of Seats for Useless Projects 3.0",
-   "counterpart": "Midhun Raaj (TinkerHub SOE CUSAT)",
-   "email": "midhunraaj9b@gmail.com",
+   "subject": "increase the registration deadline",
+   "counterpart": "Trishaa B",
+   "email": "mail.trishaa@gmail.com",
    "received": "2026-09-10",
    "last": "2026-09-10",
    "status": "Awaiting reply (from us)",
-   "note": "we owe them: increase seat count 60\u2192100 for SOE CUSAT (told them shortly)",
-   "daysOpen": 8,
-   "daysSinceReceived": 8,
-   "cc": [
-    "campus@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "campus-6d9fd389ca",
-   "threadId": "1a089d011f53ec32",
-   "group": "campus",
-   "subject": "Request for Campus Support to Increase Participant Capacity \u2013 Useless Projects 3.0",
-   "counterpart": "Devi (TinkerHub CEKnpy)",
-   "email": "deva41184@gmail.com",
-   "received": "2026-09-10",
-   "last": "2026-09-10",
-   "status": "Awaiting reply (from us)",
-   "note": "we owe them: increase participant capacity 40\u219250 for CEKnpy (told them shortly)",
+   "note": "we owe them: increase registration deadline to 11pm and seat count to 40",
    "daysOpen": 8,
    "daysSinceReceived": 8,
    "cc": [
@@ -1400,17 +1469,17 @@ window.DASHBOARD_DATA = {
    ]
   },
   {
-   "id": "campus-32e1e4ad9c",
-   "threadId": "1a08b6492189e120",
+   "id": "campus-c43f1eab73",
+   "threadId": "1a08ba0e5eb96fd0",
    "group": "campus",
-   "subject": "Request to Increase Useless Projects 3.0 Seat Capacity to 225",
-   "counterpart": "Jual Aju (Sahrdaya College of Engineering and Technology)",
-   "email": "jualajum6@gmail.com",
+   "subject": "Request to reopen registration - Thejus Engineering College",
+   "counterpart": "Dhrisya Narayanan (Thejus Engineering College)",
+   "email": "dhrisyanarayanan7@gmail.com",
    "received": "2026-09-10",
    "last": "2026-09-10",
-   "status": "Awaiting reply (from us)",
-   "note": "we owe them: update seat count 200\u2192225",
-   "daysOpen": 8,
+   "status": "Resolved",
+   "note": "registration reopening confirmed, ~10 min turnaround promised",
+   "daysOpen": 0,
    "daysSinceReceived": 8,
    "cc": [
     "campus@tinkerhub.org"
@@ -1434,50 +1503,16 @@ window.DASHBOARD_DATA = {
    ]
   },
   {
-   "id": "campus-c43f1eab73",
-   "threadId": "1a08ba0e5eb96fd0",
+   "id": "campus-d60751a748",
+   "threadId": "1a08acbaffc062c0",
    "group": "campus",
-   "subject": "Request to reopen registration - Thejus Engineering College",
-   "counterpart": "Dhrisya Narayanan (Thejus Engineering College)",
-   "email": "dhrisyanarayanan7@gmail.com",
-   "received": "2026-09-10",
-   "last": "2026-09-10",
-   "status": "Resolved",
-   "note": "registration reopening confirmed, ~10 min turnaround promised",
-   "daysOpen": 0,
-   "daysSinceReceived": 8,
-   "cc": [
-    "campus@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "campus-89cc752581",
-   "threadId": "1a08bf4233445aa8",
-   "group": "campus",
-   "subject": "Subject Request to Reschedule Useless Project Slot",
-   "counterpart": "Nidha Fathim (TinkerHub MASC)",
-   "email": "tinkerhub@masc.edu.in",
-   "received": "2026-09-10",
-   "last": "2026-09-16",
-   "status": "Resolved",
-   "note": "declined reschedule past Sep 13 deadline; suggested self-organized hackathon instead",
-   "daysOpen": 6,
-   "daysSinceReceived": 8,
-   "cc": [
-    "campus@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "campus-196bb738b6",
-   "threadId": "1a089cf96014396f",
-   "group": "campus",
-   "subject": "To increase slots for useless hackathon",
-   "counterpart": "Amal Sankar (TinkerHub SNMIMT)",
-   "email": "tinkerhub@snmimt.edu.in",
+   "subject": "Increase of seat count to 75",
+   "counterpart": "Arya Vijayan (TinkerHub SNGCET)",
+   "email": "wit.tinker@sngcet.ac.in",
    "received": "2026-09-10",
    "last": "2026-09-10",
    "status": "Awaiting reply (from us)",
-   "note": "we owe them: update slot count 50\u219265 for SNMIMT (told them shortly)",
+   "note": "we owe them: increase seat count 50→75 for SNGCET (told them shortly)",
    "daysOpen": 8,
    "daysSinceReceived": 8,
    "cc": [
@@ -1502,36 +1537,18 @@ window.DASHBOARD_DATA = {
    ]
   },
   {
-   "id": "campus-87eeb45a91",
-   "threadId": "1a08c06f932c91ab",
+   "id": "campus-2b1254b880",
+   "threadId": "1a090bb604124cfc",
    "group": "campus",
-   "subject": "Useless project starting time is a little early",
-   "counterpart": "Adarsh M (Ahalia School of Engineering and Technology)",
-   "email": "adarshmurugesan33@gmail.com",
-   "received": "2026-09-10",
+   "subject": "Update Regarding Useless Project 3.0",
+   "counterpart": "Rosemary Rejimon (College of Engineering Poonjar)",
+   "email": "rosecep24@gmail.com",
+   "received": "2026-09-11",
    "last": "2026-09-12",
    "status": "Resolved",
-   "note": "replied: unable to update timings, event start time stands at 6pm as scheduled for Ahalia's overnight program",
-   "daysOpen": 2,
-   "daysSinceReceived": 8,
-   "cc": [
-    "campus@tinkerhub.org",
-    "habeeb@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "campus-b3f9aa5c06",
-   "threadId": "1a08bcf71efb662e",
-   "group": "campus",
-   "subject": "increase the registration deadline",
-   "counterpart": "Trishaa B",
-   "email": "mail.trishaa@gmail.com",
-   "received": "2026-09-10",
-   "last": "2026-09-10",
-   "status": "Awaiting reply (from us)",
-   "note": "we owe them: increase registration deadline to 11pm and seat count to 40",
-   "daysOpen": 8,
-   "daysSinceReceived": 8,
+   "note": "acknowledged College of Engineering Poonjar's cancellation of Useless Project 3.0 due to a date clash; wished them well for next season",
+   "daysOpen": 1,
+   "daysSinceReceived": 7,
    "cc": [
     "campus@tinkerhub.org"
    ]
@@ -1548,23 +1565,6 @@ window.DASHBOARD_DATA = {
    "status": "Resolved",
    "note": "acknowledged cancellation of Useless Projects event; asked them to continue with other planned activities",
    "daysOpen": 1,
-   "daysSinceReceived": 7,
-   "cc": [
-    "campus@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "campus-da56fc18c1",
-   "threadId": "1a08f4894049fc58",
-   "group": "campus",
-   "subject": "Deadline extention for useless project 3.0",
-   "counterpart": "Vishnu Sarang (TinkerHub GECT)",
-   "email": "tinkerhubgect@gmail.com",
-   "received": "2026-09-11",
-   "last": "2026-09-11",
-   "status": "Awaiting reply (from them)",
-   "note": "extended registration deadline to 4pm today for GECT (Govt. Engineering College Thrissur)",
-   "daysOpen": 7,
    "daysSinceReceived": 7,
    "cc": [
     "campus@tinkerhub.org"
@@ -1588,23 +1588,6 @@ window.DASHBOARD_DATA = {
    ]
   },
   {
-   "id": "campus-c86e263d2b",
-   "threadId": "1a08e533f7c70a07",
-   "group": "campus",
-   "subject": "Reduce sear count and starting time for tomorrows Useless Project",
-   "counterpart": "Akarsh A (TinkerHub CEA)",
-   "email": "akarshajith06@gmail.com",
-   "received": "2026-09-11",
-   "last": "2026-09-11",
-   "status": "Awaiting reply (from them)",
-   "note": "we replied confirming seat count 60\u219230 and start time 9:30 AM for CEA (Adoor) Sep 12 event",
-   "daysOpen": 7,
-   "daysSinceReceived": 7,
-   "cc": [
-    "campus@tinkerhub.org"
-   ]
-  },
-  {
    "id": "campus-9dfc53a4c8",
    "threadId": "1a0915eed4f09bf9",
    "group": "campus",
@@ -1622,33 +1605,50 @@ window.DASHBOARD_DATA = {
    ]
   },
   {
-   "id": "campus-2b1254b880",
-   "threadId": "1a090bb604124cfc",
+   "id": "campus-c86e263d2b",
+   "threadId": "1a08e533f7c70a07",
    "group": "campus",
-   "subject": "Update Regarding Useless Project 3.0",
-   "counterpart": "Rosemary Rejimon (College of Engineering Poonjar)",
-   "email": "rosecep24@gmail.com",
+   "subject": "Reduce sear count and starting time for tomorrows Useless Project",
+   "counterpart": "Akarsh A (TinkerHub CEA)",
+   "email": "akarshajith06@gmail.com",
    "received": "2026-09-11",
-   "last": "2026-09-12",
-   "status": "Resolved",
-   "note": "acknowledged College of Engineering Poonjar's cancellation of Useless Project 3.0 due to a date clash; wished them well for next season",
-   "daysOpen": 1,
+   "last": "2026-09-11",
+   "status": "Awaiting reply (from them)",
+   "note": "we replied confirming seat count 60→30 and start time 9:30 AM for CEA (Adoor) Sep 12 event",
+   "daysOpen": 7,
    "daysSinceReceived": 7,
    "cc": [
     "campus@tinkerhub.org"
    ]
   },
   {
-   "id": "campus-e8d8afd755",
-   "threadId": "1a093d6d595665b5",
+   "id": "campus-da56fc18c1",
+   "threadId": "1a08f4894049fc58",
    "group": "campus",
-   "subject": "Cancellation Of Venue - FISAT",
-   "counterpart": "Nikhil (TinkerHub FISAT)",
-   "email": "nikhilak2005@gmail.com",
+   "subject": "Deadline extention for useless project 3.0",
+   "counterpart": "Vishnu Sarang (TinkerHub GECT)",
+   "email": "tinkerhubgect@gmail.com",
+   "received": "2026-09-11",
+   "last": "2026-09-11",
+   "status": "Awaiting reply (from them)",
+   "note": "extended registration deadline to 4pm today for GECT (Govt. Engineering College Thrissur)",
+   "daysOpen": 7,
+   "daysSinceReceived": 7,
+   "cc": [
+    "campus@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "campus-c795556269",
+   "threadId": "1a095ea227c3b2fb",
+   "group": "campus",
+   "subject": "Voting time extension.",
+   "counterpart": "arjunaskvl@gmail.com",
+   "email": "arjunaskvl@gmail.com",
    "received": "2026-09-12",
    "last": "2026-09-15",
    "status": "Resolved",
-   "note": "acknowledged FISAT's withdrawal as venue and cancellation of Useless Projects 3.0 due to permissions/logistics issues; encouraged continued community activities",
+   "note": "declined to extend the 30-min voting window; explained timing was pre-communicated",
    "daysOpen": 3,
    "daysSinceReceived": 6,
    "cc": [
@@ -1673,16 +1673,16 @@ window.DASHBOARD_DATA = {
    ]
   },
   {
-   "id": "campus-c795556269",
-   "threadId": "1a095ea227c3b2fb",
+   "id": "campus-e8d8afd755",
+   "threadId": "1a093d6d595665b5",
    "group": "campus",
-   "subject": "Voting time extension.",
-   "counterpart": "arjunaskvl@gmail.com",
-   "email": "arjunaskvl@gmail.com",
+   "subject": "Cancellation Of Venue - FISAT",
+   "counterpart": "Nikhil (TinkerHub FISAT)",
+   "email": "nikhilak2005@gmail.com",
    "received": "2026-09-12",
    "last": "2026-09-15",
    "status": "Resolved",
-   "note": "declined to extend the 30-min voting window; explained timing was pre-communicated",
+   "note": "acknowledged FISAT's withdrawal as venue and cancellation of Useless Projects 3.0 due to permissions/logistics issues; encouraged continued community activities",
    "daysOpen": 3,
    "daysSinceReceived": 6,
    "cc": [
@@ -1707,12 +1707,29 @@ window.DASHBOARD_DATA = {
    ]
   },
   {
-   "id": "campus-b88bc66543",
-   "threadId": "1a0a073d680f8c24",
+   "id": "campus-2f628b2253",
+   "threadId": "1a0a3e5d423f9083",
    "group": "campus",
-   "subject": "Concern Regarding Judging Fairness \u2013 Useless Projects CUSAT",
-   "counterpart": "Sivadarsh P Dinesh (CUSAT)",
-   "email": "sivadarshpdinesh@gmail.com",
+   "subject": "Feedback regarding evaluation equity and presentation slots at Useless Projects CUSAT",
+   "counterpart": "Thejas V (CUSAT)",
+   "email": "vthejas44@gmail.com",
+   "received": "2026-09-14",
+   "last": "2026-09-15",
+   "status": "Resolved",
+   "note": "assured all CUSAT teams/submissions will be considered fairly despite late-slot audience concern",
+   "daysOpen": 1,
+   "daysSinceReceived": 4,
+   "cc": [
+    "campus@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "campus-4bd7cfe20e",
+   "threadId": "1a0a3e9e1ec97efb",
+   "group": "campus",
+   "subject": "Thoughts on participant voting and presentation order at CUSAT Useless Projects",
+   "counterpart": "Sreelakshmi S (CUSAT)",
+   "email": "sreeluuz.in@gmail.com",
    "received": "2026-09-14",
    "last": "2026-09-15",
    "status": "Resolved",
@@ -1758,12 +1775,12 @@ window.DASHBOARD_DATA = {
    ]
   },
   {
-   "id": "campus-2f628b2253",
-   "threadId": "1a0a3e5d423f9083",
+   "id": "campus-b88bc66543",
+   "threadId": "1a0a073d680f8c24",
    "group": "campus",
-   "subject": "Feedback regarding evaluation equity and presentation slots at Useless Projects CUSAT",
-   "counterpart": "Thejas V (CUSAT)",
-   "email": "vthejas44@gmail.com",
+   "subject": "Concern Regarding Judging Fairness – Useless Projects CUSAT",
+   "counterpart": "Sivadarsh P Dinesh (CUSAT)",
+   "email": "sivadarshpdinesh@gmail.com",
    "received": "2026-09-14",
    "last": "2026-09-15",
    "status": "Resolved",
@@ -1792,18 +1809,18 @@ window.DASHBOARD_DATA = {
    ]
   },
   {
-   "id": "campus-4bd7cfe20e",
-   "threadId": "1a0a3e9e1ec97efb",
+   "id": "campus-1c3989cc3e",
+   "threadId": "1a0a392f68c640a5",
    "group": "campus",
-   "subject": "Thoughts on participant voting and presentation order at CUSAT Useless Projects",
-   "counterpart": "Sreelakshmi S (CUSAT)",
-   "email": "sreeluuz.in@gmail.com",
-   "received": "2026-09-14",
+   "subject": "Requesting Regarding the voting procedure and project selection",
+   "counterpart": "Dhrisya Narayanan (Thejus Engineering College)",
+   "email": "dhrisyanarayanan7@gmail.com",
+   "received": "2026-09-15",
    "last": "2026-09-15",
    "status": "Resolved",
-   "note": "assured all CUSAT teams/submissions will be considered fairly despite late-slot audience concern",
-   "daysOpen": 1,
-   "daysSinceReceived": 4,
+   "note": "confirmed all Thejus Engineering College projects will be considered despite missed voting window",
+   "daysOpen": 0,
+   "daysSinceReceived": 3,
    "cc": [
     "campus@tinkerhub.org"
    ]
@@ -1843,33 +1860,16 @@ window.DASHBOARD_DATA = {
    ]
   },
   {
-   "id": "campus-1c3989cc3e",
-   "threadId": "1a0a392f68c640a5",
-   "group": "campus",
-   "subject": "Requesting Regarding the voting procedure and project selection",
-   "counterpart": "Dhrisya Narayanan (Thejus Engineering College)",
-   "email": "dhrisyanarayanan7@gmail.com",
-   "received": "2026-09-15",
-   "last": "2026-09-15",
-   "status": "Resolved",
-   "note": "confirmed all Thejus Engineering College projects will be considered despite missed voting window",
-   "daysOpen": 0,
-   "daysSinceReceived": 3,
-   "cc": [
-    "campus@tinkerhub.org"
-   ]
-  },
-  {
    "id": "campus-38e47dc0af",
    "threadId": "1a0a97dd69d6d683",
    "group": "campus",
-   "subject": "Useless Projects 3.0 \u2013 Discord Rating Issue",
+   "subject": "Useless Projects 3.0 – Discord Rating Issue",
    "counterpart": "Vishnu PP (TinkerHub AISAT)",
    "email": "viyshnuw@gmail.com",
    "received": "2026-09-16",
-   "last": "2026-09-16",
-   "status": "No response",
-   "note": "asking about Discord rating issue after event (~90% submitted projects)",
+   "last": "2026-09-18",
+   "status": "Awaiting reply (from them)",
+   "note": "Discord rating issue during event; we asked them to submit details via the Tech Issues Report Form by Sat 3pm",
    "daysOpen": 2,
    "daysSinceReceived": 2,
    "cc": [
@@ -1880,7 +1880,7 @@ window.DASHBOARD_DATA = {
    "id": "campus-7e9e923502",
    "threadId": "1a0a844e0a8bcf07",
    "group": "campus",
-   "subject": "Useless Projects 3.0 \u2013 Top 5 Selection",
+   "subject": "Useless Projects 3.0 – Top 5 Selection",
    "counterpart": "TinkerHub Unity Women's College",
    "email": "tinkerhub@unitywomenscollege.ac.in",
    "received": "2026-09-16",
@@ -1918,13 +1918,33 @@ window.DASHBOARD_DATA = {
    "counterpart": "Amal Sankar K R (TinkerHub SNMIMT)",
    "email": "tinkerhub@snmimt.edu.in",
    "received": "2026-09-17",
-   "last": "2026-09-17",
-   "status": "No response",
-   "note": "campus lead flagged OTP, submission and voting issues during their Useless Projects event; needs a reply",
+   "last": "2026-09-18",
+   "status": "Awaiting reply (from them)",
+   "note": "campus lead flagged OTP/submission/voting issues; we asked them to submit details via the Tech Issues Report Form by Sat 3pm",
    "daysOpen": 1,
    "daysSinceReceived": 1,
    "cc": [
     "campus@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "campus-1cd246a1ae",
+   "threadId": "1a0b04f497f2dfed",
+   "group": "campus",
+   "subject": "Request for Extension – First-Year Coordinator Selection",
+   "counterpart": "Arya Venugopal (TinkerHub SNGCE)",
+   "email": "aryavenugopal2006@gmail.com",
+   "received": "2026-09-17",
+   "last": "2026-09-18",
+   "status": "Resolved",
+   "note": "extension granted until next week for First-Year Coordinator selection process",
+   "daysOpen": 1,
+   "daysSinceReceived": 1,
+   "cc": [
+    "campus@tinkerhub.org",
+    "femina@tinkerhub.org",
+    "kurian@tinkerhub.org",
+    "arundhathi@tinkerhub.org"
    ]
   },
   {
@@ -1935,9 +1955,9 @@ window.DASHBOARD_DATA = {
    "counterpart": "TinkerHub CEC",
    "email": "tinkerhub@ceconline.edu",
    "received": "2026-09-17",
-   "last": "2026-09-17",
-   "status": "No response",
-   "note": "asking if team Overthink() can still be evaluated despite a GitHub repo submission issue",
+   "last": "2026-09-18",
+   "status": "Awaiting reply (from them)",
+   "note": "team Overthink() GitHub submission issue; we asked CEC to submit details via the Tech Issues Report Form",
    "daysOpen": 1,
    "daysSinceReceived": 1,
    "cc": [
@@ -1963,10 +1983,449 @@ window.DASHBOARD_DATA = {
    ]
   },
   {
+   "id": "finance-b503fadd37",
+   "threadId": "1a05675d215aba56",
+   "group": "finance",
+   "subject": "INVOICE - AUGUST 2026",
+   "counterpart": "Sindhu Associates",
+   "email": "hrdsss2007@gmail.com",
+   "received": "2026-08-31",
+   "last": "2026-08-31",
+   "status": "Resolved",
+   "note": "invoice Sol/34 paid, receipt sent",
+   "daysOpen": 0,
+   "daysSinceReceived": 18,
+   "cc": [
+    "finance@tinkerhub.org",
+    "eldho@tinkerhub.org",
+    "johnson@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "finance-c4c18e5732",
+   "threadId": "1a0571fc7c2856c5",
+   "group": "finance",
+   "subject": "Invoice for August, 2026",
+   "counterpart": "Chinnu Susan Varghese",
+   "email": "chinnnu.susan@gmail.com",
+   "received": "2026-08-31",
+   "last": "2026-09-02",
+   "status": "Resolved",
+   "note": "invoice INV-0039 paid, receipt sent",
+   "daysOpen": 2,
+   "daysSinceReceived": 18,
+   "cc": [
+    "finance@tinkerhub.org",
+    "mehar@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "finance-3b567ed2f3",
+   "threadId": "1a05d213c33ddb32",
+   "group": "finance",
+   "subject": "Request for Account Statement",
+   "counterpart": "Axis Bank",
+   "email": "oprh3577@axisbank.com",
+   "received": "2026-09-01",
+   "last": "2026-09-01",
+   "status": "Awaiting reply (from them)",
+   "note": "requested FY24-25 statement, awaiting bank",
+   "daysOpen": 17,
+   "daysSinceReceived": 17,
+   "cc": [
+    "finance@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "finance-62d51bc572",
+   "threadId": "1a05d1eff96b20c7",
+   "group": "finance",
+   "subject": "MSG91 - Your MSG91 Subscription Renewal Summary",
+   "counterpart": "MSG91 (automated)",
+   "email": null,
+   "received": "2026-09-01",
+   "last": "2026-09-01",
+   "status": "Informational",
+   "note": "free plan auto-renewed, zero charged",
+   "daysOpen": 0,
+   "daysSinceReceived": 17,
+   "cc": [
+    "finance@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "finance-9e2ebb2b5a",
+   "threadId": "1a05d31ddc729f55",
+   "group": "finance",
+   "subject": "Fwd: AXIS BANK : Statement for period 01-04-2024 to 31-03-2025",
+   "counterpart": "Axis Bank (automated)",
+   "email": null,
+   "received": "2026-09-01",
+   "last": "2026-09-01",
+   "status": "Informational",
+   "note": "FY24-25 statement shared for records",
+   "daysOpen": 0,
+   "daysSinceReceived": 17,
+   "cc": [
+    "finance@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "finance-d25183bada",
+   "threadId": "1a05e51a21ec7878",
+   "group": "finance",
+   "subject": "Re-certification Required for Eligibility - TinkerHub Technology Innovation Foundation",
+   "counterpart": "Benevity (automated)",
+   "email": null,
+   "received": "2026-09-01",
+   "last": "2026-09-02",
+   "status": "Informational",
+   "note": "annual self-cert renewal due Nov 2026",
+   "daysOpen": 1,
+   "daysSinceReceived": 17,
+   "cc": [
+    "finance@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "finance-0c649e65cb",
+   "threadId": "1a060b371008b9e2",
+   "group": "finance",
+   "subject": "Re: Tinkerhub | Q4 TDS Revision | FY 2025-26",
+   "counterpart": "R Rajan Associates",
+   "email": "rraca.kochi@gmail.com",
+   "received": "2026-09-02",
+   "last": "2026-09-16",
+   "status": "Resolved",
+   "note": "revised Q4 TDS return filed; acknowledgement (Form 26Q ARN) received from CA",
+   "daysOpen": 14,
+   "daysSinceReceived": 16,
+   "cc": [
+    "finance@tinkerhub.org",
+    "mehar@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "finance-27daac57aa",
+   "threadId": "1a0604dbcc3c2364",
+   "group": "finance",
+   "subject": "Amazon Web Services GST Invoice Available",
+   "counterpart": "Amazon Web Services (automated)",
+   "email": null,
+   "received": "2026-09-02",
+   "last": "2026-09-02",
+   "status": "Informational",
+   "note": "GST invoice available for download",
+   "daysOpen": 0,
+   "daysSinceReceived": 16,
+   "cc": [
+    "finance@tinkerhub.org",
+    "kolaambi@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "finance-3635f35f12",
+   "threadId": "1a07c2d2441f2d98",
+   "group": "finance",
+   "subject": "Kozhikode Shoot - Invoice",
+   "counterpart": "Cyril Luke Anish",
+   "email": "cyrilanish10@gmail.com",
+   "received": "2026-09-07",
+   "last": "2026-09-07",
+   "status": "No response",
+   "note": "invoice submitted for Kozhikode shoot, pending review/payment",
+   "daysOpen": 11,
+   "daysSinceReceived": 11,
+   "cc": [
+    "finance@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "finance-16d3d8f808",
+   "threadId": "1a08006739d0555a",
+   "group": "finance",
+   "subject": "Your receipt from Resend #2748-2663",
+   "counterpart": "Resend (automated)",
+   "email": null,
+   "received": "2026-09-08",
+   "last": "2026-09-08",
+   "status": "Informational",
+   "note": "$20 payment receipt, subscription charged",
+   "daysOpen": 0,
+   "daysSinceReceived": 10,
+   "cc": [
+    "finance@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "finance-410f35ae93",
+   "threadId": "1a07fe00d0471929",
+   "group": "finance",
+   "subject": "Low SMS balance - Ekuttan, MSG91!",
+   "counterpart": "MSG91 (automated)",
+   "email": null,
+   "received": "2026-09-08",
+   "last": "2026-09-08",
+   "status": "Informational",
+   "note": "SMS wallet balance low (999.92), add funds",
+   "daysOpen": 0,
+   "daysSinceReceived": 10,
+   "cc": [
+    "finance@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "finance-979ae0f4a4",
+   "threadId": "1a081f64794ec535",
+   "group": "finance",
+   "subject": "Invoice for Maker Survey",
+   "counterpart": "Sonal Kuruvilla (Nayaneethi Policy Collective)",
+   "email": "connect.npoc@gmail.com",
+   "received": "2026-09-08",
+   "last": "2026-09-09",
+   "status": "Resolved",
+   "note": "invoice ₹9,440 paid, TDS deducted, receipt sent",
+   "daysOpen": 1,
+   "daysSinceReceived": 10,
+   "cc": [
+    "finance@tinkerhub.org",
+    "mehar@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "finance-410f35ae93",
+   "threadId": "1a086f1520581056",
+   "group": "finance",
+   "subject": "Low SMS balance - Ekuttan, MSG91!",
+   "counterpart": "MSG91 (automated)",
+   "email": null,
+   "received": "2026-09-09",
+   "last": "2026-09-09",
+   "status": "Informational",
+   "note": "SMS wallet balance low (Rs 499.84)",
+   "daysOpen": 0,
+   "daysSinceReceived": 9,
+   "cc": [
+    "finance@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "finance-410f35ae93",
+   "threadId": "1a08f3a6cb48d4e1",
+   "group": "finance",
+   "subject": "Low SMS balance - Ekuttan, MSG91!",
+   "counterpart": "MSG91 (automated)",
+   "email": null,
+   "received": "2026-09-11",
+   "last": "2026-09-12",
+   "status": "Informational",
+   "note": "SMS wallet balance low (Rs 9.83 as of latest alert), add funds",
+   "daysOpen": 1,
+   "daysSinceReceived": 7,
+   "cc": [
+    "finance@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "finance-0b616a747a",
+   "threadId": "1a0958c063ec6064",
+   "group": "finance",
+   "subject": "Recharge at MSG91 - ekuttan (UN) - 5000 INR (amount) - successful!",
+   "counterpart": "MSG91 (automated)",
+   "email": null,
+   "received": "2026-09-12",
+   "last": "2026-09-12",
+   "status": "Informational",
+   "note": "SMS wallet recharge of 5000 INR (+900 INR tax) processed successfully",
+   "daysOpen": 0,
+   "daysSinceReceived": 6,
+   "cc": [
+    "finance@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "finance-410f35ae93",
+   "threadId": "1a0958f7d4070c13",
+   "group": "finance",
+   "subject": "Low SMS balance - Ekuttan, MSG91!",
+   "counterpart": "MSG91 (automated)",
+   "email": null,
+   "received": "2026-09-12",
+   "last": "2026-09-12",
+   "status": "Informational",
+   "note": "SMS wallet balance low (Rs 4999.76 as of latest alert, shortly after 5000 INR recharge)",
+   "daysOpen": 0,
+   "daysSinceReceived": 6,
+   "cc": [
+    "finance@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "report-e614c9e992",
+   "threadId": "19fd7e0cc9b20c98",
+   "group": "report",
+   "subject": "(no subject)",
+   "counterpart": "Anosh John Ditto",
+   "email": "anoshjohnditto10@gmail.com",
+   "received": "2026-08-06",
+   "last": "2026-08-21",
+   "status": "Resolved",
+   "note": "closed - no substantive content from sender",
+   "daysOpen": 15,
+   "daysSinceReceived": 43,
+   "cc": [
+    "report@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "report-7608a88b9f",
+   "threadId": "1a033c3d3b6522c6",
+   "group": "report",
+   "subject": "Report: Unable to sign in and \"failed to send OTP\" error during mobile verification",
+   "counterpart": "Shani Nair",
+   "email": "shaninair781@gmail.com",
+   "received": "2026-08-24",
+   "last": "2026-08-24",
+   "status": "Awaiting reply (from them)",
+   "note": "forwarded to support team",
+   "daysOpen": 25,
+   "daysSinceReceived": 25,
+   "cc": [
+    "report@tinkerhub.org",
+    "support@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "report-d467652a9f",
+   "threadId": "1a037a3e72a46ef9",
+   "group": "report",
+   "subject": "Cannot login to page",
+   "counterpart": "Gouri ES",
+   "email": "gourishaju07@gmail.com",
+   "received": "2026-08-25",
+   "last": "2026-08-25",
+   "status": "Awaiting reply (from us)",
+   "note": "network switch didn't fix OTP issue",
+   "daysOpen": 24,
+   "daysSinceReceived": 24,
+   "cc": [
+    "akhil@tinkerhub.org",
+    "kurian@tinkerhub.org",
+    "support@tinkerhub.org",
+    "report@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "report-aa14764f2a",
+   "threadId": "1a042cdc25fcb5c6",
+   "group": "report",
+   "subject": "OTP Not Being Sent When Trying to Log In",
+   "counterpart": "Athul Benedict",
+   "email": "athulbenedict123@gmail.com",
+   "received": "2026-08-27",
+   "last": "2026-08-28",
+   "status": "Awaiting reply (from them)",
+   "note": "forwarded to support, awaiting fix",
+   "daysOpen": 22,
+   "daysSinceReceived": 22,
+   "cc": [
+    "report@tinkerhub.org",
+    "support@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "report-55409c5545",
+   "threadId": "1a064036048dfc40",
+   "group": "report",
+   "subject": "(no subject)",
+   "counterpart": "Fidha",
+   "email": "msx201700@gmail.com",
+   "received": "2026-09-02",
+   "last": "2026-09-02",
+   "status": "No response",
+   "note": "OTP login issue, no reply yet",
+   "daysOpen": 16,
+   "daysSinceReceived": 16,
+   "cc": [
+    "report@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "report-14807cce3a",
+   "threadId": "1a07f81e530dfb34",
+   "group": "report",
+   "subject": "Tinkerhub not sending OTP for login",
+   "counterpart": "Dev Anand VP",
+   "email": "blindinglucario@gmail.com",
+   "received": "2026-09-08",
+   "last": "2026-09-09",
+   "status": "Awaiting reply (from them)",
+   "note": "OTP not sending (too many requests); tagged to support for handling",
+   "daysOpen": 10,
+   "daysSinceReceived": 10,
+   "cc": [
+    "report@tinkerhub.org",
+    "support@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "report-c5d20472ea",
+   "threadId": "1a07f972d58575c1",
+   "group": "report",
+   "subject": "OTP failing",
+   "counterpart": "Shaphen Binu Kuriakose",
+   "email": "shaphenbinukuriakose@gmail.com",
+   "received": "2026-09-08",
+   "last": "2026-09-09",
+   "status": "Awaiting reply (from them)",
+   "note": "OTP failure on login; tagged to support for handling",
+   "daysOpen": 10,
+   "daysSinceReceived": 10,
+   "cc": [
+    "report@tinkerhub.org",
+    "support@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "report-c626f2085e",
+   "threadId": "1a07f8adc7a282ef",
+   "group": "report",
+   "subject": "(no subject) – OTP request limit exceeded",
+   "counterpart": "Renil Augustine",
+   "email": "augustinerenil723@gmail.com",
+   "received": "2026-09-08",
+   "last": "2026-09-08",
+   "status": "Awaiting reply (from them)",
+   "note": "OTP limit exceeded, forwarded to support team",
+   "daysOpen": 10,
+   "daysSinceReceived": 10,
+   "cc": [
+    "report@tinkerhub.org",
+    "support@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "report-80ba999b95",
+   "threadId": "1a0b073d8ca35649",
+   "group": "report",
+   "subject": "Complaint regarding unwelcome conduct",
+   "counterpart": "Aiswarya Viswanath",
+   "email": "aiswaryaviswanath2007@gmail.com",
+   "received": "2026-09-17",
+   "last": "2026-09-17",
+   "status": "Awaiting reply (from them)",
+   "note": "misconduct complaint re: a mentor at Useless Projects 3.0 - acknowledged same day, investigation opened, update owed to complainant",
+   "daysOpen": 1,
+   "daysSinceReceived": 1,
+   "cc": [
+    "report@tinkerhub.org"
+   ]
+  },
+  {
    "id": "support-8bac1bd4e1",
    "threadId": "1a013c3f0bc11a1e",
    "group": "support",
-   "subject": "Request to update college details \u2013 HLJP6V6755",
+   "subject": "Request to update college details – HLJP6V6755",
    "counterpart": "Fidha Fathima",
    "email": "ff080870@gmail.com",
    "received": "2026-08-18",
@@ -2014,6 +2473,23 @@ window.DASHBOARD_DATA = {
    ]
   },
   {
+   "id": "support-855e19fd13",
+   "threadId": "1a029a998be98f06",
+   "group": "support",
+   "subject": "Error in Github repository adding",
+   "counterpart": "Ayan Hashique",
+   "email": "ayanhashique2006@gmail.com",
+   "received": "2026-08-22",
+   "last": "2026-08-22",
+   "status": "No response",
+   "note": "GitHub repo selection bug",
+   "daysOpen": 27,
+   "daysSinceReceived": 27,
+   "cc": [
+    "support@tinkerhub.org"
+   ]
+  },
+  {
    "id": "support-e48da1bdd3",
    "threadId": "1a0286f4d46a5c4c",
    "group": "support",
@@ -2029,23 +2505,6 @@ window.DASHBOARD_DATA = {
    "cc": [
     "support@tinkerhub.org",
     "akhil@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "support-855e19fd13",
-   "threadId": "1a029a998be98f06",
-   "group": "support",
-   "subject": "Error in Github repository adding",
-   "counterpart": "Ayan Hashique",
-   "email": "ayanhashique2006@gmail.com",
-   "received": "2026-08-22",
-   "last": "2026-08-22",
-   "status": "No response",
-   "note": "GitHub repo selection bug",
-   "daysOpen": 27,
-   "daysSinceReceived": 27,
-   "cc": [
-    "support@tinkerhub.org"
    ]
   },
   {
@@ -2251,494 +2710,34 @@ window.DASHBOARD_DATA = {
    "cc": [
     "support@tinkerhub.org"
    ]
-  },
-  {
-   "id": "finance-b503fadd37",
-   "threadId": "1a05675d215aba56",
-   "group": "finance",
-   "subject": "INVOICE - AUGUST 2026",
-   "counterpart": "Sindhu Associates",
-   "email": "hrdsss2007@gmail.com",
-   "received": "2026-08-31",
-   "last": "2026-08-31",
-   "status": "Resolved",
-   "note": "invoice Sol/34 paid, receipt sent",
-   "daysOpen": 0,
-   "daysSinceReceived": 18,
-   "cc": [
-    "finance@tinkerhub.org",
-    "eldho@tinkerhub.org",
-    "johnson@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "finance-c4c18e5732",
-   "threadId": "1a0571fc7c2856c5",
-   "group": "finance",
-   "subject": "Invoice for August, 2026",
-   "counterpart": "Chinnu Susan Varghese",
-   "email": "chinnnu.susan@gmail.com",
-   "received": "2026-08-31",
-   "last": "2026-09-02",
-   "status": "Resolved",
-   "note": "invoice INV-0039 paid, receipt sent",
-   "daysOpen": 2,
-   "daysSinceReceived": 18,
-   "cc": [
-    "finance@tinkerhub.org",
-    "mehar@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "finance-9e2ebb2b5a",
-   "threadId": "1a05d31ddc729f55",
-   "group": "finance",
-   "subject": "Fwd: AXIS BANK : Statement for period 01-04-2024 to 31-03-2025",
-   "counterpart": "Axis Bank (automated)",
-   "email": null,
-   "received": "2026-09-01",
-   "last": "2026-09-01",
-   "status": "Informational",
-   "note": "FY24-25 statement shared for records",
-   "daysOpen": 0,
-   "daysSinceReceived": 17,
-   "cc": [
-    "finance@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "finance-62d51bc572",
-   "threadId": "1a05d1eff96b20c7",
-   "group": "finance",
-   "subject": "MSG91 - Your MSG91 Subscription Renewal Summary",
-   "counterpart": "MSG91 (automated)",
-   "email": null,
-   "received": "2026-09-01",
-   "last": "2026-09-01",
-   "status": "Informational",
-   "note": "free plan auto-renewed, zero charged",
-   "daysOpen": 0,
-   "daysSinceReceived": 17,
-   "cc": [
-    "finance@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "finance-d25183bada",
-   "threadId": "1a05e51a21ec7878",
-   "group": "finance",
-   "subject": "Re-certification Required for Eligibility - TinkerHub Technology Innovation Foundation",
-   "counterpart": "Benevity (automated)",
-   "email": null,
-   "received": "2026-09-01",
-   "last": "2026-09-02",
-   "status": "Informational",
-   "note": "annual self-cert renewal due Nov 2026",
-   "daysOpen": 1,
-   "daysSinceReceived": 17,
-   "cc": [
-    "finance@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "finance-3b567ed2f3",
-   "threadId": "1a05d213c33ddb32",
-   "group": "finance",
-   "subject": "Request for Account Statement",
-   "counterpart": "Axis Bank",
-   "email": "oprh3577@axisbank.com",
-   "received": "2026-09-01",
-   "last": "2026-09-01",
-   "status": "Awaiting reply (from them)",
-   "note": "requested FY24-25 statement, awaiting bank",
-   "daysOpen": 17,
-   "daysSinceReceived": 17,
-   "cc": [
-    "finance@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "finance-27daac57aa",
-   "threadId": "1a0604dbcc3c2364",
-   "group": "finance",
-   "subject": "Amazon Web Services GST Invoice Available",
-   "counterpart": "Amazon Web Services (automated)",
-   "email": null,
-   "received": "2026-09-02",
-   "last": "2026-09-02",
-   "status": "Informational",
-   "note": "GST invoice available for download",
-   "daysOpen": 0,
-   "daysSinceReceived": 16,
-   "cc": [
-    "finance@tinkerhub.org",
-    "kolaambi@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "finance-0c649e65cb",
-   "threadId": "1a060b371008b9e2",
-   "group": "finance",
-   "subject": "Re: Tinkerhub | Q4 TDS Revision | FY 2025-26",
-   "counterpart": "R Rajan Associates",
-   "email": "rraca.kochi@gmail.com",
-   "received": "2026-09-02",
-   "last": "2026-09-16",
-   "status": "Resolved",
-   "note": "revised Q4 TDS return filed; acknowledgement (Form 26Q ARN) received from CA",
-   "daysOpen": 14,
-   "daysSinceReceived": 16,
-   "cc": [
-    "finance@tinkerhub.org",
-    "mehar@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "finance-3635f35f12",
-   "threadId": "1a07c2d2441f2d98",
-   "group": "finance",
-   "subject": "Kozhikode Shoot - Invoice",
-   "counterpart": "Cyril Luke Anish",
-   "email": "cyrilanish10@gmail.com",
-   "received": "2026-09-07",
-   "last": "2026-09-07",
-   "status": "No response",
-   "note": "invoice submitted for Kozhikode shoot, pending review/payment",
-   "daysOpen": 11,
-   "daysSinceReceived": 11,
-   "cc": [
-    "finance@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "finance-979ae0f4a4",
-   "threadId": "1a081f64794ec535",
-   "group": "finance",
-   "subject": "Invoice for Maker Survey",
-   "counterpart": "Sonal Kuruvilla (Nayaneethi Policy Collective)",
-   "email": "connect.npoc@gmail.com",
-   "received": "2026-09-08",
-   "last": "2026-09-09",
-   "status": "Resolved",
-   "note": "invoice \u20b99,440 paid, TDS deducted, receipt sent",
-   "daysOpen": 1,
-   "daysSinceReceived": 10,
-   "cc": [
-    "finance@tinkerhub.org",
-    "mehar@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "finance-410f35ae93",
-   "threadId": "1a07fe00d0471929",
-   "group": "finance",
-   "subject": "Low SMS balance - Ekuttan, MSG91!",
-   "counterpart": "MSG91 (automated)",
-   "email": null,
-   "received": "2026-09-08",
-   "last": "2026-09-08",
-   "status": "Informational",
-   "note": "SMS wallet balance low (999.92), add funds",
-   "daysOpen": 0,
-   "daysSinceReceived": 10,
-   "cc": [
-    "finance@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "finance-16d3d8f808",
-   "threadId": "1a08006739d0555a",
-   "group": "finance",
-   "subject": "Your receipt from Resend #2748-2663",
-   "counterpart": "Resend (automated)",
-   "email": null,
-   "received": "2026-09-08",
-   "last": "2026-09-08",
-   "status": "Informational",
-   "note": "$20 payment receipt, subscription charged",
-   "daysOpen": 0,
-   "daysSinceReceived": 10,
-   "cc": [
-    "finance@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "finance-410f35ae93",
-   "threadId": "1a086f1520581056",
-   "group": "finance",
-   "subject": "Low SMS balance - Ekuttan, MSG91!",
-   "counterpart": "MSG91 (automated)",
-   "email": null,
-   "received": "2026-09-09",
-   "last": "2026-09-09",
-   "status": "Informational",
-   "note": "SMS wallet balance low (Rs 499.84)",
-   "daysOpen": 0,
-   "daysSinceReceived": 9,
-   "cc": [
-    "finance@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "finance-410f35ae93",
-   "threadId": "1a08f3a6cb48d4e1",
-   "group": "finance",
-   "subject": "Low SMS balance - Ekuttan, MSG91!",
-   "counterpart": "MSG91 (automated)",
-   "email": null,
-   "received": "2026-09-11",
-   "last": "2026-09-12",
-   "status": "Informational",
-   "note": "SMS wallet balance low (Rs 9.83 as of latest alert), add funds",
-   "daysOpen": 1,
-   "daysSinceReceived": 7,
-   "cc": [
-    "finance@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "finance-410f35ae93",
-   "threadId": "1a0958f7d4070c13",
-   "group": "finance",
-   "subject": "Low SMS balance - Ekuttan, MSG91!",
-   "counterpart": "MSG91 (automated)",
-   "email": null,
-   "received": "2026-09-12",
-   "last": "2026-09-12",
-   "status": "Informational",
-   "note": "SMS wallet balance low (Rs 4999.76 as of latest alert, shortly after 5000 INR recharge)",
-   "daysOpen": 0,
-   "daysSinceReceived": 6,
-   "cc": [
-    "finance@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "finance-0b616a747a",
-   "threadId": "1a0958c063ec6064",
-   "group": "finance",
-   "subject": "Recharge at MSG91 - ekuttan (UN) - 5000 INR (amount) - successful!",
-   "counterpart": "MSG91 (automated)",
-   "email": null,
-   "received": "2026-09-12",
-   "last": "2026-09-12",
-   "status": "Informational",
-   "note": "SMS wallet recharge of 5000 INR (+900 INR tax) processed successfully",
-   "daysOpen": 0,
-   "daysSinceReceived": 6,
-   "cc": [
-    "finance@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "report-e614c9e992",
-   "threadId": "19fd7e0cc9b20c98",
-   "group": "report",
-   "subject": "(no subject)",
-   "counterpart": "Anosh John Ditto",
-   "email": "anoshjohnditto10@gmail.com",
-   "received": "2026-08-06",
-   "last": "2026-08-21",
-   "status": "Resolved",
-   "note": "closed - no substantive content from sender",
-   "daysOpen": 15,
-   "daysSinceReceived": 43,
-   "cc": [
-    "report@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "report-7608a88b9f",
-   "threadId": "1a033c3d3b6522c6",
-   "group": "report",
-   "subject": "Report: Unable to sign in and \"failed to send OTP\" error during mobile verification",
-   "counterpart": "Shani Nair",
-   "email": "shaninair781@gmail.com",
-   "received": "2026-08-24",
-   "last": "2026-08-24",
-   "status": "Awaiting reply (from them)",
-   "note": "forwarded to support team",
-   "daysOpen": 25,
-   "daysSinceReceived": 25,
-   "cc": [
-    "report@tinkerhub.org",
-    "support@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "report-d467652a9f",
-   "threadId": "1a037a3e72a46ef9",
-   "group": "report",
-   "subject": "Cannot login to page",
-   "counterpart": "Gouri ES",
-   "email": "gourishaju07@gmail.com",
-   "received": "2026-08-25",
-   "last": "2026-08-25",
-   "status": "Awaiting reply (from us)",
-   "note": "network switch didn't fix OTP issue",
-   "daysOpen": 24,
-   "daysSinceReceived": 24,
-   "cc": [
-    "akhil@tinkerhub.org",
-    "kurian@tinkerhub.org",
-    "support@tinkerhub.org",
-    "report@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "report-aa14764f2a",
-   "threadId": "1a042cdc25fcb5c6",
-   "group": "report",
-   "subject": "OTP Not Being Sent When Trying to Log In",
-   "counterpart": "Athul Benedict",
-   "email": "athulbenedict123@gmail.com",
-   "received": "2026-08-27",
-   "last": "2026-08-28",
-   "status": "Awaiting reply (from them)",
-   "note": "forwarded to support, awaiting fix",
-   "daysOpen": 22,
-   "daysSinceReceived": 22,
-   "cc": [
-    "report@tinkerhub.org",
-    "support@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "report-55409c5545",
-   "threadId": "1a064036048dfc40",
-   "group": "report",
-   "subject": "(no subject)",
-   "counterpart": "Fidha",
-   "email": "msx201700@gmail.com",
-   "received": "2026-09-02",
-   "last": "2026-09-02",
-   "status": "No response",
-   "note": "OTP login issue, no reply yet",
-   "daysOpen": 16,
-   "daysSinceReceived": 16,
-   "cc": [
-    "report@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "report-c626f2085e",
-   "threadId": "1a07f8adc7a282ef",
-   "group": "report",
-   "subject": "(no subject) \u2013 OTP request limit exceeded",
-   "counterpart": "Renil Augustine",
-   "email": "augustinerenil723@gmail.com",
-   "received": "2026-09-08",
-   "last": "2026-09-08",
-   "status": "Awaiting reply (from them)",
-   "note": "OTP limit exceeded, forwarded to support team",
-   "daysOpen": 10,
-   "daysSinceReceived": 10,
-   "cc": [
-    "report@tinkerhub.org",
-    "support@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "report-c5d20472ea",
-   "threadId": "1a07f972d58575c1",
-   "group": "report",
-   "subject": "OTP failing",
-   "counterpart": "Shaphen Binu Kuriakose",
-   "email": "shaphenbinukuriakose@gmail.com",
-   "received": "2026-09-08",
-   "last": "2026-09-09",
-   "status": "Awaiting reply (from them)",
-   "note": "OTP failure on login; tagged to support for handling",
-   "daysOpen": 10,
-   "daysSinceReceived": 10,
-   "cc": [
-    "report@tinkerhub.org",
-    "support@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "report-14807cce3a",
-   "threadId": "1a07f81e530dfb34",
-   "group": "report",
-   "subject": "Tinkerhub not sending OTP for login",
-   "counterpart": "Dev Anand VP",
-   "email": "blindinglucario@gmail.com",
-   "received": "2026-09-08",
-   "last": "2026-09-09",
-   "status": "Awaiting reply (from them)",
-   "note": "OTP not sending (too many requests); tagged to support for handling",
-   "daysOpen": 10,
-   "daysSinceReceived": 10,
-   "cc": [
-    "report@tinkerhub.org",
-    "support@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "campus-1cd246a1ae",
-   "threadId": "1a0b04f497f2dfed",
-   "group": "campus",
-   "subject": "Request for Extension \u2013 First-Year Coordinator Selection",
-   "counterpart": "Arya Venugopal (TinkerHub SNGCE)",
-   "email": "aryavenugopal2006@gmail.com",
-   "received": "2026-09-17",
-   "last": "2026-09-17",
-   "status": "No response",
-   "note": "campus lead requesting extension on First-Year Coordinator selection deadline",
-   "daysOpen": 1,
-   "daysSinceReceived": 1,
-   "cc": [
-    "campus@tinkerhub.org",
-    "femina@tinkerhub.org",
-    "habeeb@tinkerhub.org",
-    "kurian@tinkerhub.org",
-    "arundhathi@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "report-80ba999b95",
-   "threadId": "1a0b073d8ca35649",
-   "group": "report",
-   "subject": "Complaint regarding unwelcome conduct",
-   "counterpart": "Aiswarya Viswanath",
-   "email": "aiswaryaviswanath2007@gmail.com",
-   "received": "2026-09-17",
-   "last": "2026-09-17",
-   "status": "Awaiting reply (from them)",
-   "note": "misconduct complaint re: a mentor at Useless Projects 3.0 - acknowledged same day, investigation opened, update owed to complainant",
-   "daysOpen": 1,
-   "daysSinceReceived": 1,
-   "cc": [
-    "report@tinkerhub.org"
-   ]
   }
  ],
  "summary": {
   "Awaiting reply (from us)": 21,
-  "Resolved": 43,
-  "Awaiting reply (from them)": 48,
+  "Resolved": 44,
+  "Awaiting reply (from them)": 51,
   "Informational": 23,
-  "No response": 21
+  "No response": 17
  },
  "analytics": {
   "campus": {
    "total": 114,
    "statusCounts": {
     "Awaiting reply (from us)": 18,
-    "Resolved": 37,
-    "Awaiting reply (from them)": 41,
+    "Resolved": 38,
+    "Awaiting reply (from them)": 44,
     "Informational": 13,
-    "No response": 5
+    "No response": 1
    },
-   "avgOpenDays": 14.0,
+   "avgOpenDays": 14.2,
    "avgResolvedDays": 1.4
   },
   "finance": {
    "total": 16,
    "statusCounts": {
     "Resolved": 4,
-    "Informational": 10,
     "Awaiting reply (from them)": 1,
+    "Informational": 10,
     "No response": 1
    },
    "avgOpenDays": 14.0,
