@@ -1,76 +1,6 @@
 window.DASHBOARD_DATA = {
- "generatedAt": "2026-09-18T10:39:46Z",
+ "generatedAt": "2026-09-18T12:37:00Z",
  "threads": [
-  {
-   "id": "campus-2bfa647432",
-   "threadId": "19fc5b277d1d1530",
-   "group": "campus",
-   "subject": "Space for developer sprint",
-   "counterpart": "Akansha (Project Tech4Dev)",
-   "email": "akansha@projecttech4dev.org",
-   "received": "2026-08-03",
-   "last": "2026-09-15",
-   "status": "Awaiting reply (from us)",
-   "note": "asked to visit TinkerSpace with ~20 people this Thursday - awaiting our response",
-   "daysOpen": 46,
-   "daysSinceReceived": 46,
-   "cc": [
-    "campus@tinkerhub.org",
-    "habeeb@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "campus-4a09f3376a",
-   "threadId": "19fe126b92e57e89",
-   "group": "campus",
-   "subject": "Re: Invitation to TinkerOnam 2026 \u2013 August 22",
-   "counterpart": "Ananya Anand",
-   "email": "ananyaanandmenoth@gmail.com",
-   "received": "2026-08-08",
-   "last": "2026-08-21",
-   "status": "Resolved",
-   "note": "declined - prior commitments on event date",
-   "daysOpen": 13,
-   "daysSinceReceived": 41,
-   "cc": [
-    "campus@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "campus-af288aa227",
-   "threadId": "19fef734079841d1",
-   "group": "campus",
-   "subject": "Fwd: Regarding the change of role from Friends of Tinkerhub to student",
-   "counterpart": "Abi Alif",
-   "email": "abialifhere@gmail.com",
-   "received": "2026-08-11",
-   "last": "2026-08-30",
-   "status": "Awaiting reply (from us)",
-   "note": "we owe them: update account role from Friends of Tinkerhub to student (looped in support team Aug 30)",
-   "daysOpen": 38,
-   "daysSinceReceived": 38,
-   "cc": [
-    "campus@tinkerhub.org",
-    "support@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "campus-1abd5126bd",
-   "threadId": "19ffb8b081ba51ae",
-   "group": "campus",
-   "subject": "TinkerHub's Useless Projects is here!",
-   "counterpart": "Ananya Anand (Christ College)",
-   "email": "ananyaanandmenoth@gmail.com",
-   "received": "2026-08-13",
-   "last": "2026-08-27",
-   "status": "Awaiting reply (from them)",
-   "note": "asked Ananya to resubmit RSVP for Sept 12 daytime slot",
-   "daysOpen": 36,
-   "daysSinceReceived": 36,
-   "cc": [
-    "campus@tinkerhub.org"
-   ]
-  },
   {
    "id": "campus-0ef9da7b49",
    "threadId": "1a0242b27f0a51b2",
@@ -2261,23 +2191,6 @@ window.DASHBOARD_DATA = {
    ]
   },
   {
-   "id": "report-e614c9e992",
-   "threadId": "19fd7e0cc9b20c98",
-   "group": "report",
-   "subject": "(no subject)",
-   "counterpart": "Anosh John Ditto",
-   "email": "anoshjohnditto10@gmail.com",
-   "received": "2026-08-06",
-   "last": "2026-08-21",
-   "status": "Resolved",
-   "note": "closed - no substantive content from sender",
-   "daysOpen": 15,
-   "daysSinceReceived": 43,
-   "cc": [
-    "report@tinkerhub.org"
-   ]
-  },
-  {
    "id": "report-7608a88b9f",
    "threadId": "1a033c3d3b6522c6",
    "group": "report",
@@ -2419,23 +2332,6 @@ window.DASHBOARD_DATA = {
    "daysSinceReceived": 1,
    "cc": [
     "report@tinkerhub.org"
-   ]
-  },
-  {
-   "id": "support-8bac1bd4e1",
-   "threadId": "1a013c3f0bc11a1e",
-   "group": "support",
-   "subject": "Request to update college details \u2013 HLJP6V6755",
-   "counterpart": "Fidha Fathima",
-   "email": "ff080870@gmail.com",
-   "received": "2026-08-18",
-   "last": "2026-08-20",
-   "status": "Resolved",
-   "note": "college details updated",
-   "daysOpen": 2,
-   "daysSinceReceived": 31,
-   "cc": [
-    "support@tinkerhub.org"
    ]
   },
   {
@@ -2727,27 +2623,44 @@ window.DASHBOARD_DATA = {
    "cc": [
     "campus@tinkerhub.org"
    ]
+  },
+  {
+   "id": "campus-d30deac8b4",
+   "threadId": "1a0b482a9969f7b6",
+   "group": "campus",
+   "subject": "Leads Meeting \u2013 Sept 20, 7 PM",
+   "counterpart": "internal (Femina)",
+   "email": null,
+   "received": "2026-09-18",
+   "last": "2026-09-18",
+   "status": "Informational",
+   "note": "leads meeting Sept 20 7pm - mandatory; agenda: Useless Projects catchup, Oct-Nov theme announcement, FYC/faculty onboarding, TinkerTalks",
+   "daysOpen": 0,
+   "daysSinceReceived": 0,
+   "cc": [
+    "campus@tinkerhub.org"
+   ]
   }
  ],
  "summary": {
-  "Awaiting reply (from us)": 21,
-  "Resolved": 45,
-  "Awaiting reply (from them)": 51,
-  "Informational": 23,
+  "Awaiting reply (from us)": 19,
+  "Awaiting reply (from them)": 50,
+  "Informational": 24,
+  "Resolved": 42,
   "No response": 17
  },
  "analytics": {
   "campus": {
-   "total": 115,
+   "total": 112,
    "byStatus": {
-    "Awaiting reply (from us)": 18,
-    "Resolved": 39,
-    "Awaiting reply (from them)": 44,
-    "Informational": 13,
+    "Awaiting reply (from us)": 16,
+    "Awaiting reply (from them)": 43,
+    "Informational": 14,
+    "Resolved": 38,
     "No response": 1
    },
-   "avgOpenDays": 14.2,
-   "avgResolvedDays": 1.4
+   "avgOpenDays": 12.9,
+   "avgResolvedDays": 1.1
   },
   "finance": {
    "total": 16,
@@ -2761,25 +2674,23 @@ window.DASHBOARD_DATA = {
    "avgResolvedDays": 4.2
   },
   "report": {
-   "total": 9,
+   "total": 8,
    "byStatus": {
-    "Resolved": 1,
     "Awaiting reply (from them)": 6,
     "Awaiting reply (from us)": 1,
     "No response": 1
    },
    "avgOpenDays": 14.8,
-   "avgResolvedDays": 15.0
+   "avgResolvedDays": null
   },
   "support": {
-   "total": 17,
+   "total": 16,
    "byStatus": {
-    "Resolved": 1,
     "No response": 14,
     "Awaiting reply (from us)": 2
    },
    "avgOpenDays": 17.5,
-   "avgResolvedDays": 2.0
+   "avgResolvedDays": null
   }
  }
 };
