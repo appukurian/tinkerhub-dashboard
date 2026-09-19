@@ -1,7 +1,7 @@
 // Auto-generated daily by .github/workflows/discord-update.yml
 // Do NOT hand-edit — this file is overwritten on each run.
 window.DISCORD_DATA = {
-  "generatedAt": "2026-09-19T07:27:48Z",
+  "generatedAt": "2026-09-19T12:36:34Z",
   "threads": [
     {
       "id": "1550538552993906779",
@@ -40,9 +40,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Open to everyone event cant acess by anyone",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537863027876171786",
-        "snippet": "<@1070350884216766464> was this event created as an invite only event ?"
+        "fromThreadName": "Forgot to Check in",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537819501901381672",
+        "snippet": "Hi <@925620797471592449> As mentioned earlier, we will not be checking in students manually unless there is a genuine reason."
       }
     },
     {
@@ -93,8 +93,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-12",
       "last": "2026-09-15",
       "resolvedAt": "2026-09-12",
-      "daysOpen": 3,
-      "daysSinceReceived": 6,
+      "daysOpen": 4,
+      "daysSinceReceived": 7,
       "daysToClose": 0,
       "messageCount": 4,
       "archived": false,
@@ -112,7 +112,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-11",
       "last": "2026-09-15",
       "resolvedAt": "2026-09-11",
-      "daysOpen": 3,
+      "daysOpen": 4,
       "daysSinceReceived": 7,
       "daysToClose": 0,
       "messageCount": 4,
@@ -131,8 +131,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-11",
       "last": "2026-09-15",
       "resolvedAt": "2026-09-11",
-      "daysOpen": 3,
-      "daysSinceReceived": 7,
+      "daysOpen": 4,
+      "daysSinceReceived": 8,
       "daysToClose": 0,
       "messageCount": 5,
       "archived": false,
@@ -150,7 +150,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-11",
       "last": "2026-09-15",
       "resolvedAt": "2026-09-11",
-      "daysOpen": 3,
+      "daysOpen": 4,
       "daysSinceReceived": 8,
       "daysToClose": 0,
       "messageCount": 5,
@@ -169,7 +169,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-10",
       "last": "2026-09-15",
       "resolvedAt": "2026-09-10",
-      "daysOpen": 3,
+      "daysOpen": 4,
       "daysSinceReceived": 8,
       "daysToClose": 0,
       "messageCount": 4,
@@ -177,9 +177,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Open to everyone event cant acess by anyone",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537863027876171786",
-        "snippet": "<@1070350884216766464> was this event created as an invite only event ?"
+        "fromThreadName": "Forgot to Check in",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537819501901381672",
+        "snippet": "Hi <@925620797471592449> As mentioned earlier, we will not be checking in students manually unless there is a genuine reason."
       }
     },
     {
@@ -250,7 +250,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-11",
       "resolvedAt": "2026-09-08",
       "daysOpen": 7,
-      "daysSinceReceived": 10,
+      "daysSinceReceived": 11,
       "daysToClose": 0,
       "messageCount": 6,
       "archived": false,
@@ -344,7 +344,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 8,
+      "daysOpen": 9,
       "daysSinceReceived": 9,
       "daysToClose": 0,
       "messageCount": 1,
@@ -363,8 +363,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 8,
-      "daysSinceReceived": 9,
+      "daysOpen": 9,
+      "daysSinceReceived": 10,
       "daysToClose": 0,
       "messageCount": 6,
       "archived": false,
@@ -382,8 +382,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-08",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-08",
-      "daysOpen": 8,
-      "daysSinceReceived": 10,
+      "daysOpen": 9,
+      "daysSinceReceived": 11,
       "daysToClose": 0,
       "messageCount": 3,
       "archived": false,
@@ -401,7 +401,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-08",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-08",
-      "daysOpen": 8,
+      "daysOpen": 9,
       "daysSinceReceived": 11,
       "daysToClose": 0,
       "messageCount": 4,
@@ -478,7 +478,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
       "daysOpen": 9,
-      "daysSinceReceived": 9,
+      "daysSinceReceived": 10,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -504,9 +504,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Open to everyone event cant acess by anyone",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537863027876171786",
-        "snippet": "<@1070350884216766464> was this event created as an invite only event ?"
+        "fromThreadName": "Forgot to Check in",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537819501901381672",
+        "snippet": "Hi <@925620797471592449> As mentioned earlier, we will not be checking in students manually unless there is a genuine reason."
       }
     },
     {
@@ -595,7 +595,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-07",
       "last": "2026-09-08",
       "resolvedAt": "2026-09-07",
-      "daysOpen": 10,
+      "daysOpen": 11,
       "daysSinceReceived": 11,
       "daysToClose": 0,
       "messageCount": 5,
@@ -653,7 +653,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-09-05",
       "daysOpen": 11,
-      "daysSinceReceived": 13,
+      "daysSinceReceived": 14,
       "daysToClose": 0,
       "messageCount": 12,
       "archived": false,
@@ -671,7 +671,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-03",
       "last": "2026-09-08",
       "resolvedAt": "2026-09-03",
-      "daysOpen": 10,
+      "daysOpen": 11,
       "daysSinceReceived": 15,
       "daysToClose": 0,
       "messageCount": 1,
@@ -690,7 +690,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-02",
       "last": "2026-09-08",
       "resolvedAt": "2026-09-02",
-      "daysOpen": 10,
+      "daysOpen": 11,
       "daysSinceReceived": 17,
       "daysToClose": 0,
       "messageCount": 2,
@@ -709,7 +709,7 @@ window.DISCORD_DATA = {
       "received": "2026-08-30",
       "last": "2026-09-08",
       "resolvedAt": "2026-08-30",
-      "daysOpen": 10,
+      "daysOpen": 11,
       "daysSinceReceived": 19,
       "daysToClose": 0,
       "messageCount": 7,
@@ -728,7 +728,7 @@ window.DISCORD_DATA = {
       "received": "2026-08-18",
       "last": "2026-09-08",
       "resolvedAt": "2026-08-18",
-      "daysOpen": 10,
+      "daysOpen": 11,
       "daysSinceReceived": 32,
       "daysToClose": 0,
       "messageCount": 5,
@@ -747,8 +747,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-07",
       "last": "2026-09-07",
       "resolvedAt": "2026-09-07",
-      "daysOpen": 11,
-      "daysSinceReceived": 11,
+      "daysOpen": 12,
+      "daysSinceReceived": 12,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -767,7 +767,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-07",
       "resolvedAt": "2026-09-07",
       "daysOpen": 11,
-      "daysSinceReceived": 11,
+      "daysSinceReceived": 12,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -804,7 +804,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-06",
       "last": "2026-09-06",
       "resolvedAt": "2026-09-06",
-      "daysOpen": 12,
+      "daysOpen": 13,
       "daysSinceReceived": 13,
       "daysToClose": 0,
       "messageCount": 2,
@@ -823,8 +823,8 @@ window.DISCORD_DATA = {
       "received": "2026-08-25",
       "last": "2026-09-06",
       "resolvedAt": "2026-08-25",
-      "daysOpen": 12,
-      "daysSinceReceived": 24,
+      "daysOpen": 13,
+      "daysSinceReceived": 25,
       "daysToClose": 0,
       "messageCount": 10,
       "archived": false,
@@ -881,7 +881,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-04",
       "resolvedAt": "2026-09-03",
       "daysOpen": 15,
-      "daysSinceReceived": 15,
+      "daysSinceReceived": 16,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -937,7 +937,7 @@ window.DISCORD_DATA = {
       "received": "2026-08-21",
       "last": "2026-09-02",
       "resolvedAt": "2026-08-21",
-      "daysOpen": 16,
+      "daysOpen": 17,
       "daysSinceReceived": 29,
       "daysToClose": 0,
       "messageCount": 9,
@@ -995,7 +995,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-01",
       "resolvedAt": "2026-08-27",
       "daysOpen": 17,
-      "daysSinceReceived": 22,
+      "daysSinceReceived": 23,
       "daysToClose": 0,
       "messageCount": 7,
       "archived": false,
@@ -1059,9 +1059,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Open to everyone event cant acess by anyone",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537863027876171786",
-        "snippet": "<@1070350884216766464> was this event created as an invite only event ?"
+        "fromThreadName": "Forgot to Check in",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537819501901381672",
+        "snippet": "Hi <@925620797471592449> As mentioned earlier, we will not be checking in students manually unless there is a genuine reason."
       }
     },
     {
@@ -1074,8 +1074,8 @@ window.DISCORD_DATA = {
       "received": "2026-08-30",
       "last": "2026-08-30",
       "resolvedAt": "2026-08-30",
-      "daysOpen": 19,
-      "daysSinceReceived": 19,
+      "daysOpen": 20,
+      "daysSinceReceived": 20,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -1177,9 +1177,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Open to everyone event cant acess by anyone",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537863027876171786",
-        "snippet": "<@1070350884216766464> was this event created as an invite only event ?"
+        "fromThreadName": "Forgot to Check in",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537819501901381672",
+        "snippet": "Hi <@925620797471592449> As mentioned earlier, we will not be checking in students manually unless there is a genuine reason."
       }
     },
     {
@@ -1211,8 +1211,8 @@ window.DISCORD_DATA = {
       "received": "2026-08-27",
       "last": "2026-08-27",
       "resolvedAt": "2026-08-27",
-      "daysOpen": 22,
-      "daysSinceReceived": 22,
+      "daysOpen": 23,
+      "daysSinceReceived": 23,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -1231,7 +1231,7 @@ window.DISCORD_DATA = {
       "last": "2026-08-27",
       "resolvedAt": "2026-08-26",
       "daysOpen": 23,
-      "daysSinceReceived": 23,
+      "daysSinceReceived": 24,
       "daysToClose": 0,
       "messageCount": 3,
       "archived": false,
@@ -1257,9 +1257,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Open to everyone event cant acess by anyone",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537863027876171786",
-        "snippet": "<@1070350884216766464> was this event created as an invite only event ?"
+        "fromThreadName": "Forgot to Check in",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537819501901381672",
+        "snippet": "Hi <@925620797471592449> As mentioned earlier, we will not be checking in students manually unless there is a genuine reason."
       }
     },
     {
@@ -1311,7 +1311,7 @@ window.DISCORD_DATA = {
       "last": "2026-08-26",
       "resolvedAt": "2026-08-25",
       "daysOpen": 24,
-      "daysSinceReceived": 24,
+      "daysSinceReceived": 25,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -1329,7 +1329,7 @@ window.DISCORD_DATA = {
       "received": "2026-08-16",
       "last": "2026-08-26",
       "resolvedAt": "2026-08-16",
-      "daysOpen": 23,
+      "daysOpen": 24,
       "daysSinceReceived": 34,
       "daysToClose": 0,
       "messageCount": 4,
@@ -1337,9 +1337,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Open to everyone event cant acess by anyone",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537863027876171786",
-        "snippet": "<@1070350884216766464> was this event created as an invite only event ?"
+        "fromThreadName": "Forgot to Check in",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537819501901381672",
+        "snippet": "Hi <@925620797471592449> As mentioned earlier, we will not be checking in students manually unless there is a genuine reason."
       }
     },
     {
@@ -1371,7 +1371,7 @@ window.DISCORD_DATA = {
       "received": "2026-08-17",
       "last": "2026-08-25",
       "resolvedAt": "2026-08-17",
-      "daysOpen": 24,
+      "daysOpen": 25,
       "daysSinceReceived": 32,
       "daysToClose": 0,
       "messageCount": 11,
@@ -1409,8 +1409,8 @@ window.DISCORD_DATA = {
       "received": "2026-08-24",
       "last": "2026-08-24",
       "resolvedAt": "2026-08-24",
-      "daysOpen": 25,
-      "daysSinceReceived": 25,
+      "daysOpen": 26,
+      "daysSinceReceived": 26,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -1447,8 +1447,8 @@ window.DISCORD_DATA = {
       "received": "2026-08-23",
       "last": "2026-08-23",
       "resolvedAt": "2026-08-23",
-      "daysOpen": 26,
-      "daysSinceReceived": 26,
+      "daysOpen": 27,
+      "daysSinceReceived": 27,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -1466,8 +1466,8 @@ window.DISCORD_DATA = {
       "received": "2026-08-23",
       "last": "2026-08-23",
       "resolvedAt": "2026-08-23",
-      "daysOpen": 26,
-      "daysSinceReceived": 26,
+      "daysOpen": 27,
+      "daysSinceReceived": 27,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -1485,7 +1485,7 @@ window.DISCORD_DATA = {
       "received": "2026-08-14",
       "last": "2026-08-23",
       "resolvedAt": "2026-08-14",
-      "daysOpen": 26,
+      "daysOpen": 27,
       "daysSinceReceived": 35,
       "daysToClose": 0,
       "messageCount": 4,
@@ -1531,9 +1531,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Open to everyone event cant acess by anyone",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537863027876171786",
-        "snippet": "<@1070350884216766464> was this event created as an invite only event ?"
+        "fromThreadName": "Forgot to Check in",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537819501901381672",
+        "snippet": "Hi <@925620797471592449> As mentioned earlier, we will not be checking in students manually unless there is a genuine reason."
       }
     },
     {
@@ -1573,9 +1573,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Open to everyone event cant acess by anyone",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537863027876171786",
-        "snippet": "<@1070350884216766464> was this event created as an invite only event ?"
+        "fromThreadName": "Forgot to Check in",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537819501901381672",
+        "snippet": "Hi <@925620797471592449> As mentioned earlier, we will not be checking in students manually unless there is a genuine reason."
       }
     },
     {
@@ -1627,16 +1627,16 @@ window.DISCORD_DATA = {
       "last": "2026-08-21",
       "resolvedAt": "2026-08-08",
       "daysOpen": 28,
-      "daysSinceReceived": 41,
+      "daysSinceReceived": 42,
       "daysToClose": 0,
       "messageCount": 3,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Open to everyone event cant acess by anyone",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537863027876171786",
-        "snippet": "<@1070350884216766464> was this event created as an invite only event ?"
+        "fromThreadName": "Forgot to Check in",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537819501901381672",
+        "snippet": "Hi <@925620797471592449> As mentioned earlier, we will not be checking in students manually unless there is a genuine reason."
       }
     },
     {
@@ -1668,7 +1668,7 @@ window.DISCORD_DATA = {
       "received": "2026-08-01",
       "last": "2026-08-21",
       "resolvedAt": "2026-08-01",
-      "daysOpen": 28,
+      "daysOpen": 29,
       "daysSinceReceived": 48,
       "daysToClose": 0,
       "messageCount": 14,
@@ -1706,7 +1706,7 @@ window.DISCORD_DATA = {
       "received": "2026-07-24",
       "last": "2026-08-21",
       "resolvedAt": "2026-07-24",
-      "daysOpen": 28,
+      "daysOpen": 29,
       "daysSinceReceived": 56,
       "daysToClose": 0,
       "messageCount": 5,
@@ -1792,29 +1792,6 @@ window.DISCORD_DATA = {
       "suggestion": null
     },
     {
-      "id": "1537819501901381672",
-      "name": "Forgot to Check in",
-      "url": "https://discord.com/channels/735180366297563257/1537819501901381672",
-      "status": "Awaiting reply (from them)",
-      "category": "Event/Activity check-in & reporting",
-      "requester": "Baasit",
-      "received": "2026-08-14",
-      "last": "2026-08-20",
-      "resolvedAt": "2026-08-14",
-      "daysOpen": 29,
-      "daysSinceReceived": 35,
-      "daysToClose": 0,
-      "messageCount": 6,
-      "archived": false,
-      "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Open to everyone event cant acess by anyone",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537863027876171786",
-        "snippet": "<@1070350884216766464> was this event created as an invite only event ?"
-      }
-    },
-    {
       "id": "1536368897492787241",
       "name": "Event Deletion",
       "url": "https://discord.com/channels/735180366297563257/1536368897492787241",
@@ -1832,9 +1809,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Open to everyone event cant acess by anyone",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537863027876171786",
-        "snippet": "<@1070350884216766464> was this event created as an invite only event ?"
+        "fromThreadName": "Forgot to Check in",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537819501901381672",
+        "snippet": "Hi <@925620797471592449> As mentioned earlier, we will not be checking in students manually unless there is a genuine reason."
       }
     },
     {
@@ -1855,10 +1832,29 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Open to everyone event cant acess by anyone",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537863027876171786",
-        "snippet": "<@1070350884216766464> was this event created as an invite only event ?"
+        "fromThreadName": "Forgot to Check in",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537819501901381672",
+        "snippet": "Hi <@925620797471592449> As mentioned earlier, we will not be checking in students manually unless there is a genuine reason."
       }
+    },
+    {
+      "id": "1537819501901381672",
+      "name": "Forgot to Check in",
+      "url": "https://discord.com/channels/735180366297563257/1537819501901381672",
+      "status": "Resolved",
+      "category": "Event/Activity check-in & reporting",
+      "requester": "Baasit",
+      "received": "2026-08-14",
+      "last": "2026-08-20",
+      "resolvedAt": "2026-09-19",
+      "daysOpen": 30,
+      "daysSinceReceived": 35,
+      "daysToClose": 35,
+      "messageCount": 6,
+      "archived": true,
+      "locked": false,
+      "resolutionSnippet": "Hi <@925620797471592449> As mentioned earlier, we will not be checking in students manually unless there is a genuine reason.",
+      "suggestion": null
     },
     {
       "id": "1539957155543654510",
@@ -12884,11 +12880,11 @@ window.DISCORD_DATA = {
   "summary": {
     "No response": 30,
     "Awaiting reply (from us)": 33,
-    "Awaiting reply (from them)": 21,
-    "Resolved": 591
+    "Awaiting reply (from them)": 20,
+    "Resolved": 592
   },
-  "avgOpenDays": 15.3,
-  "avgDaysToClose": 10.7,
+  "avgOpenDays": 15.5,
+  "avgDaysToClose": 10.8,
   "topCategories": [
     {
       "category": "Event/Activity check-in & reporting",
