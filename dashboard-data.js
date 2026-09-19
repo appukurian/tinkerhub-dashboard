@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
- "generatedAt": "2026-09-19T10:40:00Z",
+ "generatedAt": "2026-09-19T12:42:00Z",
  "threads": [
   {
    "id": "campus-0ef9da7b49",
@@ -2236,9 +2236,9 @@ window.DASHBOARD_DATA = {
    "counterpart": "Athul Benedict",
    "email": "athulbenedict123@gmail.com",
    "received": "2026-08-27",
-   "last": "2026-08-28",
+   "last": "2026-09-19",
    "status": "Awaiting reply (from them)",
-   "note": "forwarded to support, awaiting fix",
+   "note": "Akhil confirmed the login issue is resolved; awaiting Athul to confirm it works on his end",
    "daysOpen": 23,
    "daysSinceReceived": 23,
    "cc": [
@@ -2729,23 +2729,6 @@ window.DASHBOARD_DATA = {
    ]
   },
   {
-   "id": "support-8bac1bd4e1",
-   "threadId": "1a013c3f0bc11a1e",
-   "group": "support",
-   "subject": "Request to update college details – HLJP6V6755",
-   "counterpart": "Fidha Fathima",
-   "email": "ff080870@gmail.com",
-   "received": "2026-08-18",
-   "last": "2026-08-20",
-   "status": "Resolved",
-   "note": "College details updated to College of Engineering Trivandrum",
-   "daysOpen": 2,
-   "daysSinceReceived": 32,
-   "cc": [
-    "support@tinkerhub.org"
-   ]
-  },
-  {
    "id": "report-8c496051f8",
    "threadId": "19fd7e0cc9b20c98",
    "group": "report",
@@ -2784,7 +2767,7 @@ window.DASHBOARD_DATA = {
   "Awaiting reply (from us)": 23,
   "Awaiting reply (from them)": 51,
   "Informational": 24,
-  "Resolved": 46,
+  "Resolved": 45,
   "No response": 16
  },
  "analytics": {
@@ -2797,19 +2780,18 @@ window.DASHBOARD_DATA = {
     "Resolved": 40,
     "No response": 1
    },
-   "avgOpenDays": 15,
+   "avgOpenDays": 15.0,
    "avgResolvedDays": 1.4
   },
   "support": {
-   "total": 17,
+   "total": 16,
    "statusCounts": {
     "No response": 13,
     "Awaiting reply (from us)": 2,
-    "Awaiting reply (from them)": 1,
-    "Resolved": 1
+    "Awaiting reply (from them)": 1
    },
    "avgOpenDays": 18.5,
-   "avgResolvedDays": 2
+   "avgResolvedDays": 0
   },
   "finance": {
    "total": 16,
@@ -2819,8 +2801,8 @@ window.DASHBOARD_DATA = {
     "Informational": 10,
     "No response": 1
    },
-   "avgOpenDays": 15,
-   "avgResolvedDays": 4.3
+   "avgOpenDays": 15.0,
+   "avgResolvedDays": 4.2
   },
   "report": {
    "total": 9,
@@ -2831,7 +2813,7 @@ window.DASHBOARD_DATA = {
     "Resolved": 1
    },
    "avgOpenDays": 15.8,
-   "avgResolvedDays": 15
+   "avgResolvedDays": 15.0
   }
  }
 };
