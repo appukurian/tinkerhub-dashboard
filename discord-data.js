@@ -1,8 +1,27 @@
 // Auto-generated daily by .github/workflows/discord-update.yml
 // Do NOT hand-edit — this file is overwritten on each run.
 window.DISCORD_DATA = {
-  "generatedAt": "2026-09-20T13:08:40Z",
+  "generatedAt": "2026-09-20T17:33:58Z",
   "threads": [
+    {
+      "id": "1551239187758456974",
+      "name": "This event couldn\u2019t be conducted and we couldn\u2019t cancel this, a duplicate of the the same event exis",
+      "url": "https://discord.com/channels/735180366297563257/1551239187758456974",
+      "status": "No response",
+      "category": "Role/tag display bugs",
+      "requester": "Nayan Keshav",
+      "received": "2026-09-20",
+      "last": "2026-09-20",
+      "resolvedAt": "2026-09-20",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "daysToClose": 0,
+      "messageCount": 0,
+      "archived": false,
+      "locked": false,
+      "resolutionSnippet": "",
+      "suggestion": null
+    },
     {
       "id": "1551138140188844093",
       "name": "Request to delete event",
@@ -21,9 +40,32 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Event Deletion",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1536210374548922368",
-        "snippet": "This thread is closed by <@1012977379209125908>."
+        "fromThreadName": "need to remove a person from an event",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1540405830430756965",
+        "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
+      }
+    },
+    {
+      "id": "1547642046691680327",
+      "name": "Mistake had happened event creation time",
+      "url": "https://discord.com/channels/735180366297563257/1547642046691680327",
+      "status": "Awaiting reply (from us)",
+      "category": "Event/Activity check-in & reporting",
+      "requester": "Anupama Anil",
+      "received": "2026-09-10",
+      "last": "2026-09-20",
+      "resolvedAt": "2026-09-10",
+      "daysOpen": 0,
+      "daysSinceReceived": 10,
+      "daysToClose": 0,
+      "messageCount": 5,
+      "archived": false,
+      "locked": false,
+      "resolutionSnippet": "",
+      "suggestion": {
+        "fromThreadName": "need to remove a person from an event",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1540405830430756965",
+        "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
       }
     },
     {
@@ -44,9 +86,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Event Deletion",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1536210374548922368",
-        "snippet": "This thread is closed by <@1012977379209125908>."
+        "fromThreadName": "need to remove a person from an event",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1540405830430756965",
+        "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
       }
     },
     {
@@ -59,8 +101,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-18",
       "last": "2026-09-18",
       "resolvedAt": "2026-09-18",
-      "daysOpen": 1,
-      "daysSinceReceived": 1,
+      "daysOpen": 2,
+      "daysSinceReceived": 2,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -78,17 +120,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-18",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 1,
-      "daysSinceReceived": 10,
+      "daysOpen": 2,
+      "daysSinceReceived": 11,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Event Deletion",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1536210374548922368",
-        "snippet": "This thread is closed by <@1012977379209125908>."
+        "fromThreadName": "need to remove a person from an event",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1540405830430756965",
+        "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
       }
     },
     {
@@ -102,7 +144,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-16",
       "resolvedAt": "2026-09-13",
       "daysOpen": 4,
-      "daysSinceReceived": 6,
+      "daysSinceReceived": 7,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -204,29 +246,6 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": null
-    },
-    {
-      "id": "1547642046691680327",
-      "name": "Mistake had happened event creation time",
-      "url": "https://discord.com/channels/735180366297563257/1547642046691680327",
-      "status": "Awaiting reply (from them)",
-      "category": "Event/Activity check-in & reporting",
-      "requester": "Anupama Anil",
-      "received": "2026-09-10",
-      "last": "2026-09-15",
-      "resolvedAt": "2026-09-10",
-      "daysOpen": 5,
-      "daysSinceReceived": 9,
-      "daysToClose": 0,
-      "messageCount": 4,
-      "archived": false,
-      "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Event Deletion",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1536210374548922368",
-        "snippet": "This thread is closed by <@1012977379209125908>."
-      }
     },
     {
       "id": "1548205544861335572",
@@ -333,8 +352,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-10",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-10",
-      "daysOpen": 9,
-      "daysSinceReceived": 9,
+      "daysOpen": 10,
+      "daysSinceReceived": 10,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -352,8 +371,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-10",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-10",
-      "daysOpen": 9,
-      "daysSinceReceived": 9,
+      "daysOpen": 10,
+      "daysSinceReceived": 10,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -391,7 +410,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-10",
       "resolvedAt": "2026-09-09",
       "daysOpen": 10,
-      "daysSinceReceived": 10,
+      "daysSinceReceived": 11,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -466,8 +485,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 10,
-      "daysSinceReceived": 10,
+      "daysOpen": 11,
+      "daysSinceReceived": 11,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -485,8 +504,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 10,
-      "daysSinceReceived": 10,
+      "daysOpen": 11,
+      "daysSinceReceived": 11,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -504,8 +523,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 10,
-      "daysSinceReceived": 10,
+      "daysOpen": 11,
+      "daysSinceReceived": 11,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -550,9 +569,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Event Deletion",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1536210374548922368",
-        "snippet": "This thread is closed by <@1012977379209125908>."
+        "fromThreadName": "need to remove a person from an event",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1540405830430756965",
+        "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
       }
     },
     {
@@ -565,8 +584,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-04",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-04",
-      "daysOpen": 10,
-      "daysSinceReceived": 15,
+      "daysOpen": 11,
+      "daysSinceReceived": 16,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -603,17 +622,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-08",
       "last": "2026-09-08",
       "resolvedAt": "2026-09-08",
-      "daysOpen": 11,
-      "daysSinceReceived": 11,
+      "daysOpen": 12,
+      "daysSinceReceived": 12,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Unable to Access TinkerHub Foundation Discord Server",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1533128737640546547",
-        "snippet": "Okay Thank you"
+        "fromThreadName": "Put an event for review but not showing a thread in discord",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1539683139457392781",
+        "snippet": "Actually i got the approval on the day of the event thankd"
       }
     },
     {
@@ -627,7 +646,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-09-07",
       "daysOpen": 12,
-      "daysSinceReceived": 12,
+      "daysSinceReceived": 13,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -646,7 +665,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-09-07",
       "daysOpen": 12,
-      "daysSinceReceived": 12,
+      "daysSinceReceived": 13,
       "daysToClose": 0,
       "messageCount": 5,
       "archived": false,
@@ -665,7 +684,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-09-07",
       "daysOpen": 12,
-      "daysSinceReceived": 12,
+      "daysSinceReceived": 13,
       "daysToClose": 0,
       "messageCount": 7,
       "archived": false,
@@ -722,7 +741,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-09-03",
       "daysOpen": 12,
-      "daysSinceReceived": 16,
+      "daysSinceReceived": 17,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -760,7 +779,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-08-30",
       "daysOpen": 12,
-      "daysSinceReceived": 20,
+      "daysSinceReceived": 21,
       "daysToClose": 0,
       "messageCount": 7,
       "archived": false,
@@ -836,7 +855,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-07",
       "resolvedAt": "2026-09-01",
       "daysOpen": 13,
-      "daysSinceReceived": 18,
+      "daysSinceReceived": 19,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -950,7 +969,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-04",
       "resolvedAt": "2026-08-29",
       "daysOpen": 15,
-      "daysSinceReceived": 21,
+      "daysSinceReceived": 22,
       "daysToClose": 0,
       "messageCount": 4,
       "archived": false,
@@ -968,8 +987,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-03",
       "last": "2026-09-03",
       "resolvedAt": "2026-09-03",
-      "daysOpen": 16,
-      "daysSinceReceived": 16,
+      "daysOpen": 17,
+      "daysSinceReceived": 17,
       "daysToClose": 0,
       "messageCount": 3,
       "archived": false,
@@ -1006,8 +1025,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-01",
       "last": "2026-09-01",
       "resolvedAt": "2026-09-01",
-      "daysOpen": 18,
-      "daysSinceReceived": 18,
+      "daysOpen": 19,
+      "daysSinceReceived": 19,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -1044,7 +1063,7 @@ window.DISCORD_DATA = {
       "received": "2026-08-27",
       "last": "2026-09-01",
       "resolvedAt": "2026-08-27",
-      "daysOpen": 18,
+      "daysOpen": 19,
       "daysSinceReceived": 24,
       "daysToClose": 0,
       "messageCount": 7,
@@ -1063,8 +1082,8 @@ window.DISCORD_DATA = {
       "received": "2026-08-31",
       "last": "2026-08-31",
       "resolvedAt": "2026-08-31",
-      "daysOpen": 19,
-      "daysSinceReceived": 19,
+      "daysOpen": 20,
+      "daysSinceReceived": 20,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -1109,9 +1128,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Event Deletion",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1536210374548922368",
-        "snippet": "This thread is closed by <@1012977379209125908>."
+        "fromThreadName": "need to remove a person from an event",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1540405830430756965",
+        "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
       }
     },
     {
@@ -1162,8 +1181,8 @@ window.DISCORD_DATA = {
       "received": "2026-08-29",
       "last": "2026-08-29",
       "resolvedAt": "2026-08-29",
-      "daysOpen": 21,
-      "daysSinceReceived": 21,
+      "daysOpen": 22,
+      "daysSinceReceived": 22,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -1181,8 +1200,8 @@ window.DISCORD_DATA = {
       "received": "2026-08-29",
       "last": "2026-08-29",
       "resolvedAt": "2026-08-29",
-      "daysOpen": 21,
-      "daysSinceReceived": 21,
+      "daysOpen": 22,
+      "daysSinceReceived": 22,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -1200,8 +1219,8 @@ window.DISCORD_DATA = {
       "received": "2026-08-28",
       "last": "2026-08-28",
       "resolvedAt": "2026-08-28",
-      "daysOpen": 22,
-      "daysSinceReceived": 22,
+      "daysOpen": 23,
+      "daysSinceReceived": 23,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -1227,9 +1246,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Event Deletion",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1536210374548922368",
-        "snippet": "This thread is closed by <@1012977379209125908>."
+        "fromThreadName": "need to remove a person from an event",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1540405830430756965",
+        "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
       }
     },
     {
@@ -1300,16 +1319,16 @@ window.DISCORD_DATA = {
       "last": "2026-08-27",
       "resolvedAt": "2026-08-23",
       "daysOpen": 24,
-      "daysSinceReceived": 27,
+      "daysSinceReceived": 28,
       "daysToClose": 0,
       "messageCount": 7,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Event Deletion",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1536210374548922368",
-        "snippet": "This thread is closed by <@1012977379209125908>."
+        "fromThreadName": "need to remove a person from an event",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1540405830430756965",
+        "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
       }
     },
     {
@@ -1387,9 +1406,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Event Deletion",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1536210374548922368",
-        "snippet": "This thread is closed by <@1012977379209125908>."
+        "fromThreadName": "need to remove a person from an event",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1540405830430756965",
+        "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
       }
     },
     {
@@ -1402,8 +1421,8 @@ window.DISCORD_DATA = {
       "received": "2026-08-24",
       "last": "2026-08-25",
       "resolvedAt": "2026-08-24",
-      "daysOpen": 25,
-      "daysSinceReceived": 26,
+      "daysOpen": 26,
+      "daysSinceReceived": 27,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -1422,16 +1441,16 @@ window.DISCORD_DATA = {
       "last": "2026-08-25",
       "resolvedAt": "2026-08-17",
       "daysOpen": 26,
-      "daysSinceReceived": 33,
+      "daysSinceReceived": 34,
       "daysToClose": 0,
       "messageCount": 11,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Unable to Access TinkerHub Foundation Discord Server",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1533128737640546547",
-        "snippet": "Okay Thank you"
+        "fromThreadName": "Put an event for review but not showing a thread in discord",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1539683139457392781",
+        "snippet": "Actually i got the approval on the day of the event thankd"
       }
     },
     {
@@ -1544,16 +1563,16 @@ window.DISCORD_DATA = {
       "last": "2026-08-23",
       "resolvedAt": "2026-08-14",
       "daysOpen": 28,
-      "daysSinceReceived": 36,
+      "daysSinceReceived": 37,
       "daysToClose": 0,
       "messageCount": 4,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Unable to Access TinkerHub Foundation Discord Server",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1533128737640546547",
-        "snippet": "Okay Thank you"
+        "fromThreadName": "Put an event for review but not showing a thread in discord",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1539683139457392781",
+        "snippet": "Actually i got the approval on the day of the event thankd"
       }
     },
     {
@@ -1566,17 +1585,17 @@ window.DISCORD_DATA = {
       "received": "2026-08-05",
       "last": "2026-08-23",
       "resolvedAt": "2026-08-05",
-      "daysOpen": 27,
-      "daysSinceReceived": 45,
+      "daysOpen": 28,
+      "daysSinceReceived": 46,
       "daysToClose": 0,
       "messageCount": 7,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Unable to Access TinkerHub Foundation Discord Server",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1533128737640546547",
-        "snippet": "Okay Thank you"
+        "fromThreadName": "Put an event for review but not showing a thread in discord",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1539683139457392781",
+        "snippet": "Actually i got the approval on the day of the event thankd"
       }
     },
     {
@@ -1589,17 +1608,17 @@ window.DISCORD_DATA = {
       "received": "2026-07-30",
       "last": "2026-08-23",
       "resolvedAt": "2026-07-30",
-      "daysOpen": 27,
-      "daysSinceReceived": 51,
+      "daysOpen": 28,
+      "daysSinceReceived": 52,
       "daysToClose": 0,
       "messageCount": 9,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Event Deletion",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1536210374548922368",
-        "snippet": "This thread is closed by <@1012977379209125908>."
+        "fromThreadName": "need to remove a person from an event",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1540405830430756965",
+        "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
       }
     },
     {
@@ -1612,60 +1631,14 @@ window.DISCORD_DATA = {
       "received": "2026-08-17",
       "last": "2026-08-22",
       "resolvedAt": "2026-08-17",
-      "daysOpen": 28,
-      "daysSinceReceived": 33,
+      "daysOpen": 29,
+      "daysSinceReceived": 34,
       "daysToClose": 0,
       "messageCount": 7,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": null
-    },
-    {
-      "id": "1540405830430756965",
-      "name": "need to remove a person from an event",
-      "url": "https://discord.com/channels/735180366297563257/1540405830430756965",
-      "status": "No response",
-      "category": "Event/Activity check-in & reporting",
-      "requester": "Amal",
-      "received": "2026-08-21",
-      "last": "2026-08-21",
-      "resolvedAt": "2026-08-21",
-      "daysOpen": 29,
-      "daysSinceReceived": 29,
-      "daysToClose": 0,
-      "messageCount": 1,
-      "archived": false,
-      "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Event Deletion",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1536210374548922368",
-        "snippet": "This thread is closed by <@1012977379209125908>."
-      }
-    },
-    {
-      "id": "1539683139457392781",
-      "name": "Put an event for review but not showing a thread in discord",
-      "url": "https://discord.com/channels/735180366297563257/1539683139457392781",
-      "status": "Awaiting reply (from us)",
-      "category": "Discord account/access",
-      "requester": "Hellan Raichel Benoy | India",
-      "received": "2026-08-19",
-      "last": "2026-08-21",
-      "resolvedAt": "2026-08-19",
-      "daysOpen": 29,
-      "daysSinceReceived": 31,
-      "daysToClose": 0,
-      "messageCount": 3,
-      "archived": false,
-      "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Unable to Access TinkerHub Foundation Discord Server",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1533128737640546547",
-        "snippet": "Okay Thank you"
-      }
     },
     {
       "id": "1537101204306530314",
@@ -1678,7 +1651,7 @@ window.DISCORD_DATA = {
       "last": "2026-08-21",
       "resolvedAt": "2026-08-12",
       "daysOpen": 29,
-      "daysSinceReceived": 38,
+      "daysSinceReceived": 39,
       "daysToClose": 0,
       "messageCount": 6,
       "archived": false,
@@ -1704,9 +1677,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Event Deletion",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1536210374548922368",
-        "snippet": "This thread is closed by <@1012977379209125908>."
+        "fromThreadName": "need to remove a person from an event",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1540405830430756965",
+        "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
       }
     },
     {
@@ -1720,7 +1693,7 @@ window.DISCORD_DATA = {
       "last": "2026-08-21",
       "resolvedAt": "2026-08-04",
       "daysOpen": 29,
-      "daysSinceReceived": 46,
+      "daysSinceReceived": 47,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -1752,6 +1725,44 @@ window.DISCORD_DATA = {
       }
     },
     {
+      "id": "1540405830430756965",
+      "name": "need to remove a person from an event",
+      "url": "https://discord.com/channels/735180366297563257/1540405830430756965",
+      "status": "Resolved",
+      "category": "Event/Activity check-in & reporting",
+      "requester": "Amal",
+      "received": "2026-08-21",
+      "last": "2026-08-21",
+      "resolvedAt": "2026-09-20",
+      "daysOpen": 30,
+      "daysSinceReceived": 30,
+      "daysToClose": 30,
+      "messageCount": 1,
+      "archived": true,
+      "locked": false,
+      "resolutionSnippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon.",
+      "suggestion": null
+    },
+    {
+      "id": "1539683139457392781",
+      "name": "Put an event for review but not showing a thread in discord",
+      "url": "https://discord.com/channels/735180366297563257/1539683139457392781",
+      "status": "Resolved",
+      "category": "Discord account/access",
+      "requester": "Hellan Raichel Benoy | India",
+      "received": "2026-08-19",
+      "last": "2026-08-21",
+      "resolvedAt": "2026-09-20",
+      "daysOpen": 30,
+      "daysSinceReceived": 32,
+      "daysToClose": 31,
+      "messageCount": 3,
+      "archived": true,
+      "locked": false,
+      "resolutionSnippet": "Actually i got the approval on the day of the event thankd",
+      "suggestion": null
+    },
+    {
       "id": "1533128737640546547",
       "name": "Unable to Access TinkerHub Foundation Discord Server",
       "url": "https://discord.com/channels/735180366297563257/1533128737640546547",
@@ -1762,7 +1773,7 @@ window.DISCORD_DATA = {
       "last": "2026-08-21",
       "resolvedAt": "2026-09-20",
       "daysOpen": 30,
-      "daysSinceReceived": 49,
+      "daysSinceReceived": 50,
       "daysToClose": 49,
       "messageCount": 14,
       "archived": true,
@@ -1781,7 +1792,7 @@ window.DISCORD_DATA = {
       "last": "2026-08-21",
       "resolvedAt": "2026-09-20",
       "daysOpen": 30,
-      "daysSinceReceived": 57,
+      "daysSinceReceived": 58,
       "daysToClose": 57,
       "messageCount": 5,
       "archived": true,
@@ -12946,11 +12957,11 @@ window.DISCORD_DATA = {
   "summary": {
     "No response": 32,
     "Awaiting reply (from us)": 31,
-    "Awaiting reply (from them)": 18,
-    "Resolved": 596
+    "Awaiting reply (from them)": 17,
+    "Resolved": 598
   },
-  "avgOpenDays": 15.4,
-  "avgDaysToClose": 11.0,
+  "avgOpenDays": 15.1,
+  "avgDaysToClose": 11.1,
   "topCategories": [
     {
       "category": "Event/Activity check-in & reporting",
@@ -12990,7 +13001,7 @@ window.DISCORD_DATA = {
     },
     {
       "category": "Role/tag display bugs",
-      "count": 17
+      "count": 18
     },
     {
       "category": "Campus/College visibility",
