@@ -1,5 +1,5 @@
 window.LINEAR_DATA = {
-  "generatedAt": "2026-09-19T17:59:15Z",
+  "generatedAt": "2026-09-20T04:17:53Z",
   "workspace": "th-app",
   "team": "Devs",
   "teamTotals": {
@@ -1616,50 +1616,6 @@ window.LINEAR_DATA = {
   ],
   "projects": [
     {
-      "name": "Comms",
-      "lead": null,
-      "total": 10,
-      "backlog": 3,
-      "todo": 0,
-      "started": 2,
-      "completed": 4,
-      "canceled": 1,
-      "duplicate": 0
-    },
-    {
-      "name": "Koottam",
-      "lead": "KJ Gopika",
-      "total": 7,
-      "backlog": 2,
-      "todo": 0,
-      "started": 1,
-      "completed": 3,
-      "canceled": 1,
-      "duplicate": 0
-    },
-    {
-      "name": "Adding Mentors",
-      "lead": "KJ Gopika",
-      "total": 5,
-      "backlog": 3,
-      "todo": 0,
-      "started": 1,
-      "completed": 1,
-      "canceled": 0,
-      "duplicate": 0
-    },
-    {
-      "name": "Tinkerspace",
-      "lead": "KJ Gopika",
-      "total": 2,
-      "backlog": 1,
-      "todo": 1,
-      "started": 0,
-      "completed": 0,
-      "canceled": 0,
-      "duplicate": 0
-    },
-    {
       "name": "Opportunities",
       "lead": null,
       "total": 19,
@@ -1671,13 +1627,24 @@ window.LINEAR_DATA = {
       "duplicate": 0
     },
     {
-      "name": "Donor Workflow",
+      "name": "Comms",
       "lead": null,
-      "total": 1,
-      "backlog": 1,
+      "total": 10,
+      "backlog": 3,
       "todo": 0,
+      "started": 2,
+      "completed": 4,
+      "canceled": 1,
+      "duplicate": 0
+    },
+    {
+      "name": "Process Improvements",
+      "lead": "KJ Gopika",
+      "total": 9,
+      "backlog": 1,
+      "todo": 1,
       "started": 0,
-      "completed": 0,
+      "completed": 7,
       "canceled": 0,
       "duplicate": 0
     },
@@ -1693,14 +1660,36 @@ window.LINEAR_DATA = {
       "duplicate": 0
     },
     {
-      "name": "Data Change Requests",
-      "lead": null,
-      "total": 3,
-      "backlog": 0,
+      "name": "Adding Mentors",
+      "lead": "KJ Gopika",
+      "total": 5,
+      "backlog": 3,
       "todo": 0,
-      "started": 0,
-      "completed": 2,
+      "started": 1,
+      "completed": 1,
+      "canceled": 0,
+      "duplicate": 0
+    },
+    {
+      "name": "Koottam",
+      "lead": "KJ Gopika",
+      "total": 7,
+      "backlog": 2,
+      "todo": 0,
+      "started": 1,
+      "completed": 3,
       "canceled": 1,
+      "duplicate": 0
+    },
+    {
+      "name": "Tinkerspace",
+      "lead": "KJ Gopika",
+      "total": 2,
+      "backlog": 1,
+      "todo": 1,
+      "started": 0,
+      "completed": 0,
+      "canceled": 0,
       "duplicate": 0
     },
     {
@@ -1715,14 +1704,25 @@ window.LINEAR_DATA = {
       "duplicate": 0
     },
     {
-      "name": "Process Improvements",
-      "lead": "KJ Gopika",
-      "total": 9,
+      "name": "Donor Workflow",
+      "lead": null,
+      "total": 1,
       "backlog": 1,
-      "todo": 1,
+      "todo": 0,
       "started": 0,
-      "completed": 7,
+      "completed": 0,
       "canceled": 0,
+      "duplicate": 0
+    },
+    {
+      "name": "Data Change Requests",
+      "lead": null,
+      "total": 3,
+      "backlog": 0,
+      "todo": 0,
+      "started": 0,
+      "completed": 2,
+      "canceled": 1,
       "duplicate": 0
     }
   ]
