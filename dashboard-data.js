@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-20T12:39:27Z",
+  "generatedAt": "2026-09-20T14:37:00Z",
   "threads": [
     {
       "id": "campus-2c58b36fa5",
@@ -2845,6 +2845,24 @@ window.DASHBOARD_DATA = {
       "cc": [
         "report@tinkerhub.org"
       ]
+    },
+    {
+      "id": "campus-07a65b6434",
+      "threadId": "1a0bf38de00a20fa",
+      "group": "campus",
+      "subject": "Request to Extend First Year Coordinator Selection Deadline",
+      "counterpart": "TinkerHub CEC",
+      "email": "tinkerhub@ceconline.edu",
+      "received": "2026-09-20",
+      "last": "2026-09-20",
+      "status": "No response",
+      "note": "Requesting deadline extension for First Year Coordinator selection to Oct 20 (no first-year orientation done yet); no reply sent yet",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "femina@tinkerhub.org"
+      ]
     }
   ],
   "summary": {
@@ -2852,19 +2870,19 @@ window.DASHBOARD_DATA = {
     "Awaiting reply (from them)": 53,
     "Informational": 24,
     "Resolved": 49,
-    "No response": 15
+    "No response": 16
   },
   "analytics": {
     "campus": {
-      "total": 122,
+      "total": 123,
       "statusCounts": {
         "Awaiting reply (from us)": 19,
         "Awaiting reply (from them)": 46,
         "Informational": 13,
         "Resolved": 42,
-        "No response": 2
+        "No response": 3
       },
-      "avgOpenDays": 15.3,
+      "avgOpenDays": 15.1,
       "avgResolvedDays": 1.0
     },
     "support": {
