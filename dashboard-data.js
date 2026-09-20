@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-20T06:40:59Z",
+  "generatedAt": "2026-09-20T08:42:00Z",
   "threads": [
     {
       "id": "campus-0ef9da7b49",
@@ -2865,26 +2865,43 @@ window.DASHBOARD_DATA = {
       "cc": [
         "campus@tinkerhub.org"
       ]
+    },
+    {
+      "id": "campus-f94ccbf5ba",
+      "threadId": "1a0bd91a2321d6d4",
+      "group": "campus",
+      "subject": "Unable to check in a participant during useless projects 3.0 due to login issue",
+      "counterpart": "TinkerHub RIT",
+      "email": "tinkerhub@rit.ac.in",
+      "received": "2026-09-20",
+      "last": "2026-09-20",
+      "status": "Awaiting reply (from them)",
+      "note": "Participant couldn't check in (phone issue); Habeeb reopened the check-in form, needs submission by 4pm today",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     }
   ],
   "summary": {
     "Awaiting reply (from us)": 23,
-    "Awaiting reply (from them)": 52,
+    "Awaiting reply (from them)": 53,
     "Informational": 25,
     "Resolved": 49,
     "No response": 16
   },
   "analytics": {
     "campus": {
-      "total": 122,
+      "total": 123,
       "statuses": {
         "Awaiting reply (from us)": 19,
-        "Awaiting reply (from them)": 45,
+        "Awaiting reply (from them)": 46,
         "Informational": 14,
         "Resolved": 42,
         "No response": 2
       },
-      "avgOpenDays": 15.5,
+      "avgOpenDays": 15.3,
       "avgResolvedDays": 1.0
     },
     "finance": {
