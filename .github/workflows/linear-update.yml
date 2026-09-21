@@ -1,0 +1,41 @@
+name: Linear board daily refresh
+
+on:
+  # Cron intentionally left out for now -- add it back once LINEAR_API_KEY
+  # is set as a repo secret and a manual run below has been verified.
+  # Previously ran daily at 4:15 UTC via a Cowork scheduled task:
+  #   schedule:
+  #     - cron: "15 4 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch issues from Linear and build linear-data.js
+        env:
+          LINEAR_API_KEY: ${{ secrets.LINEAR_API_KEY }}
+        run: python scripts/linear_update.py
+
+      - name: Commit and push linear-data.js
+        run: |
+          git config user.name "TinkerHub Dashboard Bot"
+          git config user.email "actions@github.com"
+          git add linear-data.js
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Linear dashboard data refresh $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          fi
