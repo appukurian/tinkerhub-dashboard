@@ -1,11 +1,11 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-20T16:42:13Z",
+  "generatedAt": "2026-09-21T02:40:30Z",
   "threads": [
     {
       "id": "campus-1cd246a1ae",
       "threadId": "1a0b04f497f2dfed",
       "group": "campus",
-      "subject": "Request for Extension – First-Year Coordinator Selection",
+      "subject": "Request for Extension \u2013 First-Year Coordinator Selection",
       "counterpart": "Arya Venugopal (TinkerHub SNGCE)",
       "email": "aryavenugopal2006@gmail.com",
       "received": "2026-09-17",
@@ -13,7 +13,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "Extension granted for First-Year Coordinator selection process; Arya thanked us, nothing further needed",
       "daysOpen": 3,
-      "daysSinceReceived": 3,
+      "daysSinceReceived": 4,
       "cc": [
         "campus@tinkerhub.org",
         "femina@tinkerhub.org",
@@ -32,8 +32,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-20",
       "status": "Awaiting reply (from us)",
       "note": "CEC followed up again asking Team Overthink() be considered for evaluation despite missing the second submission window; awaiting our reply",
-      "daysOpen": 3,
-      "daysSinceReceived": 3,
+      "daysOpen": 4,
+      "daysSinceReceived": 4,
       "cc": [
         "campus@tinkerhub.org",
         "femina@tinkerhub.org"
@@ -50,8 +50,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-20",
       "status": "Awaiting reply (from them)",
       "note": "Discord server invite issue (outreach lead, College of Engineering Munnar); Habeeb replied, looking into it",
-      "daysOpen": 0,
-      "daysSinceReceived": 0,
+      "daysOpen": 1,
+      "daysSinceReceived": 1,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -67,8 +67,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-20",
       "status": "Awaiting reply (from them)",
       "note": "Participant couldn't check in (phone issue); Habeeb reopened the check-in form, needs submission by 4pm today",
-      "daysOpen": 0,
-      "daysSinceReceived": 0,
+      "daysOpen": 1,
+      "daysSinceReceived": 1,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -84,8 +84,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-20",
       "status": "No response",
       "note": "Requesting deadline extension for First Year Coordinator selection to Oct 20 (no first-year orientation done yet); no reply sent yet",
-      "daysOpen": 0,
-      "daysSinceReceived": 0,
+      "daysOpen": 1,
+      "daysSinceReceived": 1,
       "cc": [
         "campus@tinkerhub.org",
         "femina@tinkerhub.org"
@@ -102,8 +102,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-19",
       "status": "Awaiting reply (from us)",
       "note": "sent scanned receipt (Bill.pdf) as requested; we need to review it and process the reimbursement payment",
-      "daysOpen": 12,
-      "daysSinceReceived": 12,
+      "daysOpen": 13,
+      "daysSinceReceived": 13,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -119,8 +119,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-19",
       "status": "Awaiting reply (from them)",
       "note": "approved WIT Lead change; asked Mehjebin to finalize a replacement by Sep 25 and update on Koottam, then confirm with us",
-      "daysOpen": 2,
-      "daysSinceReceived": 2,
+      "daysOpen": 3,
+      "daysSinceReceived": 3,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -136,8 +136,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-19",
       "status": "No response",
       "note": "Likely a routing-test forward to campus@; no reply sent yet",
-      "daysOpen": 1,
-      "daysSinceReceived": 1,
+      "daysOpen": 2,
+      "daysSinceReceived": 2,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -154,7 +154,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "Femina thanked her for detailed feedback on submission bugs & voting concerns, pointed to issue form (due 5pm) and said it'll shape future editions",
       "daysOpen": 0,
-      "daysSinceReceived": 1,
+      "daysSinceReceived": 2,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -171,7 +171,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "Inbound routing test (self-generated); Kurian confirmed campus@ routing works",
       "daysOpen": 0,
-      "daysSinceReceived": 1,
+      "daysSinceReceived": 2,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -188,7 +188,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "Inbound routing test (self-generated); confirmed campus@/council@ routing works",
       "daysOpen": 0,
-      "daysSinceReceived": 1,
+      "daysSinceReceived": 2,
       "cc": [
         "campus@tinkerhub.org",
         "council@tinkerhub.org"
@@ -206,7 +206,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "Inbound routing test (self-generated); confirmed campus@/tinkerspace@ routing works",
       "daysOpen": 0,
-      "daysSinceReceived": 1,
+      "daysSinceReceived": 2,
       "cc": [
         "campus@tinkerhub.org",
         "tinkerspace@tinkerhub.org"
@@ -223,8 +223,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-19",
       "status": "Awaiting reply (from them)",
       "note": "Akhil set account visibility to public and asked Mary to retry the vouch from Bristow Xavier",
-      "daysOpen": 6,
-      "daysSinceReceived": 6,
+      "daysOpen": 7,
+      "daysSinceReceived": 7,
       "cc": [
         "support@tinkerhub.org"
       ]
@@ -241,7 +241,7 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "SMS API failures (error codes 311, 202) for MSG91 account ekuttan; acknowledged, no fix confirmed yet",
       "daysOpen": 0,
-      "daysSinceReceived": 1,
+      "daysSinceReceived": 2,
       "cc": [
         "support@tinkerhub.org"
       ]
@@ -258,7 +258,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "Inbound routing test (self-generated); confirmed support@ routing works",
       "daysOpen": 0,
-      "daysSinceReceived": 1,
+      "daysSinceReceived": 2,
       "cc": [
         "support@tinkerhub.org"
       ]
@@ -275,7 +275,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "Inbound routing test (self-generated); confirmed finance@ routing works",
       "daysOpen": 0,
-      "daysSinceReceived": 1,
+      "daysSinceReceived": 2,
       "cc": [
         "finance@tinkerhub.org"
       ]
@@ -291,8 +291,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-19",
       "status": "Awaiting reply (from them)",
       "note": "Akhil confirmed the login issue is resolved; awaiting Athul to confirm it works on his end",
-      "daysOpen": 24,
-      "daysSinceReceived": 24,
+      "daysOpen": 25,
+      "daysSinceReceived": 25,
       "cc": [
         "report@tinkerhub.org",
         "support@tinkerhub.org"
@@ -302,15 +302,15 @@ window.DASHBOARD_DATA = {
       "id": "campus-38e47dc0af",
       "threadId": "1a0a97dd69d6d683",
       "group": "campus",
-      "subject": "Useless Projects 3.0 – Discord Rating Issue",
+      "subject": "Useless Projects 3.0 \u2013 Discord Rating Issue",
       "counterpart": "Vishnu PP (TinkerHub AISAT)",
       "email": "viyshnuw@gmail.com",
       "received": "2026-09-16",
       "last": "2026-09-18",
       "status": "Awaiting reply (from them)",
       "note": "Discord rating issue during event; we asked them to submit details via the Tech Issues Report Form by Sat 3pm",
-      "daysOpen": 4,
-      "daysSinceReceived": 4,
+      "daysOpen": 5,
+      "daysSinceReceived": 5,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -327,7 +327,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "shared TinkerSpace visit info; told to watch for the RSET interest form opening next week",
       "daysOpen": 1,
-      "daysSinceReceived": 3,
+      "daysSinceReceived": 4,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -343,8 +343,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-18",
       "status": "Awaiting reply (from them)",
       "note": "campus lead flagged OTP/submission/voting issues; we asked them to submit details via the Tech Issues Report Form by Sat 3pm",
-      "daysOpen": 3,
-      "daysSinceReceived": 3,
+      "daysOpen": 4,
+      "daysSinceReceived": 4,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -353,7 +353,7 @@ window.DASHBOARD_DATA = {
       "id": "campus-d30deac8b4",
       "threadId": "1a0b482a9969f7b6",
       "group": "campus",
-      "subject": "Leads Meeting – Sept 20, 7 PM",
+      "subject": "Leads Meeting \u2013 Sept 20, 7 PM",
       "counterpart": "internal (Femina)",
       "email": null,
       "received": "2026-09-18",
@@ -361,7 +361,7 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "leads meeting Sept 20 7pm - mandatory; agenda: Useless Projects catchup, Oct-Nov theme announcement, FYC/faculty onboarding, TinkerTalks",
       "daysOpen": 0,
-      "daysSinceReceived": 2,
+      "daysSinceReceived": 3,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -378,7 +378,7 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "tech-issues report form broadcast to campus leads - deadline Saturday 3pm",
       "daysOpen": 0,
-      "daysSinceReceived": 3,
+      "daysSinceReceived": 4,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -394,8 +394,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-17",
       "status": "Awaiting reply (from us)",
       "note": "misconduct complaint re: mentor Sai Cheranjeeve S at Useless Projects 3.0; acknowledged same day, said we would investigate and keep her updated - no visible follow-up sent yet, we owe her a status update",
-      "daysOpen": 3,
-      "daysSinceReceived": 3,
+      "daysOpen": 4,
+      "daysSinceReceived": 4,
       "cc": [
         "report@tinkerhub.org"
       ]
@@ -412,7 +412,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "declined reschedule past Sep 13 deadline; suggested self-organized hackathon instead",
       "daysOpen": 6,
-      "daysSinceReceived": 10,
+      "daysSinceReceived": 11,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -421,15 +421,15 @@ window.DASHBOARD_DATA = {
       "id": "campus-7e9e923502",
       "threadId": "1a0a844e0a8bcf07",
       "group": "campus",
-      "subject": "Useless Projects 3.0 – Top 5 Selection",
+      "subject": "Useless Projects 3.0 \u2013 Top 5 Selection",
       "counterpart": "TinkerHub Unity Women's College",
       "email": "tinkerhub@unitywomenscollege.ac.in",
       "received": "2026-09-16",
       "last": "2026-09-16",
       "status": "Awaiting reply (from us)",
       "note": "we owe them a decision on self-selecting top 5 (promised a follow-up email)",
-      "daysOpen": 4,
-      "daysSinceReceived": 4,
+      "daysOpen": 5,
+      "daysSinceReceived": 5,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -446,7 +446,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "sent Drive link for venue photos/videos upload",
       "daysOpen": 0,
-      "daysSinceReceived": 4,
+      "daysSinceReceived": 5,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -463,7 +463,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "revised Q4 TDS return filed; acknowledgement (Form 26Q ARN) received from CA",
       "daysOpen": 14,
-      "daysSinceReceived": 18,
+      "daysSinceReceived": 19,
       "cc": [
         "finance@tinkerhub.org",
         "mehar@tinkerhub.org"
@@ -480,8 +480,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-15",
       "status": "Awaiting reply (from us)",
       "note": "Told them TinkerSpace isn't set up as coworking venue; they're now asking to visit with 20 people Thu - no reply yet",
-      "daysOpen": 48,
-      "daysSinceReceived": 48,
+      "daysOpen": 49,
+      "daysSinceReceived": 49,
       "cc": [
         "campus@tinkerhub.org",
         "habeeb@tinkerhub.org"
@@ -499,7 +499,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "acknowledged FISAT's withdrawal as venue and cancellation of Useless Projects 3.0 due to permissions/logistics issues; encouraged continued community activities",
       "daysOpen": 3,
-      "daysSinceReceived": 8,
+      "daysSinceReceived": 9,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -516,7 +516,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "registration deadline extended by 1 hour for Ilahia College as requested after OTP issue",
       "daysOpen": 3,
-      "daysSinceReceived": 8,
+      "daysSinceReceived": 9,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -533,7 +533,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "declined to extend the 30-min voting window; explained timing was pre-communicated",
       "daysOpen": 3,
-      "daysSinceReceived": 8,
+      "daysSinceReceived": 9,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -550,7 +550,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "event timing corrected to 9am-4pm as requested; venue-visit question left unanswered",
       "daysOpen": 2,
-      "daysSinceReceived": 7,
+      "daysSinceReceived": 8,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -559,7 +559,7 @@ window.DASHBOARD_DATA = {
       "id": "campus-b88bc66543",
       "threadId": "1a0a073d680f8c24",
       "group": "campus",
-      "subject": "Concern Regarding Judging Fairness – Useless Projects CUSAT",
+      "subject": "Concern Regarding Judging Fairness \u2013 Useless Projects CUSAT",
       "counterpart": "Sivadarsh P Dinesh (CUSAT)",
       "email": "sivadarshpdinesh@gmail.com",
       "received": "2026-09-14",
@@ -567,7 +567,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "assured all CUSAT teams/submissions will be considered fairly despite late-slot audience concern",
       "daysOpen": 1,
-      "daysSinceReceived": 6,
+      "daysSinceReceived": 7,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -584,7 +584,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "assured all CUSAT teams/submissions will be considered fairly despite late-slot audience concern",
       "daysOpen": 1,
-      "daysSinceReceived": 6,
+      "daysSinceReceived": 7,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -601,7 +601,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "assured all CUSAT teams/submissions will be considered fairly despite late-slot audience concern",
       "daysOpen": 1,
-      "daysSinceReceived": 6,
+      "daysSinceReceived": 7,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -618,7 +618,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "assured all CUSAT teams/submissions will be considered fairly despite late-slot audience concern",
       "daysOpen": 1,
-      "daysSinceReceived": 6,
+      "daysSinceReceived": 7,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -635,7 +635,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "assured all CUSAT teams/submissions will be considered fairly despite late-slot audience concern",
       "daysOpen": 1,
-      "daysSinceReceived": 6,
+      "daysSinceReceived": 7,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -652,7 +652,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "assured all CUSAT teams/submissions will be considered fairly despite late-slot audience concern",
       "daysOpen": 1,
-      "daysSinceReceived": 6,
+      "daysSinceReceived": 7,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -668,8 +668,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-15",
       "status": "Awaiting reply (from them)",
       "note": "asked for event date/time and participation mode before considering a collab session",
-      "daysOpen": 5,
-      "daysSinceReceived": 5,
+      "daysOpen": 6,
+      "daysSinceReceived": 6,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -686,7 +686,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "confirmed all submitted projects will be considered despite dashboard/voting technical issues",
       "daysOpen": 0,
-      "daysSinceReceived": 5,
+      "daysSinceReceived": 6,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -703,7 +703,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "confirmed all Thejus Engineering College projects will be considered despite missed voting window",
       "daysOpen": 0,
-      "daysSinceReceived": 5,
+      "daysSinceReceived": 6,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -719,8 +719,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-15",
       "status": "No response",
       "note": "fwd from Aibin Shibu (campus lead) re: team 'Oops! We Built It' (MOODIFY) - requesting late GitHub submission be considered due to technical issue",
-      "daysOpen": 5,
-      "daysSinceReceived": 5,
+      "daysOpen": 6,
+      "daysSinceReceived": 6,
       "cc": [
         "support@tinkerhub.org"
       ]
@@ -737,7 +737,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "replied: unable to update timings, event start time stands at 6pm as scheduled for Ahalia's overnight program",
       "daysOpen": 2,
-      "daysSinceReceived": 10,
+      "daysSinceReceived": 11,
       "cc": [
         "campus@tinkerhub.org",
         "habeeb@tinkerhub.org"
@@ -755,7 +755,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "acknowledged cancellation of Useless Projects event; asked them to continue with other planned activities",
       "daysOpen": 1,
-      "daysSinceReceived": 9,
+      "daysSinceReceived": 10,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -772,7 +772,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "registration deadline extended as requested for CE Adoor (CEA); registrations updated",
       "daysOpen": 1,
-      "daysSinceReceived": 9,
+      "daysSinceReceived": 10,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -789,7 +789,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "acknowledged College of Engineering Poonjar's cancellation of Useless Project 3.0 due to a date clash; wished them well for next season",
       "daysOpen": 1,
-      "daysSinceReceived": 9,
+      "daysSinceReceived": 10,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -805,8 +805,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-12",
       "status": "No response",
       "note": "OTP/verification code not received on login despite resend attempt",
-      "daysOpen": 8,
-      "daysSinceReceived": 8,
+      "daysOpen": 9,
+      "daysSinceReceived": 9,
       "cc": [
         "support@tinkerhub.org"
       ]
@@ -823,7 +823,7 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "SMS wallet balance low (Rs 9.83 as of latest alert), add funds",
       "daysOpen": 1,
-      "daysSinceReceived": 9,
+      "daysSinceReceived": 10,
       "cc": [
         "finance@tinkerhub.org"
       ]
@@ -840,7 +840,7 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "SMS wallet balance low (Rs 4999.76 as of latest alert, shortly after 5000 INR recharge)",
       "daysOpen": 0,
-      "daysSinceReceived": 8,
+      "daysSinceReceived": 9,
       "cc": [
         "finance@tinkerhub.org"
       ]
@@ -857,7 +857,7 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "SMS wallet recharge of 5000 INR (+900 INR tax) processed successfully",
       "daysOpen": 0,
-      "daysSinceReceived": 8,
+      "daysSinceReceived": 9,
       "cc": [
         "finance@tinkerhub.org"
       ]
@@ -873,8 +873,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-11",
       "status": "Awaiting reply (from them)",
       "note": "extended registration deadline to 4pm today for GECT (Govt. Engineering College Thrissur)",
-      "daysOpen": 9,
-      "daysSinceReceived": 9,
+      "daysOpen": 10,
+      "daysSinceReceived": 10,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -889,9 +889,9 @@ window.DASHBOARD_DATA = {
       "received": "2026-09-11",
       "last": "2026-09-11",
       "status": "Awaiting reply (from them)",
-      "note": "we replied confirming seat count 60→30 and start time 9:30 AM for CEA (Adoor) Sep 12 event",
-      "daysOpen": 9,
-      "daysSinceReceived": 9,
+      "note": "we replied confirming seat count 60\u219230 and start time 9:30 AM for CEA (Adoor) Sep 12 event",
+      "daysOpen": 10,
+      "daysSinceReceived": 10,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -907,8 +907,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-11",
       "status": "Awaiting reply (from them)",
       "note": "requested shift to Sep 12, 9AM-3PM (till 6PM for evaluation) due to last-minute permission withdrawal; we acknowledged and asked them to inform participants",
-      "daysOpen": 9,
-      "daysSinceReceived": 9,
+      "daysOpen": 10,
+      "daysSinceReceived": 10,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -923,9 +923,9 @@ window.DASHBOARD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-10",
       "status": "Awaiting reply (from them)",
-      "note": "sent posters + venue checklist for tomorrow’s event; reimbursing up to 10 printed copies, keep itemized bill",
-      "daysOpen": 11,
-      "daysSinceReceived": 11,
+      "note": "sent posters + venue checklist for tomorrow\u2019s event; reimbursing up to 10 printed copies, keep itemized bill",
+      "daysOpen": 12,
+      "daysSinceReceived": 12,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -941,8 +941,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-10",
       "status": "Awaiting reply (from them)",
       "note": "arundhathi asked what action to take (email/call) + contact details for the principal/faculty coordinator",
-      "daysOpen": 11,
-      "daysSinceReceived": 11,
+      "daysOpen": 12,
+      "daysSinceReceived": 12,
       "cc": [
         "campus@tinkerhub.org",
         "femina@tinkerhub.org"
@@ -952,15 +952,15 @@ window.DASHBOARD_DATA = {
       "id": "campus-8fe256d04f",
       "threadId": "1a08c26a40b11da7",
       "group": "campus",
-      "subject": "(no subject) – Venue dashboard link for USELESS 3.0 venue",
+      "subject": "(no subject) \u2013 Venue dashboard link for USELESS 3.0 venue",
       "counterpart": "Sidrah (MAMOC)",
       "email": "sidrahaysha@gmail.com",
       "received": "2026-09-10",
       "last": "2026-09-10",
       "status": "Awaiting reply (from them)",
       "note": "sent venue dashboard link for her venue",
-      "daysOpen": 10,
-      "daysSinceReceived": 10,
+      "daysOpen": 11,
+      "daysSinceReceived": 11,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -977,7 +977,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "2 individual participants added; registration reopened till 9pm",
       "daysOpen": 0,
-      "daysSinceReceived": 10,
+      "daysSinceReceived": 11,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -992,9 +992,9 @@ window.DASHBOARD_DATA = {
       "received": "2026-09-10",
       "last": "2026-09-10",
       "status": "Awaiting reply (from us)",
-      "note": "we owe them: increase seat count 50→75 for SNGCET (told them shortly)",
-      "daysOpen": 10,
-      "daysSinceReceived": 10,
+      "note": "we owe them: increase seat count 50\u219275 for SNGCET (told them shortly)",
+      "daysOpen": 11,
+      "daysSinceReceived": 11,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -1010,8 +1010,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-10",
       "status": "No response",
       "note": "asking to reopen registration - ICET students missed deadline due to exams/dept events",
-      "daysOpen": 10,
-      "daysSinceReceived": 10,
+      "daysOpen": 11,
+      "daysSinceReceived": 11,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -1027,8 +1027,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-10",
       "status": "Awaiting reply (from them)",
       "note": "forwarded GitHub repo access issue (Useless Project submission) to college contact; awaiting confirmation it is resolved",
-      "daysOpen": 10,
-      "daysSinceReceived": 10,
+      "daysOpen": 11,
+      "daysSinceReceived": 11,
       "cc": [
         "campus@tinkerhub.org",
         "council@tinkerhub.org"
@@ -1044,9 +1044,9 @@ window.DASHBOARD_DATA = {
       "received": "2026-09-10",
       "last": "2026-09-10",
       "status": "Awaiting reply (from us)",
-      "note": "we owe them: increase seat count 60→100 for SOE CUSAT (told them shortly)",
-      "daysOpen": 10,
-      "daysSinceReceived": 10,
+      "note": "we owe them: increase seat count 60\u2192100 for SOE CUSAT (told them shortly)",
+      "daysOpen": 11,
+      "daysSinceReceived": 11,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -1055,15 +1055,15 @@ window.DASHBOARD_DATA = {
       "id": "campus-6d9fd389ca",
       "threadId": "1a089d011f53ec32",
       "group": "campus",
-      "subject": "Request for Campus Support to Increase Participant Capacity – Useless Projects 3.0",
+      "subject": "Request for Campus Support to Increase Participant Capacity \u2013 Useless Projects 3.0",
       "counterpart": "Devi (TinkerHub CEKnpy)",
       "email": "deva41184@gmail.com",
       "received": "2026-09-10",
       "last": "2026-09-10",
       "status": "Awaiting reply (from us)",
-      "note": "we owe them: increase participant capacity 40→50 for CEKnpy (told them shortly)",
-      "daysOpen": 10,
-      "daysSinceReceived": 10,
+      "note": "we owe them: increase participant capacity 40\u219250 for CEKnpy (told them shortly)",
+      "daysOpen": 11,
+      "daysSinceReceived": 11,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -1079,8 +1079,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-10",
       "status": "Awaiting reply (from us)",
       "note": "we owe them: update registration deadline to 10pm today (told them shortly)",
-      "daysOpen": 10,
-      "daysSinceReceived": 10,
+      "daysOpen": 11,
+      "daysSinceReceived": 11,
       "cc": [
         "campus@tinkerhub.org",
         "habeeb@tinkerhub.org"
@@ -1096,9 +1096,9 @@ window.DASHBOARD_DATA = {
       "received": "2026-09-10",
       "last": "2026-09-10",
       "status": "Awaiting reply (from us)",
-      "note": "we owe them: update seat count 200→225",
-      "daysOpen": 10,
-      "daysSinceReceived": 10,
+      "note": "we owe them: update seat count 200\u2192225",
+      "daysOpen": 11,
+      "daysSinceReceived": 11,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -1115,7 +1115,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "registration extended till 10pm",
       "daysOpen": 0,
-      "daysSinceReceived": 10,
+      "daysSinceReceived": 11,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -1132,7 +1132,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "registration reopening confirmed, ~10 min turnaround promised",
       "daysOpen": 0,
-      "daysSinceReceived": 10,
+      "daysSinceReceived": 11,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -1147,9 +1147,9 @@ window.DASHBOARD_DATA = {
       "received": "2026-09-10",
       "last": "2026-09-10",
       "status": "Awaiting reply (from us)",
-      "note": "we owe them: update slot count 50→65 for SNMIMT (told them shortly)",
-      "daysOpen": 10,
-      "daysSinceReceived": 10,
+      "note": "we owe them: update slot count 50\u219265 for SNMIMT (told them shortly)",
+      "daysOpen": 11,
+      "daysSinceReceived": 11,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -1166,7 +1166,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "registration extended till Sep 11, 5pm",
       "daysOpen": 0,
-      "daysSinceReceived": 10,
+      "daysSinceReceived": 11,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -1182,8 +1182,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-10",
       "status": "Awaiting reply (from us)",
       "note": "we owe them: increase registration deadline to 11pm and seat count to 40",
-      "daysOpen": 10,
-      "daysSinceReceived": 10,
+      "daysOpen": 11,
+      "daysSinceReceived": 11,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -1192,15 +1192,15 @@ window.DASHBOARD_DATA = {
       "id": "campus-ea4e73daab",
       "threadId": "1a084f7873a2929f",
       "group": "campus",
-      "subject": "(no subject) – Seat capacity increase for USELESS 3.0",
+      "subject": "(no subject) \u2013 Seat capacity increase for USELESS 3.0",
       "counterpart": "Hellan Raichel Benoy",
       "email": "hellan1845@gmail.com",
       "received": "2026-09-09",
       "last": "2026-09-09",
       "status": "Awaiting reply (from them)",
-      "note": "seat capacity 60→70 requested for USELESS 3.0 (Sep 11-12); Femina replied asking for details on the team issue, suggested posting to Discord tech support channel",
-      "daysOpen": 11,
-      "daysSinceReceived": 11,
+      "note": "seat capacity 60\u219270 requested for USELESS 3.0 (Sep 11-12); Femina replied asking for details on the team issue, suggested posting to Discord tech support channel",
+      "daysOpen": 12,
+      "daysSinceReceived": 12,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -1216,8 +1216,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-09",
       "status": "Awaiting reply (from us)",
       "note": "we owe them: update seat count & slot to Fri 11th 8am-7pm (promised 'shortly')",
-      "daysOpen": 11,
-      "daysSinceReceived": 11,
+      "daysOpen": 12,
+      "daysSinceReceived": 12,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -1234,7 +1234,7 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "calendar invite for Useless Projects demo meet call, Sep 9 9-10pm; FYI only, no action needed",
       "daysOpen": 0,
-      "daysSinceReceived": 11,
+      "daysSinceReceived": 12,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -1243,15 +1243,15 @@ window.DASHBOARD_DATA = {
       "id": "campus-84d9ad079d",
       "threadId": "1a084d685a60d71e",
       "group": "campus",
-      "subject": "Re: Request to Extend Registration Deadline – Useless Projects 3.0 (CUCEK)",
+      "subject": "Re: Request to Extend Registration Deadline \u2013 Useless Projects 3.0 (CUCEK)",
       "counterpart": "Rezin C H (TinkerHub CUCEK)",
       "email": "rezinch@gmail.com",
       "received": "2026-09-09",
       "last": "2026-09-09",
       "status": "Awaiting reply (from us)",
       "note": "we owe them: update registration deadline to Sept 11, 2pm",
-      "daysOpen": 11,
-      "daysSinceReceived": 11,
+      "daysOpen": 12,
+      "daysSinceReceived": 12,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -1267,8 +1267,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-09",
       "status": "Awaiting reply (from us)",
       "note": "we owe them: update seat capacity to 112 (told them shortly)",
-      "daysOpen": 11,
-      "daysSinceReceived": 11,
+      "daysOpen": 12,
+      "daysSinceReceived": 12,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -1284,8 +1284,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-09",
       "status": "No response",
       "note": "wants alt Discord account (turtkingdom) merged/switched to main (silvrknight)",
-      "daysOpen": 11,
-      "daysSinceReceived": 11,
+      "daysOpen": 12,
+      "daysSinceReceived": 12,
       "cc": [
         "support@tinkerhub.org"
       ]
@@ -1300,9 +1300,9 @@ window.DASHBOARD_DATA = {
       "received": "2026-09-08",
       "last": "2026-09-09",
       "status": "Resolved",
-      "note": "invoice ₹9,440 paid, TDS deducted, receipt sent",
+      "note": "invoice \u20b99,440 paid, TDS deducted, receipt sent",
       "daysOpen": 1,
-      "daysSinceReceived": 12,
+      "daysSinceReceived": 13,
       "cc": [
         "finance@tinkerhub.org",
         "mehar@tinkerhub.org"
@@ -1320,7 +1320,7 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "SMS wallet balance low (Rs 499.84)",
       "daysOpen": 0,
-      "daysSinceReceived": 11,
+      "daysSinceReceived": 12,
       "cc": [
         "finance@tinkerhub.org"
       ]
@@ -1336,8 +1336,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-09",
       "status": "Awaiting reply (from them)",
       "note": "OTP failure on login; tagged to support for handling",
-      "daysOpen": 12,
-      "daysSinceReceived": 12,
+      "daysOpen": 13,
+      "daysSinceReceived": 13,
       "cc": [
         "report@tinkerhub.org",
         "support@tinkerhub.org"
@@ -1354,8 +1354,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-09",
       "status": "Awaiting reply (from them)",
       "note": "OTP not sending (too many requests); tagged to support for handling",
-      "daysOpen": 12,
-      "daysSinceReceived": 12,
+      "daysOpen": 13,
+      "daysSinceReceived": 13,
       "cc": [
         "report@tinkerhub.org",
         "support@tinkerhub.org"
@@ -1372,8 +1372,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-08",
       "status": "Awaiting reply (from us)",
       "note": "She Builds Tech 3.0 partnership; final application deadline extended to Sep 10; we sent logo/brand kit, still owe circulation of final poster",
-      "daysOpen": 30,
-      "daysSinceReceived": 30,
+      "daysOpen": 31,
+      "daysSinceReceived": 31,
       "cc": [
         "campus@tinkerhub.org",
         "arundhathi@tinkerhub.org",
@@ -1395,8 +1395,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-08",
       "status": "Awaiting reply (from us)",
       "note": "students replying to prompt, no ack sent (latest: Janavi)",
-      "daysOpen": 21,
-      "daysSinceReceived": 21,
+      "daysOpen": 22,
+      "daysSinceReceived": 22,
       "cc": [
         "campus@tinkerhub.org",
         "femina@tinkerhub.org"
@@ -1414,7 +1414,7 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "survey reminder broadcast - deadline Sept 7; recipients confirming completion (latest: Sanjeevani O S)",
       "daysOpen": 5,
-      "daysSinceReceived": 17,
+      "daysSinceReceived": 18,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -1423,15 +1423,15 @@ window.DASHBOARD_DATA = {
       "id": "campus-6eaf750213",
       "threadId": "1a07306dcf490485",
       "group": "campus",
-      "subject": "Clarification Regarding Useless Project 3.0 – College of Engineering, Poonjar",
+      "subject": "Clarification Regarding Useless Project 3.0 \u2013 College of Engineering, Poonjar",
       "counterpart": "Rosemary Rejimon (College of Engineering Poonjar)",
       "email": "rosemary@cep.ac.in",
       "received": "2026-09-05",
       "last": "2026-09-08",
       "status": "Awaiting reply (from them)",
       "note": "sent detailed guidance on free, no-fee policy; offered to speak with Principal if needed",
-      "daysOpen": 15,
-      "daysSinceReceived": 15,
+      "daysOpen": 16,
+      "daysSinceReceived": 16,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -1447,8 +1447,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-08",
       "status": "Awaiting reply (from them)",
       "note": "campus team replied, offered to help him start a chapter",
-      "daysOpen": 14,
-      "daysSinceReceived": 14,
+      "daysOpen": 15,
+      "daysSinceReceived": 15,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -1463,9 +1463,9 @@ window.DASHBOARD_DATA = {
       "received": "2026-09-06",
       "last": "2026-09-08",
       "status": "Awaiting reply (from us)",
-      "note": "we owe them: update slot to 11th 6pm–12th 8am (promised 'today')",
-      "daysOpen": 14,
-      "daysSinceReceived": 14,
+      "note": "we owe them: update slot to 11th 6pm\u201312th 8am (promised 'today')",
+      "daysOpen": 15,
+      "daysSinceReceived": 15,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -1480,9 +1480,9 @@ window.DASHBOARD_DATA = {
       "received": "2026-09-07",
       "last": "2026-09-08",
       "status": "Awaiting reply (from them)",
-      "note": "we owe them updated seat capacity (125→140)",
-      "daysOpen": 13,
-      "daysSinceReceived": 13,
+      "note": "we owe them updated seat capacity (125\u2192140)",
+      "daysOpen": 14,
+      "daysSinceReceived": 14,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -1497,9 +1497,9 @@ window.DASHBOARD_DATA = {
       "received": "2026-09-07",
       "last": "2026-09-08",
       "status": "Resolved",
-      "note": "seat capacity increased 125→170 as requested",
+      "note": "seat capacity increased 125\u2192170 as requested",
       "daysOpen": 1,
-      "daysSinceReceived": 13,
+      "daysSinceReceived": 14,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -1514,9 +1514,9 @@ window.DASHBOARD_DATA = {
       "received": "2026-09-07",
       "last": "2026-09-08",
       "status": "Awaiting reply (from them)",
-      "note": "we owe them updated seat capacity (6→60)",
-      "daysOpen": 13,
-      "daysSinceReceived": 13,
+      "note": "we owe them updated seat capacity (6\u219260)",
+      "daysOpen": 14,
+      "daysSinceReceived": 14,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -1532,8 +1532,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-08",
       "status": "Awaiting reply (from us)",
       "note": "we owe them: update seat capacity to 40 (told them 'shortly')",
-      "daysOpen": 12,
-      "daysSinceReceived": 12,
+      "daysOpen": 13,
+      "daysSinceReceived": 13,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -1549,8 +1549,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-08",
       "status": "Awaiting reply (from us)",
       "note": "Ramees replied with detailed framework brainstorm; Aru to continue thread",
-      "daysOpen": 12,
-      "daysSinceReceived": 12,
+      "daysOpen": 13,
+      "daysSinceReceived": 13,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -1567,7 +1567,7 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "SMS wallet balance low (999.92), add funds",
       "daysOpen": 0,
-      "daysSinceReceived": 12,
+      "daysSinceReceived": 13,
       "cc": [
         "finance@tinkerhub.org"
       ]
@@ -1584,7 +1584,7 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "$20 payment receipt, subscription charged",
       "daysOpen": 0,
-      "daysSinceReceived": 12,
+      "daysSinceReceived": 13,
       "cc": [
         "finance@tinkerhub.org"
       ]
@@ -1593,15 +1593,15 @@ window.DASHBOARD_DATA = {
       "id": "report-c626f2085e",
       "threadId": "1a07f8adc7a282ef",
       "group": "report",
-      "subject": "(no subject) – OTP request limit exceeded",
+      "subject": "(no subject) \u2013 OTP request limit exceeded",
       "counterpart": "Renil Augustine",
       "email": "augustinerenil723@gmail.com",
       "received": "2026-09-08",
       "last": "2026-09-08",
       "status": "Awaiting reply (from them)",
       "note": "OTP limit exceeded, forwarded to support team",
-      "daysOpen": 12,
-      "daysSinceReceived": 12,
+      "daysOpen": 13,
+      "daysSinceReceived": 13,
       "cc": [
         "report@tinkerhub.org",
         "support@tinkerhub.org"
@@ -1618,8 +1618,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-07",
       "status": "Awaiting reply (from us)",
       "note": "still can't register for Sept 11-12 slot despite instructions; needs further help",
-      "daysOpen": 14,
-      "daysSinceReceived": 14,
+      "daysOpen": 15,
+      "daysSinceReceived": 15,
       "cc": [
         "support@tinkerhub.org"
       ]
@@ -1635,8 +1635,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-07",
       "status": "No response",
       "note": "~100 students at Saintgits Kudumba Unit event couldn't register in time; asking to add attached list of 27 names to the event",
-      "daysOpen": 13,
-      "daysSinceReceived": 13,
+      "daysOpen": 14,
+      "daysSinceReceived": 14,
       "cc": [
         "support@tinkerhub.org"
       ]
@@ -1652,8 +1652,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-07",
       "status": "No response",
       "note": "invoice submitted for Kozhikode shoot, pending review/payment",
-      "daysOpen": 13,
-      "daysSinceReceived": 13,
+      "daysOpen": 14,
+      "daysSinceReceived": 14,
       "cc": [
         "finance@tinkerhub.org"
       ]
@@ -1668,9 +1668,9 @@ window.DASHBOARD_DATA = {
       "received": "2026-09-02",
       "last": "2026-09-06",
       "status": "Awaiting reply (from them)",
-      "note": "seat count increase (50→70) + reopen registration pending",
-      "daysOpen": 18,
-      "daysSinceReceived": 18,
+      "note": "seat count increase (50\u219270) + reopen registration pending",
+      "daysOpen": 19,
+      "daysSinceReceived": 19,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -1679,7 +1679,7 @@ window.DASHBOARD_DATA = {
       "id": "campus-7a4a107b80",
       "threadId": "1a06c07fffe07b51",
       "group": "campus",
-      "subject": "Update on Participant Capacity – Useless Projects 3.0",
+      "subject": "Update on Participant Capacity \u2013 Useless Projects 3.0",
       "counterpart": "Raj Soni (PRC)",
       "email": "raj310994@gmail.com",
       "received": "2026-09-04",
@@ -1687,7 +1687,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "capacity revised, thanked",
       "daysOpen": 2,
-      "daysSinceReceived": 16,
+      "daysSinceReceived": 17,
       "cc": [
         "campus@tinkerhub.org",
         "femina@tinkerhub.org"
@@ -1705,7 +1705,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "slot time corrected as requested",
       "daysOpen": 1,
-      "daysSinceReceived": 15,
+      "daysSinceReceived": 16,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -1714,15 +1714,15 @@ window.DASHBOARD_DATA = {
       "id": "campus-24868031a3",
       "threadId": "1a07175f158e1e83",
       "group": "campus",
-      "subject": "Request to Increase Seat Capacity for Useless Projects – JCET",
+      "subject": "Request to Increase Seat Capacity for Useless Projects \u2013 JCET",
       "counterpart": "Shaamila Shahul (JCET)",
       "email": "shaamilaashahul@gmail.com",
       "received": "2026-09-05",
       "last": "2026-09-06",
       "status": "Awaiting reply (from them)",
-      "note": "seat capacity increase (60→70) pending",
-      "daysOpen": 15,
-      "daysSinceReceived": 15,
+      "note": "seat capacity increase (60\u219270) pending",
+      "daysOpen": 16,
+      "daysSinceReceived": 16,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -1737,9 +1737,9 @@ window.DASHBOARD_DATA = {
       "received": "2026-09-05",
       "last": "2026-09-06",
       "status": "Awaiting reply (from them)",
-      "note": "we owe them updated slot (11 Sep 5pm–12 Sep 11am)",
-      "daysOpen": 15,
-      "daysSinceReceived": 15,
+      "note": "we owe them updated slot (11 Sep 5pm\u201312 Sep 11am)",
+      "daysOpen": 16,
+      "daysSinceReceived": 16,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -1754,9 +1754,9 @@ window.DASHBOARD_DATA = {
       "received": "2026-09-04",
       "last": "2026-09-05",
       "status": "Awaiting reply (from them)",
-      "note": "seat count change pending (120→60)",
-      "daysOpen": 16,
-      "daysSinceReceived": 16,
+      "note": "seat count change pending (120\u219260)",
+      "daysOpen": 17,
+      "daysSinceReceived": 17,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -1765,15 +1765,15 @@ window.DASHBOARD_DATA = {
       "id": "campus-d61b0346ae",
       "threadId": "1a06c2bd47f6baf1",
       "group": "campus",
-      "subject": "Request to Increase Seat Count & Clarification on Participant Approval – Useless Project 3.0",
+      "subject": "Request to Increase Seat Count & Clarification on Participant Approval \u2013 Useless Project 3.0",
       "counterpart": "Lekshmy S",
       "email": "lekshmys33@gmail.com",
       "received": "2026-09-04",
       "last": "2026-09-05",
       "status": "Awaiting reply (from them)",
       "note": "seat count change pending; participant approval clarified",
-      "daysOpen": 16,
-      "daysSinceReceived": 16,
+      "daysOpen": 17,
+      "daysSinceReceived": 17,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -1788,9 +1788,9 @@ window.DASHBOARD_DATA = {
       "received": "2026-09-04",
       "last": "2026-09-05",
       "status": "Awaiting reply (from them)",
-      "note": "seat increase (70→100) pending",
-      "daysOpen": 16,
-      "daysSinceReceived": 16,
+      "note": "seat increase (70\u2192100) pending",
+      "daysOpen": 17,
+      "daysSinceReceived": 17,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -1807,7 +1807,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "slot updated as requested",
       "daysOpen": 1,
-      "daysSinceReceived": 16,
+      "daysSinceReceived": 17,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -1823,8 +1823,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-05",
       "status": "No response",
       "note": "OTP verification failing; also can't edit profile",
-      "daysOpen": 15,
-      "daysSinceReceived": 15,
+      "daysOpen": 16,
+      "daysSinceReceived": 16,
       "cc": [
         "support@tinkerhub.org"
       ]
@@ -1840,8 +1840,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-04",
       "status": "Awaiting reply (from them)",
       "note": "escalated participation-fee complaint to campus lead, follow-up owed",
-      "daysOpen": 16,
-      "daysSinceReceived": 16,
+      "daysOpen": 17,
+      "daysSinceReceived": 17,
       "cc": [
         "report@tinkerhub.org",
         "campus@tinkerhub.org",
@@ -1859,8 +1859,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-03",
       "status": "Awaiting reply (from them)",
       "note": "asked her to fill RSVP form",
-      "daysOpen": 18,
-      "daysSinceReceived": 18,
+      "daysOpen": 19,
+      "daysSinceReceived": 19,
       "cc": [
         "campus@tinkerhub.org",
         "habeeb@tinkerhub.org"
@@ -1870,7 +1870,7 @@ window.DASHBOARD_DATA = {
       "id": "campus-cc8be4d752",
       "threadId": "1a0684a762010b6a",
       "group": "campus",
-      "subject": "Re: Follow-up: Capacity Increase & Application Deadline – Useless Projects 3.0",
+      "subject": "Re: Follow-up: Capacity Increase & Application Deadline \u2013 Useless Projects 3.0",
       "counterpart": "Elizabeth Bobby",
       "email": "elizabethbobby169@gmail.com",
       "received": "2026-09-03",
@@ -1878,7 +1878,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "seat count increased as requested",
       "daysOpen": 0,
-      "daysSinceReceived": 17,
+      "daysSinceReceived": 18,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -1894,8 +1894,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-03",
       "status": "No response",
       "note": "needs OTP troubleshooting",
-      "daysOpen": 17,
-      "daysSinceReceived": 17,
+      "daysOpen": 18,
+      "daysSinceReceived": 18,
       "cc": [
         "support@tinkerhub.org"
       ]
@@ -1911,8 +1911,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-02",
       "status": "Awaiting reply (from them)",
       "note": "we owe them updated slot",
-      "daysOpen": 19,
-      "daysSinceReceived": 19,
+      "daysOpen": 20,
+      "daysSinceReceived": 20,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -1929,7 +1929,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "slot updated",
       "daysOpen": 1,
-      "daysSinceReceived": 19,
+      "daysSinceReceived": 20,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -1938,15 +1938,15 @@ window.DASHBOARD_DATA = {
       "id": "campus-e09885798c",
       "threadId": "1a05daea95e056a0",
       "group": "campus",
-      "subject": "Request to Reschedule Useless Project – 5–6 September to 4–5 September",
+      "subject": "Request to Reschedule Useless Project \u2013 5\u20136 September to 4\u20135 September",
       "counterpart": "Vibin VM",
       "email": "vibinvm90@gmail.com",
       "received": "2026-09-01",
       "last": "2026-09-02",
       "status": "Awaiting reply (from them)",
       "note": "we owe them reschedule confirmation",
-      "daysOpen": 19,
-      "daysSinceReceived": 19,
+      "daysOpen": 20,
+      "daysSinceReceived": 20,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -1962,8 +1962,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-02",
       "status": "Awaiting reply (from them)",
       "note": "we owe them deadline update",
-      "daysOpen": 18,
-      "daysSinceReceived": 18,
+      "daysOpen": 19,
+      "daysSinceReceived": 19,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -1972,7 +1972,7 @@ window.DASHBOARD_DATA = {
       "id": "campus-258171bd51",
       "threadId": "1a060b238827bdc9",
       "group": "campus",
-      "subject": "Re: Request to Extend Registration Deadline – Useless Projects 3.0",
+      "subject": "Re: Request to Extend Registration Deadline \u2013 Useless Projects 3.0",
       "counterpart": "Anjali Pillai",
       "email": "anjalispillai321@gmail.com",
       "received": "2026-09-02",
@@ -1980,7 +1980,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "deadline extended, thanked",
       "daysOpen": 0,
-      "daysSinceReceived": 18,
+      "daysSinceReceived": 19,
       "cc": [
         "campus@tinkerhub.org",
         "femina@tinkerhub.org"
@@ -1997,8 +1997,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-02",
       "status": "Awaiting reply (from them)",
       "note": "we owe them updated slot",
-      "daysOpen": 18,
-      "daysSinceReceived": 18,
+      "daysOpen": 19,
+      "daysSinceReceived": 19,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -2015,7 +2015,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "reschedule noted",
       "daysOpen": 0,
-      "daysSinceReceived": 18,
+      "daysSinceReceived": 19,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -2031,8 +2031,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-02",
       "status": "Awaiting reply (from them)",
       "note": "we owe them updated slot",
-      "daysOpen": 18,
-      "daysSinceReceived": 18,
+      "daysOpen": 19,
+      "daysSinceReceived": 19,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -2049,7 +2049,7 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "spreadsheet share, no reply needed",
       "daysOpen": 0,
-      "daysSinceReceived": 18,
+      "daysSinceReceived": 19,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -2066,7 +2066,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "invoice INV-0039 paid, receipt sent",
       "daysOpen": 2,
-      "daysSinceReceived": 20,
+      "daysSinceReceived": 21,
       "cc": [
         "finance@tinkerhub.org",
         "mehar@tinkerhub.org"
@@ -2084,7 +2084,7 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "annual self-cert renewal due Nov 2026",
       "daysOpen": 1,
-      "daysSinceReceived": 19,
+      "daysSinceReceived": 20,
       "cc": [
         "finance@tinkerhub.org"
       ]
@@ -2101,7 +2101,7 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "GST invoice available for download",
       "daysOpen": 0,
-      "daysSinceReceived": 18,
+      "daysSinceReceived": 19,
       "cc": [
         "finance@tinkerhub.org",
         "kolaambi@tinkerhub.org"
@@ -2118,8 +2118,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-02",
       "status": "No response",
       "note": "OTP login issue, no reply yet",
-      "daysOpen": 18,
-      "daysSinceReceived": 18,
+      "daysOpen": 19,
+      "daysSinceReceived": 19,
       "cc": [
         "report@tinkerhub.org"
       ]
@@ -2128,15 +2128,15 @@ window.DASHBOARD_DATA = {
       "id": "campus-6b1a636d0c",
       "threadId": "1a0534c449dc69b5",
       "group": "campus",
-      "subject": "Request for Foundation–College Communication",
+      "subject": "Request for Foundation\u2013College Communication",
       "counterpart": "Meenakshy MS",
       "email": "me24kshy@gmail.com",
       "received": "2026-08-30",
       "last": "2026-09-01",
       "status": "Awaiting reply (from them)",
       "note": "we owe them - contact college principal",
-      "daysOpen": 21,
-      "daysSinceReceived": 21,
+      "daysOpen": 22,
+      "daysSinceReceived": 22,
       "cc": [
         "campus@tinkerhub.org",
         "femina@tinkerhub.org"
@@ -2146,15 +2146,15 @@ window.DASHBOARD_DATA = {
       "id": "campus-32d7ec956b",
       "threadId": "1a053623e56c89eb",
       "group": "campus",
-      "subject": "Request to Edit Event Slot – Useless Projects 3.0",
+      "subject": "Request to Edit Event Slot \u2013 Useless Projects 3.0",
       "counterpart": "Rezin",
       "email": "rezinch@gmail.com",
       "received": "2026-08-30",
       "last": "2026-09-01",
       "status": "Awaiting reply (from them)",
       "note": "we owe them slot update",
-      "daysOpen": 21,
-      "daysSinceReceived": 21,
+      "daysOpen": 22,
+      "daysSinceReceived": 22,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -2171,7 +2171,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "slot confirmed - Sept 11 daytime",
       "daysOpen": 2,
-      "daysSinceReceived": 21,
+      "daysSinceReceived": 22,
       "cc": [
         "campus@tinkerhub.org",
         "femina@tinkerhub.org"
@@ -2188,8 +2188,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-01",
       "status": "Awaiting reply (from them)",
       "note": "we owe them schedule update",
-      "daysOpen": 20,
-      "daysSinceReceived": 20,
+      "daysOpen": 21,
+      "daysSinceReceived": 21,
       "cc": [
         "campus@tinkerhub.org",
         "femina@tinkerhub.org"
@@ -2199,15 +2199,15 @@ window.DASHBOARD_DATA = {
       "id": "campus-6b6e1fda90",
       "threadId": "1a058202c16b8fd9",
       "group": "campus",
-      "subject": "Regarding Permission for Useless Projects – September 18 & 19",
+      "subject": "Regarding Permission for Useless Projects \u2013 September 18 & 19",
       "counterpart": "Meenakshy MS",
       "email": "me24kshy@gmail.com",
       "received": "2026-08-31",
       "last": "2026-09-01",
       "status": "Awaiting reply (from them)",
       "note": "proposed alternative dates",
-      "daysOpen": 20,
-      "daysSinceReceived": 20,
+      "daysOpen": 21,
+      "daysSinceReceived": 21,
       "cc": [
         "campus@tinkerhub.org",
         "council@tinkerhub.org",
@@ -2225,8 +2225,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-01",
       "status": "Awaiting reply (from them)",
       "note": "we owe them slot/count update",
-      "daysOpen": 20,
-      "daysSinceReceived": 20,
+      "daysOpen": 21,
+      "daysSinceReceived": 21,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -2242,8 +2242,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-01",
       "status": "Awaiting reply (from them)",
       "note": "asked for exact timing",
-      "daysOpen": 20,
-      "daysSinceReceived": 20,
+      "daysOpen": 21,
+      "daysSinceReceived": 21,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -2260,7 +2260,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "orientation went well; campus visit planned",
       "daysOpen": 0,
-      "daysSinceReceived": 19,
+      "daysSinceReceived": 20,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -2277,7 +2277,7 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "FY24-25 statement shared for records",
       "daysOpen": 0,
-      "daysSinceReceived": 19,
+      "daysSinceReceived": 20,
       "cc": [
         "finance@tinkerhub.org"
       ]
@@ -2294,7 +2294,7 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "free plan auto-renewed, zero charged",
       "daysOpen": 0,
-      "daysSinceReceived": 19,
+      "daysSinceReceived": 20,
       "cc": [
         "finance@tinkerhub.org"
       ]
@@ -2310,8 +2310,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-01",
       "status": "Awaiting reply (from them)",
       "note": "requested FY24-25 statement, awaiting bank",
-      "daysOpen": 19,
-      "daysSinceReceived": 19,
+      "daysOpen": 20,
+      "daysSinceReceived": 20,
       "cc": [
         "finance@tinkerhub.org"
       ]
@@ -2328,7 +2328,7 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "auto meeting-report notification",
       "daysOpen": 1,
-      "daysSinceReceived": 21,
+      "daysSinceReceived": 22,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -2345,7 +2345,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "invoice Sol/34 paid, receipt sent",
       "daysOpen": 0,
-      "daysSinceReceived": 20,
+      "daysSinceReceived": 21,
       "cc": [
         "finance@tinkerhub.org",
         "eldho@tinkerhub.org",
@@ -2363,8 +2363,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-08-30",
       "status": "Awaiting reply (from us)",
       "note": "Habeeb looped in support to update role (Friends of TinkerHub -> Campus Student); no confirmation yet that it's done",
-      "daysOpen": 40,
-      "daysSinceReceived": 40,
+      "daysOpen": 41,
+      "daysSinceReceived": 41,
       "cc": [
         "campus@tinkerhub.org",
         "support@tinkerhub.org"
@@ -2382,7 +2382,7 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "calendar invite",
       "daysOpen": 0,
-      "daysSinceReceived": 21,
+      "daysSinceReceived": 22,
       "cc": [
         "campus@tinkerhub.org",
         "kurian@tinkerhub.org",
@@ -2402,7 +2402,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "slots increased to 80",
       "daysOpen": 0,
-      "daysSinceReceived": 21,
+      "daysSinceReceived": 22,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -2419,7 +2419,7 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "calendar invite",
       "daysOpen": 0,
-      "daysSinceReceived": 22,
+      "daysSinceReceived": 23,
       "cc": [
         "campus@tinkerhub.org",
         "kurian@tinkerhub.org",
@@ -2439,7 +2439,7 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "calendar invite (updated)",
       "daysOpen": 0,
-      "daysSinceReceived": 22,
+      "daysSinceReceived": 23,
       "cc": [
         "campus@tinkerhub.org",
         "kurian@tinkerhub.org",
@@ -2451,15 +2451,15 @@ window.DASHBOARD_DATA = {
       "id": "campus-94026afb5a",
       "threadId": "1a041e17361e004f",
       "group": "campus",
-      "subject": "Re: Partnership Opportunity | Useless Projects × Innovation Incubator Advisory",
+      "subject": "Re: Partnership Opportunity | Useless Projects \u00d7 Innovation Incubator Advisory",
       "counterpart": "Fannie Nesa (iiNerds)",
       "email": "fannie.na@iinerds.com",
       "received": "2026-08-27",
       "last": "2026-08-28",
       "status": "Awaiting reply (from them)",
       "note": "looped in campus lead for follow-up",
-      "daysOpen": 24,
-      "daysSinceReceived": 24,
+      "daysOpen": 25,
+      "daysSinceReceived": 25,
       "cc": [
         "campus@tinkerhub.org",
         "mehar@tinkerhub.org",
@@ -2478,8 +2478,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-08-28",
       "status": "Awaiting reply (from them)",
       "note": "we owe them slot update",
-      "daysOpen": 24,
-      "daysSinceReceived": 24,
+      "daysOpen": 25,
+      "daysSinceReceived": 25,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -2496,7 +2496,7 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "campus broadcast",
       "daysOpen": 0,
-      "daysSinceReceived": 23,
+      "daysSinceReceived": 24,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -2512,8 +2512,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-08-27",
       "status": "Awaiting reply (from them)",
       "note": "Useless Projects RSVP broadcast; several campuses requested slot changes (latest: asked Ananya/Christ College Irinjalakuda to fill RSVP for Sept 12 daytime)",
-      "daysOpen": 38,
-      "daysSinceReceived": 38,
+      "daysOpen": 39,
+      "daysSinceReceived": 39,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -2530,7 +2530,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "slot updated",
       "daysOpen": 2,
-      "daysSinceReceived": 26,
+      "daysSinceReceived": 27,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -2546,8 +2546,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-08-26",
       "status": "No response",
       "note": "UI bug report, needs review",
-      "daysOpen": 25,
-      "daysSinceReceived": 25,
+      "daysOpen": 26,
+      "daysSinceReceived": 26,
       "cc": [
         "support@tinkerhub.org"
       ]
@@ -2563,8 +2563,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-08-25",
       "status": "Awaiting reply (from them)",
       "note": "we owe them updated slot",
-      "daysOpen": 26,
-      "daysSinceReceived": 26,
+      "daysOpen": 27,
+      "daysSinceReceived": 27,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -2580,8 +2580,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-08-25",
       "status": "No response",
       "note": "duplicate follow-up, still locked out",
-      "daysOpen": 26,
-      "daysSinceReceived": 26,
+      "daysOpen": 27,
+      "daysSinceReceived": 27,
       "cc": [
         "support@tinkerhub.org"
       ]
@@ -2597,8 +2597,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-08-25",
       "status": "No response",
       "note": "college missing from selection list",
-      "daysOpen": 26,
-      "daysSinceReceived": 26,
+      "daysOpen": 27,
+      "daysSinceReceived": 27,
       "cc": [
         "support@tinkerhub.org"
       ]
@@ -2614,8 +2614,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-08-25",
       "status": "Awaiting reply (from us)",
       "note": "network switch didn't fix OTP issue",
-      "daysOpen": 26,
-      "daysSinceReceived": 26,
+      "daysOpen": 27,
+      "daysSinceReceived": 27,
       "cc": [
         "akhil@tinkerhub.org",
         "kurian@tinkerhub.org",
@@ -2634,8 +2634,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-08-24",
       "status": "Awaiting reply (from them)",
       "note": "OTP fails, tagged to support",
-      "daysOpen": 27,
-      "daysSinceReceived": 27,
+      "daysOpen": 28,
+      "daysSinceReceived": 28,
       "cc": [
         "support@tinkerhub.org",
         "campus@tinkerhub.org"
@@ -2645,15 +2645,15 @@ window.DASHBOARD_DATA = {
       "id": "campus-ee87746e44",
       "threadId": "1a0342b5cd9cfcc2",
       "group": "campus",
-      "subject": "Re: Request to Reschedule Useless Project from September 5–6 to September 11–12",
+      "subject": "Re: Request to Reschedule Useless Project from September 5\u20136 to September 11\u201312",
       "counterpart": "Farsana (TinkerHub)",
       "email": "fathimathulfarsaana@gmail.com",
       "received": "2026-08-24",
       "last": "2026-08-24",
       "status": "Awaiting reply (from them)",
       "note": "confirming overnight slot Sept 11-12",
-      "daysOpen": 27,
-      "daysSinceReceived": 27,
+      "daysOpen": 28,
+      "daysSinceReceived": 28,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -2669,8 +2669,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-08-24",
       "status": "Awaiting reply (from them)",
       "note": "encouraged to proceed, next steps shared",
-      "daysOpen": 27,
-      "daysSinceReceived": 27,
+      "daysOpen": 28,
+      "daysSinceReceived": 28,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -2686,8 +2686,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-08-24",
       "status": "No response",
       "note": "duplicate OTP report",
-      "daysOpen": 27,
-      "daysSinceReceived": 27,
+      "daysOpen": 28,
+      "daysSinceReceived": 28,
       "cc": [
         "support@tinkerhub.org"
       ]
@@ -2703,8 +2703,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-08-24",
       "status": "Awaiting reply (from them)",
       "note": "forwarded to support team",
-      "daysOpen": 27,
-      "daysSinceReceived": 27,
+      "daysOpen": 28,
+      "daysSinceReceived": 28,
       "cc": [
         "report@tinkerhub.org",
         "support@tinkerhub.org"
@@ -2721,8 +2721,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-08-23",
       "status": "Awaiting reply (from them)",
       "note": "offered Sept 12/13 daytime slots",
-      "daysOpen": 30,
-      "daysSinceReceived": 30,
+      "daysOpen": 31,
+      "daysSinceReceived": 31,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -2739,7 +2739,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "stepping down acknowledged",
       "daysOpen": 1,
-      "daysSinceReceived": 29,
+      "daysSinceReceived": 30,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -2756,7 +2756,7 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "acknowledged situation",
       "daysOpen": 0,
-      "daysSinceReceived": 28,
+      "daysSinceReceived": 29,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -2772,8 +2772,8 @@ window.DASHBOARD_DATA = {
       "last": "2026-08-23",
       "status": "Awaiting reply (from us)",
       "note": "sent screenshot, needs profile fix",
-      "daysOpen": 29,
-      "daysSinceReceived": 29,
+      "daysOpen": 30,
+      "daysSinceReceived": 30,
       "cc": [
         "support@tinkerhub.org",
         "akhil@tinkerhub.org"
@@ -2791,7 +2791,7 @@ window.DASHBOARD_DATA = {
       "status": "Informational",
       "note": "spreadsheet share",
       "daysOpen": 0,
-      "daysSinceReceived": 29,
+      "daysSinceReceived": 30,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -2807,8 +2807,43 @@ window.DASHBOARD_DATA = {
       "last": "2026-08-22",
       "status": "No response",
       "note": "GitHub repo selection bug",
-      "daysOpen": 29,
-      "daysSinceReceived": 29,
+      "daysOpen": 30,
+      "daysSinceReceived": 30,
+      "cc": [
+        "support@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-2314441537",
+      "threadId": "1a0bfead8071f62a",
+      "group": "campus",
+      "subject": "Useless Project Top 5 projects selection issue",
+      "counterpart": "Ann Rose",
+      "email": "annrose2277@gmail.com",
+      "received": "2026-09-20",
+      "last": "2026-09-20",
+      "status": "Awaiting reply (from us)",
+      "note": "Needs team to review Useless Projects top-5 selection (messy voting/evaluation process); Kurian looped in the team, no detailed reply yet",
+      "daysOpen": 1,
+      "daysSinceReceived": 1,
+      "cc": [
+        "campus@tinkerhub.org",
+        "council@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "support-33bc738086",
+      "threadId": "1a0c1d0e184d7c44",
+      "group": "support",
+      "subject": "Unable to register for Sept 22 Security Tuesday",
+      "counterpart": "Rania Hashim",
+      "email": "rania.hashim25@imperial.ac.uk",
+      "received": "2026-09-21",
+      "last": "2026-09-21",
+      "status": "No response",
+      "note": "Visiting from UK with no Indian phone number, can't register for tomorrow's Security Tuesday event \u2014 time-sensitive",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
       "cc": [
         "support@tinkerhub.org"
       ]
@@ -2816,34 +2851,34 @@ window.DASHBOARD_DATA = {
   ],
   "summary": {
     "Resolved": 48,
-    "Awaiting reply (from us)": 24,
+    "Awaiting reply (from us)": 25,
     "Awaiting reply (from them)": 52,
-    "No response": 16,
+    "No response": 17,
     "Informational": 22
   },
   "analytics": {
     "campus": {
-      "total": 121,
+      "total": 122,
       "statusCounts": {
         "Resolved": 42,
-        "Awaiting reply (from us)": 20,
+        "Awaiting reply (from us)": 21,
         "Awaiting reply (from them)": 45,
         "No response": 3,
         "Informational": 11
       },
-      "avgOpenDays": 15.1,
-      "avgResolvedDays": 1.0
+      "avgOpenDays": 15.87,
+      "avgResolvedDays": 1.02
     },
     "support": {
-      "total": 16,
+      "total": 17,
       "statusCounts": {
         "Awaiting reply (from them)": 1,
         "Informational": 1,
         "Resolved": 1,
-        "No response": 11,
+        "No response": 12,
         "Awaiting reply (from us)": 2
       },
-      "avgOpenDays": 17.9,
+      "avgOpenDays": 17.67,
       "avgResolvedDays": 0.0
     },
     "finance": {
@@ -2854,7 +2889,7 @@ window.DASHBOARD_DATA = {
         "No response": 1,
         "Awaiting reply (from them)": 1
       },
-      "avgOpenDays": 16.0,
+      "avgOpenDays": 17.0,
       "avgResolvedDays": 3.4
     },
     "report": {
@@ -2864,7 +2899,7 @@ window.DASHBOARD_DATA = {
         "Awaiting reply (from us)": 2,
         "No response": 1
       },
-      "avgOpenDays": 16.8,
+      "avgOpenDays": 17.75,
       "avgResolvedDays": null
     }
   }
