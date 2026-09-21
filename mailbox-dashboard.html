@@ -176,7 +176,7 @@
 <div class="max-w-7xl mx-auto">
   <div class="mb-8">
     <h1 class="text-2xl font-bold tracking-tight text-ink md:text-3xl">TinkerHub Mailbox Dashboard</h1>
-    <p class="text-sm text-muted mt-1.5" id="header-sub">campus@ · support@ · finance@ · report@tinkerhub.org — threads from the last 30 days</p>
+    <p class="text-sm text-muted mt-1.5" id="header-sub">campus@ · support@ · finance@ · report@ (counts only) · partner@ · tinkerspace@tinkerhub.org — threads from the last 30 days</p>
     <p class="text-xs text-muted mt-1" id="refresh-status"></p>
   </div>
 
@@ -233,7 +233,8 @@
         <option value="campus">campus</option>
         <option value="support">support</option>
         <option value="finance">finance</option>
-        <option value="report">report</option>
+        <option value="partner">partner</option>
+        <option value="tinkerspace">tinkerspace</option>
       </select>
       <select id="f-status" class="rounded-lg border border-border px-3 py-2 text-sm bg-white text-ink shadow-sm focus:outline-none focus:ring-2 focus:ring-accent/20 focus:border-accent cursor-pointer transition-all">
         <option value="">All statuses</option>
@@ -281,7 +282,7 @@ const statusClass = {
 };
 
 function recompute(threads){
-  const groups = ["campus","support","finance","report"];
+  const groups = ["campus","support","finance","report","partner","tinkerspace"];
   const statuses = ["No response","Awaiting reply (from us)","Awaiting reply (from them)","Resolved","Informational"];
   const openStatuses = new Set(["No response","Awaiting reply (from us)","Awaiting reply (from them)"]);
 
@@ -314,12 +315,12 @@ function renderSummary(summary){
 function renderAnalytics(analytics){
   const tbody = document.querySelector("#analytics-table tbody");
   tbody.innerHTML = "";
-  ["campus","support","finance","report"].forEach(g=>{
+  ["campus","support","finance","report","partner","tinkerspace"].forEach(g=>{
     const a = analytics[g];
     if(!a) return;
     const tr = document.createElement("tr");
     tr.innerHTML = `
-      <td><span class="grp-pill">${g}</span></td>
+      <td><span class="grp-pill">${g}</span>${g==="report" ? ` <span class="text-muted text-[11px]">(sensitive — counts only)</span>` : ""}</td>
       <td class="num">${a.total}</td>
       <td class="num">${a["No response"]||0}</td>
       <td class="num">${a["Awaiting reply (from us)"]||0}</td>
@@ -358,11 +359,15 @@ function renderThreads(){
   renderAnalytics(analytics);
 
   const rows = DATA.threads.filter(t=>{
+    // report@ threads carry counts only (no subject/sender/notes) — they're
+    // folded into the summary cards and the "report" row above, but never
+    // listed individually here.
+    if(t.group==="report") return false;
     if(g && t.group!==g) return false;
     if(s && t.status!==s) return false;
-    if(q && !(t.subject.toLowerCase().includes(q) || t.counterpart.toLowerCase().includes(q))) return false;
+    if(q && !((t.subject||"").toLowerCase().includes(q) || (t.counterpart||"").toLowerCase().includes(q))) return false;
     return true;
-  }).sort((a,b)=> new Date(b.last) - new Date(a.last));
+  }).sort((a,b)=> new Date(b.last||0) - new Date(a.last||0));
 
   const tbody = document.querySelector("#threads-table tbody");
   tbody.innerHTML = "";
@@ -402,14 +407,15 @@ function renderThreads(){
     `;
     tbody.appendChild(tr);
   });
-  document.getElementById("f-count").textContent = rows.length + " of " + DATA.threads.length + " threads";
+  const listableTotal = DATA.threads.filter(t=>t.group!=="report").length;
+  document.getElementById("f-count").textContent = rows.length + " of " + listableTotal + " threads";
 }
 
 ["f-group","f-status"].forEach(id=>document.getElementById(id).addEventListener("change", renderThreads));
 document.getElementById("f-search").addEventListener("input", renderThreads);
 
 document.getElementById("header-sub").textContent =
-  "campus@ · support@ · finance@ · report@tinkerhub.org — threads from the last 30 days · data as of " + (DATA.generatedAt || "unknown date");
+  "campus@ · support@ · finance@ · report@ (counts only) · partner@ · tinkerspace@tinkerhub.org — threads from the last 30 days · data as of " + (DATA.generatedAt || "unknown date");
 
 (function () {
   // Auto-refreshes every 2 hours during the active window (8am-11pm IST).
