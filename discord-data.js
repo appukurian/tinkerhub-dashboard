@@ -1,7 +1,7 @@
 // Auto-generated daily by .github/workflows/discord-update.yml
 // Do NOT hand-edit — this file is overwritten on each run.
 window.DISCORD_DATA = {
-  "generatedAt": "2026-09-21T15:14:54Z",
+  "generatedAt": "2026-09-21T20:29:55Z",
   "threads": [
     {
       "id": "1551448989692469379",
@@ -79,7 +79,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-20",
       "resolvedAt": "2026-09-10",
       "daysOpen": 1,
-      "daysSinceReceived": 10,
+      "daysSinceReceived": 11,
       "daysToClose": 0,
       "messageCount": 5,
       "archived": false,
@@ -101,8 +101,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-19",
       "last": "2026-09-19",
       "resolvedAt": "2026-09-19",
-      "daysOpen": 1,
-      "daysSinceReceived": 1,
+      "daysOpen": 2,
+      "daysSinceReceived": 2,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -124,8 +124,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-18",
       "last": "2026-09-18",
       "resolvedAt": "2026-09-18",
-      "daysOpen": 2,
-      "daysSinceReceived": 2,
+      "daysOpen": 3,
+      "daysSinceReceived": 3,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -144,7 +144,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-18",
       "resolvedAt": "2026-09-09",
       "daysOpen": 3,
-      "daysSinceReceived": 11,
+      "daysSinceReceived": 12,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -167,7 +167,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-16",
       "resolvedAt": "2026-09-13",
       "daysOpen": 5,
-      "daysSinceReceived": 7,
+      "daysSinceReceived": 8,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -224,7 +224,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-15",
       "resolvedAt": "2026-09-11",
       "daysOpen": 6,
-      "daysSinceReceived": 9,
+      "daysSinceReceived": 10,
       "daysToClose": 0,
       "messageCount": 4,
       "archived": false,
@@ -326,9 +326,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Course duration error",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537101204306530314",
-        "snippet": "8078079684"
+        "fromThreadName": "Check-in Scanner Not Working",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1538911158642151484",
+        "snippet": "1. Rishad Ali : 73562 74741 2. Ayisha husna : 92076 70354 3. Hadhil : 8075 293 010 4. Midhlaj : 8078 298 415 5. Ashjil : 8304947930"
       }
     },
     {
@@ -379,8 +379,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-10",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-10",
-      "daysOpen": 10,
-      "daysSinceReceived": 10,
+      "daysOpen": 11,
+      "daysSinceReceived": 11,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -398,8 +398,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-10",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-10",
-      "daysOpen": 10,
-      "daysSinceReceived": 10,
+      "daysOpen": 11,
+      "daysSinceReceived": 11,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -512,8 +512,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 11,
-      "daysSinceReceived": 11,
+      "daysOpen": 12,
+      "daysSinceReceived": 12,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -531,17 +531,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 11,
-      "daysSinceReceived": 11,
+      "daysOpen": 12,
+      "daysSinceReceived": 12,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Course duration error",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537101204306530314",
-        "snippet": "8078079684"
+        "fromThreadName": "Check-in Scanner Not Working",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1538911158642151484",
+        "snippet": "1. Rishad Ali : 73562 74741 2. Ayisha husna : 92076 70354 3. Hadhil : 8075 293 010 4. Midhlaj : 8078 298 415 5. Ashjil : 8304947930"
       }
     },
     {
@@ -554,17 +554,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 11,
-      "daysSinceReceived": 11,
+      "daysOpen": 12,
+      "daysSinceReceived": 12,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Course duration error",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537101204306530314",
-        "snippet": "8078079684"
+        "fromThreadName": "Check-in Scanner Not Working",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1538911158642151484",
+        "snippet": "1. Rishad Ali : 73562 74741 2. Ayisha husna : 92076 70354 3. Hadhil : 8075 293 010 4. Midhlaj : 8078 298 415 5. Ashjil : 8304947930"
       }
     },
     {
@@ -577,7 +577,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 11,
+      "daysOpen": 12,
       "daysSinceReceived": 12,
       "daysToClose": 0,
       "messageCount": 2,
@@ -619,7 +619,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-04",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-04",
-      "daysOpen": 11,
+      "daysOpen": 12,
       "daysSinceReceived": 17,
       "daysToClose": 0,
       "messageCount": 2,
@@ -627,9 +627,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Course duration error",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537101204306530314",
-        "snippet": "8078079684"
+        "fromThreadName": "Check-in Scanner Not Working",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1538911158642151484",
+        "snippet": "1. Rishad Ali : 73562 74741 2. Ayisha husna : 92076 70354 3. Hadhil : 8075 293 010 4. Midhlaj : 8078 298 415 5. Ashjil : 8304947930"
       }
     },
     {
@@ -642,8 +642,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-08",
       "last": "2026-09-08",
       "resolvedAt": "2026-09-08",
-      "daysOpen": 12,
-      "daysSinceReceived": 12,
+      "daysOpen": 13,
+      "daysSinceReceived": 13,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -685,7 +685,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-09-07",
       "daysOpen": 13,
-      "daysSinceReceived": 13,
+      "daysSinceReceived": 14,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -704,16 +704,16 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-09-07",
       "daysOpen": 13,
-      "daysSinceReceived": 13,
+      "daysSinceReceived": 14,
       "daysToClose": 0,
       "messageCount": 5,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Course duration error",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537101204306530314",
-        "snippet": "8078079684"
+        "fromThreadName": "Check-in Scanner Not Working",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1538911158642151484",
+        "snippet": "1. Rishad Ali : 73562 74741 2. Ayisha husna : 92076 70354 3. Hadhil : 8075 293 010 4. Midhlaj : 8078 298 415 5. Ashjil : 8304947930"
       }
     },
     {
@@ -727,7 +727,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-09-07",
       "daysOpen": 13,
-      "daysSinceReceived": 13,
+      "daysSinceReceived": 14,
       "daysToClose": 0,
       "messageCount": 7,
       "archived": false,
@@ -772,9 +772,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Course duration error",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537101204306530314",
-        "snippet": "8078079684"
+        "fromThreadName": "Check-in Scanner Not Working",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1538911158642151484",
+        "snippet": "1. Rishad Ali : 73562 74741 2. Ayisha husna : 92076 70354 3. Hadhil : 8075 293 010 4. Midhlaj : 8078 298 415 5. Ashjil : 8304947930"
       }
     },
     {
@@ -788,7 +788,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-09-03",
       "daysOpen": 13,
-      "daysSinceReceived": 17,
+      "daysSinceReceived": 18,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -826,16 +826,16 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-08-30",
       "daysOpen": 13,
-      "daysSinceReceived": 21,
+      "daysSinceReceived": 22,
       "daysToClose": 0,
       "messageCount": 7,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Course duration error",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537101204306530314",
-        "snippet": "8078079684"
+        "fromThreadName": "Check-in Scanner Not Working",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1538911158642151484",
+        "snippet": "1. Rishad Ali : 73562 74741 2. Ayisha husna : 92076 70354 3. Hadhil : 8075 293 010 4. Midhlaj : 8078 298 415 5. Ashjil : 8304947930"
       }
     },
     {
@@ -856,9 +856,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Course duration error",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537101204306530314",
-        "snippet": "8078079684"
+        "fromThreadName": "Check-in Scanner Not Working",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1538911158642151484",
+        "snippet": "1. Rishad Ali : 73562 74741 2. Ayisha husna : 92076 70354 3. Hadhil : 8075 293 010 4. Midhlaj : 8078 298 415 5. Ashjil : 8304947930"
       }
     },
     {
@@ -910,16 +910,16 @@ window.DISCORD_DATA = {
       "last": "2026-09-07",
       "resolvedAt": "2026-09-01",
       "daysOpen": 14,
-      "daysSinceReceived": 19,
+      "daysSinceReceived": 20,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Course duration error",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537101204306530314",
-        "snippet": "8078079684"
+        "fromThreadName": "Check-in Scanner Not Working",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1538911158642151484",
+        "snippet": "1. Rishad Ali : 73562 74741 2. Ayisha husna : 92076 70354 3. Hadhil : 8075 293 010 4. Midhlaj : 8078 298 415 5. Ashjil : 8304947930"
       }
     },
     {
@@ -959,9 +959,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Course duration error",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537101204306530314",
-        "snippet": "8078079684"
+        "fromThreadName": "Check-in Scanner Not Working",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1538911158642151484",
+        "snippet": "1. Rishad Ali : 73562 74741 2. Ayisha husna : 92076 70354 3. Hadhil : 8075 293 010 4. Midhlaj : 8078 298 415 5. Ashjil : 8304947930"
       }
     },
     {
@@ -1020,9 +1020,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Course duration error",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537101204306530314",
-        "snippet": "8078079684"
+        "fromThreadName": "Check-in Scanner Not Working",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1538911158642151484",
+        "snippet": "1. Rishad Ali : 73562 74741 2. Ayisha husna : 92076 70354 3. Hadhil : 8075 293 010 4. Midhlaj : 8078 298 415 5. Ashjil : 8304947930"
       }
     },
     {
@@ -1035,17 +1035,17 @@ window.DISCORD_DATA = {
       "received": "2026-08-29",
       "last": "2026-09-04",
       "resolvedAt": "2026-08-29",
-      "daysOpen": 16,
-      "daysSinceReceived": 22,
+      "daysOpen": 17,
+      "daysSinceReceived": 23,
       "daysToClose": 0,
       "messageCount": 4,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Course duration error",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537101204306530314",
-        "snippet": "8078079684"
+        "fromThreadName": "Check-in Scanner Not Working",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1538911158642151484",
+        "snippet": "1. Rishad Ali : 73562 74741 2. Ayisha husna : 92076 70354 3. Hadhil : 8075 293 010 4. Midhlaj : 8078 298 415 5. Ashjil : 8304947930"
       }
     },
     {
@@ -1058,8 +1058,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-03",
       "last": "2026-09-03",
       "resolvedAt": "2026-09-03",
-      "daysOpen": 17,
-      "daysSinceReceived": 17,
+      "daysOpen": 18,
+      "daysSinceReceived": 18,
       "daysToClose": 0,
       "messageCount": 3,
       "archived": false,
@@ -1085,9 +1085,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Course duration error",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537101204306530314",
-        "snippet": "8078079684"
+        "fromThreadName": "Check-in Scanner Not Working",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1538911158642151484",
+        "snippet": "1. Rishad Ali : 73562 74741 2. Ayisha husna : 92076 70354 3. Hadhil : 8075 293 010 4. Midhlaj : 8078 298 415 5. Ashjil : 8304947930"
       }
     },
     {
@@ -1100,17 +1100,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-01",
       "last": "2026-09-01",
       "resolvedAt": "2026-09-01",
-      "daysOpen": 19,
-      "daysSinceReceived": 19,
+      "daysOpen": 20,
+      "daysSinceReceived": 20,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Course duration error",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537101204306530314",
-        "snippet": "8078079684"
+        "fromThreadName": "Check-in Scanner Not Working",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1538911158642151484",
+        "snippet": "1. Rishad Ali : 73562 74741 2. Ayisha husna : 92076 70354 3. Hadhil : 8075 293 010 4. Midhlaj : 8078 298 415 5. Ashjil : 8304947930"
       }
     },
     {
@@ -1142,7 +1142,7 @@ window.DISCORD_DATA = {
       "received": "2026-08-27",
       "last": "2026-09-01",
       "resolvedAt": "2026-08-27",
-      "daysOpen": 19,
+      "daysOpen": 20,
       "daysSinceReceived": 25,
       "daysToClose": 0,
       "messageCount": 7,
@@ -1161,8 +1161,8 @@ window.DISCORD_DATA = {
       "received": "2026-08-31",
       "last": "2026-08-31",
       "resolvedAt": "2026-08-31",
-      "daysOpen": 20,
-      "daysSinceReceived": 20,
+      "daysOpen": 21,
+      "daysSinceReceived": 21,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -1260,17 +1260,17 @@ window.DISCORD_DATA = {
       "received": "2026-08-29",
       "last": "2026-08-29",
       "resolvedAt": "2026-08-29",
-      "daysOpen": 22,
-      "daysSinceReceived": 22,
+      "daysOpen": 23,
+      "daysSinceReceived": 23,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Course duration error",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537101204306530314",
-        "snippet": "8078079684"
+        "fromThreadName": "Check-in Scanner Not Working",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1538911158642151484",
+        "snippet": "1. Rishad Ali : 73562 74741 2. Ayisha husna : 92076 70354 3. Hadhil : 8075 293 010 4. Midhlaj : 8078 298 415 5. Ashjil : 8304947930"
       }
     },
     {
@@ -1371,9 +1371,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Course duration error",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537101204306530314",
-        "snippet": "8078079684"
+        "fromThreadName": "Check-in Scanner Not Working",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1538911158642151484",
+        "snippet": "1. Rishad Ali : 73562 74741 2. Ayisha husna : 92076 70354 3. Hadhil : 8075 293 010 4. Midhlaj : 8078 298 415 5. Ashjil : 8304947930"
       }
     },
     {
@@ -1508,7 +1508,7 @@ window.DISCORD_DATA = {
       "received": "2026-08-24",
       "last": "2026-08-25",
       "resolvedAt": "2026-08-24",
-      "daysOpen": 26,
+      "daysOpen": 27,
       "daysSinceReceived": 28,
       "daysToClose": 0,
       "messageCount": 2,
@@ -1516,9 +1516,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Course duration error",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537101204306530314",
-        "snippet": "8078079684"
+        "fromThreadName": "Check-in Scanner Not Working",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1538911158642151484",
+        "snippet": "1. Rishad Ali : 73562 74741 2. Ayisha husna : 92076 70354 3. Hadhil : 8075 293 010 4. Midhlaj : 8078 298 415 5. Ashjil : 8304947930"
       }
     },
     {
@@ -1642,9 +1642,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Course duration error",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537101204306530314",
-        "snippet": "8078079684"
+        "fromThreadName": "Check-in Scanner Not Working",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1538911158642151484",
+        "snippet": "1. Rishad Ali : 73562 74741 2. Ayisha husna : 92076 70354 3. Hadhil : 8075 293 010 4. Midhlaj : 8078 298 415 5. Ashjil : 8304947930"
       }
     },
     {
@@ -1658,7 +1658,7 @@ window.DISCORD_DATA = {
       "last": "2026-08-23",
       "resolvedAt": "2026-08-14",
       "daysOpen": 29,
-      "daysSinceReceived": 37,
+      "daysSinceReceived": 38,
       "daysToClose": 0,
       "messageCount": 4,
       "archived": false,
@@ -1681,7 +1681,7 @@ window.DISCORD_DATA = {
       "last": "2026-08-23",
       "resolvedAt": "2026-08-05",
       "daysOpen": 29,
-      "daysSinceReceived": 46,
+      "daysSinceReceived": 47,
       "daysToClose": 0,
       "messageCount": 7,
       "archived": false,
@@ -1720,24 +1720,20 @@ window.DISCORD_DATA = {
       "id": "1538911158642151484",
       "name": "Check-in Scanner Not Working",
       "url": "https://discord.com/channels/735180366297563257/1538911158642151484",
-      "status": "Awaiting reply (from us)",
+      "status": "Resolved",
       "category": "Other",
       "requester": "Muhammed Ashjil",
       "received": "2026-08-17",
       "last": "2026-08-22",
-      "resolvedAt": "2026-08-17",
-      "daysOpen": 29,
+      "resolvedAt": "2026-09-21",
+      "daysOpen": 30,
       "daysSinceReceived": 35,
-      "daysToClose": 0,
+      "daysToClose": 35,
       "messageCount": 7,
-      "archived": false,
+      "archived": true,
       "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Course duration error",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537101204306530314",
-        "snippet": "8078079684"
-      }
+      "resolutionSnippet": "1. Rishad Ali : 73562 74741 2. Ayisha husna : 92076 70354 3. Hadhil : 8075 293 010 4. Midhlaj : 8078 298 415 5. Ashjil : 8304947930",
+      "suggestion": null
     },
     {
       "id": "1532962865437478932",
@@ -13047,12 +13043,12 @@ window.DISCORD_DATA = {
   ],
   "summary": {
     "No response": 33,
-    "Awaiting reply (from us)": 30,
+    "Awaiting reply (from us)": 29,
     "Awaiting reply (from them)": 14,
-    "Resolved": 602
+    "Resolved": 603
   },
   "avgOpenDays": 15.0,
-  "avgDaysToClose": 11.3,
+  "avgDaysToClose": 11.4,
   "topCategories": [
     {
       "category": "Event/Activity check-in & reporting",
