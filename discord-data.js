@@ -1,7 +1,7 @@
 // Auto-generated daily by .github/workflows/discord-update.yml
 // Do NOT hand-edit — this file is overwritten on each run.
 window.DISCORD_DATA = {
-  "generatedAt": "2026-09-22T13:32:31Z",
+  "generatedAt": "2026-09-22T18:11:51Z",
   "threads": [
     {
       "id": "1551852995015348337",
@@ -44,9 +44,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Event Deletion",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1535589169642995763",
-        "snippet": "<@1466776043569287199>"
+        "fromThreadName": "activity link not working when shared with others",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1532399337881993277",
+        "snippet": "https://tinkerhub.org/events/Z9N5LP0T8R/melody"
       }
     },
     {
@@ -59,8 +59,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-20",
       "last": "2026-09-20",
       "resolvedAt": "2026-09-20",
-      "daysOpen": 1,
-      "daysSinceReceived": 1,
+      "daysOpen": 2,
+      "daysSinceReceived": 2,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -86,9 +86,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Event Deletion",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1535589169642995763",
-        "snippet": "<@1466776043569287199>"
+        "fromThreadName": "activity link not working when shared with others",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1532399337881993277",
+        "snippet": "https://tinkerhub.org/events/Z9N5LP0T8R/melody"
       }
     },
     {
@@ -101,17 +101,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-10",
       "last": "2026-09-20",
       "resolvedAt": "2026-09-10",
-      "daysOpen": 1,
-      "daysSinceReceived": 11,
+      "daysOpen": 2,
+      "daysSinceReceived": 12,
       "daysToClose": 0,
       "messageCount": 5,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Event Deletion",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1535589169642995763",
-        "snippet": "<@1466776043569287199>"
+        "fromThreadName": "activity link not working when shared with others",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1532399337881993277",
+        "snippet": "https://tinkerhub.org/events/Z9N5LP0T8R/melody"
       }
     },
     {
@@ -124,17 +124,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-19",
       "last": "2026-09-19",
       "resolvedAt": "2026-09-19",
-      "daysOpen": 2,
-      "daysSinceReceived": 2,
+      "daysOpen": 3,
+      "daysSinceReceived": 3,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Event Deletion",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1535589169642995763",
-        "snippet": "<@1466776043569287199>"
+        "fromThreadName": "activity link not working when shared with others",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1532399337881993277",
+        "snippet": "https://tinkerhub.org/events/Z9N5LP0T8R/melody"
       }
     },
     {
@@ -147,8 +147,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-18",
       "last": "2026-09-18",
       "resolvedAt": "2026-09-18",
-      "daysOpen": 3,
-      "daysSinceReceived": 3,
+      "daysOpen": 4,
+      "daysSinceReceived": 4,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -166,17 +166,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-18",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 3,
-      "daysSinceReceived": 12,
+      "daysOpen": 4,
+      "daysSinceReceived": 13,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Event Deletion",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1535589169642995763",
-        "snippet": "<@1466776043569287199>"
+        "fromThreadName": "activity link not working when shared with others",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1532399337881993277",
+        "snippet": "https://tinkerhub.org/events/Z9N5LP0T8R/melody"
       }
     },
     {
@@ -190,7 +190,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-16",
       "resolvedAt": "2026-09-13",
       "daysOpen": 6,
-      "daysSinceReceived": 8,
+      "daysSinceReceived": 9,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -406,8 +406,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-10",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-10",
-      "daysOpen": 11,
-      "daysSinceReceived": 11,
+      "daysOpen": 12,
+      "daysSinceReceived": 12,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -425,8 +425,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-10",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-10",
-      "daysOpen": 11,
-      "daysSinceReceived": 11,
+      "daysOpen": 12,
+      "daysSinceReceived": 12,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -464,7 +464,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-10",
       "resolvedAt": "2026-09-09",
       "daysOpen": 12,
-      "daysSinceReceived": 12,
+      "daysSinceReceived": 13,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -539,8 +539,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 12,
-      "daysSinceReceived": 12,
+      "daysOpen": 13,
+      "daysSinceReceived": 13,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -558,8 +558,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 12,
-      "daysSinceReceived": 12,
+      "daysOpen": 13,
+      "daysSinceReceived": 13,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -581,8 +581,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 12,
-      "daysSinceReceived": 12,
+      "daysOpen": 13,
+      "daysSinceReceived": 13,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -631,9 +631,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Event Deletion",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1535589169642995763",
-        "snippet": "<@1466776043569287199>"
+        "fromThreadName": "activity link not working when shared with others",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1532399337881993277",
+        "snippet": "https://tinkerhub.org/events/Z9N5LP0T8R/melody"
       }
     },
     {
@@ -646,8 +646,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-04",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-04",
-      "daysOpen": 12,
-      "daysSinceReceived": 17,
+      "daysOpen": 13,
+      "daysSinceReceived": 18,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -688,8 +688,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-08",
       "last": "2026-09-08",
       "resolvedAt": "2026-09-08",
-      "daysOpen": 13,
-      "daysSinceReceived": 13,
+      "daysOpen": 14,
+      "daysSinceReceived": 14,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -712,7 +712,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-09-07",
       "daysOpen": 14,
-      "daysSinceReceived": 14,
+      "daysSinceReceived": 15,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -731,7 +731,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-09-07",
       "daysOpen": 14,
-      "daysSinceReceived": 14,
+      "daysSinceReceived": 15,
       "daysToClose": 0,
       "messageCount": 5,
       "archived": false,
@@ -754,7 +754,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-09-07",
       "daysOpen": 14,
-      "daysSinceReceived": 14,
+      "daysSinceReceived": 15,
       "daysToClose": 0,
       "messageCount": 7,
       "archived": false,
@@ -815,7 +815,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-09-03",
       "daysOpen": 14,
-      "daysSinceReceived": 18,
+      "daysSinceReceived": 19,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -853,7 +853,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-08-30",
       "daysOpen": 14,
-      "daysSinceReceived": 22,
+      "daysSinceReceived": 23,
       "daysToClose": 0,
       "messageCount": 7,
       "archived": false,
@@ -937,7 +937,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-07",
       "resolvedAt": "2026-09-01",
       "daysOpen": 15,
-      "daysSinceReceived": 20,
+      "daysSinceReceived": 21,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -1062,8 +1062,8 @@ window.DISCORD_DATA = {
       "received": "2026-08-29",
       "last": "2026-09-04",
       "resolvedAt": "2026-08-29",
-      "daysOpen": 17,
-      "daysSinceReceived": 23,
+      "daysOpen": 18,
+      "daysSinceReceived": 24,
       "daysToClose": 0,
       "messageCount": 4,
       "archived": false,
@@ -1085,8 +1085,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-03",
       "last": "2026-09-03",
       "resolvedAt": "2026-09-03",
-      "daysOpen": 18,
-      "daysSinceReceived": 18,
+      "daysOpen": 19,
+      "daysSinceReceived": 19,
       "daysToClose": 0,
       "messageCount": 3,
       "archived": false,
@@ -1127,8 +1127,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-01",
       "last": "2026-09-01",
       "resolvedAt": "2026-09-01",
-      "daysOpen": 20,
-      "daysSinceReceived": 20,
+      "daysOpen": 21,
+      "daysSinceReceived": 21,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -1169,7 +1169,7 @@ window.DISCORD_DATA = {
       "received": "2026-08-27",
       "last": "2026-09-01",
       "resolvedAt": "2026-08-27",
-      "daysOpen": 20,
+      "daysOpen": 21,
       "daysSinceReceived": 26,
       "daysToClose": 0,
       "messageCount": 7,
@@ -1188,8 +1188,8 @@ window.DISCORD_DATA = {
       "received": "2026-08-31",
       "last": "2026-08-31",
       "resolvedAt": "2026-08-31",
-      "daysOpen": 21,
-      "daysSinceReceived": 21,
+      "daysOpen": 22,
+      "daysSinceReceived": 22,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -1234,9 +1234,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Event Deletion",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1535589169642995763",
-        "snippet": "<@1466776043569287199>"
+        "fromThreadName": "activity link not working when shared with others",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1532399337881993277",
+        "snippet": "https://tinkerhub.org/events/Z9N5LP0T8R/melody"
       }
     },
     {
@@ -1287,8 +1287,8 @@ window.DISCORD_DATA = {
       "received": "2026-08-29",
       "last": "2026-08-29",
       "resolvedAt": "2026-08-29",
-      "daysOpen": 23,
-      "daysSinceReceived": 23,
+      "daysOpen": 24,
+      "daysSinceReceived": 24,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -1329,8 +1329,8 @@ window.DISCORD_DATA = {
       "received": "2026-08-28",
       "last": "2026-08-28",
       "resolvedAt": "2026-08-28",
-      "daysOpen": 24,
-      "daysSinceReceived": 24,
+      "daysOpen": 25,
+      "daysSinceReceived": 25,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -1356,9 +1356,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Event Deletion",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1535589169642995763",
-        "snippet": "<@1466776043569287199>"
+        "fromThreadName": "activity link not working when shared with others",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1532399337881993277",
+        "snippet": "https://tinkerhub.org/events/Z9N5LP0T8R/melody"
       }
     },
     {
@@ -1433,16 +1433,16 @@ window.DISCORD_DATA = {
       "last": "2026-08-27",
       "resolvedAt": "2026-08-23",
       "daysOpen": 26,
-      "daysSinceReceived": 29,
+      "daysSinceReceived": 30,
       "daysToClose": 0,
       "messageCount": 7,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Event Deletion",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1535589169642995763",
-        "snippet": "<@1466776043569287199>"
+        "fromThreadName": "activity link not working when shared with others",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1532399337881993277",
+        "snippet": "https://tinkerhub.org/events/Z9N5LP0T8R/melody"
       }
     },
     {
@@ -1520,9 +1520,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Event Deletion",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1535589169642995763",
-        "snippet": "<@1466776043569287199>"
+        "fromThreadName": "activity link not working when shared with others",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1532399337881993277",
+        "snippet": "https://tinkerhub.org/events/Z9N5LP0T8R/melody"
       }
     },
     {
@@ -1535,8 +1535,8 @@ window.DISCORD_DATA = {
       "received": "2026-08-24",
       "last": "2026-08-25",
       "resolvedAt": "2026-08-24",
-      "daysOpen": 27,
-      "daysSinceReceived": 28,
+      "daysOpen": 28,
+      "daysSinceReceived": 29,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -1559,7 +1559,7 @@ window.DISCORD_DATA = {
       "last": "2026-08-25",
       "resolvedAt": "2026-08-17",
       "daysOpen": 28,
-      "daysSinceReceived": 35,
+      "daysSinceReceived": 36,
       "daysToClose": 0,
       "messageCount": 11,
       "archived": false,
@@ -1636,24 +1636,20 @@ window.DISCORD_DATA = {
       "id": "1532399337881993277",
       "name": "activity link not working when shared with others",
       "url": "https://discord.com/channels/735180366297563257/1532399337881993277",
-      "status": "Awaiting reply (from us)",
+      "status": "Resolved",
       "category": "Event/Activity check-in & reporting",
       "requester": "Rosemary Rejimon",
       "received": "2026-07-30",
       "last": "2026-08-23",
-      "resolvedAt": "2026-07-30",
-      "daysOpen": 29,
-      "daysSinceReceived": 53,
-      "daysToClose": 0,
+      "resolvedAt": "2026-09-22",
+      "daysOpen": 30,
+      "daysSinceReceived": 54,
+      "daysToClose": 53,
       "messageCount": 9,
-      "archived": false,
+      "archived": true,
       "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Event Deletion",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1535589169642995763",
-        "snippet": "<@1466776043569287199>"
-      }
+      "resolutionSnippet": "https://tinkerhub.org/events/Z9N5LP0T8R/melody",
+      "suggestion": null
     },
     {
       "id": "1534581681334259733",
@@ -1666,7 +1662,7 @@ window.DISCORD_DATA = {
       "last": "2026-08-23",
       "resolvedAt": "2026-09-22",
       "daysOpen": 30,
-      "daysSinceReceived": 47,
+      "daysSinceReceived": 48,
       "daysToClose": 47,
       "messageCount": 7,
       "archived": true,
@@ -13058,12 +13054,12 @@ window.DISCORD_DATA = {
   ],
   "summary": {
     "No response": 33,
-    "Awaiting reply (from us)": 26,
+    "Awaiting reply (from us)": 25,
     "Awaiting reply (from them)": 14,
-    "Resolved": 607
+    "Resolved": 608
   },
-  "avgOpenDays": 14.7,
-  "avgDaysToClose": 11.5,
+  "avgOpenDays": 14.8,
+  "avgDaysToClose": 11.6,
   "topCategories": [
     {
       "category": "Event/Activity check-in & reporting",
