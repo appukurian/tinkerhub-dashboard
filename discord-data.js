@@ -1,7 +1,7 @@
 // Auto-generated daily by .github/workflows/discord-update.yml
 // Do NOT hand-edit — this file is overwritten on each run.
 window.DISCORD_DATA = {
-  "generatedAt": "2026-09-22T07:50:56Z",
+  "generatedAt": "2026-09-22T13:32:31Z",
   "threads": [
     {
       "id": "1551852995015348337",
@@ -21,9 +21,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Can't find discord Server",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537842665180368996",
-        "snippet": "okey i have send the number personally <@1012977379209125908>"
+        "fromThreadName": "Discord not connected",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1534581681334259733",
+        "snippet": "It's this one"
       }
     },
     {
@@ -196,7 +196,11 @@ window.DISCORD_DATA = {
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
-      "suggestion": null
+      "suggestion": {
+        "fromThreadName": "Project submission access",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541057956026646538",
+        "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
+      }
     },
     {
       "id": "1546699427169697792",
@@ -227,8 +231,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-12",
       "last": "2026-09-15",
       "resolvedAt": "2026-09-12",
-      "daysOpen": 6,
-      "daysSinceReceived": 9,
+      "daysOpen": 7,
+      "daysSinceReceived": 10,
       "daysToClose": 0,
       "messageCount": 4,
       "archived": false,
@@ -246,7 +250,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-11",
       "last": "2026-09-15",
       "resolvedAt": "2026-09-11",
-      "daysOpen": 6,
+      "daysOpen": 7,
       "daysSinceReceived": 10,
       "daysToClose": 0,
       "messageCount": 4,
@@ -265,8 +269,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-11",
       "last": "2026-09-15",
       "resolvedAt": "2026-09-11",
-      "daysOpen": 6,
-      "daysSinceReceived": 10,
+      "daysOpen": 7,
+      "daysSinceReceived": 11,
       "daysToClose": 0,
       "messageCount": 5,
       "archived": false,
@@ -284,7 +288,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-11",
       "last": "2026-09-15",
       "resolvedAt": "2026-09-11",
-      "daysOpen": 6,
+      "daysOpen": 7,
       "daysSinceReceived": 11,
       "daysToClose": 0,
       "messageCount": 5,
@@ -349,9 +353,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Check-in Scanner Not Working",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1538911158642151484",
-        "snippet": "1. Rishad Ali : 73562 74741 2. Ayisha husna : 92076 70354 3. Hadhil : 8075 293 010 4. Midhlaj : 8078 298 415 5. Ashjil : 8304947930"
+        "fromThreadName": "Cant update my outreach position showing an dash there while uploading and save it",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541036895075704894",
+        "snippet": "Attached both sceeenshoot"
       }
     },
     {
@@ -365,7 +369,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-11",
       "resolvedAt": "2026-09-08",
       "daysOpen": 10,
-      "daysSinceReceived": 13,
+      "daysSinceReceived": 14,
       "daysToClose": 0,
       "messageCount": 6,
       "archived": false,
@@ -459,7 +463,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 11,
+      "daysOpen": 12,
       "daysSinceReceived": 12,
       "daysToClose": 0,
       "messageCount": 1,
@@ -478,8 +482,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 11,
-      "daysSinceReceived": 12,
+      "daysOpen": 12,
+      "daysSinceReceived": 13,
       "daysToClose": 0,
       "messageCount": 6,
       "archived": false,
@@ -497,8 +501,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-08",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-08",
-      "daysOpen": 11,
-      "daysSinceReceived": 13,
+      "daysOpen": 12,
+      "daysSinceReceived": 14,
       "daysToClose": 0,
       "messageCount": 3,
       "archived": false,
@@ -562,9 +566,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Check-in Scanner Not Working",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1538911158642151484",
-        "snippet": "1. Rishad Ali : 73562 74741 2. Ayisha husna : 92076 70354 3. Hadhil : 8075 293 010 4. Midhlaj : 8078 298 415 5. Ashjil : 8304947930"
+        "fromThreadName": "Cant update my outreach position showing an dash there while uploading and save it",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541036895075704894",
+        "snippet": "Attached both sceeenshoot"
       }
     },
     {
@@ -585,9 +589,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Check-in Scanner Not Working",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1538911158642151484",
-        "snippet": "1. Rishad Ali : 73562 74741 2. Ayisha husna : 92076 70354 3. Hadhil : 8075 293 010 4. Midhlaj : 8078 298 415 5. Ashjil : 8304947930"
+        "fromThreadName": "Cant update my outreach position showing an dash there while uploading and save it",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541036895075704894",
+        "snippet": "Attached both sceeenshoot"
       }
     },
     {
@@ -601,7 +605,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
       "daysOpen": 12,
-      "daysSinceReceived": 12,
+      "daysSinceReceived": 13,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -619,7 +623,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-07",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-07",
-      "daysOpen": 12,
+      "daysOpen": 13,
       "daysSinceReceived": 15,
       "daysToClose": 0,
       "messageCount": 4,
@@ -650,9 +654,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Check-in Scanner Not Working",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1538911158642151484",
-        "snippet": "1. Rishad Ali : 73562 74741 2. Ayisha husna : 92076 70354 3. Hadhil : 8075 293 010 4. Midhlaj : 8078 298 415 5. Ashjil : 8304947930"
+        "fromThreadName": "Cant update my outreach position showing an dash there while uploading and save it",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541036895075704894",
+        "snippet": "Attached both sceeenshoot"
       }
     },
     {
@@ -692,9 +696,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Can't find discord Server",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537842665180368996",
-        "snippet": "okey i have send the number personally <@1012977379209125908>"
+        "fromThreadName": "Discord not connected",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1534581681334259733",
+        "snippet": "It's this one"
       }
     },
     {
@@ -726,7 +730,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-07",
       "last": "2026-09-08",
       "resolvedAt": "2026-09-07",
-      "daysOpen": 13,
+      "daysOpen": 14,
       "daysSinceReceived": 14,
       "daysToClose": 0,
       "messageCount": 5,
@@ -734,9 +738,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Check-in Scanner Not Working",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1538911158642151484",
-        "snippet": "1. Rishad Ali : 73562 74741 2. Ayisha husna : 92076 70354 3. Hadhil : 8075 293 010 4. Midhlaj : 8078 298 415 5. Ashjil : 8304947930"
+        "fromThreadName": "Cant update my outreach position showing an dash there while uploading and save it",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541036895075704894",
+        "snippet": "Attached both sceeenshoot"
       }
     },
     {
@@ -788,16 +792,16 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-09-05",
       "daysOpen": 14,
-      "daysSinceReceived": 16,
+      "daysSinceReceived": 17,
       "daysToClose": 0,
       "messageCount": 12,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Check-in Scanner Not Working",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1538911158642151484",
-        "snippet": "1. Rishad Ali : 73562 74741 2. Ayisha husna : 92076 70354 3. Hadhil : 8075 293 010 4. Midhlaj : 8078 298 415 5. Ashjil : 8304947930"
+        "fromThreadName": "Cant update my outreach position showing an dash there while uploading and save it",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541036895075704894",
+        "snippet": "Attached both sceeenshoot"
       }
     },
     {
@@ -829,7 +833,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-02",
       "last": "2026-09-08",
       "resolvedAt": "2026-09-02",
-      "daysOpen": 13,
+      "daysOpen": 14,
       "daysSinceReceived": 20,
       "daysToClose": 0,
       "messageCount": 2,
@@ -848,7 +852,7 @@ window.DISCORD_DATA = {
       "received": "2026-08-30",
       "last": "2026-09-08",
       "resolvedAt": "2026-08-30",
-      "daysOpen": 13,
+      "daysOpen": 14,
       "daysSinceReceived": 22,
       "daysToClose": 0,
       "messageCount": 7,
@@ -856,9 +860,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Check-in Scanner Not Working",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1538911158642151484",
-        "snippet": "1. Rishad Ali : 73562 74741 2. Ayisha husna : 92076 70354 3. Hadhil : 8075 293 010 4. Midhlaj : 8078 298 415 5. Ashjil : 8304947930"
+        "fromThreadName": "Cant update my outreach position showing an dash there while uploading and save it",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541036895075704894",
+        "snippet": "Attached both sceeenshoot"
       }
     },
     {
@@ -871,7 +875,7 @@ window.DISCORD_DATA = {
       "received": "2026-08-18",
       "last": "2026-09-08",
       "resolvedAt": "2026-08-18",
-      "daysOpen": 13,
+      "daysOpen": 14,
       "daysSinceReceived": 35,
       "daysToClose": 0,
       "messageCount": 5,
@@ -879,9 +883,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Check-in Scanner Not Working",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1538911158642151484",
-        "snippet": "1. Rishad Ali : 73562 74741 2. Ayisha husna : 92076 70354 3. Hadhil : 8075 293 010 4. Midhlaj : 8078 298 415 5. Ashjil : 8304947930"
+        "fromThreadName": "Cant update my outreach position showing an dash there while uploading and save it",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541036895075704894",
+        "snippet": "Attached both sceeenshoot"
       }
     },
     {
@@ -894,8 +898,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-07",
       "last": "2026-09-07",
       "resolvedAt": "2026-09-07",
-      "daysOpen": 14,
-      "daysSinceReceived": 14,
+      "daysOpen": 15,
+      "daysSinceReceived": 15,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -913,7 +917,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-07",
       "last": "2026-09-07",
       "resolvedAt": "2026-09-07",
-      "daysOpen": 14,
+      "daysOpen": 15,
       "daysSinceReceived": 15,
       "daysToClose": 0,
       "messageCount": 1,
@@ -932,7 +936,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-01",
       "last": "2026-09-07",
       "resolvedAt": "2026-09-01",
-      "daysOpen": 14,
+      "daysOpen": 15,
       "daysSinceReceived": 20,
       "daysToClose": 0,
       "messageCount": 1,
@@ -940,9 +944,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Check-in Scanner Not Working",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1538911158642151484",
-        "snippet": "1. Rishad Ali : 73562 74741 2. Ayisha husna : 92076 70354 3. Hadhil : 8075 293 010 4. Midhlaj : 8078 298 415 5. Ashjil : 8304947930"
+        "fromThreadName": "Cant update my outreach position showing an dash there while uploading and save it",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541036895075704894",
+        "snippet": "Attached both sceeenshoot"
       }
     },
     {
@@ -955,7 +959,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-06",
       "last": "2026-09-06",
       "resolvedAt": "2026-09-06",
-      "daysOpen": 15,
+      "daysOpen": 16,
       "daysSinceReceived": 16,
       "daysToClose": 0,
       "messageCount": 2,
@@ -974,7 +978,7 @@ window.DISCORD_DATA = {
       "received": "2026-08-25",
       "last": "2026-09-06",
       "resolvedAt": "2026-08-25",
-      "daysOpen": 15,
+      "daysOpen": 16,
       "daysSinceReceived": 28,
       "daysToClose": 0,
       "messageCount": 10,
@@ -982,9 +986,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Check-in Scanner Not Working",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1538911158642151484",
-        "snippet": "1. Rishad Ali : 73562 74741 2. Ayisha husna : 92076 70354 3. Hadhil : 8075 293 010 4. Midhlaj : 8078 298 415 5. Ashjil : 8304947930"
+        "fromThreadName": "Cant update my outreach position showing an dash there while uploading and save it",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541036895075704894",
+        "snippet": "Attached both sceeenshoot"
       }
     },
     {
@@ -1036,16 +1040,16 @@ window.DISCORD_DATA = {
       "last": "2026-09-04",
       "resolvedAt": "2026-09-03",
       "daysOpen": 18,
-      "daysSinceReceived": 18,
+      "daysSinceReceived": 19,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Check-in Scanner Not Working",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1538911158642151484",
-        "snippet": "1. Rishad Ali : 73562 74741 2. Ayisha husna : 92076 70354 3. Hadhil : 8075 293 010 4. Midhlaj : 8078 298 415 5. Ashjil : 8304947930"
+        "fromThreadName": "Cant update my outreach position showing an dash there while uploading and save it",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541036895075704894",
+        "snippet": "Attached both sceeenshoot"
       }
     },
     {
@@ -1066,9 +1070,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Check-in Scanner Not Working",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1538911158642151484",
-        "snippet": "1. Rishad Ali : 73562 74741 2. Ayisha husna : 92076 70354 3. Hadhil : 8075 293 010 4. Midhlaj : 8078 298 415 5. Ashjil : 8304947930"
+        "fromThreadName": "Cant update my outreach position showing an dash there while uploading and save it",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541036895075704894",
+        "snippet": "Attached both sceeenshoot"
       }
     },
     {
@@ -1100,7 +1104,7 @@ window.DISCORD_DATA = {
       "received": "2026-08-21",
       "last": "2026-09-02",
       "resolvedAt": "2026-08-21",
-      "daysOpen": 19,
+      "daysOpen": 20,
       "daysSinceReceived": 32,
       "daysToClose": 0,
       "messageCount": 9,
@@ -1108,9 +1112,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Check-in Scanner Not Working",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1538911158642151484",
-        "snippet": "1. Rishad Ali : 73562 74741 2. Ayisha husna : 92076 70354 3. Hadhil : 8075 293 010 4. Midhlaj : 8078 298 415 5. Ashjil : 8304947930"
+        "fromThreadName": "Cant update my outreach position showing an dash there while uploading and save it",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541036895075704894",
+        "snippet": "Attached both sceeenshoot"
       }
     },
     {
@@ -1131,9 +1135,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Check-in Scanner Not Working",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1538911158642151484",
-        "snippet": "1. Rishad Ali : 73562 74741 2. Ayisha husna : 92076 70354 3. Hadhil : 8075 293 010 4. Midhlaj : 8078 298 415 5. Ashjil : 8304947930"
+        "fromThreadName": "Cant update my outreach position showing an dash there while uploading and save it",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541036895075704894",
+        "snippet": "Attached both sceeenshoot"
       }
     },
     {
@@ -1146,8 +1150,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-01",
       "last": "2026-09-01",
       "resolvedAt": "2026-09-01",
-      "daysOpen": 20,
-      "daysSinceReceived": 20,
+      "daysOpen": 21,
+      "daysSinceReceived": 21,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -1166,7 +1170,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-01",
       "resolvedAt": "2026-08-27",
       "daysOpen": 20,
-      "daysSinceReceived": 25,
+      "daysSinceReceived": 26,
       "daysToClose": 0,
       "messageCount": 7,
       "archived": false,
@@ -1223,7 +1227,7 @@ window.DISCORD_DATA = {
       "last": "2026-08-31",
       "resolvedAt": "2026-08-24",
       "daysOpen": 22,
-      "daysSinceReceived": 28,
+      "daysSinceReceived": 29,
       "daysToClose": 0,
       "messageCount": 16,
       "archived": false,
@@ -1245,8 +1249,8 @@ window.DISCORD_DATA = {
       "received": "2026-08-30",
       "last": "2026-08-30",
       "resolvedAt": "2026-08-30",
-      "daysOpen": 22,
-      "daysSinceReceived": 22,
+      "daysOpen": 23,
+      "daysSinceReceived": 23,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -1291,9 +1295,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Check-in Scanner Not Working",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1538911158642151484",
-        "snippet": "1. Rishad Ali : 73562 74741 2. Ayisha husna : 92076 70354 3. Hadhil : 8075 293 010 4. Midhlaj : 8078 298 415 5. Ashjil : 8304947930"
+        "fromThreadName": "Cant update my outreach position showing an dash there while uploading and save it",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541036895075704894",
+        "snippet": "Attached both sceeenshoot"
       }
     },
     {
@@ -1306,8 +1310,8 @@ window.DISCORD_DATA = {
       "received": "2026-08-29",
       "last": "2026-08-29",
       "resolvedAt": "2026-08-29",
-      "daysOpen": 23,
-      "daysSinceReceived": 23,
+      "daysOpen": 24,
+      "daysSinceReceived": 24,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -1386,17 +1390,17 @@ window.DISCORD_DATA = {
       "received": "2026-08-27",
       "last": "2026-08-27",
       "resolvedAt": "2026-08-27",
-      "daysOpen": 25,
-      "daysSinceReceived": 25,
+      "daysOpen": 26,
+      "daysSinceReceived": 26,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Check-in Scanner Not Working",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1538911158642151484",
-        "snippet": "1. Rishad Ali : 73562 74741 2. Ayisha husna : 92076 70354 3. Hadhil : 8075 293 010 4. Midhlaj : 8078 298 415 5. Ashjil : 8304947930"
+        "fromThreadName": "Cant update my outreach position showing an dash there while uploading and save it",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541036895075704894",
+        "snippet": "Attached both sceeenshoot"
       }
     },
     {
@@ -1410,7 +1414,7 @@ window.DISCORD_DATA = {
       "last": "2026-08-27",
       "resolvedAt": "2026-08-26",
       "daysOpen": 26,
-      "daysSinceReceived": 26,
+      "daysSinceReceived": 27,
       "daysToClose": 0,
       "messageCount": 3,
       "archived": false,
@@ -1490,7 +1494,7 @@ window.DISCORD_DATA = {
       "last": "2026-08-26",
       "resolvedAt": "2026-08-25",
       "daysOpen": 27,
-      "daysSinceReceived": 27,
+      "daysSinceReceived": 28,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -1539,9 +1543,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Check-in Scanner Not Working",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1538911158642151484",
-        "snippet": "1. Rishad Ali : 73562 74741 2. Ayisha husna : 92076 70354 3. Hadhil : 8075 293 010 4. Midhlaj : 8078 298 415 5. Ashjil : 8304947930"
+        "fromThreadName": "Cant update my outreach position showing an dash there while uploading and save it",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541036895075704894",
+        "snippet": "Attached both sceeenshoot"
       }
     },
     {
@@ -1554,7 +1558,7 @@ window.DISCORD_DATA = {
       "received": "2026-08-17",
       "last": "2026-08-25",
       "resolvedAt": "2026-08-17",
-      "daysOpen": 27,
+      "daysOpen": 28,
       "daysSinceReceived": 35,
       "daysToClose": 0,
       "messageCount": 11,
@@ -1562,9 +1566,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Can't find discord Server",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537842665180368996",
-        "snippet": "okey i have send the number personally <@1012977379209125908>"
+        "fromThreadName": "Discord not connected",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1534581681334259733",
+        "snippet": "It's this one"
       }
     },
     {
@@ -1629,71 +1633,6 @@ window.DISCORD_DATA = {
       "suggestion": null
     },
     {
-      "id": "1541057956026646538",
-      "name": "Project submission access",
-      "url": "https://discord.com/channels/735180366297563257/1541057956026646538",
-      "status": "No response",
-      "category": "Project add/delete/submission",
-      "requester": "Ann Rose",
-      "received": "2026-08-23",
-      "last": "2026-08-23",
-      "resolvedAt": "2026-08-23",
-      "daysOpen": 29,
-      "daysSinceReceived": 29,
-      "daysToClose": 0,
-      "messageCount": 1,
-      "archived": false,
-      "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": null
-    },
-    {
-      "id": "1541036895075704894",
-      "name": "Cant update my outreach position showing an dash there while uploading and save it",
-      "url": "https://discord.com/channels/735180366297563257/1541036895075704894",
-      "status": "Awaiting reply (from us)",
-      "category": "Other",
-      "requester": "Dhrisya Narayanan",
-      "received": "2026-08-23",
-      "last": "2026-08-23",
-      "resolvedAt": "2026-08-23",
-      "daysOpen": 29,
-      "daysSinceReceived": 29,
-      "daysToClose": 0,
-      "messageCount": 2,
-      "archived": false,
-      "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Check-in Scanner Not Working",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1538911158642151484",
-        "snippet": "1. Rishad Ali : 73562 74741 2. Ayisha husna : 92076 70354 3. Hadhil : 8075 293 010 4. Midhlaj : 8078 298 415 5. Ashjil : 8304947930"
-      }
-    },
-    {
-      "id": "1534581681334259733",
-      "name": "Discord not connected",
-      "url": "https://discord.com/channels/735180366297563257/1534581681334259733",
-      "status": "Awaiting reply (from us)",
-      "category": "Discord account/access",
-      "requester": "sreyaaaas_here",
-      "received": "2026-08-05",
-      "last": "2026-08-23",
-      "resolvedAt": "2026-08-05",
-      "daysOpen": 29,
-      "daysSinceReceived": 47,
-      "daysToClose": 0,
-      "messageCount": 7,
-      "archived": false,
-      "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Can't find discord Server",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1537842665180368996",
-        "snippet": "okey i have send the number personally <@1012977379209125908>"
-      }
-    },
-    {
       "id": "1532399337881993277",
       "name": "activity link not working when shared with others",
       "url": "https://discord.com/channels/735180366297563257/1532399337881993277",
@@ -1717,6 +1656,63 @@ window.DISCORD_DATA = {
       }
     },
     {
+      "id": "1534581681334259733",
+      "name": "Discord not connected",
+      "url": "https://discord.com/channels/735180366297563257/1534581681334259733",
+      "status": "Resolved",
+      "category": "Discord account/access",
+      "requester": "sreyaaaas_here",
+      "received": "2026-08-05",
+      "last": "2026-08-23",
+      "resolvedAt": "2026-09-22",
+      "daysOpen": 30,
+      "daysSinceReceived": 47,
+      "daysToClose": 47,
+      "messageCount": 7,
+      "archived": true,
+      "locked": false,
+      "resolutionSnippet": "It's this one",
+      "suggestion": null
+    },
+    {
+      "id": "1541057956026646538",
+      "name": "Project submission access",
+      "url": "https://discord.com/channels/735180366297563257/1541057956026646538",
+      "status": "Resolved",
+      "category": "Project add/delete/submission",
+      "requester": "Ann Rose",
+      "received": "2026-08-23",
+      "last": "2026-08-23",
+      "resolvedAt": "2026-09-22",
+      "daysOpen": 30,
+      "daysSinceReceived": 30,
+      "daysToClose": 30,
+      "messageCount": 1,
+      "archived": true,
+      "locked": false,
+      "resolutionSnippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon.",
+      "suggestion": null
+    },
+    {
+      "id": "1541036895075704894",
+      "name": "Cant update my outreach position showing an dash there while uploading and save it",
+      "url": "https://discord.com/channels/735180366297563257/1541036895075704894",
+      "status": "Resolved",
+      "category": "Other",
+      "requester": "Dhrisya Narayanan",
+      "received": "2026-08-23",
+      "last": "2026-08-23",
+      "resolvedAt": "2026-09-22",
+      "daysOpen": 30,
+      "daysSinceReceived": 30,
+      "daysToClose": 30,
+      "messageCount": 2,
+      "archived": true,
+      "locked": false,
+      "resolutionSnippet": "Attached both sceeenshoot",
+      "suggestion": null
+    },
+    {
       "id": "1537842665180368996",
       "name": "Can't find discord Server",
       "url": "https://discord.com/channels/735180366297563257/1537842665180368996",
@@ -1727,7 +1723,7 @@ window.DISCORD_DATA = {
       "last": "2026-08-23",
       "resolvedAt": "2026-09-22",
       "daysOpen": 30,
-      "daysSinceReceived": 38,
+      "daysSinceReceived": 39,
       "daysToClose": 38,
       "messageCount": 4,
       "archived": true,
@@ -13061,13 +13057,13 @@ window.DISCORD_DATA = {
     }
   ],
   "summary": {
-    "No response": 34,
-    "Awaiting reply (from us)": 28,
+    "No response": 33,
+    "Awaiting reply (from us)": 26,
     "Awaiting reply (from them)": 14,
-    "Resolved": 604
+    "Resolved": 607
   },
-  "avgOpenDays": 15.0,
-  "avgDaysToClose": 11.4,
+  "avgOpenDays": 14.7,
+  "avgDaysToClose": 11.5,
   "topCategories": [
     {
       "category": "Event/Activity check-in & reporting",
