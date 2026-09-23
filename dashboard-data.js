@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
- "generatedAt": "2026-09-23T09:38:51Z",
+ "generatedAt": "2026-09-23T10:06:02Z",
  "threads": [
   {
    "id": "campus-f10f197e6f",
@@ -97,8 +97,8 @@ window.DASHBOARD_DATA = {
    "email": "tinkerhub@ceconline.edu",
    "received": "2026-09-17",
    "last": "2026-09-22",
-   "status": "Awaiting reply (from us)",
-   "note": "Femina sent a reminder about the tech-issues form and submission window (07:21); CEC's actual request — to consider Team Overthink() despite missing the second window — remains unanswered",
+   "status": "Awaiting reply (from them)",
+   "note": "Femina asked if they'd filled the tech-issues form before the final submission window (Sep22) — waiting on their confirmation, not ours",
    "daysOpen": 6,
    "daysSinceReceived": 6,
    "cc": [
@@ -4150,9 +4150,9 @@ window.DASHBOARD_DATA = {
  ],
  "summary": {
   "Informational": 94,
-  "Awaiting reply (from us)": 48,
+  "Awaiting reply (from us)": 47,
   "Resolved": 65,
-  "Awaiting reply (from them)": 24,
+  "Awaiting reply (from them)": 25,
   "No response": 7
  },
  "analytics": {
@@ -4160,9 +4160,9 @@ window.DASHBOARD_DATA = {
    "total": 198,
    "statusCounts": {
     "Informational": 84,
-    "Awaiting reply (from us)": 44,
+    "Awaiting reply (from us)": 43,
     "Resolved": 54,
-    "Awaiting reply (from them)": 16
+    "Awaiting reply (from them)": 17
    },
    "avgOpenDays": 16.5,
    "avgResolvedDays": 2.4
