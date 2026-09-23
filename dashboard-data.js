@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
- "generatedAt": "2026-09-23T10:31:38Z",
+ "generatedAt": "2026-09-23T10:46:03Z",
  "threads": [
   {
    "id": "campus-f10f197e6f",
@@ -4013,7 +4013,22 @@ window.DASHBOARD_DATA = {
    ]
   },
   {
-   "id": "report-80ba999b95",
+   "id": "report-36d526fd4f",
+   "threadId": null,
+   "group": "report",
+   "subject": null,
+   "counterpart": null,
+   "email": null,
+   "received": null,
+   "last": null,
+   "status": "Awaiting reply (from them)",
+   "note": null,
+   "daysOpen": 0,
+   "daysSinceReceived": 0,
+   "cc": []
+  },
+  {
+   "id": "report-c8fce0b795",
    "threadId": null,
    "group": "report",
    "subject": null,
@@ -4043,7 +4058,7 @@ window.DASHBOARD_DATA = {
    "cc": []
   },
   {
-   "id": "report-e5e12ff0cd",
+   "id": "report-062982c545",
    "threadId": null,
    "group": "report",
    "subject": null,
@@ -4058,7 +4073,7 @@ window.DASHBOARD_DATA = {
    "cc": []
   },
   {
-   "id": "report-69ff9b4329",
+   "id": "report-14807cce3a",
    "threadId": null,
    "group": "report",
    "subject": null,
@@ -4118,7 +4133,7 @@ window.DASHBOARD_DATA = {
    "cc": []
   },
   {
-   "id": "report-23887b25fa",
+   "id": "report-d467652a9f",
    "threadId": null,
    "group": "report",
    "subject": null,
@@ -4152,7 +4167,7 @@ window.DASHBOARD_DATA = {
   "Informational": 94,
   "Awaiting reply (from us)": 47,
   "Resolved": 77,
-  "Awaiting reply (from them)": 13,
+  "Awaiting reply (from them)": 14,
   "No response": 7
  },
  "analytics": {
@@ -4190,27 +4205,27 @@ window.DASHBOARD_DATA = {
    "avgResolvedDays": 4.2
   },
   "report": {
-   "total": 9,
+   "total": 10,
    "statusCounts": {
+    "Awaiting reply (from them)": 5,
     "Awaiting reply (from us)": 2,
     "Resolved": 2,
-    "Awaiting reply (from them)": 4,
     "No response": 1
    },
-   "avgOpenDays": 18.9,
+   "avgOpenDays": 16.5,
    "avgResolvedDays": 22.5
   },
   "partner": {
    "total": 0,
    "statusCounts": {},
-   "avgOpenDays": 0,
-   "avgResolvedDays": 0
+   "avgOpenDays": null,
+   "avgResolvedDays": null
   },
   "tinkerspace": {
    "total": 0,
    "statusCounts": {},
-   "avgOpenDays": 0,
-   "avgResolvedDays": 0
+   "avgOpenDays": null,
+   "avgResolvedDays": null
   }
  }
 };
