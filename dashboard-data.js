@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
- "generatedAt": "2026-09-23T08:48:25Z",
+ "generatedAt": "2026-09-23T08:50:36Z",
  "threads": [
   {
    "id": "campus-f10f197e6f",
@@ -2351,8 +2351,8 @@ window.DASHBOARD_DATA = {
    "email": "afeefaparvin88@gmail.com",
    "received": "2026-09-10",
    "last": "2026-09-10",
-   "status": "No response",
-   "note": "asking to reopen registration - ICET students missed deadline due to exams/dept events",
+   "status": "Awaiting reply (from them)",
+   "note": "Habeeb asked for campus name + deadline details on Sep 10; no reply from Afeefa since",
    "daysOpen": 13,
    "daysSinceReceived": 13,
    "cc": [
@@ -2676,9 +2676,9 @@ window.DASHBOARD_DATA = {
    "counterpart": "Kendrik K Joseph",
    "email": "kendrikkjoseph3@gmail.com",
    "received": "2026-09-09",
-   "last": "2026-09-09",
-   "status": "No response",
-   "note": "wants alt Discord account (turtkingdom) merged/switched to main (silvrknight)",
+   "last": "2026-09-23",
+   "status": "Resolved",
+   "note": "Akhil removed the old Discord mapping so Kendrik can re-link his preferred account — resolved",
    "daysOpen": 14,
    "daysSinceReceived": 14,
    "cc": [
@@ -4151,9 +4151,9 @@ window.DASHBOARD_DATA = {
  "summary": {
   "Informational": 93,
   "Awaiting reply (from us)": 26,
-  "Resolved": 57,
-  "Awaiting reply (from them)": 53,
-  "No response": 9
+  "Resolved": 58,
+  "Awaiting reply (from them)": 54,
+  "No response": 7
  },
  "analytics": {
   "campus": {
@@ -4162,8 +4162,7 @@ window.DASHBOARD_DATA = {
     "Informational": 83,
     "Awaiting reply (from us)": 22,
     "Resolved": 47,
-    "Awaiting reply (from them)": 45,
-    "No response": 1
+    "Awaiting reply (from them)": 46
    },
    "avgOpenDays": 16.8,
    "avgResolvedDays": 2.0
@@ -4172,12 +4171,12 @@ window.DASHBOARD_DATA = {
    "total": 15,
    "statusCounts": {
     "Awaiting reply (from them)": 3,
-    "Resolved": 4,
-    "No response": 6,
+    "Resolved": 5,
+    "No response": 5,
     "Awaiting reply (from us)": 2
    },
-   "avgOpenDays": 17.9,
-   "avgResolvedDays": 18.0
+   "avgOpenDays": 18.3,
+   "avgResolvedDays": 17.2
   },
   "finance": {
    "total": 16,
