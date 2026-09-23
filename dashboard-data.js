@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
- "generatedAt": "2026-09-23T08:50:36Z",
+ "generatedAt": "2026-09-23T09:38:51Z",
  "threads": [
   {
    "id": "campus-f10f197e6f",
@@ -2266,9 +2266,9 @@ window.DASHBOARD_DATA = {
    "email": "niyasmkyl@gmail.com",
    "received": "2026-09-11",
    "last": "2026-09-11",
-   "status": "Awaiting reply (from them)",
-   "note": "requested shift to Sep 12, 9AM-3PM (till 6PM for evaluation) due to last-minute permission withdrawal; we acknowledged and asked them to inform participants",
-   "daysOpen": 12,
+   "status": "Resolved",
+   "note": "Femina acknowledged the schedule shift; action (informing participants) was handed to them, not a question back to us",
+   "daysOpen": 0,
    "daysSinceReceived": 12,
    "cc": [
     "campus@tinkerhub.org"
@@ -2283,9 +2283,9 @@ window.DASHBOARD_DATA = {
    "email": "tinkerhubgect@gmail.com",
    "received": "2026-09-11",
    "last": "2026-09-11",
-   "status": "Awaiting reply (from them)",
-   "note": "extended registration deadline to 4pm today for GECT (Govt. Engineering College Thrissur)",
-   "daysOpen": 12,
+   "status": "Resolved",
+   "note": "Habeeb confirmed the deadline extension outright — resolved",
+   "daysOpen": 0,
    "daysSinceReceived": 12,
    "cc": [
     "campus@tinkerhub.org"
@@ -2300,8 +2300,8 @@ window.DASHBOARD_DATA = {
    "email": "akarshajith06@gmail.com",
    "received": "2026-09-11",
    "last": "2026-09-11",
-   "status": "Awaiting reply (from them)",
-   "note": "we replied confirming seat count 60→30 and start time 9:30 AM for CEA (Adoor) Sep 12 event",
+   "status": "Awaiting reply (from us)",
+   "note": "Habeeb said we'd update the seat count/start time shortly — we owe the update",
    "daysOpen": 12,
    "daysSinceReceived": 12,
    "cc": [
@@ -2317,9 +2317,9 @@ window.DASHBOARD_DATA = {
    "email": "sidrahaysha@gmail.com",
    "received": "2026-09-10",
    "last": "2026-09-10",
-   "status": "Awaiting reply (from them)",
-   "note": "sent venue dashboard link for her venue",
-   "daysOpen": 13,
+   "status": "Informational",
+   "note": "Habeeb sent the venue dashboard link — one-way info, no reply needed",
+   "daysOpen": 0,
    "daysSinceReceived": 13,
    "cc": [
     "campus@tinkerhub.org"
@@ -2470,8 +2470,8 @@ window.DASHBOARD_DATA = {
    "email": "lbsitwtinkerhub@gmail.com",
    "received": "2026-09-10",
    "last": "2026-09-10",
-   "status": "Awaiting reply (from them)",
-   "note": "forwarded GitHub repo access issue (Useless Project submission) to college contact; awaiting confirmation it is resolved",
+   "status": "Awaiting reply (from us)",
+   "note": "Arundhathi only looped campus internally on LBSITW's submission issue — no answer has gone back to them yet",
    "daysOpen": 13,
    "daysSinceReceived": 13,
    "cc": [
@@ -2575,8 +2575,8 @@ window.DASHBOARD_DATA = {
    "email": "sidrahaysha@gmail.com",
    "received": "2026-09-09",
    "last": "2026-09-10",
-   "status": "Awaiting reply (from them)",
-   "note": "sent posters + venue checklist for tomorrow’s event; reimbursing up to 10 printed copies, keep itemized bill",
+   "status": "Awaiting reply (from us)",
+   "note": "Femina promised posters + reimbursement, but Habeeb's internal note says posters can't go out in time — we owe Sidrah a correction",
    "daysOpen": 14,
    "daysSinceReceived": 14,
    "cc": [
@@ -2780,8 +2780,8 @@ window.DASHBOARD_DATA = {
    "email": "ananyaanandmenoth@gmail.com",
    "received": "2026-09-07",
    "last": "2026-09-08",
-   "status": "Awaiting reply (from them)",
-   "note": "we owe them updated seat capacity (125→140)",
+   "status": "Awaiting reply (from us)",
+   "note": "Femina said the seat count would be updated shortly — we owe the update",
    "daysOpen": 16,
    "daysSinceReceived": 16,
    "cc": [
@@ -2797,8 +2797,8 @@ window.DASHBOARD_DATA = {
    "email": "njsltn07@gmail.com",
    "received": "2026-09-07",
    "last": "2026-09-08",
-   "status": "Awaiting reply (from them)",
-   "note": "we owe them updated seat capacity (6→60)",
+   "status": "Awaiting reply (from us)",
+   "note": "Femina said the seat count would be updated that day — we owe the update",
    "daysOpen": 16,
    "daysSinceReceived": 16,
    "cc": [
@@ -2831,9 +2831,9 @@ window.DASHBOARD_DATA = {
    "email": "joeljustine2008@gmail.com",
    "received": "2026-09-06",
    "last": "2026-09-08",
-   "status": "Awaiting reply (from them)",
-   "note": "campus team replied, offered to help him start a chapter",
-   "daysOpen": 17,
+   "status": "Resolved",
+   "note": "Femina gave a complete answer on how to start a campus chapter — informational, no question pending",
+   "daysOpen": 2,
    "daysSinceReceived": 17,
    "cc": [
     "campus@tinkerhub.org"
@@ -2848,9 +2848,9 @@ window.DASHBOARD_DATA = {
    "email": "rosemary@cep.ac.in",
    "received": "2026-09-05",
    "last": "2026-09-08",
-   "status": "Awaiting reply (from them)",
-   "note": "sent detailed guidance on free, no-fee policy; offered to speak with Principal if needed",
-   "daysOpen": 18,
+   "status": "Resolved",
+   "note": "Arundhathi gave a full policy explanation on the fee/registration question, with an open offer to speak to the Principal directly — treated as answered",
+   "daysOpen": 3,
    "daysSinceReceived": 18,
    "cc": [
     "campus@tinkerhub.org"
@@ -3025,8 +3025,8 @@ window.DASHBOARD_DATA = {
    "email": "rosecep24@gmail.com",
    "received": "2026-09-05",
    "last": "2026-09-06",
-   "status": "Awaiting reply (from them)",
-   "note": "we owe them updated slot (11 Sep 5pm–12 Sep 11am)",
+   "status": "Awaiting reply (from us)",
+   "note": "Femina noted the situation and said changes would be updated shortly — we owe the update",
    "daysOpen": 18,
    "daysSinceReceived": 18,
    "cc": [
@@ -3042,8 +3042,8 @@ window.DASHBOARD_DATA = {
    "email": "shaamilaashahul@gmail.com",
    "received": "2026-09-05",
    "last": "2026-09-06",
-   "status": "Awaiting reply (from them)",
-   "note": "seat capacity increase (60→70) pending",
+   "status": "Awaiting reply (from us)",
+   "note": "Femina said the seat change would be updated shortly — we owe the update",
    "daysOpen": 18,
    "daysSinceReceived": 18,
    "cc": [
@@ -3077,8 +3077,8 @@ window.DASHBOARD_DATA = {
    "email": "fathimathulfarsaana@gmail.com",
    "received": "2026-09-02",
    "last": "2026-09-06",
-   "status": "Awaiting reply (from them)",
-   "note": "seat count increase (50→70) + reopen registration pending",
+   "status": "Awaiting reply (from us)",
+   "note": "Habeeb said we'd update on the seat count/reopening request — we owe the update",
    "daysOpen": 21,
    "daysSinceReceived": 21,
    "cc": [
@@ -3111,9 +3111,9 @@ window.DASHBOARD_DATA = {
    "email": "lekshmys33@gmail.com",
    "received": "2026-09-04",
    "last": "2026-09-05",
-   "status": "Awaiting reply (from them)",
-   "note": "seat count change pending; participant approval clarified",
-   "daysOpen": 19,
+   "status": "Resolved",
+   "note": "Femina answered the seat-count update + participant-approval clarification in full — no open question left",
+   "daysOpen": 1,
    "daysSinceReceived": 19,
    "cc": [
     "campus@tinkerhub.org"
@@ -3128,8 +3128,8 @@ window.DASHBOARD_DATA = {
    "email": "midhunraaj9b@gmail.com",
    "received": "2026-09-04",
    "last": "2026-09-05",
-   "status": "Awaiting reply (from them)",
-   "note": "seat count change pending (120→60)",
+   "status": "Awaiting reply (from us)",
+   "note": "Femina said the seat change would be updated shortly — we owe the update",
    "daysOpen": 19,
    "daysSinceReceived": 19,
    "cc": [
@@ -3145,8 +3145,8 @@ window.DASHBOARD_DATA = {
    "email": "fathimathulfarsaana@gmail.com",
    "received": "2026-09-04",
    "last": "2026-09-05",
-   "status": "Awaiting reply (from them)",
-   "note": "seat increase (70→100) pending",
+   "status": "Awaiting reply (from us)",
+   "note": "Femina said the update would be reflected shortly — we owe the update",
    "daysOpen": 19,
    "daysSinceReceived": 19,
    "cc": [
@@ -3248,8 +3248,8 @@ window.DASHBOARD_DATA = {
    "email": "tinkerhub@masc.edu.in",
    "received": "2026-09-02",
    "last": "2026-09-02",
-   "status": "Awaiting reply (from them)",
-   "note": "we owe them updated slot",
+   "status": "Awaiting reply (from us)",
+   "note": "Femina said the slot would be updated shortly — we owe the update",
    "daysOpen": 21,
    "daysSinceReceived": 21,
    "cc": [
@@ -3282,8 +3282,8 @@ window.DASHBOARD_DATA = {
    "email": "niyasmkyl@gmail.com",
    "received": "2026-09-02",
    "last": "2026-09-02",
-   "status": "Awaiting reply (from them)",
-   "note": "we owe them updated slot",
+   "status": "Awaiting reply (from us)",
+   "note": "Femina said the slot would be updated shortly — we owe the update",
    "daysOpen": 21,
    "daysSinceReceived": 21,
    "cc": [
@@ -3299,8 +3299,8 @@ window.DASHBOARD_DATA = {
    "email": "dhanvinkrishna2007@gmail.com",
    "received": "2026-09-02",
    "last": "2026-09-02",
-   "status": "Awaiting reply (from them)",
-   "note": "we owe them deadline update",
+   "status": "Awaiting reply (from us)",
+   "note": "Femina said we'd update the registration deadline shortly — we owe the update",
    "daysOpen": 21,
    "daysSinceReceived": 21,
    "cc": [
@@ -3334,8 +3334,8 @@ window.DASHBOARD_DATA = {
    "email": "vibinvm90@gmail.com",
    "received": "2026-09-01",
    "last": "2026-09-02",
-   "status": "Awaiting reply (from them)",
-   "note": "we owe them reschedule confirmation",
+   "status": "Awaiting reply (from us)",
+   "note": "Femina said the update would be reflected shortly — we owe the update",
    "daysOpen": 22,
    "daysSinceReceived": 22,
    "cc": [
@@ -3351,8 +3351,8 @@ window.DASHBOARD_DATA = {
    "email": "jasimmarrangattu@gmail.com",
    "received": "2026-09-01",
    "last": "2026-09-02",
-   "status": "Awaiting reply (from them)",
-   "note": "we owe them updated slot",
+   "status": "Awaiting reply (from us)",
+   "note": "Femina said the updated slot would be reflected shortly — we owe the update",
    "daysOpen": 22,
    "daysSinceReceived": 22,
    "cc": [
@@ -3455,8 +3455,8 @@ window.DASHBOARD_DATA = {
    "email": "me24kshy@gmail.com",
    "received": "2026-08-31",
    "last": "2026-09-01",
-   "status": "Awaiting reply (from them)",
-   "note": "proposed alternative dates",
+   "status": "Awaiting reply (from us)",
+   "note": "Habeeb said Sept 18-19 won't work and that we'd talk to the college administration — we owe that conversation",
    "daysOpen": 23,
    "daysSinceReceived": 23,
    "cc": [
@@ -3491,8 +3491,8 @@ window.DASHBOARD_DATA = {
    "email": "aryaparayullakandy@gmail.com",
    "received": "2026-08-31",
    "last": "2026-09-01",
-   "status": "Awaiting reply (from them)",
-   "note": "we owe them schedule update",
+   "status": "Awaiting reply (from us)",
+   "note": "Habeeb said we'd update the schedule from our end — we owe the update",
    "daysOpen": 23,
    "daysSinceReceived": 23,
    "cc": [
@@ -3509,8 +3509,8 @@ window.DASHBOARD_DATA = {
    "email": "gpmj2006@gmail.com",
    "received": "2026-08-31",
    "last": "2026-09-01",
-   "status": "Awaiting reply (from them)",
-   "note": "we owe them slot/count update",
+   "status": "Awaiting reply (from us)",
+   "note": "Habeeb accepted the slot/participant change and said we'd update it — we owe the update",
    "daysOpen": 23,
    "daysSinceReceived": 23,
    "cc": [
@@ -3526,8 +3526,8 @@ window.DASHBOARD_DATA = {
    "email": "rezinch@gmail.com",
    "received": "2026-08-30",
    "last": "2026-09-01",
-   "status": "Awaiting reply (from them)",
-   "note": "we owe them slot update",
+   "status": "Awaiting reply (from us)",
+   "note": "Habeeb said this is noted and would be updated — we owe the update",
    "daysOpen": 24,
    "daysSinceReceived": 24,
    "cc": [
@@ -3543,8 +3543,8 @@ window.DASHBOARD_DATA = {
    "email": "me24kshy@gmail.com",
    "received": "2026-08-30",
    "last": "2026-09-01",
-   "status": "Awaiting reply (from them)",
-   "note": "we owe them - contact college principal",
+   "status": "Awaiting reply (from us)",
+   "note": "Habeeb said we'd get in touch to coordinate with their Principal — we owe the outreach",
    "daysOpen": 24,
    "daysSinceReceived": 24,
    "cc": [
@@ -3778,8 +3778,8 @@ window.DASHBOARD_DATA = {
    "email": "muhammadashjil@gmail.com",
    "received": "2026-08-27",
    "last": "2026-08-28",
-   "status": "Awaiting reply (from them)",
-   "note": "we owe them slot update",
+   "status": "Awaiting reply (from us)",
+   "note": "Femina said the slot would be updated soon — we owe the update",
    "daysOpen": 27,
    "daysSinceReceived": 27,
    "cc": [
@@ -3796,7 +3796,7 @@ window.DASHBOARD_DATA = {
    "received": "2026-08-27",
    "last": "2026-08-28",
    "status": "Awaiting reply (from them)",
-   "note": "looped in campus lead for follow-up",
+   "note": "looped in campus lead for follow-up [flagged: partnership thread (iiNerds) — campus lead was looped in but ball may still be with them; not auto-closed]",
    "daysOpen": 27,
    "daysSinceReceived": 27,
    "cc": [
@@ -3816,7 +3816,7 @@ window.DASHBOARD_DATA = {
    "received": "2026-08-13",
    "last": "2026-08-27",
    "status": "Awaiting reply (from them)",
-   "note": "Useless Projects RSVP broadcast; several campuses requested slot changes (latest: asked Ananya/Christ College Irinjalakuda to fill RSVP for Sept 12 daytime)",
+   "note": "Useless Projects RSVP broadcast; several campuses requested slot changes (latest: asked Ananya/Christ College Irinjalakuda to fill RSVP for Sept 12 daytime) [flagged: multi-party thread, last real exchange was with a different person (Ananya) than the recorded counterpart (Anjali) — needs manual look, not auto-closed]",
    "daysOpen": 41,
    "daysSinceReceived": 41,
    "cc": [
@@ -3866,8 +3866,8 @@ window.DASHBOARD_DATA = {
    "email": "swathy062006@gmail.com",
    "received": "2026-08-25",
    "last": "2026-08-25",
-   "status": "Awaiting reply (from them)",
-   "note": "we owe them updated slot",
+   "status": "Awaiting reply (from us)",
+   "note": "Femina said \"we will update the new date slot\" — action is on us, no question asked of them",
    "daysOpen": 29,
    "daysSinceReceived": 29,
    "cc": [
@@ -3934,9 +3934,9 @@ window.DASHBOARD_DATA = {
    "email": "hamnanaslin@gmail.com",
    "received": "2026-08-24",
    "last": "2026-08-24",
-   "status": "Awaiting reply (from them)",
-   "note": "encouraged to proceed, next steps shared",
-   "daysOpen": 30,
+   "status": "Resolved",
+   "note": "Arundhathi gave a full answer on starting a WIT chapter — informational, no question pending",
+   "daysOpen": 0,
    "daysSinceReceived": 30,
    "cc": [
     "campus@tinkerhub.org"
@@ -3951,8 +3951,8 @@ window.DASHBOARD_DATA = {
    "email": "gouthamr4567@gmail.com",
    "received": "2026-08-24",
    "last": "2026-09-23",
-   "status": "Awaiting reply (from them)",
-   "note": "Akhil resolved the login/OTP verification issue and asked Goutham to try logging in again; awaiting confirmation",
+   "status": "Resolved",
+   "note": "Akhil confirmed the login/OTP issue is resolved (Sep23) — was miscategorized as awaiting reply",
    "daysOpen": 30,
    "daysSinceReceived": 30,
    "cc": [
@@ -4149,23 +4149,23 @@ window.DASHBOARD_DATA = {
   }
  ],
  "summary": {
-  "Informational": 93,
-  "Awaiting reply (from us)": 26,
-  "Resolved": 58,
-  "Awaiting reply (from them)": 54,
+  "Informational": 94,
+  "Awaiting reply (from us)": 48,
+  "Resolved": 65,
+  "Awaiting reply (from them)": 24,
   "No response": 7
  },
  "analytics": {
   "campus": {
    "total": 198,
    "statusCounts": {
-    "Informational": 83,
-    "Awaiting reply (from us)": 22,
-    "Resolved": 47,
-    "Awaiting reply (from them)": 46
+    "Informational": 84,
+    "Awaiting reply (from us)": 44,
+    "Resolved": 54,
+    "Awaiting reply (from them)": 16
    },
-   "avgOpenDays": 16.8,
-   "avgResolvedDays": 2.0
+   "avgOpenDays": 16.5,
+   "avgResolvedDays": 2.4
   },
   "support": {
    "total": 15,
