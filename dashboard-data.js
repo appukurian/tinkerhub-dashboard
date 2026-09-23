@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
- "generatedAt": "2026-09-23T06:47:00Z",
+ "generatedAt": "2026-09-23T08:48:25Z",
  "threads": [
   {
    "id": "campus-f10f197e6f",
@@ -2956,9 +2956,9 @@ window.DASHBOARD_DATA = {
    "counterpart": "Pooja S N (Saintgits)",
    "email": "poojasn.er2428@saintgits.org",
    "received": "2026-09-07",
-   "last": "2026-09-07",
-   "status": "No response",
-   "note": "~100 students at Saintgits Kudumba Unit event couldn't register in time; asking to add attached list of 27 names to the event",
+   "last": "2026-09-23",
+   "status": "Resolved",
+   "note": "~100 students at Saintgits Kudumba Unit event couldn't register in time; Akhil added the 27 listed students — resolved",
    "daysOpen": 16,
    "daysSinceReceived": 16,
    "cc": [
@@ -3161,9 +3161,9 @@ window.DASHBOARD_DATA = {
    "counterpart": "Lachu Krishna",
    "email": "lachukrishna01@gmail.com",
    "received": "2026-09-05",
-   "last": "2026-09-05",
-   "status": "No response",
-   "note": "OTP verification failing; also can't edit profile",
+   "last": "2026-09-23",
+   "status": "Resolved",
+   "note": "OTP verification failing / couldn't edit profile — confirmed resolved by Akhil",
    "daysOpen": 18,
    "daysSinceReceived": 18,
    "cc": [
@@ -3702,9 +3702,9 @@ window.DASHBOARD_DATA = {
    "counterpart": "Abi Alif",
    "email": "abialifhere@gmail.com",
    "received": "2026-08-11",
-   "last": "2026-08-30",
-   "status": "Awaiting reply (from us)",
-   "note": "Habeeb looped in support to update role (Friends of TinkerHub -> Campus Student); no confirmation yet that it's done",
+   "last": "2026-09-23",
+   "status": "Resolved",
+   "note": "Role updated from Friends of TinkerHub to Campus Student — confirmed resolved by Akhil",
    "daysOpen": 43,
    "daysSinceReceived": 43,
    "cc": [
@@ -3995,7 +3995,25 @@ window.DASHBOARD_DATA = {
    ]
   },
   {
-   "id": "report-039fe8162f",
+   "id": "campus-dab47f472f",
+   "threadId": "1a0cd09804760dd5",
+   "group": "campus",
+   "subject": "Spreadsheet shared with you: \"Campus Additions to app\"",
+   "counterpart": "internal (Habeeb Rahman)",
+   "email": null,
+   "received": "2026-09-23",
+   "last": "2026-09-23",
+   "status": "Informational",
+   "note": "Habeeb shared a \"Campus Additions to app\" Google Sheet with campus+support — internal notification, no reply needed",
+   "daysOpen": 0,
+   "daysSinceReceived": 0,
+   "cc": [
+    "campus@tinkerhub.org",
+    "akhil@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "report-80ba999b95",
    "threadId": null,
    "group": "report",
    "subject": null,
@@ -4010,7 +4028,7 @@ window.DASHBOARD_DATA = {
    "cc": []
   },
   {
-   "id": "report-217295ac1d",
+   "id": "report-c5d20472ea",
    "threadId": null,
    "group": "report",
    "subject": null,
@@ -4018,14 +4036,14 @@ window.DASHBOARD_DATA = {
    "email": null,
    "received": null,
    "last": null,
-   "status": "Awaiting reply (from us)",
+   "status": "Resolved",
    "note": null,
    "daysOpen": 15,
    "daysSinceReceived": 15,
    "cc": []
   },
   {
-   "id": "report-c018e7139a",
+   "id": "report-e5e12ff0cd",
    "threadId": null,
    "group": "report",
    "subject": null,
@@ -4033,14 +4051,14 @@ window.DASHBOARD_DATA = {
    "email": null,
    "received": null,
    "last": null,
-   "status": "Awaiting reply (from us)",
+   "status": "Awaiting reply (from them)",
    "note": null,
-   "daysOpen": 27,
-   "daysSinceReceived": 27,
+   "daysOpen": 15,
+   "daysSinceReceived": 15,
    "cc": []
   },
   {
-   "id": "report-265c2e2322",
+   "id": "report-69ff9b4329",
    "threadId": null,
    "group": "report",
    "subject": null,
@@ -4048,14 +4066,14 @@ window.DASHBOARD_DATA = {
    "email": null,
    "received": null,
    "last": null,
-   "status": "Awaiting reply (from us)",
+   "status": "Awaiting reply (from them)",
    "note": null,
-   "daysOpen": 30,
-   "daysSinceReceived": 30,
+   "daysOpen": 15,
+   "daysSinceReceived": 15,
    "cc": []
   },
   {
-   "id": "report-b8e4903b0b",
+   "id": "report-4af7879203",
    "threadId": null,
    "group": "report",
    "subject": null,
@@ -4070,7 +4088,7 @@ window.DASHBOARD_DATA = {
    "cc": []
   },
   {
-   "id": "report-ca20818be5",
+   "id": "report-55409c5545",
    "threadId": null,
    "group": "report",
    "subject": null,
@@ -4085,7 +4103,7 @@ window.DASHBOARD_DATA = {
    "cc": []
   },
   {
-   "id": "report-e731021ede",
+   "id": "report-aa14764f2a",
    "threadId": null,
    "group": "report",
    "subject": null,
@@ -4100,7 +4118,7 @@ window.DASHBOARD_DATA = {
    "cc": []
   },
   {
-   "id": "report-0759256871",
+   "id": "report-23887b25fa",
    "threadId": null,
    "group": "report",
    "subject": null,
@@ -4115,7 +4133,7 @@ window.DASHBOARD_DATA = {
    "cc": []
   },
   {
-   "id": "report-af19d4ae7f",
+   "id": "report-7608a88b9f",
    "threadId": null,
    "group": "report",
    "subject": null,
@@ -4123,7 +4141,7 @@ window.DASHBOARD_DATA = {
    "email": null,
    "received": null,
    "last": null,
-   "status": "Awaiting reply (from them)",
+   "status": "Resolved",
    "note": null,
    "daysOpen": 30,
    "daysSinceReceived": 30,
@@ -4131,45 +4149,43 @@ window.DASHBOARD_DATA = {
   }
  ],
  "summary": {
-  "No response": 11,
-  "Awaiting reply (from us)": 30,
-  "Awaiting reply (from them)": 52,
-  "Resolved": 52,
-  "Informational": 92
+  "Informational": 93,
+  "Awaiting reply (from us)": 26,
+  "Resolved": 57,
+  "Awaiting reply (from them)": 53,
+  "No response": 9
  },
  "analytics": {
   "campus": {
-   "total": 197,
+   "total": 198,
    "statusCounts": {
-    "No response": 1,
-    "Awaiting reply (from us)": 23,
+    "Informational": 83,
+    "Awaiting reply (from us)": 22,
+    "Resolved": 47,
     "Awaiting reply (from them)": 45,
-    "Resolved": 46,
-    "Informational": 82
+    "No response": 1
    },
-   "avgOpenDays": 17.1,
-   "avgResolvedDays": 1.1
+   "avgOpenDays": 16.8,
+   "avgResolvedDays": 2.0
   },
   "support": {
    "total": 15,
    "statusCounts": {
-    "No response": 8,
-    "Awaiting reply (from us)": 2,
     "Awaiting reply (from them)": 3,
-    "Resolved": 2,
-    "Informational": 0
+    "Resolved": 4,
+    "No response": 6,
+    "Awaiting reply (from us)": 2
    },
-   "avgOpenDays": 17.8,
-   "avgResolvedDays": 19.0
+   "avgOpenDays": 17.9,
+   "avgResolvedDays": 18.0
   },
   "finance": {
    "total": 16,
    "statusCounts": {
-    "No response": 1,
-    "Awaiting reply (from us)": 0,
-    "Awaiting reply (from them)": 1,
     "Resolved": 4,
-    "Informational": 10
+    "Informational": 10,
+    "No response": 1,
+    "Awaiting reply (from them)": 1
    },
    "avgOpenDays": 19.0,
    "avgResolvedDays": 4.2
@@ -4177,36 +4193,23 @@ window.DASHBOARD_DATA = {
   "report": {
    "total": 9,
    "statusCounts": {
-    "No response": 1,
-    "Awaiting reply (from us)": 5,
-    "Awaiting reply (from them)": 3,
-    "Resolved": 0,
-    "Informational": 0
+    "Awaiting reply (from us)": 2,
+    "Resolved": 2,
+    "Awaiting reply (from them)": 4,
+    "No response": 1
    },
-   "avgOpenDays": 22.7,
-   "avgResolvedDays": 0
+   "avgOpenDays": 18.9,
+   "avgResolvedDays": 22.5
   },
   "partner": {
    "total": 0,
-   "statusCounts": {
-    "No response": 0,
-    "Awaiting reply (from us)": 0,
-    "Awaiting reply (from them)": 0,
-    "Resolved": 0,
-    "Informational": 0
-   },
+   "statusCounts": {},
    "avgOpenDays": 0,
    "avgResolvedDays": 0
   },
   "tinkerspace": {
    "total": 0,
-   "statusCounts": {
-    "No response": 0,
-    "Awaiting reply (from us)": 0,
-    "Awaiting reply (from them)": 0,
-    "Resolved": 0,
-    "Informational": 0
-   },
+   "statusCounts": {},
    "avgOpenDays": 0,
    "avgResolvedDays": 0
   }
