@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
- "generatedAt": "2026-09-23T10:46:03Z",
+ "generatedAt": "2026-09-23T12:48:04Z",
  "threads": [
   {
    "id": "campus-f10f197e6f",
@@ -4013,7 +4013,7 @@ window.DASHBOARD_DATA = {
    ]
   },
   {
-   "id": "report-36d526fd4f",
+   "id": "report-d24eb0ad18",
    "threadId": null,
    "group": "report",
    "subject": null,
@@ -4021,14 +4021,14 @@ window.DASHBOARD_DATA = {
    "email": null,
    "received": null,
    "last": null,
-   "status": "Awaiting reply (from them)",
+   "status": "Awaiting reply (from us)",
    "note": null,
    "daysOpen": 0,
    "daysSinceReceived": 0,
    "cc": []
   },
   {
-   "id": "report-c8fce0b795",
+   "id": "report-80ba999b95",
    "threadId": null,
    "group": "report",
    "subject": null,
@@ -4058,7 +4058,7 @@ window.DASHBOARD_DATA = {
    "cc": []
   },
   {
-   "id": "report-062982c545",
+   "id": "report-dce710f6b1",
    "threadId": null,
    "group": "report",
    "subject": null,
@@ -4066,14 +4066,14 @@ window.DASHBOARD_DATA = {
    "email": null,
    "received": null,
    "last": null,
-   "status": "Awaiting reply (from them)",
+   "status": "Resolved",
    "note": null,
    "daysOpen": 15,
    "daysSinceReceived": 15,
    "cc": []
   },
   {
-   "id": "report-14807cce3a",
+   "id": "report-69ff9b4329",
    "threadId": null,
    "group": "report",
    "subject": null,
@@ -4081,7 +4081,7 @@ window.DASHBOARD_DATA = {
    "email": null,
    "received": null,
    "last": null,
-   "status": "Awaiting reply (from them)",
+   "status": "Resolved",
    "note": null,
    "daysOpen": 15,
    "daysSinceReceived": 15,
@@ -4103,7 +4103,7 @@ window.DASHBOARD_DATA = {
    "cc": []
   },
   {
-   "id": "report-55409c5545",
+   "id": "report-af222e63c4",
    "threadId": null,
    "group": "report",
    "subject": null,
@@ -4133,7 +4133,7 @@ window.DASHBOARD_DATA = {
    "cc": []
   },
   {
-   "id": "report-d467652a9f",
+   "id": "report-23887b25fa",
    "threadId": null,
    "group": "report",
    "subject": null,
@@ -4146,28 +4146,13 @@ window.DASHBOARD_DATA = {
    "daysOpen": 29,
    "daysSinceReceived": 29,
    "cc": []
-  },
-  {
-   "id": "report-7608a88b9f",
-   "threadId": null,
-   "group": "report",
-   "subject": null,
-   "counterpart": null,
-   "email": null,
-   "received": null,
-   "last": null,
-   "status": "Resolved",
-   "note": null,
-   "daysOpen": 30,
-   "daysSinceReceived": 30,
-   "cc": []
   }
  ],
  "summary": {
   "Informational": 94,
-  "Awaiting reply (from us)": 47,
-  "Resolved": 77,
-  "Awaiting reply (from them)": 14,
+  "Awaiting reply (from us)": 48,
+  "Resolved": 78,
+  "Awaiting reply (from them)": 11,
   "No response": 7
  },
  "analytics": {
@@ -4205,15 +4190,15 @@ window.DASHBOARD_DATA = {
    "avgResolvedDays": 4.2
   },
   "report": {
-   "total": 10,
+   "total": 9,
    "statusCounts": {
-    "Awaiting reply (from them)": 5,
-    "Awaiting reply (from us)": 2,
-    "Resolved": 2,
-    "No response": 1
+    "Awaiting reply (from us)": 3,
+    "Resolved": 3,
+    "No response": 1,
+    "Awaiting reply (from them)": 2
    },
-   "avgOpenDays": 16.5,
-   "avgResolvedDays": 22.5
+   "avgOpenDays": 17.0,
+   "avgResolvedDays": 15.0
   },
   "partner": {
    "total": 0,
