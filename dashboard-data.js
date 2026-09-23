@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
- "generatedAt": "2026-09-23T04:42:00Z",
+ "generatedAt": "2026-09-23T06:47:00Z",
  "threads": [
   {
    "id": "campus-f10f197e6f",
@@ -1545,9 +1545,9 @@ window.DASHBOARD_DATA = {
    "counterpart": "Mevin Aby Manu",
    "email": "mevinmanu04@gmail.com",
    "received": "2026-09-22",
-   "last": "2026-09-22",
-   "status": "No response",
-   "note": "Campus lead (MBCCET) requesting deployed link correction for Project 2K25 and a late-submission exception for another team; no reply yet",
+   "last": "2026-09-23",
+   "status": "Resolved",
+   "note": "Femina declined — final project submission window (Sep 22, 5-9pm) already closed per Discord announcement; no further action",
    "daysOpen": 1,
    "daysSinceReceived": 1,
    "cc": [
@@ -1562,9 +1562,9 @@ window.DASHBOARD_DATA = {
    "counterpart": "Abdel Baasit (TinkerHub CEP)",
    "email": "tinkerhubcep@gmail.com",
    "received": "2026-09-22",
-   "last": "2026-09-22",
-   "status": "No response",
-   "note": "College of Engineering Perumon apologizing for missing the aftermovie link submission deadline, requesting late acceptance; no reply yet",
+   "last": "2026-09-23",
+   "status": "Resolved",
+   "note": "Femina closed the thread — aftermovie submissions closed, thanked them for their effort; no further action",
    "daysOpen": 1,
    "daysSinceReceived": 1,
    "cc": [
@@ -1684,10 +1684,10 @@ window.DASHBOARD_DATA = {
    "counterpart": "MSG91 (automated)",
    "email": null,
    "received": "2026-09-19",
-   "last": "2026-09-19",
-   "status": "Informational",
-   "note": "SMS API failures (error codes 311, 202) for MSG91 account ekuttan; acknowledged, no fix confirmed yet",
-   "daysOpen": 0,
+   "last": "2026-09-23",
+   "status": "Resolved",
+   "note": "Akhil confirmed the MSG91 SMS API issue is resolved and SMS is working properly now",
+   "daysOpen": 4,
    "daysSinceReceived": 4,
    "cc": [
     "support@tinkerhub.org"
@@ -3848,9 +3848,9 @@ window.DASHBOARD_DATA = {
    "counterpart": "Anson Boby",
    "email": "ansonboby@gmail.com",
    "received": "2026-08-26",
-   "last": "2026-08-26",
-   "status": "No response",
-   "note": "UI bug report, needs review",
+   "last": "2026-09-23",
+   "status": "Awaiting reply (from them)",
+   "note": "Akhil asked Anson for device model/Android OS version to help reproduce the UI bug; awaiting his reply",
    "daysOpen": 28,
    "daysSinceReceived": 28,
    "cc": [
@@ -3899,9 +3899,9 @@ window.DASHBOARD_DATA = {
    "counterpart": "Adnan Ibnu Rasheed",
    "email": "adnankp249@gmail.com",
    "received": "2026-08-25",
-   "last": "2026-08-25",
-   "status": "No response",
-   "note": "college missing from selection list",
+   "last": "2026-09-23",
+   "status": "Awaiting reply (from us)",
+   "note": "Akhil told Adnan his college (Alphonsa College, Thiruvambadi) will be added to the list soon — action still pending on our side",
    "daysOpen": 29,
    "daysSinceReceived": 29,
    "cc": [
@@ -3950,9 +3950,9 @@ window.DASHBOARD_DATA = {
    "counterpart": "Goutham R",
    "email": "gouthamr4567@gmail.com",
    "received": "2026-08-24",
-   "last": "2026-08-24",
+   "last": "2026-09-23",
    "status": "Awaiting reply (from them)",
-   "note": "OTP fails, tagged to support",
+   "note": "Akhil resolved the login/OTP verification issue and asked Goutham to try logging in again; awaiting confirmation",
    "daysOpen": 30,
    "daysSinceReceived": 30,
    "cc": [
@@ -3978,7 +3978,24 @@ window.DASHBOARD_DATA = {
    ]
   },
   {
-   "id": "report-80ba999b95",
+   "id": "support-4d866af761",
+   "threadId": "1a01fabb03f3ee2f",
+   "group": "support",
+   "subject": "Request to Change College Name in TinkerHub Account",
+   "counterpart": "Akshay Harilal",
+   "email": "akshayharilal10@gmail.com",
+   "received": "2026-08-20",
+   "last": "2026-09-23",
+   "status": "Resolved",
+   "note": "Akhil updated his college name to College of Engineering Trivandrum as requested",
+   "daysOpen": 34,
+   "daysSinceReceived": 34,
+   "cc": [
+    "support@tinkerhub.org"
+   ]
+  },
+  {
+   "id": "report-039fe8162f",
    "threadId": null,
    "group": "report",
    "subject": null,
@@ -3993,7 +4010,7 @@ window.DASHBOARD_DATA = {
    "cc": []
   },
   {
-   "id": "report-c5d20472ea",
+   "id": "report-217295ac1d",
    "threadId": null,
    "group": "report",
    "subject": null,
@@ -4008,7 +4025,7 @@ window.DASHBOARD_DATA = {
    "cc": []
   },
   {
-   "id": "report-dce710f6b1",
+   "id": "report-c018e7139a",
    "threadId": null,
    "group": "report",
    "subject": null,
@@ -4018,12 +4035,12 @@ window.DASHBOARD_DATA = {
    "last": null,
    "status": "Awaiting reply (from us)",
    "note": null,
-   "daysOpen": 15,
-   "daysSinceReceived": 15,
+   "daysOpen": 27,
+   "daysSinceReceived": 27,
    "cc": []
   },
   {
-   "id": "report-14807cce3a",
+   "id": "report-265c2e2322",
    "threadId": null,
    "group": "report",
    "subject": null,
@@ -4033,12 +4050,12 @@ window.DASHBOARD_DATA = {
    "last": null,
    "status": "Awaiting reply (from us)",
    "note": null,
-   "daysOpen": 15,
-   "daysSinceReceived": 15,
+   "daysOpen": 30,
+   "daysSinceReceived": 30,
    "cc": []
   },
   {
-   "id": "report-1ab73293c1",
+   "id": "report-b8e4903b0b",
    "threadId": null,
    "group": "report",
    "subject": null,
@@ -4053,7 +4070,7 @@ window.DASHBOARD_DATA = {
    "cc": []
   },
   {
-   "id": "report-ad8abb1214",
+   "id": "report-ca20818be5",
    "threadId": null,
    "group": "report",
    "subject": null,
@@ -4068,7 +4085,7 @@ window.DASHBOARD_DATA = {
    "cc": []
   },
   {
-   "id": "report-aa14764f2a",
+   "id": "report-e731021ede",
    "threadId": null,
    "group": "report",
    "subject": null,
@@ -4083,7 +4100,7 @@ window.DASHBOARD_DATA = {
    "cc": []
   },
   {
-   "id": "report-d467652a9f",
+   "id": "report-0759256871",
    "threadId": null,
    "group": "report",
    "subject": null,
@@ -4091,14 +4108,14 @@ window.DASHBOARD_DATA = {
    "email": null,
    "received": null,
    "last": null,
-   "status": "Awaiting reply (from us)",
+   "status": "Awaiting reply (from them)",
    "note": null,
    "daysOpen": 29,
    "daysSinceReceived": 29,
    "cc": []
   },
   {
-   "id": "report-7608a88b9f",
+   "id": "report-af19d4ae7f",
    "threadId": null,
    "group": "report",
    "subject": null,
@@ -4106,7 +4123,7 @@ window.DASHBOARD_DATA = {
    "email": null,
    "received": null,
    "last": null,
-   "status": "Awaiting reply (from us)",
+   "status": "Awaiting reply (from them)",
    "note": null,
    "daysOpen": 30,
    "daysSinceReceived": 30,
@@ -4114,36 +4131,36 @@ window.DASHBOARD_DATA = {
   }
  ],
  "summary": {
-  "No response": 15,
-  "Awaiting reply (from us)": 31,
-  "Awaiting reply (from them)": 49,
-  "Resolved": 48,
-  "Informational": 93
+  "No response": 11,
+  "Awaiting reply (from us)": 30,
+  "Awaiting reply (from them)": 52,
+  "Resolved": 52,
+  "Informational": 92
  },
  "analytics": {
   "campus": {
    "total": 197,
    "statusCounts": {
-    "No response": 3,
+    "No response": 1,
     "Awaiting reply (from us)": 23,
     "Awaiting reply (from them)": 45,
-    "Resolved": 44,
+    "Resolved": 46,
     "Informational": 82
    },
-   "avgOpenDays": 16.7,
+   "avgOpenDays": 17.1,
    "avgResolvedDays": 1.1
   },
   "support": {
-   "total": 14,
+   "total": 15,
    "statusCounts": {
-    "No response": 10,
-    "Awaiting reply (from us)": 1,
-    "Awaiting reply (from them)": 2,
-    "Resolved": 0,
-    "Informational": 1
+    "No response": 8,
+    "Awaiting reply (from us)": 2,
+    "Awaiting reply (from them)": 3,
+    "Resolved": 2,
+    "Informational": 0
    },
    "avgOpenDays": 17.8,
-   "avgResolvedDays": 0
+   "avgResolvedDays": 19.0
   },
   "finance": {
    "total": 16,
@@ -4161,12 +4178,12 @@ window.DASHBOARD_DATA = {
    "total": 9,
    "statusCounts": {
     "No response": 1,
-    "Awaiting reply (from us)": 7,
-    "Awaiting reply (from them)": 1,
+    "Awaiting reply (from us)": 5,
+    "Awaiting reply (from them)": 3,
     "Resolved": 0,
     "Informational": 0
    },
-   "avgOpenDays": 19.7,
+   "avgOpenDays": 22.7,
    "avgResolvedDays": 0
   },
   "partner": {
