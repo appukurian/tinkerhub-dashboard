@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
- "generatedAt": "2026-09-23T10:30:13Z",
+ "generatedAt": "2026-09-23T10:31:38Z",
  "threads": [
   {
    "id": "campus-f10f197e6f",
@@ -1701,9 +1701,9 @@ window.DASHBOARD_DATA = {
    "counterpart": "Mary Metilda",
    "email": "34004alappuzha@gmail.com",
    "received": "2026-09-14",
-   "last": "2026-09-19",
-   "status": "Awaiting reply (from them)",
-   "note": "Akhil set account visibility to public and asked Mary to retry the vouch from Bristow Xavier",
+   "last": "2026-09-23",
+   "status": "Resolved",
+   "note": "Auto-close message sent Sep23 (no reply after prior ask) — closed on our end, thread reopens if they reply",
    "daysOpen": 9,
    "daysSinceReceived": 9,
    "cc": [
@@ -1975,9 +1975,9 @@ window.DASHBOARD_DATA = {
    "counterpart": "Aman K (GEC Wayanad)",
    "email": "amankanhikoth@gmail.com",
    "received": "2026-09-15",
-   "last": "2026-09-15",
-   "status": "Awaiting reply (from them)",
-   "note": "asked for event date/time and participation mode before considering a collab session",
+   "last": "2026-09-23",
+   "status": "Resolved",
+   "note": "Auto-close message sent Sep23 (no reply after prior ask) — closed on our end, thread reopens if they reply",
    "daysOpen": 8,
    "daysSinceReceived": 8,
    "cc": [
@@ -3849,8 +3849,8 @@ window.DASHBOARD_DATA = {
    "email": "ansonboby@gmail.com",
    "received": "2026-08-26",
    "last": "2026-09-23",
-   "status": "Awaiting reply (from them)",
-   "note": "Akhil asked Anson for device model/Android OS version to help reproduce the UI bug; awaiting his reply",
+   "status": "Resolved",
+   "note": "Auto-close message sent Sep23 (no reply after prior ask) — closed on our end, thread reopens if they reply",
    "daysOpen": 28,
    "daysSinceReceived": 28,
    "cc": [
@@ -4151,8 +4151,8 @@ window.DASHBOARD_DATA = {
  "summary": {
   "Informational": 94,
   "Awaiting reply (from us)": 47,
-  "Resolved": 74,
-  "Awaiting reply (from them)": 16,
+  "Resolved": 77,
+  "Awaiting reply (from them)": 13,
   "No response": 7
  },
  "analytics": {
@@ -4161,22 +4161,22 @@ window.DASHBOARD_DATA = {
    "statusCounts": {
     "Informational": 84,
     "Awaiting reply (from us)": 43,
-    "Resolved": 63,
-    "Awaiting reply (from them)": 8
+    "Resolved": 64,
+    "Awaiting reply (from them)": 7
    },
-   "avgOpenDays": 15.8,
-   "avgResolvedDays": 4.9
+   "avgOpenDays": 15.9,
+   "avgResolvedDays": 5.0
   },
   "support": {
    "total": 15,
    "statusCounts": {
-    "Awaiting reply (from them)": 3,
-    "Resolved": 5,
+    "Awaiting reply (from them)": 1,
+    "Resolved": 7,
     "No response": 5,
     "Awaiting reply (from us)": 2
    },
-   "avgOpenDays": 18.3,
-   "avgResolvedDays": 17.2
+   "avgOpenDays": 18.2,
+   "avgResolvedDays": 17.6
   },
   "finance": {
    "total": 16,
