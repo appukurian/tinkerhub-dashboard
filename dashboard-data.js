@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
- "generatedAt": "2026-09-23T10:06:02Z",
+ "generatedAt": "2026-09-23T10:30:13Z",
  "threads": [
   {
    "id": "campus-f10f197e6f",
@@ -1752,9 +1752,9 @@ window.DASHBOARD_DATA = {
    "counterpart": "Amal Sankar K R (TinkerHub SNMIMT)",
    "email": "tinkerhub@snmimt.edu.in",
    "received": "2026-09-17",
-   "last": "2026-09-18",
-   "status": "Awaiting reply (from them)",
-   "note": "campus lead flagged OTP/submission/voting issues; we asked them to submit details via the Tech Issues Report Form by Sat 3pm",
+   "last": "2026-09-23",
+   "status": "Resolved",
+   "note": "Auto-close message sent Sep23 (no reply after prior ask) — closed on our end, thread reopens if they reply",
    "daysOpen": 6,
    "daysSinceReceived": 6,
    "cc": [
@@ -1769,9 +1769,9 @@ window.DASHBOARD_DATA = {
    "counterpart": "Vishnu PP (TinkerHub AISAT)",
    "email": "viyshnuw@gmail.com",
    "received": "2026-09-16",
-   "last": "2026-09-18",
-   "status": "Awaiting reply (from them)",
-   "note": "Discord rating issue during event; we asked them to submit details via the Tech Issues Report Form by Sat 3pm",
+   "last": "2026-09-23",
+   "status": "Resolved",
+   "note": "Auto-close message sent Sep23 (no reply after prior ask) — closed on our end, thread reopens if they reply",
    "daysOpen": 7,
    "daysSinceReceived": 7,
    "cc": [
@@ -2352,7 +2352,7 @@ window.DASHBOARD_DATA = {
    "received": "2026-09-10",
    "last": "2026-09-10",
    "status": "Awaiting reply (from them)",
-   "note": "Habeeb asked for campus name + deadline details on Sep 10; no reply from Afeefa since",
+   "note": "Auto-close draft was sent Sep23 but misaddressed to habeeb@tinkerhub.org instead of Afeefa — she never received it, thread NOT actually closed",
    "daysOpen": 13,
    "daysSinceReceived": 13,
    "cc": [
@@ -2556,9 +2556,9 @@ window.DASHBOARD_DATA = {
    "counterpart": "Trishaa",
    "email": "mail.trishaa@gmail.com",
    "received": "2026-09-09",
-   "last": "2026-09-10",
-   "status": "Awaiting reply (from them)",
-   "note": "arundhathi asked what action to take (email/call) + contact details for the principal/faculty coordinator",
+   "last": "2026-09-23",
+   "status": "Resolved",
+   "note": "Auto-close message sent Sep23 (no reply after prior ask) — closed on our end, thread reopens if they reply",
    "daysOpen": 14,
    "daysSinceReceived": 14,
    "cc": [
@@ -2608,9 +2608,9 @@ window.DASHBOARD_DATA = {
    "counterpart": "Hellan Raichel Benoy",
    "email": "hellan1845@gmail.com",
    "received": "2026-09-09",
-   "last": "2026-09-09",
-   "status": "Awaiting reply (from them)",
-   "note": "seat capacity 60→70 requested for USELESS 3.0 (Sep 11-12); Femina replied asking for details on the team issue, suggested posting to Discord tech support channel",
+   "last": "2026-09-23",
+   "status": "Resolved",
+   "note": "Auto-close message sent Sep23 (no reply after prior ask) — closed on our end, thread reopens if they reply",
    "daysOpen": 14,
    "daysSinceReceived": 14,
    "cc": [
@@ -3195,9 +3195,9 @@ window.DASHBOARD_DATA = {
    "counterpart": "Meenakshy MS",
    "email": "me24kshy@gmail.com",
    "received": "2026-09-02",
-   "last": "2026-09-03",
-   "status": "Awaiting reply (from them)",
-   "note": "asked her to fill RSVP form",
+   "last": "2026-09-23",
+   "status": "Resolved",
+   "note": "Auto-close message sent Sep23 (no reply after prior ask) — closed on our end, thread reopens if they reply",
    "daysOpen": 21,
    "daysSinceReceived": 21,
    "cc": [
@@ -3473,9 +3473,9 @@ window.DASHBOARD_DATA = {
    "counterpart": "Lekshmy S",
    "email": "lekshmys33@gmail.com",
    "received": "2026-08-31",
-   "last": "2026-09-01",
-   "status": "Awaiting reply (from them)",
-   "note": "asked for exact timing",
+   "last": "2026-09-23",
+   "status": "Resolved",
+   "note": "Auto-close message sent Sep23 (no reply after prior ask) — closed on our end, thread reopens if they reply",
    "daysOpen": 23,
    "daysSinceReceived": 23,
    "cc": [
@@ -3794,9 +3794,9 @@ window.DASHBOARD_DATA = {
    "counterpart": "Fannie Nesa (iiNerds)",
    "email": "fannie.na@iinerds.com",
    "received": "2026-08-27",
-   "last": "2026-08-28",
-   "status": "Awaiting reply (from them)",
-   "note": "looped in campus lead for follow-up [flagged: partnership thread (iiNerds) — campus lead was looped in but ball may still be with them; not auto-closed]",
+   "last": "2026-09-23",
+   "status": "Resolved",
+   "note": "Auto-close message sent Sep23 (no reply after prior ask) — closed on our end, thread reopens if they reply",
    "daysOpen": 27,
    "daysSinceReceived": 27,
    "cc": [
@@ -3814,9 +3814,9 @@ window.DASHBOARD_DATA = {
    "counterpart": "Anjali S Pillai",
    "email": "anjalispillai321@gmail.com",
    "received": "2026-08-13",
-   "last": "2026-08-27",
-   "status": "Awaiting reply (from them)",
-   "note": "Useless Projects RSVP broadcast; several campuses requested slot changes (latest: asked Ananya/Christ College Irinjalakuda to fill RSVP for Sept 12 daytime) [flagged: multi-party thread, last real exchange was with a different person (Ananya) than the recorded counterpart (Anjali) — needs manual look, not auto-closed]",
+   "last": "2026-09-23",
+   "status": "Resolved",
+   "note": "Auto-close message sent Sep23 (no reply after prior ask) — closed on our end, thread reopens if they reply",
    "daysOpen": 41,
    "daysSinceReceived": 41,
    "cc": [
@@ -3916,9 +3916,9 @@ window.DASHBOARD_DATA = {
    "counterpart": "Farsana (TinkerHub)",
    "email": "fathimathulfarsaana@gmail.com",
    "received": "2026-08-24",
-   "last": "2026-08-24",
-   "status": "Awaiting reply (from them)",
-   "note": "confirming overnight slot Sept 11-12",
+   "last": "2026-09-23",
+   "status": "Resolved",
+   "note": "Auto-close message sent Sep23 (no reply after prior ask) — closed on our end, thread reopens if they reply",
    "daysOpen": 30,
    "daysSinceReceived": 30,
    "cc": [
@@ -4151,8 +4151,8 @@ window.DASHBOARD_DATA = {
  "summary": {
   "Informational": 94,
   "Awaiting reply (from us)": 47,
-  "Resolved": 65,
-  "Awaiting reply (from them)": 25,
+  "Resolved": 74,
+  "Awaiting reply (from them)": 16,
   "No response": 7
  },
  "analytics": {
@@ -4161,11 +4161,11 @@ window.DASHBOARD_DATA = {
    "statusCounts": {
     "Informational": 84,
     "Awaiting reply (from us)": 43,
-    "Resolved": 54,
-    "Awaiting reply (from them)": 17
+    "Resolved": 63,
+    "Awaiting reply (from them)": 8
    },
-   "avgOpenDays": 16.5,
-   "avgResolvedDays": 2.4
+   "avgOpenDays": 15.8,
+   "avgResolvedDays": 4.9
   },
   "support": {
    "total": 15,
