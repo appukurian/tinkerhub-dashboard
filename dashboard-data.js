@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-24T11:03:36Z",
+  "generatedAt": "2026-09-24T12:44:00Z",
   "threads": [
     {
       "id": "campus-2bfa647432",
@@ -4207,7 +4207,7 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
-      "id": "report-e5e12ff0cd",
+      "id": "report-8bf0d2c275",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -4237,7 +4237,7 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
-      "id": "report-4af7879203",
+      "id": "report-080ae97ec4",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -4252,7 +4252,7 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
-      "id": "report-cbf36e9b71",
+      "id": "report-7fb4616a4a",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -4280,11 +4280,26 @@ window.DASHBOARD_DATA = {
       "daysOpen": 28,
       "daysSinceReceived": 28,
       "cc": []
+    },
+    {
+      "id": "report-23887b25fa",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Resolved",
+      "note": null,
+      "daysOpen": 29,
+      "daysSinceReceived": 30,
+      "cc": []
     }
   ],
   "summary": {
     "Awaiting reply (from us)": 14,
-    "Resolved": 100,
+    "Resolved": 101,
     "Informational": 104,
     "Awaiting reply (from them)": 22,
     "No response": 6
@@ -4325,15 +4340,15 @@ window.DASHBOARD_DATA = {
       "avgResolvedDays": 4.2
     },
     "report": {
-      "total": 8,
+      "total": 9,
       "counts": {
-        "Resolved": 1,
+        "Resolved": 2,
         "Awaiting reply (from us)": 2,
         "Awaiting reply (from them)": 4,
         "No response": 1
       },
       "avgOpenDays": 17.9,
-      "avgResolvedDays": 0.0
+      "avgResolvedDays": 14.5
     },
     "partner": {
       "total": 0,
