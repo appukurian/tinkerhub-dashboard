@@ -1,7 +1,7 @@
 // Auto-generated daily by .github/workflows/discord-update.yml
 // Do NOT hand-edit — this file is overwritten on each run.
 window.DISCORD_DATA = {
-  "generatedAt": "2026-09-24T13:40:03Z",
+  "generatedAt": "2026-09-24T18:31:24Z",
   "threads": [
     {
       "id": "1551448989692469379",
@@ -78,8 +78,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-20",
       "last": "2026-09-20",
       "resolvedAt": "2026-09-20",
-      "daysOpen": 3,
-      "daysSinceReceived": 3,
+      "daysOpen": 4,
+      "daysSinceReceived": 4,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -120,8 +120,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-10",
       "last": "2026-09-20",
       "resolvedAt": "2026-09-10",
-      "daysOpen": 3,
-      "daysSinceReceived": 13,
+      "daysOpen": 4,
+      "daysSinceReceived": 14,
       "daysToClose": 0,
       "messageCount": 5,
       "archived": false,
@@ -143,8 +143,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-19",
       "last": "2026-09-19",
       "resolvedAt": "2026-09-19",
-      "daysOpen": 4,
-      "daysSinceReceived": 4,
+      "daysOpen": 5,
+      "daysSinceReceived": 5,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -166,8 +166,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-18",
       "last": "2026-09-18",
       "resolvedAt": "2026-09-18",
-      "daysOpen": 5,
-      "daysSinceReceived": 5,
+      "daysOpen": 6,
+      "daysSinceReceived": 6,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -185,8 +185,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-18",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 5,
-      "daysSinceReceived": 14,
+      "daysOpen": 6,
+      "daysSinceReceived": 15,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -209,7 +209,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-16",
       "resolvedAt": "2026-09-13",
       "daysOpen": 8,
-      "daysSinceReceived": 10,
+      "daysSinceReceived": 11,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -372,9 +372,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Cant update my outreach position showing an dash there while uploading and save it",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541036895075704894",
-        "snippet": "Attached both sceeenshoot"
+        "fromThreadName": "TinkerHub App issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541464117557207121",
+        "snippet": "Solved tried to login in another phone profile setup ayii thengzz"
       }
     },
     {
@@ -425,8 +425,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-10",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-10",
-      "daysOpen": 13,
-      "daysSinceReceived": 13,
+      "daysOpen": 14,
+      "daysSinceReceived": 14,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -444,8 +444,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-10",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-10",
-      "daysOpen": 13,
-      "daysSinceReceived": 13,
+      "daysOpen": 14,
+      "daysSinceReceived": 14,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -483,7 +483,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-10",
       "resolvedAt": "2026-09-09",
       "daysOpen": 14,
-      "daysSinceReceived": 14,
+      "daysSinceReceived": 15,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -558,8 +558,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 14,
-      "daysSinceReceived": 14,
+      "daysOpen": 15,
+      "daysSinceReceived": 15,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -577,17 +577,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 14,
-      "daysSinceReceived": 14,
+      "daysOpen": 15,
+      "daysSinceReceived": 15,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Cant update my outreach position showing an dash there while uploading and save it",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541036895075704894",
-        "snippet": "Attached both sceeenshoot"
+        "fromThreadName": "TinkerHub App issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541464117557207121",
+        "snippet": "Solved tried to login in another phone profile setup ayii thengzz"
       }
     },
     {
@@ -600,17 +600,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 14,
-      "daysSinceReceived": 14,
+      "daysOpen": 15,
+      "daysSinceReceived": 15,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Cant update my outreach position showing an dash there while uploading and save it",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541036895075704894",
-        "snippet": "Attached both sceeenshoot"
+        "fromThreadName": "TinkerHub App issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541464117557207121",
+        "snippet": "Solved tried to login in another phone profile setup ayii thengzz"
       }
     },
     {
@@ -665,17 +665,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-04",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-04",
-      "daysOpen": 14,
-      "daysSinceReceived": 19,
+      "daysOpen": 15,
+      "daysSinceReceived": 20,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Cant update my outreach position showing an dash there while uploading and save it",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541036895075704894",
-        "snippet": "Attached both sceeenshoot"
+        "fromThreadName": "TinkerHub App issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541464117557207121",
+        "snippet": "Solved tried to login in another phone profile setup ayii thengzz"
       }
     },
     {
@@ -707,8 +707,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-08",
       "last": "2026-09-08",
       "resolvedAt": "2026-09-08",
-      "daysOpen": 15,
-      "daysSinceReceived": 15,
+      "daysOpen": 16,
+      "daysSinceReceived": 16,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -731,7 +731,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-09-07",
       "daysOpen": 16,
-      "daysSinceReceived": 16,
+      "daysSinceReceived": 17,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -750,16 +750,16 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-09-07",
       "daysOpen": 16,
-      "daysSinceReceived": 16,
+      "daysSinceReceived": 17,
       "daysToClose": 0,
       "messageCount": 5,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Cant update my outreach position showing an dash there while uploading and save it",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541036895075704894",
-        "snippet": "Attached both sceeenshoot"
+        "fromThreadName": "TinkerHub App issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541464117557207121",
+        "snippet": "Solved tried to login in another phone profile setup ayii thengzz"
       }
     },
     {
@@ -773,7 +773,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-09-07",
       "daysOpen": 16,
-      "daysSinceReceived": 16,
+      "daysSinceReceived": 17,
       "daysToClose": 0,
       "messageCount": 7,
       "archived": false,
@@ -818,9 +818,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Cant update my outreach position showing an dash there while uploading and save it",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541036895075704894",
-        "snippet": "Attached both sceeenshoot"
+        "fromThreadName": "TinkerHub App issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541464117557207121",
+        "snippet": "Solved tried to login in another phone profile setup ayii thengzz"
       }
     },
     {
@@ -834,7 +834,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-09-03",
       "daysOpen": 16,
-      "daysSinceReceived": 20,
+      "daysSinceReceived": 21,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -872,16 +872,16 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-08-30",
       "daysOpen": 16,
-      "daysSinceReceived": 24,
+      "daysSinceReceived": 25,
       "daysToClose": 0,
       "messageCount": 7,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Cant update my outreach position showing an dash there while uploading and save it",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541036895075704894",
-        "snippet": "Attached both sceeenshoot"
+        "fromThreadName": "TinkerHub App issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541464117557207121",
+        "snippet": "Solved tried to login in another phone profile setup ayii thengzz"
       }
     },
     {
@@ -902,9 +902,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Cant update my outreach position showing an dash there while uploading and save it",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541036895075704894",
-        "snippet": "Attached both sceeenshoot"
+        "fromThreadName": "TinkerHub App issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541464117557207121",
+        "snippet": "Solved tried to login in another phone profile setup ayii thengzz"
       }
     },
     {
@@ -956,16 +956,16 @@ window.DISCORD_DATA = {
       "last": "2026-09-07",
       "resolvedAt": "2026-09-01",
       "daysOpen": 17,
-      "daysSinceReceived": 22,
+      "daysSinceReceived": 23,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Cant update my outreach position showing an dash there while uploading and save it",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541036895075704894",
-        "snippet": "Attached both sceeenshoot"
+        "fromThreadName": "TinkerHub App issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541464117557207121",
+        "snippet": "Solved tried to login in another phone profile setup ayii thengzz"
       }
     },
     {
@@ -1005,9 +1005,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Cant update my outreach position showing an dash there while uploading and save it",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541036895075704894",
-        "snippet": "Attached both sceeenshoot"
+        "fromThreadName": "TinkerHub App issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541464117557207121",
+        "snippet": "Solved tried to login in another phone profile setup ayii thengzz"
       }
     },
     {
@@ -1066,9 +1066,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Cant update my outreach position showing an dash there while uploading and save it",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541036895075704894",
-        "snippet": "Attached both sceeenshoot"
+        "fromThreadName": "TinkerHub App issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541464117557207121",
+        "snippet": "Solved tried to login in another phone profile setup ayii thengzz"
       }
     },
     {
@@ -1081,17 +1081,17 @@ window.DISCORD_DATA = {
       "received": "2026-08-29",
       "last": "2026-09-04",
       "resolvedAt": "2026-08-29",
-      "daysOpen": 19,
-      "daysSinceReceived": 25,
+      "daysOpen": 20,
+      "daysSinceReceived": 26,
       "daysToClose": 0,
       "messageCount": 4,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Cant update my outreach position showing an dash there while uploading and save it",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541036895075704894",
-        "snippet": "Attached both sceeenshoot"
+        "fromThreadName": "TinkerHub App issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541464117557207121",
+        "snippet": "Solved tried to login in another phone profile setup ayii thengzz"
       }
     },
     {
@@ -1104,8 +1104,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-03",
       "last": "2026-09-03",
       "resolvedAt": "2026-09-03",
-      "daysOpen": 20,
-      "daysSinceReceived": 20,
+      "daysOpen": 21,
+      "daysSinceReceived": 21,
       "daysToClose": 0,
       "messageCount": 3,
       "archived": false,
@@ -1131,9 +1131,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Cant update my outreach position showing an dash there while uploading and save it",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541036895075704894",
-        "snippet": "Attached both sceeenshoot"
+        "fromThreadName": "TinkerHub App issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541464117557207121",
+        "snippet": "Solved tried to login in another phone profile setup ayii thengzz"
       }
     },
     {
@@ -1146,17 +1146,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-01",
       "last": "2026-09-01",
       "resolvedAt": "2026-09-01",
-      "daysOpen": 22,
-      "daysSinceReceived": 22,
+      "daysOpen": 23,
+      "daysSinceReceived": 23,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Cant update my outreach position showing an dash there while uploading and save it",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541036895075704894",
-        "snippet": "Attached both sceeenshoot"
+        "fromThreadName": "TinkerHub App issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541464117557207121",
+        "snippet": "Solved tried to login in another phone profile setup ayii thengzz"
       }
     },
     {
@@ -1188,7 +1188,7 @@ window.DISCORD_DATA = {
       "received": "2026-08-27",
       "last": "2026-09-01",
       "resolvedAt": "2026-08-27",
-      "daysOpen": 22,
+      "daysOpen": 23,
       "daysSinceReceived": 28,
       "daysToClose": 0,
       "messageCount": 7,
@@ -1207,8 +1207,8 @@ window.DISCORD_DATA = {
       "received": "2026-08-31",
       "last": "2026-08-31",
       "resolvedAt": "2026-08-31",
-      "daysOpen": 23,
-      "daysSinceReceived": 23,
+      "daysOpen": 24,
+      "daysSinceReceived": 24,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -1306,17 +1306,17 @@ window.DISCORD_DATA = {
       "received": "2026-08-29",
       "last": "2026-08-29",
       "resolvedAt": "2026-08-29",
-      "daysOpen": 25,
-      "daysSinceReceived": 25,
+      "daysOpen": 26,
+      "daysSinceReceived": 26,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Cant update my outreach position showing an dash there while uploading and save it",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541036895075704894",
-        "snippet": "Attached both sceeenshoot"
+        "fromThreadName": "TinkerHub App issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541464117557207121",
+        "snippet": "Solved tried to login in another phone profile setup ayii thengzz"
       }
     },
     {
@@ -1348,8 +1348,8 @@ window.DISCORD_DATA = {
       "received": "2026-08-28",
       "last": "2026-08-28",
       "resolvedAt": "2026-08-28",
-      "daysOpen": 26,
-      "daysSinceReceived": 26,
+      "daysOpen": 27,
+      "daysSinceReceived": 27,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -1417,9 +1417,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Cant update my outreach position showing an dash there while uploading and save it",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541036895075704894",
-        "snippet": "Attached both sceeenshoot"
+        "fromThreadName": "TinkerHub App issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541464117557207121",
+        "snippet": "Solved tried to login in another phone profile setup ayii thengzz"
       }
     },
     {
@@ -1452,7 +1452,7 @@ window.DISCORD_DATA = {
       "last": "2026-08-27",
       "resolvedAt": "2026-08-23",
       "daysOpen": 28,
-      "daysSinceReceived": 31,
+      "daysSinceReceived": 32,
       "daysToClose": 0,
       "messageCount": 7,
       "archived": false,
@@ -1548,24 +1548,20 @@ window.DISCORD_DATA = {
       "id": "1541464117557207121",
       "name": "TinkerHub App issue",
       "url": "https://discord.com/channels/735180366297563257/1541464117557207121",
-      "status": "Awaiting reply (from us)",
+      "status": "Resolved",
       "category": "Other",
       "requester": "Ann Rose",
       "received": "2026-08-24",
       "last": "2026-08-25",
-      "resolvedAt": "2026-08-24",
-      "daysOpen": 29,
-      "daysSinceReceived": 30,
-      "daysToClose": 0,
+      "resolvedAt": "2026-09-24",
+      "daysOpen": 30,
+      "daysSinceReceived": 31,
+      "daysToClose": 31,
       "messageCount": 2,
-      "archived": false,
+      "archived": true,
       "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Cant update my outreach position showing an dash there while uploading and save it",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541036895075704894",
-        "snippet": "Attached both sceeenshoot"
-      }
+      "resolutionSnippet": "Solved tried to login in another phone profile setup ayii thengzz",
+      "suggestion": null
     },
     {
       "id": "1538926654057877616",
@@ -1578,7 +1574,7 @@ window.DISCORD_DATA = {
       "last": "2026-08-25",
       "resolvedAt": "2026-09-24",
       "daysOpen": 30,
-      "daysSinceReceived": 37,
+      "daysSinceReceived": 38,
       "daysToClose": 37,
       "messageCount": 11,
       "archived": true,
@@ -13065,12 +13061,12 @@ window.DISCORD_DATA = {
   ],
   "summary": {
     "No response": 34,
-    "Awaiting reply (from us)": 23,
+    "Awaiting reply (from us)": 22,
     "Awaiting reply (from them)": 14,
-    "Resolved": 610
+    "Resolved": 611
   },
   "avgOpenDays": 15.9,
-  "avgDaysToClose": 11.7,
+  "avgDaysToClose": 11.8,
   "topCategories": [
     {
       "category": "Event/Activity check-in & reporting",
