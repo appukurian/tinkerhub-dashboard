@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-24T12:50:20Z",
+  "generatedAt": "2026-09-24T14:47:03Z",
   "threads": [
     {
       "id": "campus-2bfa647432",
@@ -4162,6 +4162,23 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
+      "id": "campus-3f770e0952",
+      "threadId": "1a0d3d1d404c09bb",
+      "group": "campus",
+      "subject": "LC can't find discord server",
+      "counterpart": "Arjun A S (Vimal Jyothi Engineering College)",
+      "email": "arjunaskvl@gmail.com",
+      "received": "2026-09-24",
+      "last": "2026-09-24",
+      "status": "No response",
+      "note": "LC missing from Discord after onboarding; previously reported as tech issue, unresolved",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
       "id": "report-d24eb0ad18",
       "threadId": null,
       "group": "report",
@@ -4170,9 +4187,9 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Resolved",
+      "status": "Awaiting reply (from them)",
       "note": null,
-      "daysOpen": 0,
+      "daysOpen": 1,
       "daysSinceReceived": 1,
       "cc": []
     },
@@ -4200,14 +4217,14 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Awaiting reply (from them)",
+      "status": "Resolved",
       "note": null,
-      "daysOpen": 16,
+      "daysOpen": 15,
       "daysSinceReceived": 16,
       "cc": []
     },
     {
-      "id": "report-8bf0d2c275",
+      "id": "report-29244614bd",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -4237,7 +4254,7 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
-      "id": "report-080ae97ec4",
+      "id": "report-4af7879203",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -4252,7 +4269,7 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
-      "id": "report-7fb4616a4a",
+      "id": "report-ae347a83fa",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -4302,18 +4319,19 @@ window.DASHBOARD_DATA = {
     "Resolved": 101,
     "Informational": 104,
     "Awaiting reply (from them)": 22,
-    "No response": 6
+    "No response": 7
   },
   "analytics": {
     "campus": {
-      "total": 199,
+      "total": 200,
       "counts": {
         "Awaiting reply (from us)": 9,
         "Resolved": 87,
         "Informational": 93,
-        "Awaiting reply (from them)": 10
+        "Awaiting reply (from them)": 10,
+        "No response": 1
       },
-      "avgOpenDays": 13.6,
+      "avgOpenDays": 12.9,
       "avgResolvedDays": 4.0
     },
     "support": {
@@ -4342,13 +4360,13 @@ window.DASHBOARD_DATA = {
     "report": {
       "total": 9,
       "counts": {
-        "Resolved": 2,
-        "Awaiting reply (from us)": 2,
         "Awaiting reply (from them)": 4,
+        "Awaiting reply (from us)": 2,
+        "Resolved": 2,
         "No response": 1
       },
-      "avgOpenDays": 17.9,
-      "avgResolvedDays": 14.5
+      "avgOpenDays": 15.7,
+      "avgResolvedDays": 22.0
     },
     "partner": {
       "total": 0,
