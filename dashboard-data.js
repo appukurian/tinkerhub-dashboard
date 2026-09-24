@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-24T14:47:03Z",
+  "generatedAt": "2026-09-24T16:44:00Z",
   "threads": [
     {
       "id": "campus-2bfa647432",
@@ -3869,23 +3869,6 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "support-fb3566d206",
-      "threadId": "1a03933119a19f56",
-      "group": "support",
-      "subject": "Report: Unable to sign in and \"failed to send OTP\" error during mobile verification",
-      "counterpart": "Shani Nair",
-      "email": "shaninair781@gmail.com",
-      "received": "2026-08-25",
-      "last": "2026-08-25",
-      "status": "No response",
-      "note": "duplicate report, never directly replied to on this thread",
-      "daysOpen": 30,
-      "daysSinceReceived": 30,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
       "id": "finance-410f35ae93",
       "threadId": "1a0958f7d4070c13",
       "group": "finance",
@@ -4179,6 +4162,41 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
+      "id": "campus-9dfbf347c6",
+      "threadId": "1a0d43a4dafbeccf",
+      "group": "campus",
+      "subject": "Extending deadline for FYC",
+      "counterpart": "Akarsh Ajith (College of Engineering, Adoor)",
+      "email": "akarshajith06@gmail.com",
+      "received": "2026-09-24",
+      "last": "2026-09-24",
+      "status": "No response",
+      "note": "requests extension for First Year Coordinator selection deadline citing anti-ragging policy",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "partner-35f0971280",
+      "threadId": "1a0d3e4b68350a7a",
+      "group": "partner",
+      "subject": "Use of TinkerSpace logo for Advertisements",
+      "counterpart": "Nimisha Balar (QuantumX)",
+      "email": "nimishabalar.work@gmail.com",
+      "received": "2026-09-24",
+      "last": "2026-09-24",
+      "status": "Awaiting reply (from them)",
+      "note": "approved TinkerSpace logo use for ads; asked how many participants expected",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "partner@tinkerhub.org",
+        "kurian@tinkerhub.org"
+      ]
+    },
+    {
       "id": "report-d24eb0ad18",
       "threadId": null,
       "group": "report",
@@ -4187,7 +4205,7 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Awaiting reply (from them)",
+      "status": "Awaiting reply (from us)",
       "note": null,
       "daysOpen": 1,
       "daysSinceReceived": 1,
@@ -4224,7 +4242,7 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
-      "id": "report-29244614bd",
+      "id": "report-5c57e3de5b",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -4239,7 +4257,7 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
-      "id": "report-69ff9b4329",
+      "id": "report-14807cce3a",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -4254,7 +4272,7 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
-      "id": "report-4af7879203",
+      "id": "report-1ab73293c1",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -4269,7 +4287,7 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
-      "id": "report-ae347a83fa",
+      "id": "report-329bcc9f91",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -4299,7 +4317,7 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
-      "id": "report-23887b25fa",
+      "id": "report-d467652a9f",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -4315,7 +4333,7 @@ window.DASHBOARD_DATA = {
     }
   ],
   "summary": {
-    "Awaiting reply (from us)": 14,
+    "Awaiting reply (from us)": 15,
     "Resolved": 101,
     "Informational": 104,
     "Awaiting reply (from them)": 22,
@@ -4323,32 +4341,32 @@ window.DASHBOARD_DATA = {
   },
   "analytics": {
     "campus": {
-      "total": 200,
-      "counts": {
+      "total": 201,
+      "statusCounts": {
         "Awaiting reply (from us)": 9,
         "Resolved": 87,
         "Informational": 93,
         "Awaiting reply (from them)": 10,
-        "No response": 1
+        "No response": 2
       },
-      "avgOpenDays": 12.9,
+      "avgOpenDays": 12.3,
       "avgResolvedDays": 4.0
     },
     "support": {
-      "total": 23,
-      "counts": {
+      "total": 22,
+      "statusCounts": {
         "Informational": 1,
         "Awaiting reply (from us)": 3,
         "Awaiting reply (from them)": 7,
         "Resolved": 8,
-        "No response": 4
+        "No response": 3
       },
-      "avgOpenDays": 21.9,
+      "avgOpenDays": 21.2,
       "avgResolvedDays": 18.6
     },
     "finance": {
       "total": 16,
-      "counts": {
+      "statusCounts": {
         "Informational": 10,
         "Resolved": 4,
         "No response": 1,
@@ -4359,26 +4377,28 @@ window.DASHBOARD_DATA = {
     },
     "report": {
       "total": 9,
-      "counts": {
-        "Awaiting reply (from them)": 4,
-        "Awaiting reply (from us)": 2,
+      "statusCounts": {
+        "Awaiting reply (from us)": 3,
         "Resolved": 2,
+        "Awaiting reply (from them)": 3,
         "No response": 1
       },
       "avgOpenDays": 15.7,
       "avgResolvedDays": 22.0
     },
     "partner": {
-      "total": 0,
-      "counts": {},
-      "avgOpenDays": 0,
-      "avgResolvedDays": 0
+      "total": 1,
+      "statusCounts": {
+        "Awaiting reply (from them)": 1
+      },
+      "avgOpenDays": 0.0,
+      "avgResolvedDays": null
     },
     "tinkerspace": {
       "total": 0,
-      "counts": {},
-      "avgOpenDays": 0,
-      "avgResolvedDays": 0
+      "statusCounts": {},
+      "avgOpenDays": null,
+      "avgResolvedDays": null
     }
   }
 };
