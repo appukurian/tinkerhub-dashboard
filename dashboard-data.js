@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-25T02:49:00Z",
+  "generatedAt": "2026-09-25T04:50:28Z",
   "threads": [
     {
       "id": "campus-2bfa647432",
@@ -4197,6 +4197,23 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
+      "id": "campus-d4db2a9be6",
+      "threadId": "1a0d692de11c66fe",
+      "group": "campus",
+      "subject": "Delay in Finalizing First-Year Coordinator",
+      "counterpart": "Sajith KM (TinkerHub GECK)",
+      "email": "sajithkmomassery@gmail.com",
+      "received": "2026-09-25",
+      "last": "2026-09-25",
+      "status": "No response",
+      "note": "campus lead needs extra time to finalize first-year coordinator; expects to complete by mid-October",
+      "cc": [
+        "campus@tinkerhub.org"
+      ],
+      "daysOpen": 0,
+      "daysSinceReceived": 0
+    },
+    {
       "id": "report-d24eb0ad18",
       "threadId": null,
       "group": "report",
@@ -4337,19 +4354,19 @@ window.DASHBOARD_DATA = {
     "Resolved": 100,
     "Informational": 104,
     "Awaiting reply (from them)": 23,
-    "No response": 7
+    "No response": 8
   },
   "analytics": {
     "campus": {
-      "total": 201,
+      "total": 202,
       "statusCounts": {
         "Awaiting reply (from us)": 9,
         "Resolved": 87,
         "Informational": 93,
         "Awaiting reply (from them)": 10,
-        "No response": 2
+        "No response": 3
       },
-      "avgOpenDays": 13.3,
+      "avgOpenDays": 12.7,
       "avgResolvedDays": 4.0
     },
     "support": {
