@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-25T04:50:28Z",
+  "generatedAt": "2026-09-25T06:53:24Z",
   "threads": [
     {
       "id": "campus-2bfa647432",
@@ -4350,21 +4350,21 @@ window.DASHBOARD_DATA = {
     }
   ],
   "summary": {
+    "No response": 8,
     "Awaiting reply (from us)": 15,
-    "Resolved": 100,
-    "Informational": 104,
     "Awaiting reply (from them)": 23,
-    "No response": 8
+    "Resolved": 100,
+    "Informational": 104
   },
   "analytics": {
     "campus": {
       "total": 202,
       "statusCounts": {
+        "No response": 3,
         "Awaiting reply (from us)": 9,
-        "Resolved": 87,
-        "Informational": 93,
         "Awaiting reply (from them)": 10,
-        "No response": 3
+        "Resolved": 87,
+        "Informational": 93
       },
       "avgOpenDays": 12.7,
       "avgResolvedDays": 4.0
@@ -4372,11 +4372,11 @@ window.DASHBOARD_DATA = {
     "support": {
       "total": 22,
       "statusCounts": {
-        "Informational": 1,
+        "No response": 3,
         "Awaiting reply (from us)": 3,
         "Awaiting reply (from them)": 7,
         "Resolved": 8,
-        "No response": 3
+        "Informational": 1
       },
       "avgOpenDays": 22.2,
       "avgResolvedDays": 18.6
@@ -4384,10 +4384,11 @@ window.DASHBOARD_DATA = {
     "finance": {
       "total": 16,
       "statusCounts": {
-        "Informational": 10,
-        "Resolved": 4,
         "No response": 1,
-        "Awaiting reply (from them)": 1
+        "Awaiting reply (from us)": 0,
+        "Awaiting reply (from them)": 1,
+        "Resolved": 4,
+        "Informational": 10
       },
       "avgOpenDays": 21.0,
       "avgResolvedDays": 4.2
@@ -4395,10 +4396,11 @@ window.DASHBOARD_DATA = {
     "report": {
       "total": 9,
       "statusCounts": {
+        "No response": 1,
         "Awaiting reply (from us)": 3,
-        "Resolved": 1,
         "Awaiting reply (from them)": 4,
-        "No response": 1
+        "Resolved": 1,
+        "Informational": 0
       },
       "avgOpenDays": 16.8,
       "avgResolvedDays": 29.0
@@ -4406,14 +4408,24 @@ window.DASHBOARD_DATA = {
     "partner": {
       "total": 1,
       "statusCounts": {
-        "Awaiting reply (from them)": 1
+        "No response": 0,
+        "Awaiting reply (from us)": 0,
+        "Awaiting reply (from them)": 1,
+        "Resolved": 0,
+        "Informational": 0
       },
       "avgOpenDays": 1.0,
       "avgResolvedDays": null
     },
     "tinkerspace": {
       "total": 0,
-      "statusCounts": {},
+      "statusCounts": {
+        "No response": 0,
+        "Awaiting reply (from us)": 0,
+        "Awaiting reply (from them)": 0,
+        "Resolved": 0,
+        "Informational": 0
+      },
       "avgOpenDays": null,
       "avgResolvedDays": null
     }
