@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-25T08:47:00Z",
+  "generatedAt": "2026-09-25T10:52:00Z",
   "threads": [
     {
       "id": "campus-2bfa647432",
@@ -4152,14 +4152,14 @@ window.DASHBOARD_DATA = {
       "counterpart": "Arjun A S (Vimal Jyothi Engineering College)",
       "email": "arjunaskvl@gmail.com",
       "received": "2026-09-24",
-      "last": "2026-09-24",
-      "status": "No response",
-      "note": "LC missing from Discord after onboarding; previously reported as tech issue, unresolved",
-      "daysOpen": 1,
-      "daysSinceReceived": 1,
+      "last": "2026-09-25",
+      "status": "Awaiting reply (from us)",
+      "note": "looped in support team; Discord access issue still unresolved",
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "daysOpen": 1,
+      "daysSinceReceived": 1
     },
     {
       "id": "campus-9dfbf347c6",
@@ -4169,14 +4169,14 @@ window.DASHBOARD_DATA = {
       "counterpart": "Akarsh Ajith (College of Engineering, Adoor)",
       "email": "akarshajith06@gmail.com",
       "received": "2026-09-24",
-      "last": "2026-09-24",
-      "status": "No response",
-      "note": "requests extension for First Year Coordinator selection deadline citing anti-ragging policy",
-      "daysOpen": 1,
-      "daysSinceReceived": 1,
+      "last": "2026-09-25",
+      "status": "Awaiting reply (from them)",
+      "note": "asked them to confirm a completion deadline for FYC selection",
       "cc": [
         "campus@tinkerhub.org"
-      ]
+      ],
+      "daysOpen": 1,
+      "daysSinceReceived": 1
     },
     {
       "id": "partner-35f0971280",
@@ -4186,15 +4186,15 @@ window.DASHBOARD_DATA = {
       "counterpart": "Nimisha Balar (QuantumX)",
       "email": "nimishabalar.work@gmail.com",
       "received": "2026-09-24",
-      "last": "2026-09-24",
-      "status": "Awaiting reply (from them)",
-      "note": "approved TinkerSpace logo use for ads; asked how many participants expected",
-      "daysOpen": 1,
-      "daysSinceReceived": 1,
+      "last": "2026-09-25",
+      "status": "Resolved",
+      "note": "logo use approved; ~100 participants expected for Qiskit Fall Fest",
       "cc": [
         "partner@tinkerhub.org",
         "kurian@tinkerhub.org"
-      ]
+      ],
+      "daysOpen": 1,
+      "daysSinceReceived": 1
     },
     {
       "id": "campus-d4db2a9be6",
@@ -4205,13 +4205,31 @@ window.DASHBOARD_DATA = {
       "email": "sajithkmomassery@gmail.com",
       "received": "2026-09-25",
       "last": "2026-09-25",
-      "status": "No response",
-      "note": "campus lead needs extra time to finalize first-year coordinator; expects to complete by mid-October",
+      "status": "Awaiting reply (from them)",
+      "note": "deadline set for Oct 20 to finalize First-Year Coordinator selection",
       "cc": [
         "campus@tinkerhub.org"
       ],
       "daysOpen": 0,
       "daysSinceReceived": 0
+    },
+    {
+      "id": "support-f12c6966b7",
+      "threadId": "1a0d3d1d404c09bb",
+      "group": "support",
+      "subject": "LC can't find discord server",
+      "counterpart": "Arjun A S (Vimal Jyothi Engineering College)",
+      "email": "arjunaskvl@gmail.com",
+      "received": "2026-09-24",
+      "last": "2026-09-25",
+      "status": "Awaiting reply (from us)",
+      "note": "looped in support team; Discord access issue still unresolved",
+      "cc": [
+        "support@tinkerhub.org",
+        "campus@tinkerhub.org"
+      ],
+      "daysOpen": 1,
+      "daysSinceReceived": 1
     },
     {
       "id": "report-d24eb0ad18",
@@ -4319,7 +4337,7 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
-      "id": "report-0ce82af325",
+      "id": "report-329bcc9f91",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -4350,45 +4368,43 @@ window.DASHBOARD_DATA = {
     }
   ],
   "summary": {
-    "No response": 8,
-    "Awaiting reply (from us)": 15,
-    "Awaiting reply (from them)": 23,
-    "Resolved": 100,
-    "Informational": 104
+    "Awaiting reply (from us)": 17,
+    "Resolved": 101,
+    "Informational": 104,
+    "Awaiting reply (from them)": 24,
+    "No response": 5
   },
   "analytics": {
     "campus": {
       "total": 202,
       "statusCounts": {
-        "No response": 3,
-        "Awaiting reply (from us)": 9,
-        "Awaiting reply (from them)": 10,
+        "Awaiting reply (from us)": 10,
         "Resolved": 87,
-        "Informational": 93
+        "Informational": 93,
+        "Awaiting reply (from them)": 12
       },
       "avgOpenDays": 12.7,
       "avgResolvedDays": 4.0
     },
     "support": {
-      "total": 22,
+      "total": 23,
       "statusCounts": {
-        "No response": 3,
-        "Awaiting reply (from us)": 3,
+        "Informational": 1,
+        "Awaiting reply (from us)": 4,
         "Awaiting reply (from them)": 7,
         "Resolved": 8,
-        "Informational": 1
+        "No response": 3
       },
-      "avgOpenDays": 22.2,
+      "avgOpenDays": 20.7,
       "avgResolvedDays": 18.6
     },
     "finance": {
       "total": 16,
       "statusCounts": {
-        "No response": 1,
-        "Awaiting reply (from us)": 0,
-        "Awaiting reply (from them)": 1,
+        "Informational": 10,
         "Resolved": 4,
-        "Informational": 10
+        "No response": 1,
+        "Awaiting reply (from them)": 1
       },
       "avgOpenDays": 21.0,
       "avgResolvedDays": 4.2
@@ -4396,11 +4412,10 @@ window.DASHBOARD_DATA = {
     "report": {
       "total": 9,
       "statusCounts": {
-        "No response": 1,
         "Awaiting reply (from us)": 3,
-        "Awaiting reply (from them)": 4,
         "Resolved": 1,
-        "Informational": 0
+        "Awaiting reply (from them)": 4,
+        "No response": 1
       },
       "avgOpenDays": 16.8,
       "avgResolvedDays": 29.0
@@ -4408,24 +4423,14 @@ window.DASHBOARD_DATA = {
     "partner": {
       "total": 1,
       "statusCounts": {
-        "No response": 0,
-        "Awaiting reply (from us)": 0,
-        "Awaiting reply (from them)": 1,
-        "Resolved": 0,
-        "Informational": 0
+        "Resolved": 1
       },
-      "avgOpenDays": 1.0,
-      "avgResolvedDays": null
+      "avgOpenDays": null,
+      "avgResolvedDays": 1.0
     },
     "tinkerspace": {
       "total": 0,
-      "statusCounts": {
-        "No response": 0,
-        "Awaiting reply (from us)": 0,
-        "Awaiting reply (from them)": 0,
-        "Resolved": 0,
-        "Informational": 0
-      },
+      "statusCounts": {},
       "avgOpenDays": null,
       "avgResolvedDays": null
     }
