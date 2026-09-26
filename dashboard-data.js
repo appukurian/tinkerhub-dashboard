@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-26T08:48:11Z",
+  "generatedAt": "2026-09-26T10:52:40Z",
   "threads": [
     {
       "id": "campus-d4db2a9be6",
@@ -3999,22 +3999,202 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 2
     },
     {
-      "id": "report-d24eb0ad18",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
+      "id": "campus-e699dc535d",
+      "threadId": "19ffb8b081ba51ae",
+      "group": "campus",
+      "subject": "Re: TinkerHub's Useless Projects is here!",
+      "counterpart": "Anjali Pillai",
+      "email": "anjalispillai321@gmail.com",
+      "received": "2026-08-13",
+      "last": "2026-09-23",
       "status": "Resolved",
-      "note": null,
-      "daysOpen": 0,
-      "daysSinceReceived": 3,
-      "cc": []
+      "note": "auto-closed after no reply",
+      "cc": [
+        "campus@tinkerhub.org"
+      ],
+      "daysSinceReceived": 44,
+      "daysOpen": 41
     },
     {
-      "id": "report-d467652a9f",
+      "id": "campus-08bb5958b0",
+      "threadId": "1a0342b5cd9cfcc2",
+      "group": "campus",
+      "subject": "Re: Request to Reschedule Useless Project from September 5–6 to September 11–12",
+      "counterpart": "Farsana",
+      "email": "fathimathulfarsaana@gmail.com",
+      "received": "2026-08-24",
+      "last": "2026-09-23",
+      "status": "Resolved",
+      "note": "auto-closed after no reply",
+      "cc": [
+        "campus@tinkerhub.org"
+      ],
+      "daysSinceReceived": 33,
+      "daysOpen": 30
+    },
+    {
+      "id": "campus-18046aa45f",
+      "threadId": "1a032c21a83ee0f8",
+      "group": "campus",
+      "subject": "Issue on Tinkerhub app",
+      "counterpart": "Goutham R",
+      "email": "gouthamr4567@gmail.com",
+      "received": "2026-08-24",
+      "last": "2026-09-23",
+      "status": "Resolved",
+      "note": "OTP/login issue fixed",
+      "cc": [
+        "support@tinkerhub.org",
+        "campus@tinkerhub.org"
+      ],
+      "daysSinceReceived": 33,
+      "daysOpen": 30
+    },
+    {
+      "id": "campus-2c58b36fa5",
+      "threadId": "19fc5b277d1d1530",
+      "group": "campus",
+      "subject": "Space for developer sprint",
+      "counterpart": "Akansha Sakhre (Project Tech4Dev)",
+      "email": "akansha@projecttech4dev.org",
+      "received": "2026-08-03",
+      "last": "2026-09-15",
+      "status": "Awaiting reply (from us)",
+      "note": "Tech4Dev asked to visit TinkerSpace Thursday with ~20 people; no reply sent",
+      "cc": [
+        "habeeb@tinkerhub.org",
+        "campus@tinkerhub.org"
+      ],
+      "daysSinceReceived": 54,
+      "daysOpen": 54
+    },
+    {
+      "id": "campus-8e3dd9e449",
+      "threadId": "1a0242b27f0a51b2",
+      "group": "campus",
+      "subject": "Re: Invitation to Partner with She Builds Tech 3.0 | Kerala Startup Mission",
+      "counterpart": "Fahma Fathima (Kerala Startup Mission)",
+      "email": "fahma@fellow.startupmission.in",
+      "received": "2026-08-21",
+      "last": "2026-09-08",
+      "status": "Awaiting reply (from us)",
+      "note": "KSUM sent final call for She Builds Tech 3.0 (extended to Sep 10); not yet circulated/acknowledged",
+      "cc": [
+        "campus@tinkerhub.org",
+        "joan@tinkerhub.org",
+        "femina@tinkerhub.org",
+        "kurian@tinkerhub.org",
+        "opportunities@tinkerhub.org",
+        "mehar@tinkerhub.org"
+      ],
+      "daysSinceReceived": 36,
+      "daysOpen": 36
+    },
+    {
+      "id": "campus-af288aa227",
+      "threadId": "19fef734079841d1",
+      "group": "campus",
+      "subject": "Fwd: Regarding the change of role from Friends of Tinkerhub to student",
+      "counterpart": "Abi Alif",
+      "email": "abialifhere@gmail.com",
+      "received": "2026-08-11",
+      "last": "2026-09-23",
+      "status": "Resolved",
+      "note": "account role updated to student",
+      "cc": [
+        "campus@tinkerhub.org",
+        "support@tinkerhub.org"
+      ],
+      "daysSinceReceived": 46,
+      "daysOpen": 43
+    },
+    {
+      "id": "support-3ee4e1e8c3",
+      "threadId": "1a03f8c447ad92e9",
+      "group": "support",
+      "subject": "Bug Report: UI jump and layout issue on \"Upcoming Activities\" page in Tinkerhub App",
+      "counterpart": "Anson Boby",
+      "email": "ansonboby@gmail.com",
+      "received": "2026-08-26",
+      "last": "2026-09-23",
+      "status": "Awaiting reply (from us)",
+      "note": "provided device info (Vivo Y20G, Android 12) after auto-close; needs follow-up",
+      "cc": [
+        "support@tinkerhub.org"
+      ],
+      "daysSinceReceived": 31,
+      "daysOpen": 31
+    },
+    {
+      "id": "support-7dc073f54d",
+      "threadId": "1a0385d224e84b2c",
+      "group": "support",
+      "subject": "College Not Available in TinkerHub App",
+      "counterpart": "Adnan Ibnu Rasheed",
+      "email": "adnankp249@gmail.com",
+      "received": "2026-08-25",
+      "last": "2026-09-23",
+      "status": "Awaiting reply (from us)",
+      "note": "committed to add Alphonsa College, Thiruvambadi; not yet confirmed done",
+      "cc": [
+        "support@tinkerhub.org"
+      ],
+      "daysSinceReceived": 32,
+      "daysOpen": 32
+    },
+    {
+      "id": "support-fb3566d206",
+      "threadId": "1a033c3d3b6522c6",
+      "group": "support",
+      "subject": "Report: Unable to sign in and \"failed to send OTP\" error during mobile verification",
+      "counterpart": "Shani Nair",
+      "email": "shaninair781@gmail.com",
+      "received": "2026-08-24",
+      "last": "2026-09-23",
+      "status": "Resolved",
+      "note": "OTP/sign-in issue fixed",
+      "cc": [
+        "support@tinkerhub.org"
+      ],
+      "daysSinceReceived": 33,
+      "daysOpen": 30
+    },
+    {
+      "id": "support-4d866af761",
+      "threadId": "1a01fabb03f3ee2f",
+      "group": "support",
+      "subject": "Request to Change College Name in TinkerHub Account",
+      "counterpart": "Akshay Harilal",
+      "email": "akshayharilal10@gmail.com",
+      "received": "2026-08-20",
+      "last": "2026-09-23",
+      "status": "Resolved",
+      "note": "college name updated in account",
+      "cc": [
+        "support@tinkerhub.org"
+      ],
+      "daysSinceReceived": 37,
+      "daysOpen": 34
+    },
+    {
+      "id": "finance-3013aa23cc",
+      "threadId": "1a0dd3098f9bed15",
+      "group": "finance",
+      "subject": "INVOICE - SEPTEMBER 2026",
+      "counterpart": "Sindhu Associates (S. Nandakumar)",
+      "email": "hrdsss2007@gmail.com",
+      "received": "2026-09-26",
+      "last": "2026-09-26",
+      "status": "No response",
+      "note": "September invoice received, payment not yet processed",
+      "cc": [
+        "finance@tinkerhub.org"
+      ],
+      "daysSinceReceived": 0,
+      "daysOpen": 0
+    },
+    {
+      "id": "report-ae9c58e6d4",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -4022,10 +4202,10 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Resolved",
+      "status": "Awaiting reply (from us)",
       "note": null,
-      "daysOpen": 29,
-      "daysSinceReceived": 32,
+      "daysOpen": 3,
+      "daysSinceReceived": 3,
       "cc": []
     },
     {
@@ -4042,154 +4222,61 @@ window.DASHBOARD_DATA = {
       "daysOpen": 9,
       "daysSinceReceived": 9,
       "cc": []
-    },
-    {
-      "id": "report-c5d20472ea",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Resolved",
-      "note": null,
-      "daysOpen": 15,
-      "daysSinceReceived": 18,
-      "cc": []
-    },
-    {
-      "id": "report-29244614bd",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Resolved",
-      "note": null,
-      "daysOpen": 15,
-      "daysSinceReceived": 18,
-      "cc": []
-    },
-    {
-      "id": "report-14807cce3a",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Resolved",
-      "note": null,
-      "daysOpen": 15,
-      "daysSinceReceived": 18,
-      "cc": []
-    },
-    {
-      "id": "report-9416e0f102",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Awaiting reply (from us)",
-      "note": null,
-      "daysOpen": 22,
-      "daysSinceReceived": 22,
-      "cc": []
-    },
-    {
-      "id": "report-55409c5545",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "No response",
-      "note": null,
-      "daysOpen": 24,
-      "daysSinceReceived": 24,
-      "cc": []
-    },
-    {
-      "id": "report-aa14764f2a",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Awaiting reply (from them)",
-      "note": null,
-      "daysOpen": 30,
-      "daysSinceReceived": 30,
-      "cc": []
     }
   ],
   "summary": {
-    "Awaiting reply (from them)": 19,
-    "Awaiting reply (from us)": 12,
-    "Resolved": 97,
+    "Awaiting reply (from them)": 18,
+    "Awaiting reply (from us)": 16,
+    "Resolved": 98,
     "Informational": 104,
     "No response": 6
   },
   "analytics": {
     "campus": {
-      "total": 195,
-      "statusCounts": {
+      "total": 201,
+      "counts": {
         "Awaiting reply (from them)": 12,
-        "Awaiting reply (from us)": 8,
-        "Resolved": 82,
+        "Awaiting reply (from us)": 10,
+        "Resolved": 86,
         "Informational": 93
       },
-      "avgOpenDays": 10.6,
-      "avgResolvedDays": 2.5
+      "avgOpenDays": 13.7,
+      "avgResolvedDays": 4.1
     },
     "support": {
-      "total": 17,
-      "statusCounts": {
-        "Awaiting reply (from us)": 2,
+      "total": 21,
+      "counts": {
+        "Awaiting reply (from us)": 4,
         "Informational": 1,
-        "Resolved": 5,
+        "Resolved": 7,
         "No response": 4,
         "Awaiting reply (from them)": 5
       },
-      "avgOpenDays": 18.1,
-      "avgResolvedDays": 8.6
+      "avgOpenDays": 20.2,
+      "avgResolvedDays": 15.3
     },
     "finance": {
-      "total": 16,
-      "statusCounts": {
+      "total": 17,
+      "counts": {
         "Informational": 10,
         "Resolved": 4,
-        "No response": 1,
+        "No response": 2,
         "Awaiting reply (from them)": 1
       },
-      "avgOpenDays": 22.0,
+      "avgOpenDays": 14.7,
       "avgResolvedDays": 4.2
     },
     "report": {
-      "total": 9,
-      "statusCounts": {
-        "Resolved": 5,
-        "Awaiting reply (from us)": 2,
-        "No response": 1,
-        "Awaiting reply (from them)": 1
+      "total": 2,
+      "counts": {
+        "Awaiting reply (from us)": 2
       },
-      "avgOpenDays": 21.2,
-      "avgResolvedDays": 14.8
+      "avgOpenDays": 6.0,
+      "avgResolvedDays": null
     },
     "partner": {
       "total": 1,
-      "statusCounts": {
+      "counts": {
         "Resolved": 1
       },
       "avgOpenDays": null,
@@ -4197,7 +4284,7 @@ window.DASHBOARD_DATA = {
     },
     "tinkerspace": {
       "total": 0,
-      "statusCounts": {},
+      "counts": {},
       "avgOpenDays": null,
       "avgResolvedDays": null
     }
