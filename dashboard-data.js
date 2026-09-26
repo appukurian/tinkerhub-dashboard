@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-26T06:48:21Z",
+  "generatedAt": "2026-09-26T08:48:11Z",
   "threads": [
     {
       "id": "campus-d4db2a9be6",
@@ -87,23 +87,6 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "campus-cd72239d1f",
-      "threadId": "1a0342b5cd9cfcc2",
-      "group": "campus",
-      "subject": "Request to Reschedule Useless Project from September 5-6 to September 11-12",
-      "counterpart": "Farsana",
-      "email": "fathimathulfarsaana@gmail.com",
-      "received": "2026-08-24",
-      "last": "2026-09-23",
-      "status": "Resolved",
-      "note": "auto-closed after no reply",
-      "daysOpen": 30,
-      "daysSinceReceived": 33,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
       "id": "campus-dab47f472f",
       "threadId": "1a0cd09804760dd5",
       "group": "campus",
@@ -119,24 +102,6 @@ window.DASHBOARD_DATA = {
       "cc": [
         "campus@tinkerhub.org",
         "akhil@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-18046aa45f",
-      "threadId": "1a032c21a83ee0f8",
-      "group": "campus",
-      "subject": "Issue on Tinkerhub app",
-      "counterpart": "Goutham R",
-      "email": "gouthamr4567@gmail.com",
-      "received": "2026-08-24",
-      "last": "2026-09-23",
-      "status": "Resolved",
-      "note": "OTP login issue resolved",
-      "daysOpen": 30,
-      "daysSinceReceived": 33,
-      "cc": [
-        "campus@tinkerhub.org",
-        "support@tinkerhub.org"
       ]
     },
     {
@@ -1900,24 +1865,6 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "campus-2bfa647432",
-      "threadId": "19fc5b277d1d1530",
-      "group": "campus",
-      "subject": "Space for developer sprint",
-      "counterpart": "Akansha (Project Tech4Dev)",
-      "email": "akansha@projecttech4dev.org",
-      "received": "2026-08-03",
-      "last": "2026-09-15",
-      "status": "Awaiting reply (from us)",
-      "note": "wants to visit TinkerSpace Thursday; needs our confirmation",
-      "daysOpen": 54,
-      "daysSinceReceived": 54,
-      "cc": [
-        "campus@tinkerhub.org",
-        "habeeb@tinkerhub.org"
-      ]
-    },
-    {
       "id": "campus-8487d3405a",
       "threadId": "1a0a3e9e1ec97efb",
       "group": "campus",
@@ -3219,28 +3166,6 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "campus-0ef9da7b49",
-      "threadId": "1a0242b27f0a51b2",
-      "group": "campus",
-      "subject": "Invitation to Partner with She Builds Tech 3.0 | Kerala Startup Mission",
-      "counterpart": "Fahma Fathima (Kerala Startup Mission)",
-      "email": "fahma@fellow.startupmission.in",
-      "received": "2026-08-21",
-      "last": "2026-09-08",
-      "status": "Awaiting reply (from us)",
-      "note": "final call content sent for circulation; awaiting our confirmation",
-      "daysOpen": 36,
-      "daysSinceReceived": 36,
-      "cc": [
-        "campus@tinkerhub.org",
-        "joan@tinkerhub.org",
-        "femina@tinkerhub.org",
-        "kurian@tinkerhub.org",
-        "opportunities@tinkerhub.org",
-        "mehar@tinkerhub.org"
-      ]
-    },
-    {
       "id": "campus-e6712a2470",
       "threadId": "1a056990540bd189",
       "group": "campus",
@@ -3397,24 +3322,6 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "campus-ab9bc45deb",
-      "threadId": "19fef734079841d1",
-      "group": "campus",
-      "subject": "Regarding the change of role from Friends of Tinkerhub to student",
-      "counterpart": "Abi Alif",
-      "email": "abialifhere@gmail.com",
-      "received": "2026-08-11",
-      "last": "2026-09-23",
-      "status": "Resolved",
-      "note": "account role updated, issue resolved",
-      "daysOpen": 43,
-      "daysSinceReceived": 46,
-      "cc": [
-        "campus@tinkerhub.org",
-        "support@tinkerhub.org"
-      ]
-    },
-    {
       "id": "campus-637db6e506",
       "threadId": "1a04e85cd64123b6",
       "group": "campus",
@@ -3503,40 +3410,6 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "campus-883563eea3",
-      "threadId": "19ffb8b081ba51ae",
-      "group": "campus",
-      "subject": "TinkerHub's Useless Projects is here!",
-      "counterpart": "internal (Femina Roby)",
-      "email": null,
-      "received": "2026-08-13",
-      "last": "2026-09-23",
-      "status": "Resolved",
-      "note": "broadcast to multiple campuses; last outstanding reply auto-closed",
-      "daysOpen": 41,
-      "daysSinceReceived": 44,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-9ebf56ad11",
-      "threadId": "1a03a30e23d2b66b",
-      "group": "campus",
-      "subject": "Request to Change Useless Project Date Slot",
-      "counterpart": "Fidhaan Aameer",
-      "email": "fidhaanat7@gmail.com",
-      "received": "2026-08-25",
-      "last": "2026-08-27",
-      "status": "Resolved",
-      "note": "slot updated",
-      "daysOpen": 2,
-      "daysSinceReceived": 32,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
       "id": "support-f12c6966b7",
       "threadId": "1a0d3d1d404c09bb",
       "group": "support",
@@ -3571,94 +3444,6 @@ window.DASHBOARD_DATA = {
         "support@tinkerhub.org",
         "akhil@tinkerhub.org",
         "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-2e0a4ec1b9",
-      "threadId": "1a037a3e72a46ef9",
-      "group": "support",
-      "subject": "Cannot login to page",
-      "counterpart": "Gouri E S",
-      "email": "gourishaju07@gmail.com",
-      "received": "2026-08-25",
-      "last": "2026-09-23",
-      "status": "Resolved",
-      "note": "login issue resolved, confirmed working",
-      "daysOpen": 29,
-      "daysSinceReceived": 32,
-      "cc": [
-        "support@tinkerhub.org",
-        "kurian@tinkerhub.org",
-        "report@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-7dc073f54d",
-      "threadId": "1a0385d224e84b2c",
-      "group": "support",
-      "subject": "College Not Available in TinkerHub App",
-      "counterpart": "Adnan Ibnu Rasheed",
-      "email": "adnankp249@gmail.com",
-      "received": "2026-08-25",
-      "last": "2026-09-23",
-      "status": "Awaiting reply (from us)",
-      "note": "promised to add Alphonsa College to list",
-      "daysOpen": 32,
-      "daysSinceReceived": 32,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-16a4419f31",
-      "threadId": "1a032c21a83ee0f8",
-      "group": "support",
-      "subject": "Issue on Tinkerhub app",
-      "counterpart": "Goutham R",
-      "email": "gouthamr4567@gmail.com",
-      "received": "2026-08-24",
-      "last": "2026-09-23",
-      "status": "Awaiting reply (from them)",
-      "note": "OTP verification issue resolved, awaiting confirmation",
-      "daysOpen": 33,
-      "daysSinceReceived": 33,
-      "cc": [
-        "support@tinkerhub.org",
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-fb3566d206",
-      "threadId": "1a033c3d3b6522c6",
-      "group": "support",
-      "subject": "Report: Unable to sign in and \"failed to send OTP\" error during mobile verification",
-      "counterpart": "Shani Nair",
-      "email": "shaninair781@gmail.com",
-      "received": "2026-08-24",
-      "last": "2026-09-23",
-      "status": "Awaiting reply (from them)",
-      "note": "login/OTP block resolved, awaiting confirmation",
-      "daysOpen": 33,
-      "daysSinceReceived": 33,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-4d866af761",
-      "threadId": "1a01fabb03f3ee2f",
-      "group": "support",
-      "subject": "Request to Change College Name in TinkerHub Account",
-      "counterpart": "Akshay Harilal",
-      "email": "akshayharilal10@gmail.com",
-      "received": "2026-08-20",
-      "last": "2026-09-23",
-      "status": "Resolved",
-      "note": "college name updated in account",
-      "daysOpen": 34,
-      "daysSinceReceived": 37,
-      "cc": [
-        "support@tinkerhub.org"
       ]
     },
     {
@@ -3885,24 +3670,6 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "support-929fc6e3cd",
-      "threadId": "19fef734079841d1",
-      "group": "support",
-      "subject": "Regarding the change of role from Friends of Tinkerhub to student",
-      "counterpart": "Abi Alif",
-      "email": "abialifhere@gmail.com",
-      "received": "2026-08-11",
-      "last": "2026-09-23",
-      "status": "Resolved",
-      "note": "account role updated to Campus Student",
-      "daysOpen": 43,
-      "daysSinceReceived": 46,
-      "cc": [
-        "support@tinkerhub.org",
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
       "id": "support-260b19eb06",
       "threadId": "1a042cdc25fcb5c6",
       "group": "support",
@@ -3918,23 +3685,6 @@ window.DASHBOARD_DATA = {
       "cc": [
         "support@tinkerhub.org",
         "report@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-3ee4e1e8c3",
-      "threadId": "1a03f8c447ad92e9",
-      "group": "support",
-      "subject": "Bug Report: UI jump and layout issue on \"Upcoming Activities\" page in Tinkerhub App",
-      "counterpart": "Anson Boby",
-      "email": "ansonboby@gmail.com",
-      "received": "2026-08-26",
-      "last": "2026-09-23",
-      "status": "Awaiting reply (from us)",
-      "note": "device info provided; needs bug review",
-      "daysOpen": 31,
-      "daysSinceReceived": 31,
-      "cc": [
-        "support@tinkerhub.org"
       ]
     },
     {
@@ -4231,6 +3981,24 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
+      "id": "partner-35f0971280",
+      "threadId": "1a0d3e4b68350a7a",
+      "group": "partner",
+      "subject": "Use of TinkerSpace logo for Advertisements",
+      "counterpart": "Nimisha Balar (QuantumX)",
+      "email": "nimishabalar.work@gmail.com",
+      "received": "2026-09-24",
+      "last": "2026-09-25",
+      "status": "Resolved",
+      "note": "logo use approved; ~100 participants expected for Qiskit Fall Fest",
+      "cc": [
+        "partner@tinkerhub.org",
+        "kurian@tinkerhub.org"
+      ],
+      "daysOpen": 1,
+      "daysSinceReceived": 2
+    },
+    {
       "id": "report-d24eb0ad18",
       "threadId": null,
       "group": "report",
@@ -4291,7 +4059,7 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
-      "id": "report-e5e12ff0cd",
+      "id": "report-29244614bd",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -4321,7 +4089,7 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
-      "id": "report-4af7879203",
+      "id": "report-9416e0f102",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -4364,56 +4132,38 @@ window.DASHBOARD_DATA = {
       "daysOpen": 30,
       "daysSinceReceived": 30,
       "cc": []
-    },
-    {
-      "id": "partner-35f0971280",
-      "threadId": "1a0d3e4b68350a7a",
-      "group": "partner",
-      "subject": "Use of TinkerSpace logo for Advertisements",
-      "counterpart": "Nimisha Balar (QuantumX)",
-      "email": "nimishabalar.work@gmail.com",
-      "received": "2026-09-24",
-      "last": "2026-09-25",
-      "status": "Resolved",
-      "note": "logo use approved; ~100 participants expected for Qiskit Fall Fest",
-      "cc": [
-        "partner@tinkerhub.org",
-        "kurian@tinkerhub.org"
-      ],
-      "daysOpen": 1,
-      "daysSinceReceived": 2
     }
   ],
   "summary": {
-    "Awaiting reply (from them)": 21,
-    "Awaiting reply (from us)": 16,
-    "Resolved": 105,
+    "Awaiting reply (from them)": 19,
+    "Awaiting reply (from us)": 12,
+    "Resolved": 97,
     "Informational": 104,
     "No response": 6
   },
   "analytics": {
     "campus": {
-      "total": 202,
+      "total": 195,
       "statusCounts": {
         "Awaiting reply (from them)": 12,
-        "Awaiting reply (from us)": 10,
-        "Resolved": 87,
+        "Awaiting reply (from us)": 8,
+        "Resolved": 82,
         "Informational": 93
       },
-      "avgOpenDays": 13.7,
-      "avgResolvedDays": 4.0
+      "avgOpenDays": 10.6,
+      "avgResolvedDays": 2.5
     },
     "support": {
-      "total": 24,
+      "total": 17,
       "statusCounts": {
-        "Awaiting reply (from us)": 4,
+        "Awaiting reply (from us)": 2,
         "Informational": 1,
-        "Resolved": 8,
-        "Awaiting reply (from them)": 7,
-        "No response": 4
+        "Resolved": 5,
+        "No response": 4,
+        "Awaiting reply (from them)": 5
       },
-      "avgOpenDays": 21.9,
-      "avgResolvedDays": 18.6
+      "avgOpenDays": 18.1,
+      "avgResolvedDays": 8.6
     },
     "finance": {
       "total": 16,
