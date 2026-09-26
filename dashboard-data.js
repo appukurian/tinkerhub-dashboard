@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-26T14:49:20Z",
+  "generatedAt": "2026-09-26T16:50:21Z",
   "threads": [
     {
       "id": "campus-d4db2a9be6",
@@ -107,7 +107,7 @@ window.DASHBOARD_DATA = {
       "id": "campus-08bb5958b0",
       "threadId": "1a0342b5cd9cfcc2",
       "group": "campus",
-      "subject": "Re: Request to Reschedule Useless Project from September 5–6 to September 11–12",
+      "subject": "Re: Request to Reschedule Useless Project from September 5\u20136 to September 11\u201312",
       "counterpart": "Farsana",
       "email": "fathimathulfarsaana@gmail.com",
       "received": "2026-08-24",
