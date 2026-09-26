@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-26T04:49:00Z",
+  "generatedAt": "2026-09-26T06:48:21Z",
   "threads": [
     {
       "id": "campus-d4db2a9be6",
@@ -3938,6 +3938,23 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
+      "id": "support-6970c69bff",
+      "threadId": "1a064036048dfc40",
+      "group": "support",
+      "subject": "(no subject)",
+      "counterpart": "Fidha",
+      "email": "msx201700@gmail.com",
+      "received": "2026-09-02",
+      "last": "2026-09-02",
+      "status": "No response",
+      "note": "OTP login issue reported to report@ inbox; never replied to",
+      "cc": [
+        "support@tinkerhub.org"
+      ],
+      "daysOpen": 24,
+      "daysSinceReceived": 24
+    },
+    {
       "id": "finance-410f35ae93",
       "threadId": "1a0958f7d4070c13",
       "group": "finance",
@@ -4214,6 +4231,141 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
+      "id": "report-d24eb0ad18",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Resolved",
+      "note": null,
+      "daysOpen": 0,
+      "daysSinceReceived": 3,
+      "cc": []
+    },
+    {
+      "id": "report-d467652a9f",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Resolved",
+      "note": null,
+      "daysOpen": 29,
+      "daysSinceReceived": 32,
+      "cc": []
+    },
+    {
+      "id": "report-80ba999b95",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Awaiting reply (from us)",
+      "note": null,
+      "daysOpen": 9,
+      "daysSinceReceived": 9,
+      "cc": []
+    },
+    {
+      "id": "report-c5d20472ea",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Resolved",
+      "note": null,
+      "daysOpen": 15,
+      "daysSinceReceived": 18,
+      "cc": []
+    },
+    {
+      "id": "report-e5e12ff0cd",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Resolved",
+      "note": null,
+      "daysOpen": 15,
+      "daysSinceReceived": 18,
+      "cc": []
+    },
+    {
+      "id": "report-14807cce3a",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Resolved",
+      "note": null,
+      "daysOpen": 15,
+      "daysSinceReceived": 18,
+      "cc": []
+    },
+    {
+      "id": "report-4af7879203",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Awaiting reply (from us)",
+      "note": null,
+      "daysOpen": 22,
+      "daysSinceReceived": 22,
+      "cc": []
+    },
+    {
+      "id": "report-55409c5545",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "No response",
+      "note": null,
+      "daysOpen": 24,
+      "daysSinceReceived": 24,
+      "cc": []
+    },
+    {
+      "id": "report-aa14764f2a",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Awaiting reply (from them)",
+      "note": null,
+      "daysOpen": 30,
+      "daysSinceReceived": 30,
+      "cc": []
+    },
+    {
       "id": "partner-35f0971280",
       "threadId": "1a0d3e4b68350a7a",
       "group": "partner",
@@ -4230,61 +4382,14 @@ window.DASHBOARD_DATA = {
       ],
       "daysOpen": 1,
       "daysSinceReceived": 2
-    },
-    {
-      "id": "support-6970c69bff",
-      "threadId": "1a064036048dfc40",
-      "group": "support",
-      "subject": "(no subject)",
-      "counterpart": "Fidha",
-      "email": "msx201700@gmail.com",
-      "received": "2026-09-02",
-      "last": "2026-09-02",
-      "status": "No response",
-      "note": "OTP login issue reported to report@ inbox; never replied to",
-      "cc": [
-        "support@tinkerhub.org"
-      ],
-      "daysOpen": 24,
-      "daysSinceReceived": 24
-    },
-    {
-      "id": "report-d24eb0ad18",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Awaiting reply (from us)",
-      "note": null,
-      "cc": [],
-      "daysOpen": 3,
-      "daysSinceReceived": 3
-    },
-    {
-      "id": "report-80ba999b95",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Awaiting reply (from us)",
-      "note": null,
-      "cc": [],
-      "daysOpen": 9,
-      "daysSinceReceived": 9
     }
   ],
   "summary": {
-    "Awaiting reply (from them)": 20,
+    "Awaiting reply (from them)": 21,
     "Awaiting reply (from us)": 16,
-    "Resolved": 100,
+    "Resolved": 105,
     "Informational": 104,
-    "No response": 5
+    "No response": 6
   },
   "analytics": {
     "campus": {
@@ -4322,12 +4427,15 @@ window.DASHBOARD_DATA = {
       "avgResolvedDays": 4.2
     },
     "report": {
-      "total": 2,
+      "total": 9,
       "statusCounts": {
-        "Awaiting reply (from us)": 2
+        "Resolved": 5,
+        "Awaiting reply (from us)": 2,
+        "No response": 1,
+        "Awaiting reply (from them)": 1
       },
-      "avgOpenDays": 6.0,
-      "avgResolvedDays": null
+      "avgOpenDays": 21.2,
+      "avgResolvedDays": 14.8
     },
     "partner": {
       "total": 1,
