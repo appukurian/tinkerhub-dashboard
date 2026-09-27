@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-27T14:46:34Z",
+  "generatedAt": "2026-09-27T16:49:38Z",
   "threads": [
     {
       "id": "campus-d4db2a9be6",
@@ -4229,22 +4229,19 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "partner-35f0971280",
-      "threadId": "1a0d3e4b68350a7a",
-      "group": "partner",
-      "subject": "Use of TinkerSpace logo for Advertisements",
-      "counterpart": "Nimisha Balar (QuantumX)",
-      "email": "nimishabalar.work@gmail.com",
-      "received": "2026-09-24",
-      "last": "2026-09-25",
-      "status": "Resolved",
-      "note": "logo use approved; ~100 participants expected for Qiskit Fall Fest",
-      "daysOpen": 1,
-      "daysSinceReceived": 3,
-      "cc": [
-        "partner@tinkerhub.org",
-        "kurian@tinkerhub.org"
-      ]
+      "id": "report-80ba999b95",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Awaiting reply (from us)",
+      "note": null,
+      "daysOpen": 10,
+      "daysSinceReceived": 10,
+      "cc": []
     },
     {
       "id": "report-d24eb0ad18",
@@ -4262,132 +4259,30 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
-      "id": "report-23887b25fa",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
+      "id": "partner-35f0971280",
+      "threadId": "1a0d3e4b68350a7a",
+      "group": "partner",
+      "subject": "Use of TinkerSpace logo for Advertisements",
+      "counterpart": "Nimisha Balar (QuantumX)",
+      "email": "nimishabalar.work@gmail.com",
+      "received": "2026-09-24",
+      "last": "2026-09-25",
       "status": "Resolved",
-      "note": null,
-      "daysOpen": 29,
-      "daysSinceReceived": 33,
-      "cc": []
-    },
-    {
-      "id": "report-aa14764f2a",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Awaiting reply (from them)",
-      "note": null,
-      "daysOpen": 31,
-      "daysSinceReceived": 31,
-      "cc": []
-    },
-    {
-      "id": "report-80ba999b95",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Awaiting reply (from us)",
-      "note": null,
-      "daysOpen": 10,
-      "daysSinceReceived": 10,
-      "cc": []
-    },
-    {
-      "id": "report-c5d20472ea",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Awaiting reply (from them)",
-      "note": null,
-      "daysOpen": 19,
-      "daysSinceReceived": 19,
-      "cc": []
-    },
-    {
-      "id": "report-7f3f9bb6c8",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Awaiting reply (from them)",
-      "note": null,
-      "daysOpen": 19,
-      "daysSinceReceived": 19,
-      "cc": []
-    },
-    {
-      "id": "report-69ff9b4329",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Awaiting reply (from them)",
-      "note": null,
-      "daysOpen": 19,
-      "daysSinceReceived": 19,
-      "cc": []
-    },
-    {
-      "id": "report-4af7879203",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Awaiting reply (from us)",
-      "note": null,
-      "daysOpen": 23,
-      "daysSinceReceived": 23,
-      "cc": []
-    },
-    {
-      "id": "report-b2b44a671b",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "No response",
-      "note": null,
-      "daysOpen": 25,
-      "daysSinceReceived": 25,
-      "cc": []
+      "note": "logo use approved; ~100 participants expected for Qiskit Fall Fest",
+      "daysOpen": 1,
+      "daysSinceReceived": 3,
+      "cc": [
+        "partner@tinkerhub.org",
+        "kurian@tinkerhub.org"
+      ]
     }
   ],
   "summary": {
-    "Awaiting reply (from them)": 23,
-    "Awaiting reply (from us)": 17,
-    "Resolved": 100,
+    "Awaiting reply (from them)": 19,
+    "Awaiting reply (from us)": 16,
+    "Resolved": 99,
     "Informational": 103,
-    "No response": 9
+    "No response": 8
   },
   "analytics": {
     "campus": {
@@ -4426,15 +4321,12 @@ window.DASHBOARD_DATA = {
       "avgResolvedDays": 4.2
     },
     "report": {
-      "total": 9,
+      "total": 2,
       "statusCounts": {
-        "Awaiting reply (from us)": 3,
-        "Resolved": 1,
-        "Awaiting reply (from them)": 4,
-        "No response": 1
+        "Awaiting reply (from us)": 2
       },
-      "avgOpenDays": 18.8,
-      "avgResolvedDays": 29.0
+      "avgOpenDays": 7,
+      "avgResolvedDays": 0
     },
     "partner": {
       "total": 1,
@@ -4442,7 +4334,7 @@ window.DASHBOARD_DATA = {
         "Resolved": 1
       },
       "avgOpenDays": 0,
-      "avgResolvedDays": 1.0
+      "avgResolvedDays": 1
     },
     "tinkerspace": {
       "total": 0,
