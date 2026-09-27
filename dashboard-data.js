@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-27T08:47:00Z",
+  "generatedAt": "2026-09-27T10:47:24Z",
   "threads": [
     {
       "id": "campus-d4db2a9be6",
@@ -4257,24 +4257,9 @@ window.DASHBOARD_DATA = {
       "last": null,
       "status": "Awaiting reply (from us)",
       "note": null,
-      "cc": [],
       "daysOpen": 4,
-      "daysSinceReceived": 4
-    },
-    {
-      "id": "report-80ba999b95",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Awaiting reply (from us)",
-      "note": null,
-      "cc": [],
-      "daysOpen": 10,
-      "daysSinceReceived": 10
+      "daysSinceReceived": 4,
+      "cc": []
     },
     {
       "id": "report-23887b25fa",
@@ -4287,9 +4272,24 @@ window.DASHBOARD_DATA = {
       "last": null,
       "status": "Resolved",
       "note": null,
-      "cc": [],
       "daysOpen": 29,
-      "daysSinceReceived": 33
+      "daysSinceReceived": 33,
+      "cc": []
+    },
+    {
+      "id": "report-80ba999b95",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Awaiting reply (from us)",
+      "note": null,
+      "daysOpen": 10,
+      "daysSinceReceived": 10,
+      "cc": []
     },
     {
       "id": "report-c5d20472ea",
@@ -4300,14 +4300,14 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Awaiting reply (from them)",
+      "status": "Resolved",
       "note": null,
-      "cc": [],
-      "daysOpen": 19,
-      "daysSinceReceived": 19
+      "daysOpen": 15,
+      "daysSinceReceived": 19,
+      "cc": []
     },
     {
-      "id": "report-61ab475781",
+      "id": "report-dce710f6b1",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -4315,11 +4315,11 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Awaiting reply (from them)",
+      "status": "Resolved",
       "note": null,
-      "cc": [],
-      "daysOpen": 19,
-      "daysSinceReceived": 19
+      "daysOpen": 15,
+      "daysSinceReceived": 19,
+      "cc": []
     },
     {
       "id": "report-69ff9b4329",
@@ -4330,14 +4330,14 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Awaiting reply (from them)",
+      "status": "Resolved",
       "note": null,
-      "cc": [],
-      "daysOpen": 19,
-      "daysSinceReceived": 19
+      "daysOpen": 15,
+      "daysSinceReceived": 19,
+      "cc": []
     },
     {
-      "id": "report-080ae97ec4",
+      "id": "report-4af7879203",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -4347,12 +4347,12 @@ window.DASHBOARD_DATA = {
       "last": null,
       "status": "Awaiting reply (from us)",
       "note": null,
-      "cc": [],
       "daysOpen": 23,
-      "daysSinceReceived": 23
+      "daysSinceReceived": 23,
+      "cc": []
     },
     {
-      "id": "report-e20b1299f2",
+      "id": "report-af222e63c4",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -4362,9 +4362,9 @@ window.DASHBOARD_DATA = {
       "last": null,
       "status": "No response",
       "note": null,
-      "cc": [],
       "daysOpen": 25,
-      "daysSinceReceived": 25
+      "daysSinceReceived": 25,
+      "cc": []
     },
     {
       "id": "report-aa14764f2a",
@@ -4375,92 +4375,79 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Awaiting reply (from them)",
+      "status": "Resolved",
       "note": null,
-      "cc": [],
-      "daysOpen": 31,
-      "daysSinceReceived": 31
+      "daysOpen": 23,
+      "daysSinceReceived": 31,
+      "cc": []
     }
   ],
   "summary": {
-    "No response": 9,
+    "Awaiting reply (from them)": 19,
     "Awaiting reply (from us)": 17,
-    "Awaiting reply (from them)": 23,
-    "Resolved": 100,
-    "Informational": 103
+    "Resolved": 104,
+    "Informational": 103,
+    "No response": 9
   },
   "analytics": {
     "campus": {
       "total": 201,
-      "counts": {
-        "No response": 2,
-        "Awaiting reply (from us)": 10,
+      "statusCounts": {
         "Awaiting reply (from them)": 12,
+        "Awaiting reply (from us)": 10,
         "Resolved": 85,
-        "Informational": 92
+        "Informational": 92,
+        "No response": 2
       },
       "avgOpenDays": 13.5,
       "avgResolvedDays": 4.1
     },
     "support": {
       "total": 24,
-      "counts": {
-        "No response": 4,
+      "statusCounts": {
         "Awaiting reply (from us)": 4,
-        "Awaiting reply (from them)": 6,
+        "Informational": 1,
         "Resolved": 9,
-        "Informational": 1
+        "No response": 4,
+        "Awaiting reply (from them)": 6
       },
       "avgOpenDays": 22.1,
       "avgResolvedDays": 19.9
     },
     "finance": {
       "total": 17,
-      "counts": {
+      "statusCounts": {
         "No response": 2,
-        "Awaiting reply (from us)": 0,
-        "Awaiting reply (from them)": 1,
+        "Informational": 10,
         "Resolved": 4,
-        "Informational": 10
+        "Awaiting reply (from them)": 1
       },
       "avgOpenDays": 15.7,
       "avgResolvedDays": 4.2
     },
     "report": {
       "total": 9,
-      "counts": {
-        "No response": 1,
+      "statusCounts": {
         "Awaiting reply (from us)": 3,
-        "Awaiting reply (from them)": 4,
-        "Resolved": 1,
-        "Informational": 0
+        "Resolved": 5,
+        "No response": 1
       },
-      "avgOpenDays": 18.8,
-      "avgResolvedDays": 29.0
+      "avgOpenDays": 15.5,
+      "avgResolvedDays": 19.4
     },
     "partner": {
       "total": 1,
-      "counts": {
-        "No response": 0,
-        "Awaiting reply (from us)": 0,
-        "Awaiting reply (from them)": 0,
-        "Resolved": 1,
-        "Informational": 0
+      "statusCounts": {
+        "Resolved": 1
       },
-      "avgOpenDays": 0,
+      "avgOpenDays": null,
       "avgResolvedDays": 1.0
     },
     "tinkerspace": {
       "total": 0,
-      "counts": {
-        "No response": 0,
-        "Awaiting reply (from us)": 0,
-        "Awaiting reply (from them)": 0,
-        "Resolved": 0,
-        "Informational": 0
-      },
-      "avgOpenDays": 0,
-      "avgResolvedDays": 0
+      "statusCounts": {},
+      "avgOpenDays": null,
+      "avgResolvedDays": null
     }
   }
 };
