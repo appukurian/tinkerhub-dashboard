@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-27T12:45:59Z",
+  "generatedAt": "2026-09-27T14:46:34Z",
   "threads": [
     {
       "id": "campus-d4db2a9be6",
@@ -107,7 +107,7 @@ window.DASHBOARD_DATA = {
       "id": "campus-08bb5958b0",
       "threadId": "1a0342b5cd9cfcc2",
       "group": "campus",
-      "subject": "Re: Request to Reschedule Useless Project from September 5\u20136 to September 11\u201312",
+      "subject": "Re: Request to Reschedule Useless Project from September 5–6 to September 11–12",
       "counterpart": "Farsana",
       "email": "fathimathulfarsaana@gmail.com",
       "received": "2026-08-24",
@@ -3520,40 +3520,6 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "campus-eebea412a8",
-      "threadId": "1a0e141d39760dee",
-      "group": "campus",
-      "subject": "Issues regarding selecting a first year learning coordinator and other things",
-      "counterpart": "Harikrishnan V (TKM College of Engineering)",
-      "email": "harikrishnanv2006@gmail.com",
-      "received": "2026-09-27",
-      "last": "2026-09-27",
-      "status": "No response",
-      "note": "requesting extension on FYC learning-program timeline; also flagged WIT lead considering resignation over health/workload",
-      "daysOpen": 0,
-      "daysSinceReceived": 0,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-2271a08de4",
-      "threadId": "1a0de259d579a18e",
-      "group": "campus",
-      "subject": "Final Top 5 - Useless Projects 3.0 | TinkerHub MAMOC",
-      "counterpart": "Sidrah (TinkerHub MAMOC)",
-      "email": "sidrahaysha@gmail.com",
-      "received": "2026-09-26",
-      "last": "2026-09-26",
-      "status": "No response",
-      "note": "voting system failed at event; requesting sign-off on manually finalized Top 5",
-      "daysOpen": 1,
-      "daysSinceReceived": 1,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
       "id": "support-f12c6966b7",
       "threadId": "1a0d3d1d404c09bb",
       "group": "support",
@@ -4263,23 +4229,6 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "finance-f25aada9e7",
-      "threadId": "1a0dd3098f9bed15",
-      "group": "finance",
-      "subject": "INVOICE - SEPTEMBER 2026",
-      "counterpart": "S. Nandakumar (Sindhu Associates)",
-      "email": "hrdsss2007@gmail.com",
-      "received": "2026-09-26",
-      "last": "2026-09-26",
-      "status": "No response",
-      "note": "September invoice submitted for processing",
-      "daysOpen": 1,
-      "daysSinceReceived": 1,
-      "cc": [
-        "finance@tinkerhub.org"
-      ]
-    },
-    {
       "id": "partner-35f0971280",
       "threadId": "1a0d3e4b68350a7a",
       "group": "partner",
@@ -4298,7 +4247,7 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "report-9b2bcca279",
+      "id": "report-d24eb0ad18",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -4306,14 +4255,14 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Awaiting reply (from them)",
+      "status": "Awaiting reply (from us)",
       "note": null,
       "daysOpen": 4,
       "daysSinceReceived": 4,
       "cc": []
     },
     {
-      "id": "report-207ad59f34",
+      "id": "report-23887b25fa",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -4373,7 +4322,7 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
-      "id": "report-55eaca549f",
+      "id": "report-7f3f9bb6c8",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -4388,7 +4337,7 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
-      "id": "report-14807cce3a",
+      "id": "report-69ff9b4329",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -4403,7 +4352,7 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
-      "id": "report-263a556f5d",
+      "id": "report-4af7879203",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -4418,7 +4367,7 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
-      "id": "report-e90c8fa362",
+      "id": "report-b2b44a671b",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -4434,23 +4383,23 @@ window.DASHBOARD_DATA = {
     }
   ],
   "summary": {
-    "Awaiting reply (from them)": 24,
-    "Awaiting reply (from us)": 16,
+    "Awaiting reply (from them)": 23,
+    "Awaiting reply (from us)": 17,
     "Resolved": 100,
     "Informational": 103,
-    "No response": 12
+    "No response": 9
   },
   "analytics": {
     "campus": {
-      "total": 203,
+      "total": 201,
       "statusCounts": {
         "Awaiting reply (from them)": 12,
         "Awaiting reply (from us)": 10,
         "Resolved": 85,
         "Informational": 92,
-        "No response": 4
+        "No response": 2
       },
-      "avgOpenDays": 12.5,
+      "avgOpenDays": 13.5,
       "avgResolvedDays": 4.1
     },
     "support": {
@@ -4466,22 +4415,22 @@ window.DASHBOARD_DATA = {
       "avgResolvedDays": 19.9
     },
     "finance": {
-      "total": 18,
+      "total": 17,
       "statusCounts": {
-        "No response": 3,
+        "No response": 2,
         "Informational": 10,
         "Resolved": 4,
         "Awaiting reply (from them)": 1
       },
-      "avgOpenDays": 12.0,
+      "avgOpenDays": 15.7,
       "avgResolvedDays": 4.2
     },
     "report": {
       "total": 9,
       "statusCounts": {
-        "Awaiting reply (from them)": 5,
+        "Awaiting reply (from us)": 3,
         "Resolved": 1,
-        "Awaiting reply (from us)": 2,
+        "Awaiting reply (from them)": 4,
         "No response": 1
       },
       "avgOpenDays": 18.8,
