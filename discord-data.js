@@ -1,7 +1,7 @@
 // Auto-generated daily by .github/workflows/discord-update.yml
 // Do NOT hand-edit — this file is overwritten on each run.
 window.DISCORD_DATA = {
-  "generatedAt": "2026-09-28T08:51:19Z",
+  "generatedAt": "2026-09-28T18:13:21Z",
   "threads": [
     {
       "id": "1553610072112889866",
@@ -32,8 +32,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-10",
       "last": "2026-09-27",
       "resolvedAt": "2026-09-10",
-      "daysOpen": 0,
-      "daysSinceReceived": 17,
+      "daysOpen": 1,
+      "daysSinceReceived": 18,
       "daysToClose": 0,
       "messageCount": 6,
       "archived": false,
@@ -101,17 +101,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-23",
       "last": "2026-09-23",
       "resolvedAt": "2026-09-23",
-      "daysOpen": 4,
-      "daysSinceReceived": 4,
+      "daysOpen": 5,
+      "daysSinceReceived": 5,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Failed to send otp",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541730613642535032",
-        "snippet": "Solved!"
+        "fromThreadName": "Issues with Login OTP and Department Selection",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543251465592901672",
+        "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
       }
     },
     {
@@ -147,8 +147,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-20",
       "last": "2026-09-20",
       "resolvedAt": "2026-09-20",
-      "daysOpen": 7,
-      "daysSinceReceived": 7,
+      "daysOpen": 8,
+      "daysSinceReceived": 8,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -189,8 +189,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-19",
       "last": "2026-09-19",
       "resolvedAt": "2026-09-19",
-      "daysOpen": 8,
-      "daysSinceReceived": 8,
+      "daysOpen": 9,
+      "daysSinceReceived": 9,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -212,8 +212,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-18",
       "last": "2026-09-18",
       "resolvedAt": "2026-09-18",
-      "daysOpen": 9,
-      "daysSinceReceived": 9,
+      "daysOpen": 10,
+      "daysSinceReceived": 10,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -235,8 +235,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-18",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 9,
-      "daysSinceReceived": 18,
+      "daysOpen": 10,
+      "daysSinceReceived": 19,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -259,7 +259,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-16",
       "resolvedAt": "2026-09-13",
       "daysOpen": 12,
-      "daysSinceReceived": 14,
+      "daysSinceReceived": 15,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -300,17 +300,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-12",
       "last": "2026-09-15",
       "resolvedAt": "2026-09-12",
-      "daysOpen": 12,
-      "daysSinceReceived": 15,
+      "daysOpen": 13,
+      "daysSinceReceived": 16,
       "daysToClose": 0,
       "messageCount": 4,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Failed to send otp",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541730613642535032",
-        "snippet": "Solved!"
+        "fromThreadName": "Issues with Login OTP and Department Selection",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543251465592901672",
+        "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
       }
     },
     {
@@ -323,7 +323,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-11",
       "last": "2026-09-15",
       "resolvedAt": "2026-09-11",
-      "daysOpen": 12,
+      "daysOpen": 13,
       "daysSinceReceived": 16,
       "daysToClose": 0,
       "messageCount": 4,
@@ -343,7 +343,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-15",
       "resolvedAt": "2026-09-11",
       "daysOpen": 13,
-      "daysSinceReceived": 16,
+      "daysSinceReceived": 17,
       "daysToClose": 0,
       "messageCount": 5,
       "archived": false,
@@ -361,7 +361,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-11",
       "last": "2026-09-15",
       "resolvedAt": "2026-09-11",
-      "daysOpen": 12,
+      "daysOpen": 13,
       "daysSinceReceived": 17,
       "daysToClose": 0,
       "messageCount": 5,
@@ -388,9 +388,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Failed to send otp",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541730613642535032",
-        "snippet": "Solved!"
+        "fromThreadName": "Issues with Login OTP and Department Selection",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543251465592901672",
+        "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
       }
     },
     {
@@ -411,9 +411,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Failed to send otp",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541730613642535032",
-        "snippet": "Solved!"
+        "fromThreadName": "Issues with Login OTP and Department Selection",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543251465592901672",
+        "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
       }
     },
     {
@@ -434,8 +434,8 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Facing the same issue can't update my outreach position",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1542493724133687378",
+        "fromThreadName": "Outreach lead not in group",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543296376568283166",
         "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
       }
     },
@@ -450,7 +450,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-11",
       "resolvedAt": "2026-09-08",
       "daysOpen": 16,
-      "daysSinceReceived": 19,
+      "daysSinceReceived": 20,
       "daysToClose": 0,
       "messageCount": 6,
       "archived": false,
@@ -487,8 +487,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-10",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-10",
-      "daysOpen": 17,
-      "daysSinceReceived": 17,
+      "daysOpen": 18,
+      "daysSinceReceived": 18,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -506,8 +506,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-10",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-10",
-      "daysOpen": 17,
-      "daysSinceReceived": 17,
+      "daysOpen": 18,
+      "daysSinceReceived": 18,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -544,8 +544,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 17,
-      "daysSinceReceived": 18,
+      "daysOpen": 18,
+      "daysSinceReceived": 19,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -563,17 +563,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 17,
-      "daysSinceReceived": 18,
+      "daysOpen": 18,
+      "daysSinceReceived": 19,
       "daysToClose": 0,
       "messageCount": 6,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Failed to send otp",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541730613642535032",
-        "snippet": "Solved!"
+        "fromThreadName": "Issues with Login OTP and Department Selection",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543251465592901672",
+        "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
       }
     },
     {
@@ -586,8 +586,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-08",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-08",
-      "daysOpen": 17,
-      "daysSinceReceived": 19,
+      "daysOpen": 18,
+      "daysSinceReceived": 20,
       "daysToClose": 0,
       "messageCount": 3,
       "archived": false,
@@ -624,17 +624,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 18,
-      "daysSinceReceived": 18,
+      "daysOpen": 19,
+      "daysSinceReceived": 19,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Failed to send otp",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541730613642535032",
-        "snippet": "Solved!"
+        "fromThreadName": "Issues with Login OTP and Department Selection",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543251465592901672",
+        "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
       }
     },
     {
@@ -647,16 +647,16 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 18,
-      "daysSinceReceived": 18,
+      "daysOpen": 19,
+      "daysSinceReceived": 19,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Facing the same issue can't update my outreach position",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1542493724133687378",
+        "fromThreadName": "Outreach lead not in group",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543296376568283166",
         "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
       }
     },
@@ -670,16 +670,16 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 18,
-      "daysSinceReceived": 18,
+      "daysOpen": 19,
+      "daysSinceReceived": 19,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Facing the same issue can't update my outreach position",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1542493724133687378",
+        "fromThreadName": "Outreach lead not in group",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543296376568283166",
         "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
       }
     },
@@ -694,16 +694,16 @@ window.DISCORD_DATA = {
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
       "daysOpen": 18,
-      "daysSinceReceived": 18,
+      "daysSinceReceived": 19,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Failed to send otp",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541730613642535032",
-        "snippet": "Solved!"
+        "fromThreadName": "Issues with Login OTP and Department Selection",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543251465592901672",
+        "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
       }
     },
     {
@@ -716,7 +716,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-07",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-07",
-      "daysOpen": 18,
+      "daysOpen": 19,
       "daysSinceReceived": 21,
       "daysToClose": 0,
       "messageCount": 4,
@@ -739,16 +739,16 @@ window.DISCORD_DATA = {
       "received": "2026-09-04",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-04",
-      "daysOpen": 18,
-      "daysSinceReceived": 23,
+      "daysOpen": 19,
+      "daysSinceReceived": 24,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Facing the same issue can't update my outreach position",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1542493724133687378",
+        "fromThreadName": "Outreach lead not in group",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543296376568283166",
         "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
       }
     },
@@ -781,8 +781,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-08",
       "last": "2026-09-08",
       "resolvedAt": "2026-09-08",
-      "daysOpen": 19,
-      "daysSinceReceived": 19,
+      "daysOpen": 20,
+      "daysSinceReceived": 20,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -805,16 +805,16 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-09-07",
       "daysOpen": 20,
-      "daysSinceReceived": 20,
+      "daysSinceReceived": 21,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Failed to send otp",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541730613642535032",
-        "snippet": "Solved!"
+        "fromThreadName": "Issues with Login OTP and Department Selection",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543251465592901672",
+        "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
       }
     },
     {
@@ -828,15 +828,15 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-09-07",
       "daysOpen": 20,
-      "daysSinceReceived": 20,
+      "daysSinceReceived": 21,
       "daysToClose": 0,
       "messageCount": 5,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Facing the same issue can't update my outreach position",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1542493724133687378",
+        "fromThreadName": "Outreach lead not in group",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543296376568283166",
         "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
       }
     },
@@ -851,16 +851,16 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-09-07",
       "daysOpen": 20,
-      "daysSinceReceived": 20,
+      "daysSinceReceived": 21,
       "daysToClose": 0,
       "messageCount": 7,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Failed to send otp",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541730613642535032",
-        "snippet": "Solved!"
+        "fromThreadName": "Issues with Login OTP and Department Selection",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543251465592901672",
+        "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
       }
     },
     {
@@ -881,9 +881,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Failed to send otp",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541730613642535032",
-        "snippet": "Solved!"
+        "fromThreadName": "Issues with Login OTP and Department Selection",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543251465592901672",
+        "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
       }
     },
     {
@@ -897,15 +897,15 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-09-05",
       "daysOpen": 20,
-      "daysSinceReceived": 22,
+      "daysSinceReceived": 23,
       "daysToClose": 0,
       "messageCount": 12,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Facing the same issue can't update my outreach position",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1542493724133687378",
+        "fromThreadName": "Outreach lead not in group",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543296376568283166",
         "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
       }
     },
@@ -920,16 +920,16 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-09-03",
       "daysOpen": 20,
-      "daysSinceReceived": 24,
+      "daysSinceReceived": 25,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Failed to send otp",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541730613642535032",
-        "snippet": "Solved!"
+        "fromThreadName": "Issues with Login OTP and Department Selection",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543251465592901672",
+        "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
       }
     },
     {
@@ -961,16 +961,16 @@ window.DISCORD_DATA = {
       "received": "2026-08-30",
       "last": "2026-09-08",
       "resolvedAt": "2026-08-30",
-      "daysOpen": 19,
-      "daysSinceReceived": 28,
+      "daysOpen": 20,
+      "daysSinceReceived": 29,
       "daysToClose": 0,
       "messageCount": 7,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Facing the same issue can't update my outreach position",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1542493724133687378",
+        "fromThreadName": "Outreach lead not in group",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543296376568283166",
         "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
       }
     },
@@ -984,7 +984,7 @@ window.DISCORD_DATA = {
       "received": "2026-08-18",
       "last": "2026-09-08",
       "resolvedAt": "2026-08-18",
-      "daysOpen": 19,
+      "daysOpen": 20,
       "daysSinceReceived": 41,
       "daysToClose": 0,
       "messageCount": 5,
@@ -992,8 +992,8 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Facing the same issue can't update my outreach position",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1542493724133687378",
+        "fromThreadName": "Outreach lead not in group",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543296376568283166",
         "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
       }
     },
@@ -1007,7 +1007,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-07",
       "last": "2026-09-07",
       "resolvedAt": "2026-09-07",
-      "daysOpen": 20,
+      "daysOpen": 21,
       "daysSinceReceived": 21,
       "daysToClose": 0,
       "messageCount": 2,
@@ -1030,7 +1030,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-07",
       "last": "2026-09-07",
       "resolvedAt": "2026-09-07",
-      "daysOpen": 20,
+      "daysOpen": 21,
       "daysSinceReceived": 21,
       "daysToClose": 0,
       "messageCount": 1,
@@ -1049,16 +1049,16 @@ window.DISCORD_DATA = {
       "received": "2026-09-01",
       "last": "2026-09-07",
       "resolvedAt": "2026-09-01",
-      "daysOpen": 20,
-      "daysSinceReceived": 26,
+      "daysOpen": 21,
+      "daysSinceReceived": 27,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Facing the same issue can't update my outreach position",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1542493724133687378",
+        "fromThreadName": "Outreach lead not in group",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543296376568283166",
         "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
       }
     },
@@ -1072,7 +1072,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-06",
       "last": "2026-09-06",
       "resolvedAt": "2026-09-06",
-      "daysOpen": 21,
+      "daysOpen": 22,
       "daysSinceReceived": 22,
       "daysToClose": 0,
       "messageCount": 2,
@@ -1091,7 +1091,7 @@ window.DISCORD_DATA = {
       "received": "2026-08-25",
       "last": "2026-09-06",
       "resolvedAt": "2026-08-25",
-      "daysOpen": 21,
+      "daysOpen": 22,
       "daysSinceReceived": 34,
       "daysToClose": 0,
       "messageCount": 10,
@@ -1099,8 +1099,8 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Facing the same issue can't update my outreach position",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1542493724133687378",
+        "fromThreadName": "Outreach lead not in group",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543296376568283166",
         "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
       }
     },
@@ -1160,8 +1160,8 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Facing the same issue can't update my outreach position",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1542493724133687378",
+        "fromThreadName": "Outreach lead not in group",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543296376568283166",
         "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
       }
     },
@@ -1175,16 +1175,16 @@ window.DISCORD_DATA = {
       "received": "2026-08-29",
       "last": "2026-09-04",
       "resolvedAt": "2026-08-29",
-      "daysOpen": 23,
-      "daysSinceReceived": 29,
+      "daysOpen": 24,
+      "daysSinceReceived": 30,
       "daysToClose": 0,
       "messageCount": 4,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Facing the same issue can't update my outreach position",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1542493724133687378",
+        "fromThreadName": "Outreach lead not in group",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543296376568283166",
         "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
       }
     },
@@ -1198,8 +1198,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-03",
       "last": "2026-09-03",
       "resolvedAt": "2026-09-03",
-      "daysOpen": 24,
-      "daysSinceReceived": 24,
+      "daysOpen": 25,
+      "daysSinceReceived": 25,
       "daysToClose": 0,
       "messageCount": 3,
       "archived": false,
@@ -1221,7 +1221,7 @@ window.DISCORD_DATA = {
       "received": "2026-08-21",
       "last": "2026-09-02",
       "resolvedAt": "2026-08-21",
-      "daysOpen": 25,
+      "daysOpen": 26,
       "daysSinceReceived": 38,
       "daysToClose": 0,
       "messageCount": 9,
@@ -1229,8 +1229,8 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Facing the same issue can't update my outreach position",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1542493724133687378",
+        "fromThreadName": "Outreach lead not in group",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543296376568283166",
         "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
       }
     },
@@ -1244,16 +1244,16 @@ window.DISCORD_DATA = {
       "received": "2026-09-01",
       "last": "2026-09-01",
       "resolvedAt": "2026-09-01",
-      "daysOpen": 26,
-      "daysSinceReceived": 26,
+      "daysOpen": 27,
+      "daysSinceReceived": 27,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Facing the same issue can't update my outreach position",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1542493724133687378",
+        "fromThreadName": "Outreach lead not in group",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543296376568283166",
         "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
       }
     },
@@ -1267,8 +1267,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-01",
       "last": "2026-09-01",
       "resolvedAt": "2026-09-01",
-      "daysOpen": 26,
-      "daysSinceReceived": 26,
+      "daysOpen": 27,
+      "daysSinceReceived": 27,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -1286,7 +1286,7 @@ window.DISCORD_DATA = {
       "received": "2026-08-27",
       "last": "2026-09-01",
       "resolvedAt": "2026-08-27",
-      "daysOpen": 26,
+      "daysOpen": 27,
       "daysSinceReceived": 32,
       "daysToClose": 0,
       "messageCount": 7,
@@ -1294,9 +1294,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Failed to send otp",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541730613642535032",
-        "snippet": "Solved!"
+        "fromThreadName": "Issues with Login OTP and Department Selection",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543251465592901672",
+        "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
       }
     },
     {
@@ -1309,17 +1309,17 @@ window.DISCORD_DATA = {
       "received": "2026-08-31",
       "last": "2026-08-31",
       "resolvedAt": "2026-08-31",
-      "daysOpen": 27,
-      "daysSinceReceived": 27,
+      "daysOpen": 28,
+      "daysSinceReceived": 28,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Failed to send otp",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541730613642535032",
-        "snippet": "Solved!"
+        "fromThreadName": "Issues with Login OTP and Department Selection",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543251465592901672",
+        "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
       }
     },
     {
@@ -1352,7 +1352,7 @@ window.DISCORD_DATA = {
       "last": "2026-08-31",
       "resolvedAt": "2026-08-24",
       "daysOpen": 28,
-      "daysSinceReceived": 34,
+      "daysSinceReceived": 35,
       "daysToClose": 0,
       "messageCount": 16,
       "archived": false,
@@ -1374,17 +1374,17 @@ window.DISCORD_DATA = {
       "received": "2026-08-30",
       "last": "2026-08-30",
       "resolvedAt": "2026-08-30",
-      "daysOpen": 28,
-      "daysSinceReceived": 28,
+      "daysOpen": 29,
+      "daysSinceReceived": 29,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Failed to send otp",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541730613642535032",
-        "snippet": "Solved!"
+        "fromThreadName": "Issues with Login OTP and Department Selection",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543251465592901672",
+        "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
       }
     },
     {
@@ -1405,56 +1405,48 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Failed to send otp",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541730613642535032",
-        "snippet": "Solved!"
+        "fromThreadName": "Issues with Login OTP and Department Selection",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543251465592901672",
+        "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
       }
     },
     {
       "id": "1543296376568283166",
       "name": "Outreach lead not in group",
       "url": "https://discord.com/channels/735180366297563257/1543296376568283166",
-      "status": "No response",
+      "status": "Resolved",
       "category": "Other",
       "requester": "Anupama\ud83c\udf38",
       "received": "2026-08-29",
       "last": "2026-08-29",
-      "resolvedAt": "2026-08-29",
-      "daysOpen": 29,
-      "daysSinceReceived": 29,
-      "daysToClose": 0,
+      "resolvedAt": "2026-09-28",
+      "daysOpen": 30,
+      "daysSinceReceived": 30,
+      "daysToClose": 30,
       "messageCount": 1,
-      "archived": false,
+      "archived": true,
       "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Facing the same issue can't update my outreach position",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1542493724133687378",
-        "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
-      }
+      "resolutionSnippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon.",
+      "suggestion": null
     },
     {
       "id": "1543251465592901672",
       "name": "Issues with Login OTP and Department Selection",
       "url": "https://discord.com/channels/735180366297563257/1543251465592901672",
-      "status": "No response",
+      "status": "Resolved",
       "category": "OTP / Login issues",
       "requester": "Mehjebin",
       "received": "2026-08-29",
       "last": "2026-08-29",
-      "resolvedAt": "2026-08-29",
-      "daysOpen": 29,
-      "daysSinceReceived": 29,
-      "daysToClose": 0,
+      "resolvedAt": "2026-09-28",
+      "daysOpen": 30,
+      "daysSinceReceived": 30,
+      "daysToClose": 30,
       "messageCount": 1,
-      "archived": false,
+      "archived": true,
       "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Failed to send otp",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541730613642535032",
-        "snippet": "Solved!"
-      }
+      "resolutionSnippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon.",
+      "suggestion": null
     },
     {
       "id": "1542910902205022320",
@@ -13162,13 +13154,13 @@ window.DISCORD_DATA = {
     }
   ],
   "summary": {
-    "No response": 34,
+    "No response": 32,
     "Awaiting reply (from us)": 19,
     "Awaiting reply (from them)": 12,
-    "Resolved": 618
+    "Resolved": 620
   },
-  "avgOpenDays": 17.4,
-  "avgDaysToClose": 12.0,
+  "avgOpenDays": 17.6,
+  "avgDaysToClose": 12.1,
   "topCategories": [
     {
       "category": "Event/Activity check-in & reporting",
