@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-28T04:43:23Z",
+  "generatedAt": "2026-09-28T06:51:53Z",
   "threads": [
     {
       "id": "campus-d4db2a9be6",
@@ -29,23 +29,6 @@ window.DASHBOARD_DATA = {
       "last": "2026-09-25",
       "status": "Awaiting reply (from them)",
       "note": "asked them to confirm a completion deadline for FYC selection",
-      "daysOpen": 4,
-      "daysSinceReceived": 4,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-3f770e0952",
-      "threadId": "1a0d3d1d404c09bb",
-      "group": "campus",
-      "subject": "LC can't find discord server",
-      "counterpart": "Arjun A S (Vimal Jyothi Engineering College)",
-      "email": "arjunaskvl@gmail.com",
-      "received": "2026-09-24",
-      "last": "2026-09-25",
-      "status": "Awaiting reply (from us)",
-      "note": "looped in support team; Discord access issue still unresolved",
       "daysOpen": 4,
       "daysSinceReceived": 4,
       "cc": [
@@ -117,42 +100,6 @@ window.DASHBOARD_DATA = {
       "daysOpen": 30,
       "daysSinceReceived": 35,
       "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-dab47f472f",
-      "threadId": "1a0cd09804760dd5",
-      "group": "campus",
-      "subject": "Spreadsheet shared with you: \"Campus Additions to app\"",
-      "counterpart": "internal (Habeeb Rahman)",
-      "email": null,
-      "received": "2026-09-23",
-      "last": "2026-09-23",
-      "status": "Informational",
-      "note": "spreadsheet share notification",
-      "daysOpen": 0,
-      "daysSinceReceived": 5,
-      "cc": [
-        "campus@tinkerhub.org",
-        "akhil@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-18046aa45f",
-      "threadId": "1a032c21a83ee0f8",
-      "group": "campus",
-      "subject": "Issue on Tinkerhub app",
-      "counterpart": "Goutham R",
-      "email": "gouthamr4567@gmail.com",
-      "received": "2026-08-24",
-      "last": "2026-09-23",
-      "status": "Resolved",
-      "note": "OTP/login issue fixed",
-      "daysOpen": 30,
-      "daysSinceReceived": 35,
-      "cc": [
-        "support@tinkerhub.org",
         "campus@tinkerhub.org"
       ]
     },
@@ -3414,24 +3361,6 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "campus-af288aa227",
-      "threadId": "19fef734079841d1",
-      "group": "campus",
-      "subject": "Fwd: Regarding the change of role from Friends of Tinkerhub to student",
-      "counterpart": "Abi Alif",
-      "email": "abialifhere@gmail.com",
-      "received": "2026-08-11",
-      "last": "2026-09-23",
-      "status": "Resolved",
-      "note": "account role updated to student",
-      "daysOpen": 43,
-      "daysSinceReceived": 48,
-      "cc": [
-        "campus@tinkerhub.org",
-        "support@tinkerhub.org"
-      ]
-    },
-    {
       "id": "campus-637db6e506",
       "threadId": "1a04e85cd64123b6",
       "group": "campus",
@@ -4247,7 +4176,88 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "report-80ba999b95",
+      "id": "support-f1271d7479",
+      "threadId": "1a0d8874b3792ee0",
+      "group": "support",
+      "subject": "Request to Update My Campus and Degree College",
+      "counterpart": "Nihal T",
+      "email": "nihal.chiyoor@gmail.com",
+      "received": "2026-09-25",
+      "last": "2026-09-28",
+      "status": "Awaiting reply (from us)",
+      "note": "profile shows wrong campus/degree college, needs manual correction",
+      "daysOpen": 3,
+      "daysSinceReceived": 3,
+      "cc": [
+        "support@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "support-3873045b3a",
+      "threadId": "1a0dc1b0f9fe4d4d",
+      "group": "support",
+      "subject": "Request to Add My College to TinkerHub Registration – Layover Hackathon",
+      "counterpart": "Arjun Sabu",
+      "email": "greninjadotdev@gmail.com",
+      "received": "2026-09-26",
+      "last": "2026-09-28",
+      "status": "Awaiting reply (from us)",
+      "note": "college missing from registration list for Layover Hackathon",
+      "daysOpen": 2,
+      "daysSinceReceived": 2,
+      "cc": [
+        "support@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-9d9afdbe22",
+      "threadId": "1a0b48ac5a8ed45c",
+      "group": "campus",
+      "subject": "Collaboration Proposal – Blender Workshop under SOLITON ’26",
+      "counterpart": "Niranjan S Das (IEEE Photonics Society Kerala Chapter)",
+      "email": "niranjansdas@ug.cusat.ac.in",
+      "received": "2026-09-18",
+      "last": "2026-09-28",
+      "status": "Awaiting reply (from us)",
+      "note": "IEEE Photonics Society Kerala Chapter proposing a Blender workshop collab",
+      "daysOpen": 10,
+      "daysSinceReceived": 10,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "report-11d03bbb9a",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "No response",
+      "note": null,
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": []
+    },
+    {
+      "id": "report-498dadce30",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Resolved",
+      "note": null,
+      "daysOpen": 0,
+      "daysSinceReceived": 5,
+      "cc": []
+    },
+    {
+      "id": "report-039fe8162f",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -4260,85 +4270,85 @@ window.DASHBOARD_DATA = {
       "daysOpen": 11,
       "daysSinceReceived": 11,
       "cc": []
-    },
-    {
-      "id": "report-d24eb0ad18",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Awaiting reply (from us)",
-      "note": null,
-      "daysOpen": 5,
-      "daysSinceReceived": 5,
-      "cc": []
     }
   ],
   "summary": {
+    "No response": 9,
+    "Awaiting reply (from us)": 17,
     "Awaiting reply (from them)": 19,
-    "Awaiting reply (from us)": 16,
-    "Resolved": 99,
-    "Informational": 103,
-    "No response": 8
+    "Resolved": 98,
+    "Informational": 102
   },
   "analytics": {
     "campus": {
-      "total": 201,
-      "statusCounts": {
-        "Awaiting reply (from them)": 12,
+      "total": 198,
+      "counts": {
+        "No response": 2,
         "Awaiting reply (from us)": 10,
-        "Resolved": 85,
-        "Informational": 92,
-        "No response": 2
+        "Awaiting reply (from them)": 12,
+        "Resolved": 83,
+        "Informational": 91
       },
-      "avgOpenDays": 14.5,
-      "avgResolvedDays": 4.1
+      "avgOpenDays": 14.8,
+      "avgResolvedDays": 3.3
     },
     "support": {
-      "total": 24,
-      "statusCounts": {
-        "Awaiting reply (from us)": 4,
-        "Informational": 1,
-        "Resolved": 9,
+      "total": 26,
+      "counts": {
         "No response": 4,
-        "Awaiting reply (from them)": 6
+        "Awaiting reply (from us)": 6,
+        "Awaiting reply (from them)": 6,
+        "Resolved": 9,
+        "Informational": 1
       },
-      "avgOpenDays": 23.1,
+      "avgOpenDays": 20.5,
       "avgResolvedDays": 19.9
     },
     "finance": {
       "total": 17,
-      "statusCounts": {
+      "counts": {
         "No response": 2,
-        "Informational": 10,
+        "Awaiting reply (from us)": 0,
+        "Awaiting reply (from them)": 1,
         "Resolved": 4,
-        "Awaiting reply (from them)": 1
+        "Informational": 10
       },
       "avgOpenDays": 16.7,
       "avgResolvedDays": 4.2
     },
     "report": {
-      "total": 2,
-      "statusCounts": {
-        "Awaiting reply (from us)": 2
+      "total": 3,
+      "counts": {
+        "No response": 1,
+        "Awaiting reply (from us)": 1,
+        "Awaiting reply (from them)": 0,
+        "Resolved": 1,
+        "Informational": 0
       },
-      "avgOpenDays": 8.0,
-      "avgResolvedDays": 0
+      "avgOpenDays": 5.5,
+      "avgResolvedDays": 0.0
     },
     "partner": {
       "total": 1,
-      "statusCounts": {
-        "Resolved": 1
+      "counts": {
+        "No response": 0,
+        "Awaiting reply (from us)": 0,
+        "Awaiting reply (from them)": 0,
+        "Resolved": 1,
+        "Informational": 0
       },
       "avgOpenDays": 0,
       "avgResolvedDays": 1.0
     },
     "tinkerspace": {
       "total": 0,
-      "statusCounts": {},
+      "counts": {
+        "No response": 0,
+        "Awaiting reply (from us)": 0,
+        "Awaiting reply (from them)": 0,
+        "Resolved": 0,
+        "Informational": 0
+      },
       "avgOpenDays": 0,
       "avgResolvedDays": 0
     }
