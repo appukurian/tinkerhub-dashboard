@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-28T10:53:08Z",
+  "generatedAt": "2026-09-28T12:56:59Z",
   "threads": [
     {
       "id": "campus-2c58b36fa5",
@@ -98,7 +98,7 @@ window.DASHBOARD_DATA = {
       "id": "campus-08bb5958b0",
       "threadId": "1a0342b5cd9cfcc2",
       "group": "campus",
-      "subject": "Re: Request to Reschedule Useless Project from September 5–6 to September 11–12",
+      "subject": "Re: Request to Reschedule Useless Project from September 5\u20136 to September 11\u201312",
       "counterpart": "Farsana",
       "email": "fathimathulfarsaana@gmail.com",
       "received": "2026-08-24",
@@ -1783,7 +1783,7 @@ window.DASHBOARD_DATA = {
       "id": "campus-9d9afdbe22",
       "threadId": "1a0b48ac5a8ed45c",
       "group": "campus",
-      "subject": "Collaboration Proposal – Blender Workshop under SOLITON ’26",
+      "subject": "Collaboration Proposal \u2013 Blender Workshop under SOLITON \u201926",
       "counterpart": "Niranjan S Das (IEEE Photonics Society Kerala Chapter)",
       "email": "niranjansdas@ug.cusat.ac.in",
       "received": "2026-09-18",
@@ -2669,7 +2669,7 @@ window.DASHBOARD_DATA = {
       "id": "support-3873045b3a",
       "threadId": "1a0dc1b0f9fe4d4d",
       "group": "support",
-      "subject": "Request to Add My College to TinkerHub Registration – Layover Hackathon",
+      "subject": "Request to Add My College to TinkerHub Registration \u2013 Layover Hackathon",
       "counterpart": "Arjun Sabu",
       "email": "greninjadotdev@gmail.com",
       "received": "2026-09-26",
@@ -3411,7 +3411,263 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "report-11d03bbb9a",
+      "id": "campus-f9c2493e1b",
+      "threadId": "1a0bd19bc6058e1e",
+      "group": "campus",
+      "subject": "I wasn't added to the Discord server.",
+      "counterpart": "Mohammed Bilal PN (College of Engineering Munnar)",
+      "email": "bilalmohmmedpn@gmail.com",
+      "received": "2026-09-20",
+      "last": "2026-09-22",
+      "status": "Awaiting reply (from them)",
+      "note": "Femina asked which server/access level he needs; awaiting his reply",
+      "daysOpen": 8,
+      "daysSinceReceived": 8,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-5d2e5f1853",
+      "threadId": "1a0bd91a2321d6d4",
+      "group": "campus",
+      "subject": "Unable to check in a participant during useless projects 3.0 due to login issue",
+      "counterpart": "TinkerHub RIT (Campus Chapter)",
+      "email": "tinkerhub@rit.ac.in",
+      "received": "2026-09-20",
+      "last": "2026-09-20",
+      "status": "Awaiting reply (from them)",
+      "note": "Form reopened with a same-day deadline; no confirmation received",
+      "daysOpen": 8,
+      "daysSinceReceived": 8,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-4176426894",
+      "threadId": "1a0bf38de00a20fa",
+      "group": "campus",
+      "subject": "Request to Extend First Year Coordinator Selection Deadline",
+      "counterpart": "TinkerHub CEC (Campus Chapter)",
+      "email": "tinkerhub@ceconline.edu",
+      "received": "2026-09-20",
+      "last": "2026-09-22",
+      "status": "Awaiting reply (from them)",
+      "note": "Extension approved to Oct 20; awaiting their completion update",
+      "daysOpen": 8,
+      "daysSinceReceived": 8,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-2314441537",
+      "threadId": "1a0bfead8071f62a",
+      "group": "campus",
+      "subject": "Useless Project Top 5 projects selection issue",
+      "counterpart": "Ann Rose",
+      "email": "annrose2277@gmail.com",
+      "received": "2026-09-20",
+      "last": "2026-09-22",
+      "status": "Awaiting reply (from us)",
+      "note": "Told her we'd look into the top-5 selection issue; no resolution sent yet",
+      "daysOpen": 8,
+      "daysSinceReceived": 8,
+      "cc": [
+        "campus@tinkerhub.org",
+        "council@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-8cac1693e2",
+      "threadId": "1a0c203eee0bc074",
+      "group": "campus",
+      "subject": "Shitty First Drafts: What is one thing you really want to do but keep putting off?",
+      "counterpart": "Sreyas Peenikkal",
+      "email": "sreyas.thejus.peenikkal@gmail.com",
+      "received": "2026-09-21",
+      "last": "2026-09-22",
+      "status": "Informational",
+      "note": "Workshop prep reply, no action needed",
+      "daysOpen": 1,
+      "daysSinceReceived": 7,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-6d3d32e212",
+      "threadId": "1a0c731f7c8468af",
+      "group": "campus",
+      "subject": "Outreach lead change",
+      "counterpart": "Sreyas Suvi Peenikkal (Sahrdaya CAS)",
+      "email": "sreyas.thejus.peenikkal@gmail.com",
+      "received": "2026-09-22",
+      "last": "2026-09-22",
+      "status": "Awaiting reply (from them)",
+      "note": "Asked them to pick a new outreach lead by Sep 29",
+      "daysOpen": 6,
+      "daysSinceReceived": 6,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-1afa2bf514",
+      "threadId": "1a0c80aa7b020904",
+      "group": "campus",
+      "subject": "Regarding Selection of FYC",
+      "counterpart": "Elizabeth Bobby (Govt. Model Engineering College)",
+      "email": "elizabethbobby169@gmail.com",
+      "received": "2026-09-22",
+      "last": "2026-09-22",
+      "status": "Awaiting reply (from them)",
+      "note": "Extension approved to Oct 25; awaiting completion update",
+      "daysOpen": 6,
+      "daysSinceReceived": 6,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-50bbf9480f",
+      "threadId": "1a0c80c4698ba7fd",
+      "group": "campus",
+      "subject": "Request Regarding Event Report Communication",
+      "counterpart": "Christy Basil Anil (St. Thomas College, Ranni)",
+      "email": "magicianchristy@gmail.com",
+      "received": "2026-09-22",
+      "last": "2026-09-22",
+      "status": "Resolved",
+      "note": "Agreed to withhold reports to Principal pending chapter approval",
+      "daysOpen": 0,
+      "daysSinceReceived": 6,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-806b979169",
+      "threadId": "1a0c80dbd03d0a66",
+      "group": "campus",
+      "subject": "Regarding selection of FYC",
+      "counterpart": "Rezin (TinkerHub CUCEK)",
+      "email": "rezinch@gmail.com",
+      "received": "2026-09-22",
+      "last": "2026-09-22",
+      "status": "Awaiting reply (from them)",
+      "note": "Extension approved to Oct 15; awaiting completion update",
+      "daysOpen": 6,
+      "daysSinceReceived": 6,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-d0f2cb1e45",
+      "threadId": "1a0c810c8618c731",
+      "group": "campus",
+      "subject": "FYC Selection",
+      "counterpart": "Arjun AS (Vimal Jyothi Engineering College Chemberi)",
+      "email": "arjunaskvl@gmail.com",
+      "received": "2026-09-22",
+      "last": "2026-09-22",
+      "status": "Awaiting reply (from them)",
+      "note": "Extension approved to Oct 25; awaiting completion update",
+      "daysOpen": 6,
+      "daysSinceReceived": 6,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-c81d207218",
+      "threadId": "1a0c8145745b02f6",
+      "group": "campus",
+      "subject": "Request to Consider Corrected Project Journal Submission",
+      "counterpart": "Lekshmy S Raju",
+      "email": "lekshmys33@gmail.com",
+      "received": "2026-09-22",
+      "last": "2026-09-22",
+      "status": "Resolved",
+      "note": "Acknowledged corrected submission",
+      "daysOpen": 0,
+      "daysSinceReceived": 6,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-94b8f12f49",
+      "threadId": "1a0c834bf8b537a8",
+      "group": "campus",
+      "subject": "Unable to join WIT discord",
+      "counterpart": "Sarah Mary Jacob (WIT Lead, TinkerHub CET)",
+      "email": "sarahmaryjacob@gmail.com",
+      "received": "2026-09-22",
+      "last": "2026-09-22",
+      "status": "Awaiting reply (from us)",
+      "note": "Told her she'd be added to Discord within 2 days (Sep 22) - unclear if done",
+      "daysOpen": 6,
+      "daysSinceReceived": 6,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-94908d65e0",
+      "threadId": "1a0e802cd5005107",
+      "group": "campus",
+      "subject": "Resignation from the Position of WIT Lead",
+      "counterpart": "Anna Rachel Biju (WIT Lead, TinkerHub BMCE)",
+      "email": "annarachelbiju990@gmail.com",
+      "received": "2026-09-28",
+      "last": "2026-09-28",
+      "status": "No response",
+      "note": "WIT Lead resignation notice - needs acknowledgment",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-d680b2fe13",
+      "threadId": "1a05323f780838ae",
+      "group": "campus",
+      "subject": "Shitty First Drafts workshop replies (multi-recipient)",
+      "counterpart": "Multiple students (workshop reply thread)",
+      "email": null,
+      "received": "2026-08-30",
+      "last": "2026-09-08",
+      "status": "Informational",
+      "note": "Workshop prep replies from 3 students; Janavi's reply (Sep 8) flags difficulty hosting offline sessions - may warrant individual follow-up",
+      "daysOpen": 9,
+      "daysSinceReceived": 29,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-47631a2dde",
+      "threadId": "1a052e3a36cfa5f2",
+      "group": "campus",
+      "subject": "Useless Projects slot issues",
+      "counterpart": "Fathima Afrah Peedikaparamben (KAHM Unity Women's College Manjeri)",
+      "email": "tinkerhub@unitywomenscollege.ac.in",
+      "received": "2026-08-30",
+      "last": "2026-09-01",
+      "status": "Resolved",
+      "note": "Approved Sep 11 daytime slot for event",
+      "daysOpen": 2,
+      "daysSinceReceived": 29,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "report-2efffb52bd",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -3426,7 +3682,7 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
-      "id": "report-498dadce30",
+      "id": "report-f890de1a67",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -3434,14 +3690,14 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Awaiting reply (from them)",
+      "status": "Awaiting reply (from us)",
       "note": null,
       "daysOpen": 5,
       "daysSinceReceived": 5,
       "cc": []
     },
     {
-      "id": "report-0759256871",
+      "id": "report-d467652a9f",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -3456,7 +3712,7 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
-      "id": "report-e731021ede",
+      "id": "report-aa14764f2a",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -3471,7 +3727,7 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
-      "id": "report-039fe8162f",
+      "id": "report-80ba999b95",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -3479,14 +3735,14 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Awaiting reply (from them)",
+      "status": "Awaiting reply (from us)",
       "note": null,
       "daysOpen": 11,
       "daysSinceReceived": 11,
       "cc": []
     },
     {
-      "id": "report-217295ac1d",
+      "id": "report-c5d20472ea",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -3501,7 +3757,7 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
-      "id": "report-c018e7139a",
+      "id": "report-29244614bd",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -3516,7 +3772,7 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
-      "id": "report-265c2e2322",
+      "id": "report-14807cce3a",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -3531,7 +3787,7 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
-      "id": "report-b8e4903b0b",
+      "id": "report-cdd475060b",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -3539,14 +3795,14 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Awaiting reply (from them)",
+      "status": "Awaiting reply (from us)",
       "note": null,
       "daysOpen": 24,
       "daysSinceReceived": 24,
       "cc": []
     },
     {
-      "id": "report-d8f98dab79",
+      "id": "report-84370e252b",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -3562,24 +3818,24 @@ window.DASHBOARD_DATA = {
     }
   ],
   "summary": {
-    "Awaiting reply (from us)": 14,
-    "Resolved": 95,
-    "Informational": 65,
-    "Awaiting reply (from them)": 22,
-    "No response": 10
+    "Awaiting reply (from us)": 19,
+    "Resolved": 98,
+    "Informational": 67,
+    "Awaiting reply (from them)": 26,
+    "No response": 11
   },
   "analytics": {
     "campus": {
-      "total": 152,
+      "total": 167,
       "statusCounts": {
-        "Awaiting reply (from us)": 8,
-        "Resolved": 80,
-        "Informational": 54,
-        "Awaiting reply (from them)": 8,
-        "No response": 2
+        "Awaiting reply (from us)": 10,
+        "Resolved": 83,
+        "Informational": 56,
+        "Awaiting reply (from them)": 15,
+        "No response": 3
       },
-      "avgOpenDays": 17.3,
-      "avgResolvedDays": 4.3
+      "avgOpenDays": 13.4,
+      "avgResolvedDays": 4.2
     },
     "support": {
       "total": 25,
@@ -3604,29 +3860,30 @@ window.DASHBOARD_DATA = {
       "avgOpenDays": 12.5,
       "avgResolvedDays": 4.2
     },
+    "report": {
+      "total": 10,
+      "statusCounts": {
+        "No response": 2,
+        "Awaiting reply (from us)": 3,
+        "Resolved": 1,
+        "Awaiting reply (from them)": 4
+      },
+      "avgOpenDays": 17.6,
+      "avgResolvedDays": 29.0
+    },
     "partner": {
       "total": 1,
       "statusCounts": {
         "Resolved": 1
       },
-      "avgOpenDays": null,
+      "avgOpenDays": 0,
       "avgResolvedDays": 1.0
     },
     "tinkerspace": {
       "total": 0,
       "statusCounts": {},
-      "avgOpenDays": null,
-      "avgResolvedDays": null
-    },
-    "report": {
-      "total": 10,
-      "statusCounts": {
-        "No response": 2,
-        "Awaiting reply (from them)": 7,
-        "Resolved": 1
-      },
-      "avgOpenDays": 17.6,
-      "avgResolvedDays": 29.0
+      "avgOpenDays": 0,
+      "avgResolvedDays": 0
     }
   }
 };
