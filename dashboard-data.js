@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-29T08:43:00Z",
+  "generatedAt": "2026-09-29T10:43:00Z",
   "threads": [
     {
       "id": "campus-94908d65e0",
@@ -4444,7 +4444,7 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Awaiting reply (from them)",
+      "status": "Awaiting reply (from us)",
       "note": null,
       "daysOpen": 25,
       "daysSinceReceived": 25,
@@ -4464,85 +4464,109 @@ window.DASHBOARD_DATA = {
       "daysOpen": 27,
       "daysSinceReceived": 27,
       "cc": []
+    },
+    {
+      "id": "partner-4dcec4ab14",
+      "threadId": "1a0b51b42613b667",
+      "group": "partner",
+      "subject": "A build invitation for TinkerHub Foundation",
+      "counterpart": "Shyamol Konwar (Hackyard)",
+      "email": "shyamol@hackyard.org",
+      "received": "2026-09-18",
+      "last": "2026-09-29",
+      "status": "Awaiting reply (from us)",
+      "note": "Hackyard Build 2026 (IIT Guwahati, 24-25 Oct) invite; asks us to share with members before 10 Oct applications close; looped Jasim/Shan, no decision sent yet",
+      "daysOpen": 11,
+      "daysSinceReceived": 11,
+      "cc": [
+        "partner@tinkerhub.org",
+        "jasim@tinkerhub.org",
+        "shan@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "partner-b9bcb228e9",
+      "threadId": "1a0ec632e1835bd5",
+      "group": "partner",
+      "subject": "Fwd: Cosmo Hacks 2026: community partnership for TinkerHub Foundation",
+      "counterpart": "internal (Kurian Jacob)",
+      "email": null,
+      "received": "2026-09-29",
+      "last": "2026-09-29",
+      "status": "Informational",
+      "note": "internal forward of Cosmo Hacks proposal to partner@ for context; see Cosmo Hacks thread",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "partner@tinkerhub.org"
+      ]
     }
   ],
   "summary": {
     "No response": 11,
-    "Awaiting reply (from us)": 17,
-    "Awaiting reply (from them)": 29,
+    "Awaiting reply (from us)": 19,
+    "Awaiting reply (from them)": 28,
     "Resolved": 99,
-    "Informational": 101
+    "Informational": 102
   },
   "analytics": {
     "campus": {
       "total": 202,
-      "statusCounts": {
-        "No response": 4,
-        "Awaiting reply (from us)": 10,
-        "Awaiting reply (from them)": 15,
-        "Resolved": 83,
-        "Informational": 90
-      },
+      "No response": 4,
+      "Awaiting reply (from us)": 10,
+      "Awaiting reply (from them)": 15,
+      "Resolved": 83,
+      "Informational": 90,
       "avgOpenDays": 13.9,
       "avgResolvedDays": 4.2
     },
     "support": {
       "total": 25,
-      "statusCounts": {
-        "No response": 3,
-        "Awaiting reply (from us)": 6,
-        "Awaiting reply (from them)": 6,
-        "Resolved": 9,
-        "Informational": 1
-      },
+      "No response": 3,
+      "Awaiting reply (from us)": 6,
+      "Awaiting reply (from them)": 6,
+      "Resolved": 9,
+      "Informational": 1,
       "avgOpenDays": 21.1,
       "avgResolvedDays": 19.9
     },
     "finance": {
       "total": 18,
-      "statusCounts": {
-        "No response": 2,
-        "Awaiting reply (from us)": 0,
-        "Awaiting reply (from them)": 1,
-        "Resolved": 5,
-        "Informational": 10
-      },
+      "No response": 2,
+      "Awaiting reply (from us)": 0,
+      "Awaiting reply (from them)": 1,
+      "Resolved": 5,
+      "Informational": 10,
       "avgOpenDays": 17.0,
       "avgResolvedDays": 4.0
     },
     "report": {
       "total": 10,
-      "statusCounts": {
-        "No response": 2,
-        "Awaiting reply (from us)": 0,
-        "Awaiting reply (from them)": 7,
-        "Resolved": 1,
-        "Informational": 0
-      },
+      "No response": 2,
+      "Awaiting reply (from us)": 1,
+      "Awaiting reply (from them)": 6,
+      "Resolved": 1,
+      "Informational": 0,
       "avgOpenDays": 18.6,
       "avgResolvedDays": 29.0
     },
     "partner": {
-      "total": 2,
-      "statusCounts": {
-        "No response": 0,
-        "Awaiting reply (from us)": 1,
-        "Awaiting reply (from them)": 0,
-        "Resolved": 1,
-        "Informational": 0
-      },
-      "avgOpenDays": 0.0,
+      "total": 4,
+      "No response": 0,
+      "Awaiting reply (from us)": 2,
+      "Awaiting reply (from them)": 0,
+      "Resolved": 1,
+      "Informational": 1,
+      "avgOpenDays": 5.5,
       "avgResolvedDays": 1.0
     },
     "tinkerspace": {
       "total": 0,
-      "statusCounts": {
-        "No response": 0,
-        "Awaiting reply (from us)": 0,
-        "Awaiting reply (from them)": 0,
-        "Resolved": 0,
-        "Informational": 0
-      },
+      "No response": 0,
+      "Awaiting reply (from us)": 0,
+      "Awaiting reply (from them)": 0,
+      "Resolved": 0,
+      "Informational": 0,
       "avgOpenDays": 0,
       "avgResolvedDays": 0
     }
