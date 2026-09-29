@@ -4512,61 +4512,73 @@ window.DASHBOARD_DATA = {
   "analytics": {
     "campus": {
       "total": 202,
-      "No response": 4,
-      "Awaiting reply (from us)": 10,
-      "Awaiting reply (from them)": 15,
-      "Resolved": 83,
-      "Informational": 90,
+      "statusCounts": {
+        "No response": 4,
+        "Awaiting reply (from us)": 10,
+        "Awaiting reply (from them)": 15,
+        "Resolved": 83,
+        "Informational": 90
+      },
       "avgOpenDays": 13.9,
       "avgResolvedDays": 4.2
     },
     "support": {
       "total": 25,
-      "No response": 3,
-      "Awaiting reply (from us)": 6,
-      "Awaiting reply (from them)": 6,
-      "Resolved": 9,
-      "Informational": 1,
+      "statusCounts": {
+        "No response": 3,
+        "Awaiting reply (from us)": 6,
+        "Awaiting reply (from them)": 6,
+        "Resolved": 9,
+        "Informational": 1
+      },
       "avgOpenDays": 21.1,
       "avgResolvedDays": 19.9
     },
     "finance": {
       "total": 18,
-      "No response": 2,
-      "Awaiting reply (from us)": 0,
-      "Awaiting reply (from them)": 1,
-      "Resolved": 5,
-      "Informational": 10,
+      "statusCounts": {
+        "No response": 2,
+        "Awaiting reply (from us)": 0,
+        "Awaiting reply (from them)": 1,
+        "Resolved": 5,
+        "Informational": 10
+      },
       "avgOpenDays": 17.0,
       "avgResolvedDays": 4.0
     },
     "report": {
       "total": 10,
-      "No response": 2,
-      "Awaiting reply (from us)": 1,
-      "Awaiting reply (from them)": 6,
-      "Resolved": 1,
-      "Informational": 0,
+      "statusCounts": {
+        "No response": 2,
+        "Awaiting reply (from us)": 1,
+        "Awaiting reply (from them)": 6,
+        "Resolved": 1,
+        "Informational": 0
+      },
       "avgOpenDays": 18.6,
       "avgResolvedDays": 29.0
     },
     "partner": {
       "total": 4,
-      "No response": 0,
-      "Awaiting reply (from us)": 2,
-      "Awaiting reply (from them)": 0,
-      "Resolved": 1,
-      "Informational": 1,
+      "statusCounts": {
+        "No response": 0,
+        "Awaiting reply (from us)": 2,
+        "Awaiting reply (from them)": 0,
+        "Resolved": 1,
+        "Informational": 1
+      },
       "avgOpenDays": 5.5,
       "avgResolvedDays": 1.0
     },
     "tinkerspace": {
       "total": 0,
-      "No response": 0,
-      "Awaiting reply (from us)": 0,
-      "Awaiting reply (from them)": 0,
-      "Resolved": 0,
-      "Informational": 0,
+      "statusCounts": {
+        "No response": 0,
+        "Awaiting reply (from us)": 0,
+        "Awaiting reply (from them)": 0,
+        "Resolved": 0,
+        "Informational": 0
+      },
       "avgOpenDays": 0,
       "avgResolvedDays": 0
     }
