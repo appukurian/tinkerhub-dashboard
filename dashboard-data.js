@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-29T02:42:00Z",
+  "generatedAt": "2026-09-29T04:43:00Z",
   "threads": [
     {
       "id": "campus-94908d65e0",
@@ -2836,40 +2836,6 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "campus-637db6e506",
-      "threadId": "1a04e85cd64123b6",
-      "group": "campus",
-      "subject": "Updated invitation: Leads meet - useless projects",
-      "counterpart": "internal (Habeeb Rahman)",
-      "email": null,
-      "received": "2026-08-29",
-      "last": "2026-08-29",
-      "status": "Informational",
-      "note": "calendar invite update",
-      "daysOpen": 0,
-      "daysSinceReceived": 31,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-9dad90a85b",
-      "threadId": "1a04e78ccaed1738",
-      "group": "campus",
-      "subject": "Invitation: Leads meet - useless projects",
-      "counterpart": "internal (Habeeb Rahman)",
-      "email": null,
-      "received": "2026-08-29",
-      "last": "2026-08-29",
-      "status": "Informational",
-      "note": "calendar invite",
-      "daysOpen": 0,
-      "daysSinceReceived": 31,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
       "id": "support-f1271d7479",
       "threadId": "1a0d8874b3792ee0",
       "group": "support",
@@ -3328,13 +3294,14 @@ window.DASHBOARD_DATA = {
       "counterpart": "Sindhu Associates (S. Nandakumar)",
       "email": "hrdsss2007@gmail.com",
       "received": "2026-09-26",
-      "last": "2026-09-26",
-      "status": "No response",
-      "note": "September invoice received, payment not yet processed",
+      "last": "2026-09-29",
+      "status": "Resolved",
+      "note": "payment settled (Althaf confirmed bill paid 29 Sep)",
       "daysOpen": 3,
       "daysSinceReceived": 3,
       "cc": [
-        "finance@tinkerhub.org"
+        "finance@tinkerhub.org",
+        "johnson@tinkerhub.org"
       ]
     },
     {
@@ -4495,24 +4462,41 @@ window.DASHBOARD_DATA = {
       "daysOpen": 36,
       "daysSinceReceived": 36,
       "cc": []
+    },
+    {
+      "id": "partner-53d7574991",
+      "threadId": "1a0eb2de3273b285",
+      "group": "partner",
+      "subject": "Cosmo Hacks 2026: community partnership for TinkerHub Foundation",
+      "counterpart": "Pranav (Cosmo Hacks)",
+      "email": "cosmohacks2026@gmail.com",
+      "received": "2026-09-29",
+      "last": "2026-09-29",
+      "status": "Awaiting reply (from us)",
+      "note": "sponsorship/judge/promo ask for Cosmo Hacks hackathon; acknowledged, partner team to follow up",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "partner@tinkerhub.org"
+      ]
     }
   ],
   "summary": {
-    "No response": 11,
+    "No response": 10,
+    "Awaiting reply (from us)": 21,
     "Awaiting reply (from them)": 27,
-    "Resolved": 98,
-    "Informational": 103,
-    "Awaiting reply (from us)": 20
+    "Resolved": 99,
+    "Informational": 101
   },
   "analytics": {
     "campus": {
-      "total": 204,
+      "total": 202,
       "statusCounts": {
         "No response": 4,
+        "Awaiting reply (from us)": 10,
         "Awaiting reply (from them)": 15,
         "Resolved": 83,
-        "Informational": 92,
-        "Awaiting reply (from us)": 10
+        "Informational": 90
       },
       "avgOpenDays": 13.9,
       "avgResolvedDays": 4.2
@@ -4520,11 +4504,11 @@ window.DASHBOARD_DATA = {
     "support": {
       "total": 25,
       "statusCounts": {
+        "No response": 3,
         "Awaiting reply (from us)": 6,
-        "Informational": 1,
-        "Resolved": 9,
         "Awaiting reply (from them)": 6,
-        "No response": 3
+        "Resolved": 9,
+        "Informational": 1
       },
       "avgOpenDays": 21.1,
       "avgResolvedDays": 19.9
@@ -4532,31 +4516,32 @@ window.DASHBOARD_DATA = {
     "finance": {
       "total": 18,
       "statusCounts": {
-        "No response": 3,
-        "Informational": 10,
-        "Resolved": 4,
-        "Awaiting reply (from them)": 1
+        "No response": 2,
+        "Awaiting reply (from them)": 1,
+        "Resolved": 5,
+        "Informational": 10
       },
-      "avgOpenDays": 13.5,
-      "avgResolvedDays": 4.2
+      "avgOpenDays": 17.0,
+      "avgResolvedDays": 4.0
     },
     "report": {
       "total": 11,
       "statusCounts": {
+        "No response": 1,
         "Awaiting reply (from us)": 4,
-        "Resolved": 1,
         "Awaiting reply (from them)": 5,
-        "No response": 1
+        "Resolved": 1
       },
       "avgOpenDays": 20.3,
       "avgResolvedDays": 29.0
     },
     "partner": {
-      "total": 1,
+      "total": 2,
       "statusCounts": {
+        "Awaiting reply (from us)": 1,
         "Resolved": 1
       },
-      "avgOpenDays": 0,
+      "avgOpenDays": 0.0,
       "avgResolvedDays": 1.0
     },
     "tinkerspace": {
