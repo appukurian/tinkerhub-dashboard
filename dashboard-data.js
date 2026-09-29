@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-29T15:29:00Z",
+  "generatedAt": "2026-09-29T16:43:48Z",
   "threads": [
     {
       "id": "campus-94908d65e0",
@@ -2750,23 +2750,6 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "campus-44af9096d6",
-      "threadId": "1a0534984c6add64",
-      "group": "campus",
-      "subject": "Increasing Number of Slots in Useless Projects",
-      "counterpart": "Ashish (MACE)",
-      "email": "ashishmathewpanakkal9c@gmail.com",
-      "received": "2026-08-30",
-      "last": "2026-08-30",
-      "status": "Resolved",
-      "note": "slots increased to 80 at MACE",
-      "daysOpen": 0,
-      "daysSinceReceived": 30,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
       "id": "campus-d680b2fe13",
       "threadId": "1a05323f780838ae",
       "group": "campus",
@@ -2795,23 +2778,6 @@ window.DASHBOARD_DATA = {
       "status": "Resolved",
       "note": "Approved Sep 11 daytime slot for event",
       "daysOpen": 2,
-      "daysSinceReceived": 30,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-511c8eb002",
-      "threadId": "1a051c89f70f5d8d",
-      "group": "campus",
-      "subject": "Invitation: Dry run -ulp",
-      "counterpart": "internal (Habeeb Rahman)",
-      "email": null,
-      "received": "2026-08-30",
-      "last": "2026-08-30",
-      "status": "Informational",
-      "note": "calendar invite",
-      "daysOpen": 0,
       "daysSinceReceived": 30,
       "cc": [
         "campus@tinkerhub.org"
@@ -4506,79 +4472,67 @@ window.DASHBOARD_DATA = {
     "No response": 11,
     "Awaiting reply (from us)": 19,
     "Awaiting reply (from them)": 28,
-    "Resolved": 99,
-    "Informational": 102
+    "Resolved": 98,
+    "Informational": 101
   },
   "analytics": {
     "campus": {
-      "total": 202,
-      "statusCounts": {
-        "No response": 4,
-        "Awaiting reply (from us)": 10,
-        "Awaiting reply (from them)": 15,
-        "Resolved": 83,
-        "Informational": 90
-      },
+      "total": 200,
+      "No response": 4,
+      "Awaiting reply (from us)": 10,
+      "Awaiting reply (from them)": 15,
+      "Resolved": 82,
+      "Informational": 89,
       "avgOpenDays": 13.9,
       "avgResolvedDays": 4.2
     },
     "support": {
       "total": 25,
-      "statusCounts": {
-        "No response": 3,
-        "Awaiting reply (from us)": 6,
-        "Awaiting reply (from them)": 6,
-        "Resolved": 9,
-        "Informational": 1
-      },
+      "No response": 3,
+      "Awaiting reply (from us)": 6,
+      "Awaiting reply (from them)": 6,
+      "Resolved": 9,
+      "Informational": 1,
       "avgOpenDays": 21.1,
       "avgResolvedDays": 19.9
     },
     "finance": {
       "total": 18,
-      "statusCounts": {
-        "No response": 2,
-        "Awaiting reply (from us)": 0,
-        "Awaiting reply (from them)": 1,
-        "Resolved": 5,
-        "Informational": 10
-      },
+      "No response": 2,
+      "Awaiting reply (from us)": 0,
+      "Awaiting reply (from them)": 1,
+      "Resolved": 5,
+      "Informational": 10,
       "avgOpenDays": 17.0,
       "avgResolvedDays": 4.0
     },
     "report": {
       "total": 10,
-      "statusCounts": {
-        "No response": 2,
-        "Awaiting reply (from us)": 1,
-        "Awaiting reply (from them)": 6,
-        "Resolved": 1,
-        "Informational": 0
-      },
+      "No response": 2,
+      "Awaiting reply (from us)": 1,
+      "Awaiting reply (from them)": 6,
+      "Resolved": 1,
+      "Informational": 0,
       "avgOpenDays": 18.6,
       "avgResolvedDays": 29.0
     },
     "partner": {
       "total": 4,
-      "statusCounts": {
-        "No response": 0,
-        "Awaiting reply (from us)": 2,
-        "Awaiting reply (from them)": 0,
-        "Resolved": 1,
-        "Informational": 1
-      },
+      "No response": 0,
+      "Awaiting reply (from us)": 2,
+      "Awaiting reply (from them)": 0,
+      "Resolved": 1,
+      "Informational": 1,
       "avgOpenDays": 5.5,
       "avgResolvedDays": 1.0
     },
     "tinkerspace": {
       "total": 0,
-      "statusCounts": {
-        "No response": 0,
-        "Awaiting reply (from us)": 0,
-        "Awaiting reply (from them)": 0,
-        "Resolved": 0,
-        "Informational": 0
-      },
+      "No response": 0,
+      "Awaiting reply (from us)": 0,
+      "Awaiting reply (from them)": 0,
+      "Resolved": 0,
+      "Informational": 0,
       "avgOpenDays": 0,
       "avgResolvedDays": 0
     }
