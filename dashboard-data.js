@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-30T14:43:00Z",
+  "generatedAt": "2026-09-30T16:43:00Z",
   "threads": [
     {
       "id": "campus-94908d65e0",
@@ -4497,7 +4497,7 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Awaiting reply (from them)",
+      "status": "Awaiting reply (from us)",
       "note": null,
       "daysOpen": 26,
       "daysSinceReceived": 26,
@@ -4521,8 +4521,8 @@ window.DASHBOARD_DATA = {
   ],
   "summary": {
     "No response": 6,
-    "Awaiting reply (from us)": 16,
-    "Awaiting reply (from them)": 35,
+    "Awaiting reply (from us)": 17,
+    "Awaiting reply (from them)": 34,
     "Resolved": 100,
     "Informational": 103
   },
@@ -4554,18 +4554,18 @@ window.DASHBOARD_DATA = {
       "Awaiting reply (from them)": 1,
       "Resolved": 6,
       "Informational": 11,
-      "avgOpenDays": 26.0,
+      "avgOpenDays": 26,
       "avgResolvedDays": 3.7
     },
     "report": {
       "total": 10,
       "No response": 1,
-      "Awaiting reply (from us)": 0,
-      "Awaiting reply (from them)": 8,
+      "Awaiting reply (from us)": 1,
+      "Awaiting reply (from them)": 7,
       "Resolved": 1,
       "Informational": 0,
       "avgOpenDays": 19.6,
-      "avgResolvedDays": 29.0
+      "avgResolvedDays": 29
     },
     "partner": {
       "total": 4,
@@ -4575,7 +4575,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 1,
       "avgOpenDays": 6.5,
-      "avgResolvedDays": 1.0
+      "avgResolvedDays": 1
     },
     "tinkerspace": {
       "total": 0,
