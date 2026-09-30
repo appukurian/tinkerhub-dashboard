@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-30T06:43:17Z",
+  "generatedAt": "2026-09-30T08:43:13Z",
   "threads": [
     {
       "id": "campus-94908d65e0",
@@ -3242,9 +3242,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "Chinnu Susan Varghese",
       "email": "chinnnu.susan@gmail.com",
       "received": "2026-09-28",
-      "last": "2026-09-28",
-      "status": "No response",
-      "note": "September invoice received, payment not yet processed",
+      "last": "2026-09-30",
+      "status": "Resolved",
+      "note": "payment settled 09-30 (Althaf confirmed paid)",
       "daysOpen": 2,
       "daysSinceReceived": 2,
       "cc": [
@@ -4255,9 +4255,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "Gowripriya M J (Campus Lead, TinkerHub RIT)",
       "email": "gpmj2006@gmail.com",
       "received": "2026-09-29",
-      "last": "2026-09-29",
-      "status": "No response",
-      "note": "asks to extend FYC selection deadline to Oct 15 - we owe a decision",
+      "last": "2026-09-30",
+      "status": "Awaiting reply (from them)",
+      "note": "FYC deadline extension to Oct 15 approved by Femina; awaiting completion update",
       "daysOpen": 1,
       "daysSinceReceived": 1,
       "cc": [
@@ -4486,18 +4486,18 @@ window.DASHBOARD_DATA = {
     }
   ],
   "summary": {
-    "No response": 8,
+    "No response": 6,
     "Awaiting reply (from us)": 19,
-    "Awaiting reply (from them)": 30,
-    "Resolved": 99,
+    "Awaiting reply (from them)": 31,
+    "Resolved": 100,
     "Informational": 102
   },
   "analytics": {
     "campus": {
       "total": 201,
-      "No response": 1,
+      "No response": 0,
       "Awaiting reply (from us)": 10,
-      "Awaiting reply (from them)": 17,
+      "Awaiting reply (from them)": 18,
       "Resolved": 83,
       "Informational": 90,
       "avgOpenDays": 15.0,
@@ -4515,13 +4515,13 @@ window.DASHBOARD_DATA = {
     },
     "finance": {
       "total": 18,
-      "No response": 2,
+      "No response": 1,
       "Awaiting reply (from us)": 0,
       "Awaiting reply (from them)": 1,
-      "Resolved": 5,
+      "Resolved": 6,
       "Informational": 10,
-      "avgOpenDays": 18.0,
-      "avgResolvedDays": 4.0
+      "avgOpenDays": 26.0,
+      "avgResolvedDays": 3.7
     },
     "report": {
       "total": 10,
