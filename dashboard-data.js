@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-30T02:43:00Z",
+  "generatedAt": "2026-09-30T04:42:52Z",
   "threads": [
     {
       "id": "campus-94908d65e0",
@@ -4470,10 +4470,10 @@ window.DASHBOARD_DATA = {
   ],
   "summary": {
     "No response": 11,
-    "Awaiting reply (from us)": 19,
     "Awaiting reply (from them)": 28,
     "Resolved": 98,
-    "Informational": 101
+    "Informational": 101,
+    "Awaiting reply (from us)": 19
   },
   "analytics": {
     "campus": {
