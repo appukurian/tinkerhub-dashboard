@@ -1,8 +1,31 @@
 // Auto-generated daily by .github/workflows/discord-update.yml
 // Do NOT hand-edit — this file is overwritten on each run.
 window.DISCORD_DATA = {
-  "generatedAt": "2026-09-30T16:28:16Z",
+  "generatedAt": "2026-09-30T20:56:23Z",
   "threads": [
+    {
+      "id": "1554925142788939918",
+      "name": "Outreach Lead change \u203c\ufe0f",
+      "url": "https://discord.com/channels/735180366297563257/1554925142788939918",
+      "status": "No response",
+      "category": "Other",
+      "requester": "sreyaaaas_here",
+      "received": "2026-09-30",
+      "last": "2026-09-30",
+      "resolvedAt": "2026-09-30",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "daysToClose": 0,
+      "messageCount": 0,
+      "archived": false,
+      "locked": false,
+      "resolutionSnippet": "",
+      "suggestion": {
+        "fromThreadName": "Outreach lead not in group",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543296376568283166",
+        "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
+      }
+    },
     {
       "id": "1554881058355282002",
       "name": "Not Able to Update FYC",
@@ -92,29 +115,6 @@ window.DISCORD_DATA = {
       }
     },
     {
-      "id": "1551448989692469379",
-      "name": "Event conducted, but couldn't check in cause of delayed event approval.",
-      "url": "https://discord.com/channels/735180366297563257/1551448989692469379",
-      "status": "No response",
-      "category": "Event/Activity check-in & reporting",
-      "requester": "GoStark\ud83d\ude36\ud83c\udf2b",
-      "received": "2026-09-21",
-      "last": "2026-09-24",
-      "resolvedAt": "2026-09-21",
-      "daysOpen": 6,
-      "daysSinceReceived": 9,
-      "daysToClose": 0,
-      "messageCount": 1,
-      "archived": false,
-      "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Want to create  event",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541431040457965598",
-        "snippet": "For reviewing <@1392046495535988836> <@1012977379209125908>"
-      }
-    },
-    {
       "id": "1552246987120967762",
       "name": "OTP not receiving while app  onboarding",
       "url": "https://discord.com/channels/735180366297563257/1552246987120967762",
@@ -132,9 +132,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "A student with mobile no 7907992915 is unable to get otp while login",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543578074950533251",
-        "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
+        "fromThreadName": "failed to sent otp",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544023195450089562",
+        "snippet": "<@1012977379209125908> Can you please solve the issue as vouching session is planned for tomorrow"
       }
     },
     {
@@ -158,6 +158,29 @@ window.DISCORD_DATA = {
         "fromThreadName": "WIT can't access discord",
         "fromThreadUrl": "https://discord.com/channels/735180366297563257/1538926654057877616",
         "snippet": "<@1012977379209125908> could you please add another account to server? maybe give the invite link. i think shes lost access to the one in the server currently"
+      }
+    },
+    {
+      "id": "1551448989692469379",
+      "name": "Event conducted, but couldn't check in cause of delayed event approval.",
+      "url": "https://discord.com/channels/735180366297563257/1551448989692469379",
+      "status": "No response",
+      "category": "Event/Activity check-in & reporting",
+      "requester": "GoStark\ud83d\ude36\ud83c\udf2b",
+      "received": "2026-09-21",
+      "last": "2026-09-21",
+      "resolvedAt": "2026-09-21",
+      "daysOpen": 9,
+      "daysSinceReceived": 9,
+      "daysToClose": 0,
+      "messageCount": 1,
+      "archived": false,
+      "locked": false,
+      "resolutionSnippet": "",
+      "suggestion": {
+        "fromThreadName": "Want to create  event",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541431040457965598",
+        "snippet": "For reviewing <@1392046495535988836> <@1012977379209125908>"
       }
     },
     {
@@ -212,8 +235,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-19",
       "last": "2026-09-19",
       "resolvedAt": "2026-09-19",
-      "daysOpen": 10,
-      "daysSinceReceived": 10,
+      "daysOpen": 11,
+      "daysSinceReceived": 11,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -282,7 +305,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-16",
       "resolvedAt": "2026-09-13",
       "daysOpen": 14,
-      "daysSinceReceived": 16,
+      "daysSinceReceived": 17,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -331,9 +354,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "A student with mobile no 7907992915 is unable to get otp while login",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543578074950533251",
-        "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
+        "fromThreadName": "failed to sent otp",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544023195450089562",
+        "snippet": "<@1012977379209125908> Can you please solve the issue as vouching session is planned for tomorrow"
       }
     },
     {
@@ -347,7 +370,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-15",
       "resolvedAt": "2026-09-11",
       "daysOpen": 15,
-      "daysSinceReceived": 18,
+      "daysSinceReceived": 19,
       "daysToClose": 0,
       "messageCount": 4,
       "archived": false,
@@ -415,9 +438,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "A student with mobile no 7907992915 is unable to get otp while login",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543578074950533251",
-        "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
+        "fromThreadName": "failed to sent otp",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544023195450089562",
+        "snippet": "<@1012977379209125908> Can you please solve the issue as vouching session is planned for tomorrow"
       }
     },
     {
@@ -438,9 +461,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "A student with mobile no 7907992915 is unable to get otp while login",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543578074950533251",
-        "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
+        "fromThreadName": "failed to sent otp",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544023195450089562",
+        "snippet": "<@1012977379209125908> Can you please solve the issue as vouching session is planned for tomorrow"
       }
     },
     {
@@ -476,7 +499,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-08",
       "last": "2026-09-11",
       "resolvedAt": "2026-09-08",
-      "daysOpen": 18,
+      "daysOpen": 19,
       "daysSinceReceived": 22,
       "daysToClose": 0,
       "messageCount": 6,
@@ -606,9 +629,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "A student with mobile no 7907992915 is unable to get otp while login",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543578074950533251",
-        "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
+        "fromThreadName": "failed to sent otp",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544023195450089562",
+        "snippet": "<@1012977379209125908> Can you please solve the issue as vouching session is planned for tomorrow"
       }
     },
     {
@@ -667,9 +690,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "A student with mobile no 7907992915 is unable to get otp while login",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543578074950533251",
-        "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
+        "fromThreadName": "failed to sent otp",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544023195450089562",
+        "snippet": "<@1012977379209125908> Can you please solve the issue as vouching session is planned for tomorrow"
       }
     },
     {
@@ -728,7 +751,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 20,
+      "daysOpen": 21,
       "daysSinceReceived": 21,
       "daysToClose": 0,
       "messageCount": 2,
@@ -736,9 +759,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "A student with mobile no 7907992915 is unable to get otp while login",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543578074950533251",
-        "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
+        "fromThreadName": "failed to sent otp",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544023195450089562",
+        "snippet": "<@1012977379209125908> Can you please solve the issue as vouching session is planned for tomorrow"
       }
     },
     {
@@ -774,7 +797,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-04",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-04",
-      "daysOpen": 20,
+      "daysOpen": 21,
       "daysSinceReceived": 26,
       "daysToClose": 0,
       "messageCount": 2,
@@ -797,8 +820,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-08",
       "last": "2026-09-08",
       "resolvedAt": "2026-09-08",
-      "daysOpen": 21,
-      "daysSinceReceived": 21,
+      "daysOpen": 22,
+      "daysSinceReceived": 22,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -840,16 +863,16 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-09-07",
       "daysOpen": 22,
-      "daysSinceReceived": 22,
+      "daysSinceReceived": 23,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "A student with mobile no 7907992915 is unable to get otp while login",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543578074950533251",
-        "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
+        "fromThreadName": "failed to sent otp",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544023195450089562",
+        "snippet": "<@1012977379209125908> Can you please solve the issue as vouching session is planned for tomorrow"
       }
     },
     {
@@ -863,7 +886,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-09-07",
       "daysOpen": 22,
-      "daysSinceReceived": 22,
+      "daysSinceReceived": 23,
       "daysToClose": 0,
       "messageCount": 5,
       "archived": false,
@@ -893,9 +916,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "A student with mobile no 7907992915 is unable to get otp while login",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543578074950533251",
-        "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
+        "fromThreadName": "failed to sent otp",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544023195450089562",
+        "snippet": "<@1012977379209125908> Can you please solve the issue as vouching session is planned for tomorrow"
       }
     },
     {
@@ -916,9 +939,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "A student with mobile no 7907992915 is unable to get otp while login",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543578074950533251",
-        "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
+        "fromThreadName": "failed to sent otp",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544023195450089562",
+        "snippet": "<@1012977379209125908> Can you please solve the issue as vouching session is planned for tomorrow"
       }
     },
     {
@@ -962,9 +985,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "A student with mobile no 7907992915 is unable to get otp while login",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543578074950533251",
-        "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
+        "fromThreadName": "failed to sent otp",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544023195450089562",
+        "snippet": "<@1012977379209125908> Can you please solve the issue as vouching session is planned for tomorrow"
       }
     },
     {
@@ -1085,7 +1108,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-07",
       "resolvedAt": "2026-09-01",
       "daysOpen": 23,
-      "daysSinceReceived": 28,
+      "daysSinceReceived": 29,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -1210,7 +1233,7 @@ window.DISCORD_DATA = {
       "received": "2026-08-29",
       "last": "2026-09-04",
       "resolvedAt": "2026-08-29",
-      "daysOpen": 25,
+      "daysOpen": 26,
       "daysSinceReceived": 32,
       "daysToClose": 0,
       "messageCount": 4,
@@ -1233,8 +1256,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-03",
       "last": "2026-09-03",
       "resolvedAt": "2026-09-03",
-      "daysOpen": 26,
-      "daysSinceReceived": 26,
+      "daysOpen": 27,
+      "daysSinceReceived": 27,
       "daysToClose": 0,
       "messageCount": 3,
       "archived": false,
@@ -1279,8 +1302,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-01",
       "last": "2026-09-01",
       "resolvedAt": "2026-09-01",
-      "daysOpen": 28,
-      "daysSinceReceived": 28,
+      "daysOpen": 29,
+      "daysSinceReceived": 29,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -1329,33 +1352,29 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "A student with mobile no 7907992915 is unable to get otp while login",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543578074950533251",
-        "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
+        "fromThreadName": "failed to sent otp",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544023195450089562",
+        "snippet": "<@1012977379209125908> Can you please solve the issue as vouching session is planned for tomorrow"
       }
     },
     {
       "id": "1544023195450089562",
       "name": "failed to sent otp",
       "url": "https://discord.com/channels/735180366297563257/1544023195450089562",
-      "status": "No response",
+      "status": "Resolved",
       "category": "OTP / Login issues",
       "requester": "Ashish",
       "received": "2026-08-31",
       "last": "2026-08-31",
-      "resolvedAt": "2026-08-31",
-      "daysOpen": 29,
-      "daysSinceReceived": 29,
-      "daysToClose": 0,
+      "resolvedAt": "2026-09-30",
+      "daysOpen": 30,
+      "daysSinceReceived": 30,
+      "daysToClose": 30,
       "messageCount": 0,
-      "archived": false,
+      "archived": true,
       "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "A student with mobile no 7907992915 is unable to get otp while login",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543578074950533251",
-        "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
-      }
+      "resolutionSnippet": "<@1012977379209125908> Can you please solve the issue as vouching session is planned for tomorrow",
+      "suggestion": null
     },
     {
       "id": "1543849798845857882",
@@ -13180,9 +13199,9 @@ window.DISCORD_DATA = {
     "No response": 30,
     "Awaiting reply (from us)": 18,
     "Awaiting reply (from them)": 12,
-    "Resolved": 624
+    "Resolved": 625
   },
-  "avgOpenDays": 18.4,
+  "avgOpenDays": 18.1,
   "avgDaysToClose": 12.3,
   "topCategories": [
     {
@@ -13191,7 +13210,7 @@ window.DISCORD_DATA = {
     },
     {
       "category": "Other",
-      "count": 135
+      "count": 136
     },
     {
       "category": "OTP / Login issues",
