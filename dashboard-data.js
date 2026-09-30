@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-30T10:42:54Z",
+  "generatedAt": "2026-09-30T12:50:00Z",
   "threads": [
     {
       "id": "campus-94908d65e0",
@@ -2809,9 +2809,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "Nihal T",
       "email": "nihal.chiyoor@gmail.com",
       "received": "2026-09-25",
-      "last": "2026-09-28",
-      "status": "Awaiting reply (from us)",
-      "note": "looped in support team; campus/degree college fix pending",
+      "last": "2026-09-30",
+      "status": "Awaiting reply (from them)",
+      "note": "replied 09-30 with update; awaiting confirmation",
       "daysOpen": 5,
       "daysSinceReceived": 5,
       "cc": [
@@ -2826,9 +2826,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "Arjun Sabu",
       "email": "greninjadotdev@gmail.com",
       "received": "2026-09-26",
-      "last": "2026-09-28",
-      "status": "Awaiting reply (from us)",
-      "note": "college missing from Layover Hackathon registration list",
+      "last": "2026-09-30",
+      "status": "Awaiting reply (from them)",
+      "note": "replied 09-30 re college addition; awaiting confirmation",
       "daysOpen": 4,
       "daysSinceReceived": 4,
       "cc": [
@@ -4483,31 +4483,63 @@ window.DASHBOARD_DATA = {
       "cc": [
         "campus@tinkerhub.org"
       ]
+    },
+    {
+      "id": "campus-7942be3126",
+      "threadId": "1a0f23b8b2b69839",
+      "group": "campus",
+      "subject": "Request to Change Campus Outreach Lead",
+      "counterpart": "Mevin Aby Manu (Campus Lead, TinkerHub MBCCET)",
+      "email": "mevinmanu04@gmail.com",
+      "received": "2026-09-30",
+      "last": "2026-09-30",
+      "status": "No response",
+      "note": "asks approval to replace Outreach Lead at MBCCET",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "report-9691bdbb2d",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Awaiting reply (from us)",
+      "note": null,
+      "daysOpen": 2,
+      "daysSinceReceived": 2,
+      "cc": []
     }
   ],
   "summary": {
-    "No response": 6,
-    "Awaiting reply (from us)": 19,
-    "Awaiting reply (from them)": 31,
+    "No response": 7,
+    "Awaiting reply (from us)": 18,
+    "Awaiting reply (from them)": 33,
     "Resolved": 100,
     "Informational": 102
   },
   "analytics": {
     "campus": {
-      "total": 201,
-      "No response": 0,
+      "total": 202,
+      "No response": 1,
       "Awaiting reply (from us)": 10,
       "Awaiting reply (from them)": 18,
       "Resolved": 83,
       "Informational": 90,
-      "avgOpenDays": 15.0,
+      "avgOpenDays": 14.4,
       "avgResolvedDays": 4.3
     },
     "support": {
       "total": 25,
       "No response": 3,
-      "Awaiting reply (from us)": 6,
-      "Awaiting reply (from them)": 6,
+      "Awaiting reply (from us)": 4,
+      "Awaiting reply (from them)": 8,
       "Resolved": 9,
       "Informational": 1,
       "avgOpenDays": 22.1,
@@ -4524,13 +4556,13 @@ window.DASHBOARD_DATA = {
       "avgResolvedDays": 3.7
     },
     "report": {
-      "total": 10,
+      "total": 11,
       "No response": 2,
-      "Awaiting reply (from us)": 1,
+      "Awaiting reply (from us)": 2,
       "Awaiting reply (from them)": 6,
       "Resolved": 1,
       "Informational": 0,
-      "avgOpenDays": 19.6,
+      "avgOpenDays": 17.8,
       "avgResolvedDays": 29.0
     },
     "partner": {
