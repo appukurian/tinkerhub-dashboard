@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-09-30T04:42:52Z",
+  "generatedAt": "2026-09-30T06:43:17Z",
   "threads": [
     {
       "id": "campus-94908d65e0",
@@ -9,9 +9,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "Anna Rachel Biju (WIT Lead, TinkerHub BMCE)",
       "email": "annarachelbiju990@gmail.com",
       "received": "2026-09-28",
-      "last": "2026-09-28",
-      "status": "No response",
-      "note": "WIT Lead resignation notice - needs acknowledgment",
+      "last": "2026-09-30",
+      "status": "Awaiting reply (from them)",
+      "note": "WIT Lead resignation; Femina asked for meeting date/time",
       "daysOpen": 2,
       "daysSinceReceived": 2,
       "cc": [
@@ -26,9 +26,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "Niranjan S Das (IEEE Photonics Society Kerala Chapter)",
       "email": "niranjansdas@ug.cusat.ac.in",
       "received": "2026-09-18",
-      "last": "2026-09-28",
-      "status": "Awaiting reply (from them)",
-      "note": "replied same day; awaiting details on trainer/venue",
+      "last": "2026-09-30",
+      "status": "Resolved",
+      "note": "closed out by Kurian 09-30",
       "daysOpen": 12,
       "daysSinceReceived": 12,
       "cc": [
@@ -43,9 +43,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "Harikrishnan V (TKM College of Engineering)",
       "email": "harikrishnanv2006@gmail.com",
       "received": "2026-09-27",
-      "last": "2026-09-27",
-      "status": "No response",
-      "note": "requesting FYC extension; flagged WIT lead's possible resignation",
+      "last": "2026-09-30",
+      "status": "Awaiting reply (from them)",
+      "note": "FYC extension approved to Oct 25; awaiting WIT lead Sruthi's decision",
       "daysOpen": 3,
       "daysSinceReceived": 3,
       "cc": [
@@ -60,9 +60,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "Sidrah (TinkerHub MAMOC)",
       "email": "sidrahaysha@gmail.com",
       "received": "2026-09-26",
-      "last": "2026-09-26",
-      "status": "No response",
-      "note": "Final Top 5 winners submitted for Useless Projects 3.0",
+      "last": "2026-09-30",
+      "status": "Awaiting reply (from them)",
+      "note": "asked whether tech-issues form was filled",
       "daysOpen": 4,
       "daysSinceReceived": 4,
       "cc": [
@@ -4466,25 +4466,42 @@ window.DASHBOARD_DATA = {
       "cc": [
         "partner@tinkerhub.org"
       ]
+    },
+    {
+      "id": "campus-ff034210d2",
+      "threadId": "1a0f0d4f4431521e",
+      "group": "campus",
+      "subject": "Updated invitation: Campus @ Weekly from 8am to 9am on Wednesday from Wed Jun 3 to Tue Sep 29 (IST) (Kurian Jacob)",
+      "counterpart": "Arundhathi Krishna (internal)",
+      "email": null,
+      "received": "2026-09-30",
+      "last": "2026-09-30",
+      "status": "Informational",
+      "note": "calendar invite update (weekly Campus meeting)",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     }
   ],
   "summary": {
-    "No response": 11,
-    "Awaiting reply (from them)": 28,
-    "Resolved": 98,
-    "Informational": 101,
-    "Awaiting reply (from us)": 19
+    "No response": 8,
+    "Awaiting reply (from us)": 19,
+    "Awaiting reply (from them)": 30,
+    "Resolved": 99,
+    "Informational": 102
   },
   "analytics": {
     "campus": {
-      "total": 200,
-      "No response": 4,
+      "total": 201,
+      "No response": 1,
       "Awaiting reply (from us)": 10,
-      "Awaiting reply (from them)": 15,
-      "Resolved": 82,
-      "Informational": 89,
-      "avgOpenDays": 14.9,
-      "avgResolvedDays": 4.2
+      "Awaiting reply (from them)": 17,
+      "Resolved": 83,
+      "Informational": 90,
+      "avgOpenDays": 15.0,
+      "avgResolvedDays": 4.3
     },
     "support": {
       "total": 25,
@@ -4503,8 +4520,8 @@ window.DASHBOARD_DATA = {
       "Awaiting reply (from them)": 1,
       "Resolved": 5,
       "Informational": 10,
-      "avgOpenDays": 18,
-      "avgResolvedDays": 4
+      "avgOpenDays": 18.0,
+      "avgResolvedDays": 4.0
     },
     "report": {
       "total": 10,
@@ -4514,7 +4531,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 0,
       "avgOpenDays": 19.6,
-      "avgResolvedDays": 29
+      "avgResolvedDays": 29.0
     },
     "partner": {
       "total": 4,
@@ -4524,7 +4541,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 1,
       "avgOpenDays": 6.5,
-      "avgResolvedDays": 1
+      "avgResolvedDays": 1.0
     },
     "tinkerspace": {
       "total": 0,
