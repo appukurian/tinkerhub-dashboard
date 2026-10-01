@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-01T02:43:00Z",
+  "generatedAt": "2026-10-01T04:44:00Z",
   "threads": [
     {
       "id": "campus-94908d65e0",
@@ -4334,6 +4334,57 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
+      "id": "finance-1cb3eb4697",
+      "threadId": "1a0f587800451737",
+      "group": "finance",
+      "subject": "Jio Business Login OTP",
+      "counterpart": "Jio (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated Jio Business signup/OTP email",
+      "cc": [
+        "finance@tinkerhub.org"
+      ],
+      "daysSinceReceived": 0,
+      "daysOpen": 0
+    },
+    {
+      "id": "finance-75a0fb4b9e",
+      "threadId": "1a0f5872ceb27389",
+      "group": "finance",
+      "subject": "Email Verification",
+      "counterpart": "Jio (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated Jio Business signup/OTP email",
+      "cc": [
+        "finance@tinkerhub.org"
+      ],
+      "daysSinceReceived": 0,
+      "daysOpen": 0
+    },
+    {
+      "id": "finance-1943a05f6f",
+      "threadId": "1a0f5864c084a279",
+      "group": "finance",
+      "subject": "JioBusiness Self-Care account activation",
+      "counterpart": "Jio (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated Jio Business signup/OTP email",
+      "cc": [
+        "finance@tinkerhub.org"
+      ],
+      "daysSinceReceived": 0,
+      "daysOpen": 0
+    },
+    {
       "id": "report-11d03bbb9a",
       "threadId": null,
       "group": "report",
@@ -4482,14 +4533,29 @@ window.DASHBOARD_DATA = {
       "daysOpen": 29,
       "daysSinceReceived": 29,
       "cc": []
+    },
+    {
+      "id": "report-7608a88b9f",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Awaiting reply (from them)",
+      "note": null,
+      "daysOpen": 38,
+      "daysSinceReceived": 38,
+      "cc": []
     }
   ],
   "summary": {
     "No response": 6,
     "Awaiting reply (from us)": 22,
-    "Awaiting reply (from them)": 29,
+    "Awaiting reply (from them)": 30,
     "Resolved": 99,
-    "Informational": 102
+    "Informational": 105
   },
   "analytics": {
     "campus": {
@@ -4513,24 +4579,24 @@ window.DASHBOARD_DATA = {
       "avgResolvedDays": 19.9
     },
     "finance": {
-      "total": 18,
+      "total": 21,
       "No response": 1,
       "Awaiting reply (from us)": 0,
       "Awaiting reply (from them)": 1,
       "Resolved": 5,
-      "Informational": 11,
-      "avgOpenDays": 27.0,
+      "Informational": 14,
+      "avgOpenDays": 27,
       "avgResolvedDays": 4.4
     },
     "report": {
-      "total": 10,
+      "total": 11,
       "No response": 1,
       "Awaiting reply (from us)": 4,
-      "Awaiting reply (from them)": 4,
+      "Awaiting reply (from them)": 5,
       "Resolved": 1,
       "Informational": 0,
-      "avgOpenDays": 20.6,
-      "avgResolvedDays": 29.0
+      "avgOpenDays": 22.3,
+      "avgResolvedDays": 29
     },
     "partner": {
       "total": 4,
@@ -4540,7 +4606,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 1,
       "avgOpenDays": 7.5,
-      "avgResolvedDays": 1.0
+      "avgResolvedDays": 1
     },
     "tinkerspace": {
       "total": 0,
