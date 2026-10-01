@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-01T08:43:22Z",
+  "generatedAt": "2026-10-01T10:43:22Z",
   "threads": [
     {
       "id": "campus-94908d65e0",
@@ -4548,10 +4548,25 @@ window.DASHBOARD_DATA = {
       "daysOpen": 38,
       "daysSinceReceived": 38,
       "cc": []
+    },
+    {
+      "id": "report-592cad1439",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "No response",
+      "note": null,
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": []
     }
   ],
   "summary": {
-    "No response": 5,
+    "No response": 6,
     "Awaiting reply (from us)": 22,
     "Awaiting reply (from them)": 31,
     "Resolved": 99,
@@ -4589,13 +4604,13 @@ window.DASHBOARD_DATA = {
       "avgResolvedDays": 4.4
     },
     "report": {
-      "total": 11,
-      "No response": 1,
+      "total": 12,
+      "No response": 2,
       "Awaiting reply (from us)": 4,
       "Awaiting reply (from them)": 5,
       "Resolved": 1,
       "Informational": 0,
-      "avgOpenDays": 22.3,
+      "avgOpenDays": 20.3,
       "avgResolvedDays": 29
     },
     "partner": {
