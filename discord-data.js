@@ -1,8 +1,27 @@
 // Auto-generated daily by .github/workflows/discord-update.yml
 // Do NOT hand-edit — this file is overwritten on each run.
 window.DISCORD_DATA = {
-  "generatedAt": "2026-10-01T09:12:36Z",
+  "generatedAt": "2026-10-01T17:05:28Z",
   "threads": [
+    {
+      "id": "1555237166702006352",
+      "name": "College details Issue",
+      "url": "https://discord.com/channels/735180366297563257/1555237166702006352",
+      "status": "No response",
+      "category": "Campus/College visibility",
+      "requester": "Hellan Raichel Benoy | India",
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "resolvedAt": "2026-10-01",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "daysToClose": 0,
+      "messageCount": 0,
+      "archived": false,
+      "locked": false,
+      "resolutionSnippet": "",
+      "suggestion": null
+    },
     {
       "id": "1554925142788939918",
       "name": "Outreach Lead change \u203c\ufe0f",
@@ -11,12 +30,12 @@ window.DISCORD_DATA = {
       "category": "Other",
       "requester": "sreyaaaas_here",
       "received": "2026-09-30",
-      "last": "2026-09-30",
+      "last": "2026-10-01",
       "resolvedAt": "2026-09-30",
       "daysOpen": 0,
       "daysSinceReceived": 0,
       "daysToClose": 0,
-      "messageCount": 0,
+      "messageCount": 1,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
@@ -24,6 +43,29 @@ window.DISCORD_DATA = {
         "fromThreadName": "Outreach lead not in group",
         "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543296376568283166",
         "snippet": "Got it, thanks for raising this. If not already added, please include user info, screenshots, or any other details to help us assist faster \u2014 we'll get back to you soon."
+      }
+    },
+    {
+      "id": "1547642046691680327",
+      "name": "Mistake had happened event creation time",
+      "url": "https://discord.com/channels/735180366297563257/1547642046691680327",
+      "status": "Awaiting reply (from them)",
+      "category": "Event/Activity check-in & reporting",
+      "requester": "Anupama Anil",
+      "received": "2026-09-10",
+      "last": "2026-10-01",
+      "resolvedAt": "2026-09-10",
+      "daysOpen": 0,
+      "daysSinceReceived": 21,
+      "daysToClose": 0,
+      "messageCount": 8,
+      "archived": false,
+      "locked": false,
+      "resolutionSnippet": "",
+      "suggestion": {
+        "fromThreadName": "Want to create  event",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541431040457965598",
+        "snippet": "For reviewing <@1392046495535988836> <@1012977379209125908>"
       }
     },
     {
@@ -36,8 +78,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-30",
       "last": "2026-09-30",
       "resolvedAt": "2026-09-30",
-      "daysOpen": 0,
-      "daysSinceReceived": 0,
+      "daysOpen": 1,
+      "daysSinceReceived": 1,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -67,29 +109,6 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": null
-    },
-    {
-      "id": "1547642046691680327",
-      "name": "Mistake had happened event creation time",
-      "url": "https://discord.com/channels/735180366297563257/1547642046691680327",
-      "status": "Awaiting reply (from us)",
-      "category": "Event/Activity check-in & reporting",
-      "requester": "Anupama Anil",
-      "received": "2026-09-10",
-      "last": "2026-09-27",
-      "resolvedAt": "2026-09-10",
-      "daysOpen": 3,
-      "daysSinceReceived": 20,
-      "daysToClose": 0,
-      "messageCount": 6,
-      "archived": false,
-      "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Want to create  event",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541431040457965598",
-        "snippet": "For reviewing <@1392046495535988836> <@1012977379209125908>"
-      }
     },
     {
       "id": "1553316211767640116",
@@ -147,17 +166,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-23",
       "last": "2026-09-23",
       "resolvedAt": "2026-09-23",
-      "daysOpen": 7,
-      "daysSinceReceived": 7,
+      "daysOpen": 8,
+      "daysSinceReceived": 8,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "failed to sent otp",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544023195450089562",
-        "snippet": "<@1012977379209125908> Can you please solve the issue as vouching session is planned for tomorrow"
+        "fromThreadName": "Otp failed to send",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1542443566314426420",
+        "snippet": "It is fixed"
       }
     },
     {
@@ -193,8 +212,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-20",
       "last": "2026-09-20",
       "resolvedAt": "2026-09-20",
-      "daysOpen": 10,
-      "daysSinceReceived": 10,
+      "daysOpen": 11,
+      "daysSinceReceived": 11,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -258,8 +277,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-18",
       "last": "2026-09-18",
       "resolvedAt": "2026-09-18",
-      "daysOpen": 12,
-      "daysSinceReceived": 12,
+      "daysOpen": 13,
+      "daysSinceReceived": 13,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -281,8 +300,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-18",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 12,
-      "daysSinceReceived": 21,
+      "daysOpen": 13,
+      "daysSinceReceived": 22,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -305,7 +324,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-16",
       "resolvedAt": "2026-09-13",
       "daysOpen": 15,
-      "daysSinceReceived": 17,
+      "daysSinceReceived": 18,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -346,17 +365,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-12",
       "last": "2026-09-15",
       "resolvedAt": "2026-09-12",
-      "daysOpen": 15,
-      "daysSinceReceived": 18,
+      "daysOpen": 16,
+      "daysSinceReceived": 19,
       "daysToClose": 0,
       "messageCount": 4,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "failed to sent otp",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544023195450089562",
-        "snippet": "<@1012977379209125908> Can you please solve the issue as vouching session is planned for tomorrow"
+        "fromThreadName": "Otp failed to send",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1542443566314426420",
+        "snippet": "It is fixed"
       }
     },
     {
@@ -369,7 +388,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-11",
       "last": "2026-09-15",
       "resolvedAt": "2026-09-11",
-      "daysOpen": 15,
+      "daysOpen": 16,
       "daysSinceReceived": 19,
       "daysToClose": 0,
       "messageCount": 4,
@@ -389,7 +408,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-15",
       "resolvedAt": "2026-09-11",
       "daysOpen": 16,
-      "daysSinceReceived": 19,
+      "daysSinceReceived": 20,
       "daysToClose": 0,
       "messageCount": 5,
       "archived": false,
@@ -411,7 +430,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-11",
       "last": "2026-09-15",
       "resolvedAt": "2026-09-11",
-      "daysOpen": 15,
+      "daysOpen": 16,
       "daysSinceReceived": 20,
       "daysToClose": 0,
       "messageCount": 5,
@@ -438,9 +457,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "failed to sent otp",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544023195450089562",
-        "snippet": "<@1012977379209125908> Can you please solve the issue as vouching session is planned for tomorrow"
+        "fromThreadName": "Otp failed to send",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1542443566314426420",
+        "snippet": "It is fixed"
       }
     },
     {
@@ -461,9 +480,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "failed to sent otp",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544023195450089562",
-        "snippet": "<@1012977379209125908> Can you please solve the issue as vouching session is planned for tomorrow"
+        "fromThreadName": "Otp failed to send",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1542443566314426420",
+        "snippet": "It is fixed"
       }
     },
     {
@@ -500,7 +519,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-11",
       "resolvedAt": "2026-09-08",
       "daysOpen": 19,
-      "daysSinceReceived": 22,
+      "daysSinceReceived": 23,
       "daysToClose": 0,
       "messageCount": 6,
       "archived": false,
@@ -537,8 +556,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-10",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-10",
-      "daysOpen": 20,
-      "daysSinceReceived": 20,
+      "daysOpen": 21,
+      "daysSinceReceived": 21,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -556,8 +575,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-10",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-10",
-      "daysOpen": 20,
-      "daysSinceReceived": 20,
+      "daysOpen": 21,
+      "daysSinceReceived": 21,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -598,8 +617,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 20,
-      "daysSinceReceived": 21,
+      "daysOpen": 21,
+      "daysSinceReceived": 22,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -621,17 +640,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 20,
-      "daysSinceReceived": 21,
+      "daysOpen": 21,
+      "daysSinceReceived": 22,
       "daysToClose": 0,
       "messageCount": 6,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "failed to sent otp",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544023195450089562",
-        "snippet": "<@1012977379209125908> Can you please solve the issue as vouching session is planned for tomorrow"
+        "fromThreadName": "Otp failed to send",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1542443566314426420",
+        "snippet": "It is fixed"
       }
     },
     {
@@ -644,7 +663,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-08",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-08",
-      "daysOpen": 20,
+      "daysOpen": 21,
       "daysSinceReceived": 23,
       "daysToClose": 0,
       "messageCount": 3,
@@ -682,17 +701,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 21,
-      "daysSinceReceived": 21,
+      "daysOpen": 22,
+      "daysSinceReceived": 22,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "failed to sent otp",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544023195450089562",
-        "snippet": "<@1012977379209125908> Can you please solve the issue as vouching session is planned for tomorrow"
+        "fromThreadName": "Otp failed to send",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1542443566314426420",
+        "snippet": "It is fixed"
       }
     },
     {
@@ -705,8 +724,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 21,
-      "daysSinceReceived": 21,
+      "daysOpen": 22,
+      "daysSinceReceived": 22,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -728,8 +747,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 21,
-      "daysSinceReceived": 21,
+      "daysOpen": 22,
+      "daysSinceReceived": 22,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -752,16 +771,16 @@ window.DISCORD_DATA = {
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
       "daysOpen": 21,
-      "daysSinceReceived": 21,
+      "daysSinceReceived": 22,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "failed to sent otp",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544023195450089562",
-        "snippet": "<@1012977379209125908> Can you please solve the issue as vouching session is planned for tomorrow"
+        "fromThreadName": "Otp failed to send",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1542443566314426420",
+        "snippet": "It is fixed"
       }
     },
     {
@@ -774,7 +793,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-07",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-07",
-      "daysOpen": 21,
+      "daysOpen": 22,
       "daysSinceReceived": 24,
       "daysToClose": 0,
       "messageCount": 4,
@@ -797,8 +816,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-04",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-04",
-      "daysOpen": 21,
-      "daysSinceReceived": 26,
+      "daysOpen": 22,
+      "daysSinceReceived": 27,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -839,8 +858,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-08",
       "last": "2026-09-08",
       "resolvedAt": "2026-09-08",
-      "daysOpen": 22,
-      "daysSinceReceived": 22,
+      "daysOpen": 23,
+      "daysSinceReceived": 23,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -870,9 +889,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "failed to sent otp",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544023195450089562",
-        "snippet": "<@1012977379209125908> Can you please solve the issue as vouching session is planned for tomorrow"
+        "fromThreadName": "Otp failed to send",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1542443566314426420",
+        "snippet": "It is fixed"
       }
     },
     {
@@ -909,16 +928,16 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-09-07",
       "daysOpen": 23,
-      "daysSinceReceived": 23,
+      "daysSinceReceived": 24,
       "daysToClose": 0,
       "messageCount": 7,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "failed to sent otp",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544023195450089562",
-        "snippet": "<@1012977379209125908> Can you please solve the issue as vouching session is planned for tomorrow"
+        "fromThreadName": "Otp failed to send",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1542443566314426420",
+        "snippet": "It is fixed"
       }
     },
     {
@@ -939,9 +958,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "failed to sent otp",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544023195450089562",
-        "snippet": "<@1012977379209125908> Can you please solve the issue as vouching session is planned for tomorrow"
+        "fromThreadName": "Otp failed to send",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1542443566314426420",
+        "snippet": "It is fixed"
       }
     },
     {
@@ -955,7 +974,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-09-05",
       "daysOpen": 23,
-      "daysSinceReceived": 25,
+      "daysSinceReceived": 26,
       "daysToClose": 0,
       "messageCount": 12,
       "archived": false,
@@ -978,16 +997,16 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-09-03",
       "daysOpen": 23,
-      "daysSinceReceived": 27,
+      "daysSinceReceived": 28,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "failed to sent otp",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544023195450089562",
-        "snippet": "<@1012977379209125908> Can you please solve the issue as vouching session is planned for tomorrow"
+        "fromThreadName": "Otp failed to send",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1542443566314426420",
+        "snippet": "It is fixed"
       }
     },
     {
@@ -1019,8 +1038,8 @@ window.DISCORD_DATA = {
       "received": "2026-08-30",
       "last": "2026-09-08",
       "resolvedAt": "2026-08-30",
-      "daysOpen": 22,
-      "daysSinceReceived": 31,
+      "daysOpen": 23,
+      "daysSinceReceived": 32,
       "daysToClose": 0,
       "messageCount": 7,
       "archived": false,
@@ -1042,7 +1061,7 @@ window.DISCORD_DATA = {
       "received": "2026-08-18",
       "last": "2026-09-08",
       "resolvedAt": "2026-08-18",
-      "daysOpen": 22,
+      "daysOpen": 23,
       "daysSinceReceived": 44,
       "daysToClose": 0,
       "messageCount": 5,
@@ -1065,7 +1084,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-07",
       "last": "2026-09-07",
       "resolvedAt": "2026-09-07",
-      "daysOpen": 23,
+      "daysOpen": 24,
       "daysSinceReceived": 24,
       "daysToClose": 0,
       "messageCount": 2,
@@ -1088,7 +1107,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-07",
       "last": "2026-09-07",
       "resolvedAt": "2026-09-07",
-      "daysOpen": 23,
+      "daysOpen": 24,
       "daysSinceReceived": 24,
       "daysToClose": 0,
       "messageCount": 1,
@@ -1107,7 +1126,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-01",
       "last": "2026-09-07",
       "resolvedAt": "2026-09-01",
-      "daysOpen": 23,
+      "daysOpen": 24,
       "daysSinceReceived": 29,
       "daysToClose": 0,
       "messageCount": 1,
@@ -1130,7 +1149,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-06",
       "last": "2026-09-06",
       "resolvedAt": "2026-09-06",
-      "daysOpen": 24,
+      "daysOpen": 25,
       "daysSinceReceived": 25,
       "daysToClose": 0,
       "messageCount": 2,
@@ -1149,7 +1168,7 @@ window.DISCORD_DATA = {
       "received": "2026-08-25",
       "last": "2026-09-06",
       "resolvedAt": "2026-08-25",
-      "daysOpen": 24,
+      "daysOpen": 25,
       "daysSinceReceived": 37,
       "daysToClose": 0,
       "messageCount": 10,
@@ -1234,7 +1253,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-04",
       "resolvedAt": "2026-08-29",
       "daysOpen": 26,
-      "daysSinceReceived": 32,
+      "daysSinceReceived": 33,
       "daysToClose": 0,
       "messageCount": 4,
       "archived": false,
@@ -1279,7 +1298,7 @@ window.DISCORD_DATA = {
       "received": "2026-08-21",
       "last": "2026-09-02",
       "resolvedAt": "2026-08-21",
-      "daysOpen": 28,
+      "daysOpen": 29,
       "daysSinceReceived": 41,
       "daysToClose": 0,
       "messageCount": 9,
@@ -1316,46 +1335,42 @@ window.DISCORD_DATA = {
       }
     },
     {
-      "id": "1544331990403121232",
-      "name": "Request to Delete Programme",
-      "url": "https://discord.com/channels/735180366297563257/1544331990403121232",
-      "status": "No response",
-      "category": "Deletion requests",
-      "requester": "helen",
-      "received": "2026-09-01",
-      "last": "2026-09-01",
-      "resolvedAt": "2026-09-01",
-      "daysOpen": 29,
-      "daysSinceReceived": 29,
-      "daysToClose": 0,
-      "messageCount": 0,
-      "archived": false,
-      "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": null
-    },
-    {
       "id": "1542443566314426420",
       "name": "Otp failed to send",
       "url": "https://discord.com/channels/735180366297563257/1542443566314426420",
-      "status": "Awaiting reply (from them)",
+      "status": "Resolved",
       "category": "OTP / Login issues",
       "requester": "nikheeeeel",
       "received": "2026-08-27",
       "last": "2026-09-01",
-      "resolvedAt": "2026-08-27",
-      "daysOpen": 29,
+      "resolvedAt": "2026-10-01",
+      "daysOpen": 30,
       "daysSinceReceived": 35,
-      "daysToClose": 0,
+      "daysToClose": 35,
       "messageCount": 7,
-      "archived": false,
+      "archived": true,
       "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "failed to sent otp",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544023195450089562",
-        "snippet": "<@1012977379209125908> Can you please solve the issue as vouching session is planned for tomorrow"
-      }
+      "resolutionSnippet": "It is fixed",
+      "suggestion": null
+    },
+    {
+      "id": "1544331990403121232",
+      "name": "Request to Delete Programme",
+      "url": "https://discord.com/channels/735180366297563257/1544331990403121232",
+      "status": "Resolved",
+      "category": "Deletion requests",
+      "requester": "helen",
+      "received": "2026-09-01",
+      "last": "2026-09-01",
+      "resolvedAt": "2026-10-01",
+      "daysOpen": 30,
+      "daysSinceReceived": 30,
+      "daysToClose": 30,
+      "messageCount": 0,
+      "archived": true,
+      "locked": false,
+      "resolutionSnippet": "Hey TinkerHub Team! We\u2019d like to get the TinkerTalks programme deleted from our dashboard. We ran into a few issues and couldn\u2019t conduct the programme as planned, so it won\u2019t be happening. Could you please remove it from the Report Pending section ? Thanks!",
+      "suggestion": null
     },
     {
       "id": "1544023195450089562",
@@ -13197,12 +13212,12 @@ window.DISCORD_DATA = {
   ],
   "summary": {
     "No response": 30,
-    "Awaiting reply (from us)": 18,
+    "Awaiting reply (from us)": 17,
     "Awaiting reply (from them)": 12,
-    "Resolved": 625
+    "Resolved": 627
   },
-  "avgOpenDays": 18.4,
-  "avgDaysToClose": 12.3,
+  "avgOpenDays": 18.2,
+  "avgDaysToClose": 12.4,
   "topCategories": [
     {
       "category": "Event/Activity check-in & reporting",
@@ -13241,12 +13256,12 @@ window.DISCORD_DATA = {
       "count": 24
     },
     {
-      "category": "Role/tag display bugs",
+      "category": "Campus/College visibility",
       "count": 18
     },
     {
-      "category": "Campus/College visibility",
-      "count": 17
+      "category": "Role/tag display bugs",
+      "count": 18
     },
     {
       "category": "Project add/delete/submission",
