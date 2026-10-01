@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-01T06:42:40Z",
+  "generatedAt": "2026-10-01T08:43:22Z",
   "threads": [
     {
       "id": "campus-94908d65e0",
@@ -4307,9 +4307,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "TinkerHub MBCCET (campus chapter)",
       "email": "mevinmanu04@gmail.com",
       "received": "2026-09-30",
-      "last": "2026-09-30",
-      "status": "No response",
-      "note": "request to replace MBCCET Outreach Lead",
+      "last": "2026-10-01",
+      "status": "Awaiting reply (from them)",
+      "note": "Femina replied 10-01; awaiting their response",
       "daysOpen": 1,
       "daysSinceReceived": 1,
       "cc": [
@@ -4551,18 +4551,18 @@ window.DASHBOARD_DATA = {
     }
   ],
   "summary": {
-    "No response": 6,
+    "No response": 5,
     "Awaiting reply (from us)": 22,
-    "Awaiting reply (from them)": 30,
+    "Awaiting reply (from them)": 31,
     "Resolved": 99,
     "Informational": 105
   },
   "analytics": {
     "campus": {
       "total": 201,
-      "No response": 1,
+      "No response": 0,
       "Awaiting reply (from us)": 10,
-      "Awaiting reply (from them)": 18,
+      "Awaiting reply (from them)": 19,
       "Resolved": 83,
       "Informational": 89,
       "avgOpenDays": 15.4,
