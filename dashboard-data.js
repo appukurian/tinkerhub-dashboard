@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-01T12:44:00Z",
+  "generatedAt": "2026-10-01T14:44:11Z",
   "threads": [
     {
       "id": "campus-94908d65e0",
@@ -5841,6 +5841,23 @@ window.DASHBOARD_DATA = {
       "daysOpen": 38,
       "daysSinceReceived": 38,
       "cc": []
+    },
+    {
+      "id": "finance-62d51bc572",
+      "threadId": "1a0f79db5b5fc1c6",
+      "group": "finance",
+      "subject": "MSG91 - Your MSG91 Subscription Renewal Summary",
+      "counterpart": "MSG91 (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "Free email plan renewed (automated notice)",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "finance@tinkerhub.org"
+      ]
     }
   ],
   "summary": {
@@ -5848,7 +5865,7 @@ window.DASHBOARD_DATA = {
     "Awaiting reply (from us)": 21,
     "Awaiting reply (from them)": 31,
     "Resolved": 101,
-    "Informational": 176
+    "Informational": 177
   },
   "analytics": {
     "campus": {
@@ -5872,12 +5889,12 @@ window.DASHBOARD_DATA = {
       "avgResolvedDays": 19.9
     },
     "finance": {
-      "total": 21,
+      "total": 22,
       "No response": 1,
       "Awaiting reply (from us)": 0,
       "Awaiting reply (from them)": 1,
       "Resolved": 5,
-      "Informational": 14,
+      "Informational": 15,
       "avgOpenDays": 27.0,
       "avgResolvedDays": 4.4
     },
