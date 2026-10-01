@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-01T10:43:22Z",
+  "generatedAt": "2026-10-01T12:44:00Z",
   "threads": [
     {
       "id": "campus-94908d65e0",
@@ -4385,6 +4385,1299 @@ window.DASHBOARD_DATA = {
       "daysOpen": 0
     },
     {
+      "id": "campus-335c0e2475",
+      "threadId": "1a0f770ac85deeed",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Saintgits College of Applied Sciences, Pathamuttam",
+      "counterpart": "Saintgits College of Applied Sciences, Pathamuttam (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-959a6bf23b",
+      "threadId": "1a0f76b1997e99ea",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Viswajyothi College of Engineering and Technology, Vazhakulam",
+      "counterpart": "Viswajyothi College of Engineering and Technology, Vazhakulam (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-d7afd5251b",
+      "threadId": "1a0f76afa43b9cb1",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Vimal Jyothi Engineering College, Chemperi",
+      "counterpart": "Vimal Jyothi Engineering College, Chemperi (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-7e44be91e5",
+      "threadId": "1a0f76addf258d90",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Vidya Academy of Science & Technology, Thalakkottukara",
+      "counterpart": "Vidya Academy of Science & Technology, Thalakkottukara (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-03b27302e4",
+      "threadId": "1a0f76ac09ac2b5e",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Unity Women's College, Manjeri",
+      "counterpart": "Unity Women's College, Manjeri (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-643b0fe4ef",
+      "threadId": "1a0f76aa27738ff9",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Toc H Institute of Science & Technology, Arakkunnam",
+      "counterpart": "Toc H Institute of Science & Technology, Arakkunnam (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-7518131f55",
+      "threadId": "1a0f76a9900d4d79",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Sahrdaya College of Advanced Studies, Kodakara",
+      "counterpart": "Sahrdaya College of Advanced Studies, Kodakara (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-34e9bce446",
+      "threadId": "1a0f76a82755e935",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | TKM College of Engineering, Karicode",
+      "counterpart": "TKM College of Engineering, Karicode (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-bd90367dd3",
+      "threadId": "1a0f76a64ca42ed9",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Thejus College Engineering College, Erumapetti",
+      "counterpart": "Thejus College Engineering College, Erumapetti (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-3d85ad16b8",
+      "threadId": "1a0f76a4cf839df8",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | St. Josephs College of Engineering and Technology, Choondacherry",
+      "counterpart": "St. Josephs College of Engineering and Technology, Choondacherry (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-ac223dc484",
+      "threadId": "1a0f76a29b8f73b0",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | St. Joseph's College Devagiri",
+      "counterpart": "St. Joseph's College Devagiri (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-f45a31e65a",
+      "threadId": "1a0f76a1445ce30d",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Sree Narayana Gurukulam College of Engineering, Kadayiruppu",
+      "counterpart": "Sree Narayana Gurukulam College of Engineering, Kadayiruppu (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-afca4d2e3e",
+      "threadId": "1a0f769e925bff8b",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Sree Narayana Guru College of Engineering & Technology, Chalakode",
+      "counterpart": "Sree Narayana Guru College of Engineering & Technology, Chalakode (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-c5cfe50762",
+      "threadId": "1a0f769c9a105703",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Sree Chitra Thirunal College of Engineering, Pappanamcode",
+      "counterpart": "Sree Chitra Thirunal College of Engineering, Pappanamcode (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-15898a95d6",
+      "threadId": "1a0f769a5f1be4bd",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Sree Buddha College of Engineering, Pattoor",
+      "counterpart": "Sree Buddha College of Engineering, Pattoor (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-b19d6604ca",
+      "threadId": "1a0f7697d86d2626",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | SNM Institute of Management & Technology, Maliankara",
+      "counterpart": "SNM Institute of Management & Technology, Maliankara (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-5fec6d71d0",
+      "threadId": "1a0f76954c199f55",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | SCMS School of Engineering & Technology, Karukutty",
+      "counterpart": "SCMS School of Engineering & Technology, Karukutty (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-aaf4a09f80",
+      "threadId": "1a0f769411916359",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | School of Engineering CUSAT, Kalamassery",
+      "counterpart": "School of Engineering CUSAT, Kalamassery (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-8b6f0ae77d",
+      "threadId": "1a0f76921106f8d6",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Saintgits College of Engineering, Pathamuttom",
+      "counterpart": "Saintgits College of Engineering, Pathamuttom (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-1889cd9769",
+      "threadId": "1a0f768ed15a6f1f",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Sahrdaya College of Engineering & Technology, Kodakara",
+      "counterpart": "Sahrdaya College of Engineering & Technology, Kodakara (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-0b621d47a1",
+      "threadId": "1a0f768b7579cdc6",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Rajiv Gandhi Institute of Technology, Velloor",
+      "counterpart": "Rajiv Gandhi Institute of Technology, Velloor (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-797a63ccd1",
+      "threadId": "1a0f7689b36fd493",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Providence College of Engineering, Chengannur",
+      "counterpart": "Providence College of Engineering, Chengannur (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-ce5cf64036",
+      "threadId": "1a0f7686ca06dd60",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Paramekkavu College of Arts & Science, Punkunnam",
+      "counterpart": "Paramekkavu College of Arts & Science, Punkunnam (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-0696b94eb0",
+      "threadId": "1a0f7685b0715512",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | NSS College of Engineering, Akathethara",
+      "counterpart": "NSS College of Engineering, Akathethara (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-97af6d2abb",
+      "threadId": "1a0f7682cadd09e2",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Muthoot Institute of Technology & Science (MITS), Puthencruz",
+      "counterpart": "Muthoot Institute of Technology & Science (MITS), Puthencruz (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-8975fd8807",
+      "threadId": "1a0f76809d79ca37",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Muhammed Abdurahiman Memorial Orphanage College, Mukkam",
+      "counterpart": "Muhammed Abdurahiman Memorial Orphanage College, Mukkam (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-807afe4abb",
+      "threadId": "1a0f767e01dc4635",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Model Engineering College, Thrikkakara",
+      "counterpart": "Model Engineering College, Thrikkakara (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-7930738c39",
+      "threadId": "1a0f767bf7248129",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | MES College of Engineering and Technology, Kunnukara",
+      "counterpart": "MES College of Engineering and Technology, Kunnukara (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-c6e5a15b08",
+      "threadId": "1a0f767a7f5bb4fe",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Mar Baselios Christian College of Engineering and Technology, Peerumedu",
+      "counterpart": "Mar Baselios Christian College of Engineering and Technology, Peerumedu (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-c1cc8d2199",
+      "threadId": "1a0f7678d4b3dee5",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Mar Athanasius College of Engineering, Kothamangalam",
+      "counterpart": "Mar Athanasius College of Engineering, Kothamangalam (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-f169c00ba9",
+      "threadId": "1a0f76774090762b",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Majlis Arts & Science College, Valanchery",
+      "counterpart": "Majlis Arts & Science College, Valanchery (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-454cc7211e",
+      "threadId": "1a0f7675e92751e7",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Lourdes Matha College of Science & Technology, Kutttichal",
+      "counterpart": "Lourdes Matha College of Science & Technology, Kutttichal (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-78098243e6",
+      "threadId": "1a0f76746dbe0364",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | LBS Institute of Technology for Women, Poojappura",
+      "counterpart": "LBS Institute of Technology for Women, Poojappura (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-bdc26910ca",
+      "threadId": "1a0f767271318aba",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | LBS College of Engineering, Povval",
+      "counterpart": "LBS College of Engineering, Povval (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-8fddefcc70",
+      "threadId": "1a0f767081202113",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | KMEA Engineering College, Edathala",
+      "counterpart": "KMEA Engineering College, Edathala (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-5e5db04ac8",
+      "threadId": "1a0f766f3447d83a",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Jyothi Engineering College, Cheruthuruthy",
+      "counterpart": "Jyothi Engineering College, Cheruthuruthy (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-53ae4fd4c0",
+      "threadId": "1a0f766cfd5a1542",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Jawaharlal College of Engineering and Technology, Lakkidi",
+      "counterpart": "Jawaharlal College of Engineering and Technology, Lakkidi (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-c5200024fd",
+      "threadId": "1a0f766af1364c87",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Jain University",
+      "counterpart": "Jain University (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-55f7bbfd82",
+      "threadId": "1a0f76697d1f0cc5",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Jai Bharath College of Management & Engineering Technology, Arackappady",
+      "counterpart": "Jai Bharath College of Management & Engineering Technology, Arackappady (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-0831d939cd",
+      "threadId": "1a0f7667b590db8b",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Institute of Engineering and Technology, Thenhipalam",
+      "counterpart": "Institute of Engineering and Technology, Thenhipalam (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-f3c92897b0",
+      "threadId": "1a0f76659583342b",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Indian Institute of Information Technology (IIIT), Kottayam",
+      "counterpart": "Indian Institute of Information Technology (IIIT), Kottayam (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-559a9d6304",
+      "threadId": "1a0f7663ad49b530",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Ilahia College of Engineering and Technology, Mulavoor",
+      "counterpart": "Ilahia College of Engineering and Technology, Mulavoor (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-7174decc79",
+      "threadId": "1a0f766202c9d831",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | ICCS College of Engineering and Management",
+      "counterpart": "ICCS College of Engineering and Management (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-1fbc15f250",
+      "threadId": "1a0f765faffee82f",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Government Engineering College, West Hill",
+      "counterpart": "Government Engineering College, West Hill (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-a7e9201764",
+      "threadId": "1a0f765dbefec081",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Government Engineering College, Thrissur",
+      "counterpart": "Government Engineering College, Thrissur (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-d5bb6fba11",
+      "threadId": "1a0f7659b151e46b",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Federal Institute of Science & Technology (FISAT), Angamaly",
+      "counterpart": "Federal Institute of Science & Technology (FISAT), Angamaly (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-3c1df26f4b",
+      "threadId": "1a0f7657d4336ea6",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Farook College, Farook",
+      "counterpart": "Farook College, Farook (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-3755d11bc2",
+      "threadId": "1a0f76551f86c029",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | EMEA College of Arts & Science , Kondotty",
+      "counterpart": "EMEA College of Arts & Science , Kondotty (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-5f670990b8",
+      "threadId": "1a0f765303e1f7ab",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Duxford College for Advanced Studies",
+      "counterpart": "Duxford College for Advanced Studies (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-c6ca5de0c8",
+      "threadId": "1a0f7651296f79f4",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | College of Engineering, Vadakara",
+      "counterpart": "College of Engineering, Vadakara (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-3ff452aaef",
+      "threadId": "1a0f764ef8654def",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | College of Engineering, Trikaripur",
+      "counterpart": "College of Engineering, Trikaripur (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-9e1afa5981",
+      "threadId": "1a0f764bc91add29",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | College of Engineering, Thiruvananthapuram",
+      "counterpart": "College of Engineering, Thiruvananthapuram (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-0420419ce6",
+      "threadId": "1a0f764a0fef7691",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | College of Engineering, Poonjar",
+      "counterpart": "College of Engineering, Poonjar (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-87e6908e87",
+      "threadId": "1a0f76485783f6b8",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | College of Engineering, Perumon",
+      "counterpart": "College of Engineering, Perumon (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-3ba10ab617",
+      "threadId": "1a0f7646b7ef9bb1",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | College of Engineering, Munnar",
+      "counterpart": "College of Engineering, Munnar (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-b8c137c872",
+      "threadId": "1a0f7645437a1bc5",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | College of Engineering, Karunagappally",
+      "counterpart": "College of Engineering, Karunagappally (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-e3c2ea48ec",
+      "threadId": "1a0f764463eeb716",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | College of Engineering, Kallooppara",
+      "counterpart": "College of Engineering, Kallooppara (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-2805369138",
+      "threadId": "1a0f76423f62e6c3",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | College of Engineering, Chengannur",
+      "counterpart": "College of Engineering, Chengannur (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-1b88a9ec1a",
+      "threadId": "1a0f76408c91b844",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | College of Engineering, Attingal",
+      "counterpart": "College of Engineering, Attingal (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-a3578ad916",
+      "threadId": "1a0f763f81e3e165",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | College of Engineering, Alappuzha",
+      "counterpart": "College of Engineering, Alappuzha (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-37ec889021",
+      "threadId": "1a0f763e7188ae23",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | College of Engineering, Adoor",
+      "counterpart": "College of Engineering, Adoor (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-8c400081f9",
+      "threadId": "1a0f763c223c9963",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Cochin University College of Engineering, Kuttanad",
+      "counterpart": "Cochin University College of Engineering, Kuttanad (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-eb6dee721f",
+      "threadId": "1a0f763a7980d2d0",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Christ College of Engineering, Irinjalakuda",
+      "counterpart": "Christ College of Engineering, Irinjalakuda (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-2f3b6c3075",
+      "threadId": "1a0f76391d70c72b",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Carmel College of Engineering and Technology, Punnapra",
+      "counterpart": "Carmel College of Engineering and Technology, Punnapra (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-bdd120d1f9",
+      "threadId": "1a0f76372e756034",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Baselios Mathews II College of Engineering, Sasthamcotta",
+      "counterpart": "Baselios Mathews II College of Engineering, Sasthamcotta (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-b445c6c3f8",
+      "threadId": "1a0f76351134a14e",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Ansar Women's College, Perumpilavu",
+      "counterpart": "Ansar Women's College, Perumpilavu (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-9f3a3f2677",
+      "threadId": "1a0f7632ebbe2b4a",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Albertian Institute of Science and Technology (AISAT), Kalamassery",
+      "counterpart": "Albertian Institute of Science and Technology (AISAT), Kalamassery (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-11c4ba85d1",
+      "threadId": "1a0f76309d4c613d",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Al Azhar College of Engineering & Technology, Perumpillichira",
+      "counterpart": "Al Azhar College of Engineering & Technology, Perumpillichira (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-b264ffe161",
+      "threadId": "1a0f762e5ef6d281",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Ahalia School of Engineering & Technology, palakkad",
+      "counterpart": "Ahalia School of Engineering & Technology, palakkad (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-19db569899",
+      "threadId": "1a0f762c23eab24c",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | Adi Shankara Institute of Engineering and Technology, Mattoor",
+      "counterpart": "Adi Shankara Institute of Engineering and Technology, Mattoor (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-ad6ea0ada3",
+      "threadId": "1a0f76297086f964",
+      "group": "campus",
+      "subject": "TinkerHub Monthly Activity Summary | ACE College of Engineering, Karinkadamugal",
+      "counterpart": "ACE College of Engineering, Karinkadamugal (automated)",
+      "email": null,
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "status": "Informational",
+      "note": "automated monthly activity report sent to college",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "akhil@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "report-592cad1439",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Resolved",
+      "note": null,
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": []
+    },
+    {
       "id": "report-11d03bbb9a",
       "threadId": null,
       "group": "report",
@@ -4393,9 +5686,9 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Awaiting reply (from us)",
+      "status": "Resolved",
       "note": null,
-      "daysOpen": 3,
+      "daysOpen": 2,
       "daysSinceReceived": 3,
       "cc": []
     },
@@ -4427,21 +5720,6 @@ window.DASHBOARD_DATA = {
       "note": null,
       "daysOpen": 29,
       "daysSinceReceived": 37,
-      "cc": []
-    },
-    {
-      "id": "report-e731021ede",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Awaiting reply (from them)",
-      "note": null,
-      "daysOpen": 35,
-      "daysSinceReceived": 35,
       "cc": []
     },
     {
@@ -4535,6 +5813,21 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
+      "id": "report-e731021ede",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Awaiting reply (from them)",
+      "note": null,
+      "daysOpen": 35,
+      "daysSinceReceived": 35,
+      "cc": []
+    },
+    {
       "id": "report-7608a88b9f",
       "threadId": null,
       "group": "report",
@@ -4548,38 +5841,23 @@ window.DASHBOARD_DATA = {
       "daysOpen": 38,
       "daysSinceReceived": 38,
       "cc": []
-    },
-    {
-      "id": "report-592cad1439",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "No response",
-      "note": null,
-      "daysOpen": 0,
-      "daysSinceReceived": 0,
-      "cc": []
     }
   ],
   "summary": {
-    "No response": 6,
-    "Awaiting reply (from us)": 22,
+    "No response": 5,
+    "Awaiting reply (from us)": 21,
     "Awaiting reply (from them)": 31,
-    "Resolved": 99,
-    "Informational": 105
+    "Resolved": 101,
+    "Informational": 176
   },
   "analytics": {
     "campus": {
-      "total": 201,
+      "total": 272,
       "No response": 0,
       "Awaiting reply (from us)": 10,
       "Awaiting reply (from them)": 19,
       "Resolved": 83,
-      "Informational": 89,
+      "Informational": 160,
       "avgOpenDays": 15.4,
       "avgResolvedDays": 4.3
     },
@@ -4600,18 +5878,18 @@ window.DASHBOARD_DATA = {
       "Awaiting reply (from them)": 1,
       "Resolved": 5,
       "Informational": 14,
-      "avgOpenDays": 27,
+      "avgOpenDays": 27.0,
       "avgResolvedDays": 4.4
     },
     "report": {
       "total": 12,
-      "No response": 2,
-      "Awaiting reply (from us)": 4,
+      "No response": 1,
+      "Awaiting reply (from us)": 3,
       "Awaiting reply (from them)": 5,
-      "Resolved": 1,
+      "Resolved": 3,
       "Informational": 0,
-      "avgOpenDays": 20.3,
-      "avgResolvedDays": 29
+      "avgOpenDays": 24.4,
+      "avgResolvedDays": 10.3
     },
     "partner": {
       "total": 4,
@@ -4621,7 +5899,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 1,
       "avgOpenDays": 7.5,
-      "avgResolvedDays": 1
+      "avgResolvedDays": 1.0
     },
     "tinkerspace": {
       "total": 0,
