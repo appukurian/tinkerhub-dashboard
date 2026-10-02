@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-02T08:43:00Z",
+  "generatedAt": "2026-10-02T10:43:00Z",
   "threads": [
     {
       "id": "campus-2c58b36fa5",
@@ -80,7 +80,7 @@ window.DASHBOARD_DATA = {
       "id": "campus-08bb5958b0",
       "threadId": "1a0342b5cd9cfcc2",
       "group": "campus",
-      "subject": "Re: Request to Reschedule Useless Project from September 5–6 to September 11–12",
+      "subject": "Re: Request to Reschedule Useless Project from September 5\u20136 to September 11\u201312",
       "counterpart": "Farsana",
       "email": "fathimathulfarsaana@gmail.com",
       "received": "2026-08-24",
@@ -1489,7 +1489,7 @@ window.DASHBOARD_DATA = {
       "id": "campus-9d9afdbe22",
       "threadId": "1a0b48ac5a8ed45c",
       "group": "campus",
-      "subject": "Collaboration Proposal – Blender Workshop under SOLITON ’26",
+      "subject": "Collaboration Proposal \u2013 Blender Workshop under SOLITON \u201926",
       "counterpart": "Niranjan S Das (IEEE Photonics Society Kerala Chapter)",
       "email": "niranjansdas@ug.cusat.ac.in",
       "received": "2026-09-18",
@@ -5424,7 +5424,7 @@ window.DASHBOARD_DATA = {
       "id": "support-3873045b3a",
       "threadId": "1a0dc1b0f9fe4d4d",
       "group": "support",
-      "subject": "Request to Add My College to TinkerHub Registration – Layover Hackathon",
+      "subject": "Request to Add My College to TinkerHub Registration \u2013 Layover Hackathon",
       "counterpart": "Arjun Sabu (St. Kuriakose College, Kuruppampady)",
       "email": "greninjadotdev@gmail.com",
       "received": "2026-09-26",
@@ -5618,6 +5618,21 @@ window.DASHBOARD_DATA = {
       "daysOpen": 30,
       "daysSinceReceived": 30,
       "cc": []
+    },
+    {
+      "id": "report-5ee0cd970b",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Informational",
+      "note": null,
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": []
     }
   ],
   "summary": {
@@ -5625,7 +5640,7 @@ window.DASHBOARD_DATA = {
     "Awaiting reply (from us)": 20,
     "Awaiting reply (from them)": 28,
     "Resolved": 93,
-    "Informational": 175
+    "Informational": 176
   },
   "analytics": {
     "campus": {
@@ -5659,12 +5674,12 @@ window.DASHBOARD_DATA = {
       "avgResolvedDays": 4.4
     },
     "report": {
-      "total": 11,
+      "total": 12,
       "No response": 1,
       "Awaiting reply (from us)": 3,
       "Awaiting reply (from them)": 4,
       "Resolved": 3,
-      "Informational": 0,
+      "Informational": 1,
       "avgOpenDays": 23.8,
       "avgResolvedDays": 10.3
     },
