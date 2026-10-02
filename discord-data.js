@@ -1,7 +1,7 @@
 // Auto-generated daily by .github/workflows/discord-update.yml
 // Do NOT hand-edit — this file is overwritten on each run.
 window.DISCORD_DATA = {
-  "generatedAt": "2026-10-02T08:45:48Z",
+  "generatedAt": "2026-10-02T16:19:35Z",
   "threads": [
     {
       "id": "1551239187758456974",
@@ -14,7 +14,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-02",
       "resolvedAt": "2026-09-20",
       "daysOpen": 0,
-      "daysSinceReceived": 11,
+      "daysSinceReceived": 12,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -32,8 +32,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-01",
       "last": "2026-10-01",
       "resolvedAt": "2026-10-01",
-      "daysOpen": 0,
-      "daysSinceReceived": 0,
+      "daysOpen": 1,
+      "daysSinceReceived": 1,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -59,9 +59,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Venue is not found there",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544393017631309954",
-        "snippet": "Opened registrations for Useless projects. But some students are facing an issue of unable to find our clg as venue, while it's completly okey for others"
+        "fromThreadName": "Check-in Scanner Not Working",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1540245728868180019",
+        "snippet": "List veetil ethith thanna mathiyo ipo kail illa , I have right only the names"
       }
     },
     {
@@ -74,8 +74,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-10",
       "last": "2026-10-01",
       "resolvedAt": "2026-09-10",
-      "daysOpen": 0,
-      "daysSinceReceived": 21,
+      "daysOpen": 1,
+      "daysSinceReceived": 22,
       "daysToClose": 0,
       "messageCount": 8,
       "archived": false,
@@ -97,17 +97,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-30",
       "last": "2026-09-30",
       "resolvedAt": "2026-09-30",
-      "daysOpen": 1,
-      "daysSinceReceived": 1,
+      "daysOpen": 2,
+      "daysSinceReceived": 2,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Venue is not found there",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544393017631309954",
-        "snippet": "Opened registrations for Useless projects. But some students are facing an issue of unable to find our clg as venue, while it's completly okey for others"
+        "fromThreadName": "Check-in Scanner Not Working",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1540245728868180019",
+        "snippet": "List veetil ethith thanna mathiyo ipo kail illa , I have right only the names"
       }
     },
     {
@@ -185,8 +185,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-23",
       "last": "2026-09-23",
       "resolvedAt": "2026-09-23",
-      "daysOpen": 8,
-      "daysSinceReceived": 8,
+      "daysOpen": 9,
+      "daysSinceReceived": 9,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -277,8 +277,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-18",
       "last": "2026-09-18",
       "resolvedAt": "2026-09-18",
-      "daysOpen": 13,
-      "daysSinceReceived": 13,
+      "daysOpen": 14,
+      "daysSinceReceived": 14,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -300,7 +300,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-18",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 13,
+      "daysOpen": 14,
       "daysSinceReceived": 22,
       "daysToClose": 0,
       "messageCount": 1,
@@ -365,8 +365,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-12",
       "last": "2026-09-15",
       "resolvedAt": "2026-09-12",
-      "daysOpen": 16,
-      "daysSinceReceived": 19,
+      "daysOpen": 17,
+      "daysSinceReceived": 20,
       "daysToClose": 0,
       "messageCount": 4,
       "archived": false,
@@ -388,7 +388,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-11",
       "last": "2026-09-15",
       "resolvedAt": "2026-09-11",
-      "daysOpen": 16,
+      "daysOpen": 17,
       "daysSinceReceived": 20,
       "daysToClose": 0,
       "messageCount": 4,
@@ -408,7 +408,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-15",
       "resolvedAt": "2026-09-11",
       "daysOpen": 17,
-      "daysSinceReceived": 20,
+      "daysSinceReceived": 21,
       "daysToClose": 0,
       "messageCount": 5,
       "archived": false,
@@ -430,7 +430,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-11",
       "last": "2026-09-15",
       "resolvedAt": "2026-09-11",
-      "daysOpen": 16,
+      "daysOpen": 17,
       "daysSinceReceived": 21,
       "daysToClose": 0,
       "messageCount": 5,
@@ -503,9 +503,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Venue is not found there",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544393017631309954",
-        "snippet": "Opened registrations for Useless projects. But some students are facing an issue of unable to find our clg as venue, while it's completly okey for others"
+        "fromThreadName": "Check-in Scanner Not Working",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1540245728868180019",
+        "snippet": "List veetil ethith thanna mathiyo ipo kail illa , I have right only the names"
       }
     },
     {
@@ -519,7 +519,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-11",
       "resolvedAt": "2026-09-08",
       "daysOpen": 20,
-      "daysSinceReceived": 23,
+      "daysSinceReceived": 24,
       "daysToClose": 0,
       "messageCount": 6,
       "archived": false,
@@ -557,7 +557,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-10",
       "resolvedAt": "2026-09-10",
       "daysOpen": 21,
-      "daysSinceReceived": 21,
+      "daysSinceReceived": 22,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -575,8 +575,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-10",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-10",
-      "daysOpen": 21,
-      "daysSinceReceived": 21,
+      "daysOpen": 22,
+      "daysSinceReceived": 22,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -617,8 +617,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 21,
-      "daysSinceReceived": 22,
+      "daysOpen": 22,
+      "daysSinceReceived": 23,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -640,8 +640,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 21,
-      "daysSinceReceived": 22,
+      "daysOpen": 22,
+      "daysSinceReceived": 23,
       "daysToClose": 0,
       "messageCount": 6,
       "archived": false,
@@ -663,8 +663,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-08",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-08",
-      "daysOpen": 21,
-      "daysSinceReceived": 23,
+      "daysOpen": 22,
+      "daysSinceReceived": 24,
       "daysToClose": 0,
       "messageCount": 3,
       "archived": false,
@@ -724,17 +724,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 22,
-      "daysSinceReceived": 22,
+      "daysOpen": 23,
+      "daysSinceReceived": 23,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Venue is not found there",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544393017631309954",
-        "snippet": "Opened registrations for Useless projects. But some students are facing an issue of unable to find our clg as venue, while it's completly okey for others"
+        "fromThreadName": "Check-in Scanner Not Working",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1540245728868180019",
+        "snippet": "List veetil ethith thanna mathiyo ipo kail illa , I have right only the names"
       }
     },
     {
@@ -747,17 +747,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 22,
-      "daysSinceReceived": 22,
+      "daysOpen": 23,
+      "daysSinceReceived": 23,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Venue is not found there",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544393017631309954",
-        "snippet": "Opened registrations for Useless projects. But some students are facing an issue of unable to find our clg as venue, while it's completly okey for others"
+        "fromThreadName": "Check-in Scanner Not Working",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1540245728868180019",
+        "snippet": "List veetil ethith thanna mathiyo ipo kail illa , I have right only the names"
       }
     },
     {
@@ -771,7 +771,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
       "daysOpen": 22,
-      "daysSinceReceived": 22,
+      "daysSinceReceived": 23,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -793,7 +793,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-07",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-07",
-      "daysOpen": 22,
+      "daysOpen": 23,
       "daysSinceReceived": 25,
       "daysToClose": 0,
       "messageCount": 4,
@@ -817,16 +817,16 @@ window.DISCORD_DATA = {
       "last": "2026-09-09",
       "resolvedAt": "2026-09-04",
       "daysOpen": 22,
-      "daysSinceReceived": 27,
+      "daysSinceReceived": 28,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Venue is not found there",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544393017631309954",
-        "snippet": "Opened registrations for Useless projects. But some students are facing an issue of unable to find our clg as venue, while it's completly okey for others"
+        "fromThreadName": "Check-in Scanner Not Working",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1540245728868180019",
+        "snippet": "List veetil ethith thanna mathiyo ipo kail illa , I have right only the names"
       }
     },
     {
@@ -858,8 +858,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-08",
       "last": "2026-09-08",
       "resolvedAt": "2026-09-08",
-      "daysOpen": 23,
-      "daysSinceReceived": 23,
+      "daysOpen": 24,
+      "daysSinceReceived": 24,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -912,9 +912,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Venue is not found there",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544393017631309954",
-        "snippet": "Opened registrations for Useless projects. But some students are facing an issue of unable to find our clg as venue, while it's completly okey for others"
+        "fromThreadName": "Check-in Scanner Not Working",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1540245728868180019",
+        "snippet": "List veetil ethith thanna mathiyo ipo kail illa , I have right only the names"
       }
     },
     {
@@ -928,7 +928,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-09-07",
       "daysOpen": 24,
-      "daysSinceReceived": 24,
+      "daysSinceReceived": 25,
       "daysToClose": 0,
       "messageCount": 7,
       "archived": false,
@@ -974,16 +974,16 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-09-05",
       "daysOpen": 24,
-      "daysSinceReceived": 26,
+      "daysSinceReceived": 27,
       "daysToClose": 0,
       "messageCount": 12,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Venue is not found there",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544393017631309954",
-        "snippet": "Opened registrations for Useless projects. But some students are facing an issue of unable to find our clg as venue, while it's completly okey for others"
+        "fromThreadName": "Check-in Scanner Not Working",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1540245728868180019",
+        "snippet": "List veetil ethith thanna mathiyo ipo kail illa , I have right only the names"
       }
     },
     {
@@ -1038,17 +1038,17 @@ window.DISCORD_DATA = {
       "received": "2026-08-30",
       "last": "2026-09-08",
       "resolvedAt": "2026-08-30",
-      "daysOpen": 23,
-      "daysSinceReceived": 32,
+      "daysOpen": 24,
+      "daysSinceReceived": 33,
       "daysToClose": 0,
       "messageCount": 7,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Venue is not found there",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544393017631309954",
-        "snippet": "Opened registrations for Useless projects. But some students are facing an issue of unable to find our clg as venue, while it's completly okey for others"
+        "fromThreadName": "Check-in Scanner Not Working",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1540245728868180019",
+        "snippet": "List veetil ethith thanna mathiyo ipo kail illa , I have right only the names"
       }
     },
     {
@@ -1061,7 +1061,7 @@ window.DISCORD_DATA = {
       "received": "2026-08-18",
       "last": "2026-09-08",
       "resolvedAt": "2026-08-18",
-      "daysOpen": 23,
+      "daysOpen": 24,
       "daysSinceReceived": 45,
       "daysToClose": 0,
       "messageCount": 5,
@@ -1069,9 +1069,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Venue is not found there",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544393017631309954",
-        "snippet": "Opened registrations for Useless projects. But some students are facing an issue of unable to find our clg as venue, while it's completly okey for others"
+        "fromThreadName": "Check-in Scanner Not Working",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1540245728868180019",
+        "snippet": "List veetil ethith thanna mathiyo ipo kail illa , I have right only the names"
       }
     },
     {
@@ -1084,7 +1084,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-07",
       "last": "2026-09-07",
       "resolvedAt": "2026-09-07",
-      "daysOpen": 24,
+      "daysOpen": 25,
       "daysSinceReceived": 25,
       "daysToClose": 0,
       "messageCount": 2,
@@ -1107,7 +1107,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-07",
       "last": "2026-09-07",
       "resolvedAt": "2026-09-07",
-      "daysOpen": 24,
+      "daysOpen": 25,
       "daysSinceReceived": 25,
       "daysToClose": 0,
       "messageCount": 1,
@@ -1126,7 +1126,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-01",
       "last": "2026-09-07",
       "resolvedAt": "2026-09-01",
-      "daysOpen": 24,
+      "daysOpen": 25,
       "daysSinceReceived": 30,
       "daysToClose": 0,
       "messageCount": 1,
@@ -1134,9 +1134,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Venue is not found there",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544393017631309954",
-        "snippet": "Opened registrations for Useless projects. But some students are facing an issue of unable to find our clg as venue, while it's completly okey for others"
+        "fromThreadName": "Check-in Scanner Not Working",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1540245728868180019",
+        "snippet": "List veetil ethith thanna mathiyo ipo kail illa , I have right only the names"
       }
     },
     {
@@ -1149,7 +1149,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-06",
       "last": "2026-09-06",
       "resolvedAt": "2026-09-06",
-      "daysOpen": 25,
+      "daysOpen": 26,
       "daysSinceReceived": 26,
       "daysToClose": 0,
       "messageCount": 2,
@@ -1168,7 +1168,7 @@ window.DISCORD_DATA = {
       "received": "2026-08-25",
       "last": "2026-09-06",
       "resolvedAt": "2026-08-25",
-      "daysOpen": 25,
+      "daysOpen": 26,
       "daysSinceReceived": 38,
       "daysToClose": 0,
       "messageCount": 10,
@@ -1176,9 +1176,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Venue is not found there",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544393017631309954",
-        "snippet": "Opened registrations for Useless projects. But some students are facing an issue of unable to find our clg as venue, while it's completly okey for others"
+        "fromThreadName": "Check-in Scanner Not Working",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1540245728868180019",
+        "snippet": "List veetil ethith thanna mathiyo ipo kail illa , I have right only the names"
       }
     },
     {
@@ -1237,9 +1237,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Venue is not found there",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544393017631309954",
-        "snippet": "Opened registrations for Useless projects. But some students are facing an issue of unable to find our clg as venue, while it's completly okey for others"
+        "fromThreadName": "Check-in Scanner Not Working",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1540245728868180019",
+        "snippet": "List veetil ethith thanna mathiyo ipo kail illa , I have right only the names"
       }
     },
     {
@@ -1253,16 +1253,16 @@ window.DISCORD_DATA = {
       "last": "2026-09-04",
       "resolvedAt": "2026-08-29",
       "daysOpen": 27,
-      "daysSinceReceived": 33,
+      "daysSinceReceived": 34,
       "daysToClose": 0,
       "messageCount": 4,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Venue is not found there",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544393017631309954",
-        "snippet": "Opened registrations for Useless projects. But some students are facing an issue of unable to find our clg as venue, while it's completly okey for others"
+        "fromThreadName": "Check-in Scanner Not Working",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1540245728868180019",
+        "snippet": "List veetil ethith thanna mathiyo ipo kail illa , I have right only the names"
       }
     },
     {
@@ -1292,24 +1292,20 @@ window.DISCORD_DATA = {
       "id": "1540245728868180019",
       "name": "Check-in Scanner Not Working",
       "url": "https://discord.com/channels/735180366297563257/1540245728868180019",
-      "status": "Awaiting reply (from us)",
+      "status": "Resolved",
       "category": "Other",
       "requester": "Raj Kumar Soni",
       "received": "2026-08-21",
       "last": "2026-09-02",
-      "resolvedAt": "2026-08-21",
-      "daysOpen": 29,
+      "resolvedAt": "2026-10-02",
+      "daysOpen": 30,
       "daysSinceReceived": 42,
-      "daysToClose": 0,
+      "daysToClose": 42,
       "messageCount": 9,
-      "archived": false,
+      "archived": true,
       "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Venue is not found there",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544393017631309954",
-        "snippet": "Opened registrations for Useless projects. But some students are facing an issue of unable to find our clg as venue, while it's completly okey for others"
-      }
+      "resolutionSnippet": "List veetil ethith thanna mathiyo ipo kail illa , I have right only the names",
+      "suggestion": null
     },
     {
       "id": "1544393017631309954",
@@ -1321,8 +1317,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-01",
       "last": "2026-09-01",
       "resolvedAt": "2026-10-01",
-      "daysOpen": 30,
-      "daysSinceReceived": 30,
+      "daysOpen": 31,
+      "daysSinceReceived": 31,
       "daysToClose": 30,
       "messageCount": 0,
       "archived": true,
@@ -13208,12 +13204,12 @@ window.DISCORD_DATA = {
   ],
   "summary": {
     "No response": 29,
-    "Awaiting reply (from us)": 17,
+    "Awaiting reply (from us)": 16,
     "Awaiting reply (from them)": 12,
-    "Resolved": 628
+    "Resolved": 629
   },
-  "avgOpenDays": 18.3,
-  "avgDaysToClose": 12.4,
+  "avgOpenDays": 18.5,
+  "avgDaysToClose": 12.5,
   "topCategories": [
     {
       "category": "Event/Activity check-in & reporting",
