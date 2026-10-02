@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-02T10:43:00Z",
+  "generatedAt": "2026-10-02T12:43:28Z",
   "threads": [
     {
       "id": "campus-2c58b36fa5",
@@ -80,7 +80,7 @@ window.DASHBOARD_DATA = {
       "id": "campus-08bb5958b0",
       "threadId": "1a0342b5cd9cfcc2",
       "group": "campus",
-      "subject": "Re: Request to Reschedule Useless Project from September 5\u20136 to September 11\u201312",
+      "subject": "Re: Request to Reschedule Useless Project from September 5–6 to September 11–12",
       "counterpart": "Farsana",
       "email": "fathimathulfarsaana@gmail.com",
       "received": "2026-08-24",
@@ -1489,7 +1489,7 @@ window.DASHBOARD_DATA = {
       "id": "campus-9d9afdbe22",
       "threadId": "1a0b48ac5a8ed45c",
       "group": "campus",
-      "subject": "Collaboration Proposal \u2013 Blender Workshop under SOLITON \u201926",
+      "subject": "Collaboration Proposal – Blender Workshop under SOLITON ’26",
       "counterpart": "Niranjan S Das (IEEE Photonics Society Kerala Chapter)",
       "email": "niranjansdas@ug.cusat.ac.in",
       "received": "2026-09-18",
@@ -3318,9 +3318,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "TinkerHub MBCCET (campus chapter)",
       "email": "mevinmanu04@gmail.com",
       "received": "2026-09-30",
-      "last": "2026-10-01",
-      "status": "Awaiting reply (from them)",
-      "note": "Femina replied 10-01; awaiting their response",
+      "last": "2026-10-02",
+      "status": "Awaiting reply (from us)",
+      "note": "Mevin proposed core-team meeting Sat 3 Oct 8:00 PM; we need to confirm the time",
       "daysOpen": 2,
       "daysSinceReceived": 2,
       "cc": [
@@ -5424,7 +5424,7 @@ window.DASHBOARD_DATA = {
       "id": "support-3873045b3a",
       "threadId": "1a0dc1b0f9fe4d4d",
       "group": "support",
-      "subject": "Request to Add My College to TinkerHub Registration \u2013 Layover Hackathon",
+      "subject": "Request to Add My College to TinkerHub Registration – Layover Hackathon",
       "counterpart": "Arjun Sabu (St. Kuriakose College, Kuruppampady)",
       "email": "greninjadotdev@gmail.com",
       "received": "2026-09-26",
@@ -5637,8 +5637,8 @@ window.DASHBOARD_DATA = {
   ],
   "summary": {
     "No response": 5,
-    "Awaiting reply (from us)": 20,
-    "Awaiting reply (from them)": 28,
+    "Awaiting reply (from us)": 21,
+    "Awaiting reply (from them)": 27,
     "Resolved": 93,
     "Informational": 176
   },
@@ -5646,8 +5646,8 @@ window.DASHBOARD_DATA = {
     "campus": {
       "total": 261,
       "No response": 0,
-      "Awaiting reply (from us)": 9,
-      "Awaiting reply (from them)": 18,
+      "Awaiting reply (from us)": 10,
+      "Awaiting reply (from them)": 17,
       "Resolved": 75,
       "Informational": 159,
       "avgOpenDays": 15.3,
@@ -5670,7 +5670,7 @@ window.DASHBOARD_DATA = {
       "Awaiting reply (from them)": 0,
       "Resolved": 5,
       "Informational": 14,
-      "avgOpenDays": 25.0,
+      "avgOpenDays": 25,
       "avgResolvedDays": 4.4
     },
     "report": {
@@ -5691,7 +5691,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 1,
       "avgOpenDays": 8.5,
-      "avgResolvedDays": 1.0
+      "avgResolvedDays": 1
     },
     "tinkerspace": {
       "total": 0,
