@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-02T14:43:07Z",
+  "generatedAt": "2026-10-02T16:43:53Z",
   "threads": [
     {
       "id": "campus-2c58b36fa5",
@@ -80,7 +80,7 @@ window.DASHBOARD_DATA = {
       "id": "campus-08bb5958b0",
       "threadId": "1a0342b5cd9cfcc2",
       "group": "campus",
-      "subject": "Re: Request to Reschedule Useless Project from September 5\u20136 to September 11\u201312",
+      "subject": "Re: Request to Reschedule Useless Project from September 5–6 to September 11–12",
       "counterpart": "Farsana",
       "email": "fathimathulfarsaana@gmail.com",
       "received": "2026-08-24",
@@ -317,25 +317,6 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 29,
       "cc": [
         "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-bafac6b778",
-      "threadId": "1a06c6af7fac7d4f",
-      "group": "campus",
-      "subject": "Complaint Regarding Participation Fee for Useless Project 3.0 at Sahrdaya College",
-      "counterpart": "Arjun (Sahrdaya College student)",
-      "email": "kiki432005@proton.me",
-      "received": "2026-09-04",
-      "last": "2026-09-04",
-      "status": "Awaiting reply (from us)",
-      "note": "investigating fee complaint with campus lead",
-      "daysOpen": 28,
-      "daysSinceReceived": 28,
-      "cc": [
-        "campus@tinkerhub.org",
-        "council@tinkerhub.org",
-        "report@tinkerhub.org"
       ]
     },
     {
@@ -1489,7 +1470,7 @@ window.DASHBOARD_DATA = {
       "id": "campus-9d9afdbe22",
       "threadId": "1a0b48ac5a8ed45c",
       "group": "campus",
-      "subject": "Collaboration Proposal \u2013 Blender Workshop under SOLITON \u201926",
+      "subject": "Collaboration Proposal – Blender Workshop under SOLITON ’26",
       "counterpart": "Niranjan S Das (IEEE Photonics Society Kerala Chapter)",
       "email": "niranjansdas@ug.cusat.ac.in",
       "received": "2026-09-18",
@@ -5075,23 +5056,6 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "support-2e0a4ec1b9",
-      "threadId": "1a037a3e72a46ef9",
-      "group": "support",
-      "subject": "Cannot login to page",
-      "counterpart": "Gouri E S",
-      "email": "gourishaju07@gmail.com",
-      "received": "2026-08-25",
-      "last": "2026-09-23",
-      "status": "Resolved",
-      "note": "login/OTP issue resolved, user confirmed working",
-      "daysOpen": 29,
-      "daysSinceReceived": 38,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
       "id": "support-7dc073f54d",
       "threadId": "1a0385d224e84b2c",
       "group": "support",
@@ -5123,24 +5087,6 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 37,
       "cc": [
         "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-260b19eb06",
-      "threadId": "1a042cdc25fcb5c6",
-      "group": "support",
-      "subject": "OTP Not Being Sent When Trying to Log In",
-      "counterpart": "Athul Benedict",
-      "email": "athulbenedict123@gmail.com",
-      "received": "2026-08-27",
-      "last": "2026-09-19",
-      "status": "Awaiting reply (from them)",
-      "note": "login OTP issue resolved, awaiting confirmation",
-      "daysOpen": 36,
-      "daysSinceReceived": 36,
-      "cc": [
-        "support@tinkerhub.org",
-        "report@tinkerhub.org"
       ]
     },
     {
@@ -5207,59 +5153,6 @@ window.DASHBOARD_DATA = {
       "note": "event registration fixed, students added",
       "daysOpen": 16,
       "daysSinceReceived": 25,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-06743984e7",
-      "threadId": "1a07f81e530dfb34",
-      "group": "support",
-      "subject": "Tinkerhub not sending OTP for login",
-      "counterpart": "Dev Anand V P",
-      "email": "blindinglucario@gmail.com",
-      "received": "2026-09-08",
-      "last": "2026-09-23",
-      "status": "Awaiting reply (from them)",
-      "note": "OTP rate limit, asked to retry later",
-      "daysOpen": 24,
-      "daysSinceReceived": 24,
-      "cc": [
-        "support@tinkerhub.org",
-        "report@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-41ce301bde",
-      "threadId": "1a07f972d58575c1",
-      "group": "support",
-      "subject": "OTP failing",
-      "counterpart": "Shaphen Binu Kuriakose",
-      "email": "shaphenbinukuriakose@gmail.com",
-      "received": "2026-09-08",
-      "last": "2026-09-23",
-      "status": "Awaiting reply (from them)",
-      "note": "OTP login issue resolved, awaiting confirmation",
-      "daysOpen": 24,
-      "daysSinceReceived": 24,
-      "cc": [
-        "support@tinkerhub.org",
-        "report@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-d03f3c3ea7",
-      "threadId": "1a07f8adc7a282ef",
-      "group": "support",
-      "subject": "OTP Request Limit Exceeded",
-      "counterpart": "Renil Augustine",
-      "email": "augustinerenil723@gmail.com",
-      "received": "2026-09-08",
-      "last": "2026-09-23",
-      "status": "Awaiting reply (from them)",
-      "note": "OTP rate limit, asked to retry later",
-      "daysOpen": 24,
-      "daysSinceReceived": 24,
       "cc": [
         "support@tinkerhub.org"
       ]
@@ -5424,7 +5317,7 @@ window.DASHBOARD_DATA = {
       "id": "support-3873045b3a",
       "threadId": "1a0dc1b0f9fe4d4d",
       "group": "support",
-      "subject": "Request to Add My College to TinkerHub Registration \u2013 Layover Hackathon",
+      "subject": "Request to Add My College to TinkerHub Registration – Layover Hackathon",
       "counterpart": "Arjun Sabu (St. Kuriakose College, Kuruppampady)",
       "email": "greninjadotdev@gmail.com",
       "received": "2026-09-26",
@@ -5455,172 +5348,7 @@ window.DASHBOARD_DATA = {
       "daysOpen": 0
     },
     {
-      "id": "report-690e429729",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Resolved",
-      "note": null,
-      "daysOpen": 0,
-      "daysSinceReceived": 1,
-      "cc": []
-    },
-    {
-      "id": "report-11d03bbb9a",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Resolved",
-      "note": null,
-      "daysOpen": 2,
-      "daysSinceReceived": 4,
-      "cc": []
-    },
-    {
-      "id": "report-498dadce30",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Awaiting reply (from us)",
-      "note": null,
-      "daysOpen": 9,
-      "daysSinceReceived": 9,
-      "cc": []
-    },
-    {
-      "id": "report-0759256871",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Resolved",
-      "note": null,
-      "daysOpen": 29,
-      "daysSinceReceived": 38,
-      "cc": []
-    },
-    {
-      "id": "report-e731021ede",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Awaiting reply (from them)",
-      "note": null,
-      "daysOpen": 36,
-      "daysSinceReceived": 36,
-      "cc": []
-    },
-    {
-      "id": "report-039fe8162f",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Awaiting reply (from us)",
-      "note": null,
-      "daysOpen": 15,
-      "daysSinceReceived": 15,
-      "cc": []
-    },
-    {
-      "id": "report-217295ac1d",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Awaiting reply (from them)",
-      "note": null,
-      "daysOpen": 24,
-      "daysSinceReceived": 24,
-      "cc": []
-    },
-    {
-      "id": "report-ba0b8315b8",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Awaiting reply (from them)",
-      "note": null,
-      "daysOpen": 24,
-      "daysSinceReceived": 24,
-      "cc": []
-    },
-    {
-      "id": "report-265c2e2322",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Awaiting reply (from them)",
-      "note": null,
-      "daysOpen": 24,
-      "daysSinceReceived": 24,
-      "cc": []
-    },
-    {
-      "id": "report-b8e4903b0b",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Awaiting reply (from us)",
-      "note": null,
-      "daysOpen": 28,
-      "daysSinceReceived": 28,
-      "cc": []
-    },
-    {
-      "id": "report-dfa7e3fab9",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "No response",
-      "note": null,
-      "daysOpen": 30,
-      "daysSinceReceived": 30,
-      "cc": []
-    },
-    {
-      "id": "report-5ee0cd970b",
+      "id": "report-51a53a5e66",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -5630,38 +5358,203 @@ window.DASHBOARD_DATA = {
       "last": null,
       "status": "Informational",
       "note": null,
-      "daysOpen": 0,
+      "cc": [],
       "daysSinceReceived": 0,
-      "cc": []
+      "daysOpen": 0
+    },
+    {
+      "id": "report-592cad1439",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Resolved",
+      "note": null,
+      "cc": [],
+      "daysSinceReceived": 1,
+      "daysOpen": 0
+    },
+    {
+      "id": "report-9691bdbb2d",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Resolved",
+      "note": null,
+      "cc": [],
+      "daysSinceReceived": 4,
+      "daysOpen": 2
+    },
+    {
+      "id": "report-d24eb0ad18",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Awaiting reply (from us)",
+      "note": null,
+      "cc": [],
+      "daysSinceReceived": 9,
+      "daysOpen": 9
+    },
+    {
+      "id": "report-d467652a9f",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Resolved",
+      "note": null,
+      "cc": [],
+      "daysSinceReceived": 38,
+      "daysOpen": 29
+    },
+    {
+      "id": "report-aa14764f2a",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Awaiting reply (from them)",
+      "note": null,
+      "cc": [],
+      "daysSinceReceived": 36,
+      "daysOpen": 36
+    },
+    {
+      "id": "report-80ba999b95",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Awaiting reply (from us)",
+      "note": null,
+      "cc": [],
+      "daysSinceReceived": 15,
+      "daysOpen": 15
+    },
+    {
+      "id": "report-c5d20472ea",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Resolved",
+      "note": null,
+      "cc": [],
+      "daysSinceReceived": 24,
+      "daysOpen": 15
+    },
+    {
+      "id": "report-e5e12ff0cd",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Resolved",
+      "note": null,
+      "cc": [],
+      "daysSinceReceived": 24,
+      "daysOpen": 15
+    },
+    {
+      "id": "report-14807cce3a",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Resolved",
+      "note": null,
+      "cc": [],
+      "daysSinceReceived": 24,
+      "daysOpen": 15
+    },
+    {
+      "id": "report-1ab73293c1",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Awaiting reply (from us)",
+      "note": null,
+      "cc": [],
+      "daysSinceReceived": 28,
+      "daysOpen": 28
+    },
+    {
+      "id": "report-f2de2dd9c7",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "No response",
+      "note": null,
+      "cc": [],
+      "daysSinceReceived": 30,
+      "daysOpen": 30
     }
   ],
   "summary": {
     "No response": 5,
-    "Awaiting reply (from us)": 21,
-    "Awaiting reply (from them)": 27,
-    "Resolved": 93,
+    "Awaiting reply (from us)": 20,
+    "Awaiting reply (from them)": 20,
+    "Resolved": 95,
     "Informational": 176
   },
   "analytics": {
     "campus": {
-      "total": 261,
+      "total": 260,
       "No response": 0,
-      "Awaiting reply (from us)": 10,
+      "Awaiting reply (from us)": 9,
       "Awaiting reply (from them)": 17,
       "Resolved": 75,
       "Informational": 159,
-      "avgOpenDays": 15.3,
+      "avgOpenDays": 14.8,
       "avgResolvedDays": 4.7
     },
     "support": {
-      "total": 25,
+      "total": 20,
       "No response": 3,
       "Awaiting reply (from us)": 6,
-      "Awaiting reply (from them)": 6,
-      "Resolved": 9,
+      "Awaiting reply (from them)": 2,
+      "Resolved": 8,
       "Informational": 1,
-      "avgOpenDays": 24.1,
-      "avgResolvedDays": 19.9
+      "avgOpenDays": 23.1,
+      "avgResolvedDays": 18.8
     },
     "finance": {
       "total": 20,
@@ -5670,18 +5563,18 @@ window.DASHBOARD_DATA = {
       "Awaiting reply (from them)": 0,
       "Resolved": 5,
       "Informational": 14,
-      "avgOpenDays": 25,
+      "avgOpenDays": 25.0,
       "avgResolvedDays": 4.4
     },
     "report": {
       "total": 12,
       "No response": 1,
       "Awaiting reply (from us)": 3,
-      "Awaiting reply (from them)": 4,
-      "Resolved": 3,
+      "Awaiting reply (from them)": 1,
+      "Resolved": 6,
       "Informational": 1,
-      "avgOpenDays": 23.8,
-      "avgResolvedDays": 10.3
+      "avgOpenDays": 23.6,
+      "avgResolvedDays": 12.7
     },
     "partner": {
       "total": 4,
@@ -5691,7 +5584,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 1,
       "avgOpenDays": 8.5,
-      "avgResolvedDays": 1
+      "avgResolvedDays": 1.0
     },
     "tinkerspace": {
       "total": 0,
