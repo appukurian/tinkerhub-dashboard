@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-03T02:43:12Z",
+  "generatedAt": "2026-10-03T04:42:46Z",
   "threads": [
     {
       "id": "campus-2c58b36fa5",
@@ -80,7 +80,7 @@ window.DASHBOARD_DATA = {
       "id": "campus-08bb5958b0",
       "threadId": "1a0342b5cd9cfcc2",
       "group": "campus",
-      "subject": "Re: Request to Reschedule Useless Project from September 5\u20136 to September 11\u201312",
+      "subject": "Re: Request to Reschedule Useless Project from September 5–6 to September 11–12",
       "counterpart": "Farsana",
       "email": "fathimathulfarsaana@gmail.com",
       "received": "2026-08-24",
@@ -1385,7 +1385,7 @@ window.DASHBOARD_DATA = {
       "id": "campus-9d9afdbe22",
       "threadId": "1a0b48ac5a8ed45c",
       "group": "campus",
-      "subject": "Collaboration Proposal \u2013 Blender Workshop under SOLITON \u201926",
+      "subject": "Collaboration Proposal – Blender Workshop under SOLITON ’26",
       "counterpart": "Niranjan S Das (IEEE Photonics Society Kerala Chapter)",
       "email": "niranjansdas@ug.cusat.ac.in",
       "received": "2026-09-18",
@@ -5214,7 +5214,7 @@ window.DASHBOARD_DATA = {
       "id": "support-3873045b3a",
       "threadId": "1a0dc1b0f9fe4d4d",
       "group": "support",
-      "subject": "Request to Add My College to TinkerHub Registration \u2013 Layover Hackathon",
+      "subject": "Request to Add My College to TinkerHub Registration – Layover Hackathon",
       "counterpart": "Arjun Sabu (St. Kuriakose College, Kuruppampady)",
       "email": "greninjadotdev@gmail.com",
       "received": "2026-09-26",
@@ -5245,7 +5245,25 @@ window.DASHBOARD_DATA = {
       "daysOpen": 0
     },
     {
-      "id": "report-51a53a5e66",
+      "id": "campus-30d29375f9",
+      "threadId": "1a0ff671ae74789b",
+      "group": "campus",
+      "subject": "TinkerSpace availability for a December event",
+      "counterpart": "Ashna Shirin",
+      "email": "ashna.shirin.official@gmail.com",
+      "received": "2026-10-03",
+      "last": "2026-10-03",
+      "status": "Awaiting reply (from them)",
+      "note": "Shan asked Ashna for exact dates and event overview; also reported booking calendar redirecting to FrappeCloud sign-up",
+      "cc": [
+        "campus@tinkerhub.org",
+        "tinkerspace@tinkerhub.org"
+      ],
+      "daysSinceReceived": 0,
+      "daysOpen": 0
+    },
+    {
+      "id": "report-c56655a00e",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -5255,12 +5273,12 @@ window.DASHBOARD_DATA = {
       "last": null,
       "status": "Informational",
       "note": null,
-      "cc": [],
+      "daysOpen": 0,
       "daysSinceReceived": 1,
-      "daysOpen": 0
+      "cc": []
     },
     {
-      "id": "report-592cad1439",
+      "id": "report-a475cbe265",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -5270,12 +5288,12 @@ window.DASHBOARD_DATA = {
       "last": null,
       "status": "Resolved",
       "note": null,
-      "cc": [],
+      "daysOpen": 0,
       "daysSinceReceived": 2,
-      "daysOpen": 0
+      "cc": []
     },
     {
-      "id": "report-9691bdbb2d",
+      "id": "report-e4151bc8d9",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -5285,12 +5303,12 @@ window.DASHBOARD_DATA = {
       "last": null,
       "status": "Resolved",
       "note": null,
-      "cc": [],
+      "daysOpen": 2,
       "daysSinceReceived": 5,
-      "daysOpen": 2
+      "cc": []
     },
     {
-      "id": "report-d24eb0ad18",
+      "id": "report-36d526fd4f",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -5300,12 +5318,12 @@ window.DASHBOARD_DATA = {
       "last": null,
       "status": "Awaiting reply (from us)",
       "note": null,
-      "cc": [],
+      "daysOpen": 10,
       "daysSinceReceived": 10,
-      "daysOpen": 10
+      "cc": []
     },
     {
-      "id": "report-d467652a9f",
+      "id": "report-2fe5a39cb3",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -5315,12 +5333,12 @@ window.DASHBOARD_DATA = {
       "last": null,
       "status": "Resolved",
       "note": null,
-      "cc": [],
+      "daysOpen": 29,
       "daysSinceReceived": 39,
-      "daysOpen": 29
+      "cc": []
     },
     {
-      "id": "report-aa14764f2a",
+      "id": "report-ead2ee4342",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -5330,12 +5348,12 @@ window.DASHBOARD_DATA = {
       "last": null,
       "status": "Awaiting reply (from them)",
       "note": null,
-      "cc": [],
+      "daysOpen": 37,
       "daysSinceReceived": 37,
-      "daysOpen": 37
+      "cc": []
     },
     {
-      "id": "report-80ba999b95",
+      "id": "report-c8fce0b795",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -5345,12 +5363,12 @@ window.DASHBOARD_DATA = {
       "last": null,
       "status": "Awaiting reply (from us)",
       "note": null,
-      "cc": [],
+      "daysOpen": 16,
       "daysSinceReceived": 16,
-      "daysOpen": 16
+      "cc": []
     },
     {
-      "id": "report-c5d20472ea",
+      "id": "report-bd95681ff2",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -5358,14 +5376,14 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Resolved",
+      "status": "Awaiting reply (from them)",
       "note": null,
-      "cc": [],
+      "daysOpen": 25,
       "daysSinceReceived": 25,
-      "daysOpen": 15
+      "cc": []
     },
     {
-      "id": "report-e5e12ff0cd",
+      "id": "report-080c9d9f49",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -5373,14 +5391,14 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Resolved",
+      "status": "Awaiting reply (from them)",
       "note": null,
-      "cc": [],
+      "daysOpen": 25,
       "daysSinceReceived": 25,
-      "daysOpen": 15
+      "cc": []
     },
     {
-      "id": "report-14807cce3a",
+      "id": "report-e6e0ba81e3",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -5388,14 +5406,14 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Resolved",
+      "status": "Awaiting reply (from them)",
       "note": null,
-      "cc": [],
+      "daysOpen": 25,
       "daysSinceReceived": 25,
-      "daysOpen": 15
+      "cc": []
     },
     {
-      "id": "report-1ab73293c1",
+      "id": "report-9b5628eb5c",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -5405,56 +5423,25 @@ window.DASHBOARD_DATA = {
       "last": null,
       "status": "Awaiting reply (from us)",
       "note": null,
-      "cc": [],
+      "daysOpen": 29,
       "daysSinceReceived": 29,
-      "daysOpen": 29
-    },
-    {
-      "id": "report-f2de2dd9c7",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "No response",
-      "note": null,
-      "cc": [],
-      "daysSinceReceived": 31,
-      "daysOpen": 31
-    },
-    {
-      "id": "campus-30d29375f9",
-      "threadId": "1a0ff671ae74789b",
-      "group": "campus",
-      "subject": "TinkerSpace availability for a December event",
-      "counterpart": "Ashna Shirin",
-      "email": "ashna.shirin.official@gmail.com",
-      "received": "2026-10-03",
-      "last": "2026-10-03",
-      "status": "No response",
-      "note": "Asks about hosting a 2-day/1-night December event at TinkerSpace; also reports booking calendar redirecting to FrappeCloud sign-up",
-      "cc": [
-        "campus@tinkerhub.org"
-      ],
-      "daysSinceReceived": 0,
-      "daysOpen": 0
+      "cc": []
     }
   ],
   "summary": {
-    "No response": 6,
+    "No response": 4,
     "Awaiting reply (from us)": 20,
-    "Awaiting reply (from them)": 20,
-    "Resolved": 90,
-    "Informational": 175
+    "Awaiting reply (from them)": 24,
+    "Resolved": 87,
+    "Informational": 175,
+    "total": 310
   },
   "analytics": {
     "campus": {
       "total": 256,
-      "No response": 1,
+      "No response": 0,
       "Awaiting reply (from us)": 9,
-      "Awaiting reply (from them)": 17,
+      "Awaiting reply (from them)": 18,
       "Resolved": 71,
       "Informational": 158,
       "avgOpenDays": 15.2,
@@ -5481,14 +5468,14 @@ window.DASHBOARD_DATA = {
       "avgResolvedDays": 5.0
     },
     "report": {
-      "total": 12,
-      "No response": 1,
+      "total": 11,
+      "No response": 0,
       "Awaiting reply (from us)": 3,
-      "Awaiting reply (from them)": 1,
-      "Resolved": 6,
+      "Awaiting reply (from them)": 4,
+      "Resolved": 3,
       "Informational": 1,
-      "avgOpenDays": 24.6,
-      "avgResolvedDays": 12.7
+      "avgOpenDays": 23.9,
+      "avgResolvedDays": 10.3
     },
     "partner": {
       "total": 4,
