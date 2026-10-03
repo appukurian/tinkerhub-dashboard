@@ -1,6 +1,23 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-03T04:42:46Z",
+  "generatedAt": "2026-10-03T06:44:16Z",
   "threads": [
+    {
+      "id": "campus-bc11a6ce1c",
+      "threadId": "1a1002aaa6b0cde4",
+      "group": "campus",
+      "subject": "Useless Projects 3.0 – Late Submission Request",
+      "counterpart": "Aiswarya Ramesh (Ahalia School of Engineering and Technology)",
+      "email": "aiswaryaramesh28@gmail.com",
+      "received": "2026-10-03",
+      "last": "2026-10-03",
+      "status": "No response",
+      "note": "Team 404 Not Found (Useless Maze Game) requests late submission; no reply yet",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
     {
       "id": "campus-2c58b36fa5",
       "threadId": "19fc5b277d1d1530",
@@ -5429,22 +5446,22 @@ window.DASHBOARD_DATA = {
     }
   ],
   "summary": {
-    "No response": 4,
+    "No response": 5,
     "Awaiting reply (from us)": 20,
     "Awaiting reply (from them)": 24,
     "Resolved": 87,
     "Informational": 175,
-    "total": 310
+    "total": 311
   },
   "analytics": {
     "campus": {
-      "total": 256,
-      "No response": 0,
+      "total": 257,
+      "No response": 1,
       "Awaiting reply (from us)": 9,
       "Awaiting reply (from them)": 18,
       "Resolved": 71,
       "Informational": 158,
-      "avgOpenDays": 15.2,
+      "avgOpenDays": 14.6,
       "avgResolvedDays": 4.9
     },
     "support": {
