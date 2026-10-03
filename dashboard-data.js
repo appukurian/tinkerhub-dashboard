@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-03T06:44:16Z",
+  "generatedAt": "2026-10-03T08:43:28Z",
   "threads": [
     {
       "id": "campus-bc11a6ce1c",
@@ -10,8 +10,8 @@ window.DASHBOARD_DATA = {
       "email": "aiswaryaramesh28@gmail.com",
       "received": "2026-10-03",
       "last": "2026-10-03",
-      "status": "No response",
-      "note": "Team 404 Not Found (Useless Maze Game) requests late submission; no reply yet",
+      "status": "Awaiting reply (from them)",
+      "note": "Team 404 Not Found requested late submission; Habeeb replied (no late entries, add as standard Hub project; asked why not raised earlier) — awaiting their response",
       "daysOpen": 0,
       "daysSinceReceived": 0,
       "cc": [
@@ -5443,25 +5443,42 @@ window.DASHBOARD_DATA = {
       "daysOpen": 29,
       "daysSinceReceived": 29,
       "cc": []
+    },
+    {
+      "id": "campus-14dfd115d7",
+      "threadId": "1a100a14d3a7a0b7",
+      "group": "campus",
+      "subject": "Update on travel re-imbursement status",
+      "counterpart": "Sarang Vishnu (leads onboarding camp)",
+      "email": "sarangvishnu50458@gmail.com",
+      "received": "2026-10-03",
+      "last": "2026-10-03",
+      "status": "No response",
+      "note": "Asks if travel allowance for leads onboarding camp was credited; no reply yet",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     }
   ],
   "summary": {
     "No response": 5,
     "Awaiting reply (from us)": 20,
-    "Awaiting reply (from them)": 24,
+    "Awaiting reply (from them)": 25,
     "Resolved": 87,
     "Informational": 175,
-    "total": 311
+    "total": 312
   },
   "analytics": {
     "campus": {
-      "total": 257,
+      "total": 258,
       "No response": 1,
       "Awaiting reply (from us)": 9,
-      "Awaiting reply (from them)": 18,
+      "Awaiting reply (from them)": 19,
       "Resolved": 71,
       "Informational": 158,
-      "avgOpenDays": 14.6,
+      "avgOpenDays": 14.1,
       "avgResolvedDays": 4.9
     },
     "support": {
@@ -5481,8 +5498,8 @@ window.DASHBOARD_DATA = {
       "Awaiting reply (from them)": 0,
       "Resolved": 4,
       "Informational": 14,
-      "avgOpenDays": 26.0,
-      "avgResolvedDays": 5.0
+      "avgOpenDays": 26,
+      "avgResolvedDays": 5
     },
     "report": {
       "total": 11,
@@ -5502,7 +5519,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 1,
       "avgOpenDays": 9.5,
-      "avgResolvedDays": 1.0
+      "avgResolvedDays": 1
     },
     "tinkerspace": {
       "total": 0,
