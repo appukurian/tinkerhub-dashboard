@@ -1,17 +1,35 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-04T14:43:35Z",
+  "generatedAt": "2026-10-04T16:42:33Z",
   "threads": [
+    {
+      "id": "finance-13eedea18f",
+      "threadId": "1a1075f8bbc97029",
+      "group": "finance",
+      "subject": "Payment Request",
+      "counterpart": "Cyril Anish",
+      "email": "cyrilanish10@gmail.com",
+      "received": "2026-10-04",
+      "last": "2026-10-04",
+      "status": "No response",
+      "note": "Payment request with 2 PDF attachments (Builder in Residence, Graduation Day highlight); althaf cc'd, no reply yet",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "althaf@tinkerhub.org",
+        "finance@tinkerhub.org"
+      ]
+    },
     {
       "id": "campus-bc11a6ce1c",
       "threadId": "1a1002aaa6b0cde4",
       "group": "campus",
-      "subject": "Useless Projects 3.0 – Late Submission Request",
+      "subject": "Useless Projects 3.0 \u2013 Late Submission Request",
       "counterpart": "Aiswarya Ramesh (Ahalia School of Engineering and Technology)",
       "email": "aiswaryaramesh28@gmail.com",
       "received": "2026-10-03",
       "last": "2026-10-03",
       "status": "Awaiting reply (from them)",
-      "note": "Team 404 Not Found requested late submission; Habeeb replied (no late entries, add as standard Hub project; asked why not raised earlier) — awaiting their response",
+      "note": "Team 404 Not Found requested late submission; Habeeb replied (no late entries, add as standard Hub project; asked why not raised earlier) \u2014 awaiting their response",
       "daysOpen": 1,
       "daysSinceReceived": 1,
       "cc": [
@@ -97,7 +115,7 @@ window.DASHBOARD_DATA = {
       "id": "campus-08bb5958b0",
       "threadId": "1a0342b5cd9cfcc2",
       "group": "campus",
-      "subject": "Re: Request to Reschedule Useless Project from September 5–6 to September 11–12",
+      "subject": "Re: Request to Reschedule Useless Project from September 5\u20136 to September 11\u201312",
       "counterpart": "Farsana",
       "email": "fathimathulfarsaana@gmail.com",
       "received": "2026-08-24",
@@ -1385,7 +1403,7 @@ window.DASHBOARD_DATA = {
       "id": "campus-9d9afdbe22",
       "threadId": "1a0b48ac5a8ed45c",
       "group": "campus",
-      "subject": "Collaboration Proposal – Blender Workshop under SOLITON ’26",
+      "subject": "Collaboration Proposal \u2013 Blender Workshop under SOLITON \u201926",
       "counterpart": "Niranjan S Das (IEEE Photonics Society Kerala Chapter)",
       "email": "niranjansdas@ug.cusat.ac.in",
       "received": "2026-09-18",
@@ -5197,7 +5215,7 @@ window.DASHBOARD_DATA = {
       "id": "support-3873045b3a",
       "threadId": "1a0dc1b0f9fe4d4d",
       "group": "support",
-      "subject": "Request to Add My College to TinkerHub Registration – Layover Hackathon",
+      "subject": "Request to Add My College to TinkerHub Registration \u2013 Layover Hackathon",
       "counterpart": "Arjun Sabu (St. Kuriakose College, Kuruppampady)",
       "email": "greninjadotdev@gmail.com",
       "received": "2026-09-26",
@@ -5324,7 +5342,7 @@ window.DASHBOARD_DATA = {
       "received": "2026-10-03",
       "last": "2026-10-04",
       "status": "Awaiting reply (from us)",
-      "note": "Invoice 14573, USD 1,050 (Makerfaire Kochi license fee, Net 30, reminder); Kurian forwarded to finance asking Althaf to pay and Mehar to check — payment not yet confirmed",
+      "note": "Invoice 14573, USD 1,050 (Makerfaire Kochi license fee, Net 30, reminder); Kurian forwarded to finance asking Althaf to pay and Mehar to check \u2014 payment not yet confirmed",
       "daysOpen": 1,
       "daysSinceReceived": 1,
       "cc": [
@@ -5335,7 +5353,7 @@ window.DASHBOARD_DATA = {
       "id": "finance-d4d37c6e69",
       "threadId": "1a1063bd8a1d6363",
       "group": "finance",
-      "subject": "Folder shared with you: ‘Final Print Mozilla’",
+      "subject": "Folder shared with you: \u2018Final Print Mozilla\u2019",
       "counterpart": "Moosa Mehar",
       "email": "meharmp@gmail.com",
       "received": "2026-10-04",
@@ -5359,7 +5377,7 @@ window.DASHBOARD_DATA = {
       "received": "2026-10-04",
       "last": "2026-10-04",
       "status": "No response",
-      "note": "Mehar submitted 9 train-ticket PNRs (Aug–Oct) to finance@; no reply yet",
+      "note": "Mehar submitted 9 train-ticket PNRs (Aug\u2013Oct) to finance@; no reply yet",
       "daysOpen": 0,
       "daysSinceReceived": 0,
       "cc": [
@@ -5518,12 +5536,12 @@ window.DASHBOARD_DATA = {
     }
   ],
   "summary": {
-    "No response": 6,
+    "No response": 7,
     "Awaiting reply (from us)": 21,
     "Awaiting reply (from them)": 26,
     "Resolved": 86,
     "Informational": 176,
-    "total": 315
+    "total": 316
   },
   "analytics": {
     "campus": {
@@ -5547,13 +5565,13 @@ window.DASHBOARD_DATA = {
       "avgResolvedDays": 16.8
     },
     "finance": {
-      "total": 23,
-      "No response": 3,
+      "total": 24,
+      "No response": 4,
       "Awaiting reply (from us)": 1,
       "Awaiting reply (from them)": 0,
       "Resolved": 4,
       "Informational": 15,
-      "avgOpenDays": 7.0,
+      "avgOpenDays": 5.6,
       "avgResolvedDays": 5.0
     },
     "report": {
