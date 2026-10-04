@@ -1,7 +1,7 @@
 // Auto-generated daily by .github/workflows/discord-update.yml
 // Do NOT hand-edit — this file is overwritten on each run.
 window.DISCORD_DATA = {
-  "generatedAt": "2026-10-04T15:27:26Z",
+  "generatedAt": "2026-10-04T19:44:10Z",
   "threads": [
     {
       "id": "1554925142788939918",
@@ -14,16 +14,16 @@ window.DISCORD_DATA = {
       "last": "2026-10-03",
       "resolvedAt": "2026-09-30",
       "daysOpen": 1,
-      "daysSinceReceived": 3,
+      "daysSinceReceived": 4,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Change time",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544986885301084170",
-        "snippet": "updated aayo ?"
+        "fromThreadName": "Outreach lead is not in the server",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543280461877354506",
+        "snippet": "No"
       }
     },
     {
@@ -74,8 +74,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-10",
       "last": "2026-10-01",
       "resolvedAt": "2026-09-10",
-      "daysOpen": 2,
-      "daysSinceReceived": 23,
+      "daysOpen": 3,
+      "daysSinceReceived": 24,
       "daysToClose": 0,
       "messageCount": 8,
       "archived": false,
@@ -97,17 +97,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-30",
       "last": "2026-09-30",
       "resolvedAt": "2026-09-30",
-      "daysOpen": 3,
-      "daysSinceReceived": 3,
+      "daysOpen": 4,
+      "daysSinceReceived": 4,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Change time",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544986885301084170",
-        "snippet": "updated aayo ?"
+        "fromThreadName": "Outreach lead is not in the server",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543280461877354506",
+        "snippet": "No"
       }
     },
     {
@@ -254,8 +254,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-19",
       "last": "2026-09-19",
       "resolvedAt": "2026-09-19",
-      "daysOpen": 14,
-      "daysSinceReceived": 14,
+      "daysOpen": 15,
+      "daysSinceReceived": 15,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -277,8 +277,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-18",
       "last": "2026-09-18",
       "resolvedAt": "2026-09-18",
-      "daysOpen": 15,
-      "daysSinceReceived": 15,
+      "daysOpen": 16,
+      "daysSinceReceived": 16,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -301,7 +301,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-18",
       "resolvedAt": "2026-09-09",
       "daysOpen": 16,
-      "daysSinceReceived": 24,
+      "daysSinceReceived": 25,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -324,7 +324,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-16",
       "resolvedAt": "2026-09-13",
       "daysOpen": 18,
-      "daysSinceReceived": 20,
+      "daysSinceReceived": 21,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -503,9 +503,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Change time",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544986885301084170",
-        "snippet": "updated aayo ?"
+        "fromThreadName": "Outreach lead is not in the server",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543280461877354506",
+        "snippet": "No"
       }
     },
     {
@@ -556,8 +556,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-10",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-10",
-      "daysOpen": 23,
-      "daysSinceReceived": 23,
+      "daysOpen": 24,
+      "daysSinceReceived": 24,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -575,8 +575,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-10",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-10",
-      "daysOpen": 23,
-      "daysSinceReceived": 23,
+      "daysOpen": 24,
+      "daysSinceReceived": 24,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -701,8 +701,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 24,
-      "daysSinceReceived": 24,
+      "daysOpen": 25,
+      "daysSinceReceived": 25,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -724,17 +724,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 24,
-      "daysSinceReceived": 24,
+      "daysOpen": 25,
+      "daysSinceReceived": 25,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Change time",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544986885301084170",
-        "snippet": "updated aayo ?"
+        "fromThreadName": "Outreach lead is not in the server",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543280461877354506",
+        "snippet": "No"
       }
     },
     {
@@ -747,17 +747,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 24,
-      "daysSinceReceived": 24,
+      "daysOpen": 25,
+      "daysSinceReceived": 25,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Change time",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544986885301084170",
-        "snippet": "updated aayo ?"
+        "fromThreadName": "Outreach lead is not in the server",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543280461877354506",
+        "snippet": "No"
       }
     },
     {
@@ -770,7 +770,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 24,
+      "daysOpen": 25,
       "daysSinceReceived": 25,
       "daysToClose": 0,
       "messageCount": 2,
@@ -816,7 +816,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-04",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-04",
-      "daysOpen": 24,
+      "daysOpen": 25,
       "daysSinceReceived": 30,
       "daysToClose": 0,
       "messageCount": 2,
@@ -824,9 +824,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Change time",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544986885301084170",
-        "snippet": "updated aayo ?"
+        "fromThreadName": "Outreach lead is not in the server",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543280461877354506",
+        "snippet": "No"
       }
     },
     {
@@ -839,8 +839,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-08",
       "last": "2026-09-08",
       "resolvedAt": "2026-09-08",
-      "daysOpen": 25,
-      "daysSinceReceived": 25,
+      "daysOpen": 26,
+      "daysSinceReceived": 26,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -882,7 +882,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-09-07",
       "daysOpen": 26,
-      "daysSinceReceived": 26,
+      "daysSinceReceived": 27,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -905,16 +905,16 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-09-07",
       "daysOpen": 26,
-      "daysSinceReceived": 26,
+      "daysSinceReceived": 27,
       "daysToClose": 0,
       "messageCount": 5,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Change time",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544986885301084170",
-        "snippet": "updated aayo ?"
+        "fromThreadName": "Outreach lead is not in the server",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543280461877354506",
+        "snippet": "No"
       }
     },
     {
@@ -928,7 +928,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-09-07",
       "daysOpen": 26,
-      "daysSinceReceived": 26,
+      "daysSinceReceived": 27,
       "daysToClose": 0,
       "messageCount": 7,
       "archived": false,
@@ -981,9 +981,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Change time",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544986885301084170",
-        "snippet": "updated aayo ?"
+        "fromThreadName": "Outreach lead is not in the server",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543280461877354506",
+        "snippet": "No"
       }
     },
     {
@@ -997,7 +997,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-09-03",
       "daysOpen": 26,
-      "daysSinceReceived": 30,
+      "daysSinceReceived": 31,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -1039,16 +1039,16 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-08-30",
       "daysOpen": 26,
-      "daysSinceReceived": 34,
+      "daysSinceReceived": 35,
       "daysToClose": 0,
       "messageCount": 7,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Change time",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544986885301084170",
-        "snippet": "updated aayo ?"
+        "fromThreadName": "Outreach lead is not in the server",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543280461877354506",
+        "snippet": "No"
       }
     },
     {
@@ -1069,9 +1069,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Change time",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544986885301084170",
-        "snippet": "updated aayo ?"
+        "fromThreadName": "Outreach lead is not in the server",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543280461877354506",
+        "snippet": "No"
       }
     },
     {
@@ -1127,16 +1127,16 @@ window.DISCORD_DATA = {
       "last": "2026-09-07",
       "resolvedAt": "2026-09-01",
       "daysOpen": 27,
-      "daysSinceReceived": 32,
+      "daysSinceReceived": 33,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Change time",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544986885301084170",
-        "snippet": "updated aayo ?"
+        "fromThreadName": "Outreach lead is not in the server",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543280461877354506",
+        "snippet": "No"
       }
     },
     {
@@ -1176,9 +1176,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Change time",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544986885301084170",
-        "snippet": "updated aayo ?"
+        "fromThreadName": "Outreach lead is not in the server",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543280461877354506",
+        "snippet": "No"
       }
     },
     {
@@ -1223,24 +1223,20 @@ window.DISCORD_DATA = {
       "id": "1543280461877354506",
       "name": "Outreach lead is not in the server",
       "url": "https://discord.com/channels/735180366297563257/1543280461877354506",
-      "status": "Awaiting reply (from us)",
+      "status": "Resolved",
       "category": "Other",
       "requester": "Gowripriya M J",
       "received": "2026-08-29",
       "last": "2026-09-04",
-      "resolvedAt": "2026-08-29",
-      "daysOpen": 29,
+      "resolvedAt": "2026-10-04",
+      "daysOpen": 30,
       "daysSinceReceived": 36,
-      "daysToClose": 0,
+      "daysToClose": 36,
       "messageCount": 4,
-      "archived": false,
+      "archived": true,
       "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Change time",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544986885301084170",
-        "snippet": "updated aayo ?"
-      }
+      "resolutionSnippet": "No",
+      "suggestion": null
     },
     {
       "id": "1544986885301084170",
@@ -13196,9 +13192,9 @@ window.DISCORD_DATA = {
   ],
   "summary": {
     "No response": 27,
-    "Awaiting reply (from us)": 16,
+    "Awaiting reply (from us)": 15,
     "Awaiting reply (from them)": 12,
-    "Resolved": 631
+    "Resolved": 632
   },
   "avgOpenDays": 20.1,
   "avgDaysToClose": 12.6,
