@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-04T10:43:03Z",
+  "generatedAt": "2026-10-04T12:43:55Z",
   "threads": [
     {
       "id": "campus-bc11a6ce1c",
@@ -5513,15 +5513,32 @@ window.DASHBOARD_DATA = {
         "finance@tinkerhub.org",
         "althaf@tinkerhub.org"
       ]
+    },
+    {
+      "id": "finance-6a8f9e99c5",
+      "threadId": "1a1069d511984a19",
+      "group": "finance",
+      "subject": "Train tickets, Aug-Oct 2026 (9 tickets)",
+      "counterpart": "internal (Mehar)",
+      "email": "mehar@tinkerhub.org",
+      "received": "2026-10-04",
+      "last": "2026-10-04",
+      "status": "No response",
+      "note": "Mehar submitted 9 train-ticket PNRs (Aug–Oct) to finance@; no reply yet",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "finance@tinkerhub.org"
+      ]
     }
   ],
   "summary": {
-    "No response": 5,
+    "No response": 6,
     "Awaiting reply (from us)": 21,
     "Awaiting reply (from them)": 26,
     "Resolved": 87,
     "Informational": 176,
-    "total": 315
+    "total": 316
   },
   "analytics": {
     "campus": {
@@ -5545,13 +5562,13 @@ window.DASHBOARD_DATA = {
       "avgResolvedDays": 16.8
     },
     "finance": {
-      "total": 22,
-      "No response": 2,
+      "total": 23,
+      "No response": 3,
       "Awaiting reply (from us)": 1,
       "Awaiting reply (from them)": 0,
       "Resolved": 4,
       "Informational": 15,
-      "avgOpenDays": 9.3,
+      "avgOpenDays": 7.0,
       "avgResolvedDays": 5.0
     },
     "report": {
