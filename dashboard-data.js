@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-04T04:42:46Z",
+  "generatedAt": "2026-10-04T06:43:21Z",
   "threads": [
     {
       "id": "campus-bc11a6ce1c",
@@ -3214,9 +3214,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "TinkerHub MBCCET (campus chapter)",
       "email": "mevinmanu04@gmail.com",
       "received": "2026-09-30",
-      "last": "2026-10-02",
-      "status": "Awaiting reply (from us)",
-      "note": "Mevin proposed core-team meeting Sat 3 Oct 8:00 PM; we need to confirm the time",
+      "last": "2026-10-04",
+      "status": "Awaiting reply (from them)",
+      "note": "Femina rescheduled the core-team meeting to Tuesday 5pm; awaiting Mevin's confirmation",
       "daysOpen": 4,
       "daysSinceReceived": 4,
       "cc": [
@@ -5253,9 +5253,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "Sarang Vishnu (leads onboarding camp)",
       "email": "sarangvishnu50458@gmail.com",
       "received": "2026-10-03",
-      "last": "2026-10-03",
-      "status": "No response",
-      "note": "Asks if travel allowance for leads onboarding camp was credited; no reply yet",
+      "last": "2026-10-04",
+      "status": "Awaiting reply (from us)",
+      "note": "Femina promised a reimbursement status update within 3 days; we owe them the update",
       "daysOpen": 1,
       "daysSinceReceived": 1,
       "cc": [
@@ -5270,11 +5270,12 @@ window.DASHBOARD_DATA = {
       "counterpart": "deppusn (individual enquirer)",
       "email": "deppusn@gmail.com",
       "received": "2026-10-03",
-      "last": "2026-10-03",
-      "status": "No response",
-      "note": "Asks if a 36-year-old techie can join the Calicut event on Oct 10-11; no reply yet",
+      "last": "2026-10-04",
+      "status": "Awaiting reply (from us)",
+      "note": "Kurian looped in support/tinkerspace team on Calicut Oct 10-11 event eligibility; we owe them an answer",
       "cc": [
-        "support@tinkerhub.org"
+        "support@tinkerhub.org",
+        "tinkerspace@tinkerhub.org"
       ],
       "daysSinceReceived": 1,
       "daysOpen": 1
@@ -5443,31 +5444,65 @@ window.DASHBOARD_DATA = {
       "daysOpen": 30,
       "daysSinceReceived": 30,
       "cc": []
+    },
+    {
+      "id": "campus-77d3dd8d16",
+      "threadId": "1a10568f42175306",
+      "group": "campus",
+      "subject": "Resignation as Women in Tech Lead, TinkerHub TKMCE",
+      "counterpart": "Sruthi Shaji (TinkerHub TKMCE)",
+      "email": "sruthishaji2006@gmail.com",
+      "received": "2026-10-04",
+      "last": "2026-10-04",
+      "status": "No response",
+      "note": "Women in Tech Lead at TKMCE resigning from role; no reply yet",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "finance-cbf612cefe",
+      "threadId": "1a105607fad8d04a",
+      "group": "finance",
+      "subject": "Meshaaq PMS Sep '26 HK invoice",
+      "counterpart": "Meshaaq PMS (vendor)",
+      "email": "meshaaq@outlook.com",
+      "received": "2026-10-04",
+      "last": "2026-10-04",
+      "status": "No response",
+      "note": "September 2026 housekeeping invoice sent to Althaf, finance cc'd; not yet acknowledged",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "finance@tinkerhub.org"
+      ]
     }
   ],
   "summary": {
     "No response": 5,
-    "Awaiting reply (from us)": 20,
-    "Awaiting reply (from them)": 25,
+    "Awaiting reply (from us)": 21,
+    "Awaiting reply (from them)": 26,
     "Resolved": 86,
     "Informational": 175,
-    "total": 311
+    "total": 313
   },
   "analytics": {
     "campus": {
-      "total": 257,
+      "total": 258,
       "No response": 1,
       "Awaiting reply (from us)": 9,
-      "Awaiting reply (from them)": 19,
+      "Awaiting reply (from them)": 20,
       "Resolved": 70,
       "Informational": 158,
-      "avgOpenDays": 15.1,
-      "avgResolvedDays": 5
+      "avgOpenDays": 14.6,
+      "avgResolvedDays": 5.0
     },
     "support": {
       "total": 20,
-      "No response": 3,
-      "Awaiting reply (from us)": 6,
+      "No response": 2,
+      "Awaiting reply (from us)": 7,
       "Awaiting reply (from them)": 2,
       "Resolved": 8,
       "Informational": 1,
@@ -5475,14 +5510,14 @@ window.DASHBOARD_DATA = {
       "avgResolvedDays": 18.8
     },
     "finance": {
-      "total": 19,
-      "No response": 1,
+      "total": 20,
+      "No response": 2,
       "Awaiting reply (from us)": 0,
       "Awaiting reply (from them)": 0,
       "Resolved": 4,
       "Informational": 14,
-      "avgOpenDays": 27,
-      "avgResolvedDays": 5
+      "avgOpenDays": 13.5,
+      "avgResolvedDays": 5.0
     },
     "report": {
       "total": 11,
@@ -5502,7 +5537,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 1,
       "avgOpenDays": 10.5,
-      "avgResolvedDays": 1
+      "avgResolvedDays": 1.0
     },
     "tinkerspace": {
       "total": 0,
