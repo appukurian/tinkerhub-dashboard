@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-04T06:43:21Z",
+  "generatedAt": "2026-10-04T08:44:05Z",
   "threads": [
     {
       "id": "campus-bc11a6ce1c",
@@ -5271,8 +5271,8 @@ window.DASHBOARD_DATA = {
       "email": "deppusn@gmail.com",
       "received": "2026-10-03",
       "last": "2026-10-04",
-      "status": "Awaiting reply (from us)",
-      "note": "Kurian looped in support/tinkerspace team on Calicut Oct 10-11 event eligibility; we owe them an answer",
+      "status": "Resolved",
+      "note": "Jasim replied: Calicut Oct 10-11 event is for ages 15-25, pointed to tinkerhub.org/layover",
       "cc": [
         "support@tinkerhub.org",
         "tinkerspace@tinkerhub.org"
@@ -5478,15 +5478,32 @@ window.DASHBOARD_DATA = {
       "cc": [
         "finance@tinkerhub.org"
       ]
+    },
+    {
+      "id": "finance-f3ed605211",
+      "threadId": "1a103b9748d67b7c",
+      "group": "finance",
+      "subject": "Invoice - Reminder: Your payment to Make Community is due",
+      "counterpart": "Make Community (QuickBooks invoice reminder)",
+      "email": "kelly@make.co",
+      "received": "2026-10-03",
+      "last": "2026-10-04",
+      "status": "Awaiting reply (from us)",
+      "note": "Invoice 14573, USD 1,050 (Makerfaire Kochi license fee, Net 30, reminder); Kurian forwarded to finance asking Althaf to pay and Mehar to check — payment not yet confirmed",
+      "daysOpen": 1,
+      "daysSinceReceived": 1,
+      "cc": [
+        "finance@tinkerhub.org"
+      ]
     }
   ],
   "summary": {
     "No response": 5,
     "Awaiting reply (from us)": 21,
     "Awaiting reply (from them)": 26,
-    "Resolved": 86,
+    "Resolved": 87,
     "Informational": 175,
-    "total": 313
+    "total": 314
   },
   "analytics": {
     "campus": {
@@ -5497,27 +5514,27 @@ window.DASHBOARD_DATA = {
       "Resolved": 70,
       "Informational": 158,
       "avgOpenDays": 14.6,
-      "avgResolvedDays": 5.0
+      "avgResolvedDays": 5
     },
     "support": {
       "total": 20,
       "No response": 2,
-      "Awaiting reply (from us)": 7,
+      "Awaiting reply (from us)": 6,
       "Awaiting reply (from them)": 2,
-      "Resolved": 8,
+      "Resolved": 9,
       "Informational": 1,
-      "avgOpenDays": 22.4,
-      "avgResolvedDays": 18.8
+      "avgOpenDays": 24.5,
+      "avgResolvedDays": 16.8
     },
     "finance": {
-      "total": 20,
+      "total": 21,
       "No response": 2,
-      "Awaiting reply (from us)": 0,
+      "Awaiting reply (from us)": 1,
       "Awaiting reply (from them)": 0,
       "Resolved": 4,
       "Informational": 14,
-      "avgOpenDays": 13.5,
-      "avgResolvedDays": 5.0
+      "avgOpenDays": 9.3,
+      "avgResolvedDays": 5
     },
     "report": {
       "total": 11,
@@ -5537,7 +5554,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 1,
       "avgOpenDays": 10.5,
-      "avgResolvedDays": 1.0
+      "avgResolvedDays": 1
     },
     "tinkerspace": {
       "total": 0,
