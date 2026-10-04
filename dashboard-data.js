@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-04T08:44:05Z",
+  "generatedAt": "2026-10-04T10:43:03Z",
   "threads": [
     {
       "id": "campus-bc11a6ce1c",
@@ -5495,6 +5495,24 @@ window.DASHBOARD_DATA = {
       "cc": [
         "finance@tinkerhub.org"
       ]
+    },
+    {
+      "id": "finance-d4d37c6e69",
+      "threadId": "1a1063bd8a1d6363",
+      "group": "finance",
+      "subject": "Folder shared with you: ‘Final Print Mozilla’",
+      "counterpart": "Moosa Mehar",
+      "email": "meharmp@gmail.com",
+      "received": "2026-10-04",
+      "last": "2026-10-04",
+      "status": "Informational",
+      "note": "Google Drive folder share (Final Print Mozilla); no action requested",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "finance@tinkerhub.org",
+        "althaf@tinkerhub.org"
+      ]
     }
   ],
   "summary": {
@@ -5502,8 +5520,8 @@ window.DASHBOARD_DATA = {
     "Awaiting reply (from us)": 21,
     "Awaiting reply (from them)": 26,
     "Resolved": 87,
-    "Informational": 175,
-    "total": 314
+    "Informational": 176,
+    "total": 315
   },
   "analytics": {
     "campus": {
@@ -5514,7 +5532,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 70,
       "Informational": 158,
       "avgOpenDays": 14.6,
-      "avgResolvedDays": 5
+      "avgResolvedDays": 5.0
     },
     "support": {
       "total": 20,
@@ -5527,14 +5545,14 @@ window.DASHBOARD_DATA = {
       "avgResolvedDays": 16.8
     },
     "finance": {
-      "total": 21,
+      "total": 22,
       "No response": 2,
       "Awaiting reply (from us)": 1,
       "Awaiting reply (from them)": 0,
       "Resolved": 4,
-      "Informational": 14,
+      "Informational": 15,
       "avgOpenDays": 9.3,
-      "avgResolvedDays": 5
+      "avgResolvedDays": 5.0
     },
     "report": {
       "total": 11,
@@ -5554,7 +5572,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 1,
       "avgOpenDays": 10.5,
-      "avgResolvedDays": 1
+      "avgResolvedDays": 1.0
     },
     "tinkerspace": {
       "total": 0,
