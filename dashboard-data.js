@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-05T14:42:39Z",
+  "generatedAt": "2026-10-05T16:43:06Z",
   "threads": [
     {
       "id": "finance-13eedea18f",
@@ -5552,7 +5552,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 70,
       "Informational": 158,
       "avgOpenDays": 15.6,
-      "avgResolvedDays": 5
+      "avgResolvedDays": 5.0
     },
     "support": {
       "total": 20,
@@ -5571,7 +5571,7 @@ window.DASHBOARD_DATA = {
       "Awaiting reply (from them)": 0,
       "Resolved": 5,
       "Informational": 15,
-      "avgOpenDays": 8,
+      "avgOpenDays": 8.0,
       "avgResolvedDays": 4.2
     },
     "report": {
@@ -5592,7 +5592,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 1,
       "avgOpenDays": 11.5,
-      "avgResolvedDays": 1
+      "avgResolvedDays": 1.0
     },
     "tinkerspace": {
       "total": 0,
