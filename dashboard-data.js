@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-06T08:42:57Z",
+  "generatedAt": "2026-10-06T10:43:08Z",
   "threads": [
     {
       "id": "finance-13eedea18f",
@@ -4126,13 +4126,14 @@ window.DASHBOARD_DATA = {
       "counterpart": "Abi Alif",
       "email": "abialifhere@gmail.com",
       "received": "2026-09-08",
-      "last": "2026-09-19",
+      "last": "2026-10-06",
       "status": "Awaiting reply (from us)",
-      "note": "awaiting our processing of poster reimbursement payment",
+      "note": "awaiting our processing of poster reimbursement payment (Habeeb looped in Althaf 6 Oct)",
       "daysOpen": 28,
       "daysSinceReceived": 28,
       "cc": [
-        "campus@tinkerhub.org"
+        "campus@tinkerhub.org",
+        "althaf@tinkerhub.org"
       ]
     },
     {
@@ -4809,13 +4810,14 @@ window.DASHBOARD_DATA = {
       "counterpart": "Sidrah",
       "email": "sidrahaysha@gmail.com",
       "received": "2026-09-09",
-      "last": "2026-09-10",
-      "status": "Resolved",
-      "note": "poster/reimbursement process explained",
-      "daysOpen": 1,
+      "last": "2026-10-06",
+      "status": "Awaiting reply (from us)",
+      "note": "Sidrah requested poster printing reimbursement (21 Sep); Habeeb looped in Althaf 6 Oct - payment pending",
+      "daysOpen": 27,
       "daysSinceReceived": 27,
       "cc": [
-        "campus@tinkerhub.org"
+        "campus@tinkerhub.org",
+        "althaf@tinkerhub.org"
       ]
     },
     {
@@ -5522,9 +5524,9 @@ window.DASHBOARD_DATA = {
   ],
   "summary": {
     "No response": 4,
-    "Awaiting reply (from us)": 22,
+    "Awaiting reply (from us)": 23,
     "Awaiting reply (from them)": 27,
-    "Resolved": 84,
+    "Resolved": 83,
     "Informational": 178,
     "total": 315
   },
@@ -5532,12 +5534,12 @@ window.DASHBOARD_DATA = {
     "campus": {
       "total": 255,
       "No response": 0,
-      "Awaiting reply (from us)": 9,
+      "Awaiting reply (from us)": 10,
       "Awaiting reply (from them)": 21,
-      "Resolved": 66,
+      "Resolved": 65,
       "Informational": 159,
-      "avgOpenDays": 16.6,
-      "avgResolvedDays": 5.2
+      "avgOpenDays": 17.0,
+      "avgResolvedDays": 5.3
     },
     "support": {
       "total": 20,
