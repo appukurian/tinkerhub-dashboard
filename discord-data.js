@@ -1,8 +1,31 @@
 // Auto-generated daily by .github/workflows/discord-update.yml
 // Do NOT hand-edit — this file is overwritten on each run.
 window.DISCORD_DATA = {
-  "generatedAt": "2026-10-06T09:10:45Z",
+  "generatedAt": "2026-10-06T16:52:47Z",
   "threads": [
+    {
+      "id": "1557052427767914496",
+      "name": "Unable to get OTP",
+      "url": "https://discord.com/channels/735180366297563257/1557052427767914496",
+      "status": "No response",
+      "category": "OTP / Login issues",
+      "requester": "rida",
+      "received": "2026-10-06",
+      "last": "2026-10-06",
+      "resolvedAt": "2026-10-06",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "daysToClose": 0,
+      "messageCount": 0,
+      "archived": false,
+      "locked": false,
+      "resolutionSnippet": "",
+      "suggestion": {
+        "fromThreadName": "Otp failed to send",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1542443566314426420",
+        "snippet": "It is fixed"
+      }
+    },
     {
       "id": "1556907106949533767",
       "name": "Forget to checkin one person",
@@ -44,44 +67,25 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Outreach lead is not in the server",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543280461877354506",
-        "snippet": "No"
+        "fromThreadName": "FROGUE-Regustration Issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541711732895121498",
+        "snippet": "Okay"
       }
-    },
-    {
-      "id": "1553610072112889866",
-      "name": "Registration issue",
-      "url": "https://discord.com/channels/735180366297563257/1553610072112889866",
-      "status": "Awaiting reply (from us)",
-      "category": "Registration issues",
-      "requester": "Anupama\ud83c\udf38",
-      "received": "2026-09-27",
-      "last": "2026-10-06",
-      "resolvedAt": "2026-09-27",
-      "daysOpen": 0,
-      "daysSinceReceived": 9,
-      "daysToClose": 0,
-      "messageCount": 2,
-      "archived": false,
-      "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": null
     },
     {
       "id": "1556660987657064588",
       "name": "Couldn't enter name in Hub App",
       "url": "https://discord.com/channels/735180366297563257/1556660987657064588",
-      "status": "No response",
+      "status": "Awaiting reply (from them)",
       "category": "Name/Profile changes",
       "requester": "Baasit",
       "received": "2026-10-05",
-      "last": "2026-10-05",
+      "last": "2026-10-06",
       "resolvedAt": "2026-10-05",
       "daysOpen": 0,
-      "daysSinceReceived": 0,
+      "daysSinceReceived": 1,
       "daysToClose": 0,
-      "messageCount": 1,
+      "messageCount": 2,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
@@ -95,23 +99,69 @@ window.DISCORD_DATA = {
       "id": "1554925142788939918",
       "name": "Outreach Lead change \u203c\ufe0f",
       "url": "https://discord.com/channels/735180366297563257/1554925142788939918",
-      "status": "Awaiting reply (from us)",
+      "status": "Awaiting reply (from them)",
       "category": "Other",
       "requester": "sreyaaaas_here",
       "received": "2026-09-30",
-      "last": "2026-10-03",
+      "last": "2026-10-06",
       "resolvedAt": "2026-09-30",
-      "daysOpen": 3,
+      "daysOpen": 0,
       "daysSinceReceived": 5,
       "daysToClose": 0,
-      "messageCount": 2,
+      "messageCount": 4,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Outreach lead is not in the server",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543280461877354506",
-        "snippet": "No"
+        "fromThreadName": "FROGUE-Regustration Issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541711732895121498",
+        "snippet": "Okay"
+      }
+    },
+    {
+      "id": "1553610072112889866",
+      "name": "Registration issue",
+      "url": "https://discord.com/channels/735180366297563257/1553610072112889866",
+      "status": "Awaiting reply (from them)",
+      "category": "Registration issues",
+      "requester": "Anupama\ud83c\udf38",
+      "received": "2026-09-27",
+      "last": "2026-10-06",
+      "resolvedAt": "2026-09-27",
+      "daysOpen": 0,
+      "daysSinceReceived": 9,
+      "daysToClose": 0,
+      "messageCount": 5,
+      "archived": false,
+      "locked": false,
+      "resolutionSnippet": "",
+      "suggestion": {
+        "fromThreadName": "Couldn't register for Useless Projects Happening in our campus",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546049342790574170",
+        "snippet": "<@925620797471592449>"
+      }
+    },
+    {
+      "id": "1543280461877354506",
+      "name": "Outreach lead is not in the server",
+      "url": "https://discord.com/channels/735180366297563257/1543280461877354506",
+      "status": "Awaiting reply (from us)",
+      "category": "Other",
+      "requester": "Gowripriya M J",
+      "received": "2026-08-29",
+      "last": "2026-10-06",
+      "resolvedAt": "2026-10-06",
+      "daysOpen": 0,
+      "daysSinceReceived": 38,
+      "daysToClose": 38,
+      "messageCount": 5,
+      "archived": false,
+      "locked": false,
+      "resolutionSnippet": "",
+      "suggestion": {
+        "fromThreadName": "FROGUE-Regustration Issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541711732895121498",
+        "snippet": "Okay"
       }
     },
     {
@@ -125,7 +175,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-02",
       "resolvedAt": "2026-09-20",
       "daysOpen": 4,
-      "daysSinceReceived": 15,
+      "daysSinceReceived": 16,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -143,8 +193,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-01",
       "last": "2026-10-01",
       "resolvedAt": "2026-10-01",
-      "daysOpen": 4,
-      "daysSinceReceived": 4,
+      "daysOpen": 5,
+      "daysSinceReceived": 5,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -162,8 +212,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-10",
       "last": "2026-10-01",
       "resolvedAt": "2026-09-10",
-      "daysOpen": 4,
-      "daysSinceReceived": 25,
+      "daysOpen": 5,
+      "daysSinceReceived": 26,
       "daysToClose": 0,
       "messageCount": 8,
       "archived": false,
@@ -185,17 +235,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-30",
       "last": "2026-09-30",
       "resolvedAt": "2026-09-30",
-      "daysOpen": 5,
-      "daysSinceReceived": 5,
+      "daysOpen": 6,
+      "daysSinceReceived": 6,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Outreach lead is not in the server",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543280461877354506",
-        "snippet": "No"
+        "fromThreadName": "FROGUE-Regustration Issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541711732895121498",
+        "snippet": "Okay"
       }
     },
     {
@@ -254,8 +304,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-23",
       "last": "2026-09-23",
       "resolvedAt": "2026-09-23",
-      "daysOpen": 12,
-      "daysSinceReceived": 12,
+      "daysOpen": 13,
+      "daysSinceReceived": 13,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -346,8 +396,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-18",
       "last": "2026-09-18",
       "resolvedAt": "2026-09-18",
-      "daysOpen": 17,
-      "daysSinceReceived": 17,
+      "daysOpen": 18,
+      "daysSinceReceived": 18,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -369,8 +419,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-18",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 17,
-      "daysSinceReceived": 26,
+      "daysOpen": 18,
+      "daysSinceReceived": 27,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -393,7 +443,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-16",
       "resolvedAt": "2026-09-13",
       "daysOpen": 20,
-      "daysSinceReceived": 22,
+      "daysSinceReceived": 23,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -422,7 +472,11 @@ window.DISCORD_DATA = {
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
-      "suggestion": null
+      "suggestion": {
+        "fromThreadName": "Couldn't register for Useless Projects Happening in our campus",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546049342790574170",
+        "snippet": "<@925620797471592449>"
+      }
     },
     {
       "id": "1548283561608478891",
@@ -434,8 +488,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-12",
       "last": "2026-09-15",
       "resolvedAt": "2026-09-12",
-      "daysOpen": 20,
-      "daysSinceReceived": 23,
+      "daysOpen": 21,
+      "daysSinceReceived": 24,
       "daysToClose": 0,
       "messageCount": 4,
       "archived": false,
@@ -457,14 +511,18 @@ window.DISCORD_DATA = {
       "received": "2026-09-11",
       "last": "2026-09-15",
       "resolvedAt": "2026-09-11",
-      "daysOpen": 20,
+      "daysOpen": 21,
       "daysSinceReceived": 24,
       "daysToClose": 0,
       "messageCount": 4,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
-      "suggestion": null
+      "suggestion": {
+        "fromThreadName": "Couldn't register for Useless Projects Happening in our campus",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546049342790574170",
+        "snippet": "<@925620797471592449>"
+      }
     },
     {
       "id": "1547933064997380136",
@@ -477,7 +535,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-15",
       "resolvedAt": "2026-09-11",
       "daysOpen": 21,
-      "daysSinceReceived": 24,
+      "daysSinceReceived": 25,
       "daysToClose": 0,
       "messageCount": 5,
       "archived": false,
@@ -499,14 +557,18 @@ window.DISCORD_DATA = {
       "received": "2026-09-11",
       "last": "2026-09-15",
       "resolvedAt": "2026-09-11",
-      "daysOpen": 20,
+      "daysOpen": 21,
       "daysSinceReceived": 25,
       "daysToClose": 0,
       "messageCount": 5,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
-      "suggestion": null
+      "suggestion": {
+        "fromThreadName": "Couldn't register for Useless Projects Happening in our campus",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546049342790574170",
+        "snippet": "<@925620797471592449>"
+      }
     },
     {
       "id": "1548205544861335572",
@@ -572,9 +634,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Outreach lead is not in the server",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543280461877354506",
-        "snippet": "No"
+        "fromThreadName": "FROGUE-Regustration Issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541711732895121498",
+        "snippet": "Okay"
       }
     },
     {
@@ -588,13 +650,17 @@ window.DISCORD_DATA = {
       "last": "2026-09-11",
       "resolvedAt": "2026-09-08",
       "daysOpen": 24,
-      "daysSinceReceived": 27,
+      "daysSinceReceived": 28,
       "daysToClose": 0,
       "messageCount": 6,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
-      "suggestion": null
+      "suggestion": {
+        "fromThreadName": "Couldn't register for Useless Projects Happening in our campus",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546049342790574170",
+        "snippet": "<@925620797471592449>"
+      }
     },
     {
       "id": "1546402158428164178",
@@ -613,7 +679,11 @@ window.DISCORD_DATA = {
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
-      "suggestion": null
+      "suggestion": {
+        "fromThreadName": "Couldn't register for Useless Projects Happening in our campus",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546049342790574170",
+        "snippet": "<@925620797471592449>"
+      }
     },
     {
       "id": "1547636202994401290",
@@ -625,14 +695,18 @@ window.DISCORD_DATA = {
       "received": "2026-09-10",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-10",
-      "daysOpen": 25,
-      "daysSinceReceived": 25,
+      "daysOpen": 26,
+      "daysSinceReceived": 26,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
-      "suggestion": null
+      "suggestion": {
+        "fromThreadName": "Couldn't register for Useless Projects Happening in our campus",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546049342790574170",
+        "snippet": "<@925620797471592449>"
+      }
     },
     {
       "id": "1547630535470481438",
@@ -644,14 +718,18 @@ window.DISCORD_DATA = {
       "received": "2026-09-10",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-10",
-      "daysOpen": 25,
-      "daysSinceReceived": 25,
+      "daysOpen": 26,
+      "daysSinceReceived": 26,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
-      "suggestion": null
+      "suggestion": {
+        "fromThreadName": "Couldn't register for Useless Projects Happening in our campus",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546049342790574170",
+        "snippet": "<@925620797471592449>"
+      }
     },
     {
       "id": "1547433378633224192",
@@ -686,8 +764,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 25,
-      "daysSinceReceived": 26,
+      "daysOpen": 26,
+      "daysSinceReceived": 27,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -709,8 +787,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 25,
-      "daysSinceReceived": 26,
+      "daysOpen": 26,
+      "daysSinceReceived": 27,
       "daysToClose": 0,
       "messageCount": 6,
       "archived": false,
@@ -732,14 +810,18 @@ window.DISCORD_DATA = {
       "received": "2026-09-08",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-08",
-      "daysOpen": 25,
+      "daysOpen": 26,
       "daysSinceReceived": 28,
       "daysToClose": 0,
       "messageCount": 3,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
-      "suggestion": null
+      "suggestion": {
+        "fromThreadName": "Couldn't register for Useless Projects Happening in our campus",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546049342790574170",
+        "snippet": "<@925620797471592449>"
+      }
     },
     {
       "id": "1546776683955228733",
@@ -758,7 +840,11 @@ window.DISCORD_DATA = {
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
-      "suggestion": null
+      "suggestion": {
+        "fromThreadName": "Couldn't register for Useless Projects Happening in our campus",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546049342790574170",
+        "snippet": "<@925620797471592449>"
+      }
     },
     {
       "id": "1547281574020517949",
@@ -770,8 +856,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 26,
-      "daysSinceReceived": 26,
+      "daysOpen": 27,
+      "daysSinceReceived": 27,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -793,17 +879,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 26,
-      "daysSinceReceived": 26,
+      "daysOpen": 27,
+      "daysSinceReceived": 27,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Outreach lead is not in the server",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543280461877354506",
-        "snippet": "No"
+        "fromThreadName": "FROGUE-Regustration Issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541711732895121498",
+        "snippet": "Okay"
       }
     },
     {
@@ -816,17 +902,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 26,
-      "daysSinceReceived": 26,
+      "daysOpen": 27,
+      "daysSinceReceived": 27,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Outreach lead is not in the server",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543280461877354506",
-        "snippet": "No"
+        "fromThreadName": "FROGUE-Regustration Issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541711732895121498",
+        "snippet": "Okay"
       }
     },
     {
@@ -840,7 +926,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
       "daysOpen": 26,
-      "daysSinceReceived": 26,
+      "daysSinceReceived": 27,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -862,7 +948,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-07",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-07",
-      "daysOpen": 26,
+      "daysOpen": 27,
       "daysSinceReceived": 29,
       "daysToClose": 0,
       "messageCount": 4,
@@ -885,17 +971,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-04",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-04",
-      "daysOpen": 26,
-      "daysSinceReceived": 31,
+      "daysOpen": 27,
+      "daysSinceReceived": 32,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Outreach lead is not in the server",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543280461877354506",
-        "snippet": "No"
+        "fromThreadName": "FROGUE-Regustration Issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541711732895121498",
+        "snippet": "Okay"
       }
     },
     {
@@ -927,8 +1013,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-08",
       "last": "2026-09-08",
       "resolvedAt": "2026-09-08",
-      "daysOpen": 27,
-      "daysSinceReceived": 27,
+      "daysOpen": 28,
+      "daysSinceReceived": 28,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -981,9 +1067,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Outreach lead is not in the server",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543280461877354506",
-        "snippet": "No"
+        "fromThreadName": "FROGUE-Regustration Issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541711732895121498",
+        "snippet": "Okay"
       }
     },
     {
@@ -997,7 +1083,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-09-07",
       "daysOpen": 28,
-      "daysSinceReceived": 28,
+      "daysSinceReceived": 29,
       "daysToClose": 0,
       "messageCount": 7,
       "archived": false,
@@ -1043,16 +1129,16 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-09-05",
       "daysOpen": 28,
-      "daysSinceReceived": 30,
+      "daysSinceReceived": 31,
       "daysToClose": 0,
       "messageCount": 12,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Outreach lead is not in the server",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543280461877354506",
-        "snippet": "No"
+        "fromThreadName": "FROGUE-Regustration Issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541711732895121498",
+        "snippet": "Okay"
       }
     },
     {
@@ -1066,7 +1152,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-09-03",
       "daysOpen": 28,
-      "daysSinceReceived": 32,
+      "daysSinceReceived": 33,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -1095,7 +1181,11 @@ window.DISCORD_DATA = {
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
-      "suggestion": null
+      "suggestion": {
+        "fromThreadName": "Couldn't register for Useless Projects Happening in our campus",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546049342790574170",
+        "snippet": "<@925620797471592449>"
+      }
     },
     {
       "id": "1543645026276610079",
@@ -1107,17 +1197,17 @@ window.DISCORD_DATA = {
       "received": "2026-08-30",
       "last": "2026-09-08",
       "resolvedAt": "2026-08-30",
-      "daysOpen": 27,
-      "daysSinceReceived": 36,
+      "daysOpen": 28,
+      "daysSinceReceived": 37,
       "daysToClose": 0,
       "messageCount": 7,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Outreach lead is not in the server",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543280461877354506",
-        "snippet": "No"
+        "fromThreadName": "FROGUE-Regustration Issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541711732895121498",
+        "snippet": "Okay"
       }
     },
     {
@@ -1130,7 +1220,7 @@ window.DISCORD_DATA = {
       "received": "2026-08-18",
       "last": "2026-09-08",
       "resolvedAt": "2026-08-18",
-      "daysOpen": 27,
+      "daysOpen": 28,
       "daysSinceReceived": 49,
       "daysToClose": 0,
       "messageCount": 5,
@@ -1138,9 +1228,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Outreach lead is not in the server",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543280461877354506",
-        "snippet": "No"
+        "fromThreadName": "FROGUE-Regustration Issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541711732895121498",
+        "snippet": "Okay"
       }
     },
     {
@@ -1153,7 +1243,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-07",
       "last": "2026-09-07",
       "resolvedAt": "2026-09-07",
-      "daysOpen": 28,
+      "daysOpen": 29,
       "daysSinceReceived": 29,
       "daysToClose": 0,
       "messageCount": 2,
@@ -1176,14 +1266,18 @@ window.DISCORD_DATA = {
       "received": "2026-09-07",
       "last": "2026-09-07",
       "resolvedAt": "2026-09-07",
-      "daysOpen": 28,
+      "daysOpen": 29,
       "daysSinceReceived": 29,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
-      "suggestion": null
+      "suggestion": {
+        "fromThreadName": "Couldn't register for Useless Projects Happening in our campus",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546049342790574170",
+        "snippet": "<@925620797471592449>"
+      }
     },
     {
       "id": "1544393401607131136",
@@ -1195,7 +1289,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-01",
       "last": "2026-09-07",
       "resolvedAt": "2026-09-01",
-      "daysOpen": 28,
+      "daysOpen": 29,
       "daysSinceReceived": 34,
       "daysToClose": 0,
       "messageCount": 1,
@@ -1203,52 +1297,48 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Outreach lead is not in the server",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543280461877354506",
-        "snippet": "No"
+        "fromThreadName": "FROGUE-Regustration Issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541711732895121498",
+        "snippet": "Okay"
       }
-    },
-    {
-      "id": "1546049342790574170",
-      "name": "Couldn't register for Useless Projects Happening in our campus",
-      "url": "https://discord.com/channels/735180366297563257/1546049342790574170",
-      "status": "Awaiting reply (from them)",
-      "category": "Registration issues",
-      "requester": "Baasit",
-      "received": "2026-09-06",
-      "last": "2026-09-06",
-      "resolvedAt": "2026-09-06",
-      "daysOpen": 29,
-      "daysSinceReceived": 30,
-      "daysToClose": 0,
-      "messageCount": 2,
-      "archived": false,
-      "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": null
     },
     {
       "id": "1541711732895121498",
       "name": "FROGUE-Regustration Issue",
       "url": "https://discord.com/channels/735180366297563257/1541711732895121498",
-      "status": "Awaiting reply (from us)",
+      "status": "Resolved",
       "category": "Other",
       "requester": "jools",
       "received": "2026-08-25",
       "last": "2026-09-06",
-      "resolvedAt": "2026-08-25",
-      "daysOpen": 29,
+      "resolvedAt": "2026-10-06",
+      "daysOpen": 30,
       "daysSinceReceived": 42,
-      "daysToClose": 0,
+      "daysToClose": 42,
       "messageCount": 10,
-      "archived": false,
+      "archived": true,
       "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Outreach lead is not in the server",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543280461877354506",
-        "snippet": "No"
-      }
+      "resolutionSnippet": "Okay",
+      "suggestion": null
+    },
+    {
+      "id": "1546049342790574170",
+      "name": "Couldn't register for Useless Projects Happening in our campus",
+      "url": "https://discord.com/channels/735180366297563257/1546049342790574170",
+      "status": "Resolved",
+      "category": "Registration issues",
+      "requester": "Baasit",
+      "received": "2026-09-06",
+      "last": "2026-09-06",
+      "resolvedAt": "2026-10-06",
+      "daysOpen": 30,
+      "daysSinceReceived": 30,
+      "daysToClose": 30,
+      "messageCount": 2,
+      "archived": true,
+      "locked": false,
+      "resolutionSnippet": "<@925620797471592449>",
+      "suggestion": null
     },
     {
       "id": "1543296008652455966",
@@ -1286,25 +1376,6 @@ window.DISCORD_DATA = {
       "archived": true,
       "locked": false,
       "resolutionSnippet": "",
-      "suggestion": null
-    },
-    {
-      "id": "1543280461877354506",
-      "name": "Outreach lead is not in the server",
-      "url": "https://discord.com/channels/735180366297563257/1543280461877354506",
-      "status": "Resolved",
-      "category": "Other",
-      "requester": "Gowripriya M J",
-      "received": "2026-08-29",
-      "last": "2026-09-04",
-      "resolvedAt": "2026-10-04",
-      "daysOpen": 32,
-      "daysSinceReceived": 38,
-      "daysToClose": 36,
-      "messageCount": 4,
-      "archived": true,
-      "locked": false,
-      "resolutionSnippet": "No",
       "suggestion": null
     },
     {
@@ -13261,12 +13332,12 @@ window.DISCORD_DATA = {
   ],
   "summary": {
     "No response": 29,
-    "Awaiting reply (from us)": 16,
-    "Awaiting reply (from them)": 12,
-    "Resolved": 632
+    "Awaiting reply (from us)": 14,
+    "Awaiting reply (from them)": 14,
+    "Resolved": 633
   },
-  "avgOpenDays": 20.3,
-  "avgDaysToClose": 12.6,
+  "avgOpenDays": 19.6,
+  "avgDaysToClose": 12.7,
   "topCategories": [
     {
       "category": "Event/Activity check-in & reporting",
@@ -13278,7 +13349,7 @@ window.DISCORD_DATA = {
     },
     {
       "category": "OTP / Login issues",
-      "count": 102
+      "count": 103
     },
     {
       "category": "Study Jam issues",
