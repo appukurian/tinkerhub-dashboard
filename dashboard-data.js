@@ -1,6 +1,23 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-06T14:43:05Z",
+  "generatedAt": "2026-10-06T16:43:10Z",
   "threads": [
+    {
+      "id": "campus-bf5d40b749",
+      "threadId": "1a111e06b8de8c5d",
+      "group": "campus",
+      "subject": "Document shared with you: \"Useless Projects Celebration\"",
+      "counterpart": "internal (Habeeb Rahman)",
+      "email": "habeebrahmanofficial@gmail.com",
+      "received": "2026-10-06",
+      "last": "2026-10-06",
+      "status": "Informational",
+      "note": "Google Doc share notice from Habeeb, no action needed",
+      "cc": [
+        "campus@tinkerhub.org"
+      ],
+      "daysSinceReceived": 0,
+      "daysOpen": 0
+    },
     {
       "id": "finance-13eedea18f",
       "threadId": "1a1075f8bbc97029",
@@ -117,7 +134,7 @@ window.DASHBOARD_DATA = {
       "received": "2026-10-03",
       "last": "2026-10-04",
       "status": "Awaiting reply (from us)",
-      "note": "Invoice 14573, USD 1,050 (Makerfaire Kochi license fee, Net 30, reminder); Kurian forwarded to finance asking Althaf to pay and Mehar to check — payment not yet confirmed",
+      "note": "Invoice 14573, USD 1,050 (Makerfaire Kochi license fee, Net 30, reminder); Kurian forwarded to finance asking Althaf to pay and Mehar to check \u2014 payment not yet confirmed",
       "daysOpen": 3,
       "daysSinceReceived": 3,
       "cc": [
@@ -128,7 +145,7 @@ window.DASHBOARD_DATA = {
       "id": "finance-d4d37c6e69",
       "threadId": "1a1063bd8a1d6363",
       "group": "finance",
-      "subject": "Folder shared with you: ‘Final Print Mozilla’",
+      "subject": "Folder shared with you: \u2018Final Print Mozilla\u2019",
       "counterpart": "Moosa Mehar",
       "email": "meharmp@gmail.com",
       "received": "2026-10-04",
@@ -152,7 +169,7 @@ window.DASHBOARD_DATA = {
       "received": "2026-10-04",
       "last": "2026-10-04",
       "status": "No response",
-      "note": "Mehar submitted 9 train-ticket PNRs (Aug–Oct) to finance@; no reply yet",
+      "note": "Mehar submitted 9 train-ticket PNRs (Aug\u2013Oct) to finance@; no reply yet",
       "daysOpen": 2,
       "daysSinceReceived": 2,
       "cc": [
@@ -214,13 +231,13 @@ window.DASHBOARD_DATA = {
       "id": "campus-bc11a6ce1c",
       "threadId": "1a1002aaa6b0cde4",
       "group": "campus",
-      "subject": "Useless Projects 3.0 – Late Submission Request",
+      "subject": "Useless Projects 3.0 \u2013 Late Submission Request",
       "counterpart": "Aiswarya Ramesh (Ahalia School of Engineering and Technology)",
       "email": "aiswaryaramesh28@gmail.com",
       "received": "2026-10-03",
       "last": "2026-10-03",
       "status": "Awaiting reply (from them)",
-      "note": "Team 404 Not Found requested late submission; Habeeb replied (no late entries, add as standard Hub project; asked why not raised earlier) — awaiting their response",
+      "note": "Team 404 Not Found requested late submission; Habeeb replied (no late entries, add as standard Hub project; asked why not raised earlier) \u2014 awaiting their response",
       "daysOpen": 3,
       "daysSinceReceived": 3,
       "cc": [
@@ -1663,7 +1680,7 @@ window.DASHBOARD_DATA = {
       "id": "support-3873045b3a",
       "threadId": "1a0dc1b0f9fe4d4d",
       "group": "support",
-      "subject": "Request to Add My College to TinkerHub Registration – Layover Hackathon",
+      "subject": "Request to Add My College to TinkerHub Registration \u2013 Layover Hackathon",
       "counterpart": "Arjun Sabu (St. Kuriakose College, Kuruppampady)",
       "email": "greninjadotdev@gmail.com",
       "received": "2026-09-26",
@@ -1767,7 +1784,7 @@ window.DASHBOARD_DATA = {
       "id": "campus-9d9afdbe22",
       "threadId": "1a0b48ac5a8ed45c",
       "group": "campus",
-      "subject": "Collaboration Proposal – Blender Workshop under SOLITON ’26",
+      "subject": "Collaboration Proposal \u2013 Blender Workshop under SOLITON \u201926",
       "counterpart": "Niranjan S Das (IEEE Photonics Society Kerala Chapter)",
       "email": "niranjansdas@ug.cusat.ac.in",
       "received": "2026-09-18",
@@ -2465,7 +2482,7 @@ window.DASHBOARD_DATA = {
       "id": "campus-08bb5958b0",
       "threadId": "1a0342b5cd9cfcc2",
       "group": "campus",
-      "subject": "Re: Request to Reschedule Useless Project from September 5–6 to September 11–12",
+      "subject": "Re: Request to Reschedule Useless Project from September 5\u20136 to September 11\u201312",
       "counterpart": "Farsana",
       "email": "fathimathulfarsaana@gmail.com",
       "received": "2026-08-24",
@@ -5540,21 +5557,21 @@ window.DASHBOARD_DATA = {
     }
   ],
   "summary": {
+    "total": 317,
     "No response": 4,
     "Awaiting reply (from us)": 24,
     "Awaiting reply (from them)": 27,
     "Resolved": 83,
-    "Informational": 178,
-    "total": 316
+    "Informational": 179
   },
   "analytics": {
     "campus": {
-      "total": 255,
+      "total": 256,
       "No response": 0,
       "Awaiting reply (from us)": 10,
       "Awaiting reply (from them)": 21,
       "Resolved": 65,
-      "Informational": 159,
+      "Informational": 160,
       "avgOpenDays": 17.0,
       "avgResolvedDays": 5.3
     },
