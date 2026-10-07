@@ -1,6 +1,24 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-07T02:43:00Z",
+  "generatedAt": "2026-10-07T04:43:00Z",
   "threads": [
+    {
+      "id": "partner-b88cd54a57",
+      "threadId": "1a1145a3784ebebe",
+      "group": "partner",
+      "subject": "Open-source tooling for students building action-taking AI agents",
+      "counterpart": "Daniel J. (Tenuo)",
+      "email": "daniel@tenuo.ai",
+      "received": "2026-10-07",
+      "last": "2026-10-07",
+      "status": "Awaiting reply (from us)",
+      "note": "Tenuo (open-source AI-agent authorization) asks to share with builders / connect with campus leads; Kurian replied 'looping in the relevant team' - no substantive answer yet",
+      "cc": [
+        "partner@tinkerhub.org",
+        "hello@tinkerhub.org"
+      ],
+      "daysOpen": 0,
+      "daysSinceReceived": 0
+    },
     {
       "id": "finance-cef86fb0b6",
       "threadId": "1a1115b3da60d4a9",
@@ -5489,9 +5507,9 @@ window.DASHBOARD_DATA = {
     }
   ],
   "summary": {
-    "total": 313,
+    "total": 314,
     "No response": 5,
-    "Awaiting reply (from us)": 23,
+    "Awaiting reply (from us)": 24,
     "Awaiting reply (from them)": 27,
     "Resolved": 79,
     "Informational": 179
@@ -5538,13 +5556,13 @@ window.DASHBOARD_DATA = {
       "avgResolvedDays": 14.5
     },
     "partner": {
-      "total": 5,
+      "total": 6,
       "No response": 0,
-      "Awaiting reply (from us)": 3,
+      "Awaiting reply (from us)": 4,
       "Awaiting reply (from them)": 0,
       "Resolved": 1,
       "Informational": 1,
-      "avgOpenDays": 9.7,
+      "avgOpenDays": 7.2,
       "avgResolvedDays": 1.0
     },
     "tinkerspace": {
