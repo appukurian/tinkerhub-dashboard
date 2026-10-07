@@ -1,8 +1,31 @@
 // Auto-generated daily by .github/workflows/discord-update.yml
 // Do NOT hand-edit — this file is overwritten on each run.
 window.DISCORD_DATA = {
-  "generatedAt": "2026-10-07T09:00:37Z",
+  "generatedAt": "2026-10-07T17:29:38Z",
   "threads": [
+    {
+      "id": "1557406780873642074",
+      "name": "Addition of course",
+      "url": "https://discord.com/channels/735180366297563257/1557406780873642074",
+      "status": "No response",
+      "category": "Other",
+      "requester": "\u2728\u211d\ud835\udd5a\ud835\udd67\ud835\udd56\ud835\udd63\u2728",
+      "received": "2026-10-07",
+      "last": "2026-10-07",
+      "resolvedAt": "2026-10-07",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "daysToClose": 0,
+      "messageCount": 0,
+      "archived": false,
+      "locked": false,
+      "resolutionSnippet": "",
+      "suggestion": {
+        "fromThreadName": "Connecting github",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544393401607131136",
+        "snippet": "For anyone facing GitHub linking issues while registering for Useless Projects 3.0: Make sure your GitHub account has at least one repository. If you already installed the GitHub app before creating a repository, reinstall the app after creating one."
+      }
+    },
     {
       "id": "1557052427767914496",
       "name": "Unable to get OTP",
@@ -13,8 +36,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-06",
       "last": "2026-10-06",
       "resolvedAt": "2026-10-06",
-      "daysOpen": 0,
-      "daysSinceReceived": 0,
+      "daysOpen": 1,
+      "daysSinceReceived": 1,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -67,9 +90,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "FROGUE-Regustration Issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541711732895121498",
-        "snippet": "Okay"
+        "fromThreadName": "Connecting github",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544393401607131136",
+        "snippet": "For anyone facing GitHub linking issues while registering for Useless Projects 3.0: Make sure your GitHub account has at least one repository. If you already installed the GitHub app before creating a repository, reinstall the app after creating one."
       }
     },
     {
@@ -82,8 +105,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-05",
       "last": "2026-10-06",
       "resolvedAt": "2026-10-05",
-      "daysOpen": 0,
-      "daysSinceReceived": 1,
+      "daysOpen": 1,
+      "daysSinceReceived": 2,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -113,9 +136,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "FROGUE-Regustration Issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541711732895121498",
-        "snippet": "Okay"
+        "fromThreadName": "Connecting github",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544393401607131136",
+        "snippet": "For anyone facing GitHub linking issues while registering for Useless Projects 3.0: Make sure your GitHub account has at least one repository. If you already installed the GitHub app before creating a repository, reinstall the app after creating one."
       }
     },
     {
@@ -128,7 +151,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-27",
       "last": "2026-10-06",
       "resolvedAt": "2026-09-27",
-      "daysOpen": 0,
+      "daysOpen": 1,
       "daysSinceReceived": 10,
       "daysToClose": 0,
       "messageCount": 5,
@@ -136,9 +159,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Couldn't register for Useless Projects Happening in our campus",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546049342790574170",
-        "snippet": "<@925620797471592449>"
+        "fromThreadName": "Useless Projects Registration Issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546423586544156682",
+        "snippet": "For anyone facing GitHub linking issues while registering for Useless Projects 3.0: Make sure your GitHub account has at least one repository. If you already installed the GitHub app before creating a repository, reinstall the app after creating one."
       }
     },
     {
@@ -151,17 +174,17 @@ window.DISCORD_DATA = {
       "received": "2026-08-29",
       "last": "2026-10-06",
       "resolvedAt": "2026-10-06",
-      "daysOpen": 0,
-      "daysSinceReceived": 38,
+      "daysOpen": 1,
+      "daysSinceReceived": 39,
       "daysToClose": 38,
       "messageCount": 5,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "FROGUE-Regustration Issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541711732895121498",
-        "snippet": "Okay"
+        "fromThreadName": "Connecting github",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544393401607131136",
+        "snippet": "For anyone facing GitHub linking issues while registering for Useless Projects 3.0: Make sure your GitHub account has at least one repository. If you already installed the GitHub app before creating a repository, reinstall the app after creating one."
       }
     },
     {
@@ -175,7 +198,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-02",
       "resolvedAt": "2026-09-20",
       "daysOpen": 5,
-      "daysSinceReceived": 16,
+      "daysSinceReceived": 17,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -193,8 +216,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-01",
       "last": "2026-10-01",
       "resolvedAt": "2026-10-01",
-      "daysOpen": 5,
-      "daysSinceReceived": 5,
+      "daysOpen": 6,
+      "daysSinceReceived": 6,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -212,8 +235,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-10",
       "last": "2026-10-01",
       "resolvedAt": "2026-09-10",
-      "daysOpen": 5,
-      "daysSinceReceived": 26,
+      "daysOpen": 6,
+      "daysSinceReceived": 27,
       "daysToClose": 0,
       "messageCount": 8,
       "archived": false,
@@ -235,17 +258,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-30",
       "last": "2026-09-30",
       "resolvedAt": "2026-09-30",
-      "daysOpen": 6,
-      "daysSinceReceived": 6,
+      "daysOpen": 7,
+      "daysSinceReceived": 7,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "FROGUE-Regustration Issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541711732895121498",
-        "snippet": "Okay"
+        "fromThreadName": "Connecting github",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544393401607131136",
+        "snippet": "For anyone facing GitHub linking issues while registering for Useless Projects 3.0: Make sure your GitHub account has at least one repository. If you already installed the GitHub app before creating a repository, reinstall the app after creating one."
       }
     },
     {
@@ -304,8 +327,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-23",
       "last": "2026-09-23",
       "resolvedAt": "2026-09-23",
-      "daysOpen": 13,
-      "daysSinceReceived": 13,
+      "daysOpen": 14,
+      "daysSinceReceived": 14,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -396,8 +419,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-18",
       "last": "2026-09-18",
       "resolvedAt": "2026-09-18",
-      "daysOpen": 18,
-      "daysSinceReceived": 18,
+      "daysOpen": 19,
+      "daysSinceReceived": 19,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -419,8 +442,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-18",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 18,
-      "daysSinceReceived": 27,
+      "daysOpen": 19,
+      "daysSinceReceived": 28,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -443,7 +466,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-16",
       "resolvedAt": "2026-09-13",
       "daysOpen": 21,
-      "daysSinceReceived": 23,
+      "daysSinceReceived": 24,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -473,9 +496,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Couldn't register for Useless Projects Happening in our campus",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546049342790574170",
-        "snippet": "<@925620797471592449>"
+        "fromThreadName": "Useless Projects Registration Issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546423586544156682",
+        "snippet": "For anyone facing GitHub linking issues while registering for Useless Projects 3.0: Make sure your GitHub account has at least one repository. If you already installed the GitHub app before creating a repository, reinstall the app after creating one."
       }
     },
     {
@@ -488,8 +511,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-12",
       "last": "2026-09-15",
       "resolvedAt": "2026-09-12",
-      "daysOpen": 21,
-      "daysSinceReceived": 24,
+      "daysOpen": 22,
+      "daysSinceReceived": 25,
       "daysToClose": 0,
       "messageCount": 4,
       "archived": false,
@@ -511,7 +534,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-11",
       "last": "2026-09-15",
       "resolvedAt": "2026-09-11",
-      "daysOpen": 21,
+      "daysOpen": 22,
       "daysSinceReceived": 25,
       "daysToClose": 0,
       "messageCount": 4,
@@ -519,9 +542,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Couldn't register for Useless Projects Happening in our campus",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546049342790574170",
-        "snippet": "<@925620797471592449>"
+        "fromThreadName": "Useless Projects Registration Issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546423586544156682",
+        "snippet": "For anyone facing GitHub linking issues while registering for Useless Projects 3.0: Make sure your GitHub account has at least one repository. If you already installed the GitHub app before creating a repository, reinstall the app after creating one."
       }
     },
     {
@@ -535,7 +558,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-15",
       "resolvedAt": "2026-09-11",
       "daysOpen": 22,
-      "daysSinceReceived": 25,
+      "daysSinceReceived": 26,
       "daysToClose": 0,
       "messageCount": 5,
       "archived": false,
@@ -557,7 +580,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-11",
       "last": "2026-09-15",
       "resolvedAt": "2026-09-11",
-      "daysOpen": 21,
+      "daysOpen": 22,
       "daysSinceReceived": 26,
       "daysToClose": 0,
       "messageCount": 5,
@@ -565,9 +588,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Couldn't register for Useless Projects Happening in our campus",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546049342790574170",
-        "snippet": "<@925620797471592449>"
+        "fromThreadName": "Useless Projects Registration Issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546423586544156682",
+        "snippet": "For anyone facing GitHub linking issues while registering for Useless Projects 3.0: Make sure your GitHub account has at least one repository. If you already installed the GitHub app before creating a repository, reinstall the app after creating one."
       }
     },
     {
@@ -634,9 +657,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "FROGUE-Regustration Issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541711732895121498",
-        "snippet": "Okay"
+        "fromThreadName": "Connecting github",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544393401607131136",
+        "snippet": "For anyone facing GitHub linking issues while registering for Useless Projects 3.0: Make sure your GitHub account has at least one repository. If you already installed the GitHub app before creating a repository, reinstall the app after creating one."
       }
     },
     {
@@ -650,16 +673,16 @@ window.DISCORD_DATA = {
       "last": "2026-09-11",
       "resolvedAt": "2026-09-08",
       "daysOpen": 25,
-      "daysSinceReceived": 28,
+      "daysSinceReceived": 29,
       "daysToClose": 0,
       "messageCount": 6,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Couldn't register for Useless Projects Happening in our campus",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546049342790574170",
-        "snippet": "<@925620797471592449>"
+        "fromThreadName": "Useless Projects Registration Issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546423586544156682",
+        "snippet": "For anyone facing GitHub linking issues while registering for Useless Projects 3.0: Make sure your GitHub account has at least one repository. If you already installed the GitHub app before creating a repository, reinstall the app after creating one."
       }
     },
     {
@@ -680,9 +703,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Couldn't register for Useless Projects Happening in our campus",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546049342790574170",
-        "snippet": "<@925620797471592449>"
+        "fromThreadName": "Useless Projects Registration Issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546423586544156682",
+        "snippet": "For anyone facing GitHub linking issues while registering for Useless Projects 3.0: Make sure your GitHub account has at least one repository. If you already installed the GitHub app before creating a repository, reinstall the app after creating one."
       }
     },
     {
@@ -695,17 +718,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-10",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-10",
-      "daysOpen": 26,
-      "daysSinceReceived": 26,
+      "daysOpen": 27,
+      "daysSinceReceived": 27,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Couldn't register for Useless Projects Happening in our campus",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546049342790574170",
-        "snippet": "<@925620797471592449>"
+        "fromThreadName": "Useless Projects Registration Issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546423586544156682",
+        "snippet": "For anyone facing GitHub linking issues while registering for Useless Projects 3.0: Make sure your GitHub account has at least one repository. If you already installed the GitHub app before creating a repository, reinstall the app after creating one."
       }
     },
     {
@@ -718,17 +741,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-10",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-10",
-      "daysOpen": 26,
-      "daysSinceReceived": 26,
+      "daysOpen": 27,
+      "daysSinceReceived": 27,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Couldn't register for Useless Projects Happening in our campus",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546049342790574170",
-        "snippet": "<@925620797471592449>"
+        "fromThreadName": "Useless Projects Registration Issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546423586544156682",
+        "snippet": "For anyone facing GitHub linking issues while registering for Useless Projects 3.0: Make sure your GitHub account has at least one repository. If you already installed the GitHub app before creating a repository, reinstall the app after creating one."
       }
     },
     {
@@ -764,8 +787,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 26,
-      "daysSinceReceived": 27,
+      "daysOpen": 27,
+      "daysSinceReceived": 28,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -787,8 +810,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 26,
-      "daysSinceReceived": 27,
+      "daysOpen": 27,
+      "daysSinceReceived": 28,
       "daysToClose": 0,
       "messageCount": 6,
       "archived": false,
@@ -810,17 +833,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-08",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-08",
-      "daysOpen": 26,
-      "daysSinceReceived": 28,
+      "daysOpen": 27,
+      "daysSinceReceived": 29,
       "daysToClose": 0,
       "messageCount": 3,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Couldn't register for Useless Projects Happening in our campus",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546049342790574170",
-        "snippet": "<@925620797471592449>"
+        "fromThreadName": "Useless Projects Registration Issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546423586544156682",
+        "snippet": "For anyone facing GitHub linking issues while registering for Useless Projects 3.0: Make sure your GitHub account has at least one repository. If you already installed the GitHub app before creating a repository, reinstall the app after creating one."
       }
     },
     {
@@ -841,9 +864,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Couldn't register for Useless Projects Happening in our campus",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546049342790574170",
-        "snippet": "<@925620797471592449>"
+        "fromThreadName": "Useless Projects Registration Issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546423586544156682",
+        "snippet": "For anyone facing GitHub linking issues while registering for Useless Projects 3.0: Make sure your GitHub account has at least one repository. If you already installed the GitHub app before creating a repository, reinstall the app after creating one."
       }
     },
     {
@@ -856,8 +879,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 27,
-      "daysSinceReceived": 27,
+      "daysOpen": 28,
+      "daysSinceReceived": 28,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -879,17 +902,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 27,
-      "daysSinceReceived": 27,
+      "daysOpen": 28,
+      "daysSinceReceived": 28,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "FROGUE-Regustration Issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541711732895121498",
-        "snippet": "Okay"
+        "fromThreadName": "Connecting github",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544393401607131136",
+        "snippet": "For anyone facing GitHub linking issues while registering for Useless Projects 3.0: Make sure your GitHub account has at least one repository. If you already installed the GitHub app before creating a repository, reinstall the app after creating one."
       }
     },
     {
@@ -902,17 +925,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 27,
-      "daysSinceReceived": 27,
+      "daysOpen": 28,
+      "daysSinceReceived": 28,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "FROGUE-Regustration Issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541711732895121498",
-        "snippet": "Okay"
+        "fromThreadName": "Connecting github",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544393401607131136",
+        "snippet": "For anyone facing GitHub linking issues while registering for Useless Projects 3.0: Make sure your GitHub account has at least one repository. If you already installed the GitHub app before creating a repository, reinstall the app after creating one."
       }
     },
     {
@@ -926,7 +949,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
       "daysOpen": 27,
-      "daysSinceReceived": 27,
+      "daysSinceReceived": 28,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -948,7 +971,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-07",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-07",
-      "daysOpen": 27,
+      "daysOpen": 28,
       "daysSinceReceived": 30,
       "daysToClose": 0,
       "messageCount": 4,
@@ -971,17 +994,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-04",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-04",
-      "daysOpen": 27,
-      "daysSinceReceived": 32,
+      "daysOpen": 28,
+      "daysSinceReceived": 33,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "FROGUE-Regustration Issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541711732895121498",
-        "snippet": "Okay"
+        "fromThreadName": "Connecting github",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544393401607131136",
+        "snippet": "For anyone facing GitHub linking issues while registering for Useless Projects 3.0: Make sure your GitHub account has at least one repository. If you already installed the GitHub app before creating a repository, reinstall the app after creating one."
       }
     },
     {
@@ -1013,8 +1036,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-08",
       "last": "2026-09-08",
       "resolvedAt": "2026-09-08",
-      "daysOpen": 28,
-      "daysSinceReceived": 28,
+      "daysOpen": 29,
+      "daysSinceReceived": 29,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -1037,7 +1060,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-09-07",
       "daysOpen": 29,
-      "daysSinceReceived": 29,
+      "daysSinceReceived": 30,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -1060,16 +1083,16 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-09-07",
       "daysOpen": 29,
-      "daysSinceReceived": 29,
+      "daysSinceReceived": 30,
       "daysToClose": 0,
       "messageCount": 5,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "FROGUE-Regustration Issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541711732895121498",
-        "snippet": "Okay"
+        "fromThreadName": "Connecting github",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544393401607131136",
+        "snippet": "For anyone facing GitHub linking issues while registering for Useless Projects 3.0: Make sure your GitHub account has at least one repository. If you already installed the GitHub app before creating a repository, reinstall the app after creating one."
       }
     },
     {
@@ -1083,7 +1106,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-09-07",
       "daysOpen": 29,
-      "daysSinceReceived": 29,
+      "daysSinceReceived": 30,
       "daysToClose": 0,
       "messageCount": 7,
       "archived": false,
@@ -1129,16 +1152,16 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-09-05",
       "daysOpen": 29,
-      "daysSinceReceived": 31,
+      "daysSinceReceived": 32,
       "daysToClose": 0,
       "messageCount": 12,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "FROGUE-Regustration Issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541711732895121498",
-        "snippet": "Okay"
+        "fromThreadName": "Connecting github",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544393401607131136",
+        "snippet": "For anyone facing GitHub linking issues while registering for Useless Projects 3.0: Make sure your GitHub account has at least one repository. If you already installed the GitHub app before creating a repository, reinstall the app after creating one."
       }
     },
     {
@@ -1152,7 +1175,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-09-03",
       "daysOpen": 29,
-      "daysSinceReceived": 33,
+      "daysSinceReceived": 34,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -1182,9 +1205,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Couldn't register for Useless Projects Happening in our campus",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546049342790574170",
-        "snippet": "<@925620797471592449>"
+        "fromThreadName": "Useless Projects Registration Issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546423586544156682",
+        "snippet": "For anyone facing GitHub linking issues while registering for Useless Projects 3.0: Make sure your GitHub account has at least one repository. If you already installed the GitHub app before creating a repository, reinstall the app after creating one."
       }
     },
     {
@@ -1197,17 +1220,17 @@ window.DISCORD_DATA = {
       "received": "2026-08-30",
       "last": "2026-09-08",
       "resolvedAt": "2026-08-30",
-      "daysOpen": 28,
-      "daysSinceReceived": 37,
+      "daysOpen": 29,
+      "daysSinceReceived": 38,
       "daysToClose": 0,
       "messageCount": 7,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "FROGUE-Regustration Issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541711732895121498",
-        "snippet": "Okay"
+        "fromThreadName": "Connecting github",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544393401607131136",
+        "snippet": "For anyone facing GitHub linking issues while registering for Useless Projects 3.0: Make sure your GitHub account has at least one repository. If you already installed the GitHub app before creating a repository, reinstall the app after creating one."
       }
     },
     {
@@ -1220,7 +1243,7 @@ window.DISCORD_DATA = {
       "received": "2026-08-18",
       "last": "2026-09-08",
       "resolvedAt": "2026-08-18",
-      "daysOpen": 28,
+      "daysOpen": 29,
       "daysSinceReceived": 50,
       "daysToClose": 0,
       "messageCount": 5,
@@ -1228,79 +1251,67 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "FROGUE-Regustration Issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541711732895121498",
-        "snippet": "Okay"
-      }
-    },
-    {
-      "id": "1546433695764975637",
-      "name": "Approve study jam for pre events",
-      "url": "https://discord.com/channels/735180366297563257/1546433695764975637",
-      "status": "Awaiting reply (from us)",
-      "category": "Study Jam issues",
-      "requester": "Hilfa",
-      "received": "2026-09-07",
-      "last": "2026-09-07",
-      "resolvedAt": "2026-09-07",
-      "daysOpen": 29,
-      "daysSinceReceived": 30,
-      "daysToClose": 0,
-      "messageCount": 2,
-      "archived": false,
-      "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Add Participants in study jam",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1545118686745067661",
-        "snippet": "Aarum nerthe register cheytheela...soo... Next pre event session nu I hope this might never happen"
-      }
-    },
-    {
-      "id": "1546423586544156682",
-      "name": "Useless Projects Registration Issue",
-      "url": "https://discord.com/channels/735180366297563257/1546423586544156682",
-      "status": "No response",
-      "category": "Registration issues",
-      "requester": "blackyblacky00",
-      "received": "2026-09-07",
-      "last": "2026-09-07",
-      "resolvedAt": "2026-09-07",
-      "daysOpen": 29,
-      "daysSinceReceived": 30,
-      "daysToClose": 0,
-      "messageCount": 1,
-      "archived": false,
-      "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Couldn't register for Useless Projects Happening in our campus",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546049342790574170",
-        "snippet": "<@925620797471592449>"
+        "fromThreadName": "Connecting github",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544393401607131136",
+        "snippet": "For anyone facing GitHub linking issues while registering for Useless Projects 3.0: Make sure your GitHub account has at least one repository. If you already installed the GitHub app before creating a repository, reinstall the app after creating one."
       }
     },
     {
       "id": "1544393401607131136",
       "name": "Connecting github",
       "url": "https://discord.com/channels/735180366297563257/1544393401607131136",
-      "status": "No response",
+      "status": "Resolved",
       "category": "Other",
       "requester": "Ananya Anand",
       "received": "2026-09-01",
       "last": "2026-09-07",
-      "resolvedAt": "2026-09-01",
-      "daysOpen": 29,
-      "daysSinceReceived": 35,
-      "daysToClose": 0,
+      "resolvedAt": "2026-10-07",
+      "daysOpen": 30,
+      "daysSinceReceived": 36,
+      "daysToClose": 35,
       "messageCount": 1,
-      "archived": false,
+      "archived": true,
       "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "FROGUE-Regustration Issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541711732895121498",
-        "snippet": "Okay"
-      }
+      "resolutionSnippet": "For anyone facing GitHub linking issues while registering for Useless Projects 3.0: Make sure your GitHub account has at least one repository. If you already installed the GitHub app before creating a repository, reinstall the app after creating one.",
+      "suggestion": null
+    },
+    {
+      "id": "1546423586544156682",
+      "name": "Useless Projects Registration Issue",
+      "url": "https://discord.com/channels/735180366297563257/1546423586544156682",
+      "status": "Resolved",
+      "category": "Registration issues",
+      "requester": "blackyblacky00",
+      "received": "2026-09-07",
+      "last": "2026-09-07",
+      "resolvedAt": "2026-10-07",
+      "daysOpen": 30,
+      "daysSinceReceived": 30,
+      "daysToClose": 30,
+      "messageCount": 1,
+      "archived": true,
+      "locked": false,
+      "resolutionSnippet": "For anyone facing GitHub linking issues while registering for Useless Projects 3.0: Make sure your GitHub account has at least one repository. If you already installed the GitHub app before creating a repository, reinstall the app after creating one.",
+      "suggestion": null
+    },
+    {
+      "id": "1546433695764975637",
+      "name": "Approve study jam for pre events",
+      "url": "https://discord.com/channels/735180366297563257/1546433695764975637",
+      "status": "Resolved",
+      "category": "Study Jam issues",
+      "requester": "Hilfa",
+      "received": "2026-09-07",
+      "last": "2026-09-07",
+      "resolvedAt": "2026-10-07",
+      "daysOpen": 30,
+      "daysSinceReceived": 30,
+      "daysToClose": 30,
+      "messageCount": 2,
+      "archived": true,
+      "locked": false,
+      "resolutionSnippet": "Yes",
+      "suggestion": null
     },
     {
       "id": "1541711732895121498",
@@ -13331,13 +13342,13 @@ window.DISCORD_DATA = {
     }
   ],
   "summary": {
-    "No response": 29,
-    "Awaiting reply (from us)": 15,
+    "No response": 28,
+    "Awaiting reply (from us)": 14,
     "Awaiting reply (from them)": 13,
-    "Resolved": 633
+    "Resolved": 636
   },
-  "avgOpenDays": 20.1,
-  "avgDaysToClose": 12.7,
+  "avgOpenDays": 19.7,
+  "avgDaysToClose": 12.8,
   "topCategories": [
     {
       "category": "Event/Activity check-in & reporting",
@@ -13345,7 +13356,7 @@ window.DISCORD_DATA = {
     },
     {
       "category": "Other",
-      "count": 137
+      "count": 138
     },
     {
       "category": "OTP / Login issues",
