@@ -1,6 +1,23 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-07T04:43:00Z",
+  "generatedAt": "2026-10-07T06:43:02Z",
   "threads": [
+    {
+      "id": "campus-47692c0aee",
+      "threadId": "1a114fea7e3bd6e1",
+      "group": "campus",
+      "subject": "Quick catch-up call: TinkerHub MBCCET",
+      "counterpart": "Edwin (TinkerHub MBCCET)",
+      "email": "edwinjosephshiju050@gmail.com",
+      "received": "2026-10-07",
+      "last": "2026-10-07",
+      "status": "Awaiting reply (from them)",
+      "note": "Femina asked Edwin for a catch-up call on outreach role; awaiting his availability",
+      "cc": [
+        "campus@tinkerhub.org"
+      ],
+      "daysOpen": 0,
+      "daysSinceReceived": 0
+    },
     {
       "id": "partner-b88cd54a57",
       "threadId": "1a1145a3784ebebe",
@@ -5507,22 +5524,22 @@ window.DASHBOARD_DATA = {
     }
   ],
   "summary": {
-    "total": 314,
+    "total": 315,
     "No response": 5,
     "Awaiting reply (from us)": 24,
-    "Awaiting reply (from them)": 27,
+    "Awaiting reply (from them)": 28,
     "Resolved": 79,
     "Informational": 179
   },
   "analytics": {
     "campus": {
-      "total": 251,
+      "total": 252,
       "No response": 0,
       "Awaiting reply (from us)": 9,
-      "Awaiting reply (from them)": 21,
+      "Awaiting reply (from them)": 22,
       "Resolved": 61,
       "Informational": 160,
-      "avgOpenDays": 17.4,
+      "avgOpenDays": 16.8,
       "avgResolvedDays": 5.6
     },
     "support": {
@@ -5543,7 +5560,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 6,
       "Informational": 16,
       "avgOpenDays": 7.8,
-      "avgResolvedDays": 4.0
+      "avgResolvedDays": 4
     },
     "report": {
       "total": 10,
@@ -5562,8 +5579,8 @@ window.DASHBOARD_DATA = {
       "Awaiting reply (from them)": 0,
       "Resolved": 1,
       "Informational": 1,
-      "avgOpenDays": 7.2,
-      "avgResolvedDays": 1.0
+      "avgOpenDays": 7.3,
+      "avgResolvedDays": 1
     },
     "tinkerspace": {
       "total": 0,
