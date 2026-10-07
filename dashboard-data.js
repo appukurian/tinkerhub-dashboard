@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-07T08:43:01Z",
+  "generatedAt": "2026-10-07T10:42:56Z",
   "threads": [
     {
       "id": "campus-47692c0aee",
@@ -254,13 +254,14 @@ window.DASHBOARD_DATA = {
       "counterpart": "Make Community (QuickBooks invoice reminder)",
       "email": "kelly@make.co",
       "received": "2026-10-03",
-      "last": "2026-10-04",
-      "status": "Awaiting reply (from us)",
-      "note": "Invoice 14573, USD 1,050 (Makerfaire Kochi license fee, Net 30, reminder); Kurian forwarded to finance asking Althaf to pay and Mehar to check — payment not yet confirmed",
+      "last": "2026-10-07",
+      "status": "Awaiting reply (from them)",
+      "note": "Invoice 14573, USD 1,050 (Makerfaire Kochi license fee, Net 30). Althaf tried paying 7 Oct but link only offers bank transfer; Kurian asked Make (7 Oct) about card payment since no routing number - awaiting Make",
       "daysOpen": 4,
       "daysSinceReceived": 4,
       "cc": [
-        "finance@tinkerhub.org"
+        "finance@tinkerhub.org",
+        "althaf@tinkerhub.org"
       ]
     },
     {
@@ -5526,8 +5527,8 @@ window.DASHBOARD_DATA = {
   "summary": {
     "total": 315,
     "No response": 5,
-    "Awaiting reply (from us)": 24,
-    "Awaiting reply (from them)": 28,
+    "Awaiting reply (from us)": 23,
+    "Awaiting reply (from them)": 29,
     "Resolved": 79,
     "Informational": 179
   },
@@ -5555,12 +5556,12 @@ window.DASHBOARD_DATA = {
     "finance": {
       "total": 27,
       "No response": 3,
-      "Awaiting reply (from us)": 2,
-      "Awaiting reply (from them)": 0,
+      "Awaiting reply (from us)": 1,
+      "Awaiting reply (from them)": 1,
       "Resolved": 6,
       "Informational": 16,
       "avgOpenDays": 7.8,
-      "avgResolvedDays": 4
+      "avgResolvedDays": 4.0
     },
     "report": {
       "total": 10,
@@ -5579,8 +5580,8 @@ window.DASHBOARD_DATA = {
       "Awaiting reply (from them)": 0,
       "Resolved": 1,
       "Informational": 1,
-      "avgOpenDays": 7.3,
-      "avgResolvedDays": 1
+      "avgOpenDays": 7.2,
+      "avgResolvedDays": 1.0
     },
     "tinkerspace": {
       "total": 0,
