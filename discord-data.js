@@ -1,8 +1,77 @@
 // Auto-generated daily by .github/workflows/discord-update.yml
 // Do NOT hand-edit — this file is overwritten on each run.
 window.DISCORD_DATA = {
-  "generatedAt": "2026-10-08T09:15:37Z",
+  "generatedAt": "2026-10-08T17:28:37Z",
   "threads": [
+    {
+      "id": "1557795080310358046",
+      "name": "Join now not visible",
+      "url": "https://discord.com/channels/735180366297563257/1557795080310358046",
+      "status": "No response",
+      "category": "Other",
+      "requester": "rida",
+      "received": "2026-10-08",
+      "last": "2026-10-08",
+      "resolvedAt": "2026-10-08",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "daysToClose": 0,
+      "messageCount": 1,
+      "archived": false,
+      "locked": false,
+      "resolutionSnippet": "",
+      "suggestion": {
+        "fromThreadName": "Department Selection",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543645026276610079",
+        "snippet": "Btech artificial intelligence and data science 4 year Btech Robotics and data science 4 year"
+      }
+    },
+    {
+      "id": "1557788508805013635",
+      "name": "I attended the event along with the other leads, but the app shows I missed it",
+      "url": "https://discord.com/channels/735180366297563257/1557788508805013635",
+      "status": "No response",
+      "category": "Event/Activity check-in & reporting",
+      "requester": "Swathy J",
+      "received": "2026-10-08",
+      "last": "2026-10-08",
+      "resolvedAt": "2026-10-08",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "daysToClose": 0,
+      "messageCount": 0,
+      "archived": false,
+      "locked": false,
+      "resolutionSnippet": "",
+      "suggestion": {
+        "fromThreadName": "Want to create  event",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541431040457965598",
+        "snippet": "For reviewing <@1392046495535988836> <@1012977379209125908>"
+      }
+    },
+    {
+      "id": "1553610072112889866",
+      "name": "Registration issue",
+      "url": "https://discord.com/channels/735180366297563257/1553610072112889866",
+      "status": "Awaiting reply (from us)",
+      "category": "Registration issues",
+      "requester": "Anupama\ud83c\udf38",
+      "received": "2026-09-27",
+      "last": "2026-10-08",
+      "resolvedAt": "2026-09-27",
+      "daysOpen": 0,
+      "daysSinceReceived": 11,
+      "daysToClose": 0,
+      "messageCount": 6,
+      "archived": false,
+      "locked": false,
+      "resolutionSnippet": "",
+      "suggestion": {
+        "fromThreadName": "Registeration issue for Useless",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544580392319721542",
+        "snippet": "Yes"
+      }
+    },
     {
       "id": "1557462415095111750",
       "name": "Event Date Update",
@@ -36,17 +105,17 @@ window.DISCORD_DATA = {
       "received": "2026-10-07",
       "last": "2026-10-07",
       "resolvedAt": "2026-10-07",
-      "daysOpen": 0,
-      "daysSinceReceived": 0,
+      "daysOpen": 1,
+      "daysSinceReceived": 1,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Department not added yet",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546571437618503700",
-        "snippet": "B.Tech"
+        "fromThreadName": "Department Selection",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543645026276610079",
+        "snippet": "Btech artificial intelligence and data science 4 year Btech Robotics and data science 4 year"
       }
     },
     {
@@ -59,8 +128,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-06",
       "last": "2026-10-06",
       "resolvedAt": "2026-10-06",
-      "daysOpen": 1,
-      "daysSinceReceived": 1,
+      "daysOpen": 2,
+      "daysSinceReceived": 2,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -113,9 +182,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Department not added yet",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546571437618503700",
-        "snippet": "B.Tech"
+        "fromThreadName": "Department Selection",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543645026276610079",
+        "snippet": "Btech artificial intelligence and data science 4 year Btech Robotics and data science 4 year"
       }
     },
     {
@@ -128,8 +197,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-05",
       "last": "2026-10-06",
       "resolvedAt": "2026-10-05",
-      "daysOpen": 1,
-      "daysSinceReceived": 2,
+      "daysOpen": 2,
+      "daysSinceReceived": 3,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -159,32 +228,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Department not added yet",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546571437618503700",
-        "snippet": "B.Tech"
-      }
-    },
-    {
-      "id": "1553610072112889866",
-      "name": "Registration issue",
-      "url": "https://discord.com/channels/735180366297563257/1553610072112889866",
-      "status": "Awaiting reply (from them)",
-      "category": "Registration issues",
-      "requester": "Anupama\ud83c\udf38",
-      "received": "2026-09-27",
-      "last": "2026-10-06",
-      "resolvedAt": "2026-09-27",
-      "daysOpen": 1,
-      "daysSinceReceived": 11,
-      "daysToClose": 0,
-      "messageCount": 5,
-      "archived": false,
-      "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Registeration issue for Useless",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1544580392319721542",
-        "snippet": "Yes"
+        "fromThreadName": "Department Selection",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543645026276610079",
+        "snippet": "Btech artificial intelligence and data science 4 year Btech Robotics and data science 4 year"
       }
     },
     {
@@ -197,17 +243,17 @@ window.DISCORD_DATA = {
       "received": "2026-08-29",
       "last": "2026-10-06",
       "resolvedAt": "2026-10-06",
-      "daysOpen": 1,
-      "daysSinceReceived": 39,
+      "daysOpen": 2,
+      "daysSinceReceived": 40,
       "daysToClose": 38,
       "messageCount": 5,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Department not added yet",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546571437618503700",
-        "snippet": "B.Tech"
+        "fromThreadName": "Department Selection",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543645026276610079",
+        "snippet": "Btech artificial intelligence and data science 4 year Btech Robotics and data science 4 year"
       }
     },
     {
@@ -221,7 +267,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-02",
       "resolvedAt": "2026-09-20",
       "daysOpen": 6,
-      "daysSinceReceived": 17,
+      "daysSinceReceived": 18,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -239,8 +285,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-01",
       "last": "2026-10-01",
       "resolvedAt": "2026-10-01",
-      "daysOpen": 6,
-      "daysSinceReceived": 6,
+      "daysOpen": 7,
+      "daysSinceReceived": 7,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -258,8 +304,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-10",
       "last": "2026-10-01",
       "resolvedAt": "2026-09-10",
-      "daysOpen": 6,
-      "daysSinceReceived": 27,
+      "daysOpen": 7,
+      "daysSinceReceived": 28,
       "daysToClose": 0,
       "messageCount": 8,
       "archived": false,
@@ -281,17 +327,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-30",
       "last": "2026-09-30",
       "resolvedAt": "2026-09-30",
-      "daysOpen": 7,
-      "daysSinceReceived": 7,
+      "daysOpen": 8,
+      "daysSinceReceived": 8,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Department not added yet",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546571437618503700",
-        "snippet": "B.Tech"
+        "fromThreadName": "Department Selection",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543645026276610079",
+        "snippet": "Btech artificial intelligence and data science 4 year Btech Robotics and data science 4 year"
       }
     },
     {
@@ -350,8 +396,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-23",
       "last": "2026-09-23",
       "resolvedAt": "2026-09-23",
-      "daysOpen": 14,
-      "daysSinceReceived": 14,
+      "daysOpen": 15,
+      "daysSinceReceived": 15,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -381,9 +427,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "WIT can't access discord",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1538926654057877616",
-        "snippet": "<@1012977379209125908> could you please add another account to server? maybe give the invite link. i think shes lost access to the one in the server currently"
+        "fromThreadName": "Outreach not in Discord channel.",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546893762930942122",
+        "snippet": "He is not added to the tinkerhub channel."
       }
     },
     {
@@ -442,8 +488,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-18",
       "last": "2026-09-18",
       "resolvedAt": "2026-09-18",
-      "daysOpen": 19,
-      "daysSinceReceived": 19,
+      "daysOpen": 20,
+      "daysSinceReceived": 20,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -465,8 +511,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-18",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 19,
-      "daysSinceReceived": 28,
+      "daysOpen": 20,
+      "daysSinceReceived": 29,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -489,7 +535,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-16",
       "resolvedAt": "2026-09-13",
       "daysOpen": 22,
-      "daysSinceReceived": 24,
+      "daysSinceReceived": 25,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -534,8 +580,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-12",
       "last": "2026-09-15",
       "resolvedAt": "2026-09-12",
-      "daysOpen": 22,
-      "daysSinceReceived": 25,
+      "daysOpen": 23,
+      "daysSinceReceived": 26,
       "daysToClose": 0,
       "messageCount": 4,
       "archived": false,
@@ -557,7 +603,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-11",
       "last": "2026-09-15",
       "resolvedAt": "2026-09-11",
-      "daysOpen": 22,
+      "daysOpen": 23,
       "daysSinceReceived": 26,
       "daysToClose": 0,
       "messageCount": 4,
@@ -581,7 +627,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-15",
       "resolvedAt": "2026-09-11",
       "daysOpen": 23,
-      "daysSinceReceived": 26,
+      "daysSinceReceived": 27,
       "daysToClose": 0,
       "messageCount": 5,
       "archived": false,
@@ -603,7 +649,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-11",
       "last": "2026-09-15",
       "resolvedAt": "2026-09-11",
-      "daysOpen": 22,
+      "daysOpen": 23,
       "daysSinceReceived": 27,
       "daysToClose": 0,
       "messageCount": 5,
@@ -680,9 +726,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Department not added yet",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546571437618503700",
-        "snippet": "B.Tech"
+        "fromThreadName": "Department Selection",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543645026276610079",
+        "snippet": "Btech artificial intelligence and data science 4 year Btech Robotics and data science 4 year"
       }
     },
     {
@@ -696,7 +742,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-11",
       "resolvedAt": "2026-09-08",
       "daysOpen": 26,
-      "daysSinceReceived": 29,
+      "daysSinceReceived": 30,
       "daysToClose": 0,
       "messageCount": 6,
       "archived": false,
@@ -741,8 +787,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-10",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-10",
-      "daysOpen": 27,
-      "daysSinceReceived": 27,
+      "daysOpen": 28,
+      "daysSinceReceived": 28,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -764,8 +810,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-10",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-10",
-      "daysOpen": 27,
-      "daysSinceReceived": 27,
+      "daysOpen": 28,
+      "daysSinceReceived": 28,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -811,7 +857,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-10",
       "resolvedAt": "2026-09-09",
       "daysOpen": 28,
-      "daysSinceReceived": 28,
+      "daysSinceReceived": 29,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -833,8 +879,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 27,
-      "daysSinceReceived": 28,
+      "daysOpen": 28,
+      "daysSinceReceived": 29,
       "daysToClose": 0,
       "messageCount": 6,
       "archived": false,
@@ -856,7 +902,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-08",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-08",
-      "daysOpen": 27,
+      "daysOpen": 28,
       "daysSinceReceived": 30,
       "daysToClose": 0,
       "messageCount": 3,
@@ -902,8 +948,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 28,
-      "daysSinceReceived": 28,
+      "daysOpen": 29,
+      "daysSinceReceived": 29,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -925,17 +971,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 28,
-      "daysSinceReceived": 28,
+      "daysOpen": 29,
+      "daysSinceReceived": 29,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Department not added yet",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546571437618503700",
-        "snippet": "B.Tech"
+        "fromThreadName": "Department Selection",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543645026276610079",
+        "snippet": "Btech artificial intelligence and data science 4 year Btech Robotics and data science 4 year"
       }
     },
     {
@@ -948,17 +994,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 28,
-      "daysSinceReceived": 28,
+      "daysOpen": 29,
+      "daysSinceReceived": 29,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Department not added yet",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546571437618503700",
-        "snippet": "B.Tech"
+        "fromThreadName": "Department Selection",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543645026276610079",
+        "snippet": "Btech artificial intelligence and data science 4 year Btech Robotics and data science 4 year"
       }
     },
     {
@@ -972,7 +1018,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
       "daysOpen": 28,
-      "daysSinceReceived": 28,
+      "daysSinceReceived": 29,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -994,7 +1040,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-07",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-07",
-      "daysOpen": 28,
+      "daysOpen": 29,
       "daysSinceReceived": 31,
       "daysToClose": 0,
       "messageCount": 4,
@@ -1017,17 +1063,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-04",
       "last": "2026-09-09",
       "resolvedAt": "2026-09-04",
-      "daysOpen": 28,
-      "daysSinceReceived": 33,
+      "daysOpen": 29,
+      "daysSinceReceived": 34,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Department not added yet",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546571437618503700",
-        "snippet": "B.Tech"
+        "fromThreadName": "Department Selection",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1543645026276610079",
+        "snippet": "Btech artificial intelligence and data science 4 year Btech Robotics and data science 4 year"
       }
     },
     {
@@ -1053,70 +1099,58 @@ window.DISCORD_DATA = {
       "id": "1546893762930942122",
       "name": "Outreach not in Discord channel.",
       "url": "https://discord.com/channels/735180366297563257/1546893762930942122",
-      "status": "No response",
+      "status": "Resolved",
       "category": "Discord account/access",
       "requester": "aaro_ws",
       "received": "2026-09-08",
       "last": "2026-09-08",
-      "resolvedAt": "2026-09-08",
-      "daysOpen": 29,
-      "daysSinceReceived": 29,
-      "daysToClose": 0,
+      "resolvedAt": "2026-10-08",
+      "daysOpen": 30,
+      "daysSinceReceived": 30,
+      "daysToClose": 30,
       "messageCount": 0,
-      "archived": false,
+      "archived": true,
       "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "WIT can't access discord",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1538926654057877616",
-        "snippet": "<@1012977379209125908> could you please add another account to server? maybe give the invite link. i think shes lost access to the one in the server currently"
-      }
+      "resolutionSnippet": "He is not added to the tinkerhub channel.",
+      "suggestion": null
     },
     {
       "id": "1543645026276610079",
       "name": "Department Selection",
       "url": "https://discord.com/channels/735180366297563257/1543645026276610079",
-      "status": "Awaiting reply (from us)",
+      "status": "Resolved",
       "category": "Other",
       "requester": "Mehjebin",
       "received": "2026-08-30",
       "last": "2026-09-08",
-      "resolvedAt": "2026-08-30",
-      "daysOpen": 29,
-      "daysSinceReceived": 38,
-      "daysToClose": 0,
+      "resolvedAt": "2026-10-08",
+      "daysOpen": 30,
+      "daysSinceReceived": 39,
+      "daysToClose": 38,
       "messageCount": 7,
-      "archived": false,
+      "archived": true,
       "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Department not added yet",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546571437618503700",
-        "snippet": "B.Tech"
-      }
+      "resolutionSnippet": "Btech artificial intelligence and data science 4 year Btech Robotics and data science 4 year",
+      "suggestion": null
     },
     {
       "id": "1539101060168294400",
       "name": "Addition of a branch in the app",
       "url": "https://discord.com/channels/735180366297563257/1539101060168294400",
-      "status": "Awaiting reply (from us)",
+      "status": "Resolved",
       "category": "Other",
       "requester": "tryzhaa",
       "received": "2026-08-18",
       "last": "2026-09-08",
-      "resolvedAt": "2026-08-18",
-      "daysOpen": 29,
+      "resolvedAt": "2026-10-08",
+      "daysOpen": 30,
       "daysSinceReceived": 51,
-      "daysToClose": 0,
+      "daysToClose": 51,
       "messageCount": 5,
-      "archived": false,
+      "archived": true,
       "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Department not added yet",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546571437618503700",
-        "snippet": "B.Tech"
-      }
+      "resolutionSnippet": "Bachelors in Technology Printing Technology 4 Years Institute of Engineering and Technology.",
+      "suggestion": null
     },
     {
       "id": "1546571437618503700",
@@ -1129,7 +1163,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-10-08",
       "daysOpen": 30,
-      "daysSinceReceived": 30,
+      "daysSinceReceived": 31,
       "daysToClose": 30,
       "messageCount": 5,
       "archived": true,
@@ -1167,7 +1201,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-10-08",
       "daysOpen": 30,
-      "daysSinceReceived": 34,
+      "daysSinceReceived": 35,
       "daysToClose": 34,
       "messageCount": 1,
       "archived": true,
@@ -1186,7 +1220,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-10-08",
       "daysOpen": 30,
-      "daysSinceReceived": 32,
+      "daysSinceReceived": 33,
       "daysToClose": 32,
       "messageCount": 12,
       "archived": true,
@@ -1224,7 +1258,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-10-08",
       "daysOpen": 30,
-      "daysSinceReceived": 30,
+      "daysSinceReceived": 31,
       "daysToClose": 30,
       "messageCount": 7,
       "archived": true,
@@ -1243,7 +1277,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-08",
       "resolvedAt": "2026-10-08",
       "daysOpen": 30,
-      "daysSinceReceived": 30,
+      "daysSinceReceived": 31,
       "daysToClose": 30,
       "messageCount": 1,
       "archived": true,
@@ -13337,21 +13371,21 @@ window.DISCORD_DATA = {
     }
   ],
   "summary": {
-    "No response": 26,
-    "Awaiting reply (from us)": 12,
-    "Awaiting reply (from them)": 11,
-    "Resolved": 643
+    "No response": 27,
+    "Awaiting reply (from us)": 11,
+    "Awaiting reply (from them)": 10,
+    "Resolved": 646
   },
-  "avgOpenDays": 18.4,
-  "avgDaysToClose": 13.1,
+  "avgOpenDays": 17.5,
+  "avgDaysToClose": 13.2,
   "topCategories": [
     {
       "category": "Event/Activity check-in & reporting",
-      "count": 144
+      "count": 145
     },
     {
       "category": "Other",
-      "count": 138
+      "count": 139
     },
     {
       "category": "OTP / Login issues",
