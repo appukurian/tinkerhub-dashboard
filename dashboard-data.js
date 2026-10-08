@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-08T06:45:04Z",
+  "generatedAt": "2026-10-08T08:43:31Z",
   "threads": [
     {
       "id": "campus-47692c0aee",
@@ -5182,19 +5182,21 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "finance-1ff83d3f77",
+      "id": "finance-1d25680e93",
       "threadId": "1a118ffcf08d2335",
       "group": "finance",
       "subject": "Invoice 14573 from Make Community LLC",
-      "counterpart": "Make Community LLC (QuickBooks invoice)",
-      "email": "kelly@make.co",
+      "counterpart": "Make Community LLC (Jennifer / Kelly)",
+      "email": "jennifer@make.co",
       "received": "2026-10-08",
       "last": "2026-10-08",
       "status": "Awaiting reply (from us)",
-      "note": "Invoice 14573, USD 1,030 from Make Community; Kurian asked Althaf (finance) to pay and share receipt 8 Oct - payment pending",
+      "note": "Invoice 14573, USD 1,030 from Make Community; Kurian asked Althaf to pay and share receipt. Jennifer (Make) replied 8 Oct asking whether Kurian is requesting something from Make or it's for his team - we owe her a clarification; payment pending",
       "cc": [
         "finance@tinkerhub.org",
-        "jasim@tinkerhub.org"
+        "kelly@make.co",
+        "jasim@tinkerhub.org",
+        "salman@makergram.com"
       ],
       "daysSinceReceived": 0,
       "daysOpen": 0
@@ -5210,6 +5212,23 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-08",
       "status": "Informational",
       "note": "Auto-generated meeting notes: \"Planetary Makers\" collaboration with Socratus Foundation",
+      "cc": [
+        "campus@tinkerhub.org"
+      ],
+      "daysSinceReceived": 0,
+      "daysOpen": 0
+    },
+    {
+      "id": "campus-d81b2752f3",
+      "threadId": "1a11a6d70f3f6cc2",
+      "group": "campus",
+      "subject": "Dear Tinker Hub Team, Greetings from Tinker Hub, Thejus Engineering College. We are writing to inform you about the five projects selected from our campus for Useless Project 3.0. The selected projects and team members are: Distance Based Insult Generator – Arun MV & Athul Krishna Fish Analyser – Safa & Archana Do Nothing – Devenadh PM & Amruth Krishna Excuse Generator – Arjun & Devika Outsmart Us – Devenad U & Devipriya These are the five projects selected by our campus team for Useless Project 3.0. Kindly acknowledge the selected projects and let us know if any further details or documentation are required from our side. Thank you for your support. Regards, Dhrisya Narayanan Campus Lead, Tinker Hub Thejus Engineering College",
+      "counterpart": "Dhrisya Narayanan (TinkerHub Thejus Engineering College)",
+      "email": "dhrisyanarayanan7@gmail.com",
+      "received": "2026-10-08",
+      "last": "2026-10-08",
+      "status": "Awaiting reply (from them)",
+      "note": "Campus lead listed 5 Useless Project 3.0 selections in the subject line with an empty body; Femina asked her to include a body in future emails - no formal acknowledgement of the projects yet",
       "cc": [
         "campus@tinkerhub.org"
       ],
@@ -5240,9 +5259,9 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Awaiting reply (from them)",
+      "status": "Resolved",
       "note": null,
-      "daysOpen": 7,
+      "daysOpen": 0,
       "daysSinceReceived": 7,
       "cc": []
     },
@@ -5255,9 +5274,9 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Awaiting reply (from us)",
+      "status": "Resolved",
       "note": null,
-      "daysOpen": 10,
+      "daysOpen": 2,
       "daysSinceReceived": 10,
       "cc": []
     },
@@ -5368,22 +5387,22 @@ window.DASHBOARD_DATA = {
     }
   ],
   "summary": {
-    "total": 306,
+    "total": 307,
     "No response": 4,
-    "Awaiting reply (from us)": 22,
+    "Awaiting reply (from us)": 21,
     "Awaiting reply (from them)": 27,
-    "Resolved": 73,
+    "Resolved": 75,
     "Informational": 180
   },
   "analytics": {
     "campus": {
-      "total": 248,
+      "total": 249,
       "No response": 0,
       "Awaiting reply (from us)": 9,
-      "Awaiting reply (from them)": 22,
+      "Awaiting reply (from them)": 23,
       "Resolved": 56,
       "Informational": 161,
-      "avgOpenDays": 17.8,
+      "avgOpenDays": 17.3,
       "avgResolvedDays": 6.0
     },
     "support": {
@@ -5409,12 +5428,12 @@ window.DASHBOARD_DATA = {
     "report": {
       "total": 10,
       "No response": 0,
-      "Awaiting reply (from us)": 2,
-      "Awaiting reply (from them)": 4,
-      "Resolved": 2,
+      "Awaiting reply (from us)": 1,
+      "Awaiting reply (from them)": 3,
+      "Resolved": 4,
       "Informational": 2,
-      "avgOpenDays": 23.3,
-      "avgResolvedDays": 22.0
+      "avgOpenDays": 30.8,
+      "avgResolvedDays": 11.5
     },
     "partner": {
       "total": 6,
