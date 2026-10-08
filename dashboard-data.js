@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-08T08:43:31Z",
+  "generatedAt": "2026-10-08T10:43:06Z",
   "threads": [
     {
       "id": "campus-47692c0aee",
@@ -217,9 +217,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "Neethu Dharan (Nomni)",
       "email": "neethu.dharan@nomni.ai",
       "received": "2026-10-05",
-      "last": "2026-10-05",
+      "last": "2026-10-08",
       "status": "Awaiting reply (from us)",
-      "note": "Nomni requests ~12 paid engineering interns (Chennai/Bangalore, Nov 2026); Kurian looped in the team, no substantive reply yet",
+      "note": "Nomni requests ~12 paid engineering interns (Chennai/Bangalore, Nov 2026); Kurian looped in the team on 5 Oct; Neethu replied 8 Oct looking forward to connecting - we still owe a substantive response / call time",
       "cc": [
         "partner@tinkerhub.org",
         "arundhathi@tinkerhub.org",
@@ -5384,25 +5384,60 @@ window.DASHBOARD_DATA = {
       "daysOpen": 30,
       "daysSinceReceived": 30,
       "cc": []
+    },
+    {
+      "id": "campus-38736ee8d1",
+      "threadId": "1a11ae288cc66c64",
+      "group": "campus",
+      "subject": "Top 5 projects of useless projects 3.0 from RIT Kottayam",
+      "counterpart": "RIT Kottayam (TinkerHub campus)",
+      "email": "tinkerhub@rit.ac.in",
+      "received": "2026-10-08",
+      "last": "2026-10-08",
+      "status": "No response",
+      "note": "Campus sent top 5 Useless Projects 3.0 selections (Byte Me, Reno Joby, Ahammed Imthias, Team Alpha, Neo bit); no acknowledgement yet",
+      "cc": [
+        "campus@tinkerhub.org"
+      ],
+      "daysSinceReceived": 0,
+      "daysOpen": 0
+    },
+    {
+      "id": "partner-b7eb9f8505",
+      "threadId": "1a11acbaf5c961bb",
+      "group": "partner",
+      "subject": "Partnership proposal- Launchverse x Tinkerhub",
+      "counterpart": "Palakh Khanna (LaunchVerse)",
+      "email": "palakh@launchverse.org",
+      "received": "2026-10-08",
+      "last": "2026-10-08",
+      "status": "Awaiting reply (from us)",
+      "note": "Non-profit LaunchVerse (students grades 8-12, 40k+ schools) proposes partnership/short call; Kurian replied \"looping in the relevant team\" - no substantive answer yet",
+      "cc": [
+        "partner@tinkerhub.org",
+        "hello@tinkerhub.org"
+      ],
+      "daysSinceReceived": 0,
+      "daysOpen": 0
     }
   ],
   "summary": {
-    "total": 307,
-    "No response": 4,
-    "Awaiting reply (from us)": 21,
+    "total": 309,
+    "No response": 5,
+    "Awaiting reply (from us)": 22,
     "Awaiting reply (from them)": 27,
     "Resolved": 75,
     "Informational": 180
   },
   "analytics": {
     "campus": {
-      "total": 249,
-      "No response": 0,
+      "total": 250,
+      "No response": 1,
       "Awaiting reply (from us)": 9,
       "Awaiting reply (from them)": 23,
       "Resolved": 56,
       "Informational": 161,
-      "avgOpenDays": 17.3,
+      "avgOpenDays": 16.8,
       "avgResolvedDays": 6.0
     },
     "support": {
@@ -5436,13 +5471,13 @@ window.DASHBOARD_DATA = {
       "avgResolvedDays": 11.5
     },
     "partner": {
-      "total": 6,
+      "total": 7,
       "No response": 0,
-      "Awaiting reply (from us)": 4,
+      "Awaiting reply (from us)": 5,
       "Awaiting reply (from them)": 0,
       "Resolved": 1,
       "Informational": 1,
-      "avgOpenDays": 8.2,
+      "avgOpenDays": 6.6,
       "avgResolvedDays": 1.0
     },
     "tinkerspace": {
