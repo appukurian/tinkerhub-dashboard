@@ -1,7 +1,7 @@
 // Auto-generated daily by .github/workflows/discord-update.yml
 // Do NOT hand-edit — this file is overwritten on each run.
 window.DISCORD_DATA = {
-  "generatedAt": "2026-10-09T09:23:53Z",
+  "generatedAt": "2026-10-09T17:06:46Z",
   "threads": [
     {
       "id": "1558005168031932457",
@@ -21,9 +21,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Want to create  event",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541431040457965598",
-        "snippet": "For reviewing <@1392046495535988836> <@1012977379209125908>"
+        "fromThreadName": "Couldn't Check in people for our o-penn-mic-2",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546366413185228810",
+        "snippet": "Hi Amal, please try to get their email or phone numbers as we can only add it from the backend with these details"
       }
     },
     {
@@ -44,9 +44,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Want to create  event",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541431040457965598",
-        "snippet": "For reviewing <@1392046495535988836> <@1012977379209125908>"
+        "fromThreadName": "Couldn't Check in people for our o-penn-mic-2",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546366413185228810",
+        "snippet": "Hi Amal, please try to get their email or phone numbers as we can only add it from the backend with these details"
       }
     },
     {
@@ -59,17 +59,17 @@ window.DISCORD_DATA = {
       "received": "2026-10-08",
       "last": "2026-10-08",
       "resolvedAt": "2026-10-08",
-      "daysOpen": 0,
-      "daysSinceReceived": 0,
+      "daysOpen": 1,
+      "daysSinceReceived": 1,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Want to create  event",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541431040457965598",
-        "snippet": "For reviewing <@1392046495535988836> <@1012977379209125908>"
+        "fromThreadName": "Couldn't Check in people for our o-penn-mic-2",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546366413185228810",
+        "snippet": "Hi Amal, please try to get their email or phone numbers as we can only add it from the backend with these details"
       }
     },
     {
@@ -82,7 +82,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-27",
       "last": "2026-10-08",
       "resolvedAt": "2026-09-27",
-      "daysOpen": 0,
+      "daysOpen": 1,
       "daysSinceReceived": 12,
       "daysToClose": 0,
       "messageCount": 6,
@@ -105,8 +105,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-08",
       "last": "2026-10-08",
       "resolvedAt": "2026-10-08",
-      "daysOpen": 0,
-      "daysSinceReceived": 0,
+      "daysOpen": 1,
+      "daysSinceReceived": 1,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": true,
@@ -132,9 +132,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Want to create  event",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541431040457965598",
-        "snippet": "For reviewing <@1392046495535988836> <@1012977379209125908>"
+        "fromThreadName": "Couldn't Check in people for our o-penn-mic-2",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546366413185228810",
+        "snippet": "Hi Amal, please try to get their email or phone numbers as we can only add it from the backend with these details"
       }
     },
     {
@@ -147,17 +147,17 @@ window.DISCORD_DATA = {
       "received": "2026-10-07",
       "last": "2026-10-07",
       "resolvedAt": "2026-10-07",
-      "daysOpen": 1,
-      "daysSinceReceived": 1,
+      "daysOpen": 2,
+      "daysSinceReceived": 2,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Join now not visible",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1557795080310358046",
-        "snippet": "<@1392046495535988836>"
+        "fromThreadName": "App issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1545448126570041364",
+        "snippet": "+91 99616 68346"
       }
     },
     {
@@ -170,17 +170,17 @@ window.DISCORD_DATA = {
       "received": "2026-10-06",
       "last": "2026-10-06",
       "resolvedAt": "2026-10-06",
-      "daysOpen": 2,
-      "daysSinceReceived": 2,
+      "daysOpen": 3,
+      "daysSinceReceived": 3,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Otp failed to send",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1545107786269204660",
-        "snippet": "it is fixed"
+        "fromThreadName": "Otp issue. Every time entering the given otp it shows invalid. Why?",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547281574020517949",
+        "snippet": "While my friend entered into hub app using the otp he got. But it shows invalid. Resends it but again shows invalid why?"
       }
     },
     {
@@ -201,9 +201,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Want to create  event",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541431040457965598",
-        "snippet": "For reviewing <@1392046495535988836> <@1012977379209125908>"
+        "fromThreadName": "Couldn't Check in people for our o-penn-mic-2",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546366413185228810",
+        "snippet": "Hi Amal, please try to get their email or phone numbers as we can only add it from the backend with these details"
       }
     },
     {
@@ -224,9 +224,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Join now not visible",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1557795080310358046",
-        "snippet": "<@1392046495535988836>"
+        "fromThreadName": "App issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1545448126570041364",
+        "snippet": "+91 99616 68346"
       }
     },
     {
@@ -239,8 +239,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-05",
       "last": "2026-10-06",
       "resolvedAt": "2026-10-05",
-      "daysOpen": 2,
-      "daysSinceReceived": 3,
+      "daysOpen": 3,
+      "daysSinceReceived": 4,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -270,9 +270,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Join now not visible",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1557795080310358046",
-        "snippet": "<@1392046495535988836>"
+        "fromThreadName": "App issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1545448126570041364",
+        "snippet": "+91 99616 68346"
       }
     },
     {
@@ -285,17 +285,17 @@ window.DISCORD_DATA = {
       "received": "2026-08-29",
       "last": "2026-10-06",
       "resolvedAt": "2026-10-06",
-      "daysOpen": 2,
-      "daysSinceReceived": 40,
+      "daysOpen": 3,
+      "daysSinceReceived": 41,
       "daysToClose": 38,
       "messageCount": 5,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Join now not visible",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1557795080310358046",
-        "snippet": "<@1392046495535988836>"
+        "fromThreadName": "App issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1545448126570041364",
+        "snippet": "+91 99616 68346"
       }
     },
     {
@@ -309,7 +309,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-02",
       "resolvedAt": "2026-09-20",
       "daysOpen": 7,
-      "daysSinceReceived": 18,
+      "daysSinceReceived": 19,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -331,8 +331,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-01",
       "last": "2026-10-01",
       "resolvedAt": "2026-10-01",
-      "daysOpen": 7,
-      "daysSinceReceived": 7,
+      "daysOpen": 8,
+      "daysSinceReceived": 8,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -350,17 +350,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-10",
       "last": "2026-10-01",
       "resolvedAt": "2026-09-10",
-      "daysOpen": 7,
-      "daysSinceReceived": 28,
+      "daysOpen": 8,
+      "daysSinceReceived": 29,
       "daysToClose": 0,
       "messageCount": 8,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Want to create  event",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541431040457965598",
-        "snippet": "For reviewing <@1392046495535988836> <@1012977379209125908>"
+        "fromThreadName": "Couldn't Check in people for our o-penn-mic-2",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546366413185228810",
+        "snippet": "Hi Amal, please try to get their email or phone numbers as we can only add it from the backend with these details"
       }
     },
     {
@@ -373,17 +373,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-30",
       "last": "2026-09-30",
       "resolvedAt": "2026-09-30",
-      "daysOpen": 8,
-      "daysSinceReceived": 8,
+      "daysOpen": 9,
+      "daysSinceReceived": 9,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Join now not visible",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1557795080310358046",
-        "snippet": "<@1392046495535988836>"
+        "fromThreadName": "App issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1545448126570041364",
+        "snippet": "+91 99616 68346"
       }
     },
     {
@@ -427,9 +427,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Want to create  event",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541431040457965598",
-        "snippet": "For reviewing <@1392046495535988836> <@1012977379209125908>"
+        "fromThreadName": "Couldn't Check in people for our o-penn-mic-2",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546366413185228810",
+        "snippet": "Hi Amal, please try to get their email or phone numbers as we can only add it from the backend with these details"
       }
     },
     {
@@ -450,9 +450,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Otp failed to send",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1545107786269204660",
-        "snippet": "it is fixed"
+        "fromThreadName": "Otp issue. Every time entering the given otp it shows invalid. Why?",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547281574020517949",
+        "snippet": "While my friend entered into hub app using the otp he got. But it shows invalid. Resends it but again shows invalid why?"
       }
     },
     {
@@ -496,9 +496,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Want to create  event",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541431040457965598",
-        "snippet": "For reviewing <@1392046495535988836> <@1012977379209125908>"
+        "fromThreadName": "Couldn't Check in people for our o-penn-mic-2",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546366413185228810",
+        "snippet": "Hi Amal, please try to get their email or phone numbers as we can only add it from the backend with these details"
       }
     },
     {
@@ -519,9 +519,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Want to create  event",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541431040457965598",
-        "snippet": "For reviewing <@1392046495535988836> <@1012977379209125908>"
+        "fromThreadName": "Couldn't Check in people for our o-penn-mic-2",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546366413185228810",
+        "snippet": "Hi Amal, please try to get their email or phone numbers as we can only add it from the backend with these details"
       }
     },
     {
@@ -534,8 +534,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-18",
       "last": "2026-09-18",
       "resolvedAt": "2026-09-18",
-      "daysOpen": 20,
-      "daysSinceReceived": 20,
+      "daysOpen": 21,
+      "daysSinceReceived": 21,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -557,17 +557,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-18",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 20,
-      "daysSinceReceived": 29,
+      "daysOpen": 21,
+      "daysSinceReceived": 30,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Want to create  event",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541431040457965598",
-        "snippet": "For reviewing <@1392046495535988836> <@1012977379209125908>"
+        "fromThreadName": "Couldn't Check in people for our o-penn-mic-2",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546366413185228810",
+        "snippet": "Hi Amal, please try to get their email or phone numbers as we can only add it from the backend with these details"
       }
     },
     {
@@ -581,7 +581,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-16",
       "resolvedAt": "2026-09-13",
       "daysOpen": 23,
-      "daysSinceReceived": 25,
+      "daysSinceReceived": 26,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -626,17 +626,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-12",
       "last": "2026-09-15",
       "resolvedAt": "2026-09-12",
-      "daysOpen": 23,
-      "daysSinceReceived": 26,
+      "daysOpen": 24,
+      "daysSinceReceived": 27,
       "daysToClose": 0,
       "messageCount": 4,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Otp failed to send",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1545107786269204660",
-        "snippet": "it is fixed"
+        "fromThreadName": "Otp issue. Every time entering the given otp it shows invalid. Why?",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547281574020517949",
+        "snippet": "While my friend entered into hub app using the otp he got. But it shows invalid. Resends it but again shows invalid why?"
       }
     },
     {
@@ -649,7 +649,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-11",
       "last": "2026-09-15",
       "resolvedAt": "2026-09-11",
-      "daysOpen": 23,
+      "daysOpen": 24,
       "daysSinceReceived": 27,
       "daysToClose": 0,
       "messageCount": 4,
@@ -673,7 +673,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-15",
       "resolvedAt": "2026-09-11",
       "daysOpen": 24,
-      "daysSinceReceived": 27,
+      "daysSinceReceived": 28,
       "daysToClose": 0,
       "messageCount": 5,
       "archived": false,
@@ -695,7 +695,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-11",
       "last": "2026-09-15",
       "resolvedAt": "2026-09-11",
-      "daysOpen": 23,
+      "daysOpen": 24,
       "daysSinceReceived": 28,
       "daysToClose": 0,
       "messageCount": 5,
@@ -726,9 +726,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Otp failed to send",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1545107786269204660",
-        "snippet": "it is fixed"
+        "fromThreadName": "Otp issue. Every time entering the given otp it shows invalid. Why?",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547281574020517949",
+        "snippet": "While my friend entered into hub app using the otp he got. But it shows invalid. Resends it but again shows invalid why?"
       }
     },
     {
@@ -749,9 +749,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Otp failed to send",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1545107786269204660",
-        "snippet": "it is fixed"
+        "fromThreadName": "Otp issue. Every time entering the given otp it shows invalid. Why?",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547281574020517949",
+        "snippet": "While my friend entered into hub app using the otp he got. But it shows invalid. Resends it but again shows invalid why?"
       }
     },
     {
@@ -772,9 +772,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Join now not visible",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1557795080310358046",
-        "snippet": "<@1392046495535988836>"
+        "fromThreadName": "App issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1545448126570041364",
+        "snippet": "+91 99616 68346"
       }
     },
     {
@@ -788,7 +788,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-11",
       "resolvedAt": "2026-09-08",
       "daysOpen": 27,
-      "daysSinceReceived": 30,
+      "daysSinceReceived": 31,
       "daysToClose": 0,
       "messageCount": 6,
       "archived": false,
@@ -833,8 +833,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-10",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-10",
-      "daysOpen": 28,
-      "daysSinceReceived": 28,
+      "daysOpen": 29,
+      "daysSinceReceived": 29,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -856,8 +856,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-10",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-10",
-      "daysOpen": 28,
-      "daysSinceReceived": 28,
+      "daysOpen": 29,
+      "daysSinceReceived": 29,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -903,7 +903,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-10",
       "resolvedAt": "2026-09-09",
       "daysOpen": 29,
-      "daysSinceReceived": 29,
+      "daysSinceReceived": 30,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -925,7 +925,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 28,
+      "daysOpen": 29,
       "daysSinceReceived": 30,
       "daysToClose": 0,
       "messageCount": 6,
@@ -933,9 +933,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Otp failed to send",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1545107786269204660",
-        "snippet": "it is fixed"
+        "fromThreadName": "Otp issue. Every time entering the given otp it shows invalid. Why?",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547281574020517949",
+        "snippet": "While my friend entered into hub app using the otp he got. But it shows invalid. Resends it but again shows invalid why?"
       }
     },
     {
@@ -948,7 +948,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-08",
       "last": "2026-09-10",
       "resolvedAt": "2026-09-08",
-      "daysOpen": 28,
+      "daysOpen": 29,
       "daysSinceReceived": 31,
       "daysToClose": 0,
       "messageCount": 3,
@@ -985,75 +985,6 @@ window.DISCORD_DATA = {
       }
     },
     {
-      "id": "1547281574020517949",
-      "name": "Otp issue. Every time entering the given otp it shows invalid. Why?",
-      "url": "https://discord.com/channels/735180366297563257/1547281574020517949",
-      "status": "No response",
-      "category": "OTP / Login issues",
-      "requester": "Nidha",
-      "received": "2026-09-09",
-      "last": "2026-09-09",
-      "resolvedAt": "2026-09-09",
-      "daysOpen": 29,
-      "daysSinceReceived": 29,
-      "daysToClose": 0,
-      "messageCount": 0,
-      "archived": false,
-      "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Otp failed to send",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1545107786269204660",
-        "snippet": "it is fixed"
-      }
-    },
-    {
-      "id": "1547277946555998259",
-      "name": "Hub app broke",
-      "url": "https://discord.com/channels/735180366297563257/1547277946555998259",
-      "status": "No response",
-      "category": "Other",
-      "requester": "athul as0k",
-      "received": "2026-09-09",
-      "last": "2026-09-09",
-      "resolvedAt": "2026-09-09",
-      "daysOpen": 29,
-      "daysSinceReceived": 29,
-      "daysToClose": 0,
-      "messageCount": 0,
-      "archived": false,
-      "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Join now not visible",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1557795080310358046",
-        "snippet": "<@1392046495535988836>"
-      }
-    },
-    {
-      "id": "1547277545622347846",
-      "name": "Issue with hub app",
-      "url": "https://discord.com/channels/735180366297563257/1547277545622347846",
-      "status": "No response",
-      "category": "Other",
-      "requester": "Dhrisya Narayanan",
-      "received": "2026-09-09",
-      "last": "2026-09-09",
-      "resolvedAt": "2026-09-09",
-      "daysOpen": 29,
-      "daysSinceReceived": 29,
-      "daysToClose": 0,
-      "messageCount": 0,
-      "archived": false,
-      "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Join now not visible",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1557795080310358046",
-        "snippet": "<@1392046495535988836>"
-      }
-    },
-    {
       "id": "1547210899645927564",
       "name": "Otp issue",
       "url": "https://discord.com/channels/735180366297563257/1547210899645927564",
@@ -1064,63 +995,112 @@ window.DISCORD_DATA = {
       "last": "2026-09-09",
       "resolvedAt": "2026-09-09",
       "daysOpen": 29,
-      "daysSinceReceived": 29,
+      "daysSinceReceived": 30,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Otp failed to send",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1545107786269204660",
-        "snippet": "it is fixed"
-      }
-    },
-    {
-      "id": "1546366413185228810",
-      "name": "Couldn't Check in people for our o-penn-mic-2",
-      "url": "https://discord.com/channels/735180366297563257/1546366413185228810",
-      "status": "Awaiting reply (from them)",
-      "category": "Event/Activity check-in & reporting",
-      "requester": "Amal",
-      "received": "2026-09-07",
-      "last": "2026-09-09",
-      "resolvedAt": "2026-09-07",
-      "daysOpen": 29,
-      "daysSinceReceived": 32,
-      "daysToClose": 0,
-      "messageCount": 4,
-      "archived": false,
-      "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Want to create  event",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541431040457965598",
-        "snippet": "For reviewing <@1392046495535988836> <@1012977379209125908>"
+        "fromThreadName": "Otp issue. Every time entering the given otp it shows invalid. Why?",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547281574020517949",
+        "snippet": "While my friend entered into hub app using the otp he got. But it shows invalid. Resends it but again shows invalid why?"
       }
     },
     {
       "id": "1545448126570041364",
       "name": "App issue",
       "url": "https://discord.com/channels/735180366297563257/1545448126570041364",
-      "status": "Awaiting reply (from us)",
+      "status": "Resolved",
       "category": "Other",
       "requester": "jools",
       "received": "2026-09-04",
       "last": "2026-09-09",
-      "resolvedAt": "2026-09-04",
-      "daysOpen": 29,
-      "daysSinceReceived": 34,
-      "daysToClose": 0,
+      "resolvedAt": "2026-10-09",
+      "daysOpen": 30,
+      "daysSinceReceived": 35,
+      "daysToClose": 35,
       "messageCount": 2,
-      "archived": false,
+      "archived": true,
       "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Join now not visible",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1557795080310358046",
-        "snippet": "<@1392046495535988836>"
-      }
+      "resolutionSnippet": "+91 99616 68346",
+      "suggestion": null
+    },
+    {
+      "id": "1547281574020517949",
+      "name": "Otp issue. Every time entering the given otp it shows invalid. Why?",
+      "url": "https://discord.com/channels/735180366297563257/1547281574020517949",
+      "status": "Resolved",
+      "category": "OTP / Login issues",
+      "requester": "Nidha",
+      "received": "2026-09-09",
+      "last": "2026-09-09",
+      "resolvedAt": "2026-10-09",
+      "daysOpen": 30,
+      "daysSinceReceived": 30,
+      "daysToClose": 30,
+      "messageCount": 0,
+      "archived": true,
+      "locked": false,
+      "resolutionSnippet": "While my friend entered into hub app using the otp he got. But it shows invalid. Resends it but again shows invalid why?",
+      "suggestion": null
+    },
+    {
+      "id": "1547277545622347846",
+      "name": "Issue with hub app",
+      "url": "https://discord.com/channels/735180366297563257/1547277545622347846",
+      "status": "Resolved",
+      "category": "Other",
+      "requester": "Dhrisya Narayanan",
+      "received": "2026-09-09",
+      "last": "2026-09-09",
+      "resolvedAt": "2026-10-09",
+      "daysOpen": 30,
+      "daysSinceReceived": 30,
+      "daysToClose": 30,
+      "messageCount": 0,
+      "archived": true,
+      "locked": false,
+      "resolutionSnippet": "Its the 3rd time automatically app log out avnee",
+      "suggestion": null
+    },
+    {
+      "id": "1547277946555998259",
+      "name": "Hub app broke",
+      "url": "https://discord.com/channels/735180366297563257/1547277946555998259",
+      "status": "Resolved",
+      "category": "Other",
+      "requester": "athul as0k",
+      "received": "2026-09-09",
+      "last": "2026-09-09",
+      "resolvedAt": "2026-10-09",
+      "daysOpen": 30,
+      "daysSinceReceived": 30,
+      "daysToClose": 30,
+      "messageCount": 0,
+      "archived": true,
+      "locked": false,
+      "resolutionSnippet": "Hub app is downnnnnn...we need it backkkk \ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude4f\ud83c\udffb\ud83d\ude4f\ud83c\udffb\ud83d\ude4f\ud83c\udffb",
+      "suggestion": null
+    },
+    {
+      "id": "1546366413185228810",
+      "name": "Couldn't Check in people for our o-penn-mic-2",
+      "url": "https://discord.com/channels/735180366297563257/1546366413185228810",
+      "status": "Resolved",
+      "category": "Event/Activity check-in & reporting",
+      "requester": "Amal",
+      "received": "2026-09-07",
+      "last": "2026-09-09",
+      "resolvedAt": "2026-10-09",
+      "daysOpen": 30,
+      "daysSinceReceived": 32,
+      "daysToClose": 32,
+      "messageCount": 4,
+      "archived": true,
+      "locked": false,
+      "resolutionSnippet": "Hi Amal, please try to get their email or phone numbers as we can only add it from the backend with these details",
+      "suggestion": null
     },
     {
       "id": "1546951479628136559",
@@ -1132,8 +1112,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-08",
       "last": "2026-09-08",
       "resolvedAt": "2026-10-08",
-      "daysOpen": 30,
-      "daysSinceReceived": 30,
+      "daysOpen": 31,
+      "daysSinceReceived": 31,
       "daysToClose": 30,
       "messageCount": 0,
       "archived": true,
@@ -13417,13 +13397,13 @@ window.DISCORD_DATA = {
     }
   ],
   "summary": {
-    "No response": 27,
-    "Awaiting reply (from us)": 11,
-    "Awaiting reply (from them)": 10,
-    "Resolved": 648
+    "No response": 24,
+    "Awaiting reply (from us)": 10,
+    "Awaiting reply (from them)": 9,
+    "Resolved": 653
   },
-  "avgOpenDays": 17.3,
-  "avgDaysToClose": 13.2,
+  "avgOpenDays": 16.4,
+  "avgDaysToClose": 13.5,
   "topCategories": [
     {
       "category": "Event/Activity check-in & reporting",
