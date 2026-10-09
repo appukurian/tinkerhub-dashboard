@@ -1,6 +1,23 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-09T02:43:00Z",
+  "generatedAt": "2026-10-09T04:42:39Z",
   "threads": [
+    {
+      "threadId": "1a11eaa1d2103a10",
+      "group": "campus",
+      "subject": "Voting List",
+      "counterpart": "Ansar Women's College (TinkerHub AWC)",
+      "email": "fathimathulfarsaana@gmail.com",
+      "received": "2026-10-09",
+      "last": "2026-10-09",
+      "status": "No response",
+      "note": "AWC campus submitted Useless Project voting results (70 participants, 36 teams) as PDF; no acknowledgement yet",
+      "cc": [
+        "campus@tinkerhub.org"
+      ],
+      "id": "campus-0b3476479c",
+      "daysSinceReceived": 0,
+      "daysOpen": 0
+    },
     {
       "id": "campus-47692c0aee",
       "threadId": "1a114fea7e3bd6e1",
@@ -268,7 +285,7 @@ window.DASHBOARD_DATA = {
       "id": "finance-d4d37c6e69",
       "threadId": "1a1063bd8a1d6363",
       "group": "finance",
-      "subject": "Folder shared with you: \u2018Final Print Mozilla\u2019",
+      "subject": "Folder shared with you: ‘Final Print Mozilla’",
       "counterpart": "Moosa Mehar",
       "email": "meharmp@gmail.com",
       "received": "2026-10-04",
@@ -292,7 +309,7 @@ window.DASHBOARD_DATA = {
       "received": "2026-10-04",
       "last": "2026-10-04",
       "status": "No response",
-      "note": "Mehar submitted 9 train-ticket PNRs (Aug\u2013Oct) to finance@; no reply yet",
+      "note": "Mehar submitted 9 train-ticket PNRs (Aug–Oct) to finance@; no reply yet",
       "daysOpen": 5,
       "daysSinceReceived": 5,
       "cc": [
@@ -337,13 +354,13 @@ window.DASHBOARD_DATA = {
       "id": "campus-bc11a6ce1c",
       "threadId": "1a1002aaa6b0cde4",
       "group": "campus",
-      "subject": "Useless Projects 3.0 \u2013 Late Submission Request",
+      "subject": "Useless Projects 3.0 – Late Submission Request",
       "counterpart": "Aiswarya Ramesh (Ahalia School of Engineering and Technology)",
       "email": "aiswaryaramesh28@gmail.com",
       "received": "2026-10-03",
       "last": "2026-10-03",
       "status": "Awaiting reply (from them)",
-      "note": "Team 404 Not Found requested late submission; Habeeb replied (no late entries, add as standard Hub project; asked why not raised earlier) \u2014 awaiting their response",
+      "note": "Team 404 Not Found requested late submission; Habeeb replied (no late entries, add as standard Hub project; asked why not raised earlier) — awaiting their response",
       "daysOpen": 6,
       "daysSinceReceived": 6,
       "cc": [
@@ -1786,7 +1803,7 @@ window.DASHBOARD_DATA = {
       "id": "support-3873045b3a",
       "threadId": "1a0dc1b0f9fe4d4d",
       "group": "support",
-      "subject": "Request to Add My College to TinkerHub Registration \u2013 Layover Hackathon",
+      "subject": "Request to Add My College to TinkerHub Registration – Layover Hackathon",
       "counterpart": "Arjun Sabu (St. Kuriakose College, Kuruppampady)",
       "email": "greninjadotdev@gmail.com",
       "received": "2026-09-26",
@@ -1890,7 +1907,7 @@ window.DASHBOARD_DATA = {
       "id": "campus-9d9afdbe22",
       "threadId": "1a0b48ac5a8ed45c",
       "group": "campus",
-      "subject": "Collaboration Proposal \u2013 Blender Workshop under SOLITON \u201926",
+      "subject": "Collaboration Proposal – Blender Workshop under SOLITON ’26",
       "counterpart": "Niranjan S Das (IEEE Photonics Society Kerala Chapter)",
       "email": "niranjansdas@ug.cusat.ac.in",
       "received": "2026-09-18",
@@ -2515,7 +2532,7 @@ window.DASHBOARD_DATA = {
       "id": "campus-08bb5958b0",
       "threadId": "1a0342b5cd9cfcc2",
       "group": "campus",
-      "subject": "Re: Request to Reschedule Useless Project from September 5\u20136 to September 11\u201312",
+      "subject": "Re: Request to Reschedule Useless Project from September 5–6 to September 11–12",
       "counterpart": "Farsana",
       "email": "fathimathulfarsaana@gmail.com",
       "received": "2026-08-24",
@@ -5081,7 +5098,7 @@ window.DASHBOARD_DATA = {
       "id": "campus-d81b2752f3",
       "threadId": "1a11a6d70f3f6cc2",
       "group": "campus",
-      "subject": "Dear Tinker Hub Team, Greetings from Tinker Hub, Thejus Engineering College. We are writing to inform you about the five projects selected from our campus for Useless Project 3.0. The selected projects and team members are: Distance Based Insult Generator \u2013 Arun MV & Athul Krishna Fish Analyser \u2013 Safa & Archana Do Nothing \u2013 Devenadh PM & Amruth Krishna Excuse Generator \u2013 Arjun & Devika Outsmart Us \u2013 Devenad U & Devipriya These are the five projects selected by our campus team for Useless Project 3.0. Kindly acknowledge the selected projects and let us know if any further details or documentation are required from our side. Thank you for your support. Regards, Dhrisya Narayanan Campus Lead, Tinker Hub Thejus Engineering College",
+      "subject": "Dear Tinker Hub Team, Greetings from Tinker Hub, Thejus Engineering College. We are writing to inform you about the five projects selected from our campus for Useless Project 3.0. The selected projects and team members are: Distance Based Insult Generator – Arun MV & Athul Krishna Fish Analyser – Safa & Archana Do Nothing – Devenadh PM & Amruth Krishna Excuse Generator – Arjun & Devika Outsmart Us – Devenad U & Devipriya These are the five projects selected by our campus team for Useless Project 3.0. Kindly acknowledge the selected projects and let us know if any further details or documentation are required from our side. Thank you for your support. Regards, Dhrisya Narayanan Campus Lead, Tinker Hub Thejus Engineering College",
       "counterpart": "Dhrisya Narayanan (TinkerHub Thejus Engineering College)",
       "email": "dhrisyanarayanan7@gmail.com",
       "received": "2026-10-08",
@@ -5298,7 +5315,7 @@ window.DASHBOARD_DATA = {
     }
   ],
   "summary": {
-    "No response": 5,
+    "No response": 6,
     "Awaiting reply (from us)": 21,
     "Awaiting reply (from them)": 28,
     "Resolved": 74,
@@ -5306,14 +5323,14 @@ window.DASHBOARD_DATA = {
   },
   "analytics": {
     "campus": {
-      "total": 245,
-      "No response": 1,
+      "total": 246,
+      "No response": 2,
       "Awaiting reply (from us)": 8,
       "Awaiting reply (from them)": 23,
       "Resolved": 55,
       "Informational": 158,
-      "avgOpenDays": 15.8,
-      "avgResolvedDays": 6.0
+      "avgOpenDays": 15.4,
+      "avgResolvedDays": 6
     },
     "support": {
       "total": 14,
@@ -5332,7 +5349,7 @@ window.DASHBOARD_DATA = {
       "Awaiting reply (from them)": 0,
       "Resolved": 7,
       "Informational": 14,
-      "avgOpenDays": 4.2,
+      "avgOpenDays": 4.3,
       "avgResolvedDays": 3.4
     },
     "report": {
@@ -5342,7 +5359,7 @@ window.DASHBOARD_DATA = {
       "Awaiting reply (from them)": 4,
       "Resolved": 3,
       "Informational": 1,
-      "avgOpenDays": 29.0,
+      "avgOpenDays": 29,
       "avgResolvedDays": 10.3
     },
     "partner": {
@@ -5353,7 +5370,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 1,
       "avgOpenDays": 7.6,
-      "avgResolvedDays": 1.0
+      "avgResolvedDays": 1
     },
     "tinkerspace": {
       "total": 1,
@@ -5363,7 +5380,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 0,
       "avgOpenDays": 0,
-      "avgResolvedDays": 1.0
+      "avgResolvedDays": 1
     }
   }
 };
