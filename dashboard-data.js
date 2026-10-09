@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-09T14:42:37Z",
+  "generatedAt": "2026-10-09T16:42:41Z",
   "threads": [
     {
       "id": "campus-0b3476479c",
@@ -5444,11 +5444,28 @@ window.DASHBOARD_DATA = {
         "femina@tinkerhub.org",
         "joan@tinkerhub.org"
       ]
+    },
+    {
+      "id": "finance-31b27bcdd2",
+      "threadId": "1a120e3b5b5fc332",
+      "group": "finance",
+      "subject": "We have not received payment for September-2026",
+      "counterpart": "Amazon Web Services (automated)",
+      "email": null,
+      "received": "2026-10-09",
+      "last": "2026-10-09",
+      "status": "Awaiting reply (from us)",
+      "note": "AWS overdue-payment notice: Sept-2026 invoice 2842060097, INR 37,477.12 unpaid; account may be suspended if not paid",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "finance@tinkerhub.org"
+      ]
     }
   ],
   "summary": {
     "No response": 7,
-    "Awaiting reply (from us)": 17,
+    "Awaiting reply (from us)": 18,
     "Awaiting reply (from them)": 33,
     "Resolved": 77,
     "Informational": 176
@@ -5475,13 +5492,13 @@ window.DASHBOARD_DATA = {
       "avgResolvedDays": 15.3
     },
     "finance": {
-      "total": 26,
+      "total": 27,
       "No response": 3,
-      "Awaiting reply (from us)": 2,
+      "Awaiting reply (from us)": 3,
       "Awaiting reply (from them)": 0,
       "Resolved": 7,
       "Informational": 14,
-      "avgOpenDays": 3.4,
+      "avgOpenDays": 2.8,
       "avgResolvedDays": 3.4
     },
     "report": {
@@ -5491,7 +5508,7 @@ window.DASHBOARD_DATA = {
       "Awaiting reply (from them)": 6,
       "Resolved": 3,
       "Informational": 1,
-      "avgOpenDays": 29,
+      "avgOpenDays": 29.0,
       "avgResolvedDays": 10.3
     },
     "partner": {
@@ -5502,7 +5519,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 1,
       "avgOpenDays": 7.6,
-      "avgResolvedDays": 1
+      "avgResolvedDays": 1.0
     },
     "tinkerspace": {
       "total": 1,
@@ -5512,7 +5529,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 0,
       "avgOpenDays": 0,
-      "avgResolvedDays": 1
+      "avgResolvedDays": 1.0
     }
   }
 };
