@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-09T04:42:39Z",
+  "generatedAt": "2026-10-09T06:43:15Z",
   "threads": [
     {
       "threadId": "1a11eaa1d2103a10",
@@ -26,9 +26,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "Edwin (TinkerHub MBCCET)",
       "email": "edwinjosephshiju050@gmail.com",
       "received": "2026-10-07",
-      "last": "2026-10-07",
-      "status": "Awaiting reply (from them)",
-      "note": "Femina asked Edwin for a catch-up call on outreach role; awaiting his availability",
+      "last": "2026-10-09",
+      "status": "Awaiting reply (from us)",
+      "note": "Edwin confirmed availability for a call Saturday 5pm; we need to confirm",
       "cc": [
         "campus@tinkerhub.org"
       ],
@@ -5119,9 +5119,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "RIT Kottayam (TinkerHub campus)",
       "email": "tinkerhub@rit.ac.in",
       "received": "2026-10-08",
-      "last": "2026-10-08",
-      "status": "No response",
-      "note": "Campus sent top 5 Useless Projects 3.0 selections (Byte Me, Reno Joby, Ahammed Imthias, Team Alpha, Neo bit); no acknowledgement yet",
+      "last": "2026-10-09",
+      "status": "Resolved",
+      "note": "RIT sent top-5 Useless Projects list; Femina acknowledged ('Noted')",
       "cc": [
         "campus@tinkerhub.org"
       ],
@@ -5312,25 +5312,76 @@ window.DASHBOARD_DATA = {
       "cc": [],
       "daysSinceReceived": 31,
       "daysOpen": 31
+    },
+    {
+      "id": "campus-ef9a6362bd",
+      "threadId": "1a11f4b8c2a5e6e7",
+      "group": "campus",
+      "subject": "WIT Lead Change at TinkerHub TKMCE",
+      "counterpart": "Hari (TinkerHub TKMCE)",
+      "email": "harikrishnanv2006@gmail.com",
+      "received": "2026-10-09",
+      "last": "2026-10-09",
+      "status": "Awaiting reply (from them)",
+      "note": "Femina informed TKMCE of WIT Lead resignation (Sruthi Shaji); asked them to pick a successor and update us by Oct 15",
+      "cc": [
+        "campus@tinkerhub.org"
+      ],
+      "daysSinceReceived": 0,
+      "daysOpen": 0
+    },
+    {
+      "id": "campus-46e27565f7",
+      "threadId": "1a11f257158e9d11",
+      "group": "campus",
+      "subject": "Re: Useless top 5",
+      "counterpart": "Abi Alif",
+      "email": "abialifhere@gmail.com",
+      "received": "2026-10-09",
+      "last": "2026-10-09",
+      "status": "Informational",
+      "note": "Femina looped campus@ into Abi Alif's Useless Projects top-5 list",
+      "cc": [
+        "campus@tinkerhub.org"
+      ],
+      "daysSinceReceived": 0,
+      "daysOpen": 0
+    },
+    {
+      "id": "campus-84f3efe0ed",
+      "threadId": "1a11f23a3c3a464b",
+      "group": "campus",
+      "subject": "Re: Top 5 Projects – Useless Projects Hackathon",
+      "counterpart": "Muhammad Ashjil (Duxford College for Advanced Studies)",
+      "email": "muhammadashjil@gmail.com",
+      "received": "2026-10-09",
+      "last": "2026-10-09",
+      "status": "Informational",
+      "note": "Femina looped campus@ into Duxford's Useless Projects top-5 list",
+      "cc": [
+        "campus@tinkerhub.org"
+      ],
+      "daysSinceReceived": 0,
+      "daysOpen": 0
     }
   ],
   "summary": {
-    "No response": 6,
-    "Awaiting reply (from us)": 21,
+    "No response": 5,
+    "Awaiting reply (from us)": 22,
     "Awaiting reply (from them)": 28,
-    "Resolved": 74,
-    "Informational": 174
+    "Resolved": 75,
+    "Informational": 176
   },
   "analytics": {
     "campus": {
-      "total": 246,
-      "No response": 2,
-      "Awaiting reply (from us)": 8,
+      "total": 249,
+      "No response": 1,
+      "Awaiting reply (from us)": 9,
       "Awaiting reply (from them)": 23,
-      "Resolved": 55,
-      "Informational": 158,
-      "avgOpenDays": 15.4,
-      "avgResolvedDays": 6
+      "Resolved": 56,
+      "Informational": 160,
+      "avgOpenDays": 15.3,
+      "avgResolvedDays": 5.9
     },
     "support": {
       "total": 14,
@@ -5349,7 +5400,7 @@ window.DASHBOARD_DATA = {
       "Awaiting reply (from them)": 0,
       "Resolved": 7,
       "Informational": 14,
-      "avgOpenDays": 4.3,
+      "avgOpenDays": 4.2,
       "avgResolvedDays": 3.4
     },
     "report": {
@@ -5359,7 +5410,7 @@ window.DASHBOARD_DATA = {
       "Awaiting reply (from them)": 4,
       "Resolved": 3,
       "Informational": 1,
-      "avgOpenDays": 29,
+      "avgOpenDays": 29.0,
       "avgResolvedDays": 10.3
     },
     "partner": {
@@ -5370,7 +5421,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 1,
       "avgOpenDays": 7.6,
-      "avgResolvedDays": 1
+      "avgResolvedDays": 1.0
     },
     "tinkerspace": {
       "total": 1,
@@ -5380,7 +5431,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 0,
       "avgOpenDays": 0,
-      "avgResolvedDays": 1
+      "avgResolvedDays": 1.0
     }
   }
 };
