@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-09T07:35:00Z",
+  "generatedAt": "2026-10-09T08:43:35Z",
   "threads": [
     {
       "threadId": "1a11eaa1d2103a10",
@@ -234,13 +234,15 @@ window.DASHBOARD_DATA = {
       "counterpart": "Neethu Dharan (Nomni)",
       "email": "neethu.dharan@nomni.ai",
       "received": "2026-10-05",
-      "last": "2026-10-08",
-      "status": "Awaiting reply (from us)",
-      "note": "Nomni requests ~12 paid engineering interns (Chennai/Bangalore, Nov 2026); Kurian looped in the team on 5 Oct; Neethu replied 8 Oct looking forward to connecting - we still owe a substantive response / call time",
+      "last": "2026-10-09",
+      "status": "Awaiting reply (from them)",
+      "note": "Nomni requests ~12 paid engineering interns (Chennai/Bangalore, Nov 2026); Joan replied 9 Oct proposing a call (today 3:30 PM or tomorrow 11:30 AM) - awaiting Neethu to confirm a time",
       "cc": [
         "partner@tinkerhub.org",
+        "campus@tinkerhub.org",
         "arundhathi@tinkerhub.org",
-        "campus@tinkerhub.org"
+        "mehar@tinkerhub.org",
+        "kurian@tinkerhub.org"
       ],
       "daysSinceReceived": 4,
       "daysOpen": 4
@@ -5153,9 +5155,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "Fathima Afrah",
       "email": "fathimaafrahpp@gmail.com",
       "received": "2026-10-08",
-      "last": "2026-10-08",
-      "status": "Awaiting reply (from us)",
-      "note": "Follow-up on earlier concern that Discord voting is used to pick best projects; no reply yet",
+      "last": "2026-10-09",
+      "status": "Resolved",
+      "note": "Habeeb replied 9 Oct: concerns are handled via the complaints form; best projects from her venue will be considered based on form responses",
       "cc": [
         "campus@tinkerhub.org"
       ],
@@ -5367,52 +5369,23 @@ window.DASHBOARD_DATA = {
   ],
   "summary": {
     "No response": 5,
-    "Resolved": 76,
-    "Awaiting reply (from us)": 21,
-    "Informational": 176,
-    "Awaiting reply (from them)": 28
+    "Awaiting reply (from us)": 19,
+    "Awaiting reply (from them)": 29,
+    "Resolved": 77,
+    "Informational": 176
   },
   "analytics": {
     "campus": {
       "total": 249,
       "counts": {
         "No response": 1,
-        "Resolved": 57,
+        "Resolved": 58,
         "Informational": 160,
-        "Awaiting reply (from us)": 8,
+        "Awaiting reply (from us)": 7,
         "Awaiting reply (from them)": 23
       },
-      "avgOpenDays": 15.75,
-      "avgResolvedDays": 5.86
-    },
-    "partner": {
-      "total": 7,
-      "counts": {
-        "Awaiting reply (from us)": 5,
-        "Informational": 1,
-        "Resolved": 1
-      },
-      "avgOpenDays": 7.6,
-      "avgResolvedDays": 1.0
-    },
-    "finance": {
-      "total": 25,
-      "counts": {
-        "Awaiting reply (from us)": 2,
-        "Resolved": 7,
-        "No response": 2,
-        "Informational": 14
-      },
-      "avgOpenDays": 4.25,
-      "avgResolvedDays": 3.43
-    },
-    "tinkerspace": {
-      "total": 1,
-      "counts": {
-        "Resolved": 1
-      },
-      "avgOpenDays": 0,
-      "avgResolvedDays": 1.0
+      "avgOpenDays": 16.23,
+      "avgResolvedDays": 5.78
     },
     "support": {
       "total": 14,
@@ -5425,6 +5398,17 @@ window.DASHBOARD_DATA = {
       "avgOpenDays": 28.71,
       "avgResolvedDays": 15.29
     },
+    "finance": {
+      "total": 25,
+      "counts": {
+        "Awaiting reply (from us)": 2,
+        "Resolved": 7,
+        "No response": 2,
+        "Informational": 14
+      },
+      "avgOpenDays": 4.25,
+      "avgResolvedDays": 3.43
+    },
     "report": {
       "total": 10,
       "counts": {
@@ -5433,8 +5417,27 @@ window.DASHBOARD_DATA = {
         "Awaiting reply (from us)": 2,
         "Awaiting reply (from them)": 4
       },
-      "avgOpenDays": 29.0,
+      "avgOpenDays": 29,
       "avgResolvedDays": 10.33
+    },
+    "partner": {
+      "total": 7,
+      "counts": {
+        "Awaiting reply (from us)": 4,
+        "Awaiting reply (from them)": 1,
+        "Informational": 1,
+        "Resolved": 1
+      },
+      "avgOpenDays": 7.6,
+      "avgResolvedDays": 1
+    },
+    "tinkerspace": {
+      "total": 1,
+      "counts": {
+        "Resolved": 1
+      },
+      "avgOpenDays": 0,
+      "avgResolvedDays": 1
     }
   }
 };
