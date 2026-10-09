@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-09T12:43:27Z",
+  "generatedAt": "2026-10-09T14:42:37Z",
   "threads": [
     {
       "id": "campus-0b3476479c",
@@ -61,9 +61,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "AWS (automated)",
       "email": null,
       "received": "2026-10-06",
-      "last": "2026-10-06",
+      "last": "2026-10-09",
       "status": "Awaiting reply (from us)",
-      "note": "AWS billing notice: September 2026 payment not received (account 759513220827) - pay/resolve to avoid suspension",
+      "note": "AWS billing notice: September 2026 payment (INR 37,477.12, invoice 2842060097) not received; reminder repeated 9 Oct - pay to avoid suspension",
       "daysOpen": 3,
       "daysSinceReceived": 3,
       "cc": [
@@ -5219,7 +5219,7 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Awaiting reply (from us)",
+      "status": "Awaiting reply (from them)",
       "note": null,
       "daysOpen": 16,
       "daysSinceReceived": 16,
@@ -5279,7 +5279,7 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Awaiting reply (from us)",
+      "status": "Awaiting reply (from them)",
       "note": null,
       "daysOpen": 22,
       "daysSinceReceived": 22,
@@ -5411,8 +5411,8 @@ window.DASHBOARD_DATA = {
       "email": "aswathimr@naipunnya.ac.in",
       "received": "2026-10-09",
       "last": "2026-10-09",
-      "status": "Awaiting reply (from us)",
-      "note": "Requests visit for ~150 BCA/BSc CS/IT students; Kurian acknowledged and looped in campus/tinkerspace — we owe dates, fees and booking procedure",
+      "status": "Awaiting reply (from them)",
+      "note": "Requests visit for ~150 BCA/BSc CS/IT students; Shan (Space Manager) replied: industrial visits Tue-Fri, 1hr, max 60 students/visit, no fee — asked for preferred dates",
       "daysOpen": 0,
       "daysSinceReceived": 0,
       "cc": [
@@ -5448,83 +5448,71 @@ window.DASHBOARD_DATA = {
   ],
   "summary": {
     "No response": 7,
-    "Awaiting reply (from us)": 20,
-    "Awaiting reply (from them)": 30,
+    "Awaiting reply (from us)": 17,
+    "Awaiting reply (from them)": 33,
     "Resolved": 77,
     "Informational": 176
   },
   "analytics": {
     "campus": {
       "total": 252,
-      "counts": {
-        "No response": 2,
-        "Awaiting reply (from us)": 8,
-        "Awaiting reply (from them)": 24,
-        "Resolved": 58,
-        "Informational": 160
-      },
-      "avgOpenDays": 16.91,
-      "avgResolvedDays": 5.78
+      "No response": 2,
+      "Awaiting reply (from us)": 7,
+      "Awaiting reply (from them)": 25,
+      "Resolved": 58,
+      "Informational": 160,
+      "avgOpenDays": 16.9,
+      "avgResolvedDays": 5.8
     },
     "support": {
       "total": 14,
-      "counts": {
-        "No response": 2,
-        "Awaiting reply (from us)": 4,
-        "Awaiting reply (from them)": 1,
-        "Resolved": 7,
-        "Informational": 0
-      },
-      "avgOpenDays": 28.71,
-      "avgResolvedDays": 15.29
+      "No response": 2,
+      "Awaiting reply (from us)": 4,
+      "Awaiting reply (from them)": 1,
+      "Resolved": 7,
+      "Informational": 0,
+      "avgOpenDays": 28.7,
+      "avgResolvedDays": 15.3
     },
     "finance": {
       "total": 26,
-      "counts": {
-        "No response": 3,
-        "Awaiting reply (from us)": 2,
-        "Awaiting reply (from them)": 0,
-        "Resolved": 7,
-        "Informational": 14
-      },
+      "No response": 3,
+      "Awaiting reply (from us)": 2,
+      "Awaiting reply (from them)": 0,
+      "Resolved": 7,
+      "Informational": 14,
       "avgOpenDays": 3.4,
-      "avgResolvedDays": 3.43
+      "avgResolvedDays": 3.4
     },
     "report": {
       "total": 10,
-      "counts": {
-        "No response": 0,
-        "Awaiting reply (from us)": 2,
-        "Awaiting reply (from them)": 4,
-        "Resolved": 3,
-        "Informational": 1
-      },
-      "avgOpenDays": 29.0,
-      "avgResolvedDays": 10.33
+      "No response": 0,
+      "Awaiting reply (from us)": 0,
+      "Awaiting reply (from them)": 6,
+      "Resolved": 3,
+      "Informational": 1,
+      "avgOpenDays": 29,
+      "avgResolvedDays": 10.3
     },
     "partner": {
       "total": 7,
-      "counts": {
-        "No response": 0,
-        "Awaiting reply (from us)": 4,
-        "Awaiting reply (from them)": 1,
-        "Resolved": 1,
-        "Informational": 1
-      },
+      "No response": 0,
+      "Awaiting reply (from us)": 4,
+      "Awaiting reply (from them)": 1,
+      "Resolved": 1,
+      "Informational": 1,
       "avgOpenDays": 7.6,
-      "avgResolvedDays": 1.0
+      "avgResolvedDays": 1
     },
     "tinkerspace": {
       "total": 1,
-      "counts": {
-        "No response": 0,
-        "Awaiting reply (from us)": 0,
-        "Awaiting reply (from them)": 0,
-        "Resolved": 1,
-        "Informational": 0
-      },
+      "No response": 0,
+      "Awaiting reply (from us)": 0,
+      "Awaiting reply (from them)": 0,
+      "Resolved": 1,
+      "Informational": 0,
       "avgOpenDays": 0,
-      "avgResolvedDays": 1.0
+      "avgResolvedDays": 1
     }
   }
 };
