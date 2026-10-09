@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-09T06:43:15Z",
+  "generatedAt": "2026-10-09T07:35:00Z",
   "threads": [
     {
       "threadId": "1a11eaa1d2103a10",
@@ -27,8 +27,8 @@ window.DASHBOARD_DATA = {
       "email": "edwinjosephshiju050@gmail.com",
       "received": "2026-10-07",
       "last": "2026-10-09",
-      "status": "Awaiting reply (from us)",
-      "note": "Edwin confirmed availability for a call Saturday 5pm; we need to confirm",
+      "status": "Resolved",
+      "note": "Call confirmed for Saturday 5pm with Edwin",
       "cc": [
         "campus@tinkerhub.org"
       ],
@@ -5367,71 +5367,74 @@ window.DASHBOARD_DATA = {
   ],
   "summary": {
     "No response": 5,
-    "Awaiting reply (from us)": 22,
-    "Awaiting reply (from them)": 28,
-    "Resolved": 75,
-    "Informational": 176
+    "Resolved": 76,
+    "Awaiting reply (from us)": 21,
+    "Informational": 176,
+    "Awaiting reply (from them)": 28
   },
   "analytics": {
     "campus": {
       "total": 249,
-      "No response": 1,
-      "Awaiting reply (from us)": 9,
-      "Awaiting reply (from them)": 23,
-      "Resolved": 56,
-      "Informational": 160,
-      "avgOpenDays": 15.3,
-      "avgResolvedDays": 5.9
-    },
-    "support": {
-      "total": 14,
-      "No response": 2,
-      "Awaiting reply (from us)": 4,
-      "Awaiting reply (from them)": 1,
-      "Resolved": 7,
-      "Informational": 0,
-      "avgOpenDays": 28.7,
-      "avgResolvedDays": 15.3
-    },
-    "finance": {
-      "total": 25,
-      "No response": 2,
-      "Awaiting reply (from us)": 2,
-      "Awaiting reply (from them)": 0,
-      "Resolved": 7,
-      "Informational": 14,
-      "avgOpenDays": 4.2,
-      "avgResolvedDays": 3.4
-    },
-    "report": {
-      "total": 10,
-      "No response": 0,
-      "Awaiting reply (from us)": 2,
-      "Awaiting reply (from them)": 4,
-      "Resolved": 3,
-      "Informational": 1,
-      "avgOpenDays": 29.0,
-      "avgResolvedDays": 10.3
+      "counts": {
+        "No response": 1,
+        "Resolved": 57,
+        "Informational": 160,
+        "Awaiting reply (from us)": 8,
+        "Awaiting reply (from them)": 23
+      },
+      "avgOpenDays": 15.75,
+      "avgResolvedDays": 5.86
     },
     "partner": {
       "total": 7,
-      "No response": 0,
-      "Awaiting reply (from us)": 5,
-      "Awaiting reply (from them)": 0,
-      "Resolved": 1,
-      "Informational": 1,
+      "counts": {
+        "Awaiting reply (from us)": 5,
+        "Informational": 1,
+        "Resolved": 1
+      },
       "avgOpenDays": 7.6,
       "avgResolvedDays": 1.0
     },
+    "finance": {
+      "total": 25,
+      "counts": {
+        "Awaiting reply (from us)": 2,
+        "Resolved": 7,
+        "No response": 2,
+        "Informational": 14
+      },
+      "avgOpenDays": 4.25,
+      "avgResolvedDays": 3.43
+    },
     "tinkerspace": {
       "total": 1,
-      "No response": 0,
-      "Awaiting reply (from us)": 0,
-      "Awaiting reply (from them)": 0,
-      "Resolved": 1,
-      "Informational": 0,
+      "counts": {
+        "Resolved": 1
+      },
       "avgOpenDays": 0,
       "avgResolvedDays": 1.0
+    },
+    "support": {
+      "total": 14,
+      "counts": {
+        "Awaiting reply (from us)": 4,
+        "Resolved": 7,
+        "Awaiting reply (from them)": 1,
+        "No response": 2
+      },
+      "avgOpenDays": 28.71,
+      "avgResolvedDays": 15.29
+    },
+    "report": {
+      "total": 10,
+      "counts": {
+        "Informational": 1,
+        "Resolved": 3,
+        "Awaiting reply (from us)": 2,
+        "Awaiting reply (from them)": 4
+      },
+      "avgOpenDays": 29.0,
+      "avgResolvedDays": 10.33
     }
   }
 };
