@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-09T10:42:59Z",
+  "generatedAt": "2026-10-09T12:43:27Z",
   "threads": [
     {
       "id": "campus-0b3476479c",
@@ -5422,26 +5422,48 @@ window.DASHBOARD_DATA = {
         "mehar@tinkerhub.org",
         "arundhathi@tinkerhub.org"
       ]
+    },
+    {
+      "id": "campus-3dcf333a46",
+      "threadId": "19fac9430a50a7cd",
+      "group": "campus",
+      "subject": "TinkerHub x LOUD - Something exciting could brew",
+      "counterpart": "Bhavana (LOUD)",
+      "email": "goloudindia90@gmail.com",
+      "received": "2026-07-29",
+      "last": "2026-10-09",
+      "status": "Awaiting reply (from them)",
+      "note": "LOUD (menstrual brand) partnership for Tink Her Hack / Women Makers; Arundhathi emailed 9 Oct asking to confirm 300 kits + chocolate kits - awaiting Bhavana's confirmation",
+      "daysOpen": 72,
+      "daysSinceReceived": 72,
+      "cc": [
+        "campus@tinkerhub.org",
+        "arundhathi@tinkerhub.org",
+        "mehar@tinkerhub.org",
+        "kurian@tinkerhub.org",
+        "femina@tinkerhub.org",
+        "joan@tinkerhub.org"
+      ]
     }
   ],
   "summary": {
     "No response": 7,
     "Awaiting reply (from us)": 20,
-    "Awaiting reply (from them)": 29,
+    "Awaiting reply (from them)": 30,
     "Resolved": 77,
     "Informational": 176
   },
   "analytics": {
     "campus": {
-      "total": 251,
+      "total": 252,
       "counts": {
         "No response": 2,
         "Awaiting reply (from us)": 8,
-        "Awaiting reply (from them)": 23,
+        "Awaiting reply (from them)": 24,
         "Resolved": 58,
         "Informational": 160
       },
-      "avgOpenDays": 15.24,
+      "avgOpenDays": 16.91,
       "avgResolvedDays": 5.78
     },
     "support": {
@@ -5477,7 +5499,7 @@ window.DASHBOARD_DATA = {
         "Resolved": 3,
         "Informational": 1
       },
-      "avgOpenDays": 29,
+      "avgOpenDays": 29.0,
       "avgResolvedDays": 10.33
     },
     "partner": {
@@ -5490,7 +5512,7 @@ window.DASHBOARD_DATA = {
         "Informational": 1
       },
       "avgOpenDays": 7.6,
-      "avgResolvedDays": 1
+      "avgResolvedDays": 1.0
     },
     "tinkerspace": {
       "total": 1,
@@ -5502,7 +5524,7 @@ window.DASHBOARD_DATA = {
         "Informational": 0
       },
       "avgOpenDays": 0,
-      "avgResolvedDays": 1
+      "avgResolvedDays": 1.0
     }
   }
 };
