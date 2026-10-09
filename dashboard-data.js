@@ -1,7 +1,8 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-09T08:43:35Z",
+  "generatedAt": "2026-10-09T10:42:59Z",
   "threads": [
     {
+      "id": "campus-0b3476479c",
       "threadId": "1a11eaa1d2103a10",
       "group": "campus",
       "subject": "Voting List",
@@ -11,12 +12,11 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-09",
       "status": "No response",
       "note": "AWC campus submitted Useless Project voting results (70 participants, 36 teams) as PDF; no acknowledgement yet",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
       "cc": [
         "campus@tinkerhub.org"
-      ],
-      "id": "campus-0b3476479c",
-      "daysSinceReceived": 0,
-      "daysOpen": 0
+      ]
     },
     {
       "id": "campus-47692c0aee",
@@ -29,11 +29,11 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-09",
       "status": "Resolved",
       "note": "Call confirmed for Saturday 5pm with Edwin",
+      "daysOpen": 2,
+      "daysSinceReceived": 2,
       "cc": [
         "campus@tinkerhub.org"
-      ],
-      "daysOpen": 2,
-      "daysSinceReceived": 2
+      ]
     },
     {
       "id": "partner-b88cd54a57",
@@ -46,12 +46,12 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-07",
       "status": "Awaiting reply (from us)",
       "note": "Tenuo (open-source AI-agent authorization) asks to share with builders / connect with campus leads; Kurian replied 'looping in the relevant team' - no substantive answer yet",
+      "daysOpen": 2,
+      "daysSinceReceived": 2,
       "cc": [
         "partner@tinkerhub.org",
         "hello@tinkerhub.org"
-      ],
-      "daysOpen": 2,
-      "daysSinceReceived": 2
+      ]
     },
     {
       "id": "finance-cef86fb0b6",
@@ -64,11 +64,11 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-06",
       "status": "Awaiting reply (from us)",
       "note": "AWS billing notice: September 2026 payment not received (account 759513220827) - pay/resolve to avoid suspension",
+      "daysOpen": 3,
+      "daysSinceReceived": 3,
       "cc": [
         "finance@tinkerhub.org"
-      ],
-      "daysOpen": 3,
-      "daysSinceReceived": 3
+      ]
     },
     {
       "id": "finance-cbf612cefe",
@@ -98,11 +98,11 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-06",
       "status": "No response",
       "note": "Follow-up to the 9-ticket reimbursement sent 4 Oct; one more ticket (Rs 1130.85) awaiting processing",
+      "daysOpen": 3,
+      "daysSinceReceived": 3,
       "cc": [
         "finance@tinkerhub.org"
-      ],
-      "daysSinceReceived": 3,
-      "daysOpen": 3
+      ]
     },
     {
       "id": "finance-13eedea18f",
@@ -133,11 +133,11 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-06",
       "status": "Informational",
       "note": "automated AWS Health notice; CloudTrail billingconsole event source changes by 31 Dec 2026 (check only if we depend on it)",
+      "daysOpen": 0,
+      "daysSinceReceived": 3,
       "cc": [
         "finance@tinkerhub.org"
-      ],
-      "daysSinceReceived": 3,
-      "daysOpen": 0
+      ]
     },
     {
       "id": "campus-f10f197e6f",
@@ -150,11 +150,11 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-06",
       "status": "Informational",
       "note": "Beyond the Blueprint session announcement sent to participants",
+      "daysOpen": 0,
+      "daysSinceReceived": 3,
       "cc": [
         "campus@tinkerhub.org"
-      ],
-      "daysSinceReceived": 3,
-      "daysOpen": 0
+      ]
     },
     {
       "id": "campus-bf5d40b749",
@@ -167,11 +167,11 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-06",
       "status": "Informational",
       "note": "Google Doc share notice from Habeeb, no action needed",
+      "daysOpen": 0,
+      "daysSinceReceived": 3,
       "cc": [
         "campus@tinkerhub.org"
-      ],
-      "daysSinceReceived": 3,
-      "daysOpen": 0
+      ]
     },
     {
       "id": "campus-8c7ff19a99",
@@ -237,15 +237,15 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-09",
       "status": "Awaiting reply (from them)",
       "note": "Nomni requests ~12 paid engineering interns (Chennai/Bangalore, Nov 2026); Joan replied 9 Oct proposing a call (today 3:30 PM or tomorrow 11:30 AM) - awaiting Neethu to confirm a time",
+      "daysOpen": 4,
+      "daysSinceReceived": 4,
       "cc": [
         "partner@tinkerhub.org",
         "campus@tinkerhub.org",
         "arundhathi@tinkerhub.org",
         "mehar@tinkerhub.org",
         "kurian@tinkerhub.org"
-      ],
-      "daysSinceReceived": 4,
-      "daysOpen": 4
+      ]
     },
     {
       "id": "tinkerspace-27d6fb0d0e",
@@ -258,12 +258,12 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-04",
       "status": "Resolved",
       "note": "36-year-old asked to join Calicut event 10-11 Oct; Jasim replied it's for ages 15-25 (tinkerhub.org/layover)",
+      "daysOpen": 1,
+      "daysSinceReceived": 6,
       "cc": [
         "tinkerspace@tinkerhub.org",
         "support@tinkerhub.org"
-      ],
-      "daysSinceReceived": 6,
-      "daysOpen": 1
+      ]
     },
     {
       "id": "finance-f3ed605211",
@@ -380,12 +380,12 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-03",
       "status": "Awaiting reply (from them)",
       "note": "Shan asked Ashna for exact dates and event overview; also reported booking calendar redirecting to FrappeCloud sign-up",
+      "daysOpen": 6,
+      "daysSinceReceived": 6,
       "cc": [
         "campus@tinkerhub.org",
         "tinkerspace@tinkerhub.org"
-      ],
-      "daysSinceReceived": 6,
-      "daysOpen": 6
+      ]
     },
     {
       "id": "finance-fc46508136",
@@ -398,11 +398,11 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-02",
       "status": "Informational",
       "note": "automated JioBusiness login OTP messages",
+      "daysOpen": 0,
+      "daysSinceReceived": 7,
       "cc": [
         "finance@tinkerhub.org"
-      ],
-      "daysSinceReceived": 7,
-      "daysOpen": 0
+      ]
     },
     {
       "id": "finance-75a0fb4b9e",
@@ -415,11 +415,11 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-01",
       "status": "Informational",
       "note": "automated Jio Business signup/OTP email",
+      "daysOpen": 0,
+      "daysSinceReceived": 8,
       "cc": [
         "finance@tinkerhub.org"
-      ],
-      "daysSinceReceived": 8,
-      "daysOpen": 0
+      ]
     },
     {
       "id": "finance-6ff1cf8849",
@@ -466,11 +466,11 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-01",
       "status": "Informational",
       "note": "automated Jio Business signup/OTP email",
+      "daysOpen": 0,
+      "daysSinceReceived": 8,
       "cc": [
         "finance@tinkerhub.org"
-      ],
-      "daysSinceReceived": 8,
-      "daysOpen": 0
+      ]
     },
     {
       "id": "finance-1943a05f6f",
@@ -483,11 +483,11 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-01",
       "status": "Informational",
       "note": "automated Jio Business signup/OTP email",
+      "daysOpen": 0,
+      "daysSinceReceived": 8,
       "cc": [
         "finance@tinkerhub.org"
-      ],
-      "daysSinceReceived": 8,
-      "daysOpen": 0
+      ]
     },
     {
       "id": "finance-017a5a96ad",
@@ -5070,14 +5070,14 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-08",
       "status": "Resolved",
       "note": "Payment made; Make Community confirmed receipt 2026-10-08 (invoice 14573, USD 1030)",
+      "daysOpen": 0,
+      "daysSinceReceived": 1,
       "cc": [
         "finance@tinkerhub.org",
         "kelly@make.co",
         "jasim@tinkerhub.org",
         "salman@makergram.com"
-      ],
-      "daysSinceReceived": 1,
-      "daysOpen": 0
+      ]
     },
     {
       "id": "campus-8d502e153e",
@@ -5090,11 +5090,11 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-08",
       "status": "Informational",
       "note": "Auto-generated meeting notes: \"Planetary Makers\" collaboration with Socratus Foundation",
+      "daysOpen": 0,
+      "daysSinceReceived": 1,
       "cc": [
         "campus@tinkerhub.org"
-      ],
-      "daysSinceReceived": 1,
-      "daysOpen": 0
+      ]
     },
     {
       "id": "campus-d81b2752f3",
@@ -5107,11 +5107,11 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-08",
       "status": "Awaiting reply (from them)",
       "note": "Campus lead listed 5 Useless Project 3.0 selections in the subject line with an empty body; Femina asked her to include a body in future emails - no formal acknowledgement of the projects yet",
+      "daysOpen": 1,
+      "daysSinceReceived": 1,
       "cc": [
         "campus@tinkerhub.org"
-      ],
-      "daysSinceReceived": 1,
-      "daysOpen": 1
+      ]
     },
     {
       "id": "campus-38736ee8d1",
@@ -5124,11 +5124,11 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-09",
       "status": "Resolved",
       "note": "RIT sent top-5 Useless Projects list; Femina acknowledged ('Noted')",
+      "daysOpen": 1,
+      "daysSinceReceived": 1,
       "cc": [
         "campus@tinkerhub.org"
-      ],
-      "daysSinceReceived": 1,
-      "daysOpen": 1
+      ]
     },
     {
       "id": "partner-b7eb9f8505",
@@ -5141,14 +5141,15 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-08",
       "status": "Awaiting reply (from us)",
       "note": "Non-profit LaunchVerse (students grades 8-12, 40k+ schools) proposes partnership/short call; Kurian replied \"looping in the relevant team\" - no substantive answer yet",
+      "daysOpen": 1,
+      "daysSinceReceived": 1,
       "cc": [
         "partner@tinkerhub.org",
         "hello@tinkerhub.org"
-      ],
-      "daysSinceReceived": 1,
-      "daysOpen": 1
+      ]
     },
     {
+      "id": "campus-9b66d65a0f",
       "threadId": "1a11c09679c85134",
       "group": "campus",
       "subject": "Follow-up Regarding Useless Projects 3.0 Best Project Selection",
@@ -5158,12 +5159,11 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-09",
       "status": "Resolved",
       "note": "Habeeb replied 9 Oct: concerns are handled via the complaints form; best projects from her venue will be considered based on form responses",
+      "daysOpen": 1,
+      "daysSinceReceived": 1,
       "cc": [
         "campus@tinkerhub.org"
-      ],
-      "id": "campus-9b66d65a0f",
-      "daysSinceReceived": 1,
-      "daysOpen": 1
+      ]
     },
     {
       "id": "report-5ee0cd970b",
@@ -5176,9 +5176,9 @@ window.DASHBOARD_DATA = {
       "last": null,
       "status": "Informational",
       "note": null,
-      "cc": [],
+      "daysOpen": 0,
       "daysSinceReceived": 7,
-      "daysOpen": 0
+      "cc": []
     },
     {
       "id": "report-690e429729",
@@ -5191,9 +5191,9 @@ window.DASHBOARD_DATA = {
       "last": null,
       "status": "Resolved",
       "note": null,
-      "cc": [],
+      "daysOpen": 0,
       "daysSinceReceived": 8,
-      "daysOpen": 0
+      "cc": []
     },
     {
       "id": "report-11d03bbb9a",
@@ -5206,9 +5206,9 @@ window.DASHBOARD_DATA = {
       "last": null,
       "status": "Resolved",
       "note": null,
-      "cc": [],
+      "daysOpen": 2,
       "daysSinceReceived": 11,
-      "daysOpen": 2
+      "cc": []
     },
     {
       "id": "report-498dadce30",
@@ -5221,9 +5221,9 @@ window.DASHBOARD_DATA = {
       "last": null,
       "status": "Awaiting reply (from us)",
       "note": null,
-      "cc": [],
+      "daysOpen": 16,
       "daysSinceReceived": 16,
-      "daysOpen": 16
+      "cc": []
     },
     {
       "id": "report-ba0b8315b8",
@@ -5236,9 +5236,9 @@ window.DASHBOARD_DATA = {
       "last": null,
       "status": "Awaiting reply (from them)",
       "note": null,
-      "cc": [],
+      "daysOpen": 31,
       "daysSinceReceived": 31,
-      "daysOpen": 31
+      "cc": []
     },
     {
       "id": "report-0759256871",
@@ -5251,9 +5251,9 @@ window.DASHBOARD_DATA = {
       "last": null,
       "status": "Resolved",
       "note": null,
-      "cc": [],
+      "daysOpen": 29,
       "daysSinceReceived": 45,
-      "daysOpen": 29
+      "cc": []
     },
     {
       "id": "report-e731021ede",
@@ -5266,9 +5266,9 @@ window.DASHBOARD_DATA = {
       "last": null,
       "status": "Awaiting reply (from them)",
       "note": null,
-      "cc": [],
+      "daysOpen": 43,
       "daysSinceReceived": 43,
-      "daysOpen": 43
+      "cc": []
     },
     {
       "id": "report-039fe8162f",
@@ -5281,9 +5281,9 @@ window.DASHBOARD_DATA = {
       "last": null,
       "status": "Awaiting reply (from us)",
       "note": null,
-      "cc": [],
+      "daysOpen": 22,
       "daysSinceReceived": 22,
-      "daysOpen": 22
+      "cc": []
     },
     {
       "id": "report-265c2e2322",
@@ -5296,9 +5296,9 @@ window.DASHBOARD_DATA = {
       "last": null,
       "status": "Awaiting reply (from them)",
       "note": null,
-      "cc": [],
+      "daysOpen": 31,
       "daysSinceReceived": 31,
-      "daysOpen": 31
+      "cc": []
     },
     {
       "id": "report-217295ac1d",
@@ -5311,9 +5311,9 @@ window.DASHBOARD_DATA = {
       "last": null,
       "status": "Awaiting reply (from them)",
       "note": null,
-      "cc": [],
+      "daysOpen": 31,
       "daysSinceReceived": 31,
-      "daysOpen": 31
+      "cc": []
     },
     {
       "id": "campus-ef9a6362bd",
@@ -5326,11 +5326,11 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-09",
       "status": "Awaiting reply (from them)",
       "note": "Femina informed TKMCE of WIT Lead resignation (Sruthi Shaji); asked them to pick a successor and update us by Oct 15",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
       "cc": [
         "campus@tinkerhub.org"
-      ],
-      "daysSinceReceived": 0,
-      "daysOpen": 0
+      ]
     },
     {
       "id": "campus-46e27565f7",
@@ -5343,11 +5343,11 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-09",
       "status": "Informational",
       "note": "Femina looped campus@ into Abi Alif's Useless Projects top-5 list",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
       "cc": [
         "campus@tinkerhub.org"
-      ],
-      "daysSinceReceived": 0,
-      "daysOpen": 0
+      ]
     },
     {
       "id": "campus-84f3efe0ed",
@@ -5360,62 +5360,122 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-09",
       "status": "Informational",
       "note": "Femina looped campus@ into Duxford's Useless Projects top-5 list",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
       "cc": [
         "campus@tinkerhub.org"
-      ],
+      ]
+    },
+    {
+      "id": "finance-af58b5fd91",
+      "threadId": "1a12019463b9010a",
+      "group": "finance",
+      "subject": "Invoice from R Rajan Associates | Inv No COK/2026-27/109 | Tinkerhub Technology Innovation Foundation",
+      "counterpart": "R Rajan Associates (CA firm)",
+      "email": "rraca.kochi@gmail.com",
+      "received": "2026-10-09",
+      "last": "2026-10-09",
+      "status": "No response",
+      "note": "CA firm invoice COK/2026-27/109 for ₹57,230 (dated 9 Oct); no internal reply yet",
+      "daysOpen": 0,
       "daysSinceReceived": 0,
-      "daysOpen": 0
+      "cc": [
+        "finance@tinkerhub.org",
+        "mehar@tinkerhub.org",
+        "eldho@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-9a7aeb1adf",
+      "threadId": "1a12016111e2dcd4",
+      "group": "campus",
+      "subject": "Fwd: Questions from Faculty and Regarding Extension of FYC Selection",
+      "counterpart": "Sam Ruben Abraham (TinkerHub IIIT Kottayam)",
+      "email": "samrubenabraham@gmail.com",
+      "received": "2026-10-09",
+      "last": "2026-10-09",
+      "status": "No response",
+      "note": "IIIT Kottayam campus lead forwarded faculty questions (events, impact, MoU need) and asked to extend the FYC selection deadline; no reply yet",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-529c28bca3",
+      "threadId": "1a11fe92777788fd",
+      "group": "campus",
+      "subject": "Request for Student Visit to Thinkerhub Kalamassery",
+      "counterpart": "Aswathi M R (Naipunnya Institute of Management and Information Technology)",
+      "email": "aswathimr@naipunnya.ac.in",
+      "received": "2026-10-09",
+      "last": "2026-10-09",
+      "status": "Awaiting reply (from us)",
+      "note": "Requests visit for ~150 BCA/BSc CS/IT students; Kurian acknowledged and looped in campus/tinkerspace — we owe dates, fees and booking procedure",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "tinkerspace@tinkerhub.org",
+        "council@tinkerhub.org",
+        "mehar@tinkerhub.org",
+        "arundhathi@tinkerhub.org"
+      ]
     }
   ],
   "summary": {
-    "No response": 5,
-    "Awaiting reply (from us)": 19,
+    "No response": 7,
+    "Awaiting reply (from us)": 20,
     "Awaiting reply (from them)": 29,
     "Resolved": 77,
     "Informational": 176
   },
   "analytics": {
     "campus": {
-      "total": 249,
+      "total": 251,
       "counts": {
-        "No response": 1,
+        "No response": 2,
+        "Awaiting reply (from us)": 8,
+        "Awaiting reply (from them)": 23,
         "Resolved": 58,
-        "Informational": 160,
-        "Awaiting reply (from us)": 7,
-        "Awaiting reply (from them)": 23
+        "Informational": 160
       },
-      "avgOpenDays": 16.23,
+      "avgOpenDays": 15.24,
       "avgResolvedDays": 5.78
     },
     "support": {
       "total": 14,
       "counts": {
+        "No response": 2,
         "Awaiting reply (from us)": 4,
-        "Resolved": 7,
         "Awaiting reply (from them)": 1,
-        "No response": 2
+        "Resolved": 7,
+        "Informational": 0
       },
       "avgOpenDays": 28.71,
       "avgResolvedDays": 15.29
     },
     "finance": {
-      "total": 25,
+      "total": 26,
       "counts": {
+        "No response": 3,
         "Awaiting reply (from us)": 2,
+        "Awaiting reply (from them)": 0,
         "Resolved": 7,
-        "No response": 2,
         "Informational": 14
       },
-      "avgOpenDays": 4.25,
+      "avgOpenDays": 3.4,
       "avgResolvedDays": 3.43
     },
     "report": {
       "total": 10,
       "counts": {
-        "Informational": 1,
-        "Resolved": 3,
+        "No response": 0,
         "Awaiting reply (from us)": 2,
-        "Awaiting reply (from them)": 4
+        "Awaiting reply (from them)": 4,
+        "Resolved": 3,
+        "Informational": 1
       },
       "avgOpenDays": 29,
       "avgResolvedDays": 10.33
@@ -5423,10 +5483,11 @@ window.DASHBOARD_DATA = {
     "partner": {
       "total": 7,
       "counts": {
+        "No response": 0,
         "Awaiting reply (from us)": 4,
         "Awaiting reply (from them)": 1,
-        "Informational": 1,
-        "Resolved": 1
+        "Resolved": 1,
+        "Informational": 1
       },
       "avgOpenDays": 7.6,
       "avgResolvedDays": 1
@@ -5434,7 +5495,11 @@ window.DASHBOARD_DATA = {
     "tinkerspace": {
       "total": 1,
       "counts": {
-        "Resolved": 1
+        "No response": 0,
+        "Awaiting reply (from us)": 0,
+        "Awaiting reply (from them)": 0,
+        "Resolved": 1,
+        "Informational": 0
       },
       "avgOpenDays": 0,
       "avgResolvedDays": 1
