@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-10T06:43:05Z",
+  "generatedAt": "2026-10-10T08:44:37Z",
   "threads": [
     {
       "id": "campus-0b3476479c",
@@ -61,7 +61,7 @@ window.DASHBOARD_DATA = {
       "counterpart": "AWS (automated)",
       "email": null,
       "received": "2026-10-06",
-      "last": "2026-10-09",
+      "last": "2026-10-06",
       "status": "Awaiting reply (from us)",
       "note": "AWS billing notice: September 2026 payment (INR 37,477.12, invoice 2842060097) not received; reminder repeated 9 Oct - pay to avoid suspension",
       "daysOpen": 4,
@@ -238,9 +238,9 @@ window.DASHBOARD_DATA = {
       "email": "kelly@make.co",
       "received": "2026-10-03",
       "last": "2026-10-08",
-      "status": "Awaiting reply (from us)",
-      "note": "Invoice 14573, USD 1,050 (Makerfaire Kochi license fee, Net 30). Make offered a card link with 3% processing fee (Kurian agreed 7 Oct) and resent the QuickBooks invoice with card payment link 8 Oct - we need to pay",
-      "daysOpen": 7,
+      "status": "Resolved",
+      "note": "Make Community invoice: card-payment link resent 10-08 and payment confirmed received",
+      "daysOpen": 5,
       "daysSinceReceived": 7,
       "cc": [
         "finance@tinkerhub.org",
@@ -4713,81 +4713,6 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "report-5ee0cd970b",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Informational",
-      "note": null,
-      "daysOpen": 0,
-      "daysSinceReceived": 8,
-      "cc": []
-    },
-    {
-      "id": "report-690e429729",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Resolved",
-      "note": null,
-      "daysOpen": 0,
-      "daysSinceReceived": 9,
-      "cc": []
-    },
-    {
-      "id": "report-11d03bbb9a",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Resolved",
-      "note": null,
-      "daysOpen": 2,
-      "daysSinceReceived": 12,
-      "cc": []
-    },
-    {
-      "id": "report-498dadce30",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Awaiting reply (from them)",
-      "note": null,
-      "daysOpen": 17,
-      "daysSinceReceived": 17,
-      "cc": []
-    },
-    {
-      "id": "report-039fe8162f",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Awaiting reply (from them)",
-      "note": null,
-      "daysOpen": 23,
-      "daysSinceReceived": 23,
-      "cc": []
-    },
-    {
       "id": "campus-ef9a6362bd",
       "threadId": "1a11f4b8c2a5e6e7",
       "group": "campus",
@@ -4911,26 +4836,118 @@ window.DASHBOARD_DATA = {
       "cc": [
         "finance@tinkerhub.org"
       ]
+    },
+    {
+      "id": "campus-38c081ff58",
+      "threadId": "1a124d282fb5667f",
+      "group": "campus",
+      "subject": "Spreadsheet shared with you: \"Organisations : Environment, Agriculture & Food\"",
+      "counterpart": "internal (Joan Hanna)",
+      "email": "joan@tinkerhub.org",
+      "received": "2026-10-10",
+      "last": "2026-10-10",
+      "status": "Informational",
+      "note": "Joan shared a Google Sheet (Organisations list) with campus@",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "report-80ba999b95",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Awaiting reply (from them)",
+      "note": null,
+      "daysOpen": 23,
+      "daysSinceReceived": 23,
+      "cc": []
+    },
+    {
+      "id": "report-d24eb0ad18",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Resolved",
+      "note": null,
+      "daysOpen": 16,
+      "daysSinceReceived": 17,
+      "cc": []
+    },
+    {
+      "id": "report-9691bdbb2d",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Resolved",
+      "note": null,
+      "daysOpen": 2,
+      "daysSinceReceived": 12,
+      "cc": []
+    },
+    {
+      "id": "report-592cad1439",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Resolved",
+      "note": null,
+      "daysOpen": 0,
+      "daysSinceReceived": 9,
+      "cc": []
+    },
+    {
+      "id": "report-51a53a5e66",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Informational",
+      "note": null,
+      "daysOpen": 0,
+      "daysSinceReceived": 8,
+      "cc": []
     }
   ],
   "summary": {
     "No response": 7,
-    "Awaiting reply (from us)": 13,
-    "Awaiting reply (from them)": 27,
-    "Resolved": 58,
-    "Informational": 174,
-    "total": 279
+    "Awaiting reply (from us)": 12,
+    "Awaiting reply (from them)": 26,
+    "Resolved": 60,
+    "Informational": 175,
+    "total": 280
   },
   "analytics": {
     "campus": {
-      "total": 235,
+      "total": 236,
       "No response": 2,
       "Awaiting reply (from us)": 4,
       "Awaiting reply (from them)": 24,
       "Resolved": 46,
-      "Informational": 159,
+      "Informational": 160,
       "avgOpenDays": 13.5,
-      "avgResolvedDays": 2
+      "avgResolvedDays": 2.0
     },
     "support": {
       "total": 7,
@@ -4945,22 +4962,22 @@ window.DASHBOARD_DATA = {
     "finance": {
       "total": 24,
       "No response": 3,
-      "Awaiting reply (from us)": 3,
+      "Awaiting reply (from us)": 2,
       "Awaiting reply (from them)": 0,
-      "Resolved": 5,
+      "Resolved": 6,
       "Informational": 13,
-      "avgOpenDays": 3.8,
-      "avgResolvedDays": 1.8
+      "avgOpenDays": 3.2,
+      "avgResolvedDays": 2.3
     },
     "report": {
       "total": 5,
       "No response": 0,
       "Awaiting reply (from us)": 0,
-      "Awaiting reply (from them)": 2,
-      "Resolved": 2,
+      "Awaiting reply (from them)": 1,
+      "Resolved": 3,
       "Informational": 1,
-      "avgOpenDays": 20,
-      "avgResolvedDays": 1
+      "avgOpenDays": 23.0,
+      "avgResolvedDays": 6.0
     },
     "partner": {
       "total": 7,
@@ -4970,7 +4987,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 1,
       "avgOpenDays": 8.6,
-      "avgResolvedDays": 1
+      "avgResolvedDays": 1.0
     },
     "tinkerspace": {
       "total": 1,
@@ -4980,7 +4997,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 0,
       "avgOpenDays": 0,
-      "avgResolvedDays": 1
+      "avgResolvedDays": 1.0
     }
   }
 };
