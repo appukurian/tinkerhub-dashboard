@@ -1,8 +1,31 @@
 // Auto-generated daily by .github/workflows/discord-update.yml
 // Do NOT hand-edit — this file is overwritten on each run.
 window.DISCORD_DATA = {
-  "generatedAt": "2026-10-10T15:55:19Z",
+  "generatedAt": "2026-10-10T20:12:46Z",
   "threads": [
+    {
+      "id": "1558553213131563151",
+      "name": "Discord onboarding problem",
+      "url": "https://discord.com/channels/735180366297563257/1558553213131563151",
+      "status": "No response",
+      "category": "Discord account/access",
+      "requester": "Akarsh A",
+      "received": "2026-10-10",
+      "last": "2026-10-10",
+      "resolvedAt": "2026-10-10",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "daysToClose": 0,
+      "messageCount": 0,
+      "archived": false,
+      "locked": false,
+      "resolutionSnippet": "",
+      "suggestion": {
+        "fromThreadName": "Outreach not in Discord channel.",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546893762930942122",
+        "snippet": "He is not added to the tinkerhub channel."
+      }
+    },
     {
       "id": "1558502304842252339",
       "name": "Can't register  in app",
@@ -21,9 +44,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Useless Projects registration issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547630535470481438",
-        "snippet": "Participants all facing issue...app crashed...there's lot more screenshot and videos and all ...plz do fix this and extend time"
+        "fromThreadName": "Useless Projects 3.0 registration issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547636202994401290",
+        "snippet": "<@1012977379209125908>"
       }
     },
     {
@@ -128,8 +151,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-08",
       "last": "2026-10-08",
       "resolvedAt": "2026-10-08",
-      "daysOpen": 1,
-      "daysSinceReceived": 1,
+      "daysOpen": 2,
+      "daysSinceReceived": 2,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -159,9 +182,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Useless Projects registration issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547630535470481438",
-        "snippet": "Participants all facing issue...app crashed...there's lot more screenshot and videos and all ...plz do fix this and extend time"
+        "fromThreadName": "Useless Projects 3.0 registration issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547636202994401290",
+        "snippet": "<@1012977379209125908>"
       }
     },
     {
@@ -193,8 +216,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-07",
       "last": "2026-10-07",
       "resolvedAt": "2026-10-07",
-      "daysOpen": 2,
-      "daysSinceReceived": 2,
+      "daysOpen": 3,
+      "daysSinceReceived": 3,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -331,8 +354,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-30",
       "last": "2026-10-06",
       "resolvedAt": "2026-09-30",
-      "daysOpen": 3,
-      "daysSinceReceived": 9,
+      "daysOpen": 4,
+      "daysSinceReceived": 10,
       "daysToClose": 0,
       "messageCount": 8,
       "archived": false,
@@ -354,7 +377,7 @@ window.DISCORD_DATA = {
       "received": "2026-08-29",
       "last": "2026-10-06",
       "resolvedAt": "2026-10-06",
-      "daysOpen": 3,
+      "daysOpen": 4,
       "daysSinceReceived": 42,
       "daysToClose": 38,
       "messageCount": 5,
@@ -419,8 +442,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-10",
       "last": "2026-10-01",
       "resolvedAt": "2026-09-10",
-      "daysOpen": 8,
-      "daysSinceReceived": 29,
+      "daysOpen": 9,
+      "daysSinceReceived": 30,
       "daysToClose": 0,
       "messageCount": 8,
       "archived": false,
@@ -580,8 +603,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-19",
       "last": "2026-09-19",
       "resolvedAt": "2026-09-19",
-      "daysOpen": 20,
-      "daysSinceReceived": 20,
+      "daysOpen": 21,
+      "daysSinceReceived": 21,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -603,8 +626,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-18",
       "last": "2026-09-18",
       "resolvedAt": "2026-09-18",
-      "daysOpen": 21,
-      "daysSinceReceived": 21,
+      "daysOpen": 22,
+      "daysSinceReceived": 22,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -627,7 +650,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-18",
       "resolvedAt": "2026-09-09",
       "daysOpen": 22,
-      "daysSinceReceived": 30,
+      "daysSinceReceived": 31,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -650,7 +673,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-16",
       "resolvedAt": "2026-09-13",
       "daysOpen": 24,
-      "daysSinceReceived": 26,
+      "daysSinceReceived": 27,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -680,9 +703,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Useless Projects registration issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547630535470481438",
-        "snippet": "Participants all facing issue...app crashed...there's lot more screenshot and videos and all ...plz do fix this and extend time"
+        "fromThreadName": "Useless Projects 3.0 registration issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547636202994401290",
+        "snippet": "<@1012977379209125908>"
       }
     },
     {
@@ -726,9 +749,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Useless Projects registration issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547630535470481438",
-        "snippet": "Participants all facing issue...app crashed...there's lot more screenshot and videos and all ...plz do fix this and extend time"
+        "fromThreadName": "Useless Projects 3.0 registration issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547636202994401290",
+        "snippet": "<@1012977379209125908>"
       }
     },
     {
@@ -772,9 +795,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Useless Projects registration issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547630535470481438",
-        "snippet": "Participants all facing issue...app crashed...there's lot more screenshot and videos and all ...plz do fix this and extend time"
+        "fromThreadName": "Useless Projects 3.0 registration issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547636202994401290",
+        "snippet": "<@1012977379209125908>"
       }
     },
     {
@@ -864,9 +887,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Useless Projects registration issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547630535470481438",
-        "snippet": "Participants all facing issue...app crashed...there's lot more screenshot and videos and all ...plz do fix this and extend time"
+        "fromThreadName": "Useless Projects 3.0 registration issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547636202994401290",
+        "snippet": "<@1012977379209125908>"
       }
     },
     {
@@ -887,33 +910,29 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Useless Projects registration issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547630535470481438",
-        "snippet": "Participants all facing issue...app crashed...there's lot more screenshot and videos and all ...plz do fix this and extend time"
+        "fromThreadName": "Useless Projects 3.0 registration issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547636202994401290",
+        "snippet": "<@1012977379209125908>"
       }
     },
     {
       "id": "1547636202994401290",
       "name": "Useless Projects 3.0 registration issue",
       "url": "https://discord.com/channels/735180366297563257/1547636202994401290",
-      "status": "Awaiting reply (from them)",
+      "status": "Resolved",
       "category": "Registration issues",
       "requester": "Raj Kumar Soni",
       "received": "2026-09-10",
       "last": "2026-09-10",
-      "resolvedAt": "2026-09-10",
-      "daysOpen": 29,
+      "resolvedAt": "2026-10-10",
+      "daysOpen": 30,
       "daysSinceReceived": 30,
-      "daysToClose": 0,
+      "daysToClose": 30,
       "messageCount": 2,
-      "archived": false,
+      "archived": true,
       "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Useless Projects registration issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547630535470481438",
-        "snippet": "Participants all facing issue...app crashed...there's lot more screenshot and videos and all ...plz do fix this and extend time"
-      }
+      "resolutionSnippet": "<@1012977379209125908>",
+      "suggestion": null
     },
     {
       "id": "1547630535470481438",
@@ -1039,7 +1058,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-09",
       "resolvedAt": "2026-10-09",
-      "daysOpen": 30,
+      "daysOpen": 31,
       "daysSinceReceived": 31,
       "daysToClose": 30,
       "messageCount": 2,
@@ -13438,12 +13457,12 @@ window.DISCORD_DATA = {
     }
   ],
   "summary": {
-    "No response": 24,
+    "No response": 25,
     "Awaiting reply (from us)": 8,
-    "Awaiting reply (from them)": 7,
-    "Resolved": 660
+    "Awaiting reply (from them)": 6,
+    "Resolved": 661
   },
-  "avgOpenDays": 13.7,
+  "avgOpenDays": 13.1,
   "avgDaysToClose": 13.7,
   "topCategories": [
     {
@@ -13476,7 +13495,7 @@ window.DISCORD_DATA = {
     },
     {
       "category": "Discord account/access",
-      "count": 26
+      "count": 27
     },
     {
       "category": "Useless Projects (event)",
