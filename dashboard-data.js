@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-10T12:42:51Z",
+  "generatedAt": "2026-10-10T14:44:07Z",
   "threads": [
     {
       "id": "campus-0b3476479c",
@@ -4855,6 +4855,45 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
+      "id": "campus-05f240ec6a",
+      "threadId": "19fac9430a50a7cd",
+      "group": "campus",
+      "subject": "TinkerHub x LOUD - Something exciting could brew",
+      "counterpart": "Bhavana (LOUD / Goloud India)",
+      "email": "bhavana@goloudindia.com",
+      "received": "2026-07-29",
+      "last": "2026-10-10",
+      "status": "Awaiting reply (from us)",
+      "note": "LOUD confirmed 300 pads, chocolate kits for top teams and open-mic participation (Tink Her Hack / Women Makers); we owe an acknowledgement",
+      "daysOpen": 73,
+      "daysSinceReceived": 73,
+      "cc": [
+        "campus@tinkerhub.org",
+        "arundhathi@tinkerhub.org",
+        "femina@tinkerhub.org",
+        "joan@tinkerhub.org",
+        "mehar@tinkerhub.org",
+        "kurian@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-e717d6a3ae",
+      "threadId": "1a125d81e1b37fb2",
+      "group": "campus",
+      "subject": "Spreadsheet shared with you: \"District vise Organisations : Environment, Agriculture & Food \"",
+      "counterpart": "internal (Joan)",
+      "email": null,
+      "received": "2026-10-10",
+      "last": "2026-10-10",
+      "status": "Informational",
+      "note": "Joan shared a Google Sheet (district-wise organisations: Environment, Agriculture & Food) with campus@",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
       "id": "report-80ba999b95",
       "threadId": null,
       "group": "report",
@@ -4928,28 +4967,6 @@ window.DASHBOARD_DATA = {
       "daysOpen": 0,
       "daysSinceReceived": 8,
       "cc": []
-    },
-    {
-      "id": "campus-05f240ec6a",
-      "threadId": "19fac9430a50a7cd",
-      "group": "campus",
-      "subject": "TinkerHub x LOUD - Something exciting could brew",
-      "counterpart": "Bhavana (LOUD / Goloud India)",
-      "email": "bhavana@goloudindia.com",
-      "received": "2026-07-29",
-      "last": "2026-10-10",
-      "status": "Awaiting reply (from us)",
-      "note": "LOUD confirmed 300 pads, chocolate kits for top teams and open-mic participation (Tink Her Hack / Women Makers); we owe an acknowledgement",
-      "daysOpen": 73,
-      "daysSinceReceived": 73,
-      "cc": [
-        "campus@tinkerhub.org",
-        "arundhathi@tinkerhub.org",
-        "femina@tinkerhub.org",
-        "joan@tinkerhub.org",
-        "mehar@tinkerhub.org",
-        "kurian@tinkerhub.org"
-      ]
     }
   ],
   "summary": {
@@ -4957,19 +4974,19 @@ window.DASHBOARD_DATA = {
     "Awaiting reply (from us)": 13,
     "Awaiting reply (from them)": 26,
     "Resolved": 60,
-    "Informational": 175,
-    "total": 281
+    "Informational": 176,
+    "total": 282
   },
   "analytics": {
     "campus": {
-      "total": 237,
+      "total": 238,
       "No response": 2,
       "Awaiting reply (from us)": 5,
       "Awaiting reply (from them)": 24,
       "Resolved": 46,
-      "Informational": 160,
+      "Informational": 161,
       "avgOpenDays": 15.4,
-      "avgResolvedDays": 2.0
+      "avgResolvedDays": 2
     },
     "support": {
       "total": 7,
@@ -4998,8 +5015,8 @@ window.DASHBOARD_DATA = {
       "Awaiting reply (from them)": 1,
       "Resolved": 3,
       "Informational": 1,
-      "avgOpenDays": 23.0,
-      "avgResolvedDays": 6.0
+      "avgOpenDays": 23,
+      "avgResolvedDays": 6
     },
     "partner": {
       "total": 7,
@@ -5009,7 +5026,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 1,
       "avgOpenDays": 8.6,
-      "avgResolvedDays": 1.0
+      "avgResolvedDays": 1
     },
     "tinkerspace": {
       "total": 1,
@@ -5019,7 +5036,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 0,
       "avgOpenDays": 0,
-      "avgResolvedDays": 1.0
+      "avgResolvedDays": 1
     }
   }
 };
