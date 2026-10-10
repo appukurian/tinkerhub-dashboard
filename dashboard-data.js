@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-10T02:42:35Z",
+  "generatedAt": "2026-10-10T04:43:18Z",
   "threads": [
     {
       "id": "campus-0b3476479c",
@@ -251,7 +251,7 @@ window.DASHBOARD_DATA = {
       "id": "finance-d4d37c6e69",
       "threadId": "1a1063bd8a1d6363",
       "group": "finance",
-      "subject": "Folder shared with you: \u2018Final Print Mozilla\u2019",
+      "subject": "Folder shared with you: ‘Final Print Mozilla’",
       "counterpart": "Moosa Mehar",
       "email": "meharmp@gmail.com",
       "received": "2026-10-04",
@@ -275,7 +275,7 @@ window.DASHBOARD_DATA = {
       "received": "2026-10-04",
       "last": "2026-10-04",
       "status": "No response",
-      "note": "Mehar submitted 9 train-ticket PNRs (Aug\u2013Oct) to finance@; no reply yet",
+      "note": "Mehar submitted 9 train-ticket PNRs (Aug–Oct) to finance@; no reply yet",
       "daysOpen": 6,
       "daysSinceReceived": 6,
       "cc": [
@@ -320,13 +320,13 @@ window.DASHBOARD_DATA = {
       "id": "campus-bc11a6ce1c",
       "threadId": "1a1002aaa6b0cde4",
       "group": "campus",
-      "subject": "Useless Projects 3.0 \u2013 Late Submission Request",
+      "subject": "Useless Projects 3.0 – Late Submission Request",
       "counterpart": "Aiswarya Ramesh (Ahalia School of Engineering and Technology)",
       "email": "aiswaryaramesh28@gmail.com",
       "received": "2026-10-03",
       "last": "2026-10-03",
       "status": "Awaiting reply (from them)",
-      "note": "Team 404 Not Found requested late submission; Habeeb replied (no late entries, add as standard Hub project; asked why not raised earlier) \u2014 awaiting their response",
+      "note": "Team 404 Not Found requested late submission; Habeeb replied (no late entries, add as standard Hub project; asked why not raised earlier) — awaiting their response",
       "daysOpen": 7,
       "daysSinceReceived": 7,
       "cc": [
@@ -1769,7 +1769,7 @@ window.DASHBOARD_DATA = {
       "id": "support-3873045b3a",
       "threadId": "1a0dc1b0f9fe4d4d",
       "group": "support",
-      "subject": "Request to Add My College to TinkerHub Registration \u2013 Layover Hackathon",
+      "subject": "Request to Add My College to TinkerHub Registration – Layover Hackathon",
       "counterpart": "Arjun Sabu (St. Kuriakose College, Kuruppampady)",
       "email": "greninjadotdev@gmail.com",
       "received": "2026-09-26",
@@ -1873,7 +1873,7 @@ window.DASHBOARD_DATA = {
       "id": "campus-9d9afdbe22",
       "threadId": "1a0b48ac5a8ed45c",
       "group": "campus",
-      "subject": "Collaboration Proposal \u2013 Blender Workshop under SOLITON \u201926",
+      "subject": "Collaboration Proposal – Blender Workshop under SOLITON ’26",
       "counterpart": "Niranjan S Das (IEEE Photonics Society Kerala Chapter)",
       "email": "niranjansdas@ug.cusat.ac.in",
       "received": "2026-09-18",
@@ -4647,7 +4647,7 @@ window.DASHBOARD_DATA = {
       "id": "campus-d81b2752f3",
       "threadId": "1a11a6d70f3f6cc2",
       "group": "campus",
-      "subject": "Dear Tinker Hub Team, Greetings from Tinker Hub, Thejus Engineering College. We are writing to inform you about the five projects selected from our campus for Useless Project 3.0. The selected projects and team members are: Distance Based Insult Generator \u2013 Arun MV & Athul Krishna Fish Analyser \u2013 Safa & Archana Do Nothing \u2013 Devenadh PM & Amruth Krishna Excuse Generator \u2013 Arjun & Devika Outsmart Us \u2013 Devenad U & Devipriya These are the five projects selected by our campus team for Useless Project 3.0. Kindly acknowledge the selected projects and let us know if any further details or documentation are required from our side. Thank you for your support. Regards, Dhrisya Narayanan Campus Lead, Tinker Hub Thejus Engineering College",
+      "subject": "Dear Tinker Hub Team, Greetings from Tinker Hub, Thejus Engineering College. We are writing to inform you about the five projects selected from our campus for Useless Project 3.0. The selected projects and team members are: Distance Based Insult Generator – Arun MV & Athul Krishna Fish Analyser – Safa & Archana Do Nothing – Devenadh PM & Amruth Krishna Excuse Generator – Arjun & Devika Outsmart Us – Devenad U & Devipriya These are the five projects selected by our campus team for Useless Project 3.0. Kindly acknowledge the selected projects and let us know if any further details or documentation are required from our side. Thank you for your support. Regards, Dhrisya Narayanan Campus Lead, Tinker Hub Thejus Engineering College",
       "counterpart": "Dhrisya Narayanan (TinkerHub Thejus Engineering College)",
       "email": "dhrisyanarayanan7@gmail.com",
       "received": "2026-10-08",
@@ -4825,7 +4825,7 @@ window.DASHBOARD_DATA = {
       "id": "campus-84f3efe0ed",
       "threadId": "1a11f23a3c3a464b",
       "group": "campus",
-      "subject": "Re: Top 5 Projects \u2013 Useless Projects Hackathon",
+      "subject": "Re: Top 5 Projects – Useless Projects Hackathon",
       "counterpart": "Muhammad Ashjil (Duxford College for Advanced Studies)",
       "email": "muhammadashjil@gmail.com",
       "received": "2026-10-09",
@@ -4848,7 +4848,7 @@ window.DASHBOARD_DATA = {
       "received": "2026-10-09",
       "last": "2026-10-09",
       "status": "No response",
-      "note": "CA firm invoice COK/2026-27/109 for \u20b957,230 (dated 9 Oct); no internal reply yet",
+      "note": "CA firm invoice COK/2026-27/109 for ₹57,230 (dated 9 Oct); no internal reply yet",
       "daysOpen": 1,
       "daysSinceReceived": 1,
       "cc": [
@@ -4884,7 +4884,7 @@ window.DASHBOARD_DATA = {
       "received": "2026-10-09",
       "last": "2026-10-09",
       "status": "Awaiting reply (from them)",
-      "note": "Requests visit for ~150 BCA/BSc CS/IT students; Shan (Space Manager) replied: industrial visits Tue-Fri, 1hr, max 60 students/visit, no fee \u2014 asked for preferred dates",
+      "note": "Requests visit for ~150 BCA/BSc CS/IT students; Shan (Space Manager) replied: industrial visits Tue-Fri, 1hr, max 60 students/visit, no fee — asked for preferred dates",
       "daysOpen": 1,
       "daysSinceReceived": 1,
       "cc": [
@@ -4918,7 +4918,8 @@ window.DASHBOARD_DATA = {
     "Awaiting reply (from us)": 13,
     "Awaiting reply (from them)": 27,
     "Resolved": 58,
-    "Informational": 174
+    "Informational": 174,
+    "total": 279
   },
   "analytics": {
     "campus": {
