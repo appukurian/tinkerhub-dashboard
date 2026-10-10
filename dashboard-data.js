@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-10T14:44:07Z",
+  "generatedAt": "2026-10-10T16:44:46Z",
   "threads": [
     {
       "id": "campus-0b3476479c",
@@ -4967,25 +4967,79 @@ window.DASHBOARD_DATA = {
       "daysOpen": 0,
       "daysSinceReceived": 8,
       "cc": []
+    },
+    {
+      "id": "campus-0e5cd825c5",
+      "threadId": "1a1268352b919587",
+      "group": "campus",
+      "subject": "Inquiry Regarding Campus Onboarding and Funding Support for TinkerHub MBITS",
+      "counterpart": "Krishnendu B Nair (MBITS student, prospective campus)",
+      "email": "krishnendubnair07@gmail.com",
+      "received": "2026-10-10",
+      "last": "2026-10-10",
+      "status": "Awaiting reply (from us)",
+      "note": "Student at Mar Baselios Institute of Technology and Science wants to start a TinkerHub campus and asks about onboarding steps and funding/grants; Mehar forwarded to campus ('Looping campus'), no reply to the student yet",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "hello@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-133279972b",
+      "threadId": "1a086693e5262d40",
+      "group": "campus",
+      "subject": "Request for new slot - Useless Projects on 11th September",
+      "counterpart": "Sidrah (TinkerHub MAMOC)",
+      "email": "sidrahaysha@gmail.com",
+      "received": "2026-09-09",
+      "last": "2026-10-06",
+      "status": "Awaiting reply (from us)",
+      "note": "Poster-printing reimbursement requested 21 Sep; Habeeb looped in Althaf on 6 Oct; payment not yet confirmed to her",
+      "daysOpen": 31,
+      "daysSinceReceived": 31,
+      "cc": [
+        "campus@tinkerhub.org",
+        "althaf@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-838d0d948f",
+      "threadId": "1a0807fcbbb18e44",
+      "group": "campus",
+      "subject": "Regarding posters for useless projects",
+      "counterpart": "Abi Alif",
+      "email": "abialifhere@gmail.com",
+      "received": "2026-09-08",
+      "last": "2026-10-06",
+      "status": "Awaiting reply (from us)",
+      "note": "Abi sent the poster-printing bill; Habeeb looped in Althaf on 6 Oct for reimbursement; payment not yet confirmed",
+      "daysOpen": 32,
+      "daysSinceReceived": 32,
+      "cc": [
+        "campus@tinkerhub.org",
+        "althaf@tinkerhub.org"
+      ]
     }
   ],
   "summary": {
     "No response": 7,
-    "Awaiting reply (from us)": 13,
+    "Awaiting reply (from us)": 16,
     "Awaiting reply (from them)": 26,
     "Resolved": 60,
     "Informational": 176,
-    "total": 282
+    "total": 285
   },
   "analytics": {
     "campus": {
-      "total": 238,
+      "total": 241,
       "No response": 2,
-      "Awaiting reply (from us)": 5,
+      "Awaiting reply (from us)": 8,
       "Awaiting reply (from them)": 24,
       "Resolved": 46,
       "Informational": 161,
-      "avgOpenDays": 15.4,
+      "avgOpenDays": 15.9,
       "avgResolvedDays": 2
     },
     "support": {
