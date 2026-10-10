@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-10T08:44:37Z",
+  "generatedAt": "2026-10-10T10:42:42Z",
   "threads": [
     {
       "id": "campus-0b3476479c",
@@ -4928,25 +4928,47 @@ window.DASHBOARD_DATA = {
       "daysOpen": 0,
       "daysSinceReceived": 8,
       "cc": []
+    },
+    {
+      "id": "campus-05f240ec6a",
+      "threadId": "19fac9430a50a7cd",
+      "group": "campus",
+      "subject": "TinkerHub x LOUD - Something exciting could brew",
+      "counterpart": "Bhavana (LOUD / Goloud India)",
+      "email": "bhavana@goloudindia.com",
+      "received": "2026-07-29",
+      "last": "2026-10-10",
+      "status": "Awaiting reply (from us)",
+      "note": "LOUD confirmed 300 pads, chocolate kits for top teams and open-mic participation (Tink Her Hack / Women Makers); we owe an acknowledgement",
+      "daysOpen": 73,
+      "daysSinceReceived": 73,
+      "cc": [
+        "campus@tinkerhub.org",
+        "arundhathi@tinkerhub.org",
+        "femina@tinkerhub.org",
+        "joan@tinkerhub.org",
+        "mehar@tinkerhub.org",
+        "kurian@tinkerhub.org"
+      ]
     }
   ],
   "summary": {
     "No response": 7,
-    "Awaiting reply (from us)": 12,
+    "Awaiting reply (from us)": 13,
     "Awaiting reply (from them)": 26,
     "Resolved": 60,
     "Informational": 175,
-    "total": 280
+    "total": 281
   },
   "analytics": {
     "campus": {
-      "total": 236,
+      "total": 237,
       "No response": 2,
-      "Awaiting reply (from us)": 4,
+      "Awaiting reply (from us)": 5,
       "Awaiting reply (from them)": 24,
       "Resolved": 46,
       "Informational": 160,
-      "avgOpenDays": 13.5,
+      "avgOpenDays": 15.4,
       "avgResolvedDays": 2.0
     },
     "support": {
