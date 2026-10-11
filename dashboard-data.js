@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-11T12:42:54Z",
+  "generatedAt": "2026-10-11T14:44:35Z",
   "threads": [
     {
       "id": "finance-e55e10ccbe",
@@ -5007,40 +5007,6 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "campus-968899de3d",
-      "threadId": "1a08e533f7c70a07",
-      "group": "campus",
-      "subject": "Reduce seat count and starting time for tomorrow's Useless Project",
-      "counterpart": "Akarsh A (College of Engineering, Adoor)",
-      "email": "akarshajith06@gmail.com",
-      "received": "2026-09-11",
-      "last": "2026-09-11",
-      "status": "Resolved",
-      "note": "seat count and start time updated",
-      "daysOpen": 0,
-      "daysSinceReceived": 30,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-53dbd6a78f",
-      "threadId": "1a08f4894049fc58",
-      "group": "campus",
-      "subject": "Deadline extention for useless project 3.0",
-      "counterpart": "Tinkerhub GECT (Vishnu)",
-      "email": "tinkerhubgect@gmail.com",
-      "received": "2026-09-11",
-      "last": "2026-09-11",
-      "status": "Resolved",
-      "note": "deadline extended to 4pm",
-      "daysOpen": 0,
-      "daysSinceReceived": 30,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
       "id": "campus-40e70ac38c",
       "threadId": "1a0915eed4f09bf9",
       "group": "campus",
@@ -5221,26 +5187,43 @@ window.DASHBOARD_DATA = {
       "daysOpen": 15,
       "daysSinceReceived": 33,
       "cc": []
+    },
+    {
+      "id": "campus-cce8e84c14",
+      "threadId": "1a12b4e92bf1611a",
+      "group": "campus",
+      "subject": "Invitation: Reflection meet - ULP 3.0 @ Wed Oct 14, 2026 4pm - 5pm (IST) (Kurian Jacob)",
+      "counterpart": "internal (Habeeb)",
+      "email": "habeeb@tinkerhub.org",
+      "received": "2026-10-11",
+      "last": "2026-10-11",
+      "status": "Informational",
+      "note": "Calendar invite for ULP 3.0 reflection meet on Oct 14, 4pm IST",
+      "cc": [
+        "campus@tinkerhub.org"
+      ],
+      "daysSinceReceived": 0,
+      "daysOpen": 0
     }
   ],
   "summary": {
-    "total": 297,
+    "total": 296,
     "No response": 8,
     "Awaiting reply (from us)": 16,
     "Awaiting reply (from them)": 28,
-    "Resolved": 70,
-    "Informational": 175
+    "Resolved": 68,
+    "Informational": 176
   },
   "analytics": {
     "campus": {
-      "total": 239,
+      "total": 238,
       "No response": 3,
       "Awaiting reply (from us)": 7,
       "Awaiting reply (from them)": 24,
-      "Resolved": 45,
-      "Informational": 160,
+      "Resolved": 43,
+      "Informational": 161,
       "avgOpenDays": 18.0,
-      "avgResolvedDays": 7.5
+      "avgResolvedDays": 7.8
     },
     "support": {
       "total": 13,
