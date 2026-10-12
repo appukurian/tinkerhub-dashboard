@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-12T04:43:19Z",
+  "generatedAt": "2026-10-12T06:44:22Z",
   "threads": [
     {
       "id": "finance-e55e10ccbe",
@@ -4921,75 +4921,6 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "campus-d8775215d9",
-      "threadId": "1a0915d5b38bda32",
-      "group": "campus",
-      "subject": "Cancellation of Useless Projects at Vidya Academy of Science and Technology",
-      "counterpart": "Athira",
-      "email": "kjathira15@gmail.com",
-      "received": "2026-09-11",
-      "last": "2026-09-12",
-      "status": "Resolved",
-      "note": "cancellation acknowledged",
-      "daysOpen": 1,
-      "daysSinceReceived": 31,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-b0c2d838a2",
-      "threadId": "1a090bb604124cfc",
-      "group": "campus",
-      "subject": "Update Regarding Useless Project 3.0",
-      "counterpart": "Rosemary Rejimon",
-      "email": "rosecep24@gmail.com",
-      "received": "2026-09-11",
-      "last": "2026-09-12",
-      "status": "Resolved",
-      "note": "cancellation acknowledged",
-      "daysOpen": 1,
-      "daysSinceReceived": 31,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-a12843a77b",
-      "threadId": "1a08f7ad407e46d0",
-      "group": "campus",
-      "subject": "Extending Useless Project registration till 9 PM",
-      "counterpart": "Akarsh A (College of Engineering, Adoor)",
-      "email": "akarshajith06@gmail.com",
-      "received": "2026-09-11",
-      "last": "2026-09-12",
-      "status": "Resolved",
-      "note": "registration extended",
-      "daysOpen": 1,
-      "daysSinceReceived": 31,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-2e09969d78",
-      "threadId": "1a08c06f932c91ab",
-      "group": "campus",
-      "subject": "Useless project starting time is a little early",
-      "counterpart": "Adarsh Murugesan (Ahalia SET)",
-      "email": "adarshmurugesan33@gmail.com",
-      "received": "2026-09-10",
-      "last": "2026-09-12",
-      "status": "Resolved",
-      "note": "Femina: unable to change timings, proceed as planned (event passed)",
-      "daysOpen": 2,
-      "daysSinceReceived": 32,
-      "cc": [
-        "campus@tinkerhub.org",
-        "habeeb@tinkerhub.org"
-      ]
-    },
-    {
       "id": "campus-cce8e84c14",
       "threadId": "1a12b4e92bf1611a",
       "group": "campus",
@@ -5007,7 +4938,42 @@ window.DASHBOARD_DATA = {
       "daysOpen": 0
     },
     {
-      "id": "report-92da133147",
+      "id": "campus-a4e8adaa7e",
+      "threadId": "1a12eb5d69d3d30d",
+      "group": "campus",
+      "subject": "Get ready for Beyond the Blueprint tomorrow!",
+      "counterpart": "internal (Femina)",
+      "email": "femina@tinkerhub.org",
+      "received": "2026-10-12",
+      "last": "2026-10-12",
+      "status": "Informational",
+      "note": "Femina event reminder mailing to participants, campus@ cc'd",
+      "cc": [
+        "campus@tinkerhub.org"
+      ],
+      "daysSinceReceived": 0,
+      "daysOpen": 0
+    },
+    {
+      "id": "tinkerspace-10c8a63724",
+      "threadId": "1a12ae4687067460",
+      "group": "tinkerspace",
+      "subject": "Request for Hardware Project Ideas \u2013 SIBAQ K7 Hardware Hackathon",
+      "counterpart": "Muhammed Yaseen",
+      "email": "muhammedyaseenkgb@gmail.com",
+      "received": "2026-10-11",
+      "last": "2026-10-12",
+      "status": "Awaiting reply (from us)",
+      "note": "Kurian looped in team on Oct 12; student team awaits hardware project ideas",
+      "cc": [
+        "tinkerspace@tinkerhub.org",
+        "hello@tinkerhub.org"
+      ],
+      "daysSinceReceived": 1,
+      "daysOpen": 1
+    },
+    {
+      "id": "report-2508296b9d",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -5022,7 +4988,7 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
-      "id": "report-cd2fda5e8a",
+      "id": "report-32368b7a8a",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -5030,14 +4996,14 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Awaiting reply (from them)",
+      "status": "Resolved",
       "note": null,
-      "daysOpen": 11,
+      "daysOpen": 0,
       "daysSinceReceived": 11,
       "cc": []
     },
     {
-      "id": "report-a5f2bfd7ff",
+      "id": "report-2efffb52bd",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -5045,14 +5011,29 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Awaiting reply (from them)",
+      "status": "Resolved",
       "note": null,
-      "daysOpen": 14,
+      "daysOpen": 2,
       "daysSinceReceived": 14,
       "cc": []
     },
     {
-      "id": "report-1e0abd4de6",
+      "id": "report-0e049cce6a",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Informational",
+      "note": null,
+      "daysOpen": 16,
+      "daysSinceReceived": 19,
+      "cc": []
+    },
+    {
+      "id": "report-f81c90e2e2",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -5062,12 +5043,12 @@ window.DASHBOARD_DATA = {
       "last": null,
       "status": "Awaiting reply (from them)",
       "note": null,
-      "daysOpen": 19,
-      "daysSinceReceived": 19,
+      "daysOpen": 34,
+      "daysSinceReceived": 34,
       "cc": []
     },
     {
-      "id": "report-2cc5ed8c6b",
+      "id": "report-bd95681ff2",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -5075,14 +5056,14 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Awaiting reply (from us)",
+      "status": "Awaiting reply (from them)",
       "note": null,
       "daysOpen": 34,
       "daysSinceReceived": 34,
       "cc": []
     },
     {
-      "id": "report-f0f77634cc",
+      "id": "report-e6e0ba81e3",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -5090,14 +5071,14 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Awaiting reply (from us)",
+      "status": "Awaiting reply (from them)",
       "note": null,
       "daysOpen": 34,
       "daysSinceReceived": 34,
       "cc": []
     },
     {
-      "id": "report-ed0e75e3e7",
+      "id": "report-2fe5a39cb3",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -5105,29 +5086,14 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Awaiting reply (from us)",
+      "status": "Resolved",
       "note": null,
-      "daysOpen": 34,
-      "daysSinceReceived": 34,
-      "cc": []
-    },
-    {
-      "id": "report-9eb79eb220",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Awaiting reply (from us)",
-      "note": null,
-      "daysOpen": 48,
+      "daysOpen": 29,
       "daysSinceReceived": 48,
       "cc": []
     },
     {
-      "id": "report-a90f789238",
+      "id": "report-d85d78c8bc",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -5135,14 +5101,29 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Awaiting reply (from us)",
+      "status": "Awaiting reply (from them)",
+      "note": null,
+      "daysOpen": 49,
+      "daysSinceReceived": 49,
+      "cc": []
+    },
+    {
+      "id": "report-6e08f6c646",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Awaiting reply (from them)",
       "note": null,
       "daysOpen": 46,
       "daysSinceReceived": 46,
       "cc": []
     },
     {
-      "id": "report-32866bf511",
+      "id": "report-aa2b5a017e",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -5150,31 +5131,30 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Awaiting reply (from them)",
+      "status": "Informational",
       "note": null,
-      "daysOpen": 25,
+      "daysOpen": 22,
       "daysSinceReceived": 25,
       "cc": []
     }
   ],
   "summary": {
-    "total": 293,
     "No response": 8,
-    "Awaiting reply (from us)": 21,
-    "Awaiting reply (from them)": 31,
-    "Resolved": 58,
-    "Informational": 175
+    "Awaiting reply (from us)": 17,
+    "Awaiting reply (from them)": 32,
+    "Resolved": 57,
+    "Informational": 178
   },
   "analytics": {
     "campus": {
-      "total": 237,
+      "total": 234,
       "No response": 3,
       "Awaiting reply (from us)": 7,
       "Awaiting reply (from them)": 24,
-      "Resolved": 42,
-      "Informational": 161,
+      "Resolved": 38,
+      "Informational": 162,
       "avgOpenDays": 19.0,
-      "avgResolvedDays": 8.0
+      "avgResolvedDays": 8.7
     },
     "support": {
       "total": 13,
@@ -5197,14 +5177,14 @@ window.DASHBOARD_DATA = {
       "avgResolvedDays": 2.0
     },
     "report": {
-      "total": 10,
+      "total": 11,
       "No response": 0,
-      "Awaiting reply (from us)": 5,
-      "Awaiting reply (from them)": 4,
-      "Resolved": 0,
-      "Informational": 1,
-      "avgOpenDays": 29.4,
-      "avgResolvedDays": 0
+      "Awaiting reply (from us)": 0,
+      "Awaiting reply (from them)": 5,
+      "Resolved": 3,
+      "Informational": 3,
+      "avgOpenDays": 39.4,
+      "avgResolvedDays": 10.3
     },
     "partner": {
       "total": 7,
@@ -5217,13 +5197,13 @@ window.DASHBOARD_DATA = {
       "avgResolvedDays": 1.0
     },
     "tinkerspace": {
-      "total": 1,
+      "total": 2,
       "No response": 0,
-      "Awaiting reply (from us)": 0,
+      "Awaiting reply (from us)": 1,
       "Awaiting reply (from them)": 0,
       "Resolved": 1,
       "Informational": 0,
-      "avgOpenDays": 0,
+      "avgOpenDays": 1.0,
       "avgResolvedDays": 1.0
     }
   }
