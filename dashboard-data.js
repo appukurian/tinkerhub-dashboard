@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-12T08:43:05Z",
+  "generatedAt": "2026-10-12T10:43:00Z",
   "threads": [
     {
       "id": "finance-e55e10ccbe",
@@ -404,8 +404,8 @@ window.DASHBOARD_DATA = {
       "email": "palakh@launchverse.org",
       "received": "2026-10-08",
       "last": "2026-10-12",
-      "status": "Awaiting reply (from us)",
-      "note": "Joan proposed online meet from 13 Oct; Palakh replied 12 Oct suggesting tomorrow or Wednesday and asked us to share time slots - we owe time slots",
+      "status": "Resolved",
+      "note": "Meeting confirmed: Joan sent Meet invite for 13 Oct 3:30-4:30 PM; Palakh acknowledged (12 Oct). Nothing owed until the call",
       "daysOpen": 4,
       "daysSinceReceived": 4,
       "cc": [
@@ -5140,9 +5140,9 @@ window.DASHBOARD_DATA = {
   ],
   "summary": {
     "No response": 8,
-    "Awaiting reply (from us)": 17,
+    "Awaiting reply (from us)": 16,
     "Awaiting reply (from them)": 32,
-    "Resolved": 57,
+    "Resolved": 58,
     "Informational": 178
   },
   "analytics": {
@@ -5153,7 +5153,7 @@ window.DASHBOARD_DATA = {
       "Awaiting reply (from them)": 24,
       "Resolved": 38,
       "Informational": 162,
-      "avgOpenDays": 19,
+      "avgOpenDays": 19.0,
       "avgResolvedDays": 8.7
     },
     "support": {
@@ -5173,8 +5173,8 @@ window.DASHBOARD_DATA = {
       "Awaiting reply (from them)": 0,
       "Resolved": 7,
       "Informational": 12,
-      "avgOpenDays": 11,
-      "avgResolvedDays": 2
+      "avgOpenDays": 11.0,
+      "avgResolvedDays": 2.0
     },
     "report": {
       "total": 11,
@@ -5189,12 +5189,12 @@ window.DASHBOARD_DATA = {
     "partner": {
       "total": 7,
       "No response": 0,
-      "Awaiting reply (from us)": 3,
+      "Awaiting reply (from us)": 2,
       "Awaiting reply (from them)": 2,
-      "Resolved": 1,
+      "Resolved": 2,
       "Informational": 1,
-      "avgOpenDays": 10.6,
-      "avgResolvedDays": 1
+      "avgOpenDays": 12.2,
+      "avgResolvedDays": 2.5
     },
     "tinkerspace": {
       "total": 2,
@@ -5203,8 +5203,8 @@ window.DASHBOARD_DATA = {
       "Awaiting reply (from them)": 1,
       "Resolved": 1,
       "Informational": 0,
-      "avgOpenDays": 1,
-      "avgResolvedDays": 1
+      "avgOpenDays": 1.0,
+      "avgResolvedDays": 1.0
     }
   }
 };
