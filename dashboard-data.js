@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-12T12:44:00Z",
+  "generatedAt": "2026-10-12T14:45:09Z",
   "threads": [
     {
       "id": "finance-e55e10ccbe",
@@ -5136,11 +5136,29 @@ window.DASHBOARD_DATA = {
       "daysOpen": 22,
       "daysSinceReceived": 25,
       "cc": []
+    },
+    {
+      "id": "partner-c6d4104234",
+      "threadId": "1a1302db0d67df79",
+      "group": "partner",
+      "subject": "Build for Bharat Fellowship 2027 | Opportunity for your community",
+      "counterpart": "Rishabh Tripathi (Bharat Digital)",
+      "email": "rishabh@bharatdigital.io",
+      "received": "2026-10-12",
+      "last": "2026-10-12",
+      "status": "Awaiting reply (from us)",
+      "note": "Fellowship promo (cohort 3) sent to community; Kurian looped in partner@ 12 Oct, no team reply yet",
+      "cc": [
+        "partner@tinkerhub.org",
+        "hello@tinkerhub.org"
+      ],
+      "daysSinceReceived": 0,
+      "daysOpen": 0
     }
   ],
   "summary": {
     "No response": 8,
-    "Awaiting reply (from us)": 16,
+    "Awaiting reply (from us)": 17,
     "Awaiting reply (from them)": 32,
     "Resolved": 58,
     "Informational": 178
@@ -5153,7 +5171,7 @@ window.DASHBOARD_DATA = {
       "Awaiting reply (from them)": 24,
       "Resolved": 38,
       "Informational": 162,
-      "avgOpenDays": 19.0,
+      "avgOpenDays": 19,
       "avgResolvedDays": 8.7
     },
     "support": {
@@ -5173,8 +5191,8 @@ window.DASHBOARD_DATA = {
       "Awaiting reply (from them)": 0,
       "Resolved": 7,
       "Informational": 12,
-      "avgOpenDays": 11.0,
-      "avgResolvedDays": 2.0
+      "avgOpenDays": 11,
+      "avgResolvedDays": 2
     },
     "report": {
       "total": 11,
@@ -5187,13 +5205,13 @@ window.DASHBOARD_DATA = {
       "avgResolvedDays": 10.3
     },
     "partner": {
-      "total": 7,
+      "total": 8,
       "No response": 0,
-      "Awaiting reply (from us)": 2,
+      "Awaiting reply (from us)": 3,
       "Awaiting reply (from them)": 2,
       "Resolved": 2,
       "Informational": 1,
-      "avgOpenDays": 12.2,
+      "avgOpenDays": 9.8,
       "avgResolvedDays": 2.5
     },
     "tinkerspace": {
@@ -5203,8 +5221,8 @@ window.DASHBOARD_DATA = {
       "Awaiting reply (from them)": 1,
       "Resolved": 1,
       "Informational": 0,
-      "avgOpenDays": 1.0,
-      "avgResolvedDays": 1.0
+      "avgOpenDays": 1,
+      "avgResolvedDays": 1
     }
   }
 };
