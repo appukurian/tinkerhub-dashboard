@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-13T04:42:00Z",
+  "generatedAt": "2026-10-13T06:44:01Z",
   "threads": [
     {
       "id": "finance-e55e10ccbe",
@@ -4929,9 +4929,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "Rishabh Tripathi (Bharat Digital)",
       "email": "rishabh@bharatdigital.io",
       "received": "2026-10-12",
-      "last": "2026-10-12",
-      "status": "Awaiting reply (from us)",
-      "note": "Fellowship promo (cohort 3) sent to community; Kurian looped in partner@ 12 Oct, no team reply yet",
+      "last": "2026-10-13",
+      "status": "Informational",
+      "note": "Fellowship promo (cohort 3); Joan replied 13 Oct thanking Rishabh and engaging, cc partner@",
       "cc": [
         "partner@tinkerhub.org",
         "hello@tinkerhub.org"
@@ -5088,23 +5088,57 @@ window.DASHBOARD_DATA = {
       "daysOpen": 26,
       "daysSinceReceived": 26,
       "cc": []
+    },
+    {
+      "id": "campus-392e47904d",
+      "threadId": "1a133f92d45bbf8f",
+      "group": "campus",
+      "subject": "A small ask before the Beyond the Blueprint session",
+      "counterpart": "internal (Femina)",
+      "email": "femina@tinkerhub.org",
+      "received": "2026-10-13",
+      "last": "2026-10-13",
+      "status": "Informational",
+      "note": "Femina pre-session prompt sent to participants, campus@ cc'd",
+      "cc": [
+        "campus@tinkerhub.org"
+      ],
+      "daysSinceReceived": 0,
+      "daysOpen": 0
+    },
+    {
+      "id": "campus-79e6226853",
+      "threadId": "1a133c275c4a8904",
+      "group": "campus",
+      "subject": "Invitation: TinkerHub x Socratus: Student Co-creation Meet @ Tue Oct 13, 2026 7pm - 8pm (IST) (Kurian Jacob)",
+      "counterpart": "internal (Habeeb)",
+      "email": "habeeb@tinkerhub.org",
+      "received": "2026-10-13",
+      "last": "2026-10-13",
+      "status": "Informational",
+      "note": "Calendar invite for Socratus co-creation meet today 7pm IST",
+      "cc": [
+        "campus@tinkerhub.org"
+      ],
+      "daysSinceReceived": 0,
+      "daysOpen": 0
     }
   ],
   "summary": {
     "No response": 7,
-    "Awaiting reply (from us)": 22,
+    "Awaiting reply (from us)": 21,
     "Awaiting reply (from them)": 31,
     "Resolved": 55,
-    "Informational": 174
+    "Informational": 177
   },
   "analytics": {
     "campus": {
-      "total": 234,
+      "total": 236,
       "No response": 3,
       "Awaiting reply (from us)": 7,
       "Awaiting reply (from them)": 24,
       "Resolved": 38,
-      "Informational": 162,
+      "Informational": 164,
       "avgOpenDays": 20,
       "avgResolvedDays": 8.7
     },
@@ -5141,11 +5175,11 @@ window.DASHBOARD_DATA = {
     "partner": {
       "total": 8,
       "No response": 0,
-      "Awaiting reply (from us)": 3,
+      "Awaiting reply (from us)": 2,
       "Awaiting reply (from them)": 2,
       "Resolved": 2,
-      "Informational": 1,
-      "avgOpenDays": 10.8,
+      "Informational": 2,
+      "avgOpenDays": 13.3,
       "avgResolvedDays": 2.5
     },
     "tinkerspace": {
