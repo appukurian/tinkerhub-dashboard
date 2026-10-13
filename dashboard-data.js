@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-13T08:43:58Z",
+  "generatedAt": "2026-10-13T10:43:34Z",
   "threads": [
     {
       "id": "finance-e55e10ccbe",
@@ -403,10 +403,10 @@ window.DASHBOARD_DATA = {
       "counterpart": "Palakh Khanna (LaunchVerse)",
       "email": "palakh@launchverse.org",
       "received": "2026-10-08",
-      "last": "2026-10-12",
+      "last": "2026-10-13",
       "status": "Resolved",
-      "note": "Meeting confirmed: Joan sent Meet invite for 13 Oct 3:30-4:30 PM; Palakh acknowledged (12 Oct). Nothing owed until the call",
-      "daysOpen": 4,
+      "note": "Meeting rescheduled at Palakh's request to 6 PM IST today (13 Oct); Joan confirmed and will update invite. Nothing owed until the call",
+      "daysOpen": 5,
       "daysSinceReceived": 5,
       "cc": [
         "partner@tinkerhub.org",
@@ -5173,10 +5173,27 @@ window.DASHBOARD_DATA = {
       "cc": [],
       "daysSinceReceived": 11,
       "daysOpen": 0
+    },
+    {
+      "id": "campus-645d04a74e",
+      "threadId": "1a134d3888cc09e2",
+      "group": "campus",
+      "subject": "Request to Send Useless Projects Celebration Goodies to My Personal Address",
+      "counterpart": "Anjali S Pillai",
+      "email": "anjalispillai321@gmail.com",
+      "received": "2026-10-13",
+      "last": "2026-10-13",
+      "status": "No response",
+      "note": "Asks that Useless Projects celebration goodies be sent to personal address instead of college; no reply yet",
+      "cc": [
+        "campus@tinkerhub.org"
+      ],
+      "daysSinceReceived": 0,
+      "daysOpen": 0
     }
   ],
   "summary": {
-    "No response": 7,
+    "No response": 8,
     "Awaiting reply (from us)": 18,
     "Awaiting reply (from them)": 34,
     "Resolved": 57,
@@ -5184,13 +5201,13 @@ window.DASHBOARD_DATA = {
   },
   "analytics": {
     "campus": {
-      "total": 239,
-      "No response": 3,
+      "total": 240,
+      "No response": 4,
       "Awaiting reply (from us)": 8,
       "Awaiting reply (from them)": 25,
       "Resolved": 38,
       "Informational": 165,
-      "avgOpenDays": 18.9,
+      "avgOpenDays": 18.4,
       "avgResolvedDays": 8.7
     },
     "support": {
@@ -5231,7 +5248,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 2,
       "Informational": 2,
       "avgOpenDays": 13.3,
-      "avgResolvedDays": 2.5
+      "avgResolvedDays": 3
     },
     "tinkerspace": {
       "total": 2,
