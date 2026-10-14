@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-14T10:42:00Z",
+  "generatedAt": "2026-10-14T12:43:00Z",
   "threads": [
     {
       "id": "finance-e55e10ccbe",
@@ -293,9 +293,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "Aswathi M R (Naipunnya Institute of Management and Information Technology)",
       "email": "aswathimr@naipunnya.ac.in",
       "received": "2026-10-09",
-      "last": "2026-10-09",
+      "last": "2026-10-14",
       "status": "Awaiting reply (from them)",
-      "note": "Requests visit for ~150 BCA/BSc CS/IT students; Shan (Space Manager) replied: industrial visits Tue-Fri, 1hr, max 60 students/visit, no fee — asked for preferred dates",
+      "note": "Requests visit for ~150 students; Shan (Space Manager) confirmed visit is possible on 14 Oct and is now main point of contact; dates being coordinated with them",
       "daysOpen": 5,
       "daysSinceReceived": 5,
       "cc": [
@@ -4749,40 +4749,6 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "campus-4afc9affa2",
-      "threadId": "1a093d6d595665b5",
-      "group": "campus",
-      "subject": "Cancellation Of Venue - FISAT",
-      "counterpart": "Nikhil",
-      "email": "nikhilak2005@gmail.com",
-      "received": "2026-09-12",
-      "last": "2026-09-15",
-      "status": "Resolved",
-      "note": "cancellation acknowledged",
-      "daysOpen": 3,
-      "daysSinceReceived": 32,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-3ecf7cd408",
-      "threadId": "1a0a073d680f8c24",
-      "group": "campus",
-      "subject": "Concern Regarding Judging Fairness - Useless Projects CUSAT",
-      "counterpart": "Sivadarsh P Dinesh (CUSAT)",
-      "email": "sivadarshpdinesh@gmail.com",
-      "received": "2026-09-14",
-      "last": "2026-09-15",
-      "status": "Resolved",
-      "note": "assured all CUSAT submissions will be considered",
-      "daysOpen": 1,
-      "daysSinceReceived": 30,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
       "id": "campus-390ba75e4d",
       "threadId": "1a0a3e5d423f9083",
       "group": "campus",
@@ -4829,23 +4795,6 @@ window.DASHBOARD_DATA = {
       "note": "assured all submitted projects considered",
       "daysOpen": 0,
       "daysSinceReceived": 29,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-1316adf2d3",
-      "threadId": "1a095b24ef9d8a5a",
-      "group": "campus",
-      "subject": "Requesting to extend useless application",
-      "counterpart": "Afeefa Parvin (ICET)",
-      "email": "afeefaparvin88@gmail.com",
-      "received": "2026-09-12",
-      "last": "2026-09-15",
-      "status": "Resolved",
-      "note": "deadline updated",
-      "daysOpen": 3,
-      "daysSinceReceived": 32,
       "cc": [
         "campus@tinkerhub.org"
       ]
@@ -5206,25 +5155,44 @@ window.DASHBOARD_DATA = {
       "daysOpen": 27,
       "daysSinceReceived": 27,
       "cc": []
+    },
+    {
+      "id": "tinkerspace-c398295ec4",
+      "threadId": "1a13a23581e11303",
+      "group": "tinkerspace",
+      "subject": "Technical Workshop Proposal – AI Wednesdays at TinkerSpace Kochi",
+      "counterpart": "Devanandha Vellaramkuzhiyil Shaji",
+      "email": "devanandhadevv@gmail.com",
+      "received": "2026-10-14",
+      "last": "2026-10-14",
+      "status": "Awaiting reply (from them)",
+      "note": "Proposes AI Wednesdays workshop at TinkerSpace Kochi; Jasim replied willing to host and asked for details",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "tinkerspace@tinkerhub.org",
+        "hello@tinkerhub.org",
+        "jasim@tinkerhub.org"
+      ]
     }
   ],
   "summary": {
     "No response": 7,
     "Awaiting reply (from us)": 19,
-    "Awaiting reply (from them)": 34,
-    "Resolved": 58,
+    "Awaiting reply (from them)": 35,
+    "Resolved": 55,
     "Informational": 178
   },
   "analytics": {
     "campus": {
-      "total": 240,
+      "total": 237,
       "No response": 3,
       "Awaiting reply (from us)": 9,
       "Awaiting reply (from them)": 25,
-      "Resolved": 38,
+      "Resolved": 35,
       "Informational": 165,
       "avgOpenDays": 19.4,
-      "avgResolvedDays": 8.7
+      "avgResolvedDays": 9.3
     },
     "support": {
       "total": 12,
@@ -5267,13 +5235,13 @@ window.DASHBOARD_DATA = {
       "avgResolvedDays": 3
     },
     "tinkerspace": {
-      "total": 2,
+      "total": 3,
       "No response": 0,
       "Awaiting reply (from us)": 0,
-      "Awaiting reply (from them)": 1,
+      "Awaiting reply (from them)": 2,
       "Resolved": 1,
       "Informational": 0,
-      "avgOpenDays": 3,
+      "avgOpenDays": 1.5,
       "avgResolvedDays": 1
     }
   }
