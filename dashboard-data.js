@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-14T14:43:03Z",
+  "generatedAt": "2026-10-14T16:44:00Z",
   "threads": [
     {
       "id": "finance-e55e10ccbe",
@@ -5159,25 +5159,91 @@ window.DASHBOARD_DATA = {
       "daysOpen": 27,
       "daysSinceReceived": 27,
       "cc": []
+    },
+    {
+      "id": "campus-375d712600",
+      "threadId": "1a0a073d680f8c24",
+      "group": "campus",
+      "subject": "Concern Regarding Judging Fairness – Useless Projects CUSAT",
+      "counterpart": "Sivadarsh P Dinesh",
+      "email": "sivadarshpdinesh@gmail.com",
+      "received": "2026-09-14",
+      "last": "2026-09-15",
+      "status": "Resolved",
+      "note": "Femina replied; all CUSAT app submissions will be considered",
+      "cc": [
+        "campus@tinkerhub.org"
+      ],
+      "daysSinceReceived": 30,
+      "daysOpen": 1
+    },
+    {
+      "id": "campus-fea6224f62",
+      "threadId": "1a095b24ef9d8a5a",
+      "group": "campus",
+      "subject": "Requesting to extend useless application",
+      "counterpart": "Afeefa Parvin",
+      "email": "afeefaparvin88@gmail.com",
+      "received": "2026-09-12",
+      "last": "2026-09-15",
+      "status": "Resolved",
+      "note": "Femina confirmed deadline was updated",
+      "cc": [
+        "campus@tinkerhub.org"
+      ],
+      "daysSinceReceived": 32,
+      "daysOpen": 3
+    },
+    {
+      "id": "campus-4afc9affa2",
+      "threadId": "1a093d6d595665b5",
+      "group": "campus",
+      "subject": "Cancellation Of Venue - FISAT",
+      "counterpart": "Nikhil",
+      "email": "nikhilak2005@gmail.com",
+      "received": "2026-09-12",
+      "last": "2026-09-15",
+      "status": "Resolved",
+      "note": "FISAT withdrew as Useless Projects venue; Femina acknowledged",
+      "cc": [
+        "campus@tinkerhub.org"
+      ],
+      "daysSinceReceived": 32,
+      "daysOpen": 3
+    },
+    {
+      "id": "report-7608a88b9f",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Awaiting reply (from them)",
+      "note": null,
+      "daysOpen": 51,
+      "daysSinceReceived": 51,
+      "cc": []
     }
   ],
   "summary": {
     "No response": 7,
     "Awaiting reply (from us)": 18,
-    "Awaiting reply (from them)": 34,
-    "Resolved": 56,
+    "Awaiting reply (from them)": 35,
+    "Resolved": 59,
     "Informational": 178
   },
   "analytics": {
     "campus": {
-      "total": 237,
+      "total": 240,
       "No response": 3,
       "Awaiting reply (from us)": 8,
       "Awaiting reply (from them)": 25,
-      "Resolved": 36,
+      "Resolved": 39,
       "Informational": 165,
       "avgOpenDays": 19.9,
-      "avgResolvedDays": 9
+      "avgResolvedDays": 8.5
     },
     "support": {
       "total": 12,
@@ -5186,7 +5252,7 @@ window.DASHBOARD_DATA = {
       "Awaiting reply (from them)": 0,
       "Resolved": 7,
       "Informational": 0,
-      "avgOpenDays": 33,
+      "avgOpenDays": 33.0,
       "avgResolvedDays": 13.6
     },
     "finance": {
@@ -5196,17 +5262,17 @@ window.DASHBOARD_DATA = {
       "Awaiting reply (from them)": 0,
       "Resolved": 7,
       "Informational": 10,
-      "avgOpenDays": 13,
+      "avgOpenDays": 13.0,
       "avgResolvedDays": 2.7
     },
     "report": {
-      "total": 10,
+      "total": 11,
       "No response": 0,
       "Awaiting reply (from us)": 0,
-      "Awaiting reply (from them)": 6,
+      "Awaiting reply (from them)": 7,
       "Resolved": 3,
       "Informational": 1,
-      "avgOpenDays": 34,
+      "avgOpenDays": 36.4,
       "avgResolvedDays": 10.3
     },
     "partner": {
@@ -5216,8 +5282,8 @@ window.DASHBOARD_DATA = {
       "Awaiting reply (from them)": 1,
       "Resolved": 2,
       "Informational": 2,
-      "avgOpenDays": 14.3,
-      "avgResolvedDays": 3
+      "avgOpenDays": 14.2,
+      "avgResolvedDays": 3.0
     },
     "tinkerspace": {
       "total": 3,
@@ -5227,7 +5293,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 0,
       "avgOpenDays": 1.5,
-      "avgResolvedDays": 1
+      "avgResolvedDays": 1.0
     }
   }
 };
