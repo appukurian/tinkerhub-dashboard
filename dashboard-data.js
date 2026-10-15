@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-15T14:43:07Z",
+  "generatedAt": "2026-10-15T16:43:17Z",
   "threads": [
     {
       "id": "finance-91621f86a9",
@@ -4648,195 +4648,6 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "support-7735bacd94",
-      "threadId": "1a0a39db2d48e1ab",
-      "group": "support",
-      "subject": "Request to Consider a Team's Useless Projects Competition Submission",
-      "counterpart": "Aibin Shibu (Campus Lead)",
-      "email": "aibinshibuc@gmail.com",
-      "received": "2026-09-15",
-      "last": "2026-09-15",
-      "status": "No response",
-      "note": "forwarded late-submission request, needs review",
-      "daysOpen": 30,
-      "daysSinceReceived": 30,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-fc25a42da0",
-      "threadId": "1a0a3e41384869c6",
-      "group": "campus",
-      "subject": "Feedback on the judging process -useless project CUSAT",
-      "counterpart": "Rhithujith P (CUSAT)",
-      "email": "rhithujithp@gmail.com",
-      "received": "2026-09-15",
-      "last": "2026-09-15",
-      "status": "Informational",
-      "note": "acknowledged judging feedback",
-      "daysOpen": 0,
-      "daysSinceReceived": 30,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-900555b5d6",
-      "threadId": "1a0a3e871859387a",
-      "group": "campus",
-      "subject": "Quick feedback on CUSAT Useless Projects: Presentation scheduling and voting",
-      "counterpart": "Aakhil (CUSAT)",
-      "email": "mohammedaakhil2k6@gmail.com",
-      "received": "2026-09-15",
-      "last": "2026-09-15",
-      "status": "Informational",
-      "note": "acknowledged judging feedback",
-      "daysOpen": 0,
-      "daysSinceReceived": 30,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-8487d3405a",
-      "threadId": "1a0a3e9e1ec97efb",
-      "group": "campus",
-      "subject": "Thoughts on participant voting and presentation order at CUSAT Useless Projects",
-      "counterpart": "Sreelakshmi (CUSAT)",
-      "email": "sreeluuz.in@gmail.com",
-      "received": "2026-09-15",
-      "last": "2026-09-15",
-      "status": "Informational",
-      "note": "acknowledged judging feedback",
-      "daysOpen": 0,
-      "daysSinceReceived": 30,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-6654242819",
-      "threadId": "1a09a00881574eb6",
-      "group": "campus",
-      "subject": "Request to Update Event Timing",
-      "counterpart": "Christy Basil Anil",
-      "email": "magicianchristy@gmail.com",
-      "received": "2026-09-13",
-      "last": "2026-09-15",
-      "status": "Resolved",
-      "note": "event timing updated",
-      "daysOpen": 2,
-      "daysSinceReceived": 32,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-547a2c0660",
-      "threadId": "1a0a393a0ee062cc",
-      "group": "campus",
-      "subject": "Request for consideration of teams affected by technical submission issues",
-      "counterpart": "Ananya Anand (Christ College of Engineering)",
-      "email": "ananyaanandmenoth@gmail.com",
-      "received": "2026-09-15",
-      "last": "2026-09-15",
-      "status": "Resolved",
-      "note": "assured all submitted projects considered",
-      "daysOpen": 0,
-      "daysSinceReceived": 30,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-51d1e1c4eb",
-      "threadId": "1a095ea227c3b2fb",
-      "group": "campus",
-      "subject": "Voting time extension.",
-      "counterpart": "Arjun AS (Vimal Jyothi Engineering College)",
-      "email": "arjunaskvl@gmail.com",
-      "received": "2026-09-12",
-      "last": "2026-09-15",
-      "status": "Resolved",
-      "note": "voting window already communicated earlier",
-      "daysOpen": 3,
-      "daysSinceReceived": 33,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-390ba75e4d",
-      "threadId": "1a0a3e5d423f9083",
-      "group": "campus",
-      "subject": "Feedback regarding evaluation equity and presentation slots at Useless Projects CUSAT",
-      "counterpart": "Thejas (CUSAT)",
-      "email": "vthejas44@gmail.com",
-      "received": "2026-09-15",
-      "last": "2026-09-15",
-      "status": "Informational",
-      "note": "acknowledged judging feedback",
-      "daysOpen": 0,
-      "daysSinceReceived": 30,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-1de33acbb8",
-      "threadId": "1a0a3e6e22851c9e",
-      "group": "campus",
-      "subject": "Feedback on evaluation mechanics for Useless Projects (SOE CUSAT)",
-      "counterpart": "Thanu (SOE CUSAT)",
-      "email": "snthanu101@gmail.com",
-      "received": "2026-09-15",
-      "last": "2026-09-15",
-      "status": "Informational",
-      "note": "acknowledged judging feedback",
-      "daysOpen": 0,
-      "daysSinceReceived": 30,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-1c3989cc3e",
-      "threadId": "1a0a392f68c640a5",
-      "group": "campus",
-      "subject": "Requesting Regarding the voting procedure and project selection",
-      "counterpart": "Dhrisya Narayanan (Thejus Engineering College)",
-      "email": "dhrisyanarayanan7@gmail.com",
-      "received": "2026-09-15",
-      "last": "2026-09-15",
-      "status": "Resolved",
-      "note": "assured all submitted projects considered",
-      "daysOpen": 0,
-      "daysSinceReceived": 30,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-2bfa647432",
-      "threadId": "19fc5b277d1d1530",
-      "group": "campus",
-      "subject": "Space for developer sprint",
-      "counterpart": "Akansha (Project Tech4Dev)",
-      "email": "akansha@projecttech4dev.org",
-      "received": "2026-08-03",
-      "last": "2026-09-15",
-      "status": "Awaiting reply (from us)",
-      "note": "Akansha asked on 15 Sep to visit TinkerSpace Thu 17 Sep with ~20 people; no reply on thread (date passed)",
-      "daysOpen": 73,
-      "daysSinceReceived": 73,
-      "cc": [
-        "campus@tinkerhub.org",
-        "shan@tinkerhub.org",
-        "habeeb@tinkerhub.org"
-      ]
-    },
-    {
       "id": "campus-cce8e84c14",
       "threadId": "1a12b4e92bf1611a",
       "group": "campus",
@@ -5029,57 +4840,6 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "campus-375d712600",
-      "threadId": "1a0a073d680f8c24",
-      "group": "campus",
-      "subject": "Concern Regarding Judging Fairness \u2013 Useless Projects CUSAT",
-      "counterpart": "Sivadarsh P Dinesh",
-      "email": "sivadarshpdinesh@gmail.com",
-      "received": "2026-09-14",
-      "last": "2026-09-15",
-      "status": "Resolved",
-      "note": "Femina replied; all CUSAT app submissions will be considered",
-      "cc": [
-        "campus@tinkerhub.org"
-      ],
-      "daysSinceReceived": 31,
-      "daysOpen": 1
-    },
-    {
-      "id": "campus-fea6224f62",
-      "threadId": "1a095b24ef9d8a5a",
-      "group": "campus",
-      "subject": "Requesting to extend useless application",
-      "counterpart": "Afeefa Parvin",
-      "email": "afeefaparvin88@gmail.com",
-      "received": "2026-09-12",
-      "last": "2026-09-15",
-      "status": "Resolved",
-      "note": "Femina confirmed deadline was updated",
-      "cc": [
-        "campus@tinkerhub.org"
-      ],
-      "daysSinceReceived": 33,
-      "daysOpen": 3
-    },
-    {
-      "id": "campus-4afc9affa2",
-      "threadId": "1a093d6d595665b5",
-      "group": "campus",
-      "subject": "Cancellation Of Venue - FISAT",
-      "counterpart": "Nikhil",
-      "email": "nikhilak2005@gmail.com",
-      "received": "2026-09-12",
-      "last": "2026-09-15",
-      "status": "Resolved",
-      "note": "FISAT withdrew as Useless Projects venue; Femina acknowledged",
-      "cc": [
-        "campus@tinkerhub.org"
-      ],
-      "daysSinceReceived": 33,
-      "daysOpen": 3
-    },
-    {
       "id": "report-55aec88bb6",
       "threadId": null,
       "group": "report",
@@ -5231,31 +4991,31 @@ window.DASHBOARD_DATA = {
     }
   ],
   "summary": {
-    "No response": 6,
-    "Awaiting reply (from us)": 19,
+    "No response": 5,
+    "Awaiting reply (from us)": 18,
     "Awaiting reply (from them)": 35,
-    "Resolved": 59,
-    "Informational": 178
+    "Resolved": 52,
+    "Informational": 173
   },
   "analytics": {
     "campus": {
-      "total": 240,
+      "total": 227,
       "No response": 2,
-      "Awaiting reply (from us)": 9,
+      "Awaiting reply (from us)": 8,
       "Awaiting reply (from them)": 25,
-      "Resolved": 39,
-      "Informational": 165,
-      "avgOpenDays": 20.9,
-      "avgResolvedDays": 8.5
+      "Resolved": 32,
+      "Informational": 160,
+      "avgOpenDays": 19.4,
+      "avgResolvedDays": 10.0
     },
     "support": {
-      "total": 12,
-      "No response": 1,
+      "total": 11,
+      "No response": 0,
       "Awaiting reply (from us)": 4,
       "Awaiting reply (from them)": 0,
       "Resolved": 7,
       "Informational": 0,
-      "avgOpenDays": 34.0,
+      "avgOpenDays": 35.0,
       "avgResolvedDays": 13.6
     },
     "finance": {
