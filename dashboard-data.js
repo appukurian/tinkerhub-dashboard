@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-15T02:44:00Z",
+  "generatedAt": "2026-10-15T04:43:25Z",
   "threads": [
     {
       "id": "finance-e55e10ccbe",
@@ -5115,14 +5115,14 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Awaiting reply (from them)",
+      "status": "Resolved",
       "note": null,
-      "daysOpen": 22,
+      "daysOpen": 16,
       "daysSinceReceived": 22,
       "cc": []
     },
     {
-      "id": "report-e5e12ff0cd",
+      "id": "report-14807cce3a",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -5152,7 +5152,7 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
-      "id": "report-14807cce3a",
+      "id": "report-e5e12ff0cd",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -5182,7 +5182,7 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
-      "id": "report-aa14764f2a",
+      "id": "report-7233bd84d2",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -5210,28 +5210,13 @@ window.DASHBOARD_DATA = {
       "daysOpen": 28,
       "daysSinceReceived": 28,
       "cc": []
-    },
-    {
-      "id": "report-7608a88b9f",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Awaiting reply (from them)",
-      "note": null,
-      "daysOpen": 52,
-      "daysSinceReceived": 52,
-      "cc": []
     }
   ],
   "summary": {
     "No response": 7,
     "Awaiting reply (from us)": 18,
-    "Awaiting reply (from them)": 35,
-    "Resolved": 59,
+    "Awaiting reply (from them)": 33,
+    "Resolved": 60,
     "Informational": 178
   },
   "analytics": {
@@ -5266,14 +5251,14 @@ window.DASHBOARD_DATA = {
       "avgResolvedDays": 2.7
     },
     "report": {
-      "total": 11,
+      "total": 10,
       "No response": 0,
       "Awaiting reply (from us)": 0,
-      "Awaiting reply (from them)": 7,
-      "Resolved": 3,
+      "Awaiting reply (from them)": 5,
+      "Resolved": 4,
       "Informational": 1,
-      "avgOpenDays": 37.4,
-      "avgResolvedDays": 10.3
+      "avgOpenDays": 37.6,
+      "avgResolvedDays": 11.8
     },
     "partner": {
       "total": 8,
