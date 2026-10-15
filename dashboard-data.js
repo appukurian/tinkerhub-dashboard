@@ -1,6 +1,23 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-15T12:42:49Z",
+  "generatedAt": "2026-10-15T14:43:07Z",
   "threads": [
+    {
+      "id": "finance-91621f86a9",
+      "threadId": "1a13feadf95abfb5",
+      "group": "finance",
+      "subject": "Request for Account Statement - 923010034732125",
+      "counterpart": "Axis Bank",
+      "email": "oprh3577@axisbank.com",
+      "received": "2026-10-15",
+      "last": "2026-10-15",
+      "status": "Awaiting reply (from them)",
+      "note": "Althaf requested current-FY account statement from Axis Bank; awaiting bank's reply",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "finance@tinkerhub.org"
+      ]
+    },
     {
       "id": "finance-e55e10ccbe",
       "threadId": "1a12873b9bcae3c2",
@@ -5216,7 +5233,7 @@ window.DASHBOARD_DATA = {
   "summary": {
     "No response": 6,
     "Awaiting reply (from us)": 19,
-    "Awaiting reply (from them)": 34,
+    "Awaiting reply (from them)": 35,
     "Resolved": 59,
     "Informational": 178
   },
@@ -5242,13 +5259,13 @@ window.DASHBOARD_DATA = {
       "avgResolvedDays": 13.6
     },
     "finance": {
-      "total": 23,
+      "total": 24,
       "No response": 3,
       "Awaiting reply (from us)": 3,
-      "Awaiting reply (from them)": 0,
+      "Awaiting reply (from them)": 1,
       "Resolved": 7,
       "Informational": 10,
-      "avgOpenDays": 14.0,
+      "avgOpenDays": 12.0,
       "avgResolvedDays": 2.7
     },
     "report": {
