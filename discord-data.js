@@ -1,7 +1,7 @@
 // Auto-generated daily by .github/workflows/discord-update.yml
 // Do NOT hand-edit — this file is overwritten on each run.
 window.DISCORD_DATA = {
-  "generatedAt": "2026-10-15T07:37:32Z",
+  "generatedAt": "2026-10-15T13:35:05Z",
   "threads": [
     {
       "id": "1550927317411434546",
@@ -37,7 +37,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-13",
       "resolvedAt": "2026-10-12",
       "daysOpen": 2,
-      "daysSinceReceived": 2,
+      "daysSinceReceived": 3,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -60,7 +60,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-13",
       "resolvedAt": "2026-10-11",
       "daysOpen": 1,
-      "daysSinceReceived": 3,
+      "daysSinceReceived": 4,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -90,9 +90,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Useless Registration issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546836713014567002",
-        "snippet": "the issue is resolved"
+        "fromThreadName": "Participants cant access the discord",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1548066566237724713",
+        "snippet": "<@710756853465743440> it is because the user is currently using a different discord account"
       }
     },
     {
@@ -105,7 +105,7 @@ window.DISCORD_DATA = {
       "received": "2026-10-10",
       "last": "2026-10-12",
       "resolvedAt": "2026-10-10",
-      "daysOpen": 2,
+      "daysOpen": 3,
       "daysSinceReceived": 4,
       "daysToClose": 0,
       "messageCount": 1,
@@ -128,8 +128,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-11",
       "last": "2026-10-11",
       "resolvedAt": "2026-10-11",
-      "daysOpen": 3,
-      "daysSinceReceived": 3,
+      "daysOpen": 4,
+      "daysSinceReceived": 4,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -151,8 +151,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-11",
       "last": "2026-10-11",
       "resolvedAt": "2026-10-11",
-      "daysOpen": 3,
-      "daysSinceReceived": 3,
+      "daysOpen": 4,
+      "daysSinceReceived": 4,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -160,8 +160,8 @@ window.DISCORD_DATA = {
       "resolutionSnippet": "",
       "suggestion": {
         "fromThreadName": "OTP issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1548205544861335572",
-        "snippet": "My team participants some how logged out of app and they can't re enter since otp isn't coming."
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1548283561608478891",
+        "snippet": "the issue is resolved"
       }
     },
     {
@@ -174,17 +174,17 @@ window.DISCORD_DATA = {
       "received": "2026-10-11",
       "last": "2026-10-11",
       "resolvedAt": "2026-10-11",
-      "daysOpen": 3,
-      "daysSinceReceived": 3,
+      "daysOpen": 4,
+      "daysSinceReceived": 4,
       "daysToClose": 0,
       "messageCount": 3,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Useless Registration issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546836713014567002",
-        "snippet": "the issue is resolved"
+        "fromThreadName": "Participants cant access the discord",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1548066566237724713",
+        "snippet": "<@710756853465743440> it is because the user is currently using a different discord account"
       }
     },
     {
@@ -228,9 +228,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Useless Registration issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546836713014567002",
-        "snippet": "the issue is resolved"
+        "fromThreadName": "Participants cant access the discord",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1548066566237724713",
+        "snippet": "<@710756853465743440> it is because the user is currently using a different discord account"
       }
     },
     {
@@ -244,16 +244,16 @@ window.DISCORD_DATA = {
       "last": "2026-10-11",
       "resolvedAt": "2026-10-10",
       "daysOpen": 4,
-      "daysSinceReceived": 4,
+      "daysSinceReceived": 5,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Useless Registration issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546836713014567002",
-        "snippet": "the issue is resolved"
+        "fromThreadName": "Participants cant access the discord",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1548066566237724713",
+        "snippet": "<@710756853465743440> it is because the user is currently using a different discord account"
       }
     },
     {
@@ -366,9 +366,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Useless Registration issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546836713014567002",
-        "snippet": "the issue is resolved"
+        "fromThreadName": "Participants cant access the discord",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1548066566237724713",
+        "snippet": "<@710756853465743440> it is because the user is currently using a different discord account"
       }
     },
     {
@@ -455,8 +455,8 @@ window.DISCORD_DATA = {
       "resolutionSnippet": "",
       "suggestion": {
         "fromThreadName": "OTP issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1548205544861335572",
-        "snippet": "My team participants some how logged out of app and they can't re enter since otp isn't coming."
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1548283561608478891",
+        "snippet": "the issue is resolved"
       }
     },
     {
@@ -584,7 +584,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-20",
       "last": "2026-10-02",
       "resolvedAt": "2026-09-20",
-      "daysOpen": 12,
+      "daysOpen": 13,
       "daysSinceReceived": 24,
       "daysToClose": 0,
       "messageCount": 1,
@@ -649,8 +649,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-26",
       "last": "2026-09-26",
       "resolvedAt": "2026-09-26",
-      "daysOpen": 18,
-      "daysSinceReceived": 18,
+      "daysOpen": 19,
+      "daysSinceReceived": 19,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -695,8 +695,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-23",
       "last": "2026-09-23",
       "resolvedAt": "2026-09-23",
-      "daysOpen": 21,
-      "daysSinceReceived": 21,
+      "daysOpen": 22,
+      "daysSinceReceived": 22,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -704,8 +704,8 @@ window.DISCORD_DATA = {
       "resolutionSnippet": "",
       "suggestion": {
         "fromThreadName": "OTP issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1548205544861335572",
-        "snippet": "My team participants some how logged out of app and they can't re enter since otp isn't coming."
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1548283561608478891",
+        "snippet": "the issue is resolved"
       }
     },
     {
@@ -741,8 +741,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-20",
       "last": "2026-09-20",
       "resolvedAt": "2026-09-20",
-      "daysOpen": 24,
-      "daysSinceReceived": 24,
+      "daysOpen": 25,
+      "daysSinceReceived": 25,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -841,102 +841,86 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Useless Registration issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546836713014567002",
-        "snippet": "the issue is resolved"
-      }
-    },
-    {
-      "id": "1548283561608478891",
-      "name": "OTP issue",
-      "url": "https://discord.com/channels/735180366297563257/1548283561608478891",
-      "status": "Awaiting reply (from them)",
-      "category": "OTP / Login issues",
-      "requester": "Pooja S Nair",
-      "received": "2026-09-12",
-      "last": "2026-09-15",
-      "resolvedAt": "2026-09-12",
-      "daysOpen": 29,
-      "daysSinceReceived": 32,
-      "daysToClose": 0,
-      "messageCount": 4,
-      "archived": false,
-      "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "OTP issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1548205544861335572",
-        "snippet": "My team participants some how logged out of app and they can't re enter since otp isn't coming."
+        "fromThreadName": "Participants cant access the discord",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1548066566237724713",
+        "snippet": "<@710756853465743440> it is because the user is currently using a different discord account"
       }
     },
     {
       "id": "1548066566237724713",
       "name": "Participants cant access the discord",
       "url": "https://discord.com/channels/735180366297563257/1548066566237724713",
-      "status": "Awaiting reply (from them)",
+      "status": "Resolved",
       "category": "Registration issues",
       "requester": "Blaze",
       "received": "2026-09-11",
       "last": "2026-09-15",
-      "resolvedAt": "2026-09-11",
-      "daysOpen": 29,
+      "resolvedAt": "2026-10-15",
+      "daysOpen": 30,
       "daysSinceReceived": 33,
-      "daysToClose": 0,
+      "daysToClose": 33,
       "messageCount": 4,
-      "archived": false,
+      "archived": true,
       "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Useless Registration issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546836713014567002",
-        "snippet": "the issue is resolved"
-      }
-    },
-    {
-      "id": "1547933064997380136",
-      "name": "Unable to check in due to phone issue in useless projects 3.0",
-      "url": "https://discord.com/channels/735180366297563257/1547933064997380136",
-      "status": "Awaiting reply (from us)",
-      "category": "Useless Projects (event)",
-      "requester": "Gowripriya M J",
-      "received": "2026-09-11",
-      "last": "2026-09-15",
-      "resolvedAt": "2026-09-11",
-      "daysOpen": 29,
-      "daysSinceReceived": 33,
-      "daysToClose": 0,
-      "messageCount": 5,
-      "archived": false,
-      "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Removing students from Useless projects 3.0 due to emergencies",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547259833596645488",
-        "snippet": "<@1012977379209125908> Is it possible to do this?"
-      }
+      "resolutionSnippet": "<@710756853465743440> it is because the user is currently using a different discord account",
+      "suggestion": null
     },
     {
       "id": "1547800650119913602",
       "name": "Useless Projects 3.0 \u2013 Registration Recovery Request",
       "url": "https://discord.com/channels/735180366297563257/1547800650119913602",
-      "status": "Awaiting reply (from them)",
+      "status": "Resolved",
       "category": "Registration issues",
       "requester": "Meenu",
       "received": "2026-09-11",
       "last": "2026-09-15",
-      "resolvedAt": "2026-09-11",
-      "daysOpen": 29,
+      "resolvedAt": "2026-10-15",
+      "daysOpen": 30,
       "daysSinceReceived": 34,
-      "daysToClose": 0,
+      "daysToClose": 34,
       "messageCount": 5,
-      "archived": false,
+      "archived": true,
       "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Useless Registration issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546836713014567002",
-        "snippet": "the issue is resolved"
-      }
+      "resolutionSnippet": "issue resolved",
+      "suggestion": null
+    },
+    {
+      "id": "1548283561608478891",
+      "name": "OTP issue",
+      "url": "https://discord.com/channels/735180366297563257/1548283561608478891",
+      "status": "Resolved",
+      "category": "OTP / Login issues",
+      "requester": "Pooja S Nair",
+      "received": "2026-09-12",
+      "last": "2026-09-15",
+      "resolvedAt": "2026-10-15",
+      "daysOpen": 30,
+      "daysSinceReceived": 33,
+      "daysToClose": 33,
+      "messageCount": 4,
+      "archived": true,
+      "locked": false,
+      "resolutionSnippet": "the issue is resolved",
+      "suggestion": null
+    },
+    {
+      "id": "1547933064997380136",
+      "name": "Unable to check in due to phone issue in useless projects 3.0",
+      "url": "https://discord.com/channels/735180366297563257/1547933064997380136",
+      "status": "Resolved",
+      "category": "Useless Projects (event)",
+      "requester": "Gowripriya M J",
+      "received": "2026-09-11",
+      "last": "2026-09-15",
+      "resolvedAt": "2026-10-15",
+      "daysOpen": 30,
+      "daysSinceReceived": 34,
+      "daysToClose": 33,
+      "messageCount": 5,
+      "archived": true,
+      "locked": false,
+      "resolutionSnippet": "Okay",
+      "suggestion": null
     },
     {
       "id": "1548205544861335572",
@@ -13576,12 +13560,12 @@ window.DISCORD_DATA = {
   ],
   "summary": {
     "No response": 25,
-    "Awaiting reply (from us)": 9,
-    "Awaiting reply (from them)": 6,
-    "Resolved": 666
+    "Awaiting reply (from us)": 8,
+    "Awaiting reply (from them)": 3,
+    "Resolved": 670
   },
-  "avgOpenDays": 12.3,
-  "avgDaysToClose": 13.8,
+  "avgOpenDays": 10.7,
+  "avgDaysToClose": 14.0,
   "topCategories": [
     {
       "category": "Event/Activity check-in & reporting",
