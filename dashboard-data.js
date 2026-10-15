@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-15T04:43:25Z",
+  "generatedAt": "2026-10-15T06:43:10Z",
   "threads": [
     {
       "id": "finance-e55e10ccbe",
@@ -5085,9 +5085,9 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Resolved",
+      "status": "Awaiting reply (from them)",
       "note": null,
-      "daysOpen": 0,
+      "daysOpen": 14,
       "daysSinceReceived": 14,
       "cc": []
     },
@@ -5100,9 +5100,9 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Resolved",
+      "status": "Awaiting reply (from them)",
       "note": null,
-      "daysOpen": 2,
+      "daysOpen": 17,
       "daysSinceReceived": 17,
       "cc": []
     },
@@ -5115,9 +5115,9 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Resolved",
+      "status": "Awaiting reply (from them)",
       "note": null,
-      "daysOpen": 16,
+      "daysOpen": 22,
       "daysSinceReceived": 22,
       "cc": []
     },
@@ -5130,9 +5130,9 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Awaiting reply (from them)",
+      "status": "Resolved",
       "note": null,
-      "daysOpen": 37,
+      "daysOpen": 15,
       "daysSinceReceived": 37,
       "cc": []
     },
@@ -5145,9 +5145,9 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Awaiting reply (from them)",
+      "status": "Resolved",
       "note": null,
-      "daysOpen": 37,
+      "daysOpen": 15,
       "daysSinceReceived": 37,
       "cc": []
     },
@@ -5160,9 +5160,9 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Awaiting reply (from them)",
+      "status": "Resolved",
       "note": null,
-      "daysOpen": 37,
+      "daysOpen": 15,
       "daysSinceReceived": 37,
       "cc": []
     },
@@ -5237,7 +5237,7 @@ window.DASHBOARD_DATA = {
       "Awaiting reply (from them)": 0,
       "Resolved": 7,
       "Informational": 0,
-      "avgOpenDays": 34,
+      "avgOpenDays": 34.0,
       "avgResolvedDays": 13.6
     },
     "finance": {
@@ -5247,7 +5247,7 @@ window.DASHBOARD_DATA = {
       "Awaiting reply (from them)": 0,
       "Resolved": 7,
       "Informational": 10,
-      "avgOpenDays": 14,
+      "avgOpenDays": 14.0,
       "avgResolvedDays": 2.7
     },
     "report": {
@@ -5257,8 +5257,8 @@ window.DASHBOARD_DATA = {
       "Awaiting reply (from them)": 5,
       "Resolved": 4,
       "Informational": 1,
-      "avgOpenDays": 37.6,
-      "avgResolvedDays": 11.8
+      "avgOpenDays": 26.0,
+      "avgResolvedDays": 18.5
     },
     "partner": {
       "total": 8,
@@ -5267,8 +5267,8 @@ window.DASHBOARD_DATA = {
       "Awaiting reply (from them)": 1,
       "Resolved": 2,
       "Informational": 2,
-      "avgOpenDays": 15.3,
-      "avgResolvedDays": 3
+      "avgOpenDays": 15.2,
+      "avgResolvedDays": 3.0
     },
     "tinkerspace": {
       "total": 3,
@@ -5278,7 +5278,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 0,
       "avgOpenDays": 2.5,
-      "avgResolvedDays": 1
+      "avgResolvedDays": 1.0
     }
   }
 };
