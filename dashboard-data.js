@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-15T08:43:12Z",
+  "generatedAt": "2026-10-15T10:43:24Z",
   "threads": [
     {
       "id": "finance-e55e10ccbe",
@@ -403,10 +403,10 @@ window.DASHBOARD_DATA = {
       "counterpart": "Palakh Khanna (LaunchVerse)",
       "email": "palakh@launchverse.org",
       "received": "2026-10-08",
-      "last": "2026-10-13",
-      "status": "Resolved",
-      "note": "Meeting rescheduled at Palakh's request to 6 PM IST today (13 Oct); Joan confirmed and will update invite. Nothing owed until the call",
-      "daysOpen": 5,
+      "last": "2026-10-15",
+      "status": "Awaiting reply (from them)",
+      "note": "Call held 13 Oct; Joan followed up 15 Oct asking Palakh to share the potential collaboration areas discussed. Waiting on Palakh",
+      "daysOpen": 7,
       "daysSinceReceived": 7,
       "cc": [
         "partner@tinkerhub.org",
@@ -5215,8 +5215,8 @@ window.DASHBOARD_DATA = {
   "summary": {
     "No response": 7,
     "Awaiting reply (from us)": 18,
-    "Awaiting reply (from them)": 33,
-    "Resolved": 60,
+    "Awaiting reply (from them)": 34,
+    "Resolved": 59,
     "Informational": 178
   },
   "analytics": {
@@ -5237,7 +5237,7 @@ window.DASHBOARD_DATA = {
       "Awaiting reply (from them)": 0,
       "Resolved": 7,
       "Informational": 0,
-      "avgOpenDays": 34.0,
+      "avgOpenDays": 34,
       "avgResolvedDays": 13.6
     },
     "finance": {
@@ -5247,7 +5247,7 @@ window.DASHBOARD_DATA = {
       "Awaiting reply (from them)": 0,
       "Resolved": 7,
       "Informational": 10,
-      "avgOpenDays": 14.0,
+      "avgOpenDays": 14,
       "avgResolvedDays": 2.7
     },
     "report": {
@@ -5257,18 +5257,18 @@ window.DASHBOARD_DATA = {
       "Awaiting reply (from them)": 5,
       "Resolved": 4,
       "Informational": 1,
-      "avgOpenDays": 26.0,
+      "avgOpenDays": 26,
       "avgResolvedDays": 18.5
     },
     "partner": {
       "total": 8,
       "No response": 0,
       "Awaiting reply (from us)": 3,
-      "Awaiting reply (from them)": 1,
-      "Resolved": 2,
+      "Awaiting reply (from them)": 2,
+      "Resolved": 1,
       "Informational": 2,
-      "avgOpenDays": 15.2,
-      "avgResolvedDays": 3.0
+      "avgOpenDays": 13.6,
+      "avgResolvedDays": 1
     },
     "tinkerspace": {
       "total": 3,
@@ -5278,7 +5278,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 0,
       "avgOpenDays": 2.5,
-      "avgResolvedDays": 1.0
+      "avgResolvedDays": 1
     }
   }
 };
