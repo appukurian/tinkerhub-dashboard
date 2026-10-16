@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-16T02:42:57Z",
+  "generatedAt": "2026-10-16T04:42:55Z",
   "threads": [
     {
       "id": "finance-91621f86a9",
@@ -9,9 +9,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "Axis Bank",
       "email": "oprh3577@axisbank.com",
       "received": "2026-10-15",
-      "last": "2026-10-15",
-      "status": "Awaiting reply (from them)",
-      "note": "Althaf requested current-FY account statement from Axis Bank; awaiting bank's reply",
+      "last": "2026-10-16",
+      "status": "Resolved",
+      "note": "Axis Bank replied Oct 16: statement sent to registered email id; request fulfilled",
       "daysOpen": 1,
       "daysSinceReceived": 1,
       "cc": [
@@ -5010,8 +5010,8 @@ window.DASHBOARD_DATA = {
   "summary": {
     "No response": 5,
     "Awaiting reply (from us)": 18,
-    "Awaiting reply (from them)": 35,
-    "Resolved": 52,
+    "Awaiting reply (from them)": 34,
+    "Resolved": 53,
     "Informational": 174
   },
   "analytics": {
@@ -5039,11 +5039,11 @@ window.DASHBOARD_DATA = {
       "total": 24,
       "No response": 3,
       "Awaiting reply (from us)": 3,
-      "Awaiting reply (from them)": 1,
-      "Resolved": 7,
+      "Awaiting reply (from them)": 0,
+      "Resolved": 8,
       "Informational": 10,
-      "avgOpenDays": 13,
-      "avgResolvedDays": 2.7
+      "avgOpenDays": 15,
+      "avgResolvedDays": 2.5
     },
     "report": {
       "total": 10,
