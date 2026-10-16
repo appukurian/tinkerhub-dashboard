@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-16T06:43:32Z",
+  "generatedAt": "2026-10-16T08:43:00Z",
   "threads": [
     {
       "id": "finance-590fc46b8d",
@@ -10,8 +10,8 @@ window.DASHBOARD_DATA = {
       "email": "mehar@tinkerhub.org",
       "received": "2026-10-16",
       "last": "2026-10-16",
-      "status": "Awaiting reply (from us)",
-      "note": "Mehar asks Althaf/finance to reimburse Rs 53,556 flight (COK-Barcelona, Oct 26) paid on card Oct 15; no reply yet",
+      "status": "Resolved",
+      "note": "Althaf settled Rs 53,556 reimbursement on Oct 16 and sent payment receipt",
       "cc": [
         "finance@tinkerhub.org"
       ],
@@ -4857,6 +4857,40 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
+      "id": "campus-561b496297",
+      "threadId": "1a140c5af920355c",
+      "group": "campus",
+      "subject": "Spreadsheet shared with you: \"ULP 3.0 Missed Gems\"",
+      "counterpart": "internal (Habeeb Rahman)",
+      "email": "habeeb@tinkerhub.org",
+      "received": "2026-10-15",
+      "last": "2026-10-15",
+      "status": "Informational",
+      "note": "Habeeb shared 'ULP 3.0 Missed Gems' spreadsheet (Google Sheets share notification)",
+      "cc": [
+        "campus@tinkerhub.org"
+      ],
+      "daysSinceReceived": 1,
+      "daysOpen": 0
+    },
+    {
+      "id": "finance-62b3b4b0b5",
+      "threadId": "1a143bec343af1de",
+      "group": "finance",
+      "subject": "Fwd: AXIS BANK : Statement for period 01-04-2026 to 15-10-2026",
+      "counterpart": "internal (Mehar)",
+      "email": "mehar@tinkerhub.org",
+      "received": "2026-10-16",
+      "last": "2026-10-16",
+      "status": "Informational",
+      "note": "Mehar forwarded Axis Bank card statement (Apr 1-Oct 15) alongside his reimbursement request; no action requested",
+      "cc": [
+        "finance@tinkerhub.org"
+      ],
+      "daysSinceReceived": 0,
+      "daysOpen": 0
+    },
+    {
       "id": "report-55aec88bb6",
       "threadId": null,
       "group": "report",
@@ -4880,9 +4914,9 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Awaiting reply (from them)",
+      "status": "Resolved",
       "note": null,
-      "daysOpen": 15,
+      "daysOpen": 0,
       "daysSinceReceived": 15,
       "cc": []
     },
@@ -5005,31 +5039,14 @@ window.DASHBOARD_DATA = {
       "daysOpen": 29,
       "daysSinceReceived": 29,
       "cc": []
-    },
-    {
-      "id": "campus-561b496297",
-      "threadId": "1a140c5af920355c",
-      "group": "campus",
-      "subject": "Spreadsheet shared with you: \"ULP 3.0 Missed Gems\"",
-      "counterpart": "internal (Habeeb Rahman)",
-      "email": "habeeb@tinkerhub.org",
-      "received": "2026-10-15",
-      "last": "2026-10-15",
-      "status": "Informational",
-      "note": "Habeeb shared 'ULP 3.0 Missed Gems' spreadsheet (Google Sheets share notification)",
-      "cc": [
-        "campus@tinkerhub.org"
-      ],
-      "daysSinceReceived": 1,
-      "daysOpen": 0
     }
   ],
   "summary": {
     "No response": 5,
-    "Awaiting reply (from us)": 19,
-    "Awaiting reply (from them)": 34,
-    "Resolved": 53,
-    "Informational": 174
+    "Awaiting reply (from us)": 18,
+    "Awaiting reply (from them)": 33,
+    "Resolved": 55,
+    "Informational": 175
   },
   "analytics": {
     "campus": {
@@ -5053,24 +5070,24 @@ window.DASHBOARD_DATA = {
       "avgResolvedDays": 13.6
     },
     "finance": {
-      "total": 25,
+      "total": 26,
       "No response": 3,
-      "Awaiting reply (from us)": 4,
+      "Awaiting reply (from us)": 3,
       "Awaiting reply (from them)": 0,
-      "Resolved": 8,
-      "Informational": 10,
-      "avgOpenDays": 12.9,
-      "avgResolvedDays": 2.5
+      "Resolved": 9,
+      "Informational": 11,
+      "avgOpenDays": 15.0,
+      "avgResolvedDays": 2.2
     },
     "report": {
       "total": 10,
       "No response": 0,
       "Awaiting reply (from us)": 0,
-      "Awaiting reply (from them)": 5,
-      "Resolved": 4,
+      "Awaiting reply (from them)": 4,
+      "Resolved": 5,
       "Informational": 1,
-      "avgOpenDays": 27.0,
-      "avgResolvedDays": 18.5
+      "avgOpenDays": 30.0,
+      "avgResolvedDays": 14.8
     },
     "partner": {
       "total": 8,
