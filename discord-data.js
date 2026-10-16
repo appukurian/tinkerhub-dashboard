@@ -1,8 +1,92 @@
 // Auto-generated daily by .github/workflows/discord-update.yml
 // Do NOT hand-edit — this file is overwritten on each run.
 window.DISCORD_DATA = {
-  "generatedAt": "2026-10-16T13:24:00Z",
+  "generatedAt": "2026-10-16T18:14:19Z",
   "threads": [
+    {
+      "id": "1560654128705708072",
+      "name": "Check In Issue",
+      "url": "https://discord.com/channels/735180366297563257/1560654128705708072",
+      "status": "Awaiting reply (from us)",
+      "category": "Event/Activity check-in & reporting",
+      "requester": "Maria Wilson",
+      "received": "2026-10-16",
+      "last": "2026-10-16",
+      "resolvedAt": "2026-10-16",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "daysToClose": 0,
+      "messageCount": 3,
+      "archived": false,
+      "locked": false,
+      "resolutionSnippet": "",
+      "suggestion": {
+        "fromThreadName": "event deletion",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1550927317411434546",
+        "snippet": "This thread is closed by <@1012977379209125908>."
+      }
+    },
+    {
+      "id": "1558005168031932457",
+      "name": "Approve the event request",
+      "url": "https://discord.com/channels/735180366297563257/1558005168031932457",
+      "status": "No response",
+      "category": "Event/Activity check-in & reporting",
+      "requester": "Hilfa",
+      "received": "2026-10-09",
+      "last": "2026-10-16",
+      "resolvedAt": "2026-10-09",
+      "daysOpen": 0,
+      "daysSinceReceived": 7,
+      "daysToClose": 0,
+      "messageCount": 1,
+      "archived": false,
+      "locked": false,
+      "resolutionSnippet": "",
+      "suggestion": {
+        "fromThreadName": "event deletion",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1550927317411434546",
+        "snippet": "This thread is closed by <@1012977379209125908>."
+      }
+    },
+    {
+      "id": "1559149246387716140",
+      "name": "FYC- can't able to add in koottam",
+      "url": "https://discord.com/channels/735180366297563257/1559149246387716140",
+      "status": "Resolved",
+      "category": "Koottam access issues",
+      "requester": "Gowripriya M J",
+      "received": "2026-10-12",
+      "last": "2026-10-16",
+      "resolvedAt": "2026-10-16",
+      "daysOpen": 0,
+      "daysSinceReceived": 4,
+      "daysToClose": 4,
+      "messageCount": 8,
+      "archived": true,
+      "locked": false,
+      "resolutionSnippet": "This thread is closed by <@739367103013978183>.",
+      "suggestion": null
+    },
+    {
+      "id": "1558790454126837871",
+      "name": "Host issue",
+      "url": "https://discord.com/channels/735180366297563257/1558790454126837871",
+      "status": "Resolved",
+      "category": "Other",
+      "requester": "Anupama\ud83c\udf38",
+      "received": "2026-10-11",
+      "last": "2026-10-16",
+      "resolvedAt": "2026-10-16",
+      "daysOpen": 0,
+      "daysSinceReceived": 5,
+      "daysToClose": 5,
+      "messageCount": 6,
+      "archived": true,
+      "locked": false,
+      "resolutionSnippet": "This thread is closed by <@739367103013978183>.",
+      "suggestion": null
+    },
     {
       "id": "1557052427767914496",
       "name": "Unable to get OTP",
@@ -14,7 +98,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-16",
       "resolvedAt": "2026-10-16",
       "daysOpen": 0,
-      "daysSinceReceived": 9,
+      "daysSinceReceived": 10,
       "daysToClose": 9,
       "messageCount": 2,
       "archived": true,
@@ -52,59 +136,13 @@ window.DISCORD_DATA = {
       "last": "2026-10-16",
       "resolvedAt": "2026-10-16",
       "daysOpen": 0,
-      "daysSinceReceived": 26,
+      "daysSinceReceived": 27,
       "daysToClose": 26,
       "messageCount": 4,
       "archived": true,
       "locked": false,
       "resolutionSnippet": "This thread is closed by <@1012977379209125908>.",
       "suggestion": null
-    },
-    {
-      "id": "1559149246387716140",
-      "name": "FYC- can't able to add in koottam",
-      "url": "https://discord.com/channels/735180366297563257/1559149246387716140",
-      "status": "No response",
-      "category": "Koottam access issues",
-      "requester": "Gowripriya M J",
-      "received": "2026-10-12",
-      "last": "2026-10-13",
-      "resolvedAt": "2026-10-12",
-      "daysOpen": 3,
-      "daysSinceReceived": 4,
-      "daysToClose": 0,
-      "messageCount": 1,
-      "archived": false,
-      "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Can't access kootam",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541350160133787698",
-        "snippet": "<@1392046495535988836>"
-      }
-    },
-    {
-      "id": "1558790454126837871",
-      "name": "Host issue",
-      "url": "https://discord.com/channels/735180366297563257/1558790454126837871",
-      "status": "No response",
-      "category": "Other",
-      "requester": "Anupama\ud83c\udf38",
-      "received": "2026-10-11",
-      "last": "2026-10-13",
-      "resolvedAt": "2026-10-11",
-      "daysOpen": 2,
-      "daysSinceReceived": 5,
-      "daysToClose": 0,
-      "messageCount": 1,
-      "archived": false,
-      "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "what to do when repository is not visible?",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1548130343440228373",
-        "snippet": "okay okay"
-      }
     },
     {
       "id": "1559045587758878721",
@@ -232,7 +270,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-11",
       "resolvedAt": "2026-10-10",
       "daysOpen": 5,
-      "daysSinceReceived": 5,
+      "daysSinceReceived": 6,
       "daysToClose": 0,
       "messageCount": 3,
       "archived": false,
@@ -277,40 +315,17 @@ window.DISCORD_DATA = {
       "received": "2026-10-10",
       "last": "2026-10-10",
       "resolvedAt": "2026-10-10",
-      "daysOpen": 5,
-      "daysSinceReceived": 5,
+      "daysOpen": 6,
+      "daysSinceReceived": 6,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "what to do when repository is not visible?",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1548130343440228373",
-        "snippet": "okay okay"
-      }
-    },
-    {
-      "id": "1558005168031932457",
-      "name": "Approve the event request",
-      "url": "https://discord.com/channels/735180366297563257/1558005168031932457",
-      "status": "No response",
-      "category": "Event/Activity check-in & reporting",
-      "requester": "Hilfa",
-      "received": "2026-10-09",
-      "last": "2026-10-09",
-      "resolvedAt": "2026-10-09",
-      "daysOpen": 7,
-      "daysSinceReceived": 7,
-      "daysToClose": 0,
-      "messageCount": 0,
-      "archived": false,
-      "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "event deletion",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1550927317411434546",
-        "snippet": "This thread is closed by <@1012977379209125908>."
+        "fromThreadName": "Host issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1558790454126837871",
+        "snippet": "This thread is closed by <@739367103013978183>."
       }
     },
     {
@@ -346,8 +361,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-08",
       "last": "2026-10-08",
       "resolvedAt": "2026-10-08",
-      "daysOpen": 7,
-      "daysSinceReceived": 7,
+      "daysOpen": 8,
+      "daysSinceReceived": 8,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -369,7 +384,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-27",
       "last": "2026-10-08",
       "resolvedAt": "2026-09-27",
-      "daysOpen": 7,
+      "daysOpen": 8,
       "daysSinceReceived": 19,
       "daysToClose": 0,
       "messageCount": 6,
@@ -434,17 +449,17 @@ window.DISCORD_DATA = {
       "received": "2026-10-07",
       "last": "2026-10-07",
       "resolvedAt": "2026-10-07",
-      "daysOpen": 8,
-      "daysSinceReceived": 8,
+      "daysOpen": 9,
+      "daysSinceReceived": 9,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "what to do when repository is not visible?",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1548130343440228373",
-        "snippet": "okay okay"
+        "fromThreadName": "Host issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1558790454126837871",
+        "snippet": "This thread is closed by <@739367103013978183>."
       }
     },
     {
@@ -488,9 +503,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "what to do when repository is not visible?",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1548130343440228373",
-        "snippet": "okay okay"
+        "fromThreadName": "Host issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1558790454126837871",
+        "snippet": "This thread is closed by <@739367103013978183>."
       }
     },
     {
@@ -503,8 +518,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-05",
       "last": "2026-10-06",
       "resolvedAt": "2026-10-05",
-      "daysOpen": 9,
-      "daysSinceReceived": 10,
+      "daysOpen": 10,
+      "daysSinceReceived": 11,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -534,9 +549,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "what to do when repository is not visible?",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1548130343440228373",
-        "snippet": "okay okay"
+        "fromThreadName": "Host issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1558790454126837871",
+        "snippet": "This thread is closed by <@739367103013978183>."
       }
     },
     {
@@ -549,17 +564,17 @@ window.DISCORD_DATA = {
       "received": "2026-08-29",
       "last": "2026-10-06",
       "resolvedAt": "2026-10-06",
-      "daysOpen": 9,
-      "daysSinceReceived": 47,
+      "daysOpen": 10,
+      "daysSinceReceived": 48,
       "daysToClose": 38,
       "messageCount": 5,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "what to do when repository is not visible?",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1548130343440228373",
-        "snippet": "okay okay"
+        "fromThreadName": "Host issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1558790454126837871",
+        "snippet": "This thread is closed by <@739367103013978183>."
       }
     },
     {
@@ -573,7 +588,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-02",
       "resolvedAt": "2026-09-20",
       "daysOpen": 14,
-      "daysSinceReceived": 25,
+      "daysSinceReceived": 26,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -595,8 +610,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-01",
       "last": "2026-10-01",
       "resolvedAt": "2026-10-01",
-      "daysOpen": 14,
-      "daysSinceReceived": 14,
+      "daysOpen": 15,
+      "daysSinceReceived": 15,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -614,8 +629,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-10",
       "last": "2026-10-01",
       "resolvedAt": "2026-09-10",
-      "daysOpen": 14,
-      "daysSinceReceived": 35,
+      "daysOpen": 15,
+      "daysSinceReceived": 36,
       "daysToClose": 0,
       "messageCount": 8,
       "archived": false,
@@ -645,9 +660,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Can't access kootam",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1541350160133787698",
-        "snippet": "<@1392046495535988836>"
+        "fromThreadName": "FYC- can't able to add in koottam",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1559149246387716140",
+        "snippet": "This thread is closed by <@739367103013978183>."
       }
     },
     {
@@ -752,8 +767,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-18",
       "last": "2026-09-18",
       "resolvedAt": "2026-09-18",
-      "daysOpen": 27,
-      "daysSinceReceived": 27,
+      "daysOpen": 28,
+      "daysSinceReceived": 28,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -775,8 +790,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-09",
       "last": "2026-09-18",
       "resolvedAt": "2026-09-09",
-      "daysOpen": 27,
-      "daysSinceReceived": 36,
+      "daysOpen": 28,
+      "daysSinceReceived": 37,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -13539,17 +13554,17 @@ window.DISCORD_DATA = {
     }
   ],
   "summary": {
-    "No response": 23,
-    "Awaiting reply (from us)": 6,
+    "No response": 21,
+    "Awaiting reply (from us)": 7,
     "Awaiting reply (from them)": 2,
-    "Resolved": 675
+    "Resolved": 677
   },
-  "avgOpenDays": 11.1,
+  "avgOpenDays": 11.4,
   "avgDaysToClose": 14.2,
   "topCategories": [
     {
       "category": "Event/Activity check-in & reporting",
-      "count": 148
+      "count": 149
     },
     {
       "category": "Other",
