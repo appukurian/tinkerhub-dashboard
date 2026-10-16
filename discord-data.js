@@ -1,30 +1,64 @@
 // Auto-generated daily by .github/workflows/discord-update.yml
 // Do NOT hand-edit — this file is overwritten on each run.
 window.DISCORD_DATA = {
-  "generatedAt": "2026-10-16T07:24:14Z",
+  "generatedAt": "2026-10-16T13:24:00Z",
   "threads": [
+    {
+      "id": "1557052427767914496",
+      "name": "Unable to get OTP",
+      "url": "https://discord.com/channels/735180366297563257/1557052427767914496",
+      "status": "Resolved",
+      "category": "OTP / Login issues",
+      "requester": "rida",
+      "received": "2026-10-06",
+      "last": "2026-10-16",
+      "resolvedAt": "2026-10-16",
+      "daysOpen": 0,
+      "daysSinceReceived": 9,
+      "daysToClose": 9,
+      "messageCount": 2,
+      "archived": true,
+      "locked": false,
+      "resolutionSnippet": "This thread is closed by <@1012977379209125908>.",
+      "suggestion": null
+    },
+    {
+      "id": "1558756968443940894",
+      "name": "OTP issue",
+      "url": "https://discord.com/channels/735180366297563257/1558756968443940894",
+      "status": "Resolved",
+      "category": "OTP / Login issues",
+      "requester": "Morbius",
+      "received": "2026-10-11",
+      "last": "2026-10-16",
+      "resolvedAt": "2026-10-16",
+      "daysOpen": 0,
+      "daysSinceReceived": 5,
+      "daysToClose": 4,
+      "messageCount": 3,
+      "archived": true,
+      "locked": false,
+      "resolutionSnippet": "This thread is closed by <@1012977379209125908>.",
+      "suggestion": null
+    },
     {
       "id": "1550927317411434546",
       "name": "event deletion",
       "url": "https://discord.com/channels/735180366297563257/1550927317411434546",
-      "status": "Awaiting reply (from us)",
+      "status": "Resolved",
       "category": "Event/Activity check-in & reporting",
       "requester": "Christy Basil Anil",
       "received": "2026-09-19",
-      "last": "2026-10-15",
-      "resolvedAt": "2026-09-19",
-      "daysOpen": 1,
+      "last": "2026-10-16",
+      "resolvedAt": "2026-10-16",
+      "daysOpen": 0,
       "daysSinceReceived": 26,
-      "daysToClose": 0,
-      "messageCount": 2,
-      "archived": false,
+      "daysToClose": 26,
+      "messageCount": 4,
+      "archived": true,
       "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Couldn't Check in people for our o-penn-mic-2",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546366413185228810",
-        "snippet": "Hi Amal, please try to get their email or phone numbers as we can only add it from the backend with these details"
-      }
+      "resolutionSnippet": "This thread is closed by <@1012977379209125908>.",
+      "suggestion": null
     },
     {
       "id": "1559149246387716140",
@@ -37,7 +71,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-13",
       "resolvedAt": "2026-10-12",
       "daysOpen": 3,
-      "daysSinceReceived": 3,
+      "daysSinceReceived": 4,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -60,7 +94,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-13",
       "resolvedAt": "2026-10-11",
       "daysOpen": 2,
-      "daysSinceReceived": 4,
+      "daysSinceReceived": 5,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -105,7 +139,7 @@ window.DISCORD_DATA = {
       "received": "2026-10-10",
       "last": "2026-10-12",
       "resolvedAt": "2026-10-10",
-      "daysOpen": 3,
+      "daysOpen": 4,
       "daysSinceReceived": 5,
       "daysToClose": 0,
       "messageCount": 1,
@@ -128,40 +162,17 @@ window.DISCORD_DATA = {
       "received": "2026-10-11",
       "last": "2026-10-11",
       "resolvedAt": "2026-10-11",
-      "daysOpen": 4,
-      "daysSinceReceived": 4,
+      "daysOpen": 5,
+      "daysSinceReceived": 5,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Couldn't Check in people for our o-penn-mic-2",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546366413185228810",
-        "snippet": "Hi Amal, please try to get their email or phone numbers as we can only add it from the backend with these details"
-      }
-    },
-    {
-      "id": "1558756968443940894",
-      "name": "OTP issue",
-      "url": "https://discord.com/channels/735180366297563257/1558756968443940894",
-      "status": "No response",
-      "category": "OTP / Login issues",
-      "requester": "Morbius",
-      "received": "2026-10-11",
-      "last": "2026-10-11",
-      "resolvedAt": "2026-10-11",
-      "daysOpen": 4,
-      "daysSinceReceived": 4,
-      "daysToClose": 0,
-      "messageCount": 0,
-      "archived": false,
-      "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "OTP issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1548283561608478891",
-        "snippet": "the issue is resolved"
+        "fromThreadName": "event deletion",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1550927317411434546",
+        "snippet": "This thread is closed by <@1012977379209125908>."
       }
     },
     {
@@ -174,8 +185,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-11",
       "last": "2026-10-11",
       "resolvedAt": "2026-10-11",
-      "daysOpen": 4,
-      "daysSinceReceived": 4,
+      "daysOpen": 5,
+      "daysSinceReceived": 5,
       "daysToClose": 0,
       "messageCount": 3,
       "archived": false,
@@ -197,8 +208,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-11",
       "last": "2026-10-11",
       "resolvedAt": "2026-10-11",
-      "daysOpen": 4,
-      "daysSinceReceived": 4,
+      "daysOpen": 5,
+      "daysSinceReceived": 5,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -220,7 +231,7 @@ window.DISCORD_DATA = {
       "received": "2026-10-10",
       "last": "2026-10-11",
       "resolvedAt": "2026-10-10",
-      "daysOpen": 4,
+      "daysOpen": 5,
       "daysSinceReceived": 5,
       "daysToClose": 0,
       "messageCount": 3,
@@ -244,7 +255,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-11",
       "resolvedAt": "2026-10-10",
       "daysOpen": 5,
-      "daysSinceReceived": 5,
+      "daysSinceReceived": 6,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -297,9 +308,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Couldn't Check in people for our o-penn-mic-2",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546366413185228810",
-        "snippet": "Hi Amal, please try to get their email or phone numbers as we can only add it from the backend with these details"
+        "fromThreadName": "event deletion",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1550927317411434546",
+        "snippet": "This thread is closed by <@1012977379209125908>."
       }
     },
     {
@@ -320,9 +331,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Couldn't Check in people for our o-penn-mic-2",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546366413185228810",
-        "snippet": "Hi Amal, please try to get their email or phone numbers as we can only add it from the backend with these details"
+        "fromThreadName": "event deletion",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1550927317411434546",
+        "snippet": "This thread is closed by <@1012977379209125908>."
       }
     },
     {
@@ -343,9 +354,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Couldn't Check in people for our o-penn-mic-2",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546366413185228810",
-        "snippet": "Hi Amal, please try to get their email or phone numbers as we can only add it from the backend with these details"
+        "fromThreadName": "event deletion",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1550927317411434546",
+        "snippet": "This thread is closed by <@1012977379209125908>."
       }
     },
     {
@@ -408,9 +419,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Couldn't Check in people for our o-penn-mic-2",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546366413185228810",
-        "snippet": "Hi Amal, please try to get their email or phone numbers as we can only add it from the backend with these details"
+        "fromThreadName": "event deletion",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1550927317411434546",
+        "snippet": "This thread is closed by <@1012977379209125908>."
       }
     },
     {
@@ -437,29 +448,6 @@ window.DISCORD_DATA = {
       }
     },
     {
-      "id": "1557052427767914496",
-      "name": "Unable to get OTP",
-      "url": "https://discord.com/channels/735180366297563257/1557052427767914496",
-      "status": "No response",
-      "category": "OTP / Login issues",
-      "requester": "rida",
-      "received": "2026-10-06",
-      "last": "2026-10-06",
-      "resolvedAt": "2026-10-06",
-      "daysOpen": 9,
-      "daysSinceReceived": 9,
-      "daysToClose": 0,
-      "messageCount": 0,
-      "archived": false,
-      "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "OTP issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1548283561608478891",
-        "snippet": "the issue is resolved"
-      }
-    },
-    {
       "id": "1556907106949533767",
       "name": "Forget to checkin one person",
       "url": "https://discord.com/channels/735180366297563257/1556907106949533767",
@@ -477,9 +465,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Couldn't Check in people for our o-penn-mic-2",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546366413185228810",
-        "snippet": "Hi Amal, please try to get their email or phone numbers as we can only add it from the backend with these details"
+        "fromThreadName": "event deletion",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1550927317411434546",
+        "snippet": "This thread is closed by <@1012977379209125908>."
       }
     },
     {
@@ -584,7 +572,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-20",
       "last": "2026-10-02",
       "resolvedAt": "2026-09-20",
-      "daysOpen": 13,
+      "daysOpen": 14,
       "daysSinceReceived": 25,
       "daysToClose": 0,
       "messageCount": 1,
@@ -634,9 +622,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Couldn't Check in people for our o-penn-mic-2",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546366413185228810",
-        "snippet": "Hi Amal, please try to get their email or phone numbers as we can only add it from the backend with these details"
+        "fromThreadName": "event deletion",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1550927317411434546",
+        "snippet": "This thread is closed by <@1012977379209125908>."
       }
     },
     {
@@ -649,8 +637,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-26",
       "last": "2026-09-26",
       "resolvedAt": "2026-09-26",
-      "daysOpen": 19,
-      "daysSinceReceived": 19,
+      "daysOpen": 20,
+      "daysSinceReceived": 20,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -680,9 +668,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Couldn't Check in people for our o-penn-mic-2",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546366413185228810",
-        "snippet": "Hi Amal, please try to get their email or phone numbers as we can only add it from the backend with these details"
+        "fromThreadName": "event deletion",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1550927317411434546",
+        "snippet": "This thread is closed by <@1012977379209125908>."
       }
     },
     {
@@ -695,17 +683,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-23",
       "last": "2026-09-23",
       "resolvedAt": "2026-09-23",
-      "daysOpen": 22,
-      "daysSinceReceived": 22,
+      "daysOpen": 23,
+      "daysSinceReceived": 23,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "OTP issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1548283561608478891",
-        "snippet": "the issue is resolved"
+        "fromThreadName": "Unable to get OTP",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1557052427767914496",
+        "snippet": "This thread is closed by <@1012977379209125908>."
       }
     },
     {
@@ -741,17 +729,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-20",
       "last": "2026-09-20",
       "resolvedAt": "2026-09-20",
-      "daysOpen": 25,
-      "daysSinceReceived": 25,
+      "daysOpen": 26,
+      "daysSinceReceived": 26,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Couldn't Check in people for our o-penn-mic-2",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546366413185228810",
-        "snippet": "Hi Amal, please try to get their email or phone numbers as we can only add it from the backend with these details"
+        "fromThreadName": "event deletion",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1550927317411434546",
+        "snippet": "This thread is closed by <@1012977379209125908>."
       }
     },
     {
@@ -795,9 +783,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Couldn't Check in people for our o-penn-mic-2",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546366413185228810",
-        "snippet": "Hi Amal, please try to get their email or phone numbers as we can only add it from the backend with these details"
+        "fromThreadName": "event deletion",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1550927317411434546",
+        "snippet": "This thread is closed by <@1012977379209125908>."
       }
     },
     {
@@ -811,7 +799,7 @@ window.DISCORD_DATA = {
       "last": "2026-09-16",
       "resolvedAt": "2026-10-16",
       "daysOpen": 30,
-      "daysSinceReceived": 32,
+      "daysSinceReceived": 33,
       "daysToClose": 32,
       "messageCount": 2,
       "archived": true,
@@ -13551,13 +13539,13 @@ window.DISCORD_DATA = {
     }
   ],
   "summary": {
-    "No response": 25,
-    "Awaiting reply (from us)": 7,
+    "No response": 23,
+    "Awaiting reply (from us)": 6,
     "Awaiting reply (from them)": 2,
-    "Resolved": 672
+    "Resolved": 675
   },
-  "avgOpenDays": 10.3,
-  "avgDaysToClose": 14.1,
+  "avgOpenDays": 11.1,
+  "avgDaysToClose": 14.2,
   "topCategories": [
     {
       "category": "Event/Activity check-in & reporting",
