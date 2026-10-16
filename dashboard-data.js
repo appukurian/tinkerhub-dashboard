@@ -1,6 +1,23 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-16T04:42:55Z",
+  "generatedAt": "2026-10-16T06:43:32Z",
   "threads": [
+    {
+      "id": "finance-590fc46b8d",
+      "threadId": "1a14314e43ab2be3",
+      "group": "finance",
+      "subject": "Fwd: Etihad booking confirmation - Europe trip (reimbursement)",
+      "counterpart": "internal (Mehar)",
+      "email": "mehar@tinkerhub.org",
+      "received": "2026-10-16",
+      "last": "2026-10-16",
+      "status": "Awaiting reply (from us)",
+      "note": "Mehar asks Althaf/finance to reimburse Rs 53,556 flight (COK-Barcelona, Oct 26) paid on card Oct 15; no reply yet",
+      "cc": [
+        "finance@tinkerhub.org"
+      ],
+      "daysSinceReceived": 0,
+      "daysOpen": 0
+    },
     {
       "id": "finance-91621f86a9",
       "threadId": "1a13feadf95abfb5",
@@ -5009,7 +5026,7 @@ window.DASHBOARD_DATA = {
   ],
   "summary": {
     "No response": 5,
-    "Awaiting reply (from us)": 18,
+    "Awaiting reply (from us)": 19,
     "Awaiting reply (from them)": 34,
     "Resolved": 53,
     "Informational": 174
@@ -5023,7 +5040,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 32,
       "Informational": 161,
       "avgOpenDays": 20.4,
-      "avgResolvedDays": 10
+      "avgResolvedDays": 10.0
     },
     "support": {
       "total": 11,
@@ -5032,17 +5049,17 @@ window.DASHBOARD_DATA = {
       "Awaiting reply (from them)": 0,
       "Resolved": 7,
       "Informational": 0,
-      "avgOpenDays": 36,
+      "avgOpenDays": 36.0,
       "avgResolvedDays": 13.6
     },
     "finance": {
-      "total": 24,
+      "total": 25,
       "No response": 3,
-      "Awaiting reply (from us)": 3,
+      "Awaiting reply (from us)": 4,
       "Awaiting reply (from them)": 0,
       "Resolved": 8,
       "Informational": 10,
-      "avgOpenDays": 15,
+      "avgOpenDays": 12.9,
       "avgResolvedDays": 2.5
     },
     "report": {
@@ -5052,7 +5069,7 @@ window.DASHBOARD_DATA = {
       "Awaiting reply (from them)": 5,
       "Resolved": 4,
       "Informational": 1,
-      "avgOpenDays": 27,
+      "avgOpenDays": 27.0,
       "avgResolvedDays": 18.5
     },
     "partner": {
@@ -5063,7 +5080,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 2,
       "avgOpenDays": 14.6,
-      "avgResolvedDays": 1
+      "avgResolvedDays": 1.0
     },
     "tinkerspace": {
       "total": 3,
@@ -5073,7 +5090,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 0,
       "avgOpenDays": 3.5,
-      "avgResolvedDays": 1
+      "avgResolvedDays": 1.0
     }
   }
 };
