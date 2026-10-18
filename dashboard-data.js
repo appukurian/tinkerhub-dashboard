@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-18T06:36:00Z",
+  "generatedAt": "2026-10-18T08:36:51Z",
   "threads": [
     {
       "id": "finance-590fc46b8d",
@@ -5004,10 +5004,44 @@ window.DASHBOARD_DATA = {
       "daysOpen": 31,
       "daysSinceReceived": 31,
       "cc": []
+    },
+    {
+      "id": "campus-107969351c",
+      "threadId": "1a14dd181df6842d",
+      "group": "campus",
+      "subject": "Cant login to tinkerhub",
+      "counterpart": "Arjun M Liji",
+      "email": "arjunsarovaram@gmail.com",
+      "received": "2026-10-18",
+      "last": "2026-10-18",
+      "status": "No response",
+      "note": "ULP 2026 top-25 participant locked out (OTP/SMS rate-limited); needs login help before ~Oct 23 to submit address for rewards",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-a1103de5ad",
+      "threadId": "1a14ddd2870e81c5",
+      "group": "campus",
+      "subject": "(no subject)",
+      "counterpart": "Alan Austin",
+      "email": "alanaustin895@gmail.com",
+      "received": "2026-10-18",
+      "last": "2026-10-18",
+      "status": "No response",
+      "note": "Says he got the regular email but made it to the top 3 video journal; unclear ask",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     }
   ],
   "summary": {
-    "No response": 5,
+    "No response": 7,
     "Awaiting reply (from us)": 17,
     "Awaiting reply (from them)": 33,
     "Resolved": 53,
@@ -5015,13 +5049,13 @@ window.DASHBOARD_DATA = {
   },
   "analytics": {
     "campus": {
-      "total": 226,
-      "No response": 2,
+      "total": 228,
+      "No response": 4,
       "Awaiting reply (from us)": 8,
       "Awaiting reply (from them)": 25,
       "Resolved": 30,
       "Informational": 161,
-      "avgOpenDays": 21.5,
+      "avgOpenDays": 20.4,
       "avgResolvedDays": 10.5
     },
     "support": {
