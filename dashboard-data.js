@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-18T12:37:28Z",
+  "generatedAt": "2026-10-18T14:37:33Z",
   "threads": [
     {
       "id": "finance-590fc46b8d",
@@ -4822,21 +4822,23 @@ window.DASHBOARD_DATA = {
       "daysOpen": 0
     },
     {
-      "group": "campus",
-      "threadId": "1a14960f7ea3f15d",
-      "subject": "Request to meet – TinkerHub Campus Community at IIIT Kottayam",
-      "counterpart": "Registrar, IIIT Kottayam",
-      "email": "registrar@iiitkottayam.ac.in",
-      "status": "Awaiting reply (from them)",
-      "note": "Arundhathi emailed the registrar (cc Dr. Victer Paul, Dr. P. Balakrishnan) on Oct 17 requesting a meeting about the Campus Community Sam Ruben is setting up; no reply yet",
-      "cc": [
-        "campus@tinkerhub.org"
-      ],
       "id": "campus-4b2055d237",
+      "threadId": "1a14960f7ea3f15d",
+      "group": "campus",
+      "subject": "Request to meet – TinkerHub Campus Community at IIIT Kottayam",
+      "counterpart": "IIIT Kottayam registrar (internal outreach by Arundhathi)",
+      "email": "registrar@iiitkottayam.ac.in",
       "received": "2026-10-17",
       "last": "2026-10-17",
-      "daysOpen": 1,
-      "daysSinceReceived": 1
+      "status": "Awaiting reply (from them)",
+      "note": "Arundhathi requested a meeting with IIIT Kottayam officials about student-led campus community",
+      "cc": [
+        "campus@tinkerhub.org",
+        "victerpaul@iiitkottayam.ac.in",
+        "pbala@iiitkottayam.ac.in"
+      ],
+      "daysSinceReceived": 1,
+      "daysOpen": 1
     },
     {
       "group": "finance",
@@ -4860,46 +4862,30 @@ window.DASHBOARD_DATA = {
       "threadId": "1a14dd181df6842d",
       "group": "campus",
       "subject": "Cant login to tinkerhub",
-      "counterpart": "Arjun M Liji",
+      "counterpart": "Arjun Sarovaram",
       "email": "arjunsarovaram@gmail.com",
       "received": "2026-10-18",
       "last": "2026-10-18",
-      "status": "No response",
-      "note": "ULP 2026 top-25 participant locked out (OTP/SMS rate-limited); needs login help before ~Oct 23 to submit address for rewards",
-      "daysOpen": 0,
-      "daysSinceReceived": 0,
+      "status": "Awaiting reply (from them)",
+      "note": "Top 25 ULP 2026; phone smashed, can't log in. Kurian asked for T-shirt size and address; looping tech team",
       "cc": [
-        "campus@tinkerhub.org"
-      ]
+        "campus@tinkerhub.org",
+        "support@tinkerhub.org"
+      ],
+      "daysSinceReceived": 0,
+      "daysOpen": 0
     },
     {
       "id": "campus-a1103de5ad",
       "threadId": "1a14ddd2870e81c5",
       "group": "campus",
-      "subject": "(no subject)",
-      "counterpart": "Alan Austin",
+      "subject": "Re:",
+      "counterpart": "Austin",
       "email": "alanaustin895@gmail.com",
       "received": "2026-10-18",
       "last": "2026-10-18",
-      "status": "No response",
-      "note": "Says he got the regular email but made it to the top 3 video journal; unclear ask",
-      "daysOpen": 0,
-      "daysSinceReceived": 0,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-52e525d650",
-      "threadId": "1a14e46820d994dd",
-      "group": "campus",
-      "subject": "About the t-shirt",
-      "counterpart": "Ansil Muhammed",
-      "email": "ansilmuhammed919@gmail.com",
-      "received": "2026-10-18",
-      "last": "2026-10-18",
-      "status": "No response",
-      "note": "Asks where the t-shirt will be sent (location); unanswered",
+      "status": "Awaiting reply (from us)",
+      "note": "Says he made top 3 video journal but got regular email; Kurian promised to check and update status",
       "cc": [
         "campus@tinkerhub.org"
       ],
@@ -4907,19 +4893,21 @@ window.DASHBOARD_DATA = {
       "daysOpen": 0
     },
     {
-      "id": "report-55aec88bb6",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Informational",
-      "note": null,
-      "daysOpen": 0,
-      "daysSinceReceived": 16,
-      "cc": []
+      "id": "campus-52e525d650",
+      "threadId": "1a14e46820d994dd",
+      "group": "campus",
+      "subject": "About the t-shirt",
+      "counterpart": "Ansil Muhammed N S",
+      "email": "ansilmuhammed919@gmail.com",
+      "received": "2026-10-18",
+      "last": "2026-10-18",
+      "status": "Awaiting reply (from them)",
+      "note": "Kurian asked them to update home address and T-shirt size in Hub app profile",
+      "cc": [
+        "campus@tinkerhub.org"
+      ],
+      "daysSinceReceived": 0,
+      "daysOpen": 0
     },
     {
       "id": "report-592cad1439",
@@ -4945,14 +4933,14 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Awaiting reply (from them)",
+      "status": "Resolved",
       "note": null,
-      "daysOpen": 20,
+      "daysOpen": 2,
       "daysSinceReceived": 20,
       "cc": []
     },
     {
-      "id": "report-80ba999b95",
+      "id": "report-60c5afb2c1",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -4967,7 +4955,7 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
-      "id": "report-d24eb0ad18",
+      "id": "report-de8b89fd76",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -4975,9 +4963,9 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Awaiting reply (from them)",
+      "status": "Resolved",
       "note": null,
-      "daysOpen": 25,
+      "daysOpen": 16,
       "daysSinceReceived": 25,
       "cc": []
     },
@@ -4990,14 +4978,14 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Resolved",
+      "status": "Awaiting reply (from them)",
       "note": null,
-      "daysOpen": 15,
+      "daysOpen": 40,
       "daysSinceReceived": 40,
       "cc": []
     },
     {
-      "id": "report-e5e12ff0cd",
+      "id": "report-c5d20472ea",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -5005,14 +4993,14 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Resolved",
+      "status": "Awaiting reply (from them)",
       "note": null,
-      "daysOpen": 15,
+      "daysOpen": 40,
       "daysSinceReceived": 40,
       "cc": []
     },
     {
-      "id": "report-e5e12ff0cd",
+      "id": "report-14807cce3a",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -5020,9 +5008,9 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Resolved",
+      "status": "Awaiting reply (from them)",
       "note": null,
-      "daysOpen": 15,
+      "daysOpen": 40,
       "daysSinceReceived": 40,
       "cc": []
     },
@@ -5042,7 +5030,7 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
-      "id": "report-7233bd84d2",
+      "id": "report-aa14764f2a",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -5057,7 +5045,7 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
-      "id": "report-dd8cc1a9a6",
+      "id": "report-55aec88bb6",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -5065,28 +5053,28 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Resolved",
+      "status": "Informational",
       "note": null,
-      "daysOpen": 30,
-      "daysSinceReceived": 55,
+      "daysOpen": 0,
+      "daysSinceReceived": 16,
       "cc": []
     }
   ],
   "summary": {
-    "Resolved": 54,
-    "Informational": 176,
-    "Awaiting reply (from us)": 17,
-    "No response": 8,
-    "Awaiting reply (from them)": 33
+    "No response": 5,
+    "Awaiting reply (from us)": 18,
+    "Awaiting reply (from them)": 36,
+    "Resolved": 52,
+    "Informational": 176
   },
   "analytics": {
     "campus": {
       "total": 229,
       "avgOpenDays": 19.8,
       "avgResolvedDays": 10.5,
-      "No response": 5,
-      "Awaiting reply (from us)": 8,
-      "Awaiting reply (from them)": 25,
+      "No response": 2,
+      "Awaiting reply (from us)": 9,
+      "Awaiting reply (from them)": 27,
       "Resolved": 30,
       "Informational": 161
     },
@@ -5111,13 +5099,13 @@ window.DASHBOARD_DATA = {
       "Informational": 12
     },
     "report": {
-      "total": 11,
-      "avgOpenDays": 32,
-      "avgResolvedDays": 17.3,
+      "total": 10,
+      "avgOpenDays": 40.6,
+      "avgResolvedDays": 11.8,
       "No response": 0,
       "Awaiting reply (from us)": 0,
-      "Awaiting reply (from them)": 4,
-      "Resolved": 6,
+      "Awaiting reply (from them)": 5,
+      "Resolved": 4,
       "Informational": 1
     },
     "partner": {
