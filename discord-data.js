@@ -1,8 +1,31 @@
 // Auto-generated daily by .github/workflows/discord-update.yml
 // Do NOT hand-edit — this file is overwritten on each run.
 window.DISCORD_DATA = {
-  "generatedAt": "2026-10-18T07:20:16Z",
+  "generatedAt": "2026-10-18T12:41:56Z",
   "threads": [
+    {
+      "id": "1561280363517444157",
+      "name": "Login issue",
+      "url": "https://discord.com/channels/735180366297563257/1561280363517444157",
+      "status": "No response",
+      "category": "OTP / Login issues",
+      "requester": "adiii",
+      "received": "2026-10-18",
+      "last": "2026-10-18",
+      "resolvedAt": "2026-10-18",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "daysToClose": 0,
+      "messageCount": 1,
+      "archived": false,
+      "locked": false,
+      "resolutionSnippet": "",
+      "suggestion": {
+        "fromThreadName": "Unable to get OTP",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1557052427767914496",
+        "snippet": "This thread is closed by <@1012977379209125908>."
+      }
+    },
     {
       "id": "1560921751129423952",
       "name": "Login issue",
@@ -13,8 +36,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-17",
       "last": "2026-10-17",
       "resolvedAt": "2026-10-17",
-      "daysOpen": 0,
-      "daysSinceReceived": 0,
+      "daysOpen": 1,
+      "daysSinceReceived": 1,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -223,8 +246,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-11",
       "last": "2026-10-11",
       "resolvedAt": "2026-10-11",
-      "daysOpen": 6,
-      "daysSinceReceived": 6,
+      "daysOpen": 7,
+      "daysSinceReceived": 7,
       "daysToClose": 0,
       "messageCount": 3,
       "archived": false,
@@ -246,8 +269,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-11",
       "last": "2026-10-11",
       "resolvedAt": "2026-10-11",
-      "daysOpen": 6,
-      "daysSinceReceived": 6,
+      "daysOpen": 7,
+      "daysSinceReceived": 7,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -269,7 +292,7 @@ window.DISCORD_DATA = {
       "received": "2026-10-10",
       "last": "2026-10-11",
       "resolvedAt": "2026-10-10",
-      "daysOpen": 6,
+      "daysOpen": 7,
       "daysSinceReceived": 7,
       "daysToClose": 0,
       "messageCount": 3,
@@ -606,7 +629,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-20",
       "last": "2026-10-02",
       "resolvedAt": "2026-09-20",
-      "daysOpen": 15,
+      "daysOpen": 16,
       "daysSinceReceived": 27,
       "daysToClose": 0,
       "messageCount": 1,
@@ -671,8 +694,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-26",
       "last": "2026-09-26",
       "resolvedAt": "2026-09-26",
-      "daysOpen": 21,
-      "daysSinceReceived": 21,
+      "daysOpen": 22,
+      "daysSinceReceived": 22,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -717,8 +740,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-23",
       "last": "2026-09-23",
       "resolvedAt": "2026-09-23",
-      "daysOpen": 24,
-      "daysSinceReceived": 24,
+      "daysOpen": 25,
+      "daysSinceReceived": 25,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -763,8 +786,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-20",
       "last": "2026-09-20",
       "resolvedAt": "2026-09-20",
-      "daysOpen": 27,
-      "daysSinceReceived": 27,
+      "daysOpen": 28,
+      "daysSinceReceived": 28,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -13573,13 +13596,13 @@ window.DISCORD_DATA = {
     }
   ],
   "summary": {
-    "No response": 20,
+    "No response": 21,
     "Awaiting reply (from us)": 8,
     "Awaiting reply (from them)": 2,
     "Resolved": 678
   },
-  "avgOpenDays": 12.5,
-  "avgDaysToClose": 14.2,
+  "avgOpenDays": 12.4,
+  "avgDaysToClose": 14.1,
   "topCategories": [
     {
       "category": "Event/Activity check-in & reporting",
@@ -13591,7 +13614,7 @@ window.DISCORD_DATA = {
     },
     {
       "category": "OTP / Login issues",
-      "count": 105
+      "count": 106
     },
     {
       "category": "Study Jam issues",
