@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-18T14:37:33Z",
+  "generatedAt": "2026-10-18T16:37:00Z",
   "threads": [
     {
       "id": "finance-590fc46b8d",
@@ -4866,8 +4866,8 @@ window.DASHBOARD_DATA = {
       "email": "arjunsarovaram@gmail.com",
       "received": "2026-10-18",
       "last": "2026-10-18",
-      "status": "Awaiting reply (from them)",
-      "note": "Top 25 ULP 2026; phone smashed, can't log in. Kurian asked for T-shirt size and address; looping tech team",
+      "status": "Awaiting reply (from us)",
+      "note": "Top 25 ULP 2026; phone smashed, can't log in. Address/T-shirt size received & updated; he asks when app access will be restored — we owe tech-team fix/ETA",
       "cc": [
         "campus@tinkerhub.org",
         "support@tinkerhub.org"
@@ -5062,8 +5062,8 @@ window.DASHBOARD_DATA = {
   ],
   "summary": {
     "No response": 5,
-    "Awaiting reply (from us)": 18,
-    "Awaiting reply (from them)": 36,
+    "Awaiting reply (from us)": 19,
+    "Awaiting reply (from them)": 35,
     "Resolved": 52,
     "Informational": 176
   },
@@ -5073,14 +5073,14 @@ window.DASHBOARD_DATA = {
       "avgOpenDays": 19.8,
       "avgResolvedDays": 10.5,
       "No response": 2,
-      "Awaiting reply (from us)": 9,
-      "Awaiting reply (from them)": 27,
+      "Awaiting reply (from us)": 10,
+      "Awaiting reply (from them)": 26,
       "Resolved": 30,
       "Informational": 161
     },
     "support": {
       "total": 11,
-      "avgOpenDays": 38,
+      "avgOpenDays": 38.0,
       "avgResolvedDays": 13.6,
       "No response": 0,
       "Awaiting reply (from us)": 4,
@@ -5111,7 +5111,7 @@ window.DASHBOARD_DATA = {
     "partner": {
       "total": 8,
       "avgOpenDays": 16.6,
-      "avgResolvedDays": 1,
+      "avgResolvedDays": 1.0,
       "No response": 0,
       "Awaiting reply (from us)": 3,
       "Awaiting reply (from them)": 2,
@@ -5121,7 +5121,7 @@ window.DASHBOARD_DATA = {
     "tinkerspace": {
       "total": 3,
       "avgOpenDays": 5.5,
-      "avgResolvedDays": 1,
+      "avgResolvedDays": 1.0,
       "No response": 0,
       "Awaiting reply (from us)": 0,
       "Awaiting reply (from them)": 2,
