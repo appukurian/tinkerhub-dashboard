@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-18T08:36:51Z",
+  "generatedAt": "2026-10-18T10:38:02Z",
   "threads": [
     {
       "id": "finance-590fc46b8d",
@@ -4856,6 +4856,57 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 1
     },
     {
+      "id": "campus-107969351c",
+      "threadId": "1a14dd181df6842d",
+      "group": "campus",
+      "subject": "Cant login to tinkerhub",
+      "counterpart": "Arjun M Liji",
+      "email": "arjunsarovaram@gmail.com",
+      "received": "2026-10-18",
+      "last": "2026-10-18",
+      "status": "No response",
+      "note": "ULP 2026 top-25 participant locked out (OTP/SMS rate-limited); needs login help before ~Oct 23 to submit address for rewards",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-a1103de5ad",
+      "threadId": "1a14ddd2870e81c5",
+      "group": "campus",
+      "subject": "(no subject)",
+      "counterpart": "Alan Austin",
+      "email": "alanaustin895@gmail.com",
+      "received": "2026-10-18",
+      "last": "2026-10-18",
+      "status": "No response",
+      "note": "Says he got the regular email but made it to the top 3 video journal; unclear ask",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-52e525d650",
+      "threadId": "1a14e46820d994dd",
+      "group": "campus",
+      "subject": "About the t-shirt",
+      "counterpart": "Ansil Muhammed",
+      "email": "ansilmuhammed919@gmail.com",
+      "received": "2026-10-18",
+      "last": "2026-10-18",
+      "status": "No response",
+      "note": "Asks where the t-shirt will be sent (location); unanswered",
+      "cc": [
+        "campus@tinkerhub.org"
+      ],
+      "daysSinceReceived": 0,
+      "daysOpen": 0
+    },
+    {
       "id": "report-55aec88bb6",
       "threadId": null,
       "group": "report",
@@ -4901,6 +4952,21 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
+      "id": "report-80ba999b95",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Awaiting reply (from them)",
+      "note": null,
+      "daysOpen": 31,
+      "daysSinceReceived": 31,
+      "cc": []
+    },
+    {
       "id": "report-d24eb0ad18",
       "threadId": null,
       "group": "report",
@@ -4916,7 +4982,7 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
-      "id": "report-14807cce3a",
+      "id": "report-e5e12ff0cd",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -4931,7 +4997,7 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
-      "id": "report-c5d20472ea",
+      "id": "report-e5e12ff0cd",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -4991,7 +5057,7 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
-      "id": "report-80ba999b95",
+      "id": "report-dd8cc1a9a6",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -4999,114 +5065,80 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Awaiting reply (from them)",
+      "status": "Resolved",
       "note": null,
-      "daysOpen": 31,
-      "daysSinceReceived": 31,
+      "daysOpen": 30,
+      "daysSinceReceived": 55,
       "cc": []
-    },
-    {
-      "id": "campus-107969351c",
-      "threadId": "1a14dd181df6842d",
-      "group": "campus",
-      "subject": "Cant login to tinkerhub",
-      "counterpart": "Arjun M Liji",
-      "email": "arjunsarovaram@gmail.com",
-      "received": "2026-10-18",
-      "last": "2026-10-18",
-      "status": "No response",
-      "note": "ULP 2026 top-25 participant locked out (OTP/SMS rate-limited); needs login help before ~Oct 23 to submit address for rewards",
-      "daysOpen": 0,
-      "daysSinceReceived": 0,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-a1103de5ad",
-      "threadId": "1a14ddd2870e81c5",
-      "group": "campus",
-      "subject": "(no subject)",
-      "counterpart": "Alan Austin",
-      "email": "alanaustin895@gmail.com",
-      "received": "2026-10-18",
-      "last": "2026-10-18",
-      "status": "No response",
-      "note": "Says he got the regular email but made it to the top 3 video journal; unclear ask",
-      "daysOpen": 0,
-      "daysSinceReceived": 0,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
     }
   ],
   "summary": {
-    "No response": 7,
+    "Resolved": 54,
+    "Informational": 176,
     "Awaiting reply (from us)": 17,
-    "Awaiting reply (from them)": 33,
-    "Resolved": 53,
-    "Informational": 176
+    "No response": 8,
+    "Awaiting reply (from them)": 33
   },
   "analytics": {
     "campus": {
-      "total": 228,
-      "No response": 4,
+      "total": 229,
+      "avgOpenDays": 19.8,
+      "avgResolvedDays": 10.5,
+      "No response": 5,
       "Awaiting reply (from us)": 8,
       "Awaiting reply (from them)": 25,
       "Resolved": 30,
-      "Informational": 161,
-      "avgOpenDays": 20.4,
-      "avgResolvedDays": 10.5
+      "Informational": 161
     },
     "support": {
       "total": 11,
+      "avgOpenDays": 38.0,
+      "avgResolvedDays": 13.6,
       "No response": 0,
       "Awaiting reply (from us)": 4,
       "Awaiting reply (from them)": 0,
       "Resolved": 7,
-      "Informational": 0,
-      "avgOpenDays": 38.0,
-      "avgResolvedDays": 13.6
+      "Informational": 0
     },
     "finance": {
       "total": 26,
+      "avgOpenDays": 11.2,
+      "avgResolvedDays": 2.2,
       "No response": 3,
       "Awaiting reply (from us)": 2,
       "Awaiting reply (from them)": 0,
       "Resolved": 9,
-      "Informational": 12,
-      "avgOpenDays": 11.2,
-      "avgResolvedDays": 2.2
+      "Informational": 12
     },
     "report": {
-      "total": 10,
+      "total": 11,
+      "avgOpenDays": 32.0,
+      "avgResolvedDays": 17.3,
       "No response": 0,
       "Awaiting reply (from us)": 0,
       "Awaiting reply (from them)": 4,
-      "Resolved": 5,
-      "Informational": 1,
-      "avgOpenDays": 32.0,
-      "avgResolvedDays": 14.8
+      "Resolved": 6,
+      "Informational": 1
     },
     "partner": {
       "total": 8,
+      "avgOpenDays": 16.6,
+      "avgResolvedDays": 1.0,
       "No response": 0,
       "Awaiting reply (from us)": 3,
       "Awaiting reply (from them)": 2,
       "Resolved": 1,
-      "Informational": 2,
-      "avgOpenDays": 16.6,
-      "avgResolvedDays": 1.0
+      "Informational": 2
     },
     "tinkerspace": {
       "total": 3,
+      "avgOpenDays": 5.5,
+      "avgResolvedDays": 1.0,
       "No response": 0,
       "Awaiting reply (from us)": 0,
       "Awaiting reply (from them)": 2,
       "Resolved": 1,
-      "Informational": 0,
-      "avgOpenDays": 5.5,
-      "avgResolvedDays": 1.0
+      "Informational": 0
     }
   }
 };
