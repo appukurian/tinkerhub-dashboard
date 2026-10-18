@@ -1,7 +1,7 @@
 // Auto-generated daily by .github/workflows/discord-update.yml
 // Do NOT hand-edit — this file is overwritten on each run.
 window.DISCORD_DATA = {
-  "generatedAt": "2026-10-18T12:41:56Z",
+  "generatedAt": "2026-10-18T17:27:35Z",
   "threads": [
     {
       "id": "1561280363517444157",
@@ -59,17 +59,17 @@ window.DISCORD_DATA = {
       "received": "2026-10-16",
       "last": "2026-10-16",
       "resolvedAt": "2026-10-16",
-      "daysOpen": 1,
-      "daysSinceReceived": 1,
+      "daysOpen": 2,
+      "daysSinceReceived": 2,
       "daysToClose": 0,
       "messageCount": 3,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "The event isn't displayed in the app's activity drawer (even if I select it as a featured event)",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1558813608668827732",
-        "snippet": "Think it's a common issue, others do have the same problem <@1012977379209125908> <@1392046495535988836>"
+        "fromThreadName": "Requests for event deletion",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547281329643724820",
+        "snippet": "<@1012977379209125908>"
       }
     },
     {
@@ -82,7 +82,7 @@ window.DISCORD_DATA = {
       "received": "2026-10-09",
       "last": "2026-10-16",
       "resolvedAt": "2026-10-09",
-      "daysOpen": 1,
+      "daysOpen": 2,
       "daysSinceReceived": 9,
       "daysToClose": 0,
       "messageCount": 1,
@@ -90,9 +90,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "The event isn't displayed in the app's activity drawer (even if I select it as a featured event)",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1558813608668827732",
-        "snippet": "Think it's a common issue, others do have the same problem <@1012977379209125908> <@1392046495535988836>"
+        "fromThreadName": "Requests for event deletion",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547281329643724820",
+        "snippet": "<@1012977379209125908>"
       }
     },
     {
@@ -223,7 +223,7 @@ window.DISCORD_DATA = {
       "received": "2026-10-10",
       "last": "2026-10-12",
       "resolvedAt": "2026-10-10",
-      "daysOpen": 5,
+      "daysOpen": 6,
       "daysSinceReceived": 7,
       "daysToClose": 0,
       "messageCount": 1,
@@ -293,7 +293,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-11",
       "resolvedAt": "2026-10-10",
       "daysOpen": 7,
-      "daysSinceReceived": 7,
+      "daysSinceReceived": 8,
       "daysToClose": 0,
       "messageCount": 3,
       "archived": false,
@@ -316,7 +316,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-11",
       "resolvedAt": "2026-10-10",
       "daysOpen": 7,
-      "daysSinceReceived": 7,
+      "daysSinceReceived": 8,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -357,8 +357,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-10",
       "last": "2026-10-10",
       "resolvedAt": "2026-10-10",
-      "daysOpen": 7,
-      "daysSinceReceived": 7,
+      "daysOpen": 8,
+      "daysSinceReceived": 8,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -388,9 +388,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "The event isn't displayed in the app's activity drawer (even if I select it as a featured event)",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1558813608668827732",
-        "snippet": "Think it's a common issue, others do have the same problem <@1012977379209125908> <@1392046495535988836>"
+        "fromThreadName": "Requests for event deletion",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547281329643724820",
+        "snippet": "<@1012977379209125908>"
       }
     },
     {
@@ -403,17 +403,17 @@ window.DISCORD_DATA = {
       "received": "2026-10-08",
       "last": "2026-10-08",
       "resolvedAt": "2026-10-08",
-      "daysOpen": 9,
-      "daysSinceReceived": 9,
+      "daysOpen": 10,
+      "daysSinceReceived": 10,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "The event isn't displayed in the app's activity drawer (even if I select it as a featured event)",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1558813608668827732",
-        "snippet": "Think it's a common issue, others do have the same problem <@1012977379209125908> <@1392046495535988836>"
+        "fromThreadName": "Requests for event deletion",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547281329643724820",
+        "snippet": "<@1012977379209125908>"
       }
     },
     {
@@ -426,7 +426,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-27",
       "last": "2026-10-08",
       "resolvedAt": "2026-09-27",
-      "daysOpen": 9,
+      "daysOpen": 10,
       "daysSinceReceived": 21,
       "daysToClose": 0,
       "messageCount": 6,
@@ -476,9 +476,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "The event isn't displayed in the app's activity drawer (even if I select it as a featured event)",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1558813608668827732",
-        "snippet": "Think it's a common issue, others do have the same problem <@1012977379209125908> <@1392046495535988836>"
+        "fromThreadName": "Requests for event deletion",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547281329643724820",
+        "snippet": "<@1012977379209125908>"
       }
     },
     {
@@ -491,8 +491,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-07",
       "last": "2026-10-07",
       "resolvedAt": "2026-10-07",
-      "daysOpen": 10,
-      "daysSinceReceived": 10,
+      "daysOpen": 11,
+      "daysSinceReceived": 11,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -522,9 +522,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "The event isn't displayed in the app's activity drawer (even if I select it as a featured event)",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1558813608668827732",
-        "snippet": "Think it's a common issue, others do have the same problem <@1012977379209125908> <@1392046495535988836>"
+        "fromThreadName": "Requests for event deletion",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547281329643724820",
+        "snippet": "<@1012977379209125908>"
       }
     },
     {
@@ -560,17 +560,17 @@ window.DISCORD_DATA = {
       "received": "2026-10-05",
       "last": "2026-10-06",
       "resolvedAt": "2026-10-05",
-      "daysOpen": 11,
-      "daysSinceReceived": 12,
+      "daysOpen": 12,
+      "daysSinceReceived": 13,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "College name missing",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1542111286375227452",
-        "snippet": "so far there is only one to be added right?"
+        "fromThreadName": "Name Change for a Community Member",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1550538552993906779",
+        "snippet": "A community member has an incorrect name displayed on their profile. Currently displayed name: AYZHA A S Correct name: AYSHA A S Could you please help us update the member\u2019s name to AYSHA A S? I have attached a screenshot of the member\u2019s profile for reference."
       }
     },
     {
@@ -606,8 +606,8 @@ window.DISCORD_DATA = {
       "received": "2026-08-29",
       "last": "2026-10-06",
       "resolvedAt": "2026-10-06",
-      "daysOpen": 11,
-      "daysSinceReceived": 49,
+      "daysOpen": 12,
+      "daysSinceReceived": 50,
       "daysToClose": 38,
       "messageCount": 5,
       "archived": false,
@@ -630,7 +630,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-02",
       "resolvedAt": "2026-09-20",
       "daysOpen": 16,
-      "daysSinceReceived": 27,
+      "daysSinceReceived": 28,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -652,8 +652,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-01",
       "last": "2026-10-01",
       "resolvedAt": "2026-10-01",
-      "daysOpen": 16,
-      "daysSinceReceived": 16,
+      "daysOpen": 17,
+      "daysSinceReceived": 17,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -671,17 +671,17 @@ window.DISCORD_DATA = {
       "received": "2026-09-10",
       "last": "2026-10-01",
       "resolvedAt": "2026-09-10",
-      "daysOpen": 16,
-      "daysSinceReceived": 37,
+      "daysOpen": 17,
+      "daysSinceReceived": 38,
       "daysToClose": 0,
       "messageCount": 8,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "The event isn't displayed in the app's activity drawer (even if I select it as a featured event)",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1558813608668827732",
-        "snippet": "Think it's a common issue, others do have the same problem <@1012977379209125908> <@1392046495535988836>"
+        "fromThreadName": "Requests for event deletion",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547281329643724820",
+        "snippet": "<@1012977379209125908>"
       }
     },
     {
@@ -725,9 +725,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "The event isn't displayed in the app's activity drawer (even if I select it as a featured event)",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1558813608668827732",
-        "snippet": "Think it's a common issue, others do have the same problem <@1012977379209125908> <@1392046495535988836>"
+        "fromThreadName": "Requests for event deletion",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547281329643724820",
+        "snippet": "<@1012977379209125908>"
       }
     },
     {
@@ -794,56 +794,48 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "The event isn't displayed in the app's activity drawer (even if I select it as a featured event)",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1558813608668827732",
-        "snippet": "Think it's a common issue, others do have the same problem <@1012977379209125908> <@1392046495535988836>"
+        "fromThreadName": "Requests for event deletion",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547281329643724820",
+        "snippet": "<@1012977379209125908>"
       }
     },
     {
       "id": "1550538552993906779",
       "name": "Name Change for a Community Member",
       "url": "https://discord.com/channels/735180366297563257/1550538552993906779",
-      "status": "No response",
+      "status": "Resolved",
       "category": "Name/Profile changes",
       "requester": "Mehjebin",
       "received": "2026-09-18",
       "last": "2026-09-18",
-      "resolvedAt": "2026-09-18",
-      "daysOpen": 29,
-      "daysSinceReceived": 29,
-      "daysToClose": 0,
+      "resolvedAt": "2026-10-18",
+      "daysOpen": 30,
+      "daysSinceReceived": 30,
+      "daysToClose": 30,
       "messageCount": 0,
-      "archived": false,
+      "archived": true,
       "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "College name missing",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1542111286375227452",
-        "snippet": "so far there is only one to be added right?"
-      }
+      "resolutionSnippet": "A community member has an incorrect name displayed on their profile. Currently displayed name: AYZHA A S Correct name: AYSHA A S Could you please help us update the member\u2019s name to AYSHA A S? I have attached a screenshot of the member\u2019s profile for reference.",
+      "suggestion": null
     },
     {
       "id": "1547281329643724820",
       "name": "Requests for event deletion",
       "url": "https://discord.com/channels/735180366297563257/1547281329643724820",
-      "status": "No response",
+      "status": "Resolved",
       "category": "Event/Activity check-in & reporting",
       "requester": "GouriNandaKG",
       "received": "2026-09-09",
       "last": "2026-09-18",
-      "resolvedAt": "2026-09-09",
-      "daysOpen": 29,
-      "daysSinceReceived": 38,
-      "daysToClose": 0,
+      "resolvedAt": "2026-10-18",
+      "daysOpen": 30,
+      "daysSinceReceived": 39,
+      "daysToClose": 38,
       "messageCount": 1,
-      "archived": false,
+      "archived": true,
       "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "The event isn't displayed in the app's activity drawer (even if I select it as a featured event)",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1558813608668827732",
-        "snippet": "Think it's a common issue, others do have the same problem <@1012977379209125908> <@1392046495535988836>"
-      }
+      "resolutionSnippet": "<@1012977379209125908>",
+      "suggestion": null
     },
     {
       "id": "1548735435369484318",
@@ -13596,13 +13588,13 @@ window.DISCORD_DATA = {
     }
   ],
   "summary": {
-    "No response": 21,
+    "No response": 19,
     "Awaiting reply (from us)": 8,
     "Awaiting reply (from them)": 2,
-    "Resolved": 678
+    "Resolved": 680
   },
-  "avgOpenDays": 12.4,
-  "avgDaysToClose": 14.1,
+  "avgOpenDays": 11.6,
+  "avgDaysToClose": 14.2,
   "topCategories": [
     {
       "category": "Event/Activity check-in & reporting",
