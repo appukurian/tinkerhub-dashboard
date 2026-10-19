@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-19T12:36:47Z",
+  "generatedAt": "2026-10-19T14:38:00Z",
   "threads": [
     {
       "id": "finance-33a0a91d4d",
@@ -5138,63 +5138,63 @@ window.DASHBOARD_DATA = {
   "analytics": {
     "campus": {
       "total": 228,
-      "avgOpenDays": 20.3,
-      "avgResolvedDays": 10.5,
       "No response": 2,
       "Awaiting reply (from us)": 10,
       "Awaiting reply (from them)": 27,
       "Resolved": 30,
-      "Informational": 159
+      "Informational": 159,
+      "avgOpenDays": 20.3,
+      "avgResolvedDays": 10.5
     },
     "support": {
       "total": 12,
-      "avgOpenDays": 31.2,
-      "avgResolvedDays": 13.6,
       "No response": 1,
       "Awaiting reply (from us)": 4,
       "Awaiting reply (from them)": 0,
       "Resolved": 7,
-      "Informational": 0
+      "Informational": 0,
+      "avgOpenDays": 31.2,
+      "avgResolvedDays": 13.6
     },
     "finance": {
       "total": 29,
-      "avgOpenDays": 8.7,
-      "avgResolvedDays": 2.2,
       "No response": 4,
       "Awaiting reply (from us)": 2,
       "Awaiting reply (from them)": 1,
       "Resolved": 9,
-      "Informational": 13
+      "Informational": 13,
+      "avgOpenDays": 8.7,
+      "avgResolvedDays": 2.2
     },
     "report": {
       "total": 11,
-      "avgOpenDays": 34.7,
-      "avgResolvedDays": 11.8,
       "No response": 0,
       "Awaiting reply (from us)": 1,
       "Awaiting reply (from them)": 5,
       "Resolved": 4,
-      "Informational": 1
+      "Informational": 1,
+      "avgOpenDays": 34.7,
+      "avgResolvedDays": 11.8
     },
     "partner": {
       "total": 8,
-      "avgOpenDays": 17.6,
-      "avgResolvedDays": 1,
       "No response": 0,
       "Awaiting reply (from us)": 2,
       "Awaiting reply (from them)": 3,
       "Resolved": 1,
-      "Informational": 2
+      "Informational": 2,
+      "avgOpenDays": 17.6,
+      "avgResolvedDays": 1.0
     },
     "tinkerspace": {
       "total": 3,
-      "avgOpenDays": 6.5,
-      "avgResolvedDays": 1,
       "No response": 0,
       "Awaiting reply (from us)": 0,
       "Awaiting reply (from them)": 2,
       "Resolved": 1,
-      "Informational": 0
+      "Informational": 0,
+      "avgOpenDays": 6.5,
+      "avgResolvedDays": 1.0
     }
   }
 };
