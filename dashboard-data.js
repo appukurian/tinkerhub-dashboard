@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-19T02:37:00Z",
+  "generatedAt": "2026-10-19T04:37:00Z",
   "threads": [
     {
       "id": "finance-590fc46b8d",
@@ -5024,52 +5024,118 @@ window.DASHBOARD_DATA = {
       "daysOpen": 0,
       "daysSinceReceived": 17,
       "cc": []
+    },
+    {
+      "id": "support-0e4cf37802",
+      "threadId": "1a1526f6e36b7e02",
+      "group": "support",
+      "subject": "Unable to Login to TinkerHub App",
+      "counterpart": "Basim Hassan",
+      "email": "basimhassan325@gmail.com",
+      "received": "2026-10-19",
+      "last": "2026-10-19",
+      "status": "No response",
+      "note": "Phone login fails with 'Failed to send OTP'; same user also wrote to report@ (separate thread)",
+      "cc": [
+        "support@tinkerhub.org"
+      ],
+      "daysSinceReceived": 0,
+      "daysOpen": 0
+    },
+    {
+      "id": "finance-1cb3eb4697",
+      "threadId": "1a152579e95831db",
+      "group": "finance",
+      "subject": "Jio Business Login OTP",
+      "counterpart": "Jio (automated)",
+      "email": null,
+      "received": "2026-10-19",
+      "last": "2026-10-19",
+      "status": "Informational",
+      "note": "Automated JioBusiness OTP email",
+      "cc": [
+        "finance@tinkerhub.org"
+      ],
+      "daysSinceReceived": 0,
+      "daysOpen": 0
+    },
+    {
+      "id": "campus-c73e61d004",
+      "threadId": "1a15229b7ea87e6e",
+      "group": "campus",
+      "subject": "Regarding TinkerHub Goodies for Useless Projects 3.0",
+      "counterpart": "Muhammed Navas",
+      "email": "muhammednavas382@gmail.com",
+      "received": "2026-10-19",
+      "last": "2026-10-19",
+      "status": "Awaiting reply (from them)",
+      "note": "Arundhathi replied: event is for campus-chapter students; asked him to clarify his college/participation",
+      "cc": [
+        "campus@tinkerhub.org"
+      ],
+      "daysSinceReceived": 0,
+      "daysOpen": 0
+    },
+    {
+      "id": "report-d2655fb813",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Awaiting reply (from us)",
+      "note": null,
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": []
     }
   ],
   "summary": {
-    "No response": 5,
-    "Awaiting reply (from us)": 19,
-    "Awaiting reply (from them)": 35,
+    "No response": 6,
+    "Awaiting reply (from us)": 20,
+    "Awaiting reply (from them)": 36,
     "Resolved": 52,
-    "Informational": 174
+    "Informational": 175
   },
   "analytics": {
     "campus": {
-      "total": 227,
-      "avgOpenDays": 20.8,
+      "total": 228,
+      "avgOpenDays": 20.3,
       "avgResolvedDays": 10.5,
       "No response": 2,
       "Awaiting reply (from us)": 10,
-      "Awaiting reply (from them)": 26,
+      "Awaiting reply (from them)": 27,
       "Resolved": 30,
       "Informational": 159
     },
     "support": {
-      "total": 11,
-      "avgOpenDays": 39.0,
+      "total": 12,
+      "avgOpenDays": 31.2,
       "avgResolvedDays": 13.6,
-      "No response": 0,
+      "No response": 1,
       "Awaiting reply (from us)": 4,
       "Awaiting reply (from them)": 0,
       "Resolved": 7,
       "Informational": 0
     },
     "finance": {
-      "total": 26,
+      "total": 27,
       "avgOpenDays": 12.2,
       "avgResolvedDays": 2.2,
       "No response": 3,
       "Awaiting reply (from us)": 2,
       "Awaiting reply (from them)": 0,
       "Resolved": 9,
-      "Informational": 12
+      "Informational": 13
     },
     "report": {
-      "total": 10,
-      "avgOpenDays": 41.6,
+      "total": 11,
+      "avgOpenDays": 34.7,
       "avgResolvedDays": 11.8,
       "No response": 0,
-      "Awaiting reply (from us)": 0,
+      "Awaiting reply (from us)": 1,
       "Awaiting reply (from them)": 5,
       "Resolved": 4,
       "Informational": 1
@@ -5077,7 +5143,7 @@ window.DASHBOARD_DATA = {
     "partner": {
       "total": 8,
       "avgOpenDays": 17.6,
-      "avgResolvedDays": 1.0,
+      "avgResolvedDays": 1,
       "No response": 0,
       "Awaiting reply (from us)": 3,
       "Awaiting reply (from them)": 2,
@@ -5087,7 +5153,7 @@ window.DASHBOARD_DATA = {
     "tinkerspace": {
       "total": 3,
       "avgOpenDays": 6.5,
-      "avgResolvedDays": 1.0,
+      "avgResolvedDays": 1,
       "No response": 0,
       "Awaiting reply (from us)": 0,
       "Awaiting reply (from them)": 2,
