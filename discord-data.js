@@ -1,8 +1,54 @@
 // Auto-generated daily by .github/workflows/discord-update.yml
 // Do NOT hand-edit — this file is overwritten on each run.
 window.DISCORD_DATA = {
-  "generatedAt": "2026-10-20T13:44:15Z",
+  "generatedAt": "2026-10-20T18:34:51Z",
   "threads": [
+    {
+      "id": "1562128729948426280",
+      "name": "The event is not showing the register now button in the app",
+      "url": "https://discord.com/channels/735180366297563257/1562128729948426280",
+      "status": "No response",
+      "category": "Registration issues",
+      "requester": "Fidhaan Aameer",
+      "received": "2026-10-20",
+      "last": "2026-10-20",
+      "resolvedAt": "2026-10-20",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "daysToClose": 0,
+      "messageCount": 1,
+      "archived": false,
+      "locked": false,
+      "resolutionSnippet": "",
+      "suggestion": {
+        "fromThreadName": "Event Registration Issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546699427169697792",
+        "snippet": "<@1012977379209125908> Ethu update aayittilla...still 2 pere join aayittu kaanikkunnullu"
+      }
+    },
+    {
+      "id": "1562112409026433024",
+      "name": "App is not opening",
+      "url": "https://discord.com/channels/735180366297563257/1562112409026433024",
+      "status": "No response",
+      "category": "Other",
+      "requester": "Shamila A",
+      "received": "2026-10-20",
+      "last": "2026-10-20",
+      "resolvedAt": "2026-10-20",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "daysToClose": 0,
+      "messageCount": 1,
+      "archived": false,
+      "locked": false,
+      "resolutionSnippet": "",
+      "suggestion": {
+        "fromThreadName": "Host issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1558790454126837871",
+        "snippet": "This thread is closed by <@739367103013978183>."
+      }
+    },
     {
       "id": "1561280363517444157",
       "name": "Login issue",
@@ -59,8 +105,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-16",
       "last": "2026-10-16",
       "resolvedAt": "2026-10-16",
-      "daysOpen": 3,
-      "daysSinceReceived": 3,
+      "daysOpen": 4,
+      "daysSinceReceived": 4,
       "daysToClose": 0,
       "messageCount": 3,
       "archived": false,
@@ -82,7 +128,7 @@ window.DISCORD_DATA = {
       "received": "2026-10-09",
       "last": "2026-10-16",
       "resolvedAt": "2026-10-09",
-      "daysOpen": 3,
+      "daysOpen": 4,
       "daysSinceReceived": 11,
       "daysToClose": 0,
       "messageCount": 1,
@@ -293,7 +339,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-11",
       "resolvedAt": "2026-10-10",
       "daysOpen": 9,
-      "daysSinceReceived": 9,
+      "daysSinceReceived": 10,
       "daysToClose": 0,
       "messageCount": 3,
       "archived": false,
@@ -357,8 +403,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-10",
       "last": "2026-10-10",
       "resolvedAt": "2026-10-10",
-      "daysOpen": 9,
-      "daysSinceReceived": 9,
+      "daysOpen": 10,
+      "daysSinceReceived": 10,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -403,8 +449,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-08",
       "last": "2026-10-08",
       "resolvedAt": "2026-10-08",
-      "daysOpen": 11,
-      "daysSinceReceived": 11,
+      "daysOpen": 12,
+      "daysSinceReceived": 12,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -426,7 +472,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-27",
       "last": "2026-10-08",
       "resolvedAt": "2026-09-27",
-      "daysOpen": 11,
+      "daysOpen": 12,
       "daysSinceReceived": 23,
       "daysToClose": 0,
       "messageCount": 6,
@@ -491,8 +537,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-07",
       "last": "2026-10-07",
       "resolvedAt": "2026-10-07",
-      "daysOpen": 12,
-      "daysSinceReceived": 12,
+      "daysOpen": 13,
+      "daysSinceReceived": 13,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -560,7 +606,7 @@ window.DISCORD_DATA = {
       "received": "2026-10-05",
       "last": "2026-10-06",
       "resolvedAt": "2026-10-05",
-      "daysOpen": 13,
+      "daysOpen": 14,
       "daysSinceReceived": 15,
       "daysToClose": 0,
       "messageCount": 2,
@@ -606,8 +652,8 @@ window.DISCORD_DATA = {
       "received": "2026-08-29",
       "last": "2026-10-06",
       "resolvedAt": "2026-10-06",
-      "daysOpen": 13,
-      "daysSinceReceived": 51,
+      "daysOpen": 14,
+      "daysSinceReceived": 52,
       "daysToClose": 38,
       "messageCount": 5,
       "archived": false,
@@ -630,7 +676,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-02",
       "resolvedAt": "2026-09-20",
       "daysOpen": 18,
-      "daysSinceReceived": 29,
+      "daysSinceReceived": 30,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -652,8 +698,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-01",
       "last": "2026-10-01",
       "resolvedAt": "2026-10-01",
-      "daysOpen": 18,
-      "daysSinceReceived": 18,
+      "daysOpen": 19,
+      "daysSinceReceived": 19,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -671,8 +717,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-10",
       "last": "2026-10-01",
       "resolvedAt": "2026-09-10",
-      "daysOpen": 18,
-      "daysSinceReceived": 39,
+      "daysOpen": 19,
+      "daysSinceReceived": 40,
       "daysToClose": 0,
       "messageCount": 8,
       "archived": false,
@@ -13584,13 +13630,13 @@ window.DISCORD_DATA = {
     }
   ],
   "summary": {
-    "No response": 18,
+    "No response": 20,
     "Awaiting reply (from us)": 8,
     "Awaiting reply (from them)": 2,
     "Resolved": 681
   },
-  "avgOpenDays": 12.7,
-  "avgDaysToClose": 14.3,
+  "avgOpenDays": 12.2,
+  "avgDaysToClose": 14.2,
   "topCategories": [
     {
       "category": "Event/Activity check-in & reporting",
@@ -13598,7 +13644,7 @@ window.DISCORD_DATA = {
     },
     {
       "category": "Other",
-      "count": 140
+      "count": 141
     },
     {
       "category": "OTP / Login issues",
@@ -13610,7 +13656,7 @@ window.DISCORD_DATA = {
     },
     {
       "category": "Registration issues",
-      "count": 56
+      "count": 57
     },
     {
       "category": "Koottam access issues",
