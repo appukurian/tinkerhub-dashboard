@@ -1,7 +1,7 @@
 // Auto-generated daily by .github/workflows/discord-update.yml
 // Do NOT hand-edit — this file is overwritten on each run.
 window.DISCORD_DATA = {
-  "generatedAt": "2026-10-20T07:48:49Z",
+  "generatedAt": "2026-10-20T13:44:15Z",
   "threads": [
     {
       "id": "1561280363517444157",
@@ -67,9 +67,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Requests for event deletion",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547281329643724820",
-        "snippet": "<@1012977379209125908>"
+        "fromThreadName": "Request to delete event",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1551138140188844093",
+        "snippet": "Request to delete the following event: https://tinkerhub.org/events/R8U922CE4L/git-&-github-essentials:-collaborate,-branch,-and-ship-without-conflicts And the following study jam [Let's build something shall we | C\u2026"
       }
     },
     {
@@ -90,9 +90,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Requests for event deletion",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547281329643724820",
-        "snippet": "<@1012977379209125908>"
+        "fromThreadName": "Request to delete event",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1551138140188844093",
+        "snippet": "Request to delete the following event: https://tinkerhub.org/events/R8U922CE4L/git-&-github-essentials:-collaborate,-branch,-and-ship-without-conflicts And the following study jam [Let's build something shall we | C\u2026"
       }
     },
     {
@@ -223,7 +223,7 @@ window.DISCORD_DATA = {
       "received": "2026-10-10",
       "last": "2026-10-12",
       "resolvedAt": "2026-10-10",
-      "daysOpen": 7,
+      "daysOpen": 8,
       "daysSinceReceived": 9,
       "daysToClose": 0,
       "messageCount": 1,
@@ -246,8 +246,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-11",
       "last": "2026-10-11",
       "resolvedAt": "2026-10-11",
-      "daysOpen": 8,
-      "daysSinceReceived": 8,
+      "daysOpen": 9,
+      "daysSinceReceived": 9,
       "daysToClose": 0,
       "messageCount": 3,
       "archived": false,
@@ -316,7 +316,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-11",
       "resolvedAt": "2026-10-10",
       "daysOpen": 9,
-      "daysSinceReceived": 9,
+      "daysSinceReceived": 10,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -388,9 +388,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Requests for event deletion",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547281329643724820",
-        "snippet": "<@1012977379209125908>"
+        "fromThreadName": "Request to delete event",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1551138140188844093",
+        "snippet": "Request to delete the following event: https://tinkerhub.org/events/R8U922CE4L/git-&-github-essentials:-collaborate,-branch,-and-ship-without-conflicts And the following study jam [Let's build something shall we | C\u2026"
       }
     },
     {
@@ -411,9 +411,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Requests for event deletion",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547281329643724820",
-        "snippet": "<@1012977379209125908>"
+        "fromThreadName": "Request to delete event",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1551138140188844093",
+        "snippet": "Request to delete the following event: https://tinkerhub.org/events/R8U922CE4L/git-&-github-essentials:-collaborate,-branch,-and-ship-without-conflicts And the following study jam [Let's build something shall we | C\u2026"
       }
     },
     {
@@ -476,9 +476,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Requests for event deletion",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547281329643724820",
-        "snippet": "<@1012977379209125908>"
+        "fromThreadName": "Request to delete event",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1551138140188844093",
+        "snippet": "Request to delete the following event: https://tinkerhub.org/events/R8U922CE4L/git-&-github-essentials:-collaborate,-branch,-and-ship-without-conflicts And the following study jam [Let's build something shall we | C\u2026"
       }
     },
     {
@@ -522,9 +522,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Requests for event deletion",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547281329643724820",
-        "snippet": "<@1012977379209125908>"
+        "fromThreadName": "Request to delete event",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1551138140188844093",
+        "snippet": "Request to delete the following event: https://tinkerhub.org/events/R8U922CE4L/git-&-github-essentials:-collaborate,-branch,-and-ship-without-conflicts And the following study jam [Let's build something shall we | C\u2026"
       }
     },
     {
@@ -561,7 +561,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-06",
       "resolvedAt": "2026-10-05",
       "daysOpen": 13,
-      "daysSinceReceived": 14,
+      "daysSinceReceived": 15,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -629,7 +629,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-20",
       "last": "2026-10-02",
       "resolvedAt": "2026-09-20",
-      "daysOpen": 17,
+      "daysOpen": 18,
       "daysSinceReceived": 29,
       "daysToClose": 0,
       "messageCount": 1,
@@ -679,9 +679,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Requests for event deletion",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547281329643724820",
-        "snippet": "<@1012977379209125908>"
+        "fromThreadName": "Request to delete event",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1551138140188844093",
+        "snippet": "Request to delete the following event: https://tinkerhub.org/events/R8U922CE4L/git-&-github-essentials:-collaborate,-branch,-and-ship-without-conflicts And the following study jam [Let's build something shall we | C\u2026"
       }
     },
     {
@@ -694,8 +694,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-26",
       "last": "2026-09-26",
       "resolvedAt": "2026-09-26",
-      "daysOpen": 23,
-      "daysSinceReceived": 23,
+      "daysOpen": 24,
+      "daysSinceReceived": 24,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -725,9 +725,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Requests for event deletion",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547281329643724820",
-        "snippet": "<@1012977379209125908>"
+        "fromThreadName": "Request to delete event",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1551138140188844093",
+        "snippet": "Request to delete the following event: https://tinkerhub.org/events/R8U922CE4L/git-&-github-essentials:-collaborate,-branch,-and-ship-without-conflicts And the following study jam [Let's build something shall we | C\u2026"
       }
     },
     {
@@ -740,8 +740,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-23",
       "last": "2026-09-23",
       "resolvedAt": "2026-09-23",
-      "daysOpen": 26,
-      "daysSinceReceived": 26,
+      "daysOpen": 27,
+      "daysSinceReceived": 27,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -780,24 +780,20 @@ window.DISCORD_DATA = {
       "id": "1551138140188844093",
       "name": "Request to delete event",
       "url": "https://discord.com/channels/735180366297563257/1551138140188844093",
-      "status": "No response",
+      "status": "Resolved",
       "category": "Event/Activity check-in & reporting",
       "requester": "Akarsh A",
       "received": "2026-09-20",
       "last": "2026-09-20",
-      "resolvedAt": "2026-09-20",
-      "daysOpen": 29,
-      "daysSinceReceived": 29,
-      "daysToClose": 0,
+      "resolvedAt": "2026-10-20",
+      "daysOpen": 30,
+      "daysSinceReceived": 30,
+      "daysToClose": 30,
       "messageCount": 0,
-      "archived": false,
+      "archived": true,
       "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Requests for event deletion",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547281329643724820",
-        "snippet": "<@1012977379209125908>"
-      }
+      "resolutionSnippet": "Request to delete the following event: https://tinkerhub.org/events/R8U922CE4L/git-&-github-essentials:-collaborate,-branch,-and-ship-without-conflicts And the following study jam [Let's build something shall we | C\u2026",
+      "suggestion": null
     },
     {
       "id": "1550538552993906779",
@@ -13588,13 +13584,13 @@ window.DISCORD_DATA = {
     }
   ],
   "summary": {
-    "No response": 19,
+    "No response": 18,
     "Awaiting reply (from us)": 8,
     "Awaiting reply (from them)": 2,
-    "Resolved": 680
+    "Resolved": 681
   },
-  "avgOpenDays": 13.1,
-  "avgDaysToClose": 14.2,
+  "avgOpenDays": 12.7,
+  "avgDaysToClose": 14.3,
   "topCategories": [
     {
       "category": "Event/Activity check-in & reporting",
