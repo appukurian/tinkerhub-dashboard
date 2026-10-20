@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-20T04:37:00Z",
+  "generatedAt": "2026-10-20T06:37:36Z",
   "threads": [
     {
       "id": "finance-33a0a91d4d",
@@ -12,12 +12,12 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-19",
       "status": "No response",
       "note": "Invoice for Useless Projects evaluation study & report; vendor states bank account number has changed \u2014 verify before paying",
+      "daysOpen": 1,
+      "daysSinceReceived": 1,
       "cc": [
         "finance@tinkerhub.org",
         "mehar@tinkerhub.org"
-      ],
-      "daysSinceReceived": 1,
-      "daysOpen": 1
+      ]
     },
     {
       "id": "finance-ce8e03c171",
@@ -30,12 +30,12 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-19",
       "status": "Awaiting reply (from them)",
       "note": "We sent pending invoice details to Althaf asking for payment today",
+      "daysOpen": 1,
+      "daysSinceReceived": 1,
       "cc": [
         "finance@tinkerhub.org",
         "urbantrashindia@gmail.com"
-      ],
-      "daysSinceReceived": 1,
-      "daysOpen": 1
+      ]
     },
     {
       "id": "finance-590fc46b8d",
@@ -48,11 +48,11 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-16",
       "status": "Resolved",
       "note": "Althaf settled Rs 53,556 reimbursement on Oct 16 and sent payment receipt",
+      "daysOpen": 0,
+      "daysSinceReceived": 4,
       "cc": [
         "finance@tinkerhub.org"
-      ],
-      "daysSinceReceived": 4,
-      "daysOpen": 0
+      ]
     },
     {
       "id": "finance-91621f86a9",
@@ -82,11 +82,11 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-11",
       "status": "Resolved",
       "note": "Althaf confirmed reimbursement of Rs. 8,829 settled; receipt sent",
+      "daysOpen": 0,
+      "daysSinceReceived": 9,
       "cc": [
         "finance@tinkerhub.org"
-      ],
-      "daysSinceReceived": 9,
-      "daysOpen": 0
+      ]
     },
     {
       "id": "campus-38c081ff58",
@@ -173,12 +173,12 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-15",
       "status": "Awaiting reply (from us)",
       "note": "Femina replied Oct 15 saying it will be discussed at today's meeting; we owe Sam a decision on the IIIT Kottayam chapter proposal",
+      "daysOpen": 10,
+      "daysSinceReceived": 10,
       "cc": [
         "campus@tinkerhub.org",
         "femina@tinkerhub.org"
-      ],
-      "daysSinceReceived": 10,
-      "daysOpen": 10
+      ]
     },
     {
       "id": "campus-0b3476479c",
@@ -4574,11 +4574,11 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-11",
       "status": "Informational",
       "note": "Calendar invite for ULP 3.0 reflection meet on Oct 14, 4pm IST",
+      "daysOpen": 0,
+      "daysSinceReceived": 9,
       "cc": [
         "campus@tinkerhub.org"
-      ],
-      "daysSinceReceived": 9,
-      "daysOpen": 0
+      ]
     },
     {
       "id": "campus-a4e8adaa7e",
@@ -4591,11 +4591,11 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-12",
       "status": "Informational",
       "note": "Femina event reminder mailing to participants, campus@ cc'd",
+      "daysOpen": 0,
+      "daysSinceReceived": 8,
       "cc": [
         "campus@tinkerhub.org"
-      ],
-      "daysSinceReceived": 8,
-      "daysOpen": 0
+      ]
     },
     {
       "id": "tinkerspace-10c8a63724",
@@ -4608,12 +4608,12 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-12",
       "status": "Awaiting reply (from them)",
       "note": "Muhammed Shan replied 12 Oct with Builder in Residency hardware projects + Hackster.io links; awaiting student team feedback",
+      "daysOpen": 9,
+      "daysSinceReceived": 9,
       "cc": [
         "tinkerspace@tinkerhub.org",
         "hello@tinkerhub.org"
-      ],
-      "daysSinceReceived": 9,
-      "daysOpen": 9
+      ]
     },
     {
       "id": "partner-c6d4104234",
@@ -4626,12 +4626,12 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-13",
       "status": "Informational",
       "note": "Fellowship promo (cohort 3); Joan replied 13 Oct thanking Rishabh and engaging, cc partner@",
+      "daysOpen": 1,
+      "daysSinceReceived": 8,
       "cc": [
         "partner@tinkerhub.org",
         "hello@tinkerhub.org"
-      ],
-      "daysSinceReceived": 8,
-      "daysOpen": 1
+      ]
     },
     {
       "id": "campus-392e47904d",
@@ -4644,11 +4644,11 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-13",
       "status": "Informational",
       "note": "Femina pre-session prompt sent to participants, campus@ cc'd",
+      "daysOpen": 0,
+      "daysSinceReceived": 7,
       "cc": [
         "campus@tinkerhub.org"
-      ],
-      "daysSinceReceived": 7,
-      "daysOpen": 0
+      ]
     },
     {
       "id": "campus-79e6226853",
@@ -4661,11 +4661,11 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-13",
       "status": "Informational",
       "note": "Calendar invite for Socratus co-creation meet today 7pm IST",
+      "daysOpen": 0,
+      "daysSinceReceived": 7,
       "cc": [
         "campus@tinkerhub.org"
-      ],
-      "daysSinceReceived": 7,
-      "daysOpen": 0
+      ]
     },
     {
       "id": "campus-45aad687b5",
@@ -4678,11 +4678,11 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-13",
       "status": "Awaiting reply (from them)",
       "note": "Femina scheduled a meeting for 6pm Oct 14 with core team; awaiting their confirmation",
+      "daysOpen": 7,
+      "daysSinceReceived": 7,
       "cc": [
         "campus@tinkerhub.org"
-      ],
-      "daysSinceReceived": 7,
-      "daysOpen": 7
+      ]
     },
     {
       "id": "campus-5dc5fd82a2",
@@ -4695,11 +4695,11 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-13",
       "status": "Awaiting reply (from us)",
       "note": "Asked goodies be sent to personal address; Femina acknowledged, we owe a decision/address confirmation",
+      "daysOpen": 7,
+      "daysSinceReceived": 7,
       "cc": [
         "campus@tinkerhub.org"
-      ],
-      "daysSinceReceived": 7,
-      "daysOpen": 7
+      ]
     },
     {
       "id": "campus-ca377ea0c3",
@@ -4712,11 +4712,11 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-13",
       "status": "Informational",
       "note": "Joseph acknowledged invite for 7pm meeting today",
+      "daysOpen": 0,
+      "daysSinceReceived": 7,
       "cc": [
         "campus@tinkerhub.org"
-      ],
-      "daysSinceReceived": 7,
-      "daysOpen": 0
+      ]
     },
     {
       "id": "campus-645d04a74e",
@@ -4729,12 +4729,12 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-14",
       "status": "Resolved",
       "note": "Habeeb confirmed goodies will ship to Anjali's personal address",
+      "daysOpen": 1,
+      "daysSinceReceived": 7,
       "cc": [
         "campus@tinkerhub.org",
         "habeeb@tinkerhub.org"
-      ],
-      "daysSinceReceived": 7,
-      "daysOpen": 1
+      ]
     },
     {
       "id": "tinkerspace-c398295ec4",
@@ -4766,11 +4766,11 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-15",
       "status": "Informational",
       "note": "Habeeb shared 'ULP 3.0 Missed Gems' spreadsheet (Google Sheets share notification)",
+      "daysOpen": 0,
+      "daysSinceReceived": 5,
       "cc": [
         "campus@tinkerhub.org"
-      ],
-      "daysSinceReceived": 5,
-      "daysOpen": 0
+      ]
     },
     {
       "id": "finance-62b3b4b0b5",
@@ -4783,11 +4783,11 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-16",
       "status": "Informational",
       "note": "Mehar forwarded Axis Bank card statement (Apr 1-Oct 15) alongside his reimbursement request; no action requested",
+      "daysOpen": 0,
+      "daysSinceReceived": 4,
       "cc": [
         "finance@tinkerhub.org"
-      ],
-      "daysSinceReceived": 4,
-      "daysOpen": 0
+      ]
     },
     {
       "id": "campus-4b2055d237",
@@ -4800,30 +4800,30 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-17",
       "status": "Awaiting reply (from them)",
       "note": "Arundhathi requested a meeting with IIIT Kottayam officials about student-led campus community",
+      "daysOpen": 3,
+      "daysSinceReceived": 3,
       "cc": [
         "campus@tinkerhub.org",
         "victerpaul@iiitkottayam.ac.in",
         "pbala@iiitkottayam.ac.in"
-      ],
-      "daysSinceReceived": 3,
-      "daysOpen": 3
+      ]
     },
     {
-      "group": "finance",
+      "id": "finance-a4f959a307",
       "threadId": "1a14949f8f007e1d",
+      "group": "finance",
       "subject": "Your receipt from Resend #2690-8299",
       "counterpart": "Resend (automated)",
       "email": null,
-      "status": "Informational",
-      "note": "Automated Resend payment receipt",
-      "cc": [
-        "finance@tinkerhub.org"
-      ],
-      "id": "finance-a4f959a307",
       "received": "2026-10-17",
       "last": "2026-10-17",
+      "status": "Informational",
+      "note": "Automated Resend payment receipt",
       "daysOpen": 0,
-      "daysSinceReceived": 3
+      "daysSinceReceived": 3,
+      "cc": [
+        "finance@tinkerhub.org"
+      ]
     },
     {
       "id": "campus-107969351c",
@@ -4836,12 +4836,12 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-18",
       "status": "Awaiting reply (from us)",
       "note": "Top 25 ULP 2026; phone smashed, can't log in. Address/T-shirt size received & updated; he followed up again Oct 18 (19:21 UTC) asking when app access will be restored \u2014 we owe tech-team fix/ETA",
+      "daysOpen": 2,
+      "daysSinceReceived": 2,
       "cc": [
         "campus@tinkerhub.org",
         "support@tinkerhub.org"
-      ],
-      "daysSinceReceived": 2,
-      "daysOpen": 2
+      ]
     },
     {
       "id": "campus-a1103de5ad",
@@ -4854,11 +4854,11 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-18",
       "status": "Awaiting reply (from us)",
       "note": "Says he made top 3 video journal but got regular email; Kurian promised to check and update status",
+      "daysOpen": 2,
+      "daysSinceReceived": 2,
       "cc": [
         "campus@tinkerhub.org"
-      ],
-      "daysSinceReceived": 2,
-      "daysOpen": 2
+      ]
     },
     {
       "id": "campus-52e525d650",
@@ -4871,11 +4871,11 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-18",
       "status": "Awaiting reply (from them)",
       "note": "Kurian asked them to update home address and T-shirt size in Hub app profile",
+      "daysOpen": 2,
+      "daysSinceReceived": 2,
       "cc": [
         "campus@tinkerhub.org"
-      ],
-      "daysSinceReceived": 2,
-      "daysOpen": 2
+      ]
     },
     {
       "id": "support-0e4cf37802",
@@ -4888,11 +4888,11 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-19",
       "status": "No response",
       "note": "Phone login fails with 'Failed to send OTP'; same user also wrote to report@ (separate thread)",
+      "daysOpen": 1,
+      "daysSinceReceived": 1,
       "cc": [
         "support@tinkerhub.org"
-      ],
-      "daysSinceReceived": 1,
-      "daysOpen": 1
+      ]
     },
     {
       "id": "finance-1cb3eb4697",
@@ -4905,11 +4905,11 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-19",
       "status": "Informational",
       "note": "Automated JioBusiness OTP email",
+      "daysOpen": 0,
+      "daysSinceReceived": 1,
       "cc": [
         "finance@tinkerhub.org"
-      ],
-      "daysSinceReceived": 1,
-      "daysOpen": 0
+      ]
     },
     {
       "id": "campus-c73e61d004",
@@ -4922,11 +4922,11 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-19",
       "status": "Awaiting reply (from them)",
       "note": "Arundhathi replied: event is for campus-chapter students; asked him to clarify his college/participation",
+      "daysOpen": 1,
+      "daysSinceReceived": 1,
       "cc": [
         "campus@tinkerhub.org"
-      ],
-      "daysSinceReceived": 1,
-      "daysOpen": 1
+      ]
     },
     {
       "id": "report-592cad1439",
@@ -5092,24 +5092,79 @@ window.DASHBOARD_DATA = {
       "daysOpen": 1,
       "daysSinceReceived": 1,
       "cc": []
+    },
+    {
+      "id": "campus-df3cc89e86",
+      "threadId": "1a157c4faef25864",
+      "group": "campus",
+      "subject": "Unable to Access the Tinkerhub App",
+      "counterpart": "P Aashika",
+      "email": "aashikarajeev10@gmail.com",
+      "received": "2026-10-20",
+      "last": "2026-10-20",
+      "status": "No response",
+      "note": "Cannot access app to submit T-shirt size and delivery address; needs guidance",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "finance-f8c293e9b6",
+      "threadId": "1a1579eda47bfa7d",
+      "group": "finance",
+      "subject": "Internet Banking password: Unable to reset.",
+      "counterpart": "Althaf Sajeed (internal) / Axis Bank",
+      "email": "corporate.ib@axis.bank.in",
+      "received": "2026-10-20",
+      "last": "2026-10-20",
+      "status": "Resolved",
+      "note": "Axis helpdesk replied (separate thread) that the password reset worked after a call",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "finance@tinkerhub.org",
+        "mehar@tinkerhub.org",
+        "kurian@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "finance-8c4e64c2c0",
+      "threadId": "1a157bc1c60e8d1d",
+      "group": "finance",
+      "subject": "Re: Internet Banking password: Unable to reset. (CaseId : 261020024344)",
+      "counterpart": "Axis Bank (corporate helpdesk)",
+      "email": "corporate.ib@axis.bank.in",
+      "received": "2026-10-20",
+      "last": "2026-10-20",
+      "status": "Awaiting reply (from us)",
+      "note": "Axis asks us to verify password reset and confirm; Mehar forwarded internally",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "finance@tinkerhub.org",
+        "mehar@tinkerhub.org",
+        "kurian@tinkerhub.org"
+      ]
     }
   ],
   "summary": {
-    "No response": 7,
-    "Awaiting reply (from us)": 19,
+    "No response": 8,
+    "Awaiting reply (from us)": 20,
     "Awaiting reply (from them)": 38,
-    "Resolved": 51,
+    "Resolved": 52,
     "Informational": 174
   },
   "analytics": {
     "campus": {
-      "total": 226,
-      "No response": 2,
+      "total": 227,
+      "No response": 3,
       "Awaiting reply (from us)": 10,
       "Awaiting reply (from them)": 27,
       "Resolved": 29,
       "Informational": 158,
-      "avgOpenDays": 21.3,
+      "avgOpenDays": 20.8,
       "avgResolvedDays": 10.8
     },
     "support": {
@@ -5123,14 +5178,14 @@ window.DASHBOARD_DATA = {
       "avgResolvedDays": 13.6
     },
     "finance": {
-      "total": 29,
+      "total": 31,
       "No response": 4,
-      "Awaiting reply (from us)": 2,
+      "Awaiting reply (from us)": 3,
       "Awaiting reply (from them)": 1,
-      "Resolved": 9,
+      "Resolved": 10,
       "Informational": 13,
-      "avgOpenDays": 9.7,
-      "avgResolvedDays": 2.2
+      "avgOpenDays": 8.5,
+      "avgResolvedDays": 2.0
     },
     "report": {
       "total": 11,
