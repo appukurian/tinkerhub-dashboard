@@ -2,7 +2,7 @@
 // Do NOT hand-edit -- this file is overwritten on each run.
 window.EVENTS_DATA = {
   "generatedAt": "2026-10-20",
-  "generatedAtIso": "2026-10-20T18:53:01.144865+00:00",
+  "generatedAtIso": "2026-10-20T23:36:17.747714+00:00",
   "windowSinceDate": "2026-04-01",
   "windowUntilDate": "2027-03-31",
   "events": [
@@ -41796,7 +41796,7 @@ window.EVENTS_DATA = {
       "lat": 10.1811641,
       "lng": 76.182965,
       "locationSource": "maps_link",
-      "registered": 14,
+      "registered": 15,
       "checkedIn": 0,
       "checkedInAttendeeIds": [],
       "seats": null,
@@ -41951,7 +41951,7 @@ window.EVENTS_DATA = {
     },
     {
       "id": 4098,
-      "name": "Maker Thursday : Open Source Licensing & Project Showcase",
+      "name": "Maker Thursday : Open Source Licensing & Ham Radio",
       "type": "Bootcamp",
       "typeColor": "#db2777",
       "status": "published",
@@ -61320,7 +61320,7 @@ window.EVENTS_DATA = {
     "todayCount": 7,
     "upcomingCount": 18,
     "pastCount": 1048,
-    "totalRegistered": 29995,
+    "totalRegistered": 29996,
     "totalCheckedIn": 18912,
     "virtualCount": 417,
     "geocoded": 645,
