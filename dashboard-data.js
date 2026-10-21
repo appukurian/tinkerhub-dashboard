@@ -1,6 +1,23 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-21T02:38:05Z",
+  "generatedAt": "2026-10-21T04:37:25Z",
   "threads": [
+    {
+      "id": "finance-f1f08db99f",
+      "threadId": "1a15c61bebdd8b8d",
+      "group": "finance",
+      "subject": "Fwd: Your booking confirmation",
+      "counterpart": "internal (Mehar)",
+      "email": "mehar@tinkerhub.org",
+      "received": "2026-10-21",
+      "last": "2026-10-21",
+      "status": "Awaiting reply (from us)",
+      "note": "Mehar paid EUR 621.19 for Etihad Frankfurt-Bangkok flight (Nov 9-11, ref 75LUV3) and asks Althaf to reimburse ASAP",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "finance@tinkerhub.org"
+      ]
+    },
     {
       "id": "finance-33a0a91d4d",
       "threadId": "1a152ce232885969",
@@ -5217,7 +5234,7 @@ window.DASHBOARD_DATA = {
   ],
   "summary": {
     "No response": 12,
-    "Awaiting reply (from us)": 25,
+    "Awaiting reply (from us)": 26,
     "Awaiting reply (from them)": 36,
     "Resolved": 48,
     "Informational": 175
@@ -5244,13 +5261,13 @@ window.DASHBOARD_DATA = {
       "avgResolvedDays": 13.6
     },
     "finance": {
-      "total": 33,
+      "total": 34,
       "No response": 5,
-      "Awaiting reply (from us)": 4,
+      "Awaiting reply (from us)": 5,
       "Awaiting reply (from them)": 0,
       "Resolved": 11,
       "Informational": 13,
-      "avgOpenDays": 8.4,
+      "avgOpenDays": 7.6,
       "avgResolvedDays": 1.9
     },
     "report": {
