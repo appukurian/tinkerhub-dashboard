@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-21T06:37:14Z",
+  "generatedAt": "2026-10-21T08:39:00Z",
   "threads": [
     {
       "id": "finance-f1f08db99f",
@@ -16,6 +16,275 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 0,
       "cc": [
         "finance@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "partner-41004ef5de",
+      "threadId": "1a10d1fb437b0edf",
+      "group": "partner",
+      "subject": "Nomni x TinkerHub: Engineering Intern hiring for Nov 2026",
+      "counterpart": "Neethu Dharan (Nomni)",
+      "email": "neethu.dharan@nomni.ai",
+      "received": "2026-10-05",
+      "last": "2026-10-21",
+      "status": "Awaiting reply (from them)",
+      "note": "Nomni wants ~12 paid engineering interns (Nov 2026); Joan spoke with Neethu 14 Oct; 19 Oct Joan asked for Nomni logo, Chennai/Bangalore office details and role info; we owe top candidate profiles by 25 Oct",
+      "daysOpen": 16,
+      "daysSinceReceived": 16,
+      "cc": [
+        "partner@tinkerhub.org",
+        "campus@tinkerhub.org",
+        "arundhathi@tinkerhub.org",
+        "mehar@tinkerhub.org",
+        "kurian@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "partner-b7eb9f8505",
+      "threadId": "1a11acbaf5c961bb",
+      "group": "partner",
+      "subject": "Partnership proposal- Launchverse x Tinkerhub",
+      "counterpart": "Palakh Khanna (LaunchVerse)",
+      "email": "palakh@launchverse.org",
+      "received": "2026-10-08",
+      "last": "2026-10-21",
+      "status": "Awaiting reply (from them)",
+      "note": "Call held 13 Oct; Joan followed up 15 Oct asking Palakh to share the potential collaboration areas discussed. Waiting on Palakh",
+      "daysOpen": 13,
+      "daysSinceReceived": 13,
+      "cc": [
+        "partner@tinkerhub.org",
+        "hello@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "support-3873045b3a",
+      "threadId": "1a0dc1b0f9fe4d4d",
+      "group": "support",
+      "subject": "Request to Add My College to TinkerHub Registration \u2013 Layover Hackathon",
+      "counterpart": "Arjun Sabu (St. Kuriakose College, Kuruppampady)",
+      "email": "greninjadotdev@gmail.com",
+      "received": "2026-09-26",
+      "last": "2026-10-21",
+      "status": "Awaiting reply (from us)",
+      "note": "Akhil acknowledged (Oct 21) that the college is missing from the registration list and a fix will be deployed soon; we owe Arjun a confirmation once it is live",
+      "daysOpen": 25,
+      "daysSinceReceived": 25,
+      "cc": [
+        "support@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-107969351c",
+      "threadId": "1a14dd181df6842d",
+      "group": "campus",
+      "subject": "Cant login to tinkerhub",
+      "counterpart": "Arjun Sarovaram",
+      "email": "arjunsarovaram@gmail.com",
+      "received": "2026-10-18",
+      "last": "2026-10-21",
+      "status": "Awaiting reply (from them)",
+      "note": "Akhil says the login issue is resolved (Oct 21) and asked Arjun to retry; awaiting confirmation (prize address/T-shirt details already updated)",
+      "daysOpen": 3,
+      "daysSinceReceived": 3,
+      "cc": [
+        "campus@tinkerhub.org",
+        "support@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-f791df542c",
+      "threadId": "1a15a1c73884bfb1",
+      "group": "campus",
+      "subject": "Request for Extension of First-Year Coordinator Selection Deadline",
+      "counterpart": "CEC TinkerHub unit (tinkerhub@ceconline.edu)",
+      "email": "tinkerhub@ceconline.edu",
+      "received": "2026-10-20",
+      "last": "2026-10-21",
+      "status": "Resolved",
+      "note": "Femina approved the extension of the First-Year Coordinator selection deadline to Oct 31",
+      "daysOpen": 1,
+      "daysSinceReceived": 1,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-b16613847b",
+      "threadId": "1a159f1aba8609aa",
+      "group": "campus",
+      "subject": "Adding faculty Coordinator to the group",
+      "counterpart": "tinkerhubcep (campus unit)",
+      "email": "tinkerhubcep@gmail.com",
+      "received": "2026-10-20",
+      "last": "2026-10-21",
+      "status": "Awaiting reply (from us)",
+      "note": "Femina replied 21 Oct: faculty coordinator will be added to the group today; confirm done",
+      "daysOpen": 1,
+      "daysSinceReceived": 1,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-2316e75d1f",
+      "threadId": "1a15d3101c4c42e7",
+      "group": "campus",
+      "subject": "Unable to open TinkerHub App",
+      "counterpart": "Lekshmy S Raju",
+      "email": "lekshmys33@gmail.com",
+      "received": "2026-10-21",
+      "last": "2026-10-21",
+      "status": "Awaiting reply (from us)",
+      "note": "iOS app force-quits on launch (she and a teammate affected); Akhil says a fix will be live within 3 days; we owe an update once it ships",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "support@tinkerhub.org",
+        "femina@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "finance-ce8e03c171",
+      "threadId": "1a152a070f04b8dc",
+      "group": "finance",
+      "subject": "Pending Invoices",
+      "counterpart": "Althaf (Urban Trash)",
+      "email": "infothajudeen@gmail.com",
+      "received": "2026-10-19",
+      "last": "2026-10-20",
+      "status": "Resolved",
+      "note": "Althaf settled Rs 16,520 invoice on Oct 20 and asked vendor to use althaf@ going forward",
+      "daysOpen": 1,
+      "daysSinceReceived": 2,
+      "cc": [
+        "finance@tinkerhub.org",
+        "urbantrashindia@gmail.com"
+      ]
+    },
+    {
+      "id": "campus-df3cc89e86",
+      "threadId": "1a157c4faef25864",
+      "group": "campus",
+      "subject": "Unable to Access the Tinkerhub App",
+      "counterpart": "P Aashika",
+      "email": "aashikarajeev10@gmail.com",
+      "received": "2026-10-20",
+      "last": "2026-10-20",
+      "status": "No response",
+      "note": "Cannot access app to submit T-shirt size and delivery address; needs guidance",
+      "daysOpen": 1,
+      "daysSinceReceived": 1,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "finance-f8c293e9b6",
+      "threadId": "1a1579eda47bfa7d",
+      "group": "finance",
+      "subject": "Internet Banking password: Unable to reset.",
+      "counterpart": "Althaf Sajeed (internal) / Axis Bank",
+      "email": "corporate.ib@axis.bank.in",
+      "received": "2026-10-20",
+      "last": "2026-10-20",
+      "status": "Resolved",
+      "note": "Axis helpdesk replied (separate thread) that the password reset worked after a call",
+      "daysOpen": 0,
+      "daysSinceReceived": 1,
+      "cc": [
+        "finance@tinkerhub.org",
+        "mehar@tinkerhub.org",
+        "kurian@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "finance-8c4e64c2c0",
+      "threadId": "1a157bc1c60e8d1d",
+      "group": "finance",
+      "subject": "Re: Internet Banking password: Unable to reset. (CaseId : 261020024344)",
+      "counterpart": "Axis Bank (corporate helpdesk)",
+      "email": "corporate.ib@axis.bank.in",
+      "received": "2026-10-20",
+      "last": "2026-10-20",
+      "status": "Awaiting reply (from us)",
+      "note": "Axis asks us to verify password reset and confirm; Mehar forwarded internally",
+      "daysOpen": 1,
+      "daysSinceReceived": 1,
+      "cc": [
+        "finance@tinkerhub.org",
+        "mehar@tinkerhub.org",
+        "kurian@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-392e47904d",
+      "threadId": "1a158646b57f609a",
+      "group": "campus",
+      "subject": "A small ask before the Beyond the Blueprint session",
+      "counterpart": "internal (Femina)",
+      "email": "femina@tinkerhub.org",
+      "received": "2026-10-20",
+      "last": "2026-10-20",
+      "status": "Informational",
+      "note": "Femina pre-session reflection prompt sent to participants, campus@ cc'd",
+      "daysOpen": 0,
+      "daysSinceReceived": 1,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "finance-663640e5f8",
+      "threadId": "1a1584d6fea0b7cd",
+      "group": "finance",
+      "subject": "Fwd: Pack for Santa Coloma, Moosa Mehar! Your hotel is booked",
+      "counterpart": "internal (Mehar)",
+      "email": "mehar@tinkerhub.org",
+      "received": "2026-10-20",
+      "last": "2026-10-20",
+      "status": "Awaiting reply (from us)",
+      "note": "Mehar paid Rs 79,638.83 for Barcelona hotel (26-31 Oct) and asks Althaf to reimburse ASAP",
+      "daysOpen": 1,
+      "daysSinceReceived": 1,
+      "cc": [
+        "finance@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "finance-d3d190d4c1",
+      "threadId": "1a15839594e14913",
+      "group": "finance",
+      "subject": "Invoice and banking details for sample printing",
+      "counterpart": "Afeef Venthodika",
+      "email": "afeefv@gmail.com",
+      "received": "2026-10-20",
+      "last": "2026-10-20",
+      "status": "No response",
+      "note": "Sample printing invoice + bank details sent to Althaf; no reply yet",
+      "daysOpen": 1,
+      "daysSinceReceived": 1,
+      "cc": [
+        "finance@tinkerhub.org",
+        "mehar@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-15fdb1df9f",
+      "threadId": "1a15a093038a8770",
+      "group": "campus",
+      "subject": "Clarification and Request Regarding Minimum Registration Fees for Tech Fest",
+      "counterpart": "shivanandhaej115",
+      "email": "shivanandhaej115@gmail.com",
+      "received": "2026-10-20",
+      "last": "2026-10-20",
+      "status": "No response",
+      "note": "Asks about minimum registration fee",
+      "daysOpen": 1,
+      "daysSinceReceived": 1,
+      "cc": [
+        "campus@tinkerhub.org"
       ]
     },
     {
@@ -37,21 +306,124 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "finance-ce8e03c171",
-      "threadId": "1a152a070f04b8dc",
-      "group": "finance",
-      "subject": "Pending Invoices",
-      "counterpart": "Althaf (Urban Trash)",
-      "email": "infothajudeen@gmail.com",
+      "id": "support-0e4cf37802",
+      "threadId": "1a1526f6e36b7e02",
+      "group": "support",
+      "subject": "Unable to Login to TinkerHub App",
+      "counterpart": "Basim Hassan",
+      "email": "basimhassan325@gmail.com",
       "received": "2026-10-19",
-      "last": "2026-10-20",
-      "status": "Resolved",
-      "note": "Althaf settled Rs 16,520 invoice on Oct 20 and asked vendor to use althaf@ going forward",
-      "daysOpen": 1,
+      "last": "2026-10-19",
+      "status": "No response",
+      "note": "Phone login fails with 'Failed to send OTP'; same user also wrote to report@ (separate thread)",
+      "daysOpen": 2,
       "daysSinceReceived": 2,
       "cc": [
-        "finance@tinkerhub.org",
-        "urbantrashindia@gmail.com"
+        "support@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "finance-1cb3eb4697",
+      "threadId": "1a152579e95831db",
+      "group": "finance",
+      "subject": "Jio Business Login OTP",
+      "counterpart": "Jio (automated)",
+      "email": null,
+      "received": "2026-10-19",
+      "last": "2026-10-19",
+      "status": "Informational",
+      "note": "Automated JioBusiness OTP email",
+      "daysOpen": 0,
+      "daysSinceReceived": 2,
+      "cc": [
+        "finance@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-c73e61d004",
+      "threadId": "1a15229b7ea87e6e",
+      "group": "campus",
+      "subject": "Regarding TinkerHub Goodies for Useless Projects 3.0",
+      "counterpart": "Muhammed Navas",
+      "email": "muhammednavas382@gmail.com",
+      "received": "2026-10-19",
+      "last": "2026-10-19",
+      "status": "Awaiting reply (from them)",
+      "note": "Arundhathi replied: event is for campus-chapter students; asked him to clarify his college/participation",
+      "daysOpen": 2,
+      "daysSinceReceived": 2,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-a1103de5ad",
+      "threadId": "1a14ddd2870e81c5",
+      "group": "campus",
+      "subject": "Re:",
+      "counterpart": "Austin",
+      "email": "alanaustin895@gmail.com",
+      "received": "2026-10-18",
+      "last": "2026-10-18",
+      "status": "Awaiting reply (from us)",
+      "note": "Says he made top 3 video journal but got regular email; Kurian promised to check and update status",
+      "daysOpen": 3,
+      "daysSinceReceived": 3,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-52e525d650",
+      "threadId": "1a14e46820d994dd",
+      "group": "campus",
+      "subject": "About the t-shirt",
+      "counterpart": "Ansil Muhammed N S",
+      "email": "ansilmuhammed919@gmail.com",
+      "received": "2026-10-18",
+      "last": "2026-10-18",
+      "status": "Awaiting reply (from them)",
+      "note": "Kurian asked them to update home address and T-shirt size in Hub app profile",
+      "daysOpen": 3,
+      "daysSinceReceived": 3,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-4b2055d237",
+      "threadId": "1a14960f7ea3f15d",
+      "group": "campus",
+      "subject": "Request to meet \u2013 TinkerHub Campus Community at IIIT Kottayam",
+      "counterpart": "IIIT Kottayam registrar (internal outreach by Arundhathi)",
+      "email": "registrar@iiitkottayam.ac.in",
+      "received": "2026-10-17",
+      "last": "2026-10-17",
+      "status": "Awaiting reply (from them)",
+      "note": "Arundhathi requested a meeting with IIIT Kottayam officials about student-led campus community",
+      "daysOpen": 4,
+      "daysSinceReceived": 4,
+      "cc": [
+        "campus@tinkerhub.org",
+        "victerpaul@iiitkottayam.ac.in",
+        "pbala@iiitkottayam.ac.in"
+      ]
+    },
+    {
+      "id": "finance-a4f959a307",
+      "threadId": "1a14949f8f007e1d",
+      "group": "finance",
+      "subject": "Your receipt from Resend #2690-8299",
+      "counterpart": "Resend (automated)",
+      "email": null,
+      "received": "2026-10-17",
+      "last": "2026-10-17",
+      "status": "Informational",
+      "note": "Automated Resend payment receipt",
+      "daysOpen": 0,
+      "daysSinceReceived": 4,
+      "cc": [
+        "finance@tinkerhub.org"
       ]
     },
     {
@@ -89,6 +461,274 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
+      "id": "finance-62b3b4b0b5",
+      "threadId": "1a143bec343af1de",
+      "group": "finance",
+      "subject": "Fwd: AXIS BANK : Statement for period 01-04-2026 to 15-10-2026",
+      "counterpart": "internal (Mehar)",
+      "email": "mehar@tinkerhub.org",
+      "received": "2026-10-16",
+      "last": "2026-10-16",
+      "status": "Informational",
+      "note": "Mehar forwarded Axis Bank card statement (Apr 1-Oct 15) alongside his reimbursement request; no action requested",
+      "daysOpen": 0,
+      "daysSinceReceived": 5,
+      "cc": [
+        "finance@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-5991145f84",
+      "threadId": "1a12710515e86494",
+      "group": "campus",
+      "subject": "Re: Modus Operandi Document to Be Submitted to FIC",
+      "counterpart": "Sam Ruben Abraham (TinkerHub IIIT Kottayam)",
+      "email": "samrubenabraham@gmail.com",
+      "received": "2026-10-10",
+      "last": "2026-10-15",
+      "status": "Awaiting reply (from us)",
+      "note": "Femina replied Oct 15 saying it will be discussed at today's meeting; we owe Sam a decision on the IIIT Kottayam chapter proposal",
+      "daysOpen": 11,
+      "daysSinceReceived": 11,
+      "cc": [
+        "campus@tinkerhub.org",
+        "femina@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-561b496297",
+      "threadId": "1a140c5af920355c",
+      "group": "campus",
+      "subject": "Spreadsheet shared with you: \"ULP 3.0 Missed Gems\"",
+      "counterpart": "internal (Habeeb Rahman)",
+      "email": "habeeb@tinkerhub.org",
+      "received": "2026-10-15",
+      "last": "2026-10-15",
+      "status": "Informational",
+      "note": "Habeeb shared 'ULP 3.0 Missed Gems' spreadsheet (Google Sheets share notification)",
+      "daysOpen": 0,
+      "daysSinceReceived": 6,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-529c28bca3",
+      "threadId": "1a11fe92777788fd",
+      "group": "campus",
+      "subject": "Request for Student Visit to Thinkerhub Kalamassery",
+      "counterpart": "Aswathi M R (Naipunnya Institute of Management and Information Technology)",
+      "email": "aswathimr@naipunnya.ac.in",
+      "received": "2026-10-09",
+      "last": "2026-10-14",
+      "status": "Awaiting reply (from them)",
+      "note": "Requests visit for ~150 students; Shan (Space Manager) confirmed visit is possible on 14 Oct and is now main point of contact; dates being coordinated with them",
+      "daysOpen": 12,
+      "daysSinceReceived": 12,
+      "cc": [
+        "campus@tinkerhub.org",
+        "tinkerspace@tinkerhub.org",
+        "council@tinkerhub.org",
+        "mehar@tinkerhub.org",
+        "arundhathi@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-645d04a74e",
+      "threadId": "1a134d3888cc09e2",
+      "group": "campus",
+      "subject": "Request to Send Useless Projects Celebration Goodies to My Personal Address",
+      "counterpart": "Anjali S Pillai",
+      "email": "anjalispillai321@gmail.com",
+      "received": "2026-10-13",
+      "last": "2026-10-14",
+      "status": "Resolved",
+      "note": "Habeeb confirmed goodies will ship to Anjali's personal address",
+      "daysOpen": 1,
+      "daysSinceReceived": 8,
+      "cc": [
+        "campus@tinkerhub.org",
+        "habeeb@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "tinkerspace-c398295ec4",
+      "threadId": "1a13a23581e11303",
+      "group": "tinkerspace",
+      "subject": "Technical Workshop Proposal \u2013 AI Wednesdays at TinkerSpace Kochi",
+      "counterpart": "Devanandha Vellaramkuzhiyil Shaji",
+      "email": "devanandhadevv@gmail.com",
+      "received": "2026-10-14",
+      "last": "2026-10-14",
+      "status": "Awaiting reply (from them)",
+      "note": "Proposes AI Wednesdays workshop at TinkerSpace Kochi; Jasim replied willing to host and asked for details",
+      "daysOpen": 7,
+      "daysSinceReceived": 7,
+      "cc": [
+        "tinkerspace@tinkerhub.org",
+        "hello@tinkerhub.org",
+        "jasim@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "finance-1d25680e93",
+      "threadId": "1a118ffcf08d2335",
+      "group": "finance",
+      "subject": "Invoice 14573 from Make Community LLC",
+      "counterpart": "Make Community LLC (Jennifer / Kelly)",
+      "email": "jennifer@make.co",
+      "received": "2026-10-08",
+      "last": "2026-10-13",
+      "status": "Resolved",
+      "note": "Payment made; Make Community confirmed receipt 2026-10-08 (invoice 14573, USD 1030); Kurian thanked them 13 Oct",
+      "daysOpen": 5,
+      "daysSinceReceived": 13,
+      "cc": [
+        "finance@tinkerhub.org",
+        "kelly@make.co",
+        "jasim@tinkerhub.org",
+        "salman@makergram.com"
+      ]
+    },
+    {
+      "id": "partner-c6d4104234",
+      "threadId": "1a1302db0d67df79",
+      "group": "partner",
+      "subject": "Build for Bharat Fellowship 2027 | Opportunity for your community",
+      "counterpart": "Rishabh Tripathi (Bharat Digital)",
+      "email": "rishabh@bharatdigital.io",
+      "received": "2026-10-12",
+      "last": "2026-10-13",
+      "status": "Informational",
+      "note": "Fellowship promo (cohort 3); Joan replied 13 Oct thanking Rishabh and engaging, cc partner@",
+      "daysOpen": 1,
+      "daysSinceReceived": 9,
+      "cc": [
+        "partner@tinkerhub.org",
+        "hello@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-392e47904d",
+      "threadId": "1a133f92d45bbf8f",
+      "group": "campus",
+      "subject": "A small ask before the Beyond the Blueprint session",
+      "counterpart": "internal (Femina)",
+      "email": "femina@tinkerhub.org",
+      "received": "2026-10-13",
+      "last": "2026-10-13",
+      "status": "Informational",
+      "note": "Femina pre-session prompt sent to participants, campus@ cc'd",
+      "daysOpen": 0,
+      "daysSinceReceived": 8,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-79e6226853",
+      "threadId": "1a133c275c4a8904",
+      "group": "campus",
+      "subject": "Invitation: TinkerHub x Socratus: Student Co-creation Meet @ Tue Oct 13, 2026 7pm - 8pm (IST) (Kurian Jacob)",
+      "counterpart": "internal (Habeeb)",
+      "email": "habeeb@tinkerhub.org",
+      "received": "2026-10-13",
+      "last": "2026-10-13",
+      "status": "Informational",
+      "note": "Calendar invite for Socratus co-creation meet today 7pm IST",
+      "daysOpen": 0,
+      "daysSinceReceived": 8,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-45aad687b5",
+      "threadId": "1a1341763e0f7eb8",
+      "group": "campus",
+      "subject": "Re: Meeting at campus",
+      "counterpart": "Sreyas (TinkerHub Sahrdaya CAS)",
+      "email": "sreyas.thejus.peenikkal@gmail.com",
+      "received": "2026-10-13",
+      "last": "2026-10-13",
+      "status": "Awaiting reply (from them)",
+      "note": "Femina scheduled a meeting for 6pm Oct 14 with core team; awaiting their confirmation",
+      "daysOpen": 8,
+      "daysSinceReceived": 8,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-5dc5fd82a2",
+      "threadId": "1a1341653a6e231e",
+      "group": "campus",
+      "subject": "Re: Request to Send Useless Projects Celebration Goodies to My Personal Address",
+      "counterpart": "Anjali S Pillai",
+      "email": "anjalispillai321@gmail.com",
+      "received": "2026-10-13",
+      "last": "2026-10-13",
+      "status": "Awaiting reply (from us)",
+      "note": "Asked goodies be sent to personal address; Femina acknowledged, we owe a decision/address confirmation",
+      "daysOpen": 8,
+      "daysSinceReceived": 8,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-ca377ea0c3",
+      "threadId": "1a13405ec56984f8",
+      "group": "campus",
+      "subject": "Re: Invitation: TinkerHub x Socratus: Student Co-creation Meet @ Tue Oct 13, 2026 7pm - 8pm (IST) (joseph@socratus.org)",
+      "counterpart": "Joseph Philip (Socratus Foundation)",
+      "email": "joseph@socratus.org",
+      "received": "2026-10-13",
+      "last": "2026-10-13",
+      "status": "Informational",
+      "note": "Joseph acknowledged invite for 7pm meeting today",
+      "daysOpen": 0,
+      "daysSinceReceived": 8,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-a4e8adaa7e",
+      "threadId": "1a12eb5d69d3d30d",
+      "group": "campus",
+      "subject": "Get ready for Beyond the Blueprint tomorrow!",
+      "counterpart": "internal (Femina)",
+      "email": "femina@tinkerhub.org",
+      "received": "2026-10-12",
+      "last": "2026-10-12",
+      "status": "Informational",
+      "note": "Femina event reminder mailing to participants, campus@ cc'd",
+      "daysOpen": 0,
+      "daysSinceReceived": 9,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "tinkerspace-10c8a63724",
+      "threadId": "1a12ae4687067460",
+      "group": "tinkerspace",
+      "subject": "Request for Hardware Project Ideas \u2013 SIBAQ K7 Hardware Hackathon",
+      "counterpart": "Muhammed Yaseen",
+      "email": "muhammedyaseenkgb@gmail.com",
+      "received": "2026-10-11",
+      "last": "2026-10-12",
+      "status": "Awaiting reply (from them)",
+      "note": "Muhammed Shan replied 12 Oct with Builder in Residency hardware projects + Hackster.io links; awaiting student team feedback",
+      "daysOpen": 10,
+      "daysSinceReceived": 10,
+      "cc": [
+        "tinkerspace@tinkerhub.org",
+        "hello@tinkerhub.org"
+      ]
+    },
+    {
       "id": "finance-e55e10ccbe",
       "threadId": "1a12873b9bcae3c2",
       "group": "finance",
@@ -103,6 +743,76 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 10,
       "cc": [
         "finance@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-0e5cd825c5",
+      "threadId": "1a1268352b919587",
+      "group": "campus",
+      "subject": "Inquiry Regarding Campus Onboarding and Funding Support for TinkerHub MBITS",
+      "counterpart": "Krishnendu B Nair (MBITS student, prospective campus)",
+      "email": "krishnendubnair07@gmail.com",
+      "received": "2026-10-10",
+      "last": "2026-10-11",
+      "status": "Resolved",
+      "note": "Femina replied 11 Oct: campus site/FAQ, applications open Mar 2027 (Campus Leadership Programme), no funding but travel aid, list of support",
+      "daysOpen": 1,
+      "daysSinceReceived": 11,
+      "cc": [
+        "campus@tinkerhub.org",
+        "hello@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "partner-b88cd54a57",
+      "threadId": "1a1145a3784ebebe",
+      "group": "partner",
+      "subject": "Open-source tooling for students building action-taking AI agents",
+      "counterpart": "Daniel J. (Tenuo)",
+      "email": "daniel@tenuo.ai",
+      "received": "2026-10-07",
+      "last": "2026-10-11",
+      "status": "Awaiting reply (from them)",
+      "note": "Tenuo (open-source AI-agent authorization) asks to share with builders / connect with campus leads; Joan replied 11 Oct interested, proposing a call - awaiting Daniel to confirm",
+      "daysOpen": 14,
+      "daysSinceReceived": 14,
+      "cc": [
+        "partner@tinkerhub.org",
+        "hello@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "partner-b9bcb228e9",
+      "threadId": "1a0ec632e1835bd5",
+      "group": "partner",
+      "subject": "Fwd: Cosmo Hacks 2026: community partnership for TinkerHub Foundation",
+      "counterpart": "internal (Kurian Jacob)",
+      "email": null,
+      "received": "2026-09-29",
+      "last": "2026-10-11",
+      "status": "Informational",
+      "note": "internal forward of Cosmo Hacks proposal to partner@; Joan replied to Pranav (Cosmo Hacks) 11 Oct proposing a call from 13 Oct; see Cosmo Hacks thread",
+      "daysOpen": 12,
+      "daysSinceReceived": 22,
+      "cc": [
+        "partner@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-cce8e84c14",
+      "threadId": "1a12b4e92bf1611a",
+      "group": "campus",
+      "subject": "Invitation: Reflection meet - ULP 3.0 @ Wed Oct 14, 2026 4pm - 5pm (IST) (Kurian Jacob)",
+      "counterpart": "internal (Habeeb)",
+      "email": "habeeb@tinkerhub.org",
+      "received": "2026-10-11",
+      "last": "2026-10-11",
+      "status": "Informational",
+      "note": "Calendar invite for ULP 3.0 reflection meet on Oct 14, 4pm IST",
+      "daysOpen": 0,
+      "daysSinceReceived": 10,
+      "cc": [
+        "campus@tinkerhub.org"
       ]
     },
     {
@@ -162,42 +872,6 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "campus-0e5cd825c5",
-      "threadId": "1a1268352b919587",
-      "group": "campus",
-      "subject": "Inquiry Regarding Campus Onboarding and Funding Support for TinkerHub MBITS",
-      "counterpart": "Krishnendu B Nair (MBITS student, prospective campus)",
-      "email": "krishnendubnair07@gmail.com",
-      "received": "2026-10-10",
-      "last": "2026-10-11",
-      "status": "Resolved",
-      "note": "Femina replied 11 Oct: campus site/FAQ, applications open Mar 2027 (Campus Leadership Programme), no funding but travel aid, list of support",
-      "daysOpen": 1,
-      "daysSinceReceived": 11,
-      "cc": [
-        "campus@tinkerhub.org",
-        "hello@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-5991145f84",
-      "threadId": "1a12710515e86494",
-      "group": "campus",
-      "subject": "Re: Modus Operandi Document to Be Submitted to FIC",
-      "counterpart": "Sam Ruben Abraham (TinkerHub IIIT Kottayam)",
-      "email": "samrubenabraham@gmail.com",
-      "received": "2026-10-10",
-      "last": "2026-10-15",
-      "status": "Awaiting reply (from us)",
-      "note": "Femina replied Oct 15 saying it will be discussed at today's meeting; we owe Sam a decision on the IIIT Kottayam chapter proposal",
-      "daysOpen": 11,
-      "daysSinceReceived": 11,
-      "cc": [
-        "campus@tinkerhub.org",
-        "femina@tinkerhub.org"
-      ]
-    },
-    {
       "id": "campus-0b3476479c",
       "threadId": "1a11eaa1d2103a10",
       "group": "campus",
@@ -229,27 +903,6 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 14,
       "cc": [
         "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "partner-41004ef5de",
-      "threadId": "1a10d1fb437b0edf",
-      "group": "partner",
-      "subject": "Nomni x TinkerHub: Engineering Intern hiring for Nov 2026",
-      "counterpart": "Neethu Dharan (Nomni)",
-      "email": "neethu.dharan@nomni.ai",
-      "received": "2026-10-05",
-      "last": "2026-10-21",
-      "status": "Awaiting reply (from them)",
-      "note": "Nomni wants ~12 paid engineering interns (Nov 2026); Joan spoke with Neethu 14 Oct; 19 Oct Joan asked for Nomni logo, Chennai/Bangalore office details and role info; we owe top candidate profiles by 25 Oct",
-      "daysOpen": 16,
-      "daysSinceReceived": 16,
-      "cc": [
-        "partner@tinkerhub.org",
-        "campus@tinkerhub.org",
-        "arundhathi@tinkerhub.org",
-        "mehar@tinkerhub.org",
-        "kurian@tinkerhub.org"
       ]
     },
     {
@@ -374,27 +1027,6 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "campus-529c28bca3",
-      "threadId": "1a11fe92777788fd",
-      "group": "campus",
-      "subject": "Request for Student Visit to Thinkerhub Kalamassery",
-      "counterpart": "Aswathi M R (Naipunnya Institute of Management and Information Technology)",
-      "email": "aswathimr@naipunnya.ac.in",
-      "received": "2026-10-09",
-      "last": "2026-10-14",
-      "status": "Awaiting reply (from them)",
-      "note": "Requests visit for ~150 students; Shan (Space Manager) confirmed visit is possible on 14 Oct and is now main point of contact; dates being coordinated with them",
-      "daysOpen": 12,
-      "daysSinceReceived": 12,
-      "cc": [
-        "campus@tinkerhub.org",
-        "tinkerspace@tinkerhub.org",
-        "council@tinkerhub.org",
-        "mehar@tinkerhub.org",
-        "arundhathi@tinkerhub.org"
-      ]
-    },
-    {
       "id": "finance-31b27bcdd2",
       "threadId": "1a120e3b5b5fc332",
       "group": "finance",
@@ -430,26 +1062,6 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "finance-1d25680e93",
-      "threadId": "1a118ffcf08d2335",
-      "group": "finance",
-      "subject": "Invoice 14573 from Make Community LLC",
-      "counterpart": "Make Community LLC (Jennifer / Kelly)",
-      "email": "jennifer@make.co",
-      "received": "2026-10-08",
-      "last": "2026-10-13",
-      "status": "Resolved",
-      "note": "Payment made; Make Community confirmed receipt 2026-10-08 (invoice 14573, USD 1030); Kurian thanked them 13 Oct",
-      "daysOpen": 5,
-      "daysSinceReceived": 13,
-      "cc": [
-        "finance@tinkerhub.org",
-        "kelly@make.co",
-        "jasim@tinkerhub.org",
-        "salman@makergram.com"
-      ]
-    },
-    {
       "id": "campus-8d502e153e",
       "threadId": "1a11a3f500033d98",
       "group": "campus",
@@ -481,42 +1093,6 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 13,
       "cc": [
         "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "partner-b7eb9f8505",
-      "threadId": "1a11acbaf5c961bb",
-      "group": "partner",
-      "subject": "Partnership proposal- Launchverse x Tinkerhub",
-      "counterpart": "Palakh Khanna (LaunchVerse)",
-      "email": "palakh@launchverse.org",
-      "received": "2026-10-08",
-      "last": "2026-10-21",
-      "status": "Awaiting reply (from them)",
-      "note": "Call held 13 Oct; Joan followed up 15 Oct asking Palakh to share the potential collaboration areas discussed. Waiting on Palakh",
-      "daysOpen": 13,
-      "daysSinceReceived": 13,
-      "cc": [
-        "partner@tinkerhub.org",
-        "hello@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "partner-b88cd54a57",
-      "threadId": "1a1145a3784ebebe",
-      "group": "partner",
-      "subject": "Open-source tooling for students building action-taking AI agents",
-      "counterpart": "Daniel J. (Tenuo)",
-      "email": "daniel@tenuo.ai",
-      "received": "2026-10-07",
-      "last": "2026-10-11",
-      "status": "Awaiting reply (from them)",
-      "note": "Tenuo (open-source AI-agent authorization) asks to share with builders / connect with campus leads; Joan replied 11 Oct interested, proposing a call - awaiting Daniel to confirm",
-      "daysOpen": 14,
-      "daysSinceReceived": 14,
-      "cc": [
-        "partner@tinkerhub.org",
-        "hello@tinkerhub.org"
       ]
     },
     {
@@ -2229,23 +2805,6 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "support-3873045b3a",
-      "threadId": "1a0dc1b0f9fe4d4d",
-      "group": "support",
-      "subject": "Request to Add My College to TinkerHub Registration \u2013 Layover Hackathon",
-      "counterpart": "Arjun Sabu (St. Kuriakose College, Kuruppampady)",
-      "email": "greninjadotdev@gmail.com",
-      "received": "2026-09-26",
-      "last": "2026-09-30",
-      "status": "Awaiting reply (from us)",
-      "note": "forwarded to support 09-30; college addition pending",
-      "daysOpen": 25,
-      "daysSinceReceived": 25,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
       "id": "finance-6084182e6d",
       "threadId": "1a0f2931ce182bb7",
       "group": "finance",
@@ -2381,23 +2940,6 @@ window.DASHBOARD_DATA = {
       "daysSinceReceived": 25,
       "cc": [
         "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "partner-b9bcb228e9",
-      "threadId": "1a0ec632e1835bd5",
-      "group": "partner",
-      "subject": "Fwd: Cosmo Hacks 2026: community partnership for TinkerHub Foundation",
-      "counterpart": "internal (Kurian Jacob)",
-      "email": null,
-      "received": "2026-09-29",
-      "last": "2026-10-11",
-      "status": "Informational",
-      "note": "internal forward of Cosmo Hacks proposal to partner@; Joan replied to Pranav (Cosmo Hacks) 11 Oct proposing a call from 13 Oct; see Cosmo Hacks thread",
-      "daysOpen": 12,
-      "daysSinceReceived": 22,
-      "cc": [
-        "partner@tinkerhub.org"
       ]
     },
     {
@@ -4544,529 +5086,6 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "campus-cce8e84c14",
-      "threadId": "1a12b4e92bf1611a",
-      "group": "campus",
-      "subject": "Invitation: Reflection meet - ULP 3.0 @ Wed Oct 14, 2026 4pm - 5pm (IST) (Kurian Jacob)",
-      "counterpart": "internal (Habeeb)",
-      "email": "habeeb@tinkerhub.org",
-      "received": "2026-10-11",
-      "last": "2026-10-11",
-      "status": "Informational",
-      "note": "Calendar invite for ULP 3.0 reflection meet on Oct 14, 4pm IST",
-      "daysOpen": 0,
-      "daysSinceReceived": 10,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-a4e8adaa7e",
-      "threadId": "1a12eb5d69d3d30d",
-      "group": "campus",
-      "subject": "Get ready for Beyond the Blueprint tomorrow!",
-      "counterpart": "internal (Femina)",
-      "email": "femina@tinkerhub.org",
-      "received": "2026-10-12",
-      "last": "2026-10-12",
-      "status": "Informational",
-      "note": "Femina event reminder mailing to participants, campus@ cc'd",
-      "daysOpen": 0,
-      "daysSinceReceived": 9,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "tinkerspace-10c8a63724",
-      "threadId": "1a12ae4687067460",
-      "group": "tinkerspace",
-      "subject": "Request for Hardware Project Ideas \u2013 SIBAQ K7 Hardware Hackathon",
-      "counterpart": "Muhammed Yaseen",
-      "email": "muhammedyaseenkgb@gmail.com",
-      "received": "2026-10-11",
-      "last": "2026-10-12",
-      "status": "Awaiting reply (from them)",
-      "note": "Muhammed Shan replied 12 Oct with Builder in Residency hardware projects + Hackster.io links; awaiting student team feedback",
-      "daysOpen": 10,
-      "daysSinceReceived": 10,
-      "cc": [
-        "tinkerspace@tinkerhub.org",
-        "hello@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "partner-c6d4104234",
-      "threadId": "1a1302db0d67df79",
-      "group": "partner",
-      "subject": "Build for Bharat Fellowship 2027 | Opportunity for your community",
-      "counterpart": "Rishabh Tripathi (Bharat Digital)",
-      "email": "rishabh@bharatdigital.io",
-      "received": "2026-10-12",
-      "last": "2026-10-13",
-      "status": "Informational",
-      "note": "Fellowship promo (cohort 3); Joan replied 13 Oct thanking Rishabh and engaging, cc partner@",
-      "daysOpen": 1,
-      "daysSinceReceived": 9,
-      "cc": [
-        "partner@tinkerhub.org",
-        "hello@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-392e47904d",
-      "threadId": "1a133f92d45bbf8f",
-      "group": "campus",
-      "subject": "A small ask before the Beyond the Blueprint session",
-      "counterpart": "internal (Femina)",
-      "email": "femina@tinkerhub.org",
-      "received": "2026-10-13",
-      "last": "2026-10-13",
-      "status": "Informational",
-      "note": "Femina pre-session prompt sent to participants, campus@ cc'd",
-      "daysOpen": 0,
-      "daysSinceReceived": 8,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-79e6226853",
-      "threadId": "1a133c275c4a8904",
-      "group": "campus",
-      "subject": "Invitation: TinkerHub x Socratus: Student Co-creation Meet @ Tue Oct 13, 2026 7pm - 8pm (IST) (Kurian Jacob)",
-      "counterpart": "internal (Habeeb)",
-      "email": "habeeb@tinkerhub.org",
-      "received": "2026-10-13",
-      "last": "2026-10-13",
-      "status": "Informational",
-      "note": "Calendar invite for Socratus co-creation meet today 7pm IST",
-      "daysOpen": 0,
-      "daysSinceReceived": 8,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-45aad687b5",
-      "threadId": "1a1341763e0f7eb8",
-      "group": "campus",
-      "subject": "Re: Meeting at campus",
-      "counterpart": "Sreyas (TinkerHub Sahrdaya CAS)",
-      "email": "sreyas.thejus.peenikkal@gmail.com",
-      "received": "2026-10-13",
-      "last": "2026-10-13",
-      "status": "Awaiting reply (from them)",
-      "note": "Femina scheduled a meeting for 6pm Oct 14 with core team; awaiting their confirmation",
-      "daysOpen": 8,
-      "daysSinceReceived": 8,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-5dc5fd82a2",
-      "threadId": "1a1341653a6e231e",
-      "group": "campus",
-      "subject": "Re: Request to Send Useless Projects Celebration Goodies to My Personal Address",
-      "counterpart": "Anjali S Pillai",
-      "email": "anjalispillai321@gmail.com",
-      "received": "2026-10-13",
-      "last": "2026-10-13",
-      "status": "Awaiting reply (from us)",
-      "note": "Asked goodies be sent to personal address; Femina acknowledged, we owe a decision/address confirmation",
-      "daysOpen": 8,
-      "daysSinceReceived": 8,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-ca377ea0c3",
-      "threadId": "1a13405ec56984f8",
-      "group": "campus",
-      "subject": "Re: Invitation: TinkerHub x Socratus: Student Co-creation Meet @ Tue Oct 13, 2026 7pm - 8pm (IST) (joseph@socratus.org)",
-      "counterpart": "Joseph Philip (Socratus Foundation)",
-      "email": "joseph@socratus.org",
-      "received": "2026-10-13",
-      "last": "2026-10-13",
-      "status": "Informational",
-      "note": "Joseph acknowledged invite for 7pm meeting today",
-      "daysOpen": 0,
-      "daysSinceReceived": 8,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-645d04a74e",
-      "threadId": "1a134d3888cc09e2",
-      "group": "campus",
-      "subject": "Request to Send Useless Projects Celebration Goodies to My Personal Address",
-      "counterpart": "Anjali S Pillai",
-      "email": "anjalispillai321@gmail.com",
-      "received": "2026-10-13",
-      "last": "2026-10-14",
-      "status": "Resolved",
-      "note": "Habeeb confirmed goodies will ship to Anjali's personal address",
-      "daysOpen": 1,
-      "daysSinceReceived": 8,
-      "cc": [
-        "campus@tinkerhub.org",
-        "habeeb@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "tinkerspace-c398295ec4",
-      "threadId": "1a13a23581e11303",
-      "group": "tinkerspace",
-      "subject": "Technical Workshop Proposal \u2013 AI Wednesdays at TinkerSpace Kochi",
-      "counterpart": "Devanandha Vellaramkuzhiyil Shaji",
-      "email": "devanandhadevv@gmail.com",
-      "received": "2026-10-14",
-      "last": "2026-10-14",
-      "status": "Awaiting reply (from them)",
-      "note": "Proposes AI Wednesdays workshop at TinkerSpace Kochi; Jasim replied willing to host and asked for details",
-      "daysOpen": 7,
-      "daysSinceReceived": 7,
-      "cc": [
-        "tinkerspace@tinkerhub.org",
-        "hello@tinkerhub.org",
-        "jasim@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-561b496297",
-      "threadId": "1a140c5af920355c",
-      "group": "campus",
-      "subject": "Spreadsheet shared with you: \"ULP 3.0 Missed Gems\"",
-      "counterpart": "internal (Habeeb Rahman)",
-      "email": "habeeb@tinkerhub.org",
-      "received": "2026-10-15",
-      "last": "2026-10-15",
-      "status": "Informational",
-      "note": "Habeeb shared 'ULP 3.0 Missed Gems' spreadsheet (Google Sheets share notification)",
-      "daysOpen": 0,
-      "daysSinceReceived": 6,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "finance-62b3b4b0b5",
-      "threadId": "1a143bec343af1de",
-      "group": "finance",
-      "subject": "Fwd: AXIS BANK : Statement for period 01-04-2026 to 15-10-2026",
-      "counterpart": "internal (Mehar)",
-      "email": "mehar@tinkerhub.org",
-      "received": "2026-10-16",
-      "last": "2026-10-16",
-      "status": "Informational",
-      "note": "Mehar forwarded Axis Bank card statement (Apr 1-Oct 15) alongside his reimbursement request; no action requested",
-      "daysOpen": 0,
-      "daysSinceReceived": 5,
-      "cc": [
-        "finance@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-4b2055d237",
-      "threadId": "1a14960f7ea3f15d",
-      "group": "campus",
-      "subject": "Request to meet \u2013 TinkerHub Campus Community at IIIT Kottayam",
-      "counterpart": "IIIT Kottayam registrar (internal outreach by Arundhathi)",
-      "email": "registrar@iiitkottayam.ac.in",
-      "received": "2026-10-17",
-      "last": "2026-10-17",
-      "status": "Awaiting reply (from them)",
-      "note": "Arundhathi requested a meeting with IIIT Kottayam officials about student-led campus community",
-      "daysOpen": 4,
-      "daysSinceReceived": 4,
-      "cc": [
-        "campus@tinkerhub.org",
-        "victerpaul@iiitkottayam.ac.in",
-        "pbala@iiitkottayam.ac.in"
-      ]
-    },
-    {
-      "id": "finance-a4f959a307",
-      "threadId": "1a14949f8f007e1d",
-      "group": "finance",
-      "subject": "Your receipt from Resend #2690-8299",
-      "counterpart": "Resend (automated)",
-      "email": null,
-      "received": "2026-10-17",
-      "last": "2026-10-17",
-      "status": "Informational",
-      "note": "Automated Resend payment receipt",
-      "daysOpen": 0,
-      "daysSinceReceived": 4,
-      "cc": [
-        "finance@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-107969351c",
-      "threadId": "1a14dd181df6842d",
-      "group": "campus",
-      "subject": "Cant login to tinkerhub",
-      "counterpart": "Arjun Sarovaram",
-      "email": "arjunsarovaram@gmail.com",
-      "received": "2026-10-18",
-      "last": "2026-10-18",
-      "status": "Awaiting reply (from us)",
-      "note": "Top 25 ULP 2026; phone smashed, can't log in. Address/T-shirt size received & updated; he followed up again Oct 18 (19:21 UTC) asking when app access will be restored \u2014 we owe tech-team fix/ETA",
-      "daysOpen": 3,
-      "daysSinceReceived": 3,
-      "cc": [
-        "campus@tinkerhub.org",
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-a1103de5ad",
-      "threadId": "1a14ddd2870e81c5",
-      "group": "campus",
-      "subject": "Re:",
-      "counterpart": "Austin",
-      "email": "alanaustin895@gmail.com",
-      "received": "2026-10-18",
-      "last": "2026-10-18",
-      "status": "Awaiting reply (from us)",
-      "note": "Says he made top 3 video journal but got regular email; Kurian promised to check and update status",
-      "daysOpen": 3,
-      "daysSinceReceived": 3,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-52e525d650",
-      "threadId": "1a14e46820d994dd",
-      "group": "campus",
-      "subject": "About the t-shirt",
-      "counterpart": "Ansil Muhammed N S",
-      "email": "ansilmuhammed919@gmail.com",
-      "received": "2026-10-18",
-      "last": "2026-10-18",
-      "status": "Awaiting reply (from them)",
-      "note": "Kurian asked them to update home address and T-shirt size in Hub app profile",
-      "daysOpen": 3,
-      "daysSinceReceived": 3,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-0e4cf37802",
-      "threadId": "1a1526f6e36b7e02",
-      "group": "support",
-      "subject": "Unable to Login to TinkerHub App",
-      "counterpart": "Basim Hassan",
-      "email": "basimhassan325@gmail.com",
-      "received": "2026-10-19",
-      "last": "2026-10-19",
-      "status": "No response",
-      "note": "Phone login fails with 'Failed to send OTP'; same user also wrote to report@ (separate thread)",
-      "daysOpen": 2,
-      "daysSinceReceived": 2,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "finance-1cb3eb4697",
-      "threadId": "1a152579e95831db",
-      "group": "finance",
-      "subject": "Jio Business Login OTP",
-      "counterpart": "Jio (automated)",
-      "email": null,
-      "received": "2026-10-19",
-      "last": "2026-10-19",
-      "status": "Informational",
-      "note": "Automated JioBusiness OTP email",
-      "daysOpen": 0,
-      "daysSinceReceived": 2,
-      "cc": [
-        "finance@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-c73e61d004",
-      "threadId": "1a15229b7ea87e6e",
-      "group": "campus",
-      "subject": "Regarding TinkerHub Goodies for Useless Projects 3.0",
-      "counterpart": "Muhammed Navas",
-      "email": "muhammednavas382@gmail.com",
-      "received": "2026-10-19",
-      "last": "2026-10-19",
-      "status": "Awaiting reply (from them)",
-      "note": "Arundhathi replied: event is for campus-chapter students; asked him to clarify his college/participation",
-      "daysOpen": 2,
-      "daysSinceReceived": 2,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-df3cc89e86",
-      "threadId": "1a157c4faef25864",
-      "group": "campus",
-      "subject": "Unable to Access the Tinkerhub App",
-      "counterpart": "P Aashika",
-      "email": "aashikarajeev10@gmail.com",
-      "received": "2026-10-20",
-      "last": "2026-10-20",
-      "status": "No response",
-      "note": "Cannot access app to submit T-shirt size and delivery address; needs guidance",
-      "daysOpen": 1,
-      "daysSinceReceived": 1,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "finance-f8c293e9b6",
-      "threadId": "1a1579eda47bfa7d",
-      "group": "finance",
-      "subject": "Internet Banking password: Unable to reset.",
-      "counterpart": "Althaf Sajeed (internal) / Axis Bank",
-      "email": "corporate.ib@axis.bank.in",
-      "received": "2026-10-20",
-      "last": "2026-10-20",
-      "status": "Resolved",
-      "note": "Axis helpdesk replied (separate thread) that the password reset worked after a call",
-      "daysOpen": 0,
-      "daysSinceReceived": 1,
-      "cc": [
-        "finance@tinkerhub.org",
-        "mehar@tinkerhub.org",
-        "kurian@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "finance-8c4e64c2c0",
-      "threadId": "1a157bc1c60e8d1d",
-      "group": "finance",
-      "subject": "Re: Internet Banking password: Unable to reset. (CaseId : 261020024344)",
-      "counterpart": "Axis Bank (corporate helpdesk)",
-      "email": "corporate.ib@axis.bank.in",
-      "received": "2026-10-20",
-      "last": "2026-10-20",
-      "status": "Awaiting reply (from us)",
-      "note": "Axis asks us to verify password reset and confirm; Mehar forwarded internally",
-      "daysOpen": 1,
-      "daysSinceReceived": 1,
-      "cc": [
-        "finance@tinkerhub.org",
-        "mehar@tinkerhub.org",
-        "kurian@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-392e47904d",
-      "threadId": "1a158646b57f609a",
-      "group": "campus",
-      "subject": "A small ask before the Beyond the Blueprint session",
-      "counterpart": "internal (Femina)",
-      "email": "femina@tinkerhub.org",
-      "received": "2026-10-20",
-      "last": "2026-10-20",
-      "status": "Informational",
-      "note": "Femina pre-session reflection prompt sent to participants, campus@ cc'd",
-      "daysOpen": 0,
-      "daysSinceReceived": 1,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "finance-663640e5f8",
-      "threadId": "1a1584d6fea0b7cd",
-      "group": "finance",
-      "subject": "Fwd: Pack for Santa Coloma, Moosa Mehar! Your hotel is booked",
-      "counterpart": "internal (Mehar)",
-      "email": "mehar@tinkerhub.org",
-      "received": "2026-10-20",
-      "last": "2026-10-20",
-      "status": "Awaiting reply (from us)",
-      "note": "Mehar paid Rs 79,638.83 for Barcelona hotel (26-31 Oct) and asks Althaf to reimburse ASAP",
-      "daysOpen": 1,
-      "daysSinceReceived": 1,
-      "cc": [
-        "finance@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "finance-d3d190d4c1",
-      "threadId": "1a15839594e14913",
-      "group": "finance",
-      "subject": "Invoice and banking details for sample printing",
-      "counterpart": "Afeef Venthodika",
-      "email": "afeefv@gmail.com",
-      "received": "2026-10-20",
-      "last": "2026-10-20",
-      "status": "No response",
-      "note": "Sample printing invoice + bank details sent to Althaf; no reply yet",
-      "daysOpen": 1,
-      "daysSinceReceived": 1,
-      "cc": [
-        "finance@tinkerhub.org",
-        "mehar@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-f791df542c",
-      "threadId": "1a15a1c73884bfb1",
-      "group": "campus",
-      "subject": "Request for Extension of First-Year Coordinator Selection Deadline",
-      "counterpart": "CEC TinkerHub unit (tinkerhub@ceconline.edu)",
-      "email": "tinkerhub@ceconline.edu",
-      "received": "2026-10-20",
-      "last": "2026-10-20",
-      "status": "No response",
-      "note": "Requests extending first-year coordinator selection deadline to Oct 31 (exams postponed)",
-      "daysOpen": 1,
-      "daysSinceReceived": 1,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-15fdb1df9f",
-      "threadId": "1a15a093038a8770",
-      "group": "campus",
-      "subject": "Clarification and Request Regarding Minimum Registration Fees for Tech Fest",
-      "counterpart": "shivanandhaej115",
-      "email": "shivanandhaej115@gmail.com",
-      "received": "2026-10-20",
-      "last": "2026-10-20",
-      "status": "No response",
-      "note": "Asks about minimum registration fee",
-      "daysOpen": 1,
-      "daysSinceReceived": 1,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-b16613847b",
-      "threadId": "1a159f1aba8609aa",
-      "group": "campus",
-      "subject": "Adding faculty Coordinator to the group",
-      "counterpart": "tinkerhubcep (campus unit)",
-      "email": "tinkerhubcep@gmail.com",
-      "received": "2026-10-20",
-      "last": "2026-10-21",
-      "status": "Awaiting reply (from us)",
-      "note": "Femina replied 21 Oct: faculty coordinator will be added to the group today; confirm done",
-      "daysOpen": 1,
-      "daysSinceReceived": 1,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
       "id": "report-6a4a8131c5",
       "threadId": null,
       "group": "report",
@@ -5215,25 +5234,40 @@ window.DASHBOARD_DATA = {
       "daysOpen": 29,
       "daysSinceReceived": 57,
       "cc": []
+    },
+    {
+      "id": "report-7608a88b9f",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Resolved",
+      "note": null,
+      "daysOpen": 30,
+      "daysSinceReceived": 58,
+      "cc": []
     }
   ],
   "summary": {
-    "No response": 11,
+    "No response": 10,
     "Awaiting reply (from us)": 25,
-    "Awaiting reply (from them)": 35,
-    "Resolved": 50,
+    "Awaiting reply (from them)": 36,
+    "Resolved": 52,
     "Informational": 175
   },
   "analytics": {
     "campus": {
-      "total": 229,
-      "No response": 5,
+      "total": 230,
+      "No response": 4,
       "Awaiting reply (from us)": 11,
-      "Awaiting reply (from them)": 26,
-      "Resolved": 28,
+      "Awaiting reply (from them)": 27,
+      "Resolved": 29,
       "Informational": 159,
-      "avgOpenDays": 20.1,
-      "avgResolvedDays": 11.1
+      "avgOpenDays": 20.0,
+      "avgResolvedDays": 10.7
     },
     "support": {
       "total": 12,
@@ -5256,14 +5290,14 @@ window.DASHBOARD_DATA = {
       "avgResolvedDays": 1.9
     },
     "report": {
-      "total": 10,
+      "total": 11,
       "No response": 0,
       "Awaiting reply (from us)": 3,
       "Awaiting reply (from them)": 4,
-      "Resolved": 2,
+      "Resolved": 3,
       "Informational": 1,
       "avgOpenDays": 30.9,
-      "avgResolvedDays": 14.5
+      "avgResolvedDays": 19.7
     },
     "partner": {
       "total": 8,
