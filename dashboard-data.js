@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-21T10:37:09Z",
+  "generatedAt": "2026-10-21T12:38:45Z",
   "threads": [
     {
       "id": "finance-f1f08db99f",
@@ -49,7 +49,7 @@ window.DASHBOARD_DATA = {
       "received": "2026-10-08",
       "last": "2026-10-21",
       "status": "Awaiting reply (from them)",
-      "note": "Call held 13 Oct; Joan followed up 15 Oct asking Palakh to share the potential collaboration areas discussed. Waiting on Palakh",
+      "note": "Call held 13 Oct; Joan followed up 21 Oct asking Palakh for potential collaboration areas",
       "daysOpen": 13,
       "daysSinceReceived": 13,
       "cc": [
@@ -67,7 +67,7 @@ window.DASHBOARD_DATA = {
       "received": "2026-09-26",
       "last": "2026-10-21",
       "status": "Awaiting reply (from us)",
-      "note": "Akhil acknowledged (Oct 21) that the college is missing from the registration list and a fix will be deployed soon; we owe Arjun a confirmation once it is live",
+      "note": "Akhil acknowledged college missing from list; fix to be deployed, then notify Arjun",
       "daysOpen": 25,
       "daysSinceReceived": 25,
       "cc": [
@@ -84,7 +84,7 @@ window.DASHBOARD_DATA = {
       "received": "2026-10-18",
       "last": "2026-10-21",
       "status": "Awaiting reply (from them)",
-      "note": "Akhil says the login issue is resolved (Oct 21) and asked Arjun to retry; awaiting confirmation (prize address/T-shirt details already updated)",
+      "note": "Akhil says login issue resolved, asked Arjun to retry; T-shirt/address details already updated",
       "daysOpen": 3,
       "daysSinceReceived": 3,
       "cc": [
@@ -146,6 +146,74 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
+      "id": "campus-df3cc89e86",
+      "threadId": "1a157c4faef25864",
+      "group": "campus",
+      "subject": "Unable to Access the Tinkerhub App",
+      "counterpart": "P Aashika",
+      "email": "aashikarajeev10@gmail.com",
+      "received": "2026-10-20",
+      "last": "2026-10-21",
+      "status": "Awaiting reply (from them)",
+      "note": "Habeeb sent video guide for updating T-shirt size/address in app",
+      "daysOpen": 1,
+      "daysSinceReceived": 1,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-15fdb1df9f",
+      "threadId": "1a15a093038a8770",
+      "group": "campus",
+      "subject": "Clarification and Request Regarding Minimum Registration Fees for Tech Fest",
+      "counterpart": "shivanandhaej115",
+      "email": "shivanandhaej115@gmail.com",
+      "received": "2026-10-20",
+      "last": "2026-10-21",
+      "status": "Resolved",
+      "note": "Habeeb replied declining student registration fees per TinkerHub policy",
+      "daysOpen": 1,
+      "daysSinceReceived": 1,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "campus-3efa45c5c8",
+      "threadId": "1a0d3d1d404c09bb",
+      "group": "campus",
+      "subject": "LC can't find discord server",
+      "counterpart": "Arjun AS (Vimal Jyothi Engineering College)",
+      "email": "arjunaskvl@gmail.com",
+      "received": "2026-09-24",
+      "last": "2026-10-21",
+      "status": "Awaiting reply (from them)",
+      "note": "Akhil asked Arjun to confirm which account the Learning Coordinator is using",
+      "daysOpen": 27,
+      "daysSinceReceived": 27,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "partner-9cabc4fe28",
+      "threadId": "1a15e3c52b08f2fe",
+      "group": "partner",
+      "subject": "Bringing people together. Keeping the community coming back.",
+      "counterpart": "Mayank Raj (SudoMeet)",
+      "email": "hello@sudomeet.com",
+      "received": "2026-10-21",
+      "last": "2026-10-21",
+      "status": "Awaiting reply (from us)",
+      "note": "Cold outreach from SudoMeet; Kurian looped partner@, no team reply yet",
+      "cc": [
+        "partner@tinkerhub.org"
+      ],
+      "daysSinceReceived": 0,
+      "daysOpen": 0
+    },
+    {
       "id": "finance-ce8e03c171",
       "threadId": "1a152a070f04b8dc",
       "group": "finance",
@@ -161,23 +229,6 @@ window.DASHBOARD_DATA = {
       "cc": [
         "finance@tinkerhub.org",
         "urbantrashindia@gmail.com"
-      ]
-    },
-    {
-      "id": "campus-df3cc89e86",
-      "threadId": "1a157c4faef25864",
-      "group": "campus",
-      "subject": "Unable to Access the Tinkerhub App",
-      "counterpart": "P Aashika",
-      "email": "aashikarajeev10@gmail.com",
-      "received": "2026-10-20",
-      "last": "2026-10-20",
-      "status": "No response",
-      "note": "Cannot access app to submit T-shirt size and delivery address; needs guidance",
-      "daysOpen": 1,
-      "daysSinceReceived": 1,
-      "cc": [
-        "campus@tinkerhub.org"
       ]
     },
     {
@@ -268,23 +319,6 @@ window.DASHBOARD_DATA = {
       "cc": [
         "finance@tinkerhub.org",
         "mehar@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-15fdb1df9f",
-      "threadId": "1a15a093038a8770",
-      "group": "campus",
-      "subject": "Clarification and Request Regarding Minimum Registration Fees for Tech Fest",
-      "counterpart": "shivanandhaej115",
-      "email": "shivanandhaej115@gmail.com",
-      "received": "2026-10-20",
-      "last": "2026-10-20",
-      "status": "No response",
-      "note": "Asks about minimum registration fee",
-      "daysOpen": 1,
-      "daysSinceReceived": 1,
-      "cc": [
-        "campus@tinkerhub.org"
       ]
     },
     {
@@ -2997,23 +3031,6 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "campus-3efa45c5c8",
-      "threadId": "1a0d3d1d404c09bb",
-      "group": "campus",
-      "subject": "LC can't find discord server",
-      "counterpart": "Arjun AS (Vimal Jyothi Engineering College)",
-      "email": "arjunaskvl@gmail.com",
-      "received": "2026-09-24",
-      "last": "2026-09-25",
-      "status": "Awaiting reply (from them)",
-      "note": "looped in support to resolve Discord access issue",
-      "daysOpen": 27,
-      "daysSinceReceived": 27,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
       "id": "partner-35f0971280",
       "threadId": "1a0d3e4b68350a7a",
       "group": "partner",
@@ -5069,24 +5086,7 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "support-76056c2e28",
-      "threadId": "1a0c1d0e184d7c44",
-      "group": "support",
-      "subject": "Unable to register for Sept 22 Security Tuesday",
-      "counterpart": "Rania Hashim (Imperial College London)",
-      "email": "rania.hashim25@imperial.ac.uk",
-      "received": "2026-09-21",
-      "last": "2026-09-21",
-      "status": "Resolved",
-      "note": "no Indian number workaround; event has passed",
-      "daysOpen": 0,
-      "daysSinceReceived": 30,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "report-6a4a8131c5",
+      "id": "report-d6d6b72a3d",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -5101,7 +5101,7 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
-      "id": "report-23f32c88ca",
+      "id": "report-55aec88bb6",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -5116,7 +5116,7 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
-      "id": "report-cbf7df1e1f",
+      "id": "report-690e429729",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -5131,7 +5131,7 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
-      "id": "report-169cf26635",
+      "id": "report-11d03bbb9a",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -5146,7 +5146,7 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
-      "id": "report-6f5c9936d5",
+      "id": "report-039fe8162f",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -5161,7 +5161,7 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
-      "id": "report-a0c8127ba6",
+      "id": "report-c0198f2fbe",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -5176,7 +5176,7 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
-      "id": "report-5c0af852f9",
+      "id": "report-e76e79ccac",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -5184,14 +5184,14 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Awaiting reply (from us)",
+      "status": "Awaiting reply (from them)",
       "note": null,
       "daysOpen": 43,
       "daysSinceReceived": 43,
       "cc": []
     },
     {
-      "id": "report-8e2172824d",
+      "id": "report-217295ac1d",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -5199,14 +5199,14 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Awaiting reply (from us)",
+      "status": "Awaiting reply (from them)",
       "note": null,
       "daysOpen": 43,
       "daysSinceReceived": 43,
       "cc": []
     },
     {
-      "id": "report-67d8ef1bd9",
+      "id": "report-265c2e2322",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -5214,14 +5214,14 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Awaiting reply (from us)",
+      "status": "Awaiting reply (from them)",
       "note": null,
       "daysOpen": 43,
       "daysSinceReceived": 43,
       "cc": []
     },
     {
-      "id": "report-851180b6c5",
+      "id": "report-0759256871",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -5231,12 +5231,12 @@ window.DASHBOARD_DATA = {
       "last": null,
       "status": "Resolved",
       "note": null,
-      "daysOpen": 29,
+      "daysOpen": 57,
       "daysSinceReceived": 57,
       "cc": []
     },
     {
-      "id": "report-7608a88b9f",
+      "id": "report-9495cb71c1",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -5252,32 +5252,32 @@ window.DASHBOARD_DATA = {
     }
   ],
   "summary": {
-    "No response": 10,
-    "Awaiting reply (from us)": 25,
-    "Awaiting reply (from them)": 36,
+    "No response": 8,
+    "Awaiting reply (from us)": 23,
+    "Awaiting reply (from them)": 40,
     "Resolved": 52,
     "Informational": 175
   },
   "analytics": {
     "campus": {
       "total": 230,
-      "No response": 4,
+      "No response": 2,
       "Awaiting reply (from us)": 11,
-      "Awaiting reply (from them)": 27,
-      "Resolved": 29,
+      "Awaiting reply (from them)": 28,
+      "Resolved": 30,
       "Informational": 159,
-      "avgOpenDays": 20,
-      "avgResolvedDays": 10.7
+      "avgOpenDays": 20.5,
+      "avgResolvedDays": 10.4
     },
     "support": {
-      "total": 12,
+      "total": 11,
       "No response": 1,
       "Awaiting reply (from us)": 4,
       "Awaiting reply (from them)": 0,
-      "Resolved": 7,
+      "Resolved": 6,
       "Informational": 0,
       "avgOpenDays": 33.2,
-      "avgResolvedDays": 13.6
+      "avgResolvedDays": 15.8
     },
     "finance": {
       "total": 34,
@@ -5292,22 +5292,22 @@ window.DASHBOARD_DATA = {
     "report": {
       "total": 11,
       "No response": 0,
-      "Awaiting reply (from us)": 3,
-      "Awaiting reply (from them)": 4,
+      "Awaiting reply (from us)": 0,
+      "Awaiting reply (from them)": 7,
       "Resolved": 3,
       "Informational": 1,
       "avgOpenDays": 30.9,
-      "avgResolvedDays": 19.7
+      "avgResolvedDays": 29.0
     },
     "partner": {
-      "total": 8,
+      "total": 9,
       "No response": 0,
-      "Awaiting reply (from us)": 2,
+      "Awaiting reply (from us)": 3,
       "Awaiting reply (from them)": 3,
       "Resolved": 1,
       "Informational": 2,
-      "avgOpenDays": 19.6,
-      "avgResolvedDays": 1
+      "avgOpenDays": 16.3,
+      "avgResolvedDays": 1.0
     },
     "tinkerspace": {
       "total": 3,
@@ -5317,7 +5317,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 0,
       "avgOpenDays": 8.5,
-      "avgResolvedDays": 1
+      "avgResolvedDays": 1.0
     }
   }
 };
