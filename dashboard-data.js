@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-21T04:37:25Z",
+  "generatedAt": "2026-10-21T06:37:14Z",
   "threads": [
     {
       "id": "finance-f1f08db99f",
@@ -5057,9 +5057,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "tinkerhubcep (campus unit)",
       "email": "tinkerhubcep@gmail.com",
       "received": "2026-10-20",
-      "last": "2026-10-20",
-      "status": "No response",
-      "note": "Requests adding faculty coordinator to the group",
+      "last": "2026-10-21",
+      "status": "Awaiting reply (from us)",
+      "note": "Femina replied 21 Oct: faculty coordinator will be added to the group today; confirm done",
       "daysOpen": 1,
       "daysSinceReceived": 1,
       "cc": [
@@ -5105,9 +5105,9 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Awaiting reply (from them)",
+      "status": "Resolved",
       "note": null,
-      "daysOpen": 20,
+      "daysOpen": 0,
       "daysSinceReceived": 20,
       "cc": []
     },
@@ -5210,40 +5210,25 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Awaiting reply (from us)",
+      "status": "Resolved",
       "note": null,
-      "daysOpen": 57,
+      "daysOpen": 29,
       "daysSinceReceived": 57,
-      "cc": []
-    },
-    {
-      "id": "report-cdcf689587",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Awaiting reply (from us)",
-      "note": null,
-      "daysOpen": 58,
-      "daysSinceReceived": 58,
       "cc": []
     }
   ],
   "summary": {
-    "No response": 12,
-    "Awaiting reply (from us)": 26,
-    "Awaiting reply (from them)": 36,
-    "Resolved": 48,
+    "No response": 11,
+    "Awaiting reply (from us)": 25,
+    "Awaiting reply (from them)": 35,
+    "Resolved": 50,
     "Informational": 175
   },
   "analytics": {
     "campus": {
       "total": 229,
-      "No response": 6,
-      "Awaiting reply (from us)": 10,
+      "No response": 5,
+      "Awaiting reply (from us)": 11,
       "Awaiting reply (from them)": 26,
       "Resolved": 28,
       "Informational": 159,
@@ -5271,14 +5256,14 @@ window.DASHBOARD_DATA = {
       "avgResolvedDays": 1.9
     },
     "report": {
-      "total": 11,
+      "total": 10,
       "No response": 0,
-      "Awaiting reply (from us)": 5,
-      "Awaiting reply (from them)": 5,
-      "Resolved": 0,
+      "Awaiting reply (from us)": 3,
+      "Awaiting reply (from them)": 4,
+      "Resolved": 2,
       "Informational": 1,
-      "avgOpenDays": 35.1,
-      "avgResolvedDays": 0
+      "avgOpenDays": 30.9,
+      "avgResolvedDays": 14.5
     },
     "partner": {
       "total": 8,
