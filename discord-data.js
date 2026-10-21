@@ -1,7 +1,7 @@
 // Auto-generated daily by .github/workflows/discord-update.yml
 // Do NOT hand-edit — this file is overwritten on each run.
 window.DISCORD_DATA = {
-  "generatedAt": "2026-10-21T07:52:54Z",
+  "generatedAt": "2026-10-21T13:59:55Z",
   "threads": [
     {
       "id": "1562359347265282128",
@@ -292,7 +292,7 @@ window.DISCORD_DATA = {
       "received": "2026-10-10",
       "last": "2026-10-12",
       "resolvedAt": "2026-10-10",
-      "daysOpen": 8,
+      "daysOpen": 9,
       "daysSinceReceived": 10,
       "daysToClose": 0,
       "messageCount": 1,
@@ -315,8 +315,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-11",
       "last": "2026-10-11",
       "resolvedAt": "2026-10-11",
-      "daysOpen": 9,
-      "daysSinceReceived": 9,
+      "daysOpen": 10,
+      "daysSinceReceived": 10,
       "daysToClose": 0,
       "messageCount": 3,
       "archived": false,
@@ -385,7 +385,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-11",
       "resolvedAt": "2026-10-10",
       "daysOpen": 10,
-      "daysSinceReceived": 10,
+      "daysSinceReceived": 11,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -629,8 +629,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-05",
       "last": "2026-10-06",
       "resolvedAt": "2026-10-05",
-      "daysOpen": 14,
-      "daysSinceReceived": 15,
+      "daysOpen": 15,
+      "daysSinceReceived": 16,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -698,7 +698,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-20",
       "last": "2026-10-02",
       "resolvedAt": "2026-09-20",
-      "daysOpen": 18,
+      "daysOpen": 19,
       "daysSinceReceived": 30,
       "daysToClose": 0,
       "messageCount": 1,
@@ -763,8 +763,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-26",
       "last": "2026-09-26",
       "resolvedAt": "2026-09-26",
-      "daysOpen": 24,
-      "daysSinceReceived": 24,
+      "daysOpen": 25,
+      "daysSinceReceived": 25,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -809,8 +809,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-23",
       "last": "2026-09-23",
       "resolvedAt": "2026-09-23",
-      "daysOpen": 27,
-      "daysSinceReceived": 27,
+      "daysOpen": 28,
+      "daysSinceReceived": 28,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -13658,7 +13658,7 @@ window.DISCORD_DATA = {
     "Awaiting reply (from them)": 2,
     "Resolved": 681
   },
-  "avgOpenDays": 12.2,
+  "avgOpenDays": 12.4,
   "avgDaysToClose": 14.2,
   "topCategories": [
     {
