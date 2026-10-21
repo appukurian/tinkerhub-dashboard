@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-21T12:38:45Z",
+  "generatedAt": "2026-10-21T14:37:39Z",
   "threads": [
     {
       "id": "finance-f1f08db99f",
@@ -5086,6 +5086,74 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
+      "id": "campus-2d3d4f6cf0",
+      "threadId": "1a15e830f1b69168",
+      "group": "campus",
+      "subject": "Useless Projects 3.0: CUSAT SOE students who attended at TinkerSpace",
+      "counterpart": "Midhun (CUSAT SOE)",
+      "email": "midhunraaj9b@gmail.com",
+      "received": "2026-10-21",
+      "last": "2026-10-21",
+      "status": "Informational",
+      "note": "Habeeb notified campus lead that 11 CUSAT SOE attendees get goodies packs",
+      "cc": [
+        "campus@tinkerhub.org"
+      ],
+      "daysSinceReceived": 0,
+      "daysOpen": 0
+    },
+    {
+      "id": "campus-bd1e85e148",
+      "threadId": "1a15e8309b43e312",
+      "group": "campus",
+      "subject": "Useless Projects 3.0: NSSCE students who attended at TinkerSpace",
+      "counterpart": "Adithya (NSSCE)",
+      "email": "adithyavijay04@gmail.com",
+      "received": "2026-10-21",
+      "last": "2026-10-21",
+      "status": "Informational",
+      "note": "Habeeb notified 14 NSSCE attendees get goodies; Adithya acknowledged",
+      "cc": [
+        "campus@tinkerhub.org"
+      ],
+      "daysSinceReceived": 0,
+      "daysOpen": 0
+    },
+    {
+      "id": "campus-c60329b5c9",
+      "threadId": "1a15e8302c6d600f",
+      "group": "campus",
+      "subject": "Useless Projects 3.0: MEC students who attended at TinkerSpace",
+      "counterpart": "Elizabeth (MEC)",
+      "email": "elizabethbobby169@gmail.com",
+      "received": "2026-10-21",
+      "last": "2026-10-21",
+      "status": "Informational",
+      "note": "Habeeb notified 26 MEC attendees get goodies packs",
+      "cc": [
+        "campus@tinkerhub.org"
+      ],
+      "daysSinceReceived": 0,
+      "daysOpen": 0
+    },
+    {
+      "id": "campus-655edc35e7",
+      "threadId": "1a15e7b24b01c982",
+      "group": "campus",
+      "subject": "Invitation: Ulp 3.0 review meet @ Thu Oct 22, 2026 11am - 12pm (IST) (Kurian Jacob)",
+      "counterpart": "internal (Habeeb)",
+      "email": "habeeb@tinkerhub.org",
+      "received": "2026-10-21",
+      "last": "2026-10-21",
+      "status": "Informational",
+      "note": "Calendar invite for ULP 3.0 review meet, Oct 22 11am IST",
+      "cc": [
+        "campus@tinkerhub.org"
+      ],
+      "daysSinceReceived": 0,
+      "daysOpen": 0
+    },
+    {
       "id": "report-d6d6b72a3d",
       "threadId": null,
       "group": "report",
@@ -5256,16 +5324,16 @@ window.DASHBOARD_DATA = {
     "Awaiting reply (from us)": 23,
     "Awaiting reply (from them)": 40,
     "Resolved": 52,
-    "Informational": 175
+    "Informational": 179
   },
   "analytics": {
     "campus": {
-      "total": 230,
+      "total": 234,
       "No response": 2,
       "Awaiting reply (from us)": 11,
       "Awaiting reply (from them)": 28,
       "Resolved": 30,
-      "Informational": 159,
+      "Informational": 163,
       "avgOpenDays": 20.5,
       "avgResolvedDays": 10.4
     },
