@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-22T12:41:01Z",
+  "generatedAt": "2026-10-22T14:38:27Z",
   "threads": [
     {
       "id": "finance-f1f08db99f",
@@ -207,11 +207,11 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-21",
       "status": "Awaiting reply (from us)",
       "note": "Cold outreach from SudoMeet; Kurian looped partner@, no team reply yet",
+      "daysOpen": 1,
+      "daysSinceReceived": 1,
       "cc": [
         "partner@tinkerhub.org"
-      ],
-      "daysSinceReceived": 1,
-      "daysOpen": 1
+      ]
     },
     {
       "id": "finance-ce8e03c171",
@@ -5079,11 +5079,11 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-21",
       "status": "Informational",
       "note": "Habeeb notified campus lead that 11 CUSAT SOE attendees get goodies packs",
+      "daysOpen": 0,
+      "daysSinceReceived": 1,
       "cc": [
         "campus@tinkerhub.org"
-      ],
-      "daysSinceReceived": 1,
-      "daysOpen": 0
+      ]
     },
     {
       "id": "campus-bd1e85e148",
@@ -5096,11 +5096,11 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-21",
       "status": "Informational",
       "note": "Habeeb notified 14 NSSCE attendees get goodies; Adithya acknowledged",
+      "daysOpen": 0,
+      "daysSinceReceived": 1,
       "cc": [
         "campus@tinkerhub.org"
-      ],
-      "daysSinceReceived": 1,
-      "daysOpen": 0
+      ]
     },
     {
       "id": "campus-c60329b5c9",
@@ -5113,11 +5113,11 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-21",
       "status": "Informational",
       "note": "Habeeb notified 26 MEC attendees get goodies packs",
+      "daysOpen": 0,
+      "daysSinceReceived": 1,
       "cc": [
         "campus@tinkerhub.org"
-      ],
-      "daysSinceReceived": 1,
-      "daysOpen": 0
+      ]
     },
     {
       "id": "campus-655edc35e7",
@@ -5130,176 +5130,11 @@ window.DASHBOARD_DATA = {
       "last": "2026-10-21",
       "status": "Informational",
       "note": "Calendar invite for ULP 3.0 review meet, Oct 22 11am IST",
+      "daysOpen": 0,
+      "daysSinceReceived": 1,
       "cc": [
         "campus@tinkerhub.org"
-      ],
-      "daysSinceReceived": 1,
-      "daysOpen": 0
-    },
-    {
-      "id": "report-d6d6b72a3d",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Awaiting reply (from them)",
-      "note": null,
-      "daysOpen": 3,
-      "daysSinceReceived": 3,
-      "cc": []
-    },
-    {
-      "id": "report-55aec88bb6",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Informational",
-      "note": null,
-      "daysOpen": 0,
-      "daysSinceReceived": 20,
-      "cc": []
-    },
-    {
-      "id": "report-690e429729",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Resolved",
-      "note": null,
-      "daysOpen": 0,
-      "daysSinceReceived": 21,
-      "cc": []
-    },
-    {
-      "id": "report-11d03bbb9a",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Awaiting reply (from them)",
-      "note": null,
-      "daysOpen": 24,
-      "daysSinceReceived": 24,
-      "cc": []
-    },
-    {
-      "id": "report-039fe8162f",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Awaiting reply (from them)",
-      "note": null,
-      "daysOpen": 35,
-      "daysSinceReceived": 35,
-      "cc": []
-    },
-    {
-      "id": "report-c0198f2fbe",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Awaiting reply (from them)",
-      "note": null,
-      "daysOpen": 29,
-      "daysSinceReceived": 29,
-      "cc": []
-    },
-    {
-      "id": "report-e76e79ccac",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Awaiting reply (from them)",
-      "note": null,
-      "daysOpen": 44,
-      "daysSinceReceived": 44,
-      "cc": []
-    },
-    {
-      "id": "report-217295ac1d",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Awaiting reply (from them)",
-      "note": null,
-      "daysOpen": 44,
-      "daysSinceReceived": 44,
-      "cc": []
-    },
-    {
-      "id": "report-265c2e2322",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Awaiting reply (from them)",
-      "note": null,
-      "daysOpen": 44,
-      "daysSinceReceived": 44,
-      "cc": []
-    },
-    {
-      "id": "report-0759256871",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Resolved",
-      "note": null,
-      "daysOpen": 57,
-      "daysSinceReceived": 58,
-      "cc": []
-    },
-    {
-      "id": "report-9495cb71c1",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Resolved",
-      "note": null,
-      "daysOpen": 30,
-      "daysSinceReceived": 59,
-      "cc": []
+      ]
     },
     {
       "id": "finance-fc46508136",
@@ -5334,13 +5169,180 @@ window.DASHBOARD_DATA = {
       "cc": [
         "campus@tinkerhub.org"
       ]
+    },
+    {
+      "id": "support-9457c233b4",
+      "threadId": "1a163f394ba650e4",
+      "group": "support",
+      "subject": "Unable to Sign Up Due to OTP Verification Issue",
+      "counterpart": "Marwa Basheer",
+      "email": "marwabasheer5050@gmail.com",
+      "received": "2026-10-22",
+      "last": "2026-10-22",
+      "status": "No response",
+      "note": "Cannot sign up: repeated OTP requests, 'Couldn't get OTP' error (likely OTP rate limit)",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "support@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "report-60b1439435",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Awaiting reply (from them)",
+      "note": null,
+      "daysOpen": 3,
+      "daysSinceReceived": 3,
+      "cc": []
+    },
+    {
+      "id": "report-b9aea18bb4",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Resolved",
+      "note": null,
+      "daysOpen": 0,
+      "daysSinceReceived": 21,
+      "cc": []
+    },
+    {
+      "id": "report-04bd730b79",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Resolved",
+      "note": null,
+      "daysOpen": 2,
+      "daysSinceReceived": 24,
+      "cc": []
+    },
+    {
+      "id": "report-cb64c38238",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Awaiting reply (from them)",
+      "note": null,
+      "daysOpen": 35,
+      "daysSinceReceived": 35,
+      "cc": []
+    },
+    {
+      "id": "report-0210bc73da",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Resolved",
+      "note": null,
+      "daysOpen": 16,
+      "daysSinceReceived": 29,
+      "cc": []
+    },
+    {
+      "id": "report-934e42f286",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Awaiting reply (from them)",
+      "note": null,
+      "daysOpen": 44,
+      "daysSinceReceived": 44,
+      "cc": []
+    },
+    {
+      "id": "report-c2d53b28a3",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Awaiting reply (from them)",
+      "note": null,
+      "daysOpen": 44,
+      "daysSinceReceived": 44,
+      "cc": []
+    },
+    {
+      "id": "report-34c6d4c695",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Awaiting reply (from them)",
+      "note": null,
+      "daysOpen": 44,
+      "daysSinceReceived": 44,
+      "cc": []
+    },
+    {
+      "id": "report-b80e039355",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Resolved",
+      "note": null,
+      "daysOpen": 57,
+      "daysSinceReceived": 58,
+      "cc": []
+    },
+    {
+      "id": "report-79c5ba0589",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Informational",
+      "note": null,
+      "daysOpen": 0,
+      "daysSinceReceived": 20,
+      "cc": []
     }
   ],
   "summary": {
-    "No response": 6,
+    "No response": 7,
     "Awaiting reply (from us)": 21,
-    "Awaiting reply (from them)": 41,
-    "Resolved": 55,
+    "Awaiting reply (from them)": 39,
+    "Resolved": 56,
     "Informational": 180
   },
   "analytics": {
@@ -5355,13 +5357,13 @@ window.DASHBOARD_DATA = {
       "avgResolvedDays": 10.4
     },
     "support": {
-      "total": 11,
-      "No response": 1,
+      "total": 12,
+      "No response": 2,
       "Awaiting reply (from us)": 4,
       "Awaiting reply (from them)": 0,
       "Resolved": 6,
       "Informational": 0,
-      "avgOpenDays": 34.2,
+      "avgOpenDays": 28.5,
       "avgResolvedDays": 15.8
     },
     "finance": {
@@ -5372,17 +5374,17 @@ window.DASHBOARD_DATA = {
       "Resolved": 14,
       "Informational": 14,
       "avgOpenDays": 11.3,
-      "avgResolvedDays": 2.0
+      "avgResolvedDays": 2
     },
     "report": {
-      "total": 11,
+      "total": 10,
       "No response": 0,
       "Awaiting reply (from us)": 0,
-      "Awaiting reply (from them)": 7,
-      "Resolved": 3,
+      "Awaiting reply (from them)": 5,
+      "Resolved": 4,
       "Informational": 1,
-      "avgOpenDays": 31.9,
-      "avgResolvedDays": 29.0
+      "avgOpenDays": 34,
+      "avgResolvedDays": 18.8
     },
     "partner": {
       "total": 9,
@@ -5392,7 +5394,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 2,
       "avgOpenDays": 17.3,
-      "avgResolvedDays": 1.0
+      "avgResolvedDays": 1
     },
     "tinkerspace": {
       "total": 3,
@@ -5402,7 +5404,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 0,
       "avgOpenDays": 9.5,
-      "avgResolvedDays": 1.0
+      "avgResolvedDays": 1
     }
   }
 };
