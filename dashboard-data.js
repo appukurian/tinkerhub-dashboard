@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-22T08:37:08Z",
+  "generatedAt": "2026-10-22T10:37:02Z",
   "threads": [
     {
       "id": "finance-f1f08db99f",
@@ -9,9 +9,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "internal (Mehar)",
       "email": "mehar@tinkerhub.org",
       "received": "2026-10-21",
-      "last": "2026-10-21",
-      "status": "Awaiting reply (from us)",
-      "note": "Mehar paid EUR 621.19 for Etihad Frankfurt-Bangkok flight (Nov 9-11, ref 75LUV3) and asks Althaf to reimburse ASAP",
+      "last": "2026-10-22",
+      "status": "Awaiting reply (from them)",
+      "note": "Althaf asked Mehar on 22 Oct for the INR-converted bank receipt to reimburse the exact amount for the Etihad flight (EUR 621.19, ref 75LUV3)",
       "daysOpen": 1,
       "daysSinceReceived": 1,
       "cc": [
@@ -294,9 +294,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "internal (Mehar)",
       "email": "mehar@tinkerhub.org",
       "received": "2026-10-20",
-      "last": "2026-10-20",
-      "status": "Awaiting reply (from us)",
-      "note": "Mehar paid Rs 79,638.83 for Barcelona hotel (26-31 Oct) and asks Althaf to reimburse ASAP",
+      "last": "2026-10-22",
+      "status": "Resolved",
+      "note": "Althaf confirmed on 22 Oct that the Barcelona hotel bill (Rs 79,638.83) has been reimbursed",
       "daysOpen": 2,
       "daysSinceReceived": 2,
       "cc": [
@@ -5338,9 +5338,9 @@ window.DASHBOARD_DATA = {
   ],
   "summary": {
     "No response": 6,
-    "Awaiting reply (from us)": 23,
-    "Awaiting reply (from them)": 40,
-    "Resolved": 54,
+    "Awaiting reply (from us)": 21,
+    "Awaiting reply (from them)": 41,
+    "Resolved": 55,
     "Informational": 180
   },
   "analytics": {
@@ -5367,12 +5367,12 @@ window.DASHBOARD_DATA = {
     "finance": {
       "total": 35,
       "No response": 3,
-      "Awaiting reply (from us)": 5,
-      "Awaiting reply (from them)": 0,
-      "Resolved": 13,
+      "Awaiting reply (from us)": 3,
+      "Awaiting reply (from them)": 1,
+      "Resolved": 14,
       "Informational": 14,
-      "avgOpenDays": 10.1,
-      "avgResolvedDays": 2
+      "avgOpenDays": 11.3,
+      "avgResolvedDays": 2.0
     },
     "report": {
       "total": 11,
@@ -5382,7 +5382,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 3,
       "Informational": 1,
       "avgOpenDays": 31.9,
-      "avgResolvedDays": 29
+      "avgResolvedDays": 29.0
     },
     "partner": {
       "total": 9,
@@ -5392,7 +5392,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 2,
       "avgOpenDays": 17.3,
-      "avgResolvedDays": 1
+      "avgResolvedDays": 1.0
     },
     "tinkerspace": {
       "total": 3,
@@ -5402,7 +5402,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 0,
       "avgOpenDays": 9.5,
-      "avgResolvedDays": 1
+      "avgResolvedDays": 1.0
     }
   }
 };
