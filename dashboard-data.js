@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-23T10:37:06Z",
+  "generatedAt": "2026-10-23T12:37:45Z",
   "threads": [
     {
       "id": "finance-f1f08db99f",
@@ -3871,10 +3871,27 @@ window.DASHBOARD_DATA = {
       "daysOpen": 1,
       "daysSinceReceived": 1,
       "cc": []
+    },
+    {
+      "id": "partner-74d85a2d0c",
+      "threadId": "1a168ac07ff6acd9",
+      "group": "partner",
+      "subject": "Partnering to hire a generalist in Trivandrum (6-month engagement)",
+      "counterpart": "Akshay Sajeev (fastrBuild)",
+      "email": "akshay@fastrbuild.com",
+      "received": "2026-10-23",
+      "last": "2026-10-23",
+      "status": "No response",
+      "note": "Founder (fastrBuild) wants help hiring a generalist in Trivandrum for 6 months (paid); asks how to work with TinkerHub; not yet replied",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "partner@tinkerhub.org"
+      ]
     }
   ],
   "summary": {
-    "No response": 7,
+    "No response": 8,
     "Awaiting reply (from us)": 22,
     "Awaiting reply (from them)": 29,
     "Resolved": 50,
@@ -3909,7 +3926,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 14,
       "Informational": 14,
       "avgOpenDays": 12.3,
-      "avgResolvedDays": 2
+      "avgResolvedDays": 2.0
     },
     "report": {
       "total": 9,
@@ -3922,14 +3939,14 @@ window.DASHBOARD_DATA = {
       "avgResolvedDays": 28.5
     },
     "partner": {
-      "total": 9,
-      "No response": 0,
+      "total": 10,
+      "No response": 1,
       "Awaiting reply (from us)": 3,
       "Awaiting reply (from them)": 3,
       "Resolved": 1,
       "Informational": 2,
-      "avgOpenDays": 18.3,
-      "avgResolvedDays": 1
+      "avgOpenDays": 15.7,
+      "avgResolvedDays": 1.0
     },
     "tinkerspace": {
       "total": 3,
@@ -3939,7 +3956,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 0,
       "avgOpenDays": 10.5,
-      "avgResolvedDays": 1
+      "avgResolvedDays": 1.0
     }
   }
 };
