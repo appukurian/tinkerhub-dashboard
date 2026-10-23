@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-23T02:37:22Z",
+  "generatedAt": "2026-10-23T04:38:17Z",
   "threads": [
     {
       "id": "finance-f1f08db99f",
@@ -3848,13 +3848,28 @@ window.DASHBOARD_DATA = {
       "daysOpen": 57,
       "daysSinceReceived": 59,
       "cc": []
+    },
+    {
+      "id": "report-7608a88b9f",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Resolved",
+      "note": null,
+      "daysOpen": 30,
+      "daysSinceReceived": 60,
+      "cc": []
     }
   ],
   "summary": {
     "No response": 7,
     "Awaiting reply (from us)": 21,
     "Awaiting reply (from them)": 31,
-    "Resolved": 52,
+    "Resolved": 53,
     "Informational": 109
   },
   "analytics": {
@@ -3889,14 +3904,14 @@ window.DASHBOARD_DATA = {
       "avgResolvedDays": 2
     },
     "report": {
-      "total": 12,
+      "total": 13,
       "No response": 0,
       "Awaiting reply (from us)": 2,
       "Awaiting reply (from them)": 5,
-      "Resolved": 4,
+      "Resolved": 5,
       "Informational": 1,
       "avgOpenDays": 25.3,
-      "avgResolvedDays": 18.8
+      "avgResolvedDays": 21
     },
     "partner": {
       "total": 9,
