@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-23T04:38:17Z",
+  "generatedAt": "2026-10-23T06:37:07Z",
   "threads": [
     {
       "id": "finance-f1f08db99f",
@@ -3680,8 +3680,8 @@ window.DASHBOARD_DATA = {
       "last": null,
       "status": "Awaiting reply (from us)",
       "note": null,
-      "daysOpen": 1,
-      "daysSinceReceived": 1,
+      "daysOpen": 2,
+      "daysSinceReceived": 2,
       "cc": []
     },
     {
@@ -3695,8 +3695,8 @@ window.DASHBOARD_DATA = {
       "last": null,
       "status": "Awaiting reply (from us)",
       "note": null,
-      "daysOpen": 1,
-      "daysSinceReceived": 1,
+      "daysOpen": 2,
+      "daysSinceReceived": 2,
       "cc": []
     },
     {
@@ -3710,8 +3710,8 @@ window.DASHBOARD_DATA = {
       "last": null,
       "status": "Awaiting reply (from them)",
       "note": null,
-      "daysOpen": 4,
-      "daysSinceReceived": 4,
+      "daysOpen": 5,
+      "daysSinceReceived": 5,
       "cc": []
     },
     {
@@ -3770,8 +3770,8 @@ window.DASHBOARD_DATA = {
       "last": null,
       "status": "Awaiting reply (from them)",
       "note": null,
-      "daysOpen": 36,
-      "daysSinceReceived": 36,
+      "daysOpen": 37,
+      "daysSinceReceived": 37,
       "cc": []
     },
     {
@@ -3800,8 +3800,8 @@ window.DASHBOARD_DATA = {
       "last": null,
       "status": "Awaiting reply (from them)",
       "note": null,
-      "daysOpen": 45,
-      "daysSinceReceived": 45,
+      "daysOpen": 46,
+      "daysSinceReceived": 46,
       "cc": []
     },
     {
@@ -3815,8 +3815,8 @@ window.DASHBOARD_DATA = {
       "last": null,
       "status": "Awaiting reply (from them)",
       "note": null,
-      "daysOpen": 45,
-      "daysSinceReceived": 45,
+      "daysOpen": 46,
+      "daysSinceReceived": 46,
       "cc": []
     },
     {
@@ -3830,8 +3830,8 @@ window.DASHBOARD_DATA = {
       "last": null,
       "status": "Awaiting reply (from them)",
       "note": null,
-      "daysOpen": 45,
-      "daysSinceReceived": 45,
+      "daysOpen": 46,
+      "daysSinceReceived": 46,
       "cc": []
     },
     {
@@ -3863,6 +3863,23 @@ window.DASHBOARD_DATA = {
       "daysOpen": 30,
       "daysSinceReceived": 60,
       "cc": []
+    },
+    {
+      "id": "campus-b17a7f6ccb",
+      "threadId": "1a1676cb33bdb4c3",
+      "group": "campus",
+      "subject": "Fwd: You won Best Build Video Documentary at Useless Projects 3.0! 🏆",
+      "counterpart": "internal (Arundhathi)",
+      "email": "arundhathi@tinkerhub.org",
+      "received": "2026-10-23",
+      "last": "2026-10-23",
+      "status": "Informational",
+      "note": "Arundhathi forwarded the late Useless Projects 3.0 Best Build Video Documentary winner email (Austin); T-shirt/address due 23 Oct",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
     }
   ],
   "summary": {
@@ -3870,16 +3887,16 @@ window.DASHBOARD_DATA = {
     "Awaiting reply (from us)": 21,
     "Awaiting reply (from them)": 31,
     "Resolved": 53,
-    "Informational": 109
+    "Informational": 110
   },
   "analytics": {
     "campus": {
-      "total": 149,
+      "total": 150,
       "No response": 2,
       "Awaiting reply (from us)": 9,
       "Awaiting reply (from them)": 20,
       "Resolved": 26,
-      "Informational": 92,
+      "Informational": 93,
       "avgOpenDays": 19.4,
       "avgResolvedDays": 11.9
     },
@@ -3910,7 +3927,7 @@ window.DASHBOARD_DATA = {
       "Awaiting reply (from them)": 5,
       "Resolved": 5,
       "Informational": 1,
-      "avgOpenDays": 25.3,
+      "avgOpenDays": 26.3,
       "avgResolvedDays": 21
     },
     "partner": {
