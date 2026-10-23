@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-23T14:36:58Z",
+  "generatedAt": "2026-10-23T16:37:00Z",
   "threads": [
     {
       "id": "finance-f1f08db99f",
@@ -3152,405 +3152,6 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "campus-dab47f472f",
-      "threadId": "1a0cd09804760dd5",
-      "group": "campus",
-      "subject": "Spreadsheet shared with you: \"Campus Additions to app\"",
-      "counterpart": "internal (Habeeb Rahman)",
-      "email": "habeeb@tinkerhub.org",
-      "received": "2026-09-23",
-      "last": "2026-09-23",
-      "status": "Informational",
-      "note": "automated spreadsheet share notification, no action needed",
-      "daysOpen": 0,
-      "daysSinceReceived": 30,
-      "cc": [
-        "campus@tinkerhub.org",
-        "akhil@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-e3ee2f24d9",
-      "threadId": "1a0b93c0753b2843",
-      "group": "support",
-      "subject": "Alert for Failed SMS API | MSG91",
-      "counterpart": "MSG91 (automated)",
-      "email": null,
-      "received": "2026-09-19",
-      "last": "2026-09-23",
-      "status": "Resolved",
-      "note": "MSG91 SMS API failures, fixed",
-      "daysOpen": 4,
-      "daysSinceReceived": 34,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-9135a22dba",
-      "threadId": "1a09e8563f268bf5",
-      "group": "support",
-      "subject": "Issue with Username Entry and Vouch Request",
-      "counterpart": "Mary Metilda",
-      "email": "34004alappuzha@gmail.com",
-      "received": "2026-09-14",
-      "last": "2026-09-23",
-      "status": "Resolved",
-      "note": "account visibility fixed; auto-closed, no reply received",
-      "daysOpen": 9,
-      "daysSinceReceived": 39,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-b6168c55ce",
-      "threadId": "1a0c9a375dec72a2",
-      "group": "campus",
-      "subject": "AfterMovie Submission",
-      "counterpart": "Abdel (TinkerHub CEP)",
-      "email": "tinkerhubcep@gmail.com",
-      "received": "2026-09-22",
-      "last": "2026-09-23",
-      "status": "Resolved",
-      "note": "submissions closed, effort acknowledged",
-      "daysOpen": 1,
-      "daysSinceReceived": 31,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-837d06c126",
-      "threadId": "1a0ad51fcfa6efaf",
-      "group": "campus",
-      "subject": "Useless projects 3.0 queries",
-      "counterpart": "Amal (TinkerHub SNMIMT)",
-      "email": "tinkerhub@snmimt.edu.in",
-      "received": "2026-09-17",
-      "last": "2026-09-23",
-      "status": "Resolved",
-      "note": "auto-closed after no reply",
-      "daysOpen": 6,
-      "daysSinceReceived": 36,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-3936cedd11",
-      "threadId": "1a0a39acfc1ff5bd",
-      "group": "campus",
-      "subject": "Collaboration for ASTRA'26 Pre-Events (GEC Wayanad)",
-      "counterpart": "Aman Kanhikoth (GEC Wayanad)",
-      "email": "amankanhikoth@gmail.com",
-      "received": "2026-09-15",
-      "last": "2026-09-23",
-      "status": "Resolved",
-      "note": "auto-closed after no reply",
-      "daysOpen": 8,
-      "daysSinceReceived": 38,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-020f1aa2e0",
-      "threadId": "1a0a97dd69d6d683",
-      "group": "campus",
-      "subject": "Useless Projects 3.0 - Discord Rating Issue",
-      "counterpart": "Vishnu",
-      "email": "viyshnuw@gmail.com",
-      "received": "2026-09-16",
-      "last": "2026-09-23",
-      "status": "Resolved",
-      "note": "auto-closed after no reply",
-      "daysOpen": 7,
-      "daysSinceReceived": 37,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-03b664fd32",
-      "threadId": "1a08bad951813e8b",
-      "group": "campus",
-      "subject": "Plss reopen application for useless projects 3.0",
-      "counterpart": "Afeefa Parvin (ICET)",
-      "email": "afeefaparvin88@gmail.com",
-      "received": "2026-09-10",
-      "last": "2026-09-23",
-      "status": "Resolved",
-      "note": "Asked to reopen Useless Projects 3.0 applications; Habeeb asked for details, no reply; auto-closed 23 Sep",
-      "daysOpen": 13,
-      "daysSinceReceived": 43,
-      "cc": [
-        "campus@tinkerhub.org",
-        "habeeb@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-99a2ab3ac2",
-      "threadId": "1a086fb03c9bf0fd",
-      "group": "campus",
-      "subject": "Request to talk to the principal",
-      "counterpart": "Trishaa B",
-      "email": "mail.trishaa@gmail.com",
-      "received": "2026-09-09",
-      "last": "2026-09-23",
-      "status": "Resolved",
-      "note": "Arundhathi asked how to help; no reply; auto-closed 23 Sep",
-      "daysOpen": 14,
-      "daysSinceReceived": 44,
-      "cc": [
-        "campus@tinkerhub.org",
-        "femina@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-edc901cd02",
-      "threadId": "1a084f7873a2929f",
-      "group": "campus",
-      "subject": "Seat capacity increase for USELESS 3.0",
-      "counterpart": "Hellan",
-      "email": "hellan1845@gmail.com",
-      "received": "2026-09-09",
-      "last": "2026-09-23",
-      "status": "Resolved",
-      "note": "Femina confirmed seat count update; auto-closed 23 Sep",
-      "daysOpen": 14,
-      "daysSinceReceived": 44,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-e18ff83351",
-      "threadId": "1a0631e9eab54565",
-      "group": "campus",
-      "subject": "Useless Projects 3.0 — RSVP",
-      "counterpart": "Meenakshy MS",
-      "email": "me24kshy@gmail.com",
-      "received": "2026-09-02",
-      "last": "2026-09-23",
-      "status": "Resolved",
-      "note": "Dates confirmed (11-12 Sep); asked to fill RSVP; auto-closed 23 Sep",
-      "daysOpen": 21,
-      "daysSinceReceived": 51,
-      "cc": [
-        "campus@tinkerhub.org",
-        "habeeb@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-f387814e49",
-      "threadId": "1a057272b0a7fd3a",
-      "group": "campus",
-      "subject": "Rescheduling of Useless project 3.0",
-      "counterpart": "Lekshmy S",
-      "email": "lekshmys33@gmail.com",
-      "received": "2026-08-31",
-      "last": "2026-09-23",
-      "status": "Resolved",
-      "note": "College asked to reschedule; Habeeb asked for new timing; auto-closed 23 Sep",
-      "daysOpen": 23,
-      "daysSinceReceived": 53,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-bc8bb5187a",
-      "threadId": "1a041e17361e004f",
-      "group": "campus",
-      "subject": "Partnership Opportunity | Useless Projects × Innovation Incubator Advisory",
-      "counterpart": "Fannie Nesa A (Innovation Incubator Advisory)",
-      "email": "fannie.na@iinerds.com",
-      "received": "2026-08-27",
-      "last": "2026-09-23",
-      "status": "Resolved",
-      "note": "Sponsorship enquiry; Femina looped in MITS campus lead; auto-closed 23 Sep",
-      "daysOpen": 27,
-      "daysSinceReceived": 57,
-      "cc": [
-        "campus@tinkerhub.org",
-        "mehar@tinkerhub.org",
-        "arundhathi@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-de33f60b9b",
-      "threadId": "19ffb8b081ba51ae",
-      "group": "campus",
-      "subject": "TinkerHub's Useless Projects is here!",
-      "counterpart": "Anjali S Pillai (and other campus leads)",
-      "email": "anjalispillai321@gmail.com",
-      "received": "2026-08-13",
-      "last": "2026-09-23",
-      "status": "Resolved",
-      "note": "Useless Projects 3.0 announcement; campus leads replied about slots/RSVP; auto-closed 23 Sep",
-      "daysOpen": 41,
-      "daysSinceReceived": 71,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-0aa040ee60",
-      "threadId": "1a0342b5cd9cfcc2",
-      "group": "campus",
-      "subject": "Request to Reschedule Useless Project from September 5–6 to September 11–12",
-      "counterpart": "Farsana",
-      "email": "fathimathulfarsaana@gmail.com",
-      "received": "2026-08-24",
-      "last": "2026-09-23",
-      "status": "Resolved",
-      "note": "Femina asked to confirm dates; no reply; auto-closed 23 Sep",
-      "daysOpen": 30,
-      "daysSinceReceived": 60,
-      "cc": [
-        "campus@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-af288aa227",
-      "threadId": "19fef734079841d1",
-      "group": "campus",
-      "subject": "Fwd: Regarding the change of role from Friends of Tinkerhub to student",
-      "counterpart": "Abi Alif",
-      "email": "abialifhere@gmail.com",
-      "received": "2026-08-11",
-      "last": "2026-09-23",
-      "status": "Resolved",
-      "note": "Account role updated by Akhil on 23 Sep",
-      "daysOpen": 43,
-      "daysSinceReceived": 73,
-      "cc": [
-        "campus@tinkerhub.org",
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "campus-18046aa45f",
-      "threadId": "1a032c21a83ee0f8",
-      "group": "campus",
-      "subject": "Issue on Tinkerhub app",
-      "counterpart": "Goutham R",
-      "email": "gouthamr4567@gmail.com",
-      "received": "2026-08-24",
-      "last": "2026-09-23",
-      "status": "Resolved",
-      "note": "OTP/login issue resolved by Akhil on 23 Sep",
-      "daysOpen": 30,
-      "daysSinceReceived": 60,
-      "cc": [
-        "campus@tinkerhub.org",
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-3955414122",
-      "threadId": "1a06ff002a590034",
-      "group": "support",
-      "subject": "Failed otp verification for login and unable to edit profile",
-      "counterpart": "Lakshmi",
-      "email": "lachukrishna01@gmail.com",
-      "received": "2026-09-05",
-      "last": "2026-09-23",
-      "status": "Resolved",
-      "note": "Login issue resolved by Akhil on 23 Sep",
-      "daysOpen": 18,
-      "daysSinceReceived": 48,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-c9e3a899cb",
-      "threadId": "1a07c7647bc4616e",
-      "group": "support",
-      "subject": "Event Registration Issue",
-      "counterpart": "Pooja S N (Saintgits)",
-      "email": "poojasn.er2428@saintgits.org",
-      "received": "2026-09-07",
-      "last": "2026-09-23",
-      "status": "Resolved",
-      "note": "Kudumba Unit registration fixed, students added",
-      "daysOpen": 16,
-      "daysSinceReceived": 46,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-d09a80eb95",
-      "threadId": "1a0867185a9f192c",
-      "group": "support",
-      "subject": "regarding changing Discord user accounts in the TinkerHub community server",
-      "counterpart": "Kendrik K Joseph",
-      "email": "kendrikkjoseph3@gmail.com",
-      "received": "2026-09-09",
-      "last": "2026-09-23",
-      "status": "Resolved",
-      "note": "Discord mapping removed; user can re-link",
-      "daysOpen": 14,
-      "daysSinceReceived": 44,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-3ee4e1e8c3",
-      "threadId": "1a03f8c447ad92e9",
-      "group": "support",
-      "subject": "Bug Report: UI jump and layout issue on \"Upcoming Activities\" page in Tinkerhub App",
-      "counterpart": "Anson Boby",
-      "email": "ansonboby@gmail.com",
-      "received": "2026-08-26",
-      "last": "2026-09-23",
-      "status": "Awaiting reply (from us)",
-      "note": "Anson sent device info (Vivo Y20G, Android 12) after the 23 Sep auto-close; we owe a follow-up",
-      "daysOpen": 58,
-      "daysSinceReceived": 58,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-7dc073f54d",
-      "threadId": "1a0385d224e84b2c",
-      "group": "support",
-      "subject": "College Not Available in TinkerHub App",
-      "counterpart": "Adnan Ibnu Rasheed",
-      "email": "adnankp249@gmail.com",
-      "received": "2026-08-25",
-      "last": "2026-09-23",
-      "status": "Awaiting reply (from us)",
-      "note": "Akhil promised to add Alphonsa College, Thiruvambadi; we owe confirmation it is added",
-      "daysOpen": 59,
-      "daysSinceReceived": 59,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
-      "id": "support-4d866af761",
-      "threadId": "1a01fabb03f3ee2f",
-      "group": "support",
-      "subject": "Request to Change College Name in TinkerHub Account",
-      "counterpart": "Akshay Harilal",
-      "email": "akshayharilal10@gmail.com",
-      "received": "2026-08-20",
-      "last": "2026-09-23",
-      "status": "Resolved",
-      "note": "College updated to CET by Akhil on 23 Sep",
-      "daysOpen": 34,
-      "daysSinceReceived": 64,
-      "cc": [
-        "support@tinkerhub.org"
-      ]
-    },
-    {
       "id": "campus-2d3d4f6cf0",
       "threadId": "1a15e830f1b69168",
       "group": "campus",
@@ -3738,141 +3339,6 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "report-039fe8162f",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Awaiting reply (from them)",
-      "note": null,
-      "daysOpen": 36,
-      "daysSinceReceived": 36,
-      "cc": []
-    },
-    {
-      "id": "report-498dadce30",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Awaiting reply (from them)",
-      "note": null,
-      "daysOpen": 30,
-      "daysSinceReceived": 30,
-      "cc": []
-    },
-    {
-      "id": "report-0759256871",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Resolved",
-      "note": null,
-      "daysOpen": 57,
-      "daysSinceReceived": 59,
-      "cc": []
-    },
-    {
-      "id": "report-11d03bbb9a",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Awaiting reply (from us)",
-      "note": null,
-      "daysOpen": 25,
-      "daysSinceReceived": 25,
-      "cc": []
-    },
-    {
-      "id": "report-690e429729",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Resolved",
-      "note": null,
-      "daysOpen": 0,
-      "daysSinceReceived": 22,
-      "cc": []
-    },
-    {
-      "id": "report-55aec88bb6",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Informational",
-      "note": null,
-      "daysOpen": 0,
-      "daysSinceReceived": 21,
-      "cc": []
-    },
-    {
-      "id": "report-b069a3dfc0",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Awaiting reply (from them)",
-      "note": null,
-      "daysOpen": 4,
-      "daysSinceReceived": 4,
-      "cc": []
-    },
-    {
-      "id": "report-de940b26b9",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Awaiting reply (from us)",
-      "note": null,
-      "daysOpen": 1,
-      "daysSinceReceived": 1,
-      "cc": []
-    },
-    {
-      "id": "report-e65f3eed74",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Awaiting reply (from us)",
-      "note": null,
-      "daysOpen": 1,
-      "daysSinceReceived": 1,
-      "cc": []
-    },
-    {
       "id": "partner-74d85a2d0c",
       "threadId": "1a168ac07ff6acd9",
       "group": "partner",
@@ -3888,35 +3354,191 @@ window.DASHBOARD_DATA = {
       "cc": [
         "partner@tinkerhub.org"
       ]
+    },
+    {
+      "id": "campus-3efc877f80",
+      "threadId": "1a16956bcefd40e2",
+      "group": "campus",
+      "subject": "Request for Support and Clarification Regarding Missing Components – Useless Projects 3.0",
+      "counterpart": "Arya Venugopal (TinkerHub SNGCE)",
+      "email": "aryavenugopal2006@gmail.com",
+      "received": "2026-10-23",
+      "last": "2026-10-23",
+      "status": "No response",
+      "note": "TinkerHub SNGCE chapter reports missing components from Useless Projects 3.0 (11 Sep) and requests support; no reply yet",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org",
+        "arundhathi@tinkerhub.org",
+        "habeeb@tinkerhub.org",
+        "femina@tinkerhub.org",
+        "kurian@tinkerhub.org"
+      ]
+    },
+    {
+      "id": "report-8c9b9bdeb8",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Awaiting reply (from them)",
+      "note": null,
+      "cc": [],
+      "daysSinceReceived": 36,
+      "daysOpen": 36
+    },
+    {
+      "id": "report-b7c70824a4",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Awaiting reply (from them)",
+      "note": null,
+      "cc": [],
+      "daysSinceReceived": 30,
+      "daysOpen": 30
+    },
+    {
+      "id": "report-57bb214b4a",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Resolved",
+      "note": null,
+      "cc": [],
+      "daysSinceReceived": 59,
+      "daysOpen": 57
+    },
+    {
+      "id": "report-e93c11e99c",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Resolved",
+      "note": null,
+      "cc": [],
+      "daysSinceReceived": 25,
+      "daysOpen": 2
+    },
+    {
+      "id": "report-549f1ec10c",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Resolved",
+      "note": null,
+      "cc": [],
+      "daysSinceReceived": 22,
+      "daysOpen": 0
+    },
+    {
+      "id": "report-55aec88bb6",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Informational",
+      "note": null,
+      "cc": [],
+      "daysSinceReceived": 21,
+      "daysOpen": 0
+    },
+    {
+      "id": "report-05b8f6f4bd",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Awaiting reply (from them)",
+      "note": null,
+      "cc": [],
+      "daysSinceReceived": 4,
+      "daysOpen": 4
+    },
+    {
+      "id": "report-d4411272bf",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Awaiting reply (from us)",
+      "note": null,
+      "cc": [],
+      "daysSinceReceived": 1,
+      "daysOpen": 1
+    },
+    {
+      "id": "report-3876ab70fc",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Awaiting reply (from us)",
+      "note": null,
+      "cc": [],
+      "daysSinceReceived": 1,
+      "daysOpen": 1
     }
   ],
   "summary": {
-    "No response": 8,
-    "Awaiting reply (from us)": 22,
+    "No response": 9,
+    "Awaiting reply (from us)": 19,
     "Awaiting reply (from them)": 29,
-    "Resolved": 50,
-    "Informational": 113
+    "Resolved": 31,
+    "Informational": 112
   },
   "analytics": {
     "campus": {
-      "total": 153,
-      "No response": 2,
+      "total": 139,
+      "No response": 3,
       "Awaiting reply (from us)": 9,
       "Awaiting reply (from them)": 20,
-      "Resolved": 26,
-      "Informational": 96,
-      "avgOpenDays": 19.4,
-      "avgResolvedDays": 11.9
+      "Resolved": 12,
+      "Informational": 95,
+      "avgOpenDays": 18.8,
+      "avgResolvedDays": 2.6
     },
     "support": {
-      "total": 12,
+      "total": 4,
       "No response": 2,
-      "Awaiting reply (from us)": 4,
+      "Awaiting reply (from us)": 2,
       "Awaiting reply (from them)": 0,
-      "Resolved": 6,
+      "Resolved": 0,
       "Informational": 0,
-      "avgOpenDays": 29.5,
-      "avgResolvedDays": 15.8
+      "avgOpenDays": 15.0,
+      "avgResolvedDays": 0
     },
     "finance": {
       "total": 35,
@@ -3931,12 +3553,12 @@ window.DASHBOARD_DATA = {
     "report": {
       "total": 9,
       "No response": 0,
-      "Awaiting reply (from us)": 3,
+      "Awaiting reply (from us)": 2,
       "Awaiting reply (from them)": 3,
-      "Resolved": 2,
+      "Resolved": 3,
       "Informational": 1,
-      "avgOpenDays": 16.2,
-      "avgResolvedDays": 28.5
+      "avgOpenDays": 14.4,
+      "avgResolvedDays": 19.7
     },
     "partner": {
       "total": 10,
