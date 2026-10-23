@@ -1,8 +1,31 @@
 // Auto-generated daily by .github/workflows/discord-update.yml
 // Do NOT hand-edit — this file is overwritten on each run.
 window.DISCORD_DATA = {
-  "generatedAt": "2026-10-23T07:47:34Z",
+  "generatedAt": "2026-10-23T13:40:17Z",
   "threads": [
+    {
+      "id": "1551852995015348337",
+      "name": "WIT Lead not added in Discord",
+      "url": "https://discord.com/channels/735180366297563257/1551852995015348337",
+      "status": "No response",
+      "category": "Discord account/access",
+      "requester": "RaptorMan",
+      "received": "2026-09-22",
+      "last": "2026-10-23",
+      "resolvedAt": "2026-10-23",
+      "daysOpen": 0,
+      "daysSinceReceived": 31,
+      "daysToClose": 31,
+      "messageCount": 1,
+      "archived": false,
+      "locked": false,
+      "resolutionSnippet": "",
+      "suggestion": {
+        "fromThreadName": "Outreach not in Discord channel.",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546893762930942122",
+        "snippet": "He is not added to the tinkerhub channel."
+      }
+    },
     {
       "id": "1562693610481258626",
       "name": "App not Leading",
@@ -13,7 +36,7 @@ window.DISCORD_DATA = {
       "received": "2026-10-22",
       "last": "2026-10-22",
       "resolvedAt": "2026-10-22",
-      "daysOpen": 0,
+      "daysOpen": 1,
       "daysSinceReceived": 1,
       "daysToClose": 0,
       "messageCount": 2,
@@ -113,9 +136,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Unable to get OTP",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1557052427767914496",
-        "snippet": "This thread is closed by <@1012977379209125908>."
+        "fromThreadName": "OTP not receiving while app  onboarding",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1552246987120967762",
+        "snippet": "For Some students its repeatedly showing \" failed to send otp\" when they are trying to onboard on app for the first time."
       }
     },
     {
@@ -136,9 +159,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Unable to get OTP",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1557052427767914496",
-        "snippet": "This thread is closed by <@1012977379209125908>."
+        "fromThreadName": "OTP not receiving while app  onboarding",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1552246987120967762",
+        "snippet": "For Some students its repeatedly showing \" failed to send otp\" when they are trying to onboard on app for the first time."
       }
     },
     {
@@ -315,7 +338,7 @@ window.DISCORD_DATA = {
       "received": "2026-10-10",
       "last": "2026-10-12",
       "resolvedAt": "2026-10-10",
-      "daysOpen": 10,
+      "daysOpen": 11,
       "daysSinceReceived": 12,
       "daysToClose": 0,
       "messageCount": 1,
@@ -323,9 +346,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "WIT Lead not added in Discord",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1551852995015348337",
-        "snippet": "Hi My WIT Lead , College of Engineering Trivandrum has not been added to the wit discord channel. Details: Sarah Mary Jacob sarah_tinkerbell"
+        "fromThreadName": "Outreach not in Discord channel.",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546893762930942122",
+        "snippet": "He is not added to the tinkerhub channel."
       }
     },
     {
@@ -338,8 +361,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-11",
       "last": "2026-10-11",
       "resolvedAt": "2026-10-11",
-      "daysOpen": 11,
-      "daysSinceReceived": 11,
+      "daysOpen": 12,
+      "daysSinceReceived": 12,
       "daysToClose": 0,
       "messageCount": 3,
       "archived": false,
@@ -369,9 +392,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "WIT Lead not added in Discord",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1551852995015348337",
-        "snippet": "Hi My WIT Lead , College of Engineering Trivandrum has not been added to the wit discord channel. Details: Sarah Mary Jacob sarah_tinkerbell"
+        "fromThreadName": "Outreach not in Discord channel.",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546893762930942122",
+        "snippet": "He is not added to the tinkerhub channel."
       }
     },
     {
@@ -408,7 +431,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-11",
       "resolvedAt": "2026-10-10",
       "daysOpen": 12,
-      "daysSinceReceived": 12,
+      "daysSinceReceived": 13,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -653,7 +676,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-06",
       "resolvedAt": "2026-10-05",
       "daysOpen": 16,
-      "daysSinceReceived": 17,
+      "daysSinceReceived": 18,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -721,7 +744,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-20",
       "last": "2026-10-02",
       "resolvedAt": "2026-09-20",
-      "daysOpen": 20,
+      "daysOpen": 21,
       "daysSinceReceived": 32,
       "daysToClose": 0,
       "messageCount": 1,
@@ -786,8 +809,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-26",
       "last": "2026-09-26",
       "resolvedAt": "2026-09-26",
-      "daysOpen": 26,
-      "daysSinceReceived": 26,
+      "daysOpen": 27,
+      "daysSinceReceived": 27,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -826,42 +849,19 @@ window.DISCORD_DATA = {
       "id": "1552246987120967762",
       "name": "OTP not receiving while app  onboarding",
       "url": "https://discord.com/channels/735180366297563257/1552246987120967762",
-      "status": "No response",
+      "status": "Resolved",
       "category": "OTP / Login issues",
       "requester": "Mayukha",
       "received": "2026-09-23",
       "last": "2026-09-23",
-      "resolvedAt": "2026-09-23",
-      "daysOpen": 29,
-      "daysSinceReceived": 29,
-      "daysToClose": 0,
-      "messageCount": 0,
-      "archived": false,
-      "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Unable to get OTP",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1557052427767914496",
-        "snippet": "This thread is closed by <@1012977379209125908>."
-      }
-    },
-    {
-      "id": "1551852995015348337",
-      "name": "WIT Lead not added in Discord",
-      "url": "https://discord.com/channels/735180366297563257/1551852995015348337",
-      "status": "Resolved",
-      "category": "Discord account/access",
-      "requester": "RaptorMan",
-      "received": "2026-09-22",
-      "last": "2026-09-22",
-      "resolvedAt": "2026-10-22",
-      "daysOpen": 31,
-      "daysSinceReceived": 31,
+      "resolvedAt": "2026-10-23",
+      "daysOpen": 30,
+      "daysSinceReceived": 30,
       "daysToClose": 30,
       "messageCount": 0,
       "archived": true,
       "locked": false,
-      "resolutionSnippet": "Hi My WIT Lead , College of Engineering Trivandrum has not been added to the wit discord channel. Details: Sarah Mary Jacob sarah_tinkerbell",
+      "resolutionSnippet": "For Some students its repeatedly showing \" failed to send otp\" when they are trying to onboard on app for the first time.",
       "suggestion": null
     },
     {
@@ -13677,8 +13677,8 @@ window.DISCORD_DATA = {
     "Awaiting reply (from them)": 3,
     "Resolved": 682
   },
-  "avgOpenDays": 13.2,
-  "avgDaysToClose": 14.2,
+  "avgOpenDays": 12.4,
+  "avgDaysToClose": 14.3,
   "topCategories": [
     {
       "category": "Event/Activity check-in & reporting",
