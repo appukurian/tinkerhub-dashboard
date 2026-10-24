@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-24T10:37:00Z",
+  "generatedAt": "2026-10-24T12:37:00Z",
   "threads": [
     {
       "id": "finance-f1f08db99f",
