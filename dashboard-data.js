@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-25T06:37:00Z",
+  "generatedAt": "2026-10-25T08:37:00Z",
   "threads": [
     {
       "id": "finance-f1f08db99f",
@@ -3192,9 +3192,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "Marwa Basheer",
       "email": "marwabasheer5050@gmail.com",
       "received": "2026-10-22",
-      "last": "2026-10-22",
-      "status": "No response",
-      "note": "Cannot sign up: repeated OTP requests, 'Couldn't get OTP' error (likely OTP rate limit)",
+      "last": "2026-10-25",
+      "status": "Resolved",
+      "note": "Akhil confirmed OTP issue fixed on 25 Oct and asked Marwa to retry sign-up",
       "daysOpen": 3,
       "daysSinceReceived": 3,
       "cc": [
@@ -3438,7 +3438,7 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Awaiting reply (from us)",
+      "status": "Resolved",
       "note": null,
       "daysOpen": 3,
       "daysSinceReceived": 3,
@@ -3476,10 +3476,10 @@ window.DASHBOARD_DATA = {
     }
   ],
   "summary": {
-    "No response": 10,
-    "Awaiting reply (from us)": 20,
+    "No response": 9,
+    "Awaiting reply (from us)": 19,
     "Awaiting reply (from them)": 29,
-    "Resolved": 27,
+    "Resolved": 29,
     "Informational": 112
   },
   "analytics": {
@@ -3495,13 +3495,13 @@ window.DASHBOARD_DATA = {
     },
     "support": {
       "total": 4,
-      "No response": 2,
+      "No response": 1,
       "Awaiting reply (from us)": 2,
       "Awaiting reply (from them)": 0,
-      "Resolved": 0,
+      "Resolved": 1,
       "Informational": 0,
-      "avgOpenDays": 17,
-      "avgResolvedDays": 0
+      "avgOpenDays": 21.7,
+      "avgResolvedDays": 3.0
     },
     "finance": {
       "total": 35,
@@ -3511,17 +3511,17 @@ window.DASHBOARD_DATA = {
       "Resolved": 14,
       "Informational": 14,
       "avgOpenDays": 14.3,
-      "avgResolvedDays": 2
+      "avgResolvedDays": 2.0
     },
     "report": {
       "total": 10,
       "No response": 0,
-      "Awaiting reply (from us)": 3,
+      "Awaiting reply (from us)": 2,
       "Awaiting reply (from them)": 3,
-      "Resolved": 3,
+      "Resolved": 4,
       "Informational": 1,
-      "avgOpenDays": 17.2,
-      "avgResolvedDays": 19.7
+      "avgOpenDays": 20.0,
+      "avgResolvedDays": 15.5
     },
     "partner": {
       "total": 10,
@@ -3531,7 +3531,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 2,
       "avgOpenDays": 17.7,
-      "avgResolvedDays": 1
+      "avgResolvedDays": 1.0
     },
     "tinkerspace": {
       "total": 3,
@@ -3541,7 +3541,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 0,
       "avgOpenDays": 12.5,
-      "avgResolvedDays": 1
+      "avgResolvedDays": 1.0
     }
   }
 };
