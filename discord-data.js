@@ -1,7 +1,7 @@
 // Auto-generated daily by .github/workflows/discord-update.yml
 // Do NOT hand-edit — this file is overwritten on each run.
 window.DISCORD_DATA = {
-  "generatedAt": "2026-10-25T07:43:11Z",
+  "generatedAt": "2026-10-25T13:16:25Z",
   "threads": [
     {
       "id": "1562693610481258626",
@@ -21,8 +21,54 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "App is not opening",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1562112409026433024",
+        "fromThreadName": "App crash on launch",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1563213108753727571",
+        "snippet": "This thread is closed by <@1012977379209125908>."
+      }
+    },
+    {
+      "id": "1562359347265282128",
+      "name": "App not Loading",
+      "url": "https://discord.com/channels/735180366297563257/1562359347265282128",
+      "status": "Awaiting reply (from them)",
+      "category": "Other",
+      "requester": "Hellan Raichel Benoy | India",
+      "received": "2026-10-21",
+      "last": "2026-10-25",
+      "resolvedAt": "2026-10-25",
+      "daysOpen": 0,
+      "daysSinceReceived": 4,
+      "daysToClose": 4,
+      "messageCount": 4,
+      "archived": false,
+      "locked": false,
+      "resolutionSnippet": "",
+      "suggestion": {
+        "fromThreadName": "App crash on launch",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1563213108753727571",
+        "snippet": "This thread is closed by <@1012977379209125908>."
+      }
+    },
+    {
+      "id": "1562112409026433024",
+      "name": "App is not opening",
+      "url": "https://discord.com/channels/735180366297563257/1562112409026433024",
+      "status": "Awaiting reply (from them)",
+      "category": "Other",
+      "requester": "Shamila A",
+      "received": "2026-10-20",
+      "last": "2026-10-25",
+      "resolvedAt": "2026-10-25",
+      "daysOpen": 0,
+      "daysSinceReceived": 4,
+      "daysToClose": 4,
+      "messageCount": 3,
+      "archived": false,
+      "locked": false,
+      "resolutionSnippet": "",
+      "suggestion": {
+        "fromThreadName": "App crash on launch",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1563213108753727571",
         "snippet": "This thread is closed by <@1012977379209125908>."
       }
     },
@@ -60,7 +106,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-25",
       "resolvedAt": "2026-10-17",
       "daysOpen": 0,
-      "daysSinceReceived": 7,
+      "daysSinceReceived": 8,
       "daysToClose": 0,
       "messageCount": 3,
       "archived": false,
@@ -99,7 +145,7 @@ window.DISCORD_DATA = {
       "id": "1559045587758878721",
       "name": "Missing registration button",
       "url": "https://discord.com/channels/735180366297563257/1559045587758878721",
-      "status": "No response",
+      "status": "Awaiting reply (from us)",
       "category": "Registration issues",
       "requester": "JESNA C J",
       "received": "2026-10-12",
@@ -108,7 +154,7 @@ window.DISCORD_DATA = {
       "daysOpen": 0,
       "daysSinceReceived": 13,
       "daysToClose": 0,
-      "messageCount": 1,
+      "messageCount": 2,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
@@ -129,7 +175,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-25",
       "resolvedAt": "2026-10-11",
       "daysOpen": 0,
-      "daysSinceReceived": 13,
+      "daysSinceReceived": 14,
       "daysToClose": 0,
       "messageCount": 8,
       "archived": false,
@@ -191,7 +237,7 @@ window.DISCORD_DATA = {
       "id": "1551852995015348337",
       "name": "WIT Lead not added in Discord",
       "url": "https://discord.com/channels/735180366297563257/1551852995015348337",
-      "status": "Awaiting reply (from them)",
+      "status": "Awaiting reply (from us)",
       "category": "Discord account/access",
       "requester": "RaptorMan",
       "received": "2026-09-22",
@@ -200,7 +246,7 @@ window.DISCORD_DATA = {
       "daysOpen": 0,
       "daysSinceReceived": 33,
       "daysToClose": 31,
-      "messageCount": 4,
+      "messageCount": 5,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
@@ -221,7 +267,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-25",
       "resolvedAt": "2026-10-25",
       "daysOpen": 0,
-      "daysSinceReceived": 14,
+      "daysSinceReceived": 15,
       "daysToClose": 14,
       "messageCount": 6,
       "archived": true,
@@ -240,47 +286,9 @@ window.DISCORD_DATA = {
       "last": "2026-10-25",
       "resolvedAt": "2026-10-25",
       "daysOpen": 0,
-      "daysSinceReceived": 4,
+      "daysSinceReceived": 5,
       "daysToClose": 4,
       "messageCount": 5,
-      "archived": true,
-      "locked": false,
-      "resolutionSnippet": "This thread is closed by <@1012977379209125908>.",
-      "suggestion": null
-    },
-    {
-      "id": "1562112409026433024",
-      "name": "App is not opening",
-      "url": "https://discord.com/channels/735180366297563257/1562112409026433024",
-      "status": "Resolved",
-      "category": "Other",
-      "requester": "Shamila A",
-      "received": "2026-10-20",
-      "last": "2026-10-25",
-      "resolvedAt": "2026-10-25",
-      "daysOpen": 0,
-      "daysSinceReceived": 4,
-      "daysToClose": 4,
-      "messageCount": 3,
-      "archived": true,
-      "locked": false,
-      "resolutionSnippet": "This thread is closed by <@1012977379209125908>.",
-      "suggestion": null
-    },
-    {
-      "id": "1562359347265282128",
-      "name": "App not Loading",
-      "url": "https://discord.com/channels/735180366297563257/1562359347265282128",
-      "status": "Resolved",
-      "category": "Other",
-      "requester": "Hellan Raichel Benoy | India",
-      "received": "2026-10-21",
-      "last": "2026-10-25",
-      "resolvedAt": "2026-10-25",
-      "daysOpen": 0,
-      "daysSinceReceived": 4,
-      "daysToClose": 3,
-      "messageCount": 4,
       "archived": true,
       "locked": false,
       "resolutionSnippet": "This thread is closed by <@1012977379209125908>.",
@@ -297,7 +305,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-25",
       "resolvedAt": "2026-10-25",
       "daysOpen": 0,
-      "daysSinceReceived": 1,
+      "daysSinceReceived": 2,
       "daysToClose": 1,
       "messageCount": 2,
       "archived": true,
@@ -430,7 +438,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-11",
       "resolvedAt": "2026-10-10",
       "daysOpen": 14,
-      "daysSinceReceived": 14,
+      "daysSinceReceived": 15,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -479,8 +487,8 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "App is not opening",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1562112409026433024",
+        "fromThreadName": "App crash on launch",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1563213108753727571",
         "snippet": "This thread is closed by <@1012977379209125908>."
       }
     },
@@ -613,8 +621,8 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "App is not opening",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1562112409026433024",
+        "fromThreadName": "App crash on launch",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1563213108753727571",
         "snippet": "This thread is closed by <@1012977379209125908>."
       }
     },
@@ -659,8 +667,8 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "App is not opening",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1562112409026433024",
+        "fromThreadName": "App crash on launch",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1563213108753727571",
         "snippet": "This thread is closed by <@1012977379209125908>."
       }
     },
@@ -705,8 +713,8 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "App is not opening",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1562112409026433024",
+        "fromThreadName": "App crash on launch",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1563213108753727571",
         "snippet": "This thread is closed by <@1012977379209125908>."
       }
     },
@@ -728,8 +736,8 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "App is not opening",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1562112409026433024",
+        "fromThreadName": "App crash on launch",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1563213108753727571",
         "snippet": "This thread is closed by <@1012977379209125908>."
       }
     },
@@ -743,7 +751,7 @@ window.DISCORD_DATA = {
       "received": "2026-09-20",
       "last": "2026-10-02",
       "resolvedAt": "2026-09-20",
-      "daysOpen": 22,
+      "daysOpen": 23,
       "daysSinceReceived": 34,
       "daysToClose": 0,
       "messageCount": 1,
@@ -808,8 +816,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-26",
       "last": "2026-09-26",
       "resolvedAt": "2026-09-26",
-      "daysOpen": 28,
-      "daysSinceReceived": 28,
+      "daysOpen": 29,
+      "daysSinceReceived": 29,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -13667,12 +13675,12 @@ window.DISCORD_DATA = {
     }
   ],
   "summary": {
-    "No response": 12,
-    "Awaiting reply (from us)": 5,
-    "Awaiting reply (from them)": 8,
-    "Resolved": 689
+    "No response": 11,
+    "Awaiting reply (from us)": 7,
+    "Awaiting reply (from them)": 9,
+    "Resolved": 687
   },
-  "avgOpenDays": 11.9,
+  "avgOpenDays": 11.1,
   "avgDaysToClose": 14.4,
   "topCategories": [
     {
