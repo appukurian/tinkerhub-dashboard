@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-26T14:37:17Z",
+  "generatedAt": "2026-10-26T16:37:35Z",
   "threads": [
     {
       "id": "finance-f1f08db99f",
@@ -3501,7 +3501,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 0,
       "avgOpenDays": 26.2,
-      "avgResolvedDays": 3.0
+      "avgResolvedDays": 3
     },
     "finance": {
       "total": 36,
@@ -3511,7 +3511,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 14,
       "Informational": 14,
       "avgOpenDays": 13.4,
-      "avgResolvedDays": 2.0
+      "avgResolvedDays": 2
     },
     "report": {
       "total": 10,
@@ -3520,7 +3520,7 @@ window.DASHBOARD_DATA = {
       "Awaiting reply (from them)": 3,
       "Resolved": 4,
       "Informational": 1,
-      "avgOpenDays": 21.0,
+      "avgOpenDays": 21,
       "avgResolvedDays": 15.5
     },
     "partner": {
@@ -3541,7 +3541,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 0,
       "avgOpenDays": 13.5,
-      "avgResolvedDays": 1.0
+      "avgResolvedDays": 1
     }
   }
 };
