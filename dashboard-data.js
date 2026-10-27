@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-27T10:37:46Z",
+  "generatedAt": "2026-10-27T12:46:37Z",
   "threads": [
     {
       "id": "support-21c4959260",
@@ -3500,20 +3500,38 @@ window.DASHBOARD_DATA = {
       "email": "fiestiaevents@gmail.com",
       "received": "2026-10-27",
       "last": "2026-10-27",
-      "status": "No response",
-      "note": "New Fiestia Caters invoice sent to Althaf 27 Oct (finance cc'd); no reply yet",
+      "status": "Resolved",
+      "note": "New Fiestia Caters invoice (FC014 PDF) sent 27 Oct; Althaf replied same day that the bill has been paid",
       "cc": [
         "finance@tinkerhub.org"
       ],
       "daysOpen": 0,
       "daysSinceReceived": 0
+    },
+    {
+      "id": "finance-eb1617a82a",
+      "threadId": "1a17d3a5e2d44d66",
+      "group": "finance",
+      "subject": "Womens Maker Celebration - Invoice",
+      "counterpart": "Nasif (Startup Mission)",
+      "email": "nasif@startupmission.in",
+      "received": "2026-10-27",
+      "last": "2026-10-27",
+      "status": "Awaiting reply (from them)",
+      "note": "Althaf sent invoice INV-000003 for the March 2026 Women's Maker Celebration to Startup Mission on 27 Oct; awaiting payment/acknowledgement",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "finance@tinkerhub.org",
+        "mehar@tinkerhub.org"
+      ]
     }
   ],
   "summary": {
-    "No response": 7,
+    "No response": 6,
     "Awaiting reply (from us)": 21,
-    "Awaiting reply (from them)": 28,
-    "Resolved": 31,
+    "Awaiting reply (from them)": 29,
+    "Resolved": 32,
     "Informational": 113
   },
   "analytics": {
@@ -3538,14 +3556,14 @@ window.DASHBOARD_DATA = {
       "avgResolvedDays": 3.0
     },
     "finance": {
-      "total": 37,
-      "No response": 4,
+      "total": 38,
+      "No response": 3,
       "Awaiting reply (from us)": 3,
-      "Awaiting reply (from them)": 1,
-      "Resolved": 15,
+      "Awaiting reply (from them)": 2,
+      "Resolved": 16,
       "Informational": 14,
       "avgOpenDays": 14.2,
-      "avgResolvedDays": 1.9
+      "avgResolvedDays": 1.8
     },
     "report": {
       "total": 10,
