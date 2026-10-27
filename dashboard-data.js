@@ -1,6 +1,23 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-27T12:46:37Z",
+  "generatedAt": "2026-10-27T14:52:32Z",
   "threads": [
+    {
+      "id": "campus-6900567442",
+      "threadId": "1a17d88731f558a8",
+      "group": "campus",
+      "subject": "Get ready for Beyond the Blueprint!",
+      "counterpart": "internal (Femina)",
+      "email": null,
+      "received": "2026-10-27",
+      "last": "2026-10-27",
+      "status": "Informational",
+      "note": "Femina's pre-session prep note for the Beyond the Blueprint session, sent to participants with campus@ in CC",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "campus@tinkerhub.org"
+      ]
+    },
     {
       "id": "support-21c4959260",
       "threadId": "1a17c8027c3aa166",
@@ -3532,16 +3549,16 @@ window.DASHBOARD_DATA = {
     "Awaiting reply (from us)": 21,
     "Awaiting reply (from them)": 29,
     "Resolved": 32,
-    "Informational": 113
+    "Informational": 114
   },
   "analytics": {
     "campus": {
-      "total": 134,
+      "total": 135,
       "No response": 2,
       "Awaiting reply (from us)": 9,
       "Awaiting reply (from them)": 18,
       "Resolved": 10,
-      "Informational": 95,
+      "Informational": 96,
       "avgOpenDays": 21.8,
       "avgResolvedDays": 5.6
     },
@@ -3553,7 +3570,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 1,
       "avgOpenDays": 27.2,
-      "avgResolvedDays": 3.0
+      "avgResolvedDays": 3
     },
     "finance": {
       "total": 38,
@@ -3562,7 +3579,7 @@ window.DASHBOARD_DATA = {
       "Awaiting reply (from them)": 2,
       "Resolved": 16,
       "Informational": 14,
-      "avgOpenDays": 14.2,
+      "avgOpenDays": 14.3,
       "avgResolvedDays": 1.8
     },
     "report": {
@@ -3572,7 +3589,7 @@ window.DASHBOARD_DATA = {
       "Awaiting reply (from them)": 3,
       "Resolved": 4,
       "Informational": 1,
-      "avgOpenDays": 22.0,
+      "avgOpenDays": 22,
       "avgResolvedDays": 15.5
     },
     "partner": {
@@ -3593,7 +3610,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 0,
       "avgOpenDays": 14.5,
-      "avgResolvedDays": 1.0
+      "avgResolvedDays": 1
     }
   }
 };
