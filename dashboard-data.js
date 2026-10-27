@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-27T04:37:25Z",
+  "generatedAt": "2026-10-27T06:37:21Z",
   "threads": [
     {
       "id": "finance-f1f08db99f",
@@ -3315,9 +3315,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "Fiestia Caters",
       "email": "fiestiaevents@gmail.com",
       "received": "2026-10-26",
-      "last": "2026-10-26",
-      "status": "Awaiting reply (from us)",
-      "note": "Invoice FC014 (PDF) sent to Althaf 26 Oct; payment not yet confirmed",
+      "last": "2026-10-27",
+      "status": "Resolved",
+      "note": "Invoice FC014 paid; Althaf sent payment confirmation receipt 27 Oct",
       "cc": [
         "finance@tinkerhub.org"
       ],
@@ -3477,9 +3477,9 @@ window.DASHBOARD_DATA = {
   ],
   "summary": {
     "No response": 9,
-    "Awaiting reply (from us)": 22,
+    "Awaiting reply (from us)": 21,
     "Awaiting reply (from them)": 27,
-    "Resolved": 28,
+    "Resolved": 29,
     "Informational": 112
   },
   "analytics": {
@@ -3506,12 +3506,12 @@ window.DASHBOARD_DATA = {
     "finance": {
       "total": 36,
       "No response": 3,
-      "Awaiting reply (from us)": 4,
+      "Awaiting reply (from us)": 3,
       "Awaiting reply (from them)": 1,
-      "Resolved": 14,
+      "Resolved": 15,
       "Informational": 14,
-      "avgOpenDays": 14.4,
-      "avgResolvedDays": 2
+      "avgOpenDays": 16.3,
+      "avgResolvedDays": 1.9
     },
     "report": {
       "total": 10,
