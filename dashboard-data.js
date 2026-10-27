@@ -1,6 +1,23 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-27T14:52:32Z",
+  "generatedAt": "2026-10-27T16:37:47Z",
   "threads": [
+    {
+      "id": "partner-13cf035d9c",
+      "threadId": "1a17e10035b19d57",
+      "group": "partner",
+      "subject": "ZenelephantXR *TinkerHub",
+      "counterpart": "Pranav (ZenelephantXR)",
+      "email": "pranav@zenelephantxr.com",
+      "received": "2026-10-27",
+      "last": "2026-10-27",
+      "status": "Awaiting reply (from them)",
+      "note": "Joan shared the list of TinkerHub candidates for ZenelephantXR's Computer Vision & Edge AI Intern role; awaiting their review",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "partner@tinkerhub.org"
+      ]
+    },
     {
       "id": "campus-6900567442",
       "threadId": "1a17d88731f558a8",
@@ -3547,7 +3564,7 @@ window.DASHBOARD_DATA = {
   "summary": {
     "No response": 6,
     "Awaiting reply (from us)": 21,
-    "Awaiting reply (from them)": 29,
+    "Awaiting reply (from them)": 30,
     "Resolved": 32,
     "Informational": 114
   },
@@ -3570,7 +3587,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 1,
       "avgOpenDays": 27.2,
-      "avgResolvedDays": 3
+      "avgResolvedDays": 3.0
     },
     "finance": {
       "total": 38,
@@ -3579,7 +3596,7 @@ window.DASHBOARD_DATA = {
       "Awaiting reply (from them)": 2,
       "Resolved": 16,
       "Informational": 14,
-      "avgOpenDays": 14.3,
+      "avgOpenDays": 14.2,
       "avgResolvedDays": 1.8
     },
     "report": {
@@ -3589,17 +3606,17 @@ window.DASHBOARD_DATA = {
       "Awaiting reply (from them)": 3,
       "Resolved": 4,
       "Informational": 1,
-      "avgOpenDays": 22,
+      "avgOpenDays": 22.0,
       "avgResolvedDays": 15.5
     },
     "partner": {
-      "total": 9,
+      "total": 10,
       "No response": 0,
       "Awaiting reply (from us)": 3,
-      "Awaiting reply (from them)": 4,
+      "Awaiting reply (from them)": 5,
       "Resolved": 0,
       "Informational": 2,
-      "avgOpenDays": 19.7,
+      "avgOpenDays": 17.2,
       "avgResolvedDays": 0
     },
     "tinkerspace": {
@@ -3610,7 +3627,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 0,
       "avgOpenDays": 14.5,
-      "avgResolvedDays": 1
+      "avgResolvedDays": 1.0
     }
   }
 };
