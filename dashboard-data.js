@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-27T06:37:21Z",
+  "generatedAt": "2026-10-27T08:38:00Z",
   "threads": [
     {
       "id": "finance-f1f08db99f",
@@ -913,9 +913,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "Ansar Women's College (TinkerHub AWC)",
       "email": "fathimathulfarsaana@gmail.com",
       "received": "2026-10-09",
-      "last": "2026-10-09",
-      "status": "No response",
-      "note": "AWC campus submitted Useless Project voting results (70 participants, 36 teams) as PDF; no acknowledgement yet",
+      "last": "2026-10-27",
+      "status": "Resolved",
+      "note": "AWC campus submitted Useless Project voting results (70 participants, 36 teams); Femina acknowledged and closed the thread 27 Oct",
       "daysOpen": 18,
       "daysSinceReceived": 18,
       "cc": [
@@ -1051,9 +1051,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "Sam Ruben Abraham (TinkerHub IIIT Kottayam)",
       "email": "samrubenabraham@gmail.com",
       "received": "2026-10-09",
-      "last": "2026-10-09",
-      "status": "No response",
-      "note": "IIIT Kottayam campus lead forwarded faculty questions (events, impact, MoU need) and asked to extend the FYC selection deadline; no reply yet",
+      "last": "2026-10-27",
+      "status": "Resolved",
+      "note": "IIIT Kottayam campus lead forwarded faculty questions (events, impact, MoU need) and asked to extend the FYC selection deadline; Femina closed the thread 27 Oct",
       "daysOpen": 18,
       "daysSinceReceived": 18,
       "cc": [
@@ -3225,9 +3225,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "Akshay Sajeev (fastrBuild)",
       "email": "akshay@fastrbuild.com",
       "received": "2026-10-23",
-      "last": "2026-10-23",
-      "status": "No response",
-      "note": "Founder (fastrBuild) wants help hiring a generalist in Trivandrum for 6 months (paid); asks how to work with TinkerHub; not yet replied",
+      "last": "2026-10-27",
+      "status": "Awaiting reply (from them)",
+      "note": "Founder (fastrBuild) wants help hiring a generalist in Trivandrum for 6 months (paid); Joan replied 27 Oct asking for company details, job description and terms",
       "daysOpen": 4,
       "daysSinceReceived": 4,
       "cc": [
@@ -3473,25 +3473,42 @@ window.DASHBOARD_DATA = {
       "daysOpen": 29,
       "daysSinceReceived": 29,
       "cc": []
+    },
+    {
+      "id": "finance-46a8bbeb6d",
+      "threadId": "1a17c3dcebcde111",
+      "group": "finance",
+      "subject": "Invoice fiestia caters",
+      "counterpart": "Fiestia Caters",
+      "email": "fiestiaevents@gmail.com",
+      "received": "2026-10-27",
+      "last": "2026-10-27",
+      "status": "No response",
+      "note": "New Fiestia Caters invoice sent to Althaf 27 Oct (finance cc'd); no reply yet",
+      "cc": [
+        "finance@tinkerhub.org"
+      ],
+      "daysOpen": 0,
+      "daysSinceReceived": 0
     }
   ],
   "summary": {
-    "No response": 9,
+    "No response": 7,
     "Awaiting reply (from us)": 21,
-    "Awaiting reply (from them)": 27,
-    "Resolved": 29,
+    "Awaiting reply (from them)": 28,
+    "Resolved": 31,
     "Informational": 112
   },
   "analytics": {
     "campus": {
       "total": 134,
-      "No response": 4,
+      "No response": 2,
       "Awaiting reply (from us)": 9,
       "Awaiting reply (from them)": 18,
-      "Resolved": 8,
+      "Resolved": 10,
       "Informational": 95,
-      "avgOpenDays": 21.6,
-      "avgResolvedDays": 2.5
+      "avgOpenDays": 21.8,
+      "avgResolvedDays": 5.6
     },
     "support": {
       "total": 6,
@@ -3501,16 +3518,16 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 0,
       "avgOpenDays": 27.2,
-      "avgResolvedDays": 3
+      "avgResolvedDays": 3.0
     },
     "finance": {
-      "total": 36,
-      "No response": 3,
+      "total": 37,
+      "No response": 4,
       "Awaiting reply (from us)": 3,
       "Awaiting reply (from them)": 1,
       "Resolved": 15,
       "Informational": 14,
-      "avgOpenDays": 16.3,
+      "avgOpenDays": 14.2,
       "avgResolvedDays": 1.9
     },
     "report": {
@@ -3520,14 +3537,14 @@ window.DASHBOARD_DATA = {
       "Awaiting reply (from them)": 3,
       "Resolved": 4,
       "Informational": 1,
-      "avgOpenDays": 22,
+      "avgOpenDays": 22.0,
       "avgResolvedDays": 15.5
     },
     "partner": {
       "total": 9,
-      "No response": 1,
+      "No response": 0,
       "Awaiting reply (from us)": 3,
-      "Awaiting reply (from them)": 3,
+      "Awaiting reply (from them)": 4,
       "Resolved": 0,
       "Informational": 2,
       "avgOpenDays": 19.7,
@@ -3541,7 +3558,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 0,
       "avgOpenDays": 14.5,
-      "avgResolvedDays": 1
+      "avgResolvedDays": 1.0
     }
   }
 };
