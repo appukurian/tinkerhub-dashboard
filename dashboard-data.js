@@ -1,6 +1,23 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-27T08:38:00Z",
+  "generatedAt": "2026-10-27T10:37:46Z",
   "threads": [
+    {
+      "id": "support-21c4959260",
+      "threadId": "1a17c8027c3aa166",
+      "group": "support",
+      "subject": "Your verification code",
+      "counterpart": "support (automated)",
+      "email": null,
+      "received": "2026-10-27",
+      "last": "2026-10-27",
+      "status": "Informational",
+      "note": "Automated OTP/verification emails sent to support@ (2 messages, 27 Oct)",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "cc": [
+        "support@tinkerhub.org"
+      ]
+    },
     {
       "id": "finance-f1f08db99f",
       "threadId": "1a15c61bebdd8b8d",
@@ -3497,7 +3514,7 @@ window.DASHBOARD_DATA = {
     "Awaiting reply (from us)": 21,
     "Awaiting reply (from them)": 28,
     "Resolved": 31,
-    "Informational": 112
+    "Informational": 113
   },
   "analytics": {
     "campus": {
@@ -3511,12 +3528,12 @@ window.DASHBOARD_DATA = {
       "avgResolvedDays": 5.6
     },
     "support": {
-      "total": 6,
+      "total": 7,
       "No response": 1,
       "Awaiting reply (from us)": 4,
       "Awaiting reply (from them)": 0,
       "Resolved": 1,
-      "Informational": 0,
+      "Informational": 1,
       "avgOpenDays": 27.2,
       "avgResolvedDays": 3.0
     },
