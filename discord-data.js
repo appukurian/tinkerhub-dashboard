@@ -1,7 +1,7 @@
 // Auto-generated daily by .github/workflows/discord-update.yml
 // Do NOT hand-edit — this file is overwritten on each run.
 window.DISCORD_DATA = {
-  "generatedAt": "2026-10-27T14:46:18Z",
+  "generatedAt": "2026-10-27T20:49:28Z",
   "threads": [
     {
       "id": "1553610072112889866",
@@ -23,6 +23,29 @@ window.DISCORD_DATA = {
       "suggestion": {
         "fromThreadName": "Missing registration button",
         "fromThreadUrl": "https://discord.com/channels/735180366297563257/1559045587758878721",
+        "snippet": "This thread is closed by <@1012977379209125908>."
+      }
+    },
+    {
+      "id": "1543280461877354506",
+      "name": "Outreach lead is not in the server",
+      "url": "https://discord.com/channels/735180366297563257/1543280461877354506",
+      "status": "Awaiting reply (from us)",
+      "category": "Other",
+      "requester": "Gowripriya M J",
+      "received": "2026-08-29",
+      "last": "2026-10-27",
+      "resolvedAt": "2026-10-06",
+      "daysOpen": 0,
+      "daysSinceReceived": 59,
+      "daysToClose": 38,
+      "messageCount": 8,
+      "archived": false,
+      "locked": false,
+      "resolutionSnippet": "",
+      "suggestion": {
+        "fromThreadName": "App not Leading",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1562693610481258626",
         "snippet": "This thread is closed by <@1012977379209125908>."
       }
     },
@@ -247,7 +270,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-25",
       "resolvedAt": "2026-10-10",
       "daysOpen": 2,
-      "daysSinceReceived": 16,
+      "daysSinceReceived": 17,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -528,8 +551,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-08",
       "last": "2026-10-08",
       "resolvedAt": "2026-10-08",
-      "daysOpen": 18,
-      "daysSinceReceived": 18,
+      "daysOpen": 19,
+      "daysSinceReceived": 19,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -570,8 +593,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-07",
       "last": "2026-10-07",
       "resolvedAt": "2026-10-07",
-      "daysOpen": 19,
-      "daysSinceReceived": 19,
+      "daysOpen": 20,
+      "daysSinceReceived": 20,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -593,8 +616,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-07",
       "last": "2026-10-07",
       "resolvedAt": "2026-10-07",
-      "daysOpen": 19,
-      "daysSinceReceived": 19,
+      "daysOpen": 20,
+      "daysSinceReceived": 20,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -685,33 +708,10 @@ window.DISCORD_DATA = {
       "received": "2026-09-30",
       "last": "2026-10-06",
       "resolvedAt": "2026-09-30",
-      "daysOpen": 20,
-      "daysSinceReceived": 26,
+      "daysOpen": 21,
+      "daysSinceReceived": 27,
       "daysToClose": 0,
       "messageCount": 8,
-      "archived": false,
-      "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "App not Leading",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1562693610481258626",
-        "snippet": "This thread is closed by <@1012977379209125908>."
-      }
-    },
-    {
-      "id": "1543280461877354506",
-      "name": "Outreach lead is not in the server",
-      "url": "https://discord.com/channels/735180366297563257/1543280461877354506",
-      "status": "Awaiting reply (from us)",
-      "category": "Other",
-      "requester": "Gowripriya M J",
-      "received": "2026-08-29",
-      "last": "2026-10-06",
-      "resolvedAt": "2026-10-06",
-      "daysOpen": 20,
-      "daysSinceReceived": 58,
-      "daysToClose": 38,
-      "messageCount": 5,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
@@ -754,8 +754,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-01",
       "last": "2026-10-01",
       "resolvedAt": "2026-10-01",
-      "daysOpen": 25,
-      "daysSinceReceived": 25,
+      "daysOpen": 26,
+      "daysSinceReceived": 26,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -773,8 +773,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-10",
       "last": "2026-10-01",
       "resolvedAt": "2026-09-10",
-      "daysOpen": 25,
-      "daysSinceReceived": 46,
+      "daysOpen": 26,
+      "daysSinceReceived": 47,
       "daysToClose": 0,
       "messageCount": 8,
       "archived": false,
@@ -13656,7 +13656,7 @@ window.DISCORD_DATA = {
     "Awaiting reply (from them)": 8,
     "Resolved": 693
   },
-  "avgOpenDays": 14.1,
+  "avgOpenDays": 13.5,
   "avgDaysToClose": 14.5,
   "topCategories": [
     {
