@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-28T08:37:07Z",
+  "generatedAt": "2026-10-28T10:39:00Z",
   "threads": [
     {
       "id": "partner-018b1bde4c",
@@ -639,13 +639,14 @@ window.DASHBOARD_DATA = {
       "counterpart": "Mayank Raj (SudoMeet)",
       "email": "hello@sudomeet.com",
       "received": "2026-10-21",
-      "last": "2026-10-21",
-      "status": "Awaiting reply (from us)",
-      "note": "Cold outreach from SudoMeet; Kurian looped partner@, no team reply yet",
+      "last": "2026-10-28",
+      "status": "Awaiting reply (from them)",
+      "note": "SudoMeet (Mayank Raj) proposed a community collaboration; Joan replied 28 Oct suggesting a call this week, awaiting his reply",
       "daysOpen": 7,
       "daysSinceReceived": 7,
       "cc": [
-        "partner@tinkerhub.org"
+        "partner@tinkerhub.org",
+        "hello@tinkerhub.org"
       ]
     },
     {
@@ -3447,22 +3448,41 @@ window.DASHBOARD_DATA = {
       ]
     },
     {
-      "id": "report-a85882d734",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
+      "id": "campus-c87bbeb09f",
+      "threadId": "1a181c734958b3b2",
+      "group": "campus",
+      "subject": "A small note from the Scrap Hack team",
+      "counterpart": "internal (Femina)",
       "email": null,
-      "received": null,
-      "last": null,
-      "status": "Awaiting reply (from us)",
-      "note": null,
-      "daysOpen": 3,
-      "daysSinceReceived": 3,
-      "cc": []
+      "received": "2026-10-28",
+      "last": "2026-10-28",
+      "status": "Informational",
+      "note": "Scrap Hack follow-up sent to participants (project form due 29 Oct 5pm)",
+      "cc": [
+        "campus@tinkerhub.org"
+      ],
+      "daysSinceReceived": 0,
+      "daysOpen": 0
     },
     {
-      "id": "report-9483e1f5f7",
+      "id": "partner-ba98e2a0ba",
+      "threadId": "1a18141a4c0f4764",
+      "group": "partner",
+      "subject": "Fwd: Planetary Makers - Campus Program",
+      "counterpart": "internal (Habeeb)",
+      "email": null,
+      "received": "2026-10-28",
+      "last": "2026-10-28",
+      "status": "Informational",
+      "note": "Habeeb forwarded Socratus/Elephant Academy thread on Planetary Makers campus program with six campus leads",
+      "cc": [
+        "partner@tinkerhub.org"
+      ],
+      "daysSinceReceived": 0,
+      "daysOpen": 0
+    },
+    {
+      "id": "report-49c38d3995",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -3477,7 +3497,7 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
-      "id": "report-7dc9b09a5d",
+      "id": "report-aa7609b0bf",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -3485,14 +3505,14 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Resolved",
+      "status": "Awaiting reply (from them)",
       "note": null,
-      "daysOpen": 3,
+      "daysOpen": 6,
       "daysSinceReceived": 6,
       "cc": []
     },
     {
-      "id": "report-90812ff7ac",
+      "id": "report-173f8174a5",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -3500,14 +3520,29 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Resolved",
+      "status": "Awaiting reply (from us)",
       "note": null,
-      "daysOpen": 57,
+      "daysOpen": 3,
+      "daysSinceReceived": 3,
+      "cc": []
+    },
+    {
+      "id": "report-ab80b45e22",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Awaiting reply (from them)",
+      "note": null,
+      "daysOpen": 64,
       "daysSinceReceived": 64,
       "cc": []
     },
     {
-      "id": "report-5817de372b",
+      "id": "report-92c44e54a0",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -3515,14 +3550,29 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Resolved",
+      "status": "Awaiting reply (from them)",
       "note": null,
-      "daysOpen": 2,
+      "daysOpen": 9,
       "daysSinceReceived": 9,
       "cc": []
     },
     {
-      "id": "report-ea068fe423",
+      "id": "report-ddbecd3f3f",
+      "threadId": null,
+      "group": "report",
+      "subject": null,
+      "counterpart": null,
+      "email": null,
+      "received": null,
+      "last": null,
+      "status": "Awaiting reply (from them)",
+      "note": null,
+      "daysOpen": 27,
+      "daysSinceReceived": 27,
+      "cc": []
+    },
+    {
+      "id": "report-c8fce0b795",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -3537,7 +3587,7 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
-      "id": "report-fbe96c2198",
+      "id": "report-16e9279314",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -3552,7 +3602,7 @@ window.DASHBOARD_DATA = {
       "cc": []
     },
     {
-      "id": "report-f2f4554e56",
+      "id": "report-38bf200ee6",
       "threadId": null,
       "group": "report",
       "subject": null,
@@ -3565,54 +3615,24 @@ window.DASHBOARD_DATA = {
       "daysOpen": 0,
       "daysSinceReceived": 26,
       "cc": []
-    },
-    {
-      "id": "report-3a8124dec3",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Resolved",
-      "note": null,
-      "daysOpen": 0,
-      "daysSinceReceived": 27,
-      "cc": []
-    },
-    {
-      "id": "report-da38ba6a2f",
-      "threadId": null,
-      "group": "report",
-      "subject": null,
-      "counterpart": null,
-      "email": null,
-      "received": null,
-      "last": null,
-      "status": "Awaiting reply (from them)",
-      "note": null,
-      "daysOpen": 30,
-      "daysSinceReceived": 30,
-      "cc": []
     }
   ],
   "summary": {
     "No response": 6,
-    "Awaiting reply (from us)": 22,
-    "Awaiting reply (from them)": 30,
-    "Resolved": 33,
-    "Informational": 114,
-    "total": 205
+    "Awaiting reply (from us)": 21,
+    "Awaiting reply (from them)": 34,
+    "Resolved": 29,
+    "Informational": 116,
+    "total": 206
   },
   "analytics": {
     "campus": {
-      "total": 135,
+      "total": 136,
       "No response": 2,
       "Awaiting reply (from us)": 9,
       "Awaiting reply (from them)": 18,
       "Resolved": 10,
-      "Informational": 96,
+      "Informational": 97,
       "avgOpenDays": 22.8,
       "avgResolvedDays": 5.6
     },
@@ -3637,22 +3657,22 @@ window.DASHBOARD_DATA = {
       "avgResolvedDays": 1.8
     },
     "report": {
-      "total": 10,
+      "total": 9,
       "No response": 0,
       "Awaiting reply (from us)": 2,
-      "Awaiting reply (from them)": 3,
-      "Resolved": 4,
+      "Awaiting reply (from them)": 6,
+      "Resolved": 0,
       "Informational": 1,
-      "avgOpenDays": 23.0,
-      "avgResolvedDays": 15.5
+      "avgOpenDays": 23.9,
+      "avgResolvedDays": 0
     },
     "partner": {
-      "total": 11,
+      "total": 12,
       "No response": 0,
-      "Awaiting reply (from us)": 3,
-      "Awaiting reply (from them)": 5,
+      "Awaiting reply (from us)": 2,
+      "Awaiting reply (from them)": 6,
       "Resolved": 1,
-      "Informational": 2,
+      "Informational": 3,
       "avgOpenDays": 18.2,
       "avgResolvedDays": 1.0
     },
