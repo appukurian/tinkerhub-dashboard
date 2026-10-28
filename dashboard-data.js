@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-28T06:37:40Z",
+  "generatedAt": "2026-10-28T08:37:07Z",
   "threads": [
     {
       "id": "partner-018b1bde4c",
@@ -3602,7 +3602,8 @@ window.DASHBOARD_DATA = {
     "Awaiting reply (from us)": 22,
     "Awaiting reply (from them)": 30,
     "Resolved": 33,
-    "Informational": 114
+    "Informational": 114,
+    "total": 205
   },
   "analytics": {
     "campus": {
