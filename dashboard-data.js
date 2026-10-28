@@ -1,6 +1,24 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-28T12:45:00Z",
+  "generatedAt": "2026-10-28T14:43:00Z",
   "threads": [
+    {
+      "id": "partner-ffba143157",
+      "threadId": "1a1829555bf579fb",
+      "group": "partner",
+      "subject": "Call for Applications- Innovation School Fellowship 2026",
+      "counterpart": "Adishi Goenka (Maker's Asylum Foundation)",
+      "email": "adishigoenka@makersasylum.com",
+      "received": "2026-10-28",
+      "last": "2026-10-28",
+      "status": "Informational",
+      "note": "Maker's Asylum shared Innovation School Fellowship call (deadline 30 Nov); Jasim said he will share with community",
+      "cc": [
+        "partner@tinkerhub.org",
+        "jasim@tinkerhub.org"
+      ],
+      "daysSinceReceived": 0,
+      "daysOpen": 0
+    },
     {
       "id": "partner-85fa9d6d0a",
       "threadId": "1a1823ba8b33db1c",
@@ -199,9 +217,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "Cyril Luke Anish",
       "email": "cyrilanish10@gmail.com",
       "received": "2026-10-27",
-      "last": "2026-10-27",
-      "status": "Awaiting reply (from us)",
-      "note": "Sent 3 September podcast episode links + service agreement; fee per agreement is Rs 20,000 for two episodes / Rs 12,000 for one; payment processing/confirmation owed",
+      "last": "2026-10-28",
+      "status": "Resolved",
+      "note": "Cyril sent Sept podcast links; Althaf confirmed Rs 28,800 (after TDS) payment settled 28 Oct",
       "cc": [
         "finance@tinkerhub.org",
         "althaf@tinkerhub.org"
@@ -3637,11 +3655,11 @@ window.DASHBOARD_DATA = {
   ],
   "summary": {
     "No response": 6,
-    "Awaiting reply (from us)": 21,
+    "Awaiting reply (from us)": 20,
     "Awaiting reply (from them)": 35,
-    "Resolved": 29,
-    "Informational": 116,
-    "total": 207
+    "Resolved": 30,
+    "Informational": 117,
+    "total": 208
   },
   "analytics": {
     "campus": {
@@ -3662,16 +3680,16 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 1,
       "avgOpenDays": 28.2,
-      "avgResolvedDays": 3.0
+      "avgResolvedDays": 3
     },
     "finance": {
       "total": 39,
       "No response": 3,
-      "Awaiting reply (from us)": 4,
+      "Awaiting reply (from us)": 3,
       "Awaiting reply (from them)": 2,
-      "Resolved": 16,
+      "Resolved": 17,
       "Informational": 14,
-      "avgOpenDays": 13.7,
+      "avgOpenDays": 15.3,
       "avgResolvedDays": 1.8
     },
     "report": {
@@ -3685,14 +3703,14 @@ window.DASHBOARD_DATA = {
       "avgResolvedDays": 0
     },
     "partner": {
-      "total": 13,
+      "total": 14,
       "No response": 0,
       "Awaiting reply (from us)": 2,
       "Awaiting reply (from them)": 7,
       "Resolved": 1,
-      "Informational": 3,
+      "Informational": 4,
       "avgOpenDays": 16.2,
-      "avgResolvedDays": 1.0
+      "avgResolvedDays": 1
     },
     "tinkerspace": {
       "total": 3,
@@ -3702,7 +3720,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 0,
       "avgOpenDays": 15.5,
-      "avgResolvedDays": 1.0
+      "avgResolvedDays": 1
     }
   }
 };
