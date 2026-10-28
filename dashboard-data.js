@@ -1,6 +1,24 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-28T10:39:00Z",
+  "generatedAt": "2026-10-28T12:45:00Z",
   "threads": [
+    {
+      "id": "partner-85fa9d6d0a",
+      "threadId": "1a1823ba8b33db1c",
+      "group": "partner",
+      "subject": "Collaboration Proposal | Super Balussery Education Carnival – The Thinker Hub",
+      "counterpart": "Jishnu Ram (Super Balussery Education Carnival)",
+      "email": "jishnuramvskidavu@gmail.com",
+      "received": "2026-10-28",
+      "last": "2026-10-28",
+      "status": "Awaiting reply (from them)",
+      "note": "Joan sent collaboration proposal to organiser (Mehar in To); awaiting their response",
+      "cc": [
+        "partner@tinkerhub.org",
+        "mehar@tinkerhub.org"
+      ],
+      "daysSinceReceived": 0,
+      "daysOpen": 0
+    },
     {
       "id": "partner-018b1bde4c",
       "threadId": "1a17e8fdcbefc97b",
@@ -3620,10 +3638,10 @@ window.DASHBOARD_DATA = {
   "summary": {
     "No response": 6,
     "Awaiting reply (from us)": 21,
-    "Awaiting reply (from them)": 34,
+    "Awaiting reply (from them)": 35,
     "Resolved": 29,
     "Informational": 116,
-    "total": 206
+    "total": 207
   },
   "analytics": {
     "campus": {
@@ -3667,13 +3685,13 @@ window.DASHBOARD_DATA = {
       "avgResolvedDays": 0
     },
     "partner": {
-      "total": 12,
+      "total": 13,
       "No response": 0,
       "Awaiting reply (from us)": 2,
-      "Awaiting reply (from them)": 6,
+      "Awaiting reply (from them)": 7,
       "Resolved": 1,
       "Informational": 3,
-      "avgOpenDays": 18.2,
+      "avgOpenDays": 16.2,
       "avgResolvedDays": 1.0
     },
     "tinkerspace": {
