@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-29T12:38:34Z",
+  "generatedAt": "2026-10-29T14:47:45Z",
   "threads": [
     {
       "id": "partner-ffba143157",
@@ -3686,25 +3686,76 @@ window.DASHBOARD_DATA = {
       "daysOpen": 0,
       "daysSinceReceived": 27,
       "cc": []
+    },
+    {
+      "threadId": "1a187b6ae3f24385",
+      "group": "finance",
+      "subject": "IndiGo flight bill | Agamishaala United, Panchgani | ₹9,408",
+      "counterpart": "internal (Mehar)",
+      "email": "mehar@tinkerhub.org",
+      "received": "2026-10-29",
+      "last": "2026-10-29",
+      "status": "No response",
+      "note": "Mehar shared IndiGo Kochi–Pune bill (₹9,408, 27 Nov) for reimbursement; no reply yet",
+      "cc": [
+        "finance@tinkerhub.org"
+      ],
+      "id": "finance-b0a39c2a16",
+      "daysSinceReceived": 0,
+      "daysOpen": 0
+    },
+    {
+      "threadId": "1a18812e963a66d2",
+      "group": "campus",
+      "subject": "Fellowship Onboarding : Useless Projects 3.0",
+      "counterpart": "internal (Habeeb) to Useless Projects 3.0 Top 25",
+      "email": null,
+      "received": "2026-10-29",
+      "last": "2026-10-29",
+      "status": "Informational",
+      "note": "Habeeb sent Fellowship onboarding mail to the Top 25 participants",
+      "cc": [
+        "campus@tinkerhub.org"
+      ],
+      "id": "campus-8885624e9d",
+      "daysSinceReceived": 0,
+      "daysOpen": 0
+    },
+    {
+      "threadId": "1a187e4b6aa3b8a1",
+      "group": "campus",
+      "subject": "Re:",
+      "counterpart": "Alan Austin",
+      "email": "alanaustin895@gmail.com",
+      "received": "2026-10-29",
+      "last": "2026-10-29",
+      "status": "Awaiting reply (from them)",
+      "note": "Habeeb asked Alan to detail his email; awaiting response",
+      "cc": [
+        "campus@tinkerhub.org"
+      ],
+      "id": "campus-f543c9f92d",
+      "daysSinceReceived": 0,
+      "daysOpen": 0
     }
   ],
   "summary": {
-    "No response": 7,
+    "No response": 8,
     "Awaiting reply (from us)": 20,
-    "Awaiting reply (from them)": 34,
+    "Awaiting reply (from them)": 35,
     "Resolved": 32,
-    "Informational": 117,
-    "total": 210
+    "Informational": 118,
+    "total": 213
   },
   "analytics": {
     "campus": {
-      "total": 136,
+      "total": 138,
       "No response": 2,
       "Awaiting reply (from us)": 9,
-      "Awaiting reply (from them)": 18,
+      "Awaiting reply (from them)": 19,
       "Resolved": 10,
-      "Informational": 97,
-      "avgOpenDays": 23.8,
+      "Informational": 98,
+      "avgOpenDays": 23,
       "avgResolvedDays": 5.6
     },
     "support": {
@@ -3718,13 +3769,13 @@ window.DASHBOARD_DATA = {
       "avgResolvedDays": 3
     },
     "finance": {
-      "total": 40,
-      "No response": 4,
+      "total": 41,
+      "No response": 5,
       "Awaiting reply (from us)": 3,
       "Awaiting reply (from them)": 2,
       "Resolved": 17,
       "Informational": 14,
-      "avgOpenDays": 14.4,
+      "avgOpenDays": 13,
       "avgResolvedDays": 2.2
     },
     "report": {
