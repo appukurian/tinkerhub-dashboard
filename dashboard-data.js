@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-29T10:37:05Z",
+  "generatedAt": "2026-10-29T12:38:34Z",
   "threads": [
     {
       "id": "partner-ffba143157",
@@ -3518,6 +3518,41 @@ window.DASHBOARD_DATA = {
       "daysOpen": 0
     },
     {
+      "threadId": "1a1879348aba54a0",
+      "group": "partner",
+      "subject": "Next Steps: Learn with Communities",
+      "counterpart": "Khyati Mehra (Google)",
+      "email": "mehrak@google.com",
+      "received": "2026-10-29",
+      "last": "2026-10-29",
+      "status": "Awaiting reply (from them)",
+      "note": "Jasim looped partner@ and shared his contact card with Google contact on next steps for Learn with Communities",
+      "cc": [
+        "partner@tinkerhub.org",
+        "jasim@tinkerhub.org"
+      ],
+      "id": "partner-3de52112b7",
+      "daysSinceReceived": 0,
+      "daysOpen": 0
+    },
+    {
+      "threadId": "1a1875304db2f360",
+      "group": "finance",
+      "subject": "Ryanair flight bill | Barcelona to Frankfurt-Hahn | ₹34,839.85",
+      "counterpart": "internal (Mehar)",
+      "email": "mehar@tinkerhub.org",
+      "received": "2026-10-29",
+      "last": "2026-10-29",
+      "status": "No response",
+      "note": "Mehar shared Ryanair flight bill (₹34,839.85) for reimbursement; no reply yet",
+      "cc": [
+        "finance@tinkerhub.org"
+      ],
+      "id": "finance-2d6b3521b8",
+      "daysSinceReceived": 0,
+      "daysOpen": 0
+    },
+    {
       "id": "report-49c38d3995",
       "threadId": null,
       "group": "report",
@@ -3571,9 +3606,9 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Awaiting reply (from them)",
+      "status": "Resolved",
       "note": null,
-      "daysOpen": 65,
+      "daysOpen": 57,
       "daysSinceReceived": 65,
       "cc": []
     },
@@ -3601,9 +3636,9 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Awaiting reply (from them)",
+      "status": "Resolved",
       "note": null,
-      "daysOpen": 28,
+      "daysOpen": 0,
       "daysSinceReceived": 28,
       "cc": []
     },
@@ -3654,12 +3689,12 @@ window.DASHBOARD_DATA = {
     }
   ],
   "summary": {
-    "No response": 6,
+    "No response": 7,
     "Awaiting reply (from us)": 20,
-    "Awaiting reply (from them)": 35,
-    "Resolved": 30,
+    "Awaiting reply (from them)": 34,
+    "Resolved": 32,
     "Informational": 117,
-    "total": 208
+    "total": 210
   },
   "analytics": {
     "campus": {
@@ -3680,37 +3715,37 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 1,
       "avgOpenDays": 29.2,
-      "avgResolvedDays": 3.0
+      "avgResolvedDays": 3
     },
     "finance": {
-      "total": 39,
-      "No response": 3,
+      "total": 40,
+      "No response": 4,
       "Awaiting reply (from us)": 3,
       "Awaiting reply (from them)": 2,
       "Resolved": 17,
       "Informational": 14,
-      "avgOpenDays": 16.2,
+      "avgOpenDays": 14.4,
       "avgResolvedDays": 2.2
     },
     "report": {
       "total": 9,
       "No response": 0,
       "Awaiting reply (from us)": 2,
-      "Awaiting reply (from them)": 6,
-      "Resolved": 0,
+      "Awaiting reply (from them)": 4,
+      "Resolved": 2,
       "Informational": 1,
-      "avgOpenDays": 24.9,
-      "avgResolvedDays": 0
+      "avgOpenDays": 17.7,
+      "avgResolvedDays": 28.5
     },
     "partner": {
-      "total": 14,
+      "total": 15,
       "No response": 0,
       "Awaiting reply (from us)": 2,
-      "Awaiting reply (from them)": 7,
+      "Awaiting reply (from them)": 8,
       "Resolved": 1,
       "Informational": 4,
-      "avgOpenDays": 17.2,
-      "avgResolvedDays": 1.0
+      "avgOpenDays": 15.5,
+      "avgResolvedDays": 1
     },
     "tinkerspace": {
       "total": 3,
@@ -3720,7 +3755,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 0,
       "avgOpenDays": 16.5,
-      "avgResolvedDays": 1.0
+      "avgResolvedDays": 1
     }
   }
 };
