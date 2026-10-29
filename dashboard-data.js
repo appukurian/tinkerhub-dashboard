@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-29T08:36:43Z",
+  "generatedAt": "2026-10-29T10:37:05Z",
   "threads": [
     {
       "id": "partner-ffba143157",
@@ -410,10 +410,10 @@ window.DASHBOARD_DATA = {
       "counterpart": "internal (Mehar)",
       "email": "mehar@tinkerhub.org",
       "received": "2026-10-20",
-      "last": "2026-10-22",
+      "last": "2026-10-29",
       "status": "Resolved",
-      "note": "Althaf confirmed on 22 Oct that the Barcelona hotel bill (Rs 79,638.83) has been reimbursed",
-      "daysOpen": 2,
+      "note": "Althaf confirmed on 22 Oct that the Barcelona hotel bill (Rs 79,638.83) has been reimbursed; re-forwarded FYR to Mehar on 29 Oct",
+      "daysOpen": 9,
       "daysSinceReceived": 9,
       "cc": [
         "finance@tinkerhub.org"
@@ -3690,7 +3690,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 17,
       "Informational": 14,
       "avgOpenDays": 16.2,
-      "avgResolvedDays": 1.8
+      "avgResolvedDays": 2.2
     },
     "report": {
       "total": 9,
