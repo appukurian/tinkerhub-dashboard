@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-30T15:50:00Z",
+  "generatedAt": "2026-10-30T16:39:47Z",
   "threads": [
     {
       "id": "partner-ffba143157",
@@ -3550,6 +3550,93 @@ window.DASHBOARD_DATA = {
       "daysOpen": 1
     },
     {
+      "id": "campus-11aa79ccfa",
+      "threadId": "1a18ba876f4827c7",
+      "group": "campus",
+      "subject": "Request to Reschedule USP 3.0 Celebration Meetup to Late December",
+      "counterpart": "Abdel Baasit (TinkerHub CEP campus lead)",
+      "email": "tinkerhubcep@gmail.com",
+      "received": "2026-10-30",
+      "last": "2026-10-30",
+      "status": "Awaiting reply (from them)",
+      "note": "Habeeb replied asking to hold the celebration meetup by early December rather than late December",
+      "cc": [
+        "campus@tinkerhub.org",
+        "habeeb@tinkerhub.org"
+      ],
+      "daysSinceReceived": 0,
+      "daysOpen": 0
+    },
+    {
+      "id": "partner-a22a3e13f9",
+      "threadId": "1a18bde106010304",
+      "group": "partner",
+      "subject": "Hiring at JEMS Innovation Center, Jharsuguda | Request to Share with Your Community",
+      "counterpart": "Dedeepya Nalluri (Tinker Doer Labs)",
+      "email": "careers@tinkerdoer.com",
+      "received": "2026-10-30",
+      "last": "2026-10-30",
+      "status": "Awaiting reply (from us)",
+      "note": "Asked us to share Makerspace Instructor hiring post; Kurian said looping in relevant team, no follow-up yet",
+      "cc": [
+        "partner@tinkerhub.org",
+        "kurian@tinkerhub.org"
+      ],
+      "daysSinceReceived": 0,
+      "daysOpen": 0
+    },
+    {
+      "id": "partner-fc84455b5c",
+      "threadId": "1a18c18ea02042d0",
+      "group": "partner",
+      "subject": "UserJot - Exploring Nonprofit Support for TinkerHub",
+      "counterpart": "Shayan (UserJot)",
+      "email": "shayan@userjot.com",
+      "received": "2026-10-30",
+      "last": "2026-10-30",
+      "status": "Awaiting reply (from them)",
+      "note": "Joan reached out to UserJot about nonprofit support; awaiting their response",
+      "cc": [
+        "partner@tinkerhub.org"
+      ],
+      "daysSinceReceived": 0,
+      "daysOpen": 0
+    },
+    {
+      "id": "campus-1e9b5364e0",
+      "threadId": "1a18bc9ecdd0a4fb",
+      "group": "campus",
+      "subject": "(no subject)",
+      "counterpart": "Narthana S Rajeev (campus lead)",
+      "email": "narthanasrajeev07@gmail.com",
+      "received": "2026-10-30",
+      "last": "2026-10-30",
+      "status": "Awaiting reply (from us)",
+      "note": "Campus lead reports delayed first-year lead selection (rescheduled to 2 Nov); Kurian forwarded to campus@ with 'check this'",
+      "cc": [
+        "campus@tinkerhub.org"
+      ],
+      "daysSinceReceived": 0,
+      "daysOpen": 0
+    },
+    {
+      "id": "campus-cd3f66789c",
+      "threadId": "1a18626b17f3bfb6",
+      "group": "campus",
+      "subject": "Request to Reschedule USP 3.0 Celebration Meetup to Late December",
+      "counterpart": "TinkerHub CEP campus lead (tinkerhubcep@gmail.com)",
+      "email": "tinkerhubcep@gmail.com",
+      "received": "2026-10-29",
+      "last": "2026-10-29",
+      "status": "Awaiting reply (from them)",
+      "note": "Campus lead asked to move the 30 Oct USP 3.0 celebration meetup to late December; Habeeb replied in a separate thread on 30 Oct",
+      "cc": [
+        "campus@tinkerhub.org"
+      ],
+      "daysSinceReceived": 1,
+      "daysOpen": 1
+    },
+    {
       "id": "report-c8fce0b795",
       "threadId": null,
       "group": "report",
@@ -3693,100 +3780,30 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Awaiting reply (from us)",
+      "status": "Awaiting reply (from them)",
       "note": null,
       "daysOpen": 5,
       "daysSinceReceived": 5,
       "cc": []
-    },
-    {
-      "id": "campus-11aa79ccfa",
-      "threadId": "1a18ba876f4827c7",
-      "group": "campus",
-      "subject": "Request to Reschedule USP 3.0 Celebration Meetup to Late December",
-      "counterpart": "Abdel Baasit (TinkerHub CEP campus lead)",
-      "email": "tinkerhubcep@gmail.com",
-      "received": "2026-10-30",
-      "last": "2026-10-30",
-      "status": "Awaiting reply (from them)",
-      "note": "Habeeb replied asking to hold the celebration meetup by early December rather than late December",
-      "cc": [
-        "campus@tinkerhub.org",
-        "habeeb@tinkerhub.org"
-      ],
-      "daysSinceReceived": 0,
-      "daysOpen": 0
-    },
-    {
-      "id": "partner-a22a3e13f9",
-      "threadId": "1a18bde106010304",
-      "group": "partner",
-      "subject": "Hiring at JEMS Innovation Center, Jharsuguda | Request to Share with Your Community",
-      "counterpart": "Dedeepya Nalluri (Tinker Doer Labs)",
-      "email": "careers@tinkerdoer.com",
-      "received": "2026-10-30",
-      "last": "2026-10-30",
-      "status": "Awaiting reply (from us)",
-      "note": "Asked us to share Makerspace Instructor hiring post; Kurian said looping in relevant team, no follow-up yet",
-      "cc": [
-        "partner@tinkerhub.org",
-        "kurian@tinkerhub.org"
-      ],
-      "daysSinceReceived": 0,
-      "daysOpen": 0
-    },
-    {
-      "id": "partner-fc84455b5c",
-      "threadId": "1a18c18ea02042d0",
-      "group": "partner",
-      "subject": "UserJot - Exploring Nonprofit Support for TinkerHub",
-      "counterpart": "Shayan (UserJot)",
-      "email": "shayan@userjot.com",
-      "received": "2026-10-30",
-      "last": "2026-10-30",
-      "status": "Awaiting reply (from them)",
-      "note": "Joan reached out to UserJot about nonprofit support; awaiting their response",
-      "cc": [
-        "partner@tinkerhub.org"
-      ],
-      "daysSinceReceived": 0,
-      "daysOpen": 0
-    },
-    {
-      "id": "campus-1e9b5364e0",
-      "threadId": "1a18bc9ecdd0a4fb",
-      "group": "campus",
-      "subject": "(no subject)",
-      "counterpart": "Narthana S Rajeev (campus lead)",
-      "email": "narthanasrajeev07@gmail.com",
-      "received": "2026-10-30",
-      "last": "2026-10-30",
-      "status": "Awaiting reply (from us)",
-      "note": "Campus lead reports delayed first-year lead selection (rescheduled to 2 Nov); Kurian forwarded to campus@ with 'check this'",
-      "cc": [
-        "campus@tinkerhub.org"
-      ],
-      "daysSinceReceived": 0,
-      "daysOpen": 0
     }
   ],
   "summary": {
     "No response": 7,
-    "Awaiting reply (from us)": 20,
-    "Awaiting reply (from them)": 38,
+    "Awaiting reply (from us)": 19,
+    "Awaiting reply (from them)": 40,
     "Resolved": 32,
     "Informational": 118,
-    "total": 215
+    "total": 216
   },
   "analytics": {
     "campus": {
-      "total": 140,
+      "total": 141,
       "No response": 1,
       "Awaiting reply (from us)": 10,
-      "Awaiting reply (from them)": 21,
+      "Awaiting reply (from them)": 22,
       "Resolved": 10,
       "Informational": 98,
-      "avgOpenDays": 22.5,
+      "avgOpenDays": 21.9,
       "avgResolvedDays": 5.6
     },
     "support": {
@@ -3812,8 +3829,8 @@ window.DASHBOARD_DATA = {
     "report": {
       "total": 10,
       "No response": 0,
-      "Awaiting reply (from us)": 2,
-      "Awaiting reply (from them)": 4,
+      "Awaiting reply (from us)": 1,
+      "Awaiting reply (from them)": 5,
       "Resolved": 3,
       "Informational": 1,
       "avgOpenDays": 18.7,
