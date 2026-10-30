@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-30T06:38:00Z",
+  "generatedAt": "2026-10-30T08:37:00Z",
   "threads": [
     {
       "id": "partner-ffba143157",
@@ -3522,15 +3522,15 @@ window.DASHBOARD_DATA = {
       "counterpart": "internal (Habeeb) to Useless Projects 3.0 Top 25",
       "email": null,
       "received": "2026-10-29",
-      "last": "2026-10-29",
+      "last": "2026-10-30",
       "status": "Informational",
-      "note": "Habeeb sent Fellowship onboarding mail to the Top 25 participants",
+      "note": "Habeeb sent Fellowship onboarding mail to the Top 25 participants; follow-up sent 30 Oct",
       "cc": [
         "campus@tinkerhub.org"
       ],
       "id": "campus-8885624e9d",
       "daysSinceReceived": 1,
-      "daysOpen": 0
+      "daysOpen": 1
     },
     {
       "threadId": "1a187e4b6aa3b8a1",
@@ -3698,25 +3698,61 @@ window.DASHBOARD_DATA = {
       "daysOpen": 5,
       "daysSinceReceived": 5,
       "cc": []
+    },
+    {
+      "id": "campus-11aa79ccfa",
+      "threadId": "1a18ba876f4827c7",
+      "group": "campus",
+      "subject": "Request to Reschedule USP 3.0 Celebration Meetup to Late December",
+      "counterpart": "Abdel Baasit (TinkerHub CEP campus lead)",
+      "email": "tinkerhubcep@gmail.com",
+      "received": "2026-10-30",
+      "last": "2026-10-30",
+      "status": "Awaiting reply (from them)",
+      "note": "Habeeb replied asking to hold the celebration meetup by early December rather than late December",
+      "cc": [
+        "campus@tinkerhub.org",
+        "habeeb@tinkerhub.org"
+      ],
+      "daysSinceReceived": 0,
+      "daysOpen": 0
+    },
+    {
+      "id": "partner-a22a3e13f9",
+      "threadId": "1a18bde106010304",
+      "group": "partner",
+      "subject": "Hiring at JEMS Innovation Center, Jharsuguda | Request to Share with Your Community",
+      "counterpart": "Dedeepya Nalluri (Tinker Doer Labs)",
+      "email": "careers@tinkerdoer.com",
+      "received": "2026-10-30",
+      "last": "2026-10-30",
+      "status": "Awaiting reply (from us)",
+      "note": "Asked us to share Makerspace Instructor hiring post; Kurian said looping in relevant team, no follow-up yet",
+      "cc": [
+        "partner@tinkerhub.org",
+        "kurian@tinkerhub.org"
+      ],
+      "daysSinceReceived": 0,
+      "daysOpen": 0
     }
   ],
   "summary": {
     "No response": 8,
-    "Awaiting reply (from us)": 18,
-    "Awaiting reply (from them)": 35,
+    "Awaiting reply (from us)": 19,
+    "Awaiting reply (from them)": 36,
     "Resolved": 32,
     "Informational": 118,
-    "total": 211
+    "total": 213
   },
   "analytics": {
     "campus": {
-      "total": 138,
+      "total": 139,
       "No response": 2,
       "Awaiting reply (from us)": 9,
-      "Awaiting reply (from them)": 19,
+      "Awaiting reply (from them)": 20,
       "Resolved": 10,
       "Informational": 98,
-      "avgOpenDays": 24.0,
+      "avgOpenDays": 23.3,
       "avgResolvedDays": 5.6
     },
     "support": {
@@ -3750,13 +3786,13 @@ window.DASHBOARD_DATA = {
       "avgResolvedDays": 19.7
     },
     "partner": {
-      "total": 13,
+      "total": 14,
       "No response": 0,
-      "Awaiting reply (from us)": 0,
+      "Awaiting reply (from us)": 1,
       "Awaiting reply (from them)": 8,
       "Resolved": 1,
       "Informational": 4,
-      "avgOpenDays": 11.5,
+      "avgOpenDays": 10.2,
       "avgResolvedDays": 1.0
     },
     "tinkerspace": {
