@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-30T08:37:00Z",
+  "generatedAt": "2026-10-30T10:37:00Z",
   "threads": [
     {
       "id": "partner-ffba143157",
@@ -355,9 +355,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "Arya Venugopal (TinkerHub SNGCE)",
       "email": "aryavenugopal2006@gmail.com",
       "received": "2026-10-23",
-      "last": "2026-10-23",
-      "status": "No response",
-      "note": "TinkerHub SNGCE chapter reports missing components from Useless Projects 3.0 (11 Sep) and requests support; no reply yet",
+      "last": "2026-10-30",
+      "status": "Awaiting reply (from them)",
+      "note": "Habeeb replied 30 Oct proposing a meeting tomorrow; awaiting SNGCE core team availability (missing components, UP 3.0)",
       "daysOpen": 7,
       "daysSinceReceived": 7,
       "cc": [
@@ -3734,22 +3734,39 @@ window.DASHBOARD_DATA = {
       ],
       "daysSinceReceived": 0,
       "daysOpen": 0
+    },
+    {
+      "id": "partner-fc84455b5c",
+      "threadId": "1a18c18ea02042d0",
+      "group": "partner",
+      "subject": "UserJot - Exploring Nonprofit Support for TinkerHub",
+      "counterpart": "Shayan (UserJot)",
+      "email": "shayan@userjot.com",
+      "received": "2026-10-30",
+      "last": "2026-10-30",
+      "status": "Awaiting reply (from them)",
+      "note": "Joan reached out to UserJot about nonprofit support; awaiting their response",
+      "cc": [
+        "partner@tinkerhub.org"
+      ],
+      "daysSinceReceived": 0,
+      "daysOpen": 0
     }
   ],
   "summary": {
-    "No response": 8,
+    "No response": 7,
     "Awaiting reply (from us)": 19,
-    "Awaiting reply (from them)": 36,
+    "Awaiting reply (from them)": 38,
     "Resolved": 32,
     "Informational": 118,
-    "total": 213
+    "total": 214
   },
   "analytics": {
     "campus": {
       "total": 139,
-      "No response": 2,
+      "No response": 1,
       "Awaiting reply (from us)": 9,
-      "Awaiting reply (from them)": 20,
+      "Awaiting reply (from them)": 21,
       "Resolved": 10,
       "Informational": 98,
       "avgOpenDays": 23.3,
@@ -3786,13 +3803,13 @@ window.DASHBOARD_DATA = {
       "avgResolvedDays": 19.7
     },
     "partner": {
-      "total": 14,
+      "total": 15,
       "No response": 0,
       "Awaiting reply (from us)": 1,
-      "Awaiting reply (from them)": 8,
+      "Awaiting reply (from them)": 9,
       "Resolved": 1,
       "Informational": 4,
-      "avgOpenDays": 10.2,
+      "avgOpenDays": 9.2,
       "avgResolvedDays": 1.0
     },
     "tinkerspace": {
