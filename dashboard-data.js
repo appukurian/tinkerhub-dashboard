@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-31T02:37:42Z",
+  "generatedAt": "2026-10-31T04:36:56Z",
   "threads": [
     {
       "id": "partner-ffba143157",
@@ -3615,15 +3615,32 @@ window.DASHBOARD_DATA = {
       "daysOpen": 6,
       "daysSinceReceived": 6,
       "cc": []
+    },
+    {
+      "id": "support-4eb8e53e89",
+      "threadId": "1a1902cb47e27f66",
+      "group": "support",
+      "subject": "Help with TinkerHub app access",
+      "counterpart": "Akshay Abraham",
+      "email": "akshaykroobenabraham@gmail.com",
+      "received": "2026-10-31",
+      "last": "2026-10-31",
+      "status": "No response",
+      "note": "Locked out after repeated OTP attempts before being vouched; asks to be vouched (AIBoomi Startup Weekend winner)",
+      "cc": [
+        "support@tinkerhub.org"
+      ],
+      "daysSinceReceived": 0,
+      "daysOpen": 0
     }
   ],
   "summary": {
-    "No response": 7,
+    "No response": 8,
     "Awaiting reply (from us)": 19,
     "Awaiting reply (from them)": 35,
     "Resolved": 29,
     "Informational": 116,
-    "total": 206
+    "total": 207
   },
   "analytics": {
     "campus": {
@@ -3637,14 +3654,14 @@ window.DASHBOARD_DATA = {
       "avgResolvedDays": 4.9
     },
     "support": {
-      "total": 6,
-      "No response": 1,
+      "total": 7,
+      "No response": 2,
       "Awaiting reply (from us)": 3,
       "Awaiting reply (from them)": 0,
       "Resolved": 1,
       "Informational": 1,
-      "avgOpenDays": 30,
-      "avgResolvedDays": 3
+      "avgOpenDays": 24.0,
+      "avgResolvedDays": 3.0
     },
     "finance": {
       "total": 38,
@@ -3653,7 +3670,7 @@ window.DASHBOARD_DATA = {
       "Awaiting reply (from them)": 2,
       "Resolved": 15,
       "Informational": 13,
-      "avgOpenDays": 15,
+      "avgOpenDays": 15.0,
       "avgResolvedDays": 2.1
     },
     "report": {
@@ -3674,7 +3691,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 4,
       "avgOpenDays": 10.2,
-      "avgResolvedDays": 1
+      "avgResolvedDays": 1.0
     },
     "tinkerspace": {
       "total": 3,
@@ -3684,7 +3701,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 0,
       "avgOpenDays": 18.5,
-      "avgResolvedDays": 1
+      "avgResolvedDays": 1.0
     }
   }
 };
