@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-31T10:37:00Z",
+  "generatedAt": "2026-10-31T12:37:30Z",
   "threads": [
     {
       "id": "partner-ffba143157",
@@ -3611,7 +3611,7 @@ window.DASHBOARD_DATA = {
       "email": null,
       "received": null,
       "last": null,
-      "status": "Awaiting reply (from us)",
+      "status": "Awaiting reply (from them)",
       "note": null,
       "daysOpen": 6,
       "daysSinceReceived": 6,
@@ -3637,8 +3637,8 @@ window.DASHBOARD_DATA = {
   ],
   "summary": {
     "No response": 5,
-    "Awaiting reply (from us)": 18,
-    "Awaiting reply (from them)": 36,
+    "Awaiting reply (from us)": 17,
+    "Awaiting reply (from them)": 37,
     "Resolved": 32,
     "Informational": 116,
     "total": 207
@@ -3677,8 +3677,8 @@ window.DASHBOARD_DATA = {
     "report": {
       "total": 9,
       "No response": 0,
-      "Awaiting reply (from us)": 2,
-      "Awaiting reply (from them)": 4,
+      "Awaiting reply (from us)": 1,
+      "Awaiting reply (from them)": 5,
       "Resolved": 2,
       "Informational": 1,
       "avgOpenDays": 19.7,
