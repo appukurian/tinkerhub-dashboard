@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-31T04:36:56Z",
+  "generatedAt": "2026-10-31T06:37:05Z",
   "threads": [
     {
       "id": "partner-ffba143157",
@@ -355,9 +355,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "Arya Venugopal (TinkerHub SNGCE)",
       "email": "aryavenugopal2006@gmail.com",
       "received": "2026-10-23",
-      "last": "2026-10-30",
+      "last": "2026-10-31",
       "status": "Awaiting reply (from them)",
-      "note": "Habeeb replied 30 Oct proposing a meeting tomorrow; awaiting SNGCE core team availability (missing components, UP 3.0)",
+      "note": "Habeeb proposed a meeting and on 31 Oct suggested 6 PM; awaiting SNGCE confirmation (missing components, UP 3.0)",
       "daysOpen": 8,
       "daysSinceReceived": 8,
       "cc": [
@@ -376,9 +376,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "Silpa PM (TinkerHub CEA)",
       "email": "silpapm.2007@gmail.com",
       "received": "2026-10-23",
-      "last": "2026-10-23",
-      "status": "No response",
-      "note": "CEA Adoor coordinator asks for a Useless Projects T-shirt for Vishnu G (teammate of Princy P, Team Trash) who missed check-in due to phone issue; profile links shared",
+      "last": "2026-10-31",
+      "status": "Awaiting reply (from them)",
+      "note": "CEA Adoor coordinator asked for a Useless Projects T-shirt for Vishnu G (Team Trash); Habeeb replied 31 Oct, awaiting their response",
       "cc": [
         "campus@tinkerhub.org"
       ],
@@ -393,9 +393,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "internal (Mehar)",
       "email": "mehar@tinkerhub.org",
       "received": "2026-10-21",
-      "last": "2026-10-22",
-      "status": "Awaiting reply (from them)",
-      "note": "Althaf asked Mehar on 22 Oct for the INR-converted bank receipt to reimburse the exact amount for the Etihad flight (EUR 621.19, ref 75LUV3)",
+      "last": "2026-10-31",
+      "status": "Resolved",
+      "note": "Reimbursement of Rs. 66,293.54 for Etihad flight fully processed and settled by Althaf on 31 Oct; receipt sent to Mehar",
       "daysOpen": 10,
       "daysSinceReceived": 10,
       "cc": [
@@ -3455,9 +3455,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "Narthana S Rajeev (campus lead)",
       "email": "narthanasrajeev07@gmail.com",
       "received": "2026-10-30",
-      "last": "2026-10-30",
-      "status": "Awaiting reply (from us)",
-      "note": "Campus lead reports delayed first-year lead selection (rescheduled to 2 Nov); Kurian forwarded to campus@ with 'check this'",
+      "last": "2026-10-31",
+      "status": "Awaiting reply (from them)",
+      "note": "Campus lead reports delayed first-year lead selection (now 2 Nov); Femina replied 31 Oct asking them to update us on 2 Nov after selection",
       "cc": [
         "campus@tinkerhub.org"
       ],
@@ -3635,19 +3635,19 @@ window.DASHBOARD_DATA = {
     }
   ],
   "summary": {
-    "No response": 8,
-    "Awaiting reply (from us)": 19,
-    "Awaiting reply (from them)": 35,
-    "Resolved": 29,
+    "No response": 7,
+    "Awaiting reply (from us)": 18,
+    "Awaiting reply (from them)": 36,
+    "Resolved": 30,
     "Informational": 116,
     "total": 207
   },
   "analytics": {
     "campus": {
       "total": 135,
-      "No response": 1,
-      "Awaiting reply (from us)": 10,
-      "Awaiting reply (from them)": 18,
+      "No response": 0,
+      "Awaiting reply (from us)": 9,
+      "Awaiting reply (from them)": 20,
       "Resolved": 9,
       "Informational": 97,
       "avgOpenDays": 21.4,
@@ -3660,18 +3660,18 @@ window.DASHBOARD_DATA = {
       "Awaiting reply (from them)": 0,
       "Resolved": 1,
       "Informational": 1,
-      "avgOpenDays": 24.0,
-      "avgResolvedDays": 3.0
+      "avgOpenDays": 24,
+      "avgResolvedDays": 3
     },
     "finance": {
       "total": 38,
       "No response": 5,
       "Awaiting reply (from us)": 3,
-      "Awaiting reply (from them)": 2,
-      "Resolved": 15,
+      "Awaiting reply (from them)": 1,
+      "Resolved": 16,
       "Informational": 13,
-      "avgOpenDays": 15.0,
-      "avgResolvedDays": 2.1
+      "avgOpenDays": 15.6,
+      "avgResolvedDays": 2.6
     },
     "report": {
       "total": 9,
@@ -3691,7 +3691,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 4,
       "avgOpenDays": 10.2,
-      "avgResolvedDays": 1.0
+      "avgResolvedDays": 1
     },
     "tinkerspace": {
       "total": 3,
@@ -3701,7 +3701,7 @@ window.DASHBOARD_DATA = {
       "Resolved": 1,
       "Informational": 0,
       "avgOpenDays": 18.5,
-      "avgResolvedDays": 1.0
+      "avgResolvedDays": 1
     }
   }
 };
