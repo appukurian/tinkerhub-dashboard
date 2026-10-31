@@ -1,7 +1,7 @@
 // Auto-generated daily by .github/workflows/discord-update.yml
 // Do NOT hand-edit — this file is overwritten on each run.
 window.DISCORD_DATA = {
-  "generatedAt": "2026-10-31T08:37:37Z",
+  "generatedAt": "2026-10-31T15:48:29Z",
   "threads": [
     {
       "id": "1553610072112889866",
@@ -36,8 +36,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-30",
       "last": "2026-10-30",
       "resolvedAt": "2026-10-30",
-      "daysOpen": 0,
-      "daysSinceReceived": 0,
+      "daysOpen": 1,
+      "daysSinceReceived": 1,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -129,7 +129,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-27",
       "resolvedAt": "2026-10-06",
       "daysOpen": 3,
-      "daysSinceReceived": 62,
+      "daysSinceReceived": 63,
       "daysToClose": 38,
       "messageCount": 8,
       "archived": false,
@@ -270,7 +270,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-25",
       "resolvedAt": "2026-10-25",
       "daysOpen": 6,
-      "daysSinceReceived": 10,
+      "daysSinceReceived": 11,
       "daysToClose": 4,
       "messageCount": 3,
       "archived": false,
@@ -533,7 +533,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-11",
       "resolvedAt": "2026-10-10",
       "daysOpen": 20,
-      "daysSinceReceived": 20,
+      "daysSinceReceived": 21,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -574,8 +574,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-10",
       "last": "2026-10-10",
       "resolvedAt": "2026-10-10",
-      "daysOpen": 20,
-      "daysSinceReceived": 20,
+      "daysOpen": 21,
+      "daysSinceReceived": 21,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -685,8 +685,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-07",
       "last": "2026-10-07",
       "resolvedAt": "2026-10-07",
-      "daysOpen": 23,
-      "daysSinceReceived": 23,
+      "daysOpen": 24,
+      "daysSinceReceived": 24,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -754,8 +754,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-05",
       "last": "2026-10-06",
       "resolvedAt": "2026-10-05",
-      "daysOpen": 24,
-      "daysSinceReceived": 25,
+      "daysOpen": 25,
+      "daysSinceReceived": 26,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -801,7 +801,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-02",
       "resolvedAt": "2026-09-20",
       "daysOpen": 29,
-      "daysSinceReceived": 40,
+      "daysSinceReceived": 41,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -812,25 +812,6 @@ window.DISCORD_DATA = {
         "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546951479628136559",
         "snippet": "Had a small mistake while creating an event was mistakenly set event time at AM which was intended to be PM and then i tried to delete or edit and there is no option so i created a new one with same so there is two event so is there any way to remove the first event"
       }
-    },
-    {
-      "id": "1555237166702006352",
-      "name": "College details Issue",
-      "url": "https://discord.com/channels/735180366297563257/1555237166702006352",
-      "status": "No response",
-      "category": "Campus/College visibility",
-      "requester": "Hellan Raichel Benoy | India",
-      "received": "2026-10-01",
-      "last": "2026-10-01",
-      "resolvedAt": "2026-10-01",
-      "daysOpen": 29,
-      "daysSinceReceived": 29,
-      "daysToClose": 0,
-      "messageCount": 0,
-      "archived": false,
-      "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": null
     },
     {
       "id": "1547642046691680327",
@@ -854,6 +835,25 @@ window.DISCORD_DATA = {
         "fromThreadUrl": "https://discord.com/channels/735180366297563257/1560654128705708072",
         "snippet": "This thread is closed by <@1012977379209125908>."
       }
+    },
+    {
+      "id": "1555237166702006352",
+      "name": "College details Issue",
+      "url": "https://discord.com/channels/735180366297563257/1555237166702006352",
+      "status": "Resolved",
+      "category": "Campus/College visibility",
+      "requester": "Hellan Raichel Benoy | India",
+      "received": "2026-10-01",
+      "last": "2026-10-01",
+      "resolvedAt": "2026-10-31",
+      "daysOpen": 30,
+      "daysSinceReceived": 30,
+      "daysToClose": 30,
+      "messageCount": 0,
+      "archived": true,
+      "locked": false,
+      "resolutionSnippet": "Some of the students in our college their education is not being updated propery they added education of 4 years but it shows education 2025 to 2025 and now their college is not shown",
+      "suggestion": null
     },
     {
       "id": "1553316211767640116",
@@ -13720,13 +13720,13 @@ window.DISCORD_DATA = {
     }
   ],
   "summary": {
-    "No response": 12,
+    "No response": 11,
     "Awaiting reply (from us)": 5,
     "Awaiting reply (from them)": 7,
-    "Resolved": 693
+    "Resolved": 694
   },
-  "avgOpenDays": 14.8,
-  "avgDaysToClose": 14.4,
+  "avgOpenDays": 14.3,
+  "avgDaysToClose": 14.5,
   "topCategories": [
     {
       "category": "Event/Activity check-in & reporting",
