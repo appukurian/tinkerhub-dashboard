@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-10-31T06:37:05Z",
+  "generatedAt": "2026-10-31T08:36:55Z",
   "threads": [
     {
       "id": "partner-ffba143157",
@@ -27,12 +27,13 @@ window.DASHBOARD_DATA = {
       "counterpart": "Jishnu Ram (Super Balussery Education Carnival)",
       "email": "jishnuramvskidavu@gmail.com",
       "received": "2026-10-28",
-      "last": "2026-10-29",
+      "last": "2026-10-31",
       "status": "Awaiting reply (from them)",
-      "note": "Joan sent collaboration proposal to organiser (Mehar in To); awaiting their response",
+      "note": "Mehar handed off to Jasim (leads conversation and sets up stall; contact via WhatsApp); awaiting organiser response",
       "cc": [
         "partner@tinkerhub.org",
-        "mehar@tinkerhub.org"
+        "joan@tinkerhub.org",
+        "jasim@tinkerhub.org"
       ],
       "daysSinceReceived": 3,
       "daysOpen": 3
@@ -3333,9 +3334,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "internal (Mehar)",
       "email": "mehar@tinkerhub.org",
       "received": "2026-10-29",
-      "last": "2026-10-29",
-      "status": "No response",
-      "note": "Mehar shared Ryanair flight bill (₹34,839.85) for reimbursement; no reply yet",
+      "last": "2026-10-31",
+      "status": "Resolved",
+      "note": "Althaf sent payment confirmation for Ryanair bill (₹34,839.85) on 31 Oct",
       "cc": [
         "finance@tinkerhub.org"
       ],
@@ -3350,9 +3351,9 @@ window.DASHBOARD_DATA = {
       "counterpart": "internal (Mehar)",
       "email": "mehar@tinkerhub.org",
       "received": "2026-10-29",
-      "last": "2026-10-29",
-      "status": "No response",
-      "note": "Mehar shared IndiGo Kochi–Pune bill (₹9,408, 27 Nov) for reimbursement; no reply yet",
+      "last": "2026-10-31",
+      "status": "Resolved",
+      "note": "Althaf confirmed IndiGo bill (₹9,408) reimbursed on 31 Oct",
       "cc": [
         "finance@tinkerhub.org"
       ],
@@ -3635,10 +3636,10 @@ window.DASHBOARD_DATA = {
     }
   ],
   "summary": {
-    "No response": 7,
+    "No response": 5,
     "Awaiting reply (from us)": 18,
     "Awaiting reply (from them)": 36,
-    "Resolved": 30,
+    "Resolved": 32,
     "Informational": 116,
     "total": 207
   },
@@ -3665,12 +3666,12 @@ window.DASHBOARD_DATA = {
     },
     "finance": {
       "total": 38,
-      "No response": 5,
+      "No response": 3,
       "Awaiting reply (from us)": 3,
       "Awaiting reply (from them)": 1,
-      "Resolved": 16,
+      "Resolved": 18,
       "Informational": 13,
-      "avgOpenDays": 15.6,
+      "avgOpenDays": 19.4,
       "avgResolvedDays": 2.6
     },
     "report": {
