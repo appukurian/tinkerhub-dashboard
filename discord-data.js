@@ -1,7 +1,7 @@
 // Auto-generated daily by .github/workflows/discord-update.yml
 // Do NOT hand-edit — this file is overwritten on each run.
 window.DISCORD_DATA = {
-  "generatedAt": "2026-10-31T15:48:29Z",
+  "generatedAt": "2026-10-31T20:09:22Z",
   "threads": [
     {
       "id": "1553610072112889866",
@@ -44,9 +44,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Check In Issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1560654128705708072",
-        "snippet": "This thread is closed by <@1012977379209125908>."
+        "fromThreadName": "Mistake had happened event creation time",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547642046691680327",
+        "snippet": "<@1012977379209125908>"
       }
     },
     {
@@ -106,7 +106,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-28",
       "resolvedAt": "2026-10-10",
       "daysOpen": 3,
-      "daysSinceReceived": 20,
+      "daysSinceReceived": 21,
       "daysToClose": 0,
       "messageCount": 3,
       "archived": false,
@@ -128,7 +128,7 @@ window.DISCORD_DATA = {
       "received": "2026-08-29",
       "last": "2026-10-27",
       "resolvedAt": "2026-10-06",
-      "daysOpen": 3,
+      "daysOpen": 4,
       "daysSinceReceived": 63,
       "daysToClose": 38,
       "messageCount": 8,
@@ -605,9 +605,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Check In Issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1560654128705708072",
-        "snippet": "This thread is closed by <@1012977379209125908>."
+        "fromThreadName": "Mistake had happened event creation time",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547642046691680327",
+        "snippet": "<@1012977379209125908>"
       }
     },
     {
@@ -620,17 +620,17 @@ window.DISCORD_DATA = {
       "received": "2026-10-08",
       "last": "2026-10-08",
       "resolvedAt": "2026-10-08",
-      "daysOpen": 22,
-      "daysSinceReceived": 22,
+      "daysOpen": 23,
+      "daysSinceReceived": 23,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Check In Issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1560654128705708072",
-        "snippet": "This thread is closed by <@1012977379209125908>."
+        "fromThreadName": "Mistake had happened event creation time",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547642046691680327",
+        "snippet": "<@1012977379209125908>"
       }
     },
     {
@@ -662,17 +662,17 @@ window.DISCORD_DATA = {
       "received": "2026-10-07",
       "last": "2026-10-07",
       "resolvedAt": "2026-10-07",
-      "daysOpen": 23,
-      "daysSinceReceived": 23,
+      "daysOpen": 24,
+      "daysSinceReceived": 24,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Check In Issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1560654128705708072",
-        "snippet": "This thread is closed by <@1012977379209125908>."
+        "fromThreadName": "Mistake had happened event creation time",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547642046691680327",
+        "snippet": "<@1012977379209125908>"
       }
     },
     {
@@ -716,9 +716,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Check In Issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1560654128705708072",
-        "snippet": "This thread is closed by <@1012977379209125908>."
+        "fromThreadName": "Mistake had happened event creation time",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547642046691680327",
+        "snippet": "<@1012977379209125908>"
       }
     },
     {
@@ -777,8 +777,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-30",
       "last": "2026-10-06",
       "resolvedAt": "2026-09-30",
-      "daysOpen": 24,
-      "daysSinceReceived": 30,
+      "daysOpen": 25,
+      "daysSinceReceived": 31,
       "daysToClose": 0,
       "messageCount": 8,
       "archived": false,
@@ -817,24 +817,20 @@ window.DISCORD_DATA = {
       "id": "1547642046691680327",
       "name": "Mistake had happened event creation time",
       "url": "https://discord.com/channels/735180366297563257/1547642046691680327",
-      "status": "Awaiting reply (from them)",
+      "status": "Resolved",
       "category": "Event/Activity check-in & reporting",
       "requester": "Anupama Anil",
       "received": "2026-09-10",
       "last": "2026-10-01",
-      "resolvedAt": "2026-09-10",
-      "daysOpen": 29,
-      "daysSinceReceived": 50,
-      "daysToClose": 0,
+      "resolvedAt": "2026-10-31",
+      "daysOpen": 30,
+      "daysSinceReceived": 51,
+      "daysToClose": 50,
       "messageCount": 8,
-      "archived": false,
+      "archived": true,
       "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Check In Issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1560654128705708072",
-        "snippet": "This thread is closed by <@1012977379209125908>."
-      }
+      "resolutionSnippet": "<@1012977379209125908>",
+      "suggestion": null
     },
     {
       "id": "1555237166702006352",
@@ -13722,10 +13718,10 @@ window.DISCORD_DATA = {
   "summary": {
     "No response": 11,
     "Awaiting reply (from us)": 5,
-    "Awaiting reply (from them)": 7,
-    "Resolved": 694
+    "Awaiting reply (from them)": 6,
+    "Resolved": 695
   },
-  "avgOpenDays": 14.3,
+  "avgOpenDays": 13.9,
   "avgDaysToClose": 14.5,
   "topCategories": [
     {
