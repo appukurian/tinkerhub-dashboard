@@ -1,8 +1,73 @@
 // Auto-generated daily by .github/workflows/discord-update.yml
 // Do NOT hand-edit — this file is overwritten on each run.
 window.DISCORD_DATA = {
-  "generatedAt": "2026-11-05T09:41:35Z",
+  "generatedAt": "2026-11-05T18:09:53Z",
   "threads": [
+    {
+      "id": "1567928890582630562",
+      "name": "First Year Coordinator \u2013 Kootam Access Issue",
+      "url": "https://discord.com/channels/735180366297563257/1567928890582630562",
+      "status": "No response",
+      "category": "Koottam access issues",
+      "requester": "ANJALI S PILLAI",
+      "received": "2026-11-05",
+      "last": "2026-11-05",
+      "resolvedAt": "2026-11-05",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "daysToClose": 0,
+      "messageCount": 1,
+      "archived": false,
+      "locked": false,
+      "resolutionSnippet": "",
+      "suggestion": {
+        "fromThreadName": "Kootam event deletion",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1553316211767640116",
+        "snippet": "<@1392046495535988836> <@1012977379209125908> There was a timing error while creating the event. One of our core team members accidentally set it to 7 AM instead of 7 PM. We noticed and rectified it by creating a new event with the correct timing. However, since the first event has already been\u2026"
+      }
+    },
+    {
+      "id": "1567221127288193055",
+      "name": "Event deletion",
+      "url": "https://discord.com/channels/735180366297563257/1567221127288193055",
+      "status": "Awaiting reply (from us)",
+      "category": "Event/Activity check-in & reporting",
+      "requester": "Blaze",
+      "received": "2026-11-03",
+      "last": "2026-11-05",
+      "resolvedAt": "2026-11-03",
+      "daysOpen": 0,
+      "daysSinceReceived": 2,
+      "daysToClose": 0,
+      "messageCount": 3,
+      "archived": false,
+      "locked": false,
+      "resolutionSnippet": "",
+      "suggestion": {
+        "fromThreadName": "Event deletion",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1565703189985099858",
+        "snippet": "This thread is closed by <@1012977379209125908>."
+      }
+    },
+    {
+      "id": "1565703189985099858",
+      "name": "Event deletion",
+      "url": "https://discord.com/channels/735180366297563257/1565703189985099858",
+      "status": "Resolved",
+      "category": "Event/Activity check-in & reporting",
+      "requester": "Ashish",
+      "received": "2026-10-30",
+      "last": "2026-11-05",
+      "resolvedAt": "2026-11-05",
+      "daysOpen": 0,
+      "daysSinceReceived": 6,
+      "daysToClose": 5,
+      "messageCount": 3,
+      "archived": true,
+      "locked": false,
+      "resolutionSnippet": "This thread is closed by <@1012977379209125908>.",
+      "suggestion": null
+    },
     {
       "id": "1567438735560286238",
       "name": "Event Deletion",
@@ -21,32 +86,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Forget to checkin one person",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1556907106949533767",
-        "snippet": "Forget to check in one person Nakshathra Shibu +91 85906 88546"
-      }
-    },
-    {
-      "id": "1567221127288193055",
-      "name": "Event deletion",
-      "url": "https://discord.com/channels/735180366297563257/1567221127288193055",
-      "status": "Awaiting reply (from them)",
-      "category": "Event/Activity check-in & reporting",
-      "requester": "Blaze",
-      "received": "2026-11-03",
-      "last": "2026-11-03",
-      "resolvedAt": "2026-11-03",
-      "daysOpen": 1,
-      "daysSinceReceived": 1,
-      "daysToClose": 0,
-      "messageCount": 2,
-      "archived": false,
-      "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Forget to checkin one person",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1556907106949533767",
-        "snippet": "Forget to check in one person Nakshathra Shibu +91 85906 88546"
+        "fromThreadName": "Event deletion",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1565703189985099858",
+        "snippet": "This thread is closed by <@1012977379209125908>."
       }
     },
     {
@@ -82,7 +124,7 @@ window.DISCORD_DATA = {
       "received": "2026-10-30",
       "last": "2026-11-01",
       "resolvedAt": "2026-10-30",
-      "daysOpen": 3,
+      "daysOpen": 4,
       "daysSinceReceived": 6,
       "daysToClose": 0,
       "messageCount": 2,
@@ -93,29 +135,6 @@ window.DISCORD_DATA = {
         "fromThreadName": "Missing registration button",
         "fromThreadUrl": "https://discord.com/channels/735180366297563257/1559045587758878721",
         "snippet": "This thread is closed by <@1012977379209125908>."
-      }
-    },
-    {
-      "id": "1565703189985099858",
-      "name": "Event deletion",
-      "url": "https://discord.com/channels/735180366297563257/1565703189985099858",
-      "status": "No response",
-      "category": "Event/Activity check-in & reporting",
-      "requester": "Ashish",
-      "received": "2026-10-30",
-      "last": "2026-10-30",
-      "resolvedAt": "2026-10-30",
-      "daysOpen": 5,
-      "daysSinceReceived": 5,
-      "daysToClose": 0,
-      "messageCount": 1,
-      "archived": false,
-      "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Forget to checkin one person",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1556907106949533767",
-        "snippet": "Forget to check in one person Nakshathra Shibu +91 85906 88546"
       }
     },
     {
@@ -174,8 +193,8 @@ window.DISCORD_DATA = {
       "received": "2026-08-29",
       "last": "2026-10-27",
       "resolvedAt": "2026-10-06",
-      "daysOpen": 8,
-      "daysSinceReceived": 67,
+      "daysOpen": 9,
+      "daysSinceReceived": 68,
       "daysToClose": 38,
       "messageCount": 8,
       "archived": false,
@@ -316,7 +335,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-25",
       "resolvedAt": "2026-10-25",
       "daysOpen": 11,
-      "daysSinceReceived": 15,
+      "daysSinceReceived": 16,
       "daysToClose": 4,
       "messageCount": 3,
       "archived": false,
@@ -579,7 +598,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-11",
       "resolvedAt": "2026-10-10",
       "daysOpen": 25,
-      "daysSinceReceived": 25,
+      "daysSinceReceived": 26,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -620,8 +639,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-10",
       "last": "2026-10-10",
       "resolvedAt": "2026-10-10",
-      "daysOpen": 25,
-      "daysSinceReceived": 25,
+      "daysOpen": 26,
+      "daysSinceReceived": 26,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -651,9 +670,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Forget to checkin one person",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1556907106949533767",
-        "snippet": "Forget to check in one person Nakshathra Shibu +91 85906 88546"
+        "fromThreadName": "Event deletion",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1565703189985099858",
+        "snippet": "This thread is closed by <@1012977379209125908>."
       }
     },
     {
@@ -666,17 +685,17 @@ window.DISCORD_DATA = {
       "received": "2026-10-08",
       "last": "2026-10-08",
       "resolvedAt": "2026-10-08",
-      "daysOpen": 27,
-      "daysSinceReceived": 27,
+      "daysOpen": 28,
+      "daysSinceReceived": 28,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Forget to checkin one person",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1556907106949533767",
-        "snippet": "Forget to check in one person Nakshathra Shibu +91 85906 88546"
+        "fromThreadName": "Event deletion",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1565703189985099858",
+        "snippet": "This thread is closed by <@1012977379209125908>."
       }
     },
     {
@@ -716,9 +735,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Forget to checkin one person",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1556907106949533767",
-        "snippet": "Forget to check in one person Nakshathra Shibu +91 85906 88546"
+        "fromThreadName": "Event deletion",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1565703189985099858",
+        "snippet": "This thread is closed by <@1012977379209125908>."
       }
     },
     {
@@ -731,8 +750,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-07",
       "last": "2026-10-07",
       "resolvedAt": "2026-10-07",
-      "daysOpen": 28,
-      "daysSinceReceived": 28,
+      "daysOpen": 29,
+      "daysSinceReceived": 29,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -742,29 +761,6 @@ window.DISCORD_DATA = {
         "fromThreadName": "Change in kutty makers to young makers",
         "fromThreadUrl": "https://discord.com/channels/735180366297563257/1556881351523704852",
         "snippet": "We are currently facing an issue with the student categorization in the system. Students who joined college at 17 were correctly assigned to the 'Kutty Makers' group. However, now that they have turned 18, their profiles are not updating to 'Young Makers'. We have tried deleting the accounts for\u2026"
-      }
-    },
-    {
-      "id": "1556660987657064588",
-      "name": "Couldn't enter name in Hub App",
-      "url": "https://discord.com/channels/735180366297563257/1556660987657064588",
-      "status": "Awaiting reply (from them)",
-      "category": "Name/Profile changes",
-      "requester": "Baasit",
-      "received": "2026-10-05",
-      "last": "2026-10-06",
-      "resolvedAt": "2026-10-05",
-      "daysOpen": 29,
-      "daysSinceReceived": 30,
-      "daysToClose": 0,
-      "messageCount": 2,
-      "archived": false,
-      "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Name Change for a Community Member",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1550538552993906779",
-        "snippet": "A community member has an incorrect name displayed on their profile. Currently displayed name: AYZHA A S Correct name: AYSHA A S Could you please help us update the member\u2019s name to AYSHA A S? I have attached a screenshot of the member\u2019s profile for reference."
       }
     },
     {
@@ -789,6 +785,25 @@ window.DISCORD_DATA = {
         "fromThreadUrl": "https://discord.com/channels/735180366297563257/1556881351523704852",
         "snippet": "We are currently facing an issue with the student categorization in the system. Students who joined college at 17 were correctly assigned to the 'Kutty Makers' group. However, now that they have turned 18, their profiles are not updating to 'Young Makers'. We have tried deleting the accounts for\u2026"
       }
+    },
+    {
+      "id": "1556660987657064588",
+      "name": "Couldn't enter name in Hub App",
+      "url": "https://discord.com/channels/735180366297563257/1556660987657064588",
+      "status": "Resolved",
+      "category": "Name/Profile changes",
+      "requester": "Baasit",
+      "received": "2026-10-05",
+      "last": "2026-10-06",
+      "resolvedAt": "2026-11-05",
+      "daysOpen": 30,
+      "daysSinceReceived": 31,
+      "daysToClose": 31,
+      "messageCount": 2,
+      "archived": true,
+      "locked": false,
+      "resolutionSnippet": "<@925620797471592449> For now, please register using your second name as the first name and your first name as the second name. After creating the profile, there is an option to change the name\u2014please update it from there. Meanwhile, we\u2019ll work on fixing the issue.",
+      "suggestion": null
     },
     {
       "id": "1556907106949533767",
@@ -13751,12 +13766,12 @@ window.DISCORD_DATA = {
   ],
   "summary": {
     "No response": 8,
-    "Awaiting reply (from us)": 6,
-    "Awaiting reply (from them)": 7,
-    "Resolved": 698
+    "Awaiting reply (from us)": 7,
+    "Awaiting reply (from them)": 5,
+    "Resolved": 700
   },
-  "avgOpenDays": 14.7,
-  "avgDaysToClose": 14.6,
+  "avgOpenDays": 13.9,
+  "avgDaysToClose": 14.7,
   "topCategories": [
     {
       "category": "Event/Activity check-in & reporting",
@@ -13780,7 +13795,7 @@ window.DISCORD_DATA = {
     },
     {
       "category": "Koottam access issues",
-      "count": 35
+      "count": 36
     },
     {
       "category": "Name/Profile changes",
