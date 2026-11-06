@@ -1,8 +1,31 @@
 // Auto-generated daily by .github/workflows/discord-update.yml
 // Do NOT hand-edit — this file is overwritten on each run.
 window.DISCORD_DATA = {
-  "generatedAt": "2026-11-06T09:36:41Z",
+  "generatedAt": "2026-11-06T17:36:36Z",
   "threads": [
+    {
+      "id": "1568280292676866088",
+      "name": "Github connection issue",
+      "url": "https://discord.com/channels/735180366297563257/1568280292676866088",
+      "status": "No response",
+      "category": "Other",
+      "requester": "Adithyan",
+      "received": "2026-11-06",
+      "last": "2026-11-06",
+      "resolvedAt": "2026-11-06",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "daysToClose": 0,
+      "messageCount": 1,
+      "archived": false,
+      "locked": false,
+      "resolutionSnippet": "",
+      "suggestion": {
+        "fromThreadName": "Addition of course",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1557406780873642074",
+        "snippet": "At School of Engineering, CUSAT, we have the course Fire and Safety Engineering. Students of this particular major wish to join the TInkerhub campus community proceed to not find this course in the list when making their profile on the Hub app."
+      }
+    },
     {
       "id": "1568194450604298270",
       "name": "Otp issue",
@@ -60,9 +83,9 @@ window.DISCORD_DATA = {
       "last": "2026-11-06",
       "resolvedAt": "2026-11-05",
       "daysOpen": 0,
-      "daysSinceReceived": 0,
+      "daysSinceReceived": 1,
       "daysToClose": 0,
-      "messageCount": 3,
+      "messageCount": 4,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
@@ -76,7 +99,7 @@ window.DISCORD_DATA = {
       "id": "1567438735560286238",
       "name": "Event Deletion",
       "url": "https://discord.com/channels/735180366297563257/1567438735560286238",
-      "status": "Awaiting reply (from them)",
+      "status": "Awaiting reply (from us)",
       "category": "Event/Activity check-in & reporting",
       "requester": "Hellan Raichel Benoy | India",
       "received": "2026-11-04",
@@ -85,7 +108,7 @@ window.DISCORD_DATA = {
       "daysOpen": 0,
       "daysSinceReceived": 2,
       "daysToClose": 0,
-      "messageCount": 2,
+      "messageCount": 3,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
@@ -106,7 +129,7 @@ window.DISCORD_DATA = {
       "last": "2026-11-06",
       "resolvedAt": "2026-11-03",
       "daysOpen": 0,
-      "daysSinceReceived": 2,
+      "daysSinceReceived": 3,
       "daysToClose": 0,
       "messageCount": 5,
       "archived": false,
@@ -145,23 +168,23 @@ window.DISCORD_DATA = {
       "id": "1543280461877354506",
       "name": "Outreach lead is not in the server",
       "url": "https://discord.com/channels/735180366297563257/1543280461877354506",
-      "status": "Awaiting reply (from them)",
+      "status": "Awaiting reply (from us)",
       "category": "Other",
       "requester": "Gowripriya M J",
       "received": "2026-08-29",
       "last": "2026-11-06",
       "resolvedAt": "2026-10-06",
       "daysOpen": 0,
-      "daysSinceReceived": 68,
+      "daysSinceReceived": 69,
       "daysToClose": 38,
-      "messageCount": 10,
+      "messageCount": 11,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Outreach Lead change \u203c\ufe0f",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1554925142788939918",
-        "snippet": "<@1012977379209125908>"
+        "fromThreadName": "Addition of course",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1557406780873642074",
+        "snippet": "At School of Engineering, CUSAT, we have the course Fire and Safety Engineering. Students of this particular major wish to join the TInkerhub campus community proceed to not find this course in the list when making their profile on the Hub app."
       }
     },
     {
@@ -175,7 +198,7 @@ window.DISCORD_DATA = {
       "last": "2026-11-06",
       "resolvedAt": "2026-11-06",
       "daysOpen": 0,
-      "daysSinceReceived": 26,
+      "daysSinceReceived": 27,
       "daysToClose": 26,
       "messageCount": 4,
       "archived": true,
@@ -243,9 +266,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Outreach Lead change \u203c\ufe0f",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1554925142788939918",
-        "snippet": "<@1012977379209125908>"
+        "fromThreadName": "Addition of course",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1557406780873642074",
+        "snippet": "At School of Engineering, CUSAT, we have the course Fire and Safety Engineering. Students of this particular major wish to join the TInkerhub campus community proceed to not find this course in the list when making their profile on the Hub app."
       }
     },
     {
@@ -361,9 +384,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Outreach Lead change \u203c\ufe0f",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1554925142788939918",
-        "snippet": "<@1012977379209125908>"
+        "fromThreadName": "Addition of course",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1557406780873642074",
+        "snippet": "At School of Engineering, CUSAT, we have the course Fire and Safety Engineering. Students of this particular major wish to join the TInkerhub campus community proceed to not find this course in the list when making their profile on the Hub app."
       }
     },
     {
@@ -377,16 +400,16 @@ window.DISCORD_DATA = {
       "last": "2026-10-25",
       "resolvedAt": "2026-10-25",
       "daysOpen": 12,
-      "daysSinceReceived": 16,
+      "daysSinceReceived": 17,
       "daysToClose": 4,
       "messageCount": 3,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Outreach Lead change \u203c\ufe0f",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1554925142788939918",
-        "snippet": "<@1012977379209125908>"
+        "fromThreadName": "Addition of course",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1557406780873642074",
+        "snippet": "At School of Engineering, CUSAT, we have the course Fire and Safety Engineering. Students of this particular major wish to join the TInkerhub campus community proceed to not find this course in the list when making their profile on the Hub app."
       }
     },
     {
@@ -640,7 +663,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-11",
       "resolvedAt": "2026-10-10",
       "daysOpen": 26,
-      "daysSinceReceived": 26,
+      "daysSinceReceived": 27,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -681,17 +704,17 @@ window.DISCORD_DATA = {
       "received": "2026-10-10",
       "last": "2026-10-10",
       "resolvedAt": "2026-10-10",
-      "daysOpen": 26,
-      "daysSinceReceived": 26,
+      "daysOpen": 27,
+      "daysSinceReceived": 27,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Outreach Lead change \u203c\ufe0f",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1554925142788939918",
-        "snippet": "<@1012977379209125908>"
+        "fromThreadName": "Addition of course",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1557406780873642074",
+        "snippet": "At School of Engineering, CUSAT, we have the course Fire and Safety Engineering. Students of this particular major wish to join the TInkerhub campus community proceed to not find this course in the list when making their profile on the Hub app."
       }
     },
     {
@@ -727,8 +750,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-08",
       "last": "2026-10-08",
       "resolvedAt": "2026-10-08",
-      "daysOpen": 28,
-      "daysSinceReceived": 28,
+      "daysOpen": 29,
+      "daysSinceReceived": 29,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -786,24 +809,20 @@ window.DISCORD_DATA = {
       "id": "1557406780873642074",
       "name": "Addition of course",
       "url": "https://discord.com/channels/735180366297563257/1557406780873642074",
-      "status": "No response",
+      "status": "Resolved",
       "category": "Other",
       "requester": "\u2728\u211d\ud835\udd5a\ud835\udd67\ud835\udd56\ud835\udd63\u2728",
       "received": "2026-10-07",
       "last": "2026-10-07",
-      "resolvedAt": "2026-10-07",
-      "daysOpen": 29,
-      "daysSinceReceived": 29,
-      "daysToClose": 0,
+      "resolvedAt": "2026-11-06",
+      "daysOpen": 30,
+      "daysSinceReceived": 30,
+      "daysToClose": 30,
       "messageCount": 0,
-      "archived": false,
+      "archived": true,
       "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Outreach Lead change \u203c\ufe0f",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1554925142788939918",
-        "snippet": "<@1012977379209125908>"
-      }
+      "resolutionSnippet": "At School of Engineering, CUSAT, we have the course Fire and Safety Engineering. Students of this particular major wish to join the TInkerhub campus community proceed to not find this course in the list when making their profile on the Hub app.",
+      "suggestion": null
     },
     {
       "id": "1554925142788939918",
@@ -815,8 +834,8 @@ window.DISCORD_DATA = {
       "received": "2026-09-30",
       "last": "2026-10-06",
       "resolvedAt": "2026-11-05",
-      "daysOpen": 30,
-      "daysSinceReceived": 36,
+      "daysOpen": 31,
+      "daysSinceReceived": 37,
       "daysToClose": 36,
       "messageCount": 8,
       "archived": true,
@@ -13804,11 +13823,11 @@ window.DISCORD_DATA = {
   ],
   "summary": {
     "No response": 8,
-    "Awaiting reply (from us)": 4,
-    "Awaiting reply (from them)": 8,
-    "Resolved": 702
+    "Awaiting reply (from us)": 6,
+    "Awaiting reply (from them)": 6,
+    "Resolved": 703
   },
-  "avgOpenDays": 11.9,
+  "avgOpenDays": 10.6,
   "avgDaysToClose": 14.7,
   "topCategories": [
     {
@@ -13817,7 +13836,7 @@ window.DISCORD_DATA = {
     },
     {
       "category": "Other",
-      "count": 145
+      "count": 146
     },
     {
       "category": "OTP / Login issues",
