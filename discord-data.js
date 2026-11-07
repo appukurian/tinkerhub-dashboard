@@ -1,8 +1,54 @@
 // Auto-generated daily by .github/workflows/discord-update.yml
 // Do NOT hand-edit — this file is overwritten on each run.
 window.DISCORD_DATA = {
-  "generatedAt": "2026-11-07T09:00:08Z",
+  "generatedAt": "2026-11-07T16:33:57Z",
   "threads": [
+    {
+      "id": "1568582898137694368",
+      "name": "WiT lead not in the server",
+      "url": "https://discord.com/channels/735180366297563257/1568582898137694368",
+      "status": "No response",
+      "category": "Other",
+      "requester": "Ashish",
+      "received": "2026-11-07",
+      "last": "2026-11-07",
+      "resolvedAt": "2026-11-07",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "daysToClose": 0,
+      "messageCount": 1,
+      "archived": false,
+      "locked": false,
+      "resolutionSnippet": "",
+      "suggestion": {
+        "fromThreadName": "Addition of course",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1557406780873642074",
+        "snippet": "At School of Engineering, CUSAT, we have the course Fire and Safety Engineering. Students of this particular major wish to join the TInkerhub campus community proceed to not find this course in the list when making their profile on the Hub app."
+      }
+    },
+    {
+      "id": "1565532138311254136",
+      "name": "Session Cancellation \u2013 Low Registrations",
+      "url": "https://discord.com/channels/735180366297563257/1565532138311254136",
+      "status": "Awaiting reply (from us)",
+      "category": "Registration issues",
+      "requester": "helen",
+      "received": "2026-10-30",
+      "last": "2026-11-07",
+      "resolvedAt": "2026-10-30",
+      "daysOpen": 0,
+      "daysSinceReceived": 8,
+      "daysToClose": 0,
+      "messageCount": 4,
+      "archived": false,
+      "locked": false,
+      "resolutionSnippet": "",
+      "suggestion": {
+        "fromThreadName": "Missing registration button",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1559045587758878721",
+        "snippet": "This thread is closed by <@1012977379209125908>."
+      }
+    },
     {
       "id": "1568280292676866088",
       "name": "Github connection issue",
@@ -13,8 +59,8 @@ window.DISCORD_DATA = {
       "received": "2026-11-06",
       "last": "2026-11-06",
       "resolvedAt": "2026-11-06",
-      "daysOpen": 0,
-      "daysSinceReceived": 0,
+      "daysOpen": 1,
+      "daysSinceReceived": 1,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -36,8 +82,8 @@ window.DISCORD_DATA = {
       "received": "2026-11-06",
       "last": "2026-11-06",
       "resolvedAt": "2026-11-06",
-      "daysOpen": 0,
-      "daysSinceReceived": 0,
+      "daysOpen": 1,
+      "daysSinceReceived": 1,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -82,8 +128,8 @@ window.DISCORD_DATA = {
       "received": "2026-11-05",
       "last": "2026-11-06",
       "resolvedAt": "2026-11-05",
-      "daysOpen": 0,
-      "daysSinceReceived": 1,
+      "daysOpen": 1,
+      "daysSinceReceived": 2,
       "daysToClose": 0,
       "messageCount": 4,
       "archived": false,
@@ -105,7 +151,7 @@ window.DISCORD_DATA = {
       "received": "2026-11-04",
       "last": "2026-11-06",
       "resolvedAt": "2026-11-04",
-      "daysOpen": 0,
+      "daysOpen": 1,
       "daysSinceReceived": 3,
       "daysToClose": 0,
       "messageCount": 3,
@@ -113,9 +159,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Event Date Update",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1557462415095111750",
-        "snippet": "The scheduled date was incorrect for the event Thudakkam 2.0\ud83d\udc7e\u2728. Please update it to October 11, 2026, from 8:00 PM to 9:00 PM."
+        "fromThreadName": "I attended the event along with the other leads, but the app shows I missed it",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1557788508805013635",
+        "snippet": "me and my Learning Coordinator were present throughout the event, what can we do about it?"
       }
     },
     {
@@ -136,32 +182,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Event Date Update",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1557462415095111750",
-        "snippet": "The scheduled date was incorrect for the event Thudakkam 2.0\ud83d\udc7e\u2728. Please update it to October 11, 2026, from 8:00 PM to 9:00 PM."
-      }
-    },
-    {
-      "id": "1565532138311254136",
-      "name": "Session Cancellation \u2013 Low Registrations",
-      "url": "https://discord.com/channels/735180366297563257/1565532138311254136",
-      "status": "Awaiting reply (from them)",
-      "category": "Registration issues",
-      "requester": "helen",
-      "received": "2026-10-30",
-      "last": "2026-11-06",
-      "resolvedAt": "2026-10-30",
-      "daysOpen": 1,
-      "daysSinceReceived": 8,
-      "daysToClose": 0,
-      "messageCount": 3,
-      "archived": false,
-      "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Missing registration button",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1559045587758878721",
-        "snippet": "This thread is closed by <@1012977379209125908>."
+        "fromThreadName": "I attended the event along with the other leads, but the app shows I missed it",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1557788508805013635",
+        "snippet": "me and my Learning Coordinator were present throughout the event, what can we do about it?"
       }
     },
     {
@@ -174,8 +197,8 @@ window.DISCORD_DATA = {
       "received": "2026-08-29",
       "last": "2026-11-06",
       "resolvedAt": "2026-10-06",
-      "daysOpen": 0,
-      "daysSinceReceived": 69,
+      "daysOpen": 1,
+      "daysSinceReceived": 70,
       "daysToClose": 38,
       "messageCount": 11,
       "archived": false,
@@ -400,7 +423,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-25",
       "resolvedAt": "2026-10-25",
       "daysOpen": 13,
-      "daysSinceReceived": 17,
+      "daysSinceReceived": 18,
       "daysToClose": 4,
       "messageCount": 3,
       "archived": false,
@@ -663,7 +686,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-11",
       "resolvedAt": "2026-10-10",
       "daysOpen": 27,
-      "daysSinceReceived": 27,
+      "daysSinceReceived": 28,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -704,8 +727,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-10",
       "last": "2026-10-10",
       "resolvedAt": "2026-10-10",
-      "daysOpen": 27,
-      "daysSinceReceived": 27,
+      "daysOpen": 28,
+      "daysSinceReceived": 28,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -735,33 +758,29 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Event Date Update",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1557462415095111750",
-        "snippet": "The scheduled date was incorrect for the event Thudakkam 2.0\ud83d\udc7e\u2728. Please update it to October 11, 2026, from 8:00 PM to 9:00 PM."
+        "fromThreadName": "I attended the event along with the other leads, but the app shows I missed it",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1557788508805013635",
+        "snippet": "me and my Learning Coordinator were present throughout the event, what can we do about it?"
       }
     },
     {
       "id": "1557788508805013635",
       "name": "I attended the event along with the other leads, but the app shows I missed it",
       "url": "https://discord.com/channels/735180366297563257/1557788508805013635",
-      "status": "No response",
+      "status": "Resolved",
       "category": "Event/Activity check-in & reporting",
       "requester": "Swathy J",
       "received": "2026-10-08",
       "last": "2026-10-08",
-      "resolvedAt": "2026-10-08",
-      "daysOpen": 29,
-      "daysSinceReceived": 29,
-      "daysToClose": 0,
+      "resolvedAt": "2026-11-07",
+      "daysOpen": 30,
+      "daysSinceReceived": 30,
+      "daysToClose": 30,
       "messageCount": 0,
-      "archived": false,
+      "archived": true,
       "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Event Date Update",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1557462415095111750",
-        "snippet": "The scheduled date was incorrect for the event Thudakkam 2.0\ud83d\udc7e\u2728. Please update it to October 11, 2026, from 8:00 PM to 9:00 PM."
-      }
+      "resolutionSnippet": "me and my Learning Coordinator were present throughout the event, what can we do about it?",
+      "suggestion": null
     },
     {
       "id": "1557795080310358046",
@@ -792,8 +811,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-07",
       "last": "2026-10-07",
       "resolvedAt": "2026-11-06",
-      "daysOpen": 30,
-      "daysSinceReceived": 30,
+      "daysOpen": 31,
+      "daysSinceReceived": 31,
       "daysToClose": 30,
       "messageCount": 0,
       "archived": true,
@@ -13819,11 +13838,11 @@ window.DISCORD_DATA = {
   ],
   "summary": {
     "No response": 7,
-    "Awaiting reply (from us)": 6,
-    "Awaiting reply (from them)": 6,
-    "Resolved": 704
+    "Awaiting reply (from us)": 7,
+    "Awaiting reply (from them)": 5,
+    "Resolved": 705
   },
-  "avgOpenDays": 10.2,
+  "avgOpenDays": 8.9,
   "avgDaysToClose": 14.8,
   "topCategories": [
     {
@@ -13832,7 +13851,7 @@ window.DISCORD_DATA = {
     },
     {
       "category": "Other",
-      "count": 146
+      "count": 147
     },
     {
       "category": "OTP / Login issues",
