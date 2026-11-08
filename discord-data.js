@@ -1,8 +1,54 @@
 // Auto-generated daily by .github/workflows/discord-update.yml
 // Do NOT hand-edit — this file is overwritten on each run.
 window.DISCORD_DATA = {
-  "generatedAt": "2026-11-08T09:17:28Z",
+  "generatedAt": "2026-11-08T16:44:47Z",
   "threads": [
+    {
+      "id": "1569016492102656150",
+      "name": "Missed one person during study jam check in",
+      "url": "https://discord.com/channels/735180366297563257/1569016492102656150",
+      "status": "No response",
+      "category": "Study Jam issues",
+      "requester": "Amal",
+      "received": "2026-11-08",
+      "last": "2026-11-08",
+      "resolvedAt": "2026-11-08",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "daysToClose": 0,
+      "messageCount": 1,
+      "archived": false,
+      "locked": false,
+      "resolutionSnippet": "",
+      "suggestion": {
+        "fromThreadName": "Approve study jam for pre events",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1546433695764975637",
+        "snippet": "Yes"
+      }
+    },
+    {
+      "id": "1568920363696521267",
+      "name": "Otp issue",
+      "url": "https://discord.com/channels/735180366297563257/1568920363696521267",
+      "status": "Awaiting reply (from us)",
+      "category": "OTP / Login issues",
+      "requester": "Anupama\ud83c\udf38",
+      "received": "2026-11-08",
+      "last": "2026-11-08",
+      "resolvedAt": "2026-11-08",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "daysToClose": 0,
+      "messageCount": 2,
+      "archived": false,
+      "locked": false,
+      "resolutionSnippet": "",
+      "suggestion": {
+        "fromThreadName": "OTP not receiving while app  onboarding",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1552246987120967762",
+        "snippet": "For Some students its repeatedly showing \" failed to send otp\" when they are trying to onboard on app for the first time."
+      }
+    },
     {
       "id": "1568856697936674916",
       "name": "Attendance Status Correction \u2013 Attended Session Marked as Missed; Beyond the Blueprint",
@@ -37,7 +83,7 @@ window.DISCORD_DATA = {
       "last": "2026-11-08",
       "resolvedAt": "2026-11-05",
       "daysOpen": 0,
-      "daysSinceReceived": 2,
+      "daysSinceReceived": 3,
       "daysToClose": 0,
       "messageCount": 5,
       "archived": false,
@@ -105,8 +151,8 @@ window.DISCORD_DATA = {
       "received": "2026-11-07",
       "last": "2026-11-07",
       "resolvedAt": "2026-11-07",
-      "daysOpen": 0,
-      "daysSinceReceived": 0,
+      "daysOpen": 1,
+      "daysSinceReceived": 1,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -128,7 +174,7 @@ window.DISCORD_DATA = {
       "received": "2026-10-30",
       "last": "2026-11-07",
       "resolvedAt": "2026-10-30",
-      "daysOpen": 0,
+      "daysOpen": 1,
       "daysSinceReceived": 9,
       "daysToClose": 0,
       "messageCount": 4,
@@ -151,8 +197,8 @@ window.DISCORD_DATA = {
       "received": "2026-11-06",
       "last": "2026-11-06",
       "resolvedAt": "2026-11-06",
-      "daysOpen": 1,
-      "daysSinceReceived": 1,
+      "daysOpen": 2,
+      "daysSinceReceived": 2,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -174,8 +220,8 @@ window.DISCORD_DATA = {
       "received": "2026-11-06",
       "last": "2026-11-06",
       "resolvedAt": "2026-11-06",
-      "daysOpen": 1,
-      "daysSinceReceived": 1,
+      "daysOpen": 2,
+      "daysSinceReceived": 2,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -220,7 +266,7 @@ window.DISCORD_DATA = {
       "received": "2026-11-04",
       "last": "2026-11-06",
       "resolvedAt": "2026-11-04",
-      "daysOpen": 1,
+      "daysOpen": 2,
       "daysSinceReceived": 4,
       "daysToClose": 0,
       "messageCount": 3,
@@ -266,8 +312,8 @@ window.DISCORD_DATA = {
       "received": "2026-08-29",
       "last": "2026-11-06",
       "resolvedAt": "2026-10-06",
-      "daysOpen": 1,
-      "daysSinceReceived": 70,
+      "daysOpen": 2,
+      "daysSinceReceived": 71,
       "daysToClose": 38,
       "messageCount": 11,
       "archived": false,
@@ -492,7 +538,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-25",
       "resolvedAt": "2026-10-25",
       "daysOpen": 14,
-      "daysSinceReceived": 18,
+      "daysSinceReceived": 19,
       "daysToClose": 4,
       "messageCount": 3,
       "archived": false,
@@ -755,7 +801,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-11",
       "resolvedAt": "2026-10-10",
       "daysOpen": 28,
-      "daysSinceReceived": 28,
+      "daysSinceReceived": 29,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -796,8 +842,8 @@ window.DISCORD_DATA = {
       "received": "2026-10-10",
       "last": "2026-10-10",
       "resolvedAt": "2026-10-10",
-      "daysOpen": 28,
-      "daysSinceReceived": 28,
+      "daysOpen": 29,
+      "daysSinceReceived": 29,
       "daysToClose": 0,
       "messageCount": 0,
       "archived": false,
@@ -13902,13 +13948,13 @@ window.DISCORD_DATA = {
     }
   ],
   "summary": {
-    "No response": 9,
-    "Awaiting reply (from us)": 7,
+    "No response": 10,
+    "Awaiting reply (from us)": 8,
     "Awaiting reply (from them)": 5,
     "Resolved": 706
   },
-  "avgOpenDays": 7.1,
-  "avgDaysToClose": 14.8,
+  "avgOpenDays": 6.8,
+  "avgDaysToClose": 14.7,
   "topCategories": [
     {
       "category": "Event/Activity check-in & reporting",
@@ -13920,11 +13966,11 @@ window.DISCORD_DATA = {
     },
     {
       "category": "OTP / Login issues",
-      "count": 108
+      "count": 109
     },
     {
       "category": "Study Jam issues",
-      "count": 68
+      "count": 69
     },
     {
       "category": "Registration issues",
@@ -14025,7 +14071,7 @@ window.DISCORD_DATA = {
       "count": 11
     },
     {
-      "name": "Lukys sphere",
+      "name": "Amal",
       "count": 10
     }
   ]
