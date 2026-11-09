@@ -1,8 +1,31 @@
 // Auto-generated daily by .github/workflows/discord-update.yml
 // Do NOT hand-edit — this file is overwritten on each run.
 window.DISCORD_DATA = {
-  "generatedAt": "2026-11-09T10:00:09Z",
+  "generatedAt": "2026-11-09T20:54:40Z",
   "threads": [
+    {
+      "id": "1569372908554293348",
+      "name": "T-shirts for useless project top 250 team",
+      "url": "https://discord.com/channels/735180366297563257/1569372908554293348",
+      "status": "No response",
+      "category": "Useless Projects (event)",
+      "requester": "sreyaaaas_here",
+      "received": "2026-11-09",
+      "last": "2026-11-09",
+      "resolvedAt": "2026-11-09",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "daysToClose": 0,
+      "messageCount": 1,
+      "archived": false,
+      "locked": false,
+      "resolutionSnippet": "",
+      "suggestion": {
+        "fromThreadName": "Unable to check in due to phone issue in useless projects 3.0",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1547933064997380136",
+        "snippet": "Okay"
+      }
+    },
     {
       "id": "1569016492102656150",
       "name": "Missed one person during study jam check in",
@@ -13,8 +36,8 @@ window.DISCORD_DATA = {
       "received": "2026-11-08",
       "last": "2026-11-08",
       "resolvedAt": "2026-11-08",
-      "daysOpen": 0,
-      "daysSinceReceived": 0,
+      "daysOpen": 1,
+      "daysSinceReceived": 1,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -36,7 +59,7 @@ window.DISCORD_DATA = {
       "received": "2026-11-08",
       "last": "2026-11-08",
       "resolvedAt": "2026-11-08",
-      "daysOpen": 0,
+      "daysOpen": 1,
       "daysSinceReceived": 1,
       "daysToClose": 0,
       "messageCount": 2,
@@ -83,7 +106,7 @@ window.DISCORD_DATA = {
       "last": "2026-11-08",
       "resolvedAt": "2026-11-05",
       "daysOpen": 1,
-      "daysSinceReceived": 3,
+      "daysSinceReceived": 4,
       "daysToClose": 0,
       "messageCount": 5,
       "archived": false,
@@ -105,8 +128,8 @@ window.DISCORD_DATA = {
       "received": "2026-11-07",
       "last": "2026-11-07",
       "resolvedAt": "2026-11-07",
-      "daysOpen": 1,
-      "daysSinceReceived": 1,
+      "daysOpen": 2,
+      "daysSinceReceived": 2,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -128,17 +151,17 @@ window.DISCORD_DATA = {
       "received": "2026-11-07",
       "last": "2026-11-07",
       "resolvedAt": "2026-11-07",
-      "daysOpen": 1,
-      "daysSinceReceived": 1,
+      "daysOpen": 2,
+      "daysSinceReceived": 2,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Addition of course",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1557406780873642074",
-        "snippet": "At School of Engineering, CUSAT, we have the course Fire and Safety Engineering. Students of this particular major wish to join the TInkerhub campus community proceed to not find this course in the list when making their profile on the Hub app."
+        "fromThreadName": "O Penn Mic add resource",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1558484855942152322",
+        "snippet": "O Penn Mic only shows upon searching"
       }
     },
     {
@@ -151,17 +174,17 @@ window.DISCORD_DATA = {
       "received": "2026-11-07",
       "last": "2026-11-07",
       "resolvedAt": "2026-11-07",
-      "daysOpen": 1,
-      "daysSinceReceived": 1,
+      "daysOpen": 2,
+      "daysSinceReceived": 2,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Addition of course",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1557406780873642074",
-        "snippet": "At School of Engineering, CUSAT, we have the course Fire and Safety Engineering. Students of this particular major wish to join the TInkerhub campus community proceed to not find this course in the list when making their profile on the Hub app."
+        "fromThreadName": "O Penn Mic add resource",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1558484855942152322",
+        "snippet": "O Penn Mic only shows upon searching"
       }
     },
     {
@@ -174,7 +197,7 @@ window.DISCORD_DATA = {
       "received": "2026-10-30",
       "last": "2026-11-07",
       "resolvedAt": "2026-10-30",
-      "daysOpen": 1,
+      "daysOpen": 2,
       "daysSinceReceived": 10,
       "daysToClose": 0,
       "messageCount": 4,
@@ -197,17 +220,17 @@ window.DISCORD_DATA = {
       "received": "2026-11-06",
       "last": "2026-11-06",
       "resolvedAt": "2026-11-06",
-      "daysOpen": 2,
-      "daysSinceReceived": 2,
+      "daysOpen": 3,
+      "daysSinceReceived": 3,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Addition of course",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1557406780873642074",
-        "snippet": "At School of Engineering, CUSAT, we have the course Fire and Safety Engineering. Students of this particular major wish to join the TInkerhub campus community proceed to not find this course in the list when making their profile on the Hub app."
+        "fromThreadName": "O Penn Mic add resource",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1558484855942152322",
+        "snippet": "O Penn Mic only shows upon searching"
       }
     },
     {
@@ -266,7 +289,7 @@ window.DISCORD_DATA = {
       "received": "2026-11-04",
       "last": "2026-11-06",
       "resolvedAt": "2026-11-04",
-      "daysOpen": 2,
+      "daysOpen": 3,
       "daysSinceReceived": 5,
       "daysToClose": 0,
       "messageCount": 3,
@@ -290,7 +313,7 @@ window.DISCORD_DATA = {
       "last": "2026-11-06",
       "resolvedAt": "2026-11-03",
       "daysOpen": 3,
-      "daysSinceReceived": 5,
+      "daysSinceReceived": 6,
       "daysToClose": 0,
       "messageCount": 5,
       "archived": false,
@@ -312,17 +335,17 @@ window.DISCORD_DATA = {
       "received": "2026-08-29",
       "last": "2026-11-06",
       "resolvedAt": "2026-10-06",
-      "daysOpen": 2,
-      "daysSinceReceived": 71,
+      "daysOpen": 3,
+      "daysSinceReceived": 72,
       "daysToClose": 38,
       "messageCount": 11,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Addition of course",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1557406780873642074",
-        "snippet": "At School of Engineering, CUSAT, we have the course Fire and Safety Engineering. Students of this particular major wish to join the TInkerhub campus community proceed to not find this course in the list when making their profile on the Hub app."
+        "fromThreadName": "O Penn Mic add resource",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1558484855942152322",
+        "snippet": "O Penn Mic only shows upon searching"
       }
     },
     {
@@ -404,9 +427,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Addition of course",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1557406780873642074",
-        "snippet": "At School of Engineering, CUSAT, we have the course Fire and Safety Engineering. Students of this particular major wish to join the TInkerhub campus community proceed to not find this course in the list when making their profile on the Hub app."
+        "fromThreadName": "O Penn Mic add resource",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1558484855942152322",
+        "snippet": "O Penn Mic only shows upon searching"
       }
     },
     {
@@ -522,9 +545,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Addition of course",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1557406780873642074",
-        "snippet": "At School of Engineering, CUSAT, we have the course Fire and Safety Engineering. Students of this particular major wish to join the TInkerhub campus community proceed to not find this course in the list when making their profile on the Hub app."
+        "fromThreadName": "O Penn Mic add resource",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1558484855942152322",
+        "snippet": "O Penn Mic only shows upon searching"
       }
     },
     {
@@ -538,16 +561,16 @@ window.DISCORD_DATA = {
       "last": "2026-10-25",
       "resolvedAt": "2026-10-25",
       "daysOpen": 15,
-      "daysSinceReceived": 19,
+      "daysSinceReceived": 20,
       "daysToClose": 4,
       "messageCount": 3,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Addition of course",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1557406780873642074",
-        "snippet": "At School of Engineering, CUSAT, we have the course Fire and Safety Engineering. Students of this particular major wish to join the TInkerhub campus community proceed to not find this course in the list when making their profile on the Hub app."
+        "fromThreadName": "O Penn Mic add resource",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1558484855942152322",
+        "snippet": "O Penn Mic only shows upon searching"
       }
     },
     {
@@ -801,7 +824,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-11",
       "resolvedAt": "2026-10-10",
       "daysOpen": 29,
-      "daysSinceReceived": 29,
+      "daysSinceReceived": 30,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -836,24 +859,20 @@ window.DISCORD_DATA = {
       "id": "1558484855942152322",
       "name": "O Penn Mic add resource",
       "url": "https://discord.com/channels/735180366297563257/1558484855942152322",
-      "status": "No response",
+      "status": "Resolved",
       "category": "Other",
       "requester": "jasil",
       "received": "2026-10-10",
       "last": "2026-10-10",
-      "resolvedAt": "2026-10-10",
-      "daysOpen": 29,
-      "daysSinceReceived": 29,
-      "daysToClose": 0,
+      "resolvedAt": "2026-11-09",
+      "daysOpen": 30,
+      "daysSinceReceived": 30,
+      "daysToClose": 30,
       "messageCount": 0,
-      "archived": false,
+      "archived": true,
       "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Addition of course",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1557406780873642074",
-        "snippet": "At School of Engineering, CUSAT, we have the course Fire and Safety Engineering. Students of this particular major wish to join the TInkerhub campus community proceed to not find this course in the list when making their profile on the Hub app."
-      }
+      "resolutionSnippet": "O Penn Mic only shows upon searching",
+      "suggestion": null
     },
     {
       "id": "1557988500014370907",
@@ -13951,10 +13970,10 @@ window.DISCORD_DATA = {
     "No response": 10,
     "Awaiting reply (from us)": 8,
     "Awaiting reply (from them)": 5,
-    "Resolved": 706
+    "Resolved": 707
   },
-  "avgOpenDays": 7.5,
-  "avgDaysToClose": 14.7,
+  "avgOpenDays": 6.6,
+  "avgDaysToClose": 14.8,
   "topCategories": [
     {
       "category": "Event/Activity check-in & reporting",
@@ -13990,7 +14009,7 @@ window.DISCORD_DATA = {
     },
     {
       "category": "Useless Projects (event)",
-      "count": 24
+      "count": 25
     },
     {
       "category": "Role/tag display bugs",
