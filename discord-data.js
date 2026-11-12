@@ -1,8 +1,31 @@
 // Auto-generated daily by .github/workflows/discord-update.yml
 // Do NOT hand-edit — this file is overwritten on each run.
 window.DISCORD_DATA = {
-  "generatedAt": "2026-11-12T10:00:41Z",
+  "generatedAt": "2026-11-12T18:29:35Z",
   "threads": [
+    {
+      "id": "1570480198061789314",
+      "name": "Attendees registration issue",
+      "url": "https://discord.com/channels/735180366297563257/1570480198061789314",
+      "status": "No response",
+      "category": "Registration issues",
+      "requester": "Ann Rose",
+      "received": "2026-11-12",
+      "last": "2026-11-12",
+      "resolvedAt": "2026-11-12",
+      "daysOpen": 0,
+      "daysSinceReceived": 0,
+      "daysToClose": 0,
+      "messageCount": 1,
+      "archived": false,
+      "locked": false,
+      "resolutionSnippet": "",
+      "suggestion": {
+        "fromThreadName": "Event registration issue",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1558459961783222272",
+        "snippet": "Event registration issue"
+      }
+    },
     {
       "id": "1570340586152534046",
       "name": "Issue in app",
@@ -59,8 +82,8 @@ window.DISCORD_DATA = {
       "received": "2026-11-09",
       "last": "2026-11-09",
       "resolvedAt": "2026-11-09",
-      "daysOpen": 2,
-      "daysSinceReceived": 2,
+      "daysOpen": 3,
+      "daysSinceReceived": 3,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -82,8 +105,8 @@ window.DISCORD_DATA = {
       "received": "2026-11-08",
       "last": "2026-11-08",
       "resolvedAt": "2026-11-08",
-      "daysOpen": 3,
-      "daysSinceReceived": 3,
+      "daysOpen": 4,
+      "daysSinceReceived": 4,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -105,7 +128,7 @@ window.DISCORD_DATA = {
       "received": "2026-11-08",
       "last": "2026-11-08",
       "resolvedAt": "2026-11-08",
-      "daysOpen": 3,
+      "daysOpen": 4,
       "daysSinceReceived": 4,
       "daysToClose": 0,
       "messageCount": 2,
@@ -129,7 +152,7 @@ window.DISCORD_DATA = {
       "last": "2026-11-08",
       "resolvedAt": "2026-11-05",
       "daysOpen": 4,
-      "daysSinceReceived": 6,
+      "daysSinceReceived": 7,
       "daysToClose": 0,
       "messageCount": 5,
       "archived": false,
@@ -151,8 +174,8 @@ window.DISCORD_DATA = {
       "received": "2026-11-07",
       "last": "2026-11-07",
       "resolvedAt": "2026-11-07",
-      "daysOpen": 4,
-      "daysSinceReceived": 4,
+      "daysOpen": 5,
+      "daysSinceReceived": 5,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -174,8 +197,8 @@ window.DISCORD_DATA = {
       "received": "2026-11-07",
       "last": "2026-11-07",
       "resolvedAt": "2026-11-07",
-      "daysOpen": 4,
-      "daysSinceReceived": 4,
+      "daysOpen": 5,
+      "daysSinceReceived": 5,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -197,8 +220,8 @@ window.DISCORD_DATA = {
       "received": "2026-11-07",
       "last": "2026-11-07",
       "resolvedAt": "2026-11-07",
-      "daysOpen": 4,
-      "daysSinceReceived": 4,
+      "daysOpen": 5,
+      "daysSinceReceived": 5,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -220,7 +243,7 @@ window.DISCORD_DATA = {
       "received": "2026-10-30",
       "last": "2026-11-07",
       "resolvedAt": "2026-10-30",
-      "daysOpen": 4,
+      "daysOpen": 5,
       "daysSinceReceived": 13,
       "daysToClose": 0,
       "messageCount": 4,
@@ -243,8 +266,8 @@ window.DISCORD_DATA = {
       "received": "2026-11-06",
       "last": "2026-11-06",
       "resolvedAt": "2026-11-06",
-      "daysOpen": 5,
-      "daysSinceReceived": 5,
+      "daysOpen": 6,
+      "daysSinceReceived": 6,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -312,7 +335,7 @@ window.DISCORD_DATA = {
       "received": "2026-11-04",
       "last": "2026-11-06",
       "resolvedAt": "2026-11-04",
-      "daysOpen": 5,
+      "daysOpen": 6,
       "daysSinceReceived": 8,
       "daysToClose": 0,
       "messageCount": 3,
@@ -336,7 +359,7 @@ window.DISCORD_DATA = {
       "last": "2026-11-06",
       "resolvedAt": "2026-11-03",
       "daysOpen": 6,
-      "daysSinceReceived": 8,
+      "daysSinceReceived": 9,
       "daysToClose": 0,
       "messageCount": 5,
       "archived": false,
@@ -358,8 +381,8 @@ window.DISCORD_DATA = {
       "received": "2026-08-29",
       "last": "2026-11-06",
       "resolvedAt": "2026-10-06",
-      "daysOpen": 5,
-      "daysSinceReceived": 74,
+      "daysOpen": 6,
+      "daysSinceReceived": 75,
       "daysToClose": 38,
       "messageCount": 11,
       "archived": false,
@@ -584,7 +607,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-25",
       "resolvedAt": "2026-10-25",
       "daysOpen": 18,
-      "daysSinceReceived": 22,
+      "daysSinceReceived": 23,
       "daysToClose": 4,
       "messageCount": 3,
       "archived": false,
@@ -13986,12 +14009,12 @@ window.DISCORD_DATA = {
     }
   ],
   "summary": {
-    "No response": 10,
+    "No response": 11,
     "Awaiting reply (from us)": 7,
     "Awaiting reply (from them)": 6,
     "Resolved": 708
   },
-  "avgOpenDays": 7.7,
+  "avgOpenDays": 7.8,
   "avgDaysToClose": 14.8,
   "topCategories": [
     {
@@ -14012,7 +14035,7 @@ window.DISCORD_DATA = {
     },
     {
       "category": "Registration issues",
-      "count": 58
+      "count": 59
     },
     {
       "category": "Koottam access issues",
@@ -14081,16 +14104,16 @@ window.DISCORD_DATA = {
       "count": 15
     },
     {
+      "name": "Ann Rose",
+      "count": 14
+    },
+    {
       "name": "Amal shaheen",
       "count": 14
     },
     {
       "name": "Shad  C T",
       "count": 14
-    },
-    {
-      "name": "Ann Rose",
-      "count": 13
     },
     {
       "name": "Jomin Binny",
