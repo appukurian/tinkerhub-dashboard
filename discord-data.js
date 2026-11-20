@@ -1,8 +1,31 @@
 // Auto-generated daily by .github/workflows/discord-update.yml
 // Do NOT hand-edit — this file is overwritten on each run.
 window.DISCORD_DATA = {
-  "generatedAt": "2026-11-20T10:15:27Z",
+  "generatedAt": "2026-11-20T18:41:34Z",
   "threads": [
+    {
+      "id": "1571490147738976276",
+      "name": "Scrap hack attendance",
+      "url": "https://discord.com/channels/735180366297563257/1571490147738976276",
+      "status": "Awaiting reply (from them)",
+      "category": "Event/Activity check-in & reporting",
+      "requester": "Elizabeth Bobby",
+      "received": "2026-11-15",
+      "last": "2026-11-20",
+      "resolvedAt": "2026-11-15",
+      "daysOpen": 0,
+      "daysSinceReceived": 5,
+      "daysToClose": 0,
+      "messageCount": 2,
+      "archived": false,
+      "locked": false,
+      "resolutionSnippet": "",
+      "suggestion": {
+        "fromThreadName": "Event deletion",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1567221127288193055",
+        "snippet": "This thread is closed by <@1012977379209125908>."
+      }
+    },
     {
       "id": "1568582898137694368",
       "name": "WiT lead not in the server",
@@ -14,7 +37,7 @@ window.DISCORD_DATA = {
       "last": "2026-11-20",
       "resolvedAt": "2026-11-07",
       "daysOpen": 0,
-      "daysSinceReceived": 12,
+      "daysSinceReceived": 13,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
@@ -27,35 +50,107 @@ window.DISCORD_DATA = {
       }
     },
     {
+      "id": "1567221127288193055",
+      "name": "Event deletion",
+      "url": "https://discord.com/channels/735180366297563257/1567221127288193055",
+      "status": "Resolved",
+      "category": "Event/Activity check-in & reporting",
+      "requester": "Blaze",
+      "received": "2026-11-03",
+      "last": "2026-11-20",
+      "resolvedAt": "2026-11-20",
+      "daysOpen": 0,
+      "daysSinceReceived": 17,
+      "daysToClose": 17,
+      "messageCount": 7,
+      "archived": true,
+      "locked": false,
+      "resolutionSnippet": "This thread is closed by <@1012977379209125908>.",
+      "suggestion": null
+    },
+    {
+      "id": "1572516818051014697",
+      "name": "Event deletion",
+      "url": "https://discord.com/channels/735180366297563257/1572516818051014697",
+      "status": "Resolved",
+      "category": "Event/Activity check-in & reporting",
+      "requester": "Christy Basil Anil",
+      "received": "2026-11-18",
+      "last": "2026-11-20",
+      "resolvedAt": "2026-11-20",
+      "daysOpen": 0,
+      "daysSinceReceived": 2,
+      "daysToClose": 2,
+      "messageCount": 3,
+      "archived": true,
+      "locked": false,
+      "resolutionSnippet": "This thread is closed by <@1012977379209125908>.",
+      "suggestion": null
+    },
+    {
+      "id": "1567438735560286238",
+      "name": "Event Deletion",
+      "url": "https://discord.com/channels/735180366297563257/1567438735560286238",
+      "status": "Resolved",
+      "category": "Event/Activity check-in & reporting",
+      "requester": "Hellan Raichel Benoy | India",
+      "received": "2026-11-04",
+      "last": "2026-11-20",
+      "resolvedAt": "2026-11-20",
+      "daysOpen": 0,
+      "daysSinceReceived": 16,
+      "daysToClose": 16,
+      "messageCount": 5,
+      "archived": true,
+      "locked": false,
+      "resolutionSnippet": "This thread is closed by <@1012977379209125908>.",
+      "suggestion": null
+    },
+    {
+      "id": "1568685094611198104",
+      "name": "Event deletion",
+      "url": "https://discord.com/channels/735180366297563257/1568685094611198104",
+      "status": "Resolved",
+      "category": "Event/Activity check-in & reporting",
+      "requester": "tryzhaa",
+      "received": "2026-11-07",
+      "last": "2026-11-20",
+      "resolvedAt": "2026-11-20",
+      "daysOpen": 0,
+      "daysSinceReceived": 13,
+      "daysToClose": 13,
+      "messageCount": 3,
+      "archived": true,
+      "locked": false,
+      "resolutionSnippet": "This thread is closed by <@1012977379209125908>.",
+      "suggestion": null
+    },
+    {
+      "id": "1565532138311254136",
+      "name": "Session Cancellation \u2013 Low Registrations",
+      "url": "https://discord.com/channels/735180366297563257/1565532138311254136",
+      "status": "Resolved",
+      "category": "Registration issues",
+      "requester": "helen",
+      "received": "2026-10-30",
+      "last": "2026-11-20",
+      "resolvedAt": "2026-11-20",
+      "daysOpen": 0,
+      "daysSinceReceived": 21,
+      "daysToClose": 21,
+      "messageCount": 6,
+      "archived": true,
+      "locked": false,
+      "resolutionSnippet": "This thread is closed by <@1012977379209125908>.",
+      "suggestion": null
+    },
+    {
       "id": "1572659044261433515",
       "name": "Event is not showing in Hub app",
       "url": "https://discord.com/channels/735180366297563257/1572659044261433515",
       "status": "No response",
       "category": "Event/Activity check-in & reporting",
       "requester": "Zee",
-      "received": "2026-11-18",
-      "last": "2026-11-18",
-      "resolvedAt": "2026-11-18",
-      "daysOpen": 1,
-      "daysSinceReceived": 1,
-      "daysToClose": 0,
-      "messageCount": 1,
-      "archived": false,
-      "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Check in issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1557988500014370907",
-        "snippet": "Can't checkin otp issue Design & Cut event"
-      }
-    },
-    {
-      "id": "1572516818051014697",
-      "name": "Event deletion",
-      "url": "https://discord.com/channels/735180366297563257/1572516818051014697",
-      "status": "No response",
-      "category": "Event/Activity check-in & reporting",
-      "requester": "Christy Basil Anil",
       "received": "2026-11-18",
       "last": "2026-11-18",
       "resolvedAt": "2026-11-18",
@@ -67,9 +162,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Check in issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1557988500014370907",
-        "snippet": "Can't checkin otp issue Design & Cut event"
+        "fromThreadName": "Event deletion",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1567221127288193055",
+        "snippet": "This thread is closed by <@1012977379209125908>."
       }
     },
     {
@@ -82,40 +177,17 @@ window.DISCORD_DATA = {
       "received": "2026-11-16",
       "last": "2026-11-17",
       "resolvedAt": "2026-11-16",
-      "daysOpen": 2,
-      "daysSinceReceived": 3,
+      "daysOpen": 3,
+      "daysSinceReceived": 4,
       "daysToClose": 0,
       "messageCount": 2,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Event registration issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1558459961783222272",
-        "snippet": "Event registration issue"
-      }
-    },
-    {
-      "id": "1571490147738976276",
-      "name": "Scrap hack attendance",
-      "url": "https://discord.com/channels/735180366297563257/1571490147738976276",
-      "status": "No response",
-      "category": "Event/Activity check-in & reporting",
-      "requester": "Elizabeth Bobby",
-      "received": "2026-11-15",
-      "last": "2026-11-15",
-      "resolvedAt": "2026-11-15",
-      "daysOpen": 4,
-      "daysSinceReceived": 4,
-      "daysToClose": 0,
-      "messageCount": 1,
-      "archived": false,
-      "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Check in issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1557988500014370907",
-        "snippet": "Can't checkin otp issue Design & Cut event"
+        "fromThreadName": "Session Cancellation \u2013 Low Registrations",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1565532138311254136",
+        "snippet": "This thread is closed by <@1012977379209125908>."
       }
     },
     {
@@ -128,8 +200,8 @@ window.DISCORD_DATA = {
       "received": "2026-11-14",
       "last": "2026-11-14",
       "resolvedAt": "2026-11-14",
-      "daysOpen": 5,
-      "daysSinceReceived": 5,
+      "daysOpen": 6,
+      "daysSinceReceived": 6,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -151,17 +223,17 @@ window.DISCORD_DATA = {
       "received": "2026-11-12",
       "last": "2026-11-12",
       "resolvedAt": "2026-11-12",
-      "daysOpen": 7,
-      "daysSinceReceived": 7,
+      "daysOpen": 8,
+      "daysSinceReceived": 8,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Event registration issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1558459961783222272",
-        "snippet": "Event registration issue"
+        "fromThreadName": "Session Cancellation \u2013 Low Registrations",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1565532138311254136",
+        "snippet": "This thread is closed by <@1012977379209125908>."
       }
     },
     {
@@ -205,9 +277,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Check in issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1557988500014370907",
-        "snippet": "Can't checkin otp issue Design & Cut event"
+        "fromThreadName": "Event deletion",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1567221127288193055",
+        "snippet": "This thread is closed by <@1012977379209125908>."
       }
     },
     {
@@ -220,8 +292,8 @@ window.DISCORD_DATA = {
       "received": "2026-11-09",
       "last": "2026-11-09",
       "resolvedAt": "2026-11-09",
-      "daysOpen": 10,
-      "daysSinceReceived": 10,
+      "daysOpen": 11,
+      "daysSinceReceived": 11,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -243,8 +315,8 @@ window.DISCORD_DATA = {
       "received": "2026-11-08",
       "last": "2026-11-08",
       "resolvedAt": "2026-11-08",
-      "daysOpen": 11,
-      "daysSinceReceived": 11,
+      "daysOpen": 12,
+      "daysSinceReceived": 12,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -266,7 +338,7 @@ window.DISCORD_DATA = {
       "received": "2026-11-08",
       "last": "2026-11-08",
       "resolvedAt": "2026-11-08",
-      "daysOpen": 11,
+      "daysOpen": 12,
       "daysSinceReceived": 12,
       "daysToClose": 0,
       "messageCount": 2,
@@ -290,7 +362,7 @@ window.DISCORD_DATA = {
       "last": "2026-11-08",
       "resolvedAt": "2026-11-05",
       "daysOpen": 12,
-      "daysSinceReceived": 14,
+      "daysSinceReceived": 15,
       "daysToClose": 0,
       "messageCount": 5,
       "archived": false,
@@ -303,29 +375,6 @@ window.DISCORD_DATA = {
       }
     },
     {
-      "id": "1568685094611198104",
-      "name": "Event deletion",
-      "url": "https://discord.com/channels/735180366297563257/1568685094611198104",
-      "status": "No response",
-      "category": "Event/Activity check-in & reporting",
-      "requester": "tryzhaa",
-      "received": "2026-11-07",
-      "last": "2026-11-07",
-      "resolvedAt": "2026-11-07",
-      "daysOpen": 12,
-      "daysSinceReceived": 12,
-      "daysToClose": 0,
-      "messageCount": 1,
-      "archived": false,
-      "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Check in issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1557988500014370907",
-        "snippet": "Can't checkin otp issue Design & Cut event"
-      }
-    },
-    {
       "id": "1568682993017683978",
       "name": "Couldn\u2019t check-in a few people.",
       "url": "https://discord.com/channels/735180366297563257/1568682993017683978",
@@ -335,8 +384,8 @@ window.DISCORD_DATA = {
       "received": "2026-11-07",
       "last": "2026-11-07",
       "resolvedAt": "2026-11-07",
-      "daysOpen": 12,
-      "daysSinceReceived": 12,
+      "daysOpen": 13,
+      "daysSinceReceived": 13,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -349,29 +398,6 @@ window.DISCORD_DATA = {
       }
     },
     {
-      "id": "1565532138311254136",
-      "name": "Session Cancellation \u2013 Low Registrations",
-      "url": "https://discord.com/channels/735180366297563257/1565532138311254136",
-      "status": "Awaiting reply (from us)",
-      "category": "Registration issues",
-      "requester": "helen",
-      "received": "2026-10-30",
-      "last": "2026-11-07",
-      "resolvedAt": "2026-10-30",
-      "daysOpen": 12,
-      "daysSinceReceived": 21,
-      "daysToClose": 0,
-      "messageCount": 4,
-      "archived": false,
-      "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Event registration issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1558459961783222272",
-        "snippet": "Event registration issue"
-      }
-    },
-    {
       "id": "1568280292676866088",
       "name": "Github connection issue",
       "url": "https://discord.com/channels/735180366297563257/1568280292676866088",
@@ -381,8 +407,8 @@ window.DISCORD_DATA = {
       "received": "2026-11-06",
       "last": "2026-11-06",
       "resolvedAt": "2026-11-06",
-      "daysOpen": 13,
-      "daysSinceReceived": 13,
+      "daysOpen": 14,
+      "daysSinceReceived": 14,
       "daysToClose": 0,
       "messageCount": 1,
       "archived": false,
@@ -441,52 +467,6 @@ window.DISCORD_DATA = {
       }
     },
     {
-      "id": "1567438735560286238",
-      "name": "Event Deletion",
-      "url": "https://discord.com/channels/735180366297563257/1567438735560286238",
-      "status": "Awaiting reply (from us)",
-      "category": "Event/Activity check-in & reporting",
-      "requester": "Hellan Raichel Benoy | India",
-      "received": "2026-11-04",
-      "last": "2026-11-06",
-      "resolvedAt": "2026-11-04",
-      "daysOpen": 13,
-      "daysSinceReceived": 16,
-      "daysToClose": 0,
-      "messageCount": 3,
-      "archived": false,
-      "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Check in issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1557988500014370907",
-        "snippet": "Can't checkin otp issue Design & Cut event"
-      }
-    },
-    {
-      "id": "1567221127288193055",
-      "name": "Event deletion",
-      "url": "https://discord.com/channels/735180366297563257/1567221127288193055",
-      "status": "Awaiting reply (from us)",
-      "category": "Event/Activity check-in & reporting",
-      "requester": "Blaze",
-      "received": "2026-11-03",
-      "last": "2026-11-06",
-      "resolvedAt": "2026-11-03",
-      "daysOpen": 14,
-      "daysSinceReceived": 16,
-      "daysToClose": 0,
-      "messageCount": 5,
-      "archived": false,
-      "locked": false,
-      "resolutionSnippet": "",
-      "suggestion": {
-        "fromThreadName": "Check in issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1557988500014370907",
-        "snippet": "Can't checkin otp issue Design & Cut event"
-      }
-    },
-    {
       "id": "1543280461877354506",
       "name": "Outreach lead is not in the server",
       "url": "https://discord.com/channels/735180366297563257/1543280461877354506",
@@ -496,8 +476,8 @@ window.DISCORD_DATA = {
       "received": "2026-08-29",
       "last": "2026-11-06",
       "resolvedAt": "2026-10-06",
-      "daysOpen": 13,
-      "daysSinceReceived": 82,
+      "daysOpen": 14,
+      "daysSinceReceived": 83,
       "daysToClose": 38,
       "messageCount": 11,
       "archived": false,
@@ -565,9 +545,9 @@ window.DISCORD_DATA = {
       "locked": false,
       "resolutionSnippet": "",
       "suggestion": {
-        "fromThreadName": "Event registration issue",
-        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1558459961783222272",
-        "snippet": "Event registration issue"
+        "fromThreadName": "Session Cancellation \u2013 Low Registrations",
+        "fromThreadUrl": "https://discord.com/channels/735180366297563257/1565532138311254136",
+        "snippet": "This thread is closed by <@1012977379209125908>."
       }
     },
     {
@@ -722,7 +702,7 @@ window.DISCORD_DATA = {
       "last": "2026-10-25",
       "resolvedAt": "2026-10-25",
       "daysOpen": 26,
-      "daysSinceReceived": 30,
+      "daysSinceReceived": 31,
       "daysToClose": 4,
       "messageCount": 3,
       "archived": false,
@@ -14124,12 +14104,12 @@ window.DISCORD_DATA = {
     }
   ],
   "summary": {
-    "No response": 14,
-    "Awaiting reply (from us)": 9,
-    "Awaiting reply (from them)": 6,
-    "Resolved": 708
+    "No response": 11,
+    "Awaiting reply (from us)": 6,
+    "Awaiting reply (from them)": 7,
+    "Resolved": 713
   },
-  "avgOpenDays": 12.8,
+  "avgOpenDays": 13.5,
   "avgDaysToClose": 14.7,
   "topCategories": [
     {
